@@ -1,0 +1,68 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEF0YAM"
+			},
+			"Question__c": "For which Activation Target does Data Cloud not enforce the presence of contact points (email address, phone number)?",
+			"A__c": "AWS S3",
+			"B__c": "Marketing Cloud",
+			"C__c": "AppExchange",
+			"D__c": "Cloud File Storage",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEF1YAM"
+			},
+			"Question__c": "A customer is interested in updating the CRM Contact lead based on streaming Data that’s coming to Data Cloud. What feature would you recommend?",
+			"A__c": "Data Actions",
+			"B__c": "Activate to CRM",
+			"C__c": "Leverage the CRM Connector",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEF2YAM"
+			},
+			"Question__c": "What edition of Salesforce supports External Activation Platform creation?",
+			"A__c": "Enterprise Edition",
+			"B__c": "Unlimited Edition",
+			"C__c": "Namespaced Developer Edition",
+			"D__c": "Professional Edition",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/gX131mbD-BvVkO-XwIAO4sH_dmHhH8MV#/lessons/sXJGNYSiXeZw6DVriqU_NLcQYDJuv4Mb</p><p>外部アクティベーション プラットフォームの作成またはパッケージ化は、Namespaced Developer Edition でのみサポートされます。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEF3YAM"
+			},
+			"Question__c": "In which activation target does Data Cloud also create a separate segment metadata JSON file?",
+			"A__c": "Marketing Cloud",
+			"B__c": "Loyalty",
+			"C__c": "Amazon S3",
+			"D__c": "Marketing Cloud Personalization",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		}
+	]
+}

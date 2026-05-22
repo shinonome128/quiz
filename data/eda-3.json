@@ -1,0 +1,123 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDBYA2"
+			},
+			"Question__c": "同窓会は、その運営をサポートするために Education Cloud を使用することに興味を持っています。同協会は、理事会のネットワーキング活動に関心のある卒業生を追跡し、募金活動を管理しています。Education Cloud の考慮事項のうち、コンサルタントが協会と話し合う必要があるのはどれですか?答えを 2 つ選択してください。",
+			"A__c": "同窓会のつながりを追跡するために関係を設定します。",
+			"B__c": " 助成金管理を使用して、卒業生の奨学金を追跡します。",
+			"C__c": " 卒業生データを理解するには、Insights Platform をインストールします。",
+			"D__c": " サードパーティ アプリを活用してイベント管理をサポートします。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=12",
+			"Comment__c": "コンサルタントは、Education Cloud の 2 つの考慮事項として、卒業生のつながりを追跡するためにリレーションシップを構成する方法と、イベント管理をサポートするサードパーティ アプリを活用する方法について協会と話し合う必要があります。関係は、協会が EDA 内の連絡先間の接続を作成および管理できるようにする機能です。関係を使用すると、家族、友人、指導者、役員など、さまざまな種類のつながりを追跡できます。サードパーティアプリケーションは、Salesforce に追加の機能とソリューションを提供するアプリケーションです。AppExchange には、登録ページ、発券、議題作成などのイベント管理機能を提供するサードパーティ アプリが多数あります。コンサルタントは、協会がニーズと予算に合ったアプリを選択できるよう支援します。Grants Management を使用して卒業生の奨学金を追跡すること、または Insights Platform をインストールして卒業生データを理解することは、コンサルタントが協会と話し合うべき Education Cloud の考慮事項ではありません。参照：https://powerofus.force.com/s/article/EDA-Relationshipshttps://appexchange.salesforce.com/appxStore?type=App&amp;keyword=event%20management",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDCYA2"
+			},
+			"Question__c": "同窓会関係部門は、卒業生とその支部のメンバーシップを追跡したいと考えています。この部門は、連絡先レコードの主支部を簡単に確認したいと考えています。システム管理者は、Education Data Architecture (EDA) で利用できる標準機能を使用することを好みます。この要件を満たすためにコンサルタントはどの手順を実行する必要がありますか?",
+			"A__c": "EDA 設定の Primary Chapter フィールドへの所属マッピングを作成します。",
+			"B__c": " 連絡先レコードに同窓会支部の所属レコード タイプと主支部のカスタム フィールドを作成します。",
+			"C__c": " Affiliation オブジェクトの同窓会支部のカスタム選択リスト値を作成します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=37",
+			"Comment__c": "Education Data Architecture (EDA) を使用すると、Affiliation オブジェクトのフィールドを Contact オブジェクトにマップできるため、Affiliation レコードが作成または更新されると、マップされたフィールドが Contact レコードに自動的に設定されます。このようにして、カスタム フィールドやレコード タイプを作成しなくても、連絡先レコード上の卒業生の主な章を追跡できます23。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDEYA2"
+			},
+			"Question__c": "同窓会事務局は、Instagram、Twitter、Facebook などのさまざまなチャネルでの卒業生の投稿に応答したいと考えています。事務局はどの解決策を検討すべきでしょうか?",
+			"A__c": "Studio に電子メールを送信します",
+			"B__c": " オーディエンス スタジオ",
+			"C__c": " ソーシャル スタジオ",
+			"D__c": " インタラクション スタジオ",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=24",
+			"Comment__c": "Social Studio は、Instagram、Twitter、Facebook などのさまざまなチャネルでの卒業生による投稿に応答するために、同窓会事務局が検討できるソリューションです。Social Studio を使用すると、オフィスはさまざまなプラットフォームからのソーシャル メディア コンテンツを監視、公開し、操作できるようになります。Social Studio は、オフィスがソーシャル メディア戦略の有効性を測定するのに役立つ分析と洞察も提供します。Email Studio、Audience Studio、Interaction Studio は、さまざまなチャネル上の卒業生による投稿に応答できるソリューションではありません。参考文献:https://www.salesforce.com/products/marketing-cloud/social-media-marketing/https://trailhead.salesforce.com/en/content/learn/modules/social_studio_basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDGYA2"
+			},
+			"Question__c": "入学事務局は、Admissions Connect を使用して学生の申請を管理し、サポートを撤回することに興味を持っています。申請書類は Admissions Connect にどのように保存されますか?",
+			"A__c": "Salesforce ファイル",
+			"B__c": " ドキュメントの種類",
+			"C__c": " アクションプラン項目",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=12",
+			"Comment__c": "申請書類は Admissions Connect に Salesforce ファイルとして保存され、申請レコードまたは申請資料マッピング レコードに添付されます。ドキュメント タイプは、アプリケーション要件に必要なドキュメントのタイプを定義するアプリケーション マテリアル マッピング オブジェクトのフィールドです。アクション プラン アイテムは、アプリケーションまたは登録プロセスに関連するタスクまたはアクションを追跡するオブジェクトです。参照：https://help.salesforce.com/s/articleView?id=sf.admissions_connect_files.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.admissions_connect_application_material_mapping.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDIYA2"
+			},
+			"Question__c": "入学事務局は成績証明書の要求をデジタル化して自動化したいと考えています。現在、申請者は、よりユーザーフレンドリーにできる一連の手動手順に従う必要があります。入学事務局は、Salesforce で作成されたデータから宣言的に構成され、公開されることを望んでいます。要件を満たすためにコンサルタントはどのソリューションを推奨する必要がありますか?",
+			"A__c": "メール-to-ケース",
+			"B__c": " プロセスビルダー",
+			"C__c": " Salesforce ファイル",
+			"D__c": " AppExchange 上のアプリ",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=20",
+			"Comment__c": "AppExchange のアプリは、Salesforce でデータを作成する宣言的に構成された公開フォームを作成するという要件を満たすためにコンサルタントが推奨できるソリューションです。AppExchange のアプリケーションは、Salesforce に追加の機能とソリューションを提供するアプリケーションです。AppExchange には、Web フォーム、アンケート、クイズの作成、Salesforce でのデータのキャプチャなどのフォーム構築機能を提供するアプリが多数あります。コンサルタントは、入学事務局がニーズと予算に合ったアプリを選択できるよう支援します。メール-to-ケース、プロセスビルダー、および Salesforce ファイルは、Salesforce でデータを作成する宣言的に構成された公開フォームを作成できるソリューションではありません。参考文献:https://appexchange.salesforce.com/appxStore?type=App&amp;keyword=form%20builderhttps://trailhead.salesforce.com/en/content/learn/modules/appexchange_basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDJYA2"
+			},
+			"Question__c": "入学部門は、合格した生徒がその学校に入学する可能性を判断するのに役立つデータ分析ツールを評価しています。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "アドバイザ リンク パスウェイ",
+			"B__c": " アインシュタインの次善のアクション",
+			"C__c": " Einstein 予測ビルダー",
+			"D__c": " Tableau Prep ビルダー",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=38",
+			"Comment__c": null,
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDLYA2"
+			},
+			"Question__c": "要件の収集段階で、教員は学生はいかなるアカウントや会社からも独立していると述べました。スタッフは、連絡先のアカウント フィールドを空白にし、ページ レイアウト上で非表示にするよう要求しました。親アカウントなしで連絡先を作成するとどのような影響がありますか?",
+			"A__c": "連絡先はすべてのユーザーに公開され、機密データを共有する可能性があります。",
+			"B__c": " 連絡先はレコード所有者のみにプライベートであり、他のユーザーはアクセスできません。",
+			"C__c": " 連絡先は所有権データの偏りのリスクにさらされており、パフォーマンスの問題が発生する可能性があります。",
+			"D__c": " 連絡先は、共有を有効にするために関連する所属レコードを手動で作成する必要があり、さらに複雑になります。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=27",
+			"Comment__c": "<p>Education Data Architecture (EDA) では、連絡先がアカウントと関連付けられていない場合、関連する所属レコード（Affiliation records）を手動で作成する必要があります。所属レコードは、連絡先と教育機関（アカウント）やプログラムとの関係を示すために重要です。親アカウントなしで連絡先を作成すると、所属情報が自動的に補完されないため、手動でこれらの情報を追加する必要が生じます。これによりデータ管理が複雑になり、手間が増える可能性があります。</p>",
+			"Type__c": "New"
+		}
+	]
+}

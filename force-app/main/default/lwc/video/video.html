@@ -1,0 +1,21 @@
+<template>
+	<template if:true={isLoaded}>
+		<div class="title" onclick={handleClick}>
+			<span class="c1">Q</span>
+			<span class="c2">u</span>
+			<span class="c3">i</span>
+			<span class="c4">z</span>
+			<div class="type">{type}</div>
+		</div>
+		<div class="video">
+			<video
+				src={url}
+				onloadeddata={handleVideoLoaded}
+				autoplay
+				loop
+				muted
+				playsinline
+			></video>
+		</div>
+	</template>
+</template>

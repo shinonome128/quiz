@@ -1,0 +1,54 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e198d8b0-53ce-49fc-a79b-04d0224ff693",
+  "label" : "ホーム",
+  "regions" : [ {
+    "id" : "1d7514dc-31f2-43ce-a1c0-9b7acc0556b7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:hero",
+      "id" : "3c7d1d16-6a8b-4bed-9876-a0fef755b387",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "27c7faa3-341d-4c19-bf3d-59ad297e5e54",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "25ddcff6-2196-4e1a-9c57-413920a80103",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "089b14ee-96d7-4377-a5ea-639946c44826",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "b62ef9a8-1221-43bb-8046-863353f4432d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "ホーム"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "83530a79-26db-44a1-bc6c-52ba4019c446",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fcb4064-e7fb-46e5-ae9c-fde6ea854c4a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "af0dae3c-da56-4a63-afbf-6cdc80db049b",
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "configurationTags" : [ ],
+  "devName" : "Contact_Support",
+  "id" : "7b0e7fa7-e671-4e41-81d3-fa9baf6cc40f",
+  "label" : "【カスタマーサポートへの連絡】",
+  "routeType" : "contactsupport",
+  "type" : "route",
+  "urlPrefix" : "contactsupport"
+}

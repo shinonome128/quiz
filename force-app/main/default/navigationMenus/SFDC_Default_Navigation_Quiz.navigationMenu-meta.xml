@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Quiz</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Question</label>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>Question__c</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>QuestionResult</label>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>QuestionResult__c</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+</NavigationMenu>

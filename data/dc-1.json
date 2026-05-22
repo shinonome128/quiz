@@ -1,0 +1,1604 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZjYAM"
+			},
+			"Question__c": "A Data Cloud consultant recently added a new data source and mapped some of the data to a new custom data model object (DMO) that they want to use for creating segments. However, they cannot view the newly created DMO when trying to create a new segment.What is the cause of this issue?",
+			"A__c": "Data has not yes been ingested into the DMO.",
+			"B__c": "The new DMO is not of category Profile.",
+			"C__c": "The new DMO does not have a relationship to the individual DMO",
+			"D__c": "Segmentation is only supported for the Individual and Unified Individual DMOs.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-data-cloud-consultant-recently-added-a-new-data-source-and-mapped-some-of-the-data-to-a-new-custom",
+			"Comment__c": "The cause of this issue is that the new custom data model object (DMO) is not of category Profile. A category is a property of a DMO that defines its purpose and functionality in Data Cloud. There are three categories of DMOs: Profile, Event, and Other. Profile DMOs are used to store attributes of individuals or entities, such as name, email, address, etc. Event DMOs are used to store actions or interactions of individuals or entities, such as purchases, clicks, visits, etc. Other DMOs are used to store any other type of data that does not fit into the Profile or Event categories, such as products, locations, categories, etc. Only Profile DMOs can be used for creating segments in Data Cloud, as segments are based on the attributes of individuals or entities. Therefore, if the new custom DMO is not of category Profile, it will not appear in the segmentation canvas. The other options are not correct because they are not the cause of this issue. Data ingestion is not a prerequisite for creating segments, as segments can be created based on the data model schema without actual data. The new DMO does not need to have a relationship to the individual DMO, as segments can be created based on any Profile DMO, regardless of its relationship to other DMOs. Segmentation is not only supported for the Individual and Unified Individual DMOs, as segments can be created based on any Profile DMO, including custom ones. References: Create a Custom Data Model Object from an Existing Data Model Object, Create a Segment in Data Cloud, Data Model Object Category"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZkYAM"
+			},
+			"Question__c": "A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members.Which two areas should the consultant review to help troubleshoot this issue?Choose 2 answers",
+			"A__c": "The related engagement events occurred within the last 90 days.",
+			"B__c": "The activations are referencing segments that segment on profile data rather than engagement data.",
+			"C__c": "The correct path is selected for the related attributes.",
+			"D__c": "The activated profiles have a Unified Contact Point.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-consultant-is-reviewing-a-recent-activation-using-engagement-based-related-attributes-but-is-not-seeing",
+			"Comment__c": "Engagement-based related attributes are attributes that describe the interactions of a person with an email message, such as opens, clicks, unsubscribes, etc. These attributes are stored in the Engagement data model object (DMO) and can be added to an activation to send more personalized communications. However, there are some considerations and limitations when using engagement-based related attributes, such as:* For engagement data, activation supports a 90-day lookback window. This means that only the attributes from the engagement events that occurred within the last 90 days are considered for activation. Any records outside of this window are not included in the activation payload. Therefore, the consultant should review the event time of the related engagement events and make sure they are within the lookback window.* The correct path to the related attributes must be selected for the activation. A path is a sequence of DMOs that are connected by relationships in the data model. For example, the path from Individual to* Engagement is Individual -&gt; Email -&gt; Engagement. The path determines which related attributes are available for activation and how they are filtered. Therefore, the consultant should review the path selection and make sure it matches the desired related attributes and filters.The other two options are not relevant for this issue. The activations can reference segments that segment on profile data rather than engagement data, as long as the activation target supports related attributes. The activated profiles do not need to have a Unified Contact Point, which is a unique identifier for a person across different data sources, to activate engagement-based related attributes. References: Add Related Attributes to an Activation, Related Attributes in Data Cloud activation have no values, Explore the Engagement Data Model Object"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZlYAM"
+			},
+			"Question__c": "During a privacy law discussion with a customer, the customer indicates they need to honor requests for the right to be forgotten. The consultant determines that Consent API will solve this business need.Which two considerations should the consultant inform the customer about?Choose 2 answers",
+			"A__c": "Data deletion requests are reprocessed at 30, 60, and 90 days.",
+			"B__c": "Data deletion requests are processed within 1 hour.",
+			"C__c": "Data deletion requests are submitted for Individual profiles.",
+			"D__c": "Data deletion requests submitted to Data Cloud are passed to all connected Salesforce clouds.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/during-a-privacy-law-discussion-with-a-customer-the-customer-indicates-they-need-to-honor-requests-for",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_data_deletion_request.htm&amp;type=5</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZmYAM"
+			},
+			"Question__c": "A customer has a Master Customer table from their CRM to ingest into Data Cloud. The table contains a name and primary email address, along with other personally Identifiable information (Pll).How should the fields be mapped to support identity resolution?",
+			"A__c": "Create a new custom object with fields that directly match the incoming table.",
+			"B__c": "Map all fields to the Customer object.",
+			"C__c": "Map name to the Individual object and email address to the Contact Phone Email object.",
+			"D__c": "Map all fields to the Individual object, adding a custom field for the email address.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-customer-has-a-master-customer-table-from-their-crm-to-ingest-into-data-cloud-the-table-contains-a",
+			"Comment__c": "To support identity resolution in Data Cloud, the fields from the Master Customer table should be mapped to the standard data model objects that are designed for this purpose. The Individual object is used to store the name and other personally identifiable information (PII) of a customer, while the Contact Phone Email object is used to store the primary email address and other contact information of a customer. These objects are linked by a relationship field that indicates the contact information belongs to the individual. By mapping the fields to these objects, Data Cloud can use the identity resolution rules to match and reconcile the profiles from different sources based on the name and email address fields. The other options are not recommended because they either create a new custom object that is not part of the standard data model, or map all fields to the Customer object that is not intended for identity resolution, or map all fields to the Individual object that does not have a standard email address field. References: Data Modeling Requirements for Identity Resolution, Create Unified Individual Profiles"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZnYAM"
+			},
+			"Question__c": "A customer wants to create segments of users based on their Customer Lifetime Value.However, the source data that will be brought into Data Cloud does not include that key performance indicator (KPI).Which sequence of steps should the consultant follow to achieve this requirement?",
+			"A__c": "Ingest Data &gt; Map Data to Data Model &gt; Create Calculated Insight &gt; Use in Segmentation",
+			"B__c": "Create Calculated Insight &gt; Map Data to Data Model&gt; Ingest Data &gt; Use in Segmentation",
+			"C__c": "Create Calculated Insight &gt; Ingest Data &gt; Map Data to Data Model&gt; Use in Segmentation",
+			"D__c": "Ingest Data &gt; Create Calculated Insight &gt; Map Data to Data Model &gt; Use in Segmentation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-customer-wants-to-create-segments-of-users-based-on-their-customer-lifetime-value-however-the-source",
+			"Comment__c": "To create segments of users based on their Customer Lifetime Value (CLV), the sequence of steps that the consultant should follow is Ingest Data &gt; Map Data to Data Model &gt; Create Calculated Insight &gt; Use in Segmentation. This is because the first step is to ingest the source data into Data Cloud using data streams1. The second step is to map the source data to the data model, which defines the structure and attributes of the data2. The third step is to create a calculated insight, which is a derived attribute that is computed based on the source or unified data3. In this case, the calculated insight would be the CLV, which can be calculated using a formula or a query based on the sales order data4. The fourth step is to use the calculated insight in segmentation, which is the process of creating groups of individuals or entities based on their attributes and behaviors. By using the CLV calculated insight, the consultant can segment the users by their predicted revenue from the lifespan of their relationship with the brand. The other options are incorrect because they do not follow the correct sequence of steps to achieve the requirement. Option B is incorrect because it is not possible to create a calculated insight before ingesting and mapping the data, as the calculated insight depends on the data model objects3. Option C is incorrect because it is not possible to create a calculated insight before mapping the data, as the calculated insight depends on the data model objects3. Option D is incorrect because it is not recommended to create a calculated insight before mapping the data, as the calculated insight may not reflect the correct data model structure and attributes3. References: Data Streams Overview, Data Model Objects Overview, Calculated Insights Overview, Calculating Customer Lifetime Value (CLV) With Salesforce, [Segmentation Overview]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZoYAM"
+			},
+			"Question__c": "A user wants to be able to create a multi-dimensional metric to identify unified individual lifetime value (LTV).Which sequence of data model object (DMO) joins is necessary within the calculated Insight to enable this calculation?",
+			"A__c": "Unified Individual &gt; Unified Link Individual &gt; Sales Order",
+			"B__c": "Unified Individual &gt; Individual &gt; Sales Order",
+			"C__c": "Sales Order &gt; Individual &gt; Unified Individual",
+			"D__c": "Sales Order &gt; Unified Individual",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-user-wants-to-be-able-to-create-a-multi-dimensional-metric-to-identify-unified-individual-lifetime",
+			"Comment__c": "To create a multi-dimensional metric to identify unified individual lifetime value (LTV), the sequence of data model object (DMO) joins that is necessary within the calculated Insight is Unified Individual &gt; Unified Link Individual &gt; Sales Order. This is because the Unified Individual DMO represents the unified profile of an individual or entity that is created by identity resolution1. The Unified Link Individual DMO represents the link between a unified individual and an individual from a source system2. The Sales Order DMO represents the sales order information from a source system3. By joining these three DMOs, you can calculate the LTV of a unified individual based on the sales order data from different source systems. The other options are incorrect because they do not join the correct DMOs to enable the LTV calculation. Option B is incorrect because the Individual DMO represents the source profile of an individual or entity from a source system, not the unified profile4. Option C is incorrect because the join order is reversed, and you need to start with the Unified Individual DMO to identify the unified profile. Option D is incorrect because it is missing the Unified Link Individual DMO, which is needed to link the unified profile with the source profile. References: Unified Individual Data Model Object, Unified Link Individual Data Model Object, Sales Order Data Model Object, Individual Data Model Object"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZpYAM"
+			},
+			"Question__c": "Luxury Retailers created a segment targeting high value customers that it activates through Marketing Cloud for email communication. The company notices that the activated count is smaller than the segment count.What is a reason for this?",
+			"A__c": "Marketing Cloud activations apply a frequency cap and limit the number of records that can be sent in an activation.",
+			"B__c": "Data Cloud enforces the presence of Contact Point for Marketing Cloud activations. If the individual does not have a related Contact Point, it will not be activated.",
+			"C__c": "Marketing Cloud activations automatically suppress individuals who are unengaged and have not opened or clicked on an email in the last six months.",
+			"D__c": "Marketing Cloud activations only activate those individuals that already exist in Marketing Cloud.They do not allow activation of new records.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/luxury-retailers-created-a-segment-targeting-high-value-customers-that-it-activates-through-marketing",
+			"Comment__c": "Data Cloud requires a Contact Point for Marketing Cloud activations, which is a record that links an individual to an email address. This ensures that the individual has given consent to receive email communications and that the email address is valid. If the individual does not have a related Contact Point, they will not be activated in Marketing Cloud. This may result in a lower activated count than the segment count. References: Data Cloud Activation, Contact Point for Marketing Cloud"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZqYAM"
+			},
+			"Question__c": "Which configuration supports separate Amazon S3 buckets for data ingestion and activation?",
+			"A__c": "Dedicated S3 data sources in Data Cloud setup",
+			"B__c": "Multiple S3 connectors in Data Cloud setup",
+			"C__c": "Dedicated S3 data sources in activation setup",
+			"D__c": "Separate user credentials for data stream and activation target",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-configuration-supports-separate-amazon-s3-buckets-for-data-ingestion-and-activation",
+			"Comment__c": "To support separate Amazon S3 buckets for data ingestion and activation, you need to configure dedicated S3 data sources in Data Cloud setup. Data sources are used to identify the origin and type of the data that you ingest into Data Cloud1. You can create different data sources for each S3 bucket that you want to use for ingestion or activation, and specify the bucket name, region, and access credentials2. This way, you can separate and organize your data by different criteria, such as brand, region, product, or business unit3. The other options are incorrect because they do not support separate S3 buckets for data ingestion and activation. Multiple S3 connectors are not a valid configuration in Data Cloud setup, as there is only one S3 connector available4. Dedicated S3 data sources in activation setup are not a valid configuration either, as activation setup does not require data sources, but activation targets5. Separate user credentials for data stream and activation target are not sufficient to support separate S3 buckets, as you also need to specify the bucket name and region for each data source2. References: Data Sources Overview, Amazon S3 Storage Connector, Data Spaces Overview, Data Streams Overview, Data Activation Overview"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZrYAM"
+			},
+			"Question__c": "A user is not seeing suggested values from newly-modeled data when building a segment.What is causing this issue?",
+			"A__c": "Value suggestion is still processing and to be available.",
+			"B__c": "Value suggestion requires Data Aware Specialist permissions at a minimum.",
+			"C__c": "Value suggestion can only work on direct attributes and not related attributes.",
+			"D__c": "Value suggestion will only return result for the first 50 values of a specific attribute.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-user-is-not-seeing-suggested-values-from-newly-modeled-data-when-building-a-segment-what-is-causing-41",
+			"Comment__c": "Value suggestion is a feature that allows users to see suggested values for data model object (DMO) fields when creating segment filters. However, this feature can take up to 24 hours to process and display the values for newly-modeled data. Therefore, if a user is not seeing suggested values from newly-modeled data, it is likely that the value suggestion is still processing and will be available soon. The other options are incorrect because value suggestion does not require any specific permissions, can work on both direct and related attributes, and can return more than 50 values for a specific attribute, depending on the data type and frequency of the values. References: Use Value Suggestions in Segmentation, Data Cloud Limits and Guidelines"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZsYAM"
+			},
+			"Question__c": "The Salesforce CRM Connector is configured and the Case object data stream is set up. Subsequently, a new custom field named Business Priority is created on the Case object in Salesforce CRM. However, the new field is not available when trying to add it to the data stream.Which statement addresses the cause of this issue?",
+			"A__c": "The Salesforce Integration User Is missing Rad permissions on the newly created field.",
+			"B__c": "The Salesforce Data Loader application should be used to perform a bulk upload from a desktop.",
+			"C__c": "Custom fields on the Case object are not supported for ingesting into Data Cloud.",
+			"D__c": "After 24 hours when the data stream refreshes it will automatically include any new fields that were added to the Salesforce CRM.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/the-salesforce-crm-connector-is-configured-and-the-case-object-data-stream-is-set-up-subsequently-a",
+			"Comment__c": "The Salesforce CRM Connector uses the Salesforce Integration User to access the data from the Salesforce CRM org. The Integration User must have the Read permission on the fields that are included in the data stream. If the Integration User does not have the Read permission on the newly created field, the field will not be available for selection in the data stream configuration. To resolve this issue, the administrator should assign the Read permission on the new field to the Integration User profile or permission set. References: Create a Salesforce CRM Data Stream, Edit a Data Stream, Salesforce Data Cloud Full Refresh for CRM, SFMC, or Ingestion API Data Streams"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZtYAM"
+			},
+			"Question__c": "What does the Source Sequence reconciliation rule do in identity resolution?",
+			"A__c": "Includes data from sources where the data is most frequently occurring",
+			"B__c": "Identifies which individual records should be merged into a unified profile by setting a priority for specific data sources",
+			"C__c": "Identifies which data sources should be used in the process of reconcillation by prioritizing the most recently updated data source",
+			"D__c": "Sets the priority of specific data sources when building attributes in a unified profile, such as a first or last name",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/what-does-the-source-sequence-reconciliation-rule-do-in-identity-resolution",
+			"Comment__c": "The Source Sequence reconciliation rule sets the priority of specific data sources when building attributes in a unified profile, such as a first or last name. This rule allows you to define which data source should be used as the primary source of truth for each attribute, and which data sources should be used as fallbacks in case the primary source is missing or invalid. For example, you can set the Source Sequence rule to use data from Salesforce CRM as the first priority, data from Marketing Cloud as the second priority, and data from Google Analytics as the third priority for the first name attribute. This way, the unified profile will use the first name value from Salesforce CRM if it exists, otherwise it will use the value from Marketing Cloud, and so on. This rule helps you to ensure the accuracy and consistency of the unified profile attributes across different data sources. References: Salesforce Data Cloud Consultant Exam Guide, Identity Resolution, Reconciliation Rules"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZuYAM"
+			},
+			"Question__c": "A customer is trying to activate data from Data Cloud to an Amazon S3 Cloud File Storage Bucket.Which authentication type should the consultant recommend to connect to the S3 bucket from Data Cloud?",
+			"A__c": "Use an S3 Private Key Certificate.",
+			"B__c": "Use an S3 Encrypted Username and Password.",
+			"C__c": "Use a JWT Token generated on S3.",
+			"D__c": "Use an S3 Access Key and Secret Key.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-customer-is-trying-to-activate-data-from-data-cloud-to-an-amazon-s3-cloud-file-storage-bucket-which",
+			"Comment__c": "To use the Amazon S3 Storage Connector in Data Cloud, the consultant needs to provide the S3 bucket name, region, and access key and secret key for authentication. The access key and secret key are generated by AWS and can be managed in the IAM console. The other options are not supported by the S3 Storage Connector or by Data Cloud. References: Amazon S3 Storage Connector - Salesforce, How to Use the Amazon S3 Storage Connector in Data Cloud | Salesforce Developers Blog Learn more1blob:https://www.bing.com/fed40cd6-30db-497b-a587-44e59b9e1f0bhelp.salesforce.com2blob:https://www.bing.com/ec651c64-71a9-4e79-94f1-3631d6942839 developer.salesforce.com"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZvYAM"
+			},
+			"Question__c": "Which two requirements must be met for a calculated insight to appear in the segmentation canvas?Choose 2 answers",
+			"A__c": "The metrics of the calculated insights must only contain numeric values.",
+			"B__c": "The primary key of the segmented table must be a metric in the calculated insight.",
+			"C__c": "The calculated insight must contain a dimension including the Individual or Unified Individual Id.",
+			"D__c": "The primary key of the segmented table must be a dimension in the calculated insight.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-two-requirements-must-be-met-for-a-calculated-insight-to-appear-in-the-segmentation-canvas-choose",
+			"Comment__c": "A calculated insight is a custom metric or measure that is derived from one or more data model objects or data lake objects in Data Cloud. A calculated insight can be used in segmentation to filter or group the data based on the calculated value. However, not all calculated insights can appear in the segmentation canvas. There are two requirements that must be met for a calculated insight to appear in the segmentation canvas:* The calculated insight must contain a dimension including the Individual or Unified Individual Id. A dimension is a field that can be used to categorize or group the data, such as name, gender, or location.The Individual or Unified Individual Id is a unique identifier for each individual profile in Data Cloud.The calculated insight must include this dimension to link the calculated value to the individual profile and to enable segmentation based on the individual profile attributes.* The primary key of the segmented table must be a dimension in the calculated insight. The primary key is a field that uniquely identifies each record in a table. The segmented table is the table that contains the data that is being segmented, such as the Customer or the Order table. The calculated insight must include the primary key of the segmented table as a dimension to ensure that the calculated value is associated with the correct record in the segmented table and to avoid duplication or inconsistency in the segmentation results.References: Create a Calculated Insight, Use Insights in Data Cloud, Segmentation"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZwYAM"
+			},
+			"Question__c": "Cumulus Financial uses Service Cloud as its CRM and stores mobile phone, home phone, and work phone as three separate fields for its customers on the Contact record. The company plans to use Data Cloud and ingest the Contact object via the CRM Connector.What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?",
+			"A__c": "Ingest the Contact object and map the Work Phone, Mobile Phone, and Home Phone to the Contact Point Phone data map object from the Contact data stream.",
+			"B__c": "Ingest the Contact object and use streaming transforms to normalize the phone numbers from the Contact data stream into a separate Phone data lake object (DLO) that contains three rows, and then map this new DLO to the Contact Point Phone data map object.",
+			"C__c": "Ingest the Contact object and then create a calculated insight to normalize the phone numbers, and then map to the Contact Point Phone data map object.",
+			"D__c": "Ingest the Contact object and create formula fields in the Contact data stream on the phone numbers, and then map to the Contact Point Phone data map object.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/cumulus-financial-uses-service-cloud-as-its-crm-and-stores-mobile-phone-home-phone-and-work-phone-as",
+			"Comment__c": "The most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation is B. Ingest the Contact object and use streaming transforms to normalize the phone numbers from the Contact data stream into a separate Phone data lake object (DLO) that contains three rows, and then map this new DLO to the Contact Point Phone data map object. This approach allows the consultant to use the streaming transforms feature of Data Cloud, which enables data manipulation and transformation at the time of ingestion, without requiring any additional processing or storage. Streaming transforms can be used to normalize the phone numbers from the Contact data stream, such as removing spaces, dashes, or parentheses, and adding country codes if needed. The normalized phone numbers can then be stored in a separate Phone DLO, which can have one row for each phone number type (work, home, mobile). The Phone DLO can then be mapped to the Contact Point Phone data map object, which is a standard object that represents a phone number associated with a contact point.This way, the consultant can ensure that all the phone numbers are available for activation, such as sending SMS messages or making calls to the customers.The other options are not as efficient as option B. Option A is incorrect because it does not normalize the phone numbers, which may cause issues with activation or identity resolution. Option C is incorrect because it requires creating a calculated insight, which is an additional step that consumes more resources and time than streaming transforms. Option D is incorrect because it requires creating formula fields in the Contact data stream, which may not be supported by the CRM Connector or may cause conflicts with the existing fields in the Contact object. References: Salesforce Data Cloud Consultant Exam Guide, Data Ingestion and Modeling, Streaming Transforms, Contact Point Phone"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZxYAM"
+			},
+			"Question__c": "What is Data Cloud&#39;s primary value to customers?",
+			"A__c": "To provide a unified view of a customer and their related data",
+			"B__c": "To connect all systems with a golden record",
+			"C__c": "To create a single source of truth for all anonymous data",
+			"D__c": "To create personalized campaigns by listening, understanding, and acting on customer behavior",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/what-is-data-cloud-s-primary-value-to-customers",
+			"Comment__c": "Data Cloud is a platform that enables you to activate all your customer data across Salesforce applications and other systems. Data Cloud allows you to create a unified profile of each customer by ingesting, transforming, and linking data from various sources, such as CRM, marketing, commerce, service, and external data providers. Data Cloud also provides insights and analytics on customer behavior, preferences, and needs, as well as tools to segment, target, and personalize customer interactions. Data Cloud&#39;s primary value to customers is to provide a unified view of a customer and their related data, which can help you deliver better customer experiences, increase loyalty, and drive growth. References: Salesforce Data Cloud, When Data Creates Competitive Advantage"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZyYAM"
+			},
+			"Question__c": "A client wants to bring in loyalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing.What should a consultant recommend in this scenario?",
+			"A__c": "Clone the data source object.",
+			"B__c": "Use batch transforms to create a second data lake object.",
+			"C__c": "Create a junction object in Salesforce CRM and modify the ingestion strategy.",
+			"D__c": "Create a data kit from the data lake object and deploy it to the same Data Cloud org.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-client-wants-to-bring-in-loyalty-data-from-a-custom-object-in-salesforce-crm-that-contains-a-point",
+			"Comment__c": "Batch transforms are a feature that allows creating new data lake objects based on existing data lake objects and applying transformations on them. This can be useful for splitting, merging, or reshaping data to fit the data model or business requirements. In this case, the consultant can use batch transforms to create a second data lake object that contains only the airline points from the original loyalty data object. The original object can be modified to contain only the hotel points. This way, the client can have two separate records for each point system and track and process them accordingly. References: Batch Transforms, Create a Batch Transform"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWZzYAM"
+			},
+			"Question__c": "What does it mean to build a trust-based, first-party data asset?",
+			"A__c": "To provide transparency and security for data gathered from individuals who provide consent for its use and receive value in exchange",
+			"B__c": "To provide trusted, first-party data in the Data Cloud Marketplace that follows all compliance regulations",
+			"C__c": "To ensure opt-in consents are collected for all email marketing as required by law",
+			"D__c": "To obtain competitive data from reliable sources through interviews, surveys, and polls",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/what-does-it-mean-to-build-a-trust-based-first-party-data-asset",
+			"Comment__c": "Building a trust-based, first-party data asset means collecting, managing, and activating data from your own customers and prospects in a way that respects their privacy and preferences. It also means providing them with clear and honest information about how you use their data, what benefits they can expect from sharing their data, and how they can control their data. By doing so, you can create a mutually beneficial relationship with your customers, where they trust you to use their data responsibly and ethically, and you can deliver more relevant and personalized experiences to them. A trust-based, first-party data asset can help you improve customer loyalty, retention, and growth, as well as comply with data protection regulations and standards. References: Use first-party data for a powerful digital experience, Why first-party data is the key to data privacy, Build a first-party data strategy"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa0YAE"
+			},
+			"Question__c": "A retailer wants to unify profiles using Loyalty ID which is different than the unique ID of their customers.Which object should the consultant use in identity resolution to perform exact match rules on the Loyalty ID?",
+			"A__c": "Party Identification object",
+			"B__c": "Loyalty Identification object",
+			"C__c": "Individual object",
+			"D__c": "Contact Identification object",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-retailer-wants-to-unify-profiles-using-loyalty-id-which-is-different-than-the-unique-id-of-their-custome",
+			"Comment__c": "The Party Identification object is the correct object to use in identity resolution to perform exact match rules on the Loyalty ID. The Party Identification object is a child object of the Individual object that stores different types of identifiers for an individual, such as email, phone, loyalty ID, social media handle, etc. Each identifier has a type, a value, and a source. The consultant can use the Party Identification object to create a match rule that compares the Loyalty ID type and value across different sources and links the corresponding individuals.The other options are not correct objects to use in identity resolution to perform exact match rules on the Loyalty ID. The Loyalty Identification object does not exist in Data Cloud. The Individual object is the parent object that represents a unified profile of an individual, but it does not store the Loyalty ID directly. The Contact Identification object is a child object of the Contact object that stores identifiers for a contact, such as email, phone, etc., but it does not store the Loyalty ID.References:* Data Modeling Requirements for Identity Resolution* Identity Resolution in a Data Space* Configure Identity Resolution Rulesets* Map Required Objects* Data and Identity in Data Cloud"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa1YAE"
+			},
+			"Question__c": "To import campaign members into a campaign in Salesforce CRM, a user wants to export the segment to Amazon S3. The resulting file needs to include the Salesforce CRM Campaign ID in the name.What are two ways to achieve this outcome?Choose 2 answers",
+			"A__c": "Include campaign identifier in the activation name.",
+			"B__c": "Hard code the campaign identifier as a new attribute in the campaign activation.",
+			"C__c": "Include campaign identifier in the filename specification.",
+			"D__c": "Include campaign identifier in the segment name.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/to-import-campaign-members-into-a-campaign-in-salesforce-crm-a-user-wants-to-export-the-segment-to-amazon",
+			"Comment__c": "The two ways to achieve this outcome are A and C. Include campaign identifier in the activation name and include campaign identifier in the filename specification. These two options allow the user to specify the Salesforce CRM Campaign ID in the name of the file that is exported to Amazon S3. The activation name and the filename specification are both configurable settings in the activation wizard, where the user can enter the campaign identifier as a text or a variable. The activation name is used as the prefix of the filename, and the filename specification is used as the suffix of the filename. For example, if the activation name is&quot;Campaign_123&quot; and the filename specification is &quot;{segmentName}_{date}&quot;, the resulting file name will be&quot;Campaign_123_SegmentA_2023-12-18.csv&quot;. This way, the user can easily identify the file that corresponds to the campaign and import it into Salesforce CRM.The other options are not correct. Option B is incorrect because hard coding the campaign identifier as a new attribute in the campaign activation is not possible. The campaign activation does not have any attributes, only settings. Option D is incorrect because including the campaign identifier in the segment name is not sufficient.The segment name is not used in the filename of the exported file, unless it is specified in the filename specification. Therefore, the user will not be able to see the campaign identifier in the file name."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa2YAE"
+			},
+			"Question__c": "Where is value suggestion for attributes in segmentation enabled when creating the DMO?",
+			"A__c": "Data Mapping",
+			"B__c": "Data Transformation",
+			"C__c": "Segment Setup",
+			"D__c": "Data Stream Setup",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/where-is-value-suggestion-for-attributes-in-segmentation-enabled-when-creating-the-dmo",
+			"Comment__c": "Value suggestion for attributes in segmentation is a feature that allows you to see and select the possible values for a text field when creating segment filters. You can enable or disable this feature for each data model object (DMO) field in the DMO record home. Value suggestion can be enabled for up to 500 attributes for your entire org. It can take up to 24 hours for suggested values to appear. To use value suggestion when creating segment filters, you need to drag the attribute onto the canvas and start typing in the Value field for an attribute. You can also select multiple values for some operators. Value suggestion is not available for attributes with more than 255 characters or for relationships that are one-to-many (1:N). References: Use Value Suggestions in Segmentation, Considerations for Selecting Related Attributes"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa3YAE"
+			},
+			"Question__c": "What is the result of a segmentation criteria filtering on City | Is Equal To | &#39;San Jose&#39;?",
+			"A__c": "Cities containing &#39;San Jose&#39;, &#39;San Jose&#39;, &#39;san jose&#39;, or &#39;san jose&#39;",
+			"B__c": "Cities only containing &#39;San Jose&#39; or &#39;san jose&#39;",
+			"C__c": "Cities only containing &#39;San Jose&#39; or &#39;San Jose&#39;",
+			"D__c": "<p>Cities only containing &#39;San Jose&#39;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/what-is-the-result-of-a-segmentation-criteria-filtering-on-city-is-equal-to-san-jose",
+			"Comment__c": "The result of a segmentation criteria filtering on City | Is Equal To | &#39;San Jose&#39; is cities only containing &#39;San Jose&#39; or &#39;san jose&#39;. This is because the segmentation criteria is case-sensitive and accent-sensitive, meaning that it will only match the exact value that is entered in the filter1. Therefore, cities containing &#39;San Jose&#39;, &#39;san jose&#39;, or &#39;San Jose&#39; will not be included in the result, as they do not match the filter value exactly. To include cities with different variations of the name &#39;San Jose&#39;, you would need to use the OR operator and add multiple filter values, such as &#39;San Jose&#39; OR &#39;San Jose&#39; OR &#39;san jose&#39; OR &#39;san jose&#39;2. References: Segmentation Criteria, Segmentation Operators"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa4YAE"
+			},
+			"Question__c": "A Data Cloud Consultant Is in the process of setting up data streams for a new service-based data source.When ingesting Case data, which field is recommended to be associated with the Event Time field?",
+			"A__c": "Last Modified Date",
+			"B__c": "Resolution Date",
+			"C__c": "Escalation Date",
+			"D__c": "Creation Date",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-data-cloud-consultant-is-in-the-process-of-setting-up-data-streams-for-a-new-service-based-data-source",
+			"Comment__c": "The Event Time field is a special field type that captures the timestamp of an event in a data stream. It is used to track the chronological order of events and to enable time-based segmentation and activation. When ingesting Case data, the recommended field to be associated with the Event Time field is the Last Modified Date field. This field reflects the most recent update to the case and can be used to measure the case duration, resolution time, and customer satisfaction. The other fields, such as Resolution Date, Escalation Date, or Creation Date, are not as suitable for the Event Time field, as they may not capture the latest status of the case or may not be applicable for all cases. References: Data Stream Field Types, Salesforce Data Cloud Exam Questions"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa5YAE"
+			},
+			"Question__c": "Cumulus Financial wants its service agents to view a display of all cases associated with a Unified Individual on a contact record.Which two features should a consultant consider for this use case?Choose 2 answers",
+			"A__c": "Data Action",
+			"B__c": "Profile API",
+			"C__c": "Lightning Web Components",
+			"D__c": "Query APL",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/cumulus-financial-wants-its-service-agents-to-view-a-display-of-all-cases-associated-with-a-unified-indivi",
+			"Comment__c": "A Unified Individual is a profile that combines data from multiple sources using identity resolution rules in Data Cloud. A Unified Individual can have multiple contact points, such as email, phone, or address, that link to different systems and records. A consultant can use the following features to display all cases associated with a Unified Individual on a contact record:* Profile API: This is a REST API that allows you to retrieve and update Unified Individual profiles and* related attributes in Data Cloud. You can use the Profile API to query the cases that are related to a Unified Individual by using the contact point ID or the unified ID as a filter. You can also use the Profile API to update the Unified Individual profile with new or modified case information from other systems.* Lightning Web Components: These are custom HTML elements that you can use to create reusable UI components for your Salesforce apps. You can use Lightning Web Components to create a custom component that displays the cases related to a Unified Individual on a contact record. You can use the Profile API to fetch the data from Data Cloud and display it in a table, list, or chart format. You can also use Lightning Web Components to enable actions, such as creating, editing, or deleting cases, from the contact record.The other two options are not relevant for this use case. A Data Action is a type of action that executes a flow, a data action target, or a data action script when an insight is triggered. A Data Action is used for activation and personalization, not for displaying data on a contact record. A Query APL is a query language that allows you to access and manipulate data in Data Cloud. A Query APL is used for data exploration and analysis, not for displaying data on a contact record. References: Profile API Developer Guide, Lightning Web Components Developer Guide, Create Unified Individual Profiles Unit"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa7YAE"
+			},
+			"Question__c": "What should a user do to pause a segment activation with the intent of using that segment again?",
+			"A__c": "Deactivate the segment.",
+			"B__c": "Delete the segment.",
+			"C__c": "Skip the activation.",
+			"D__c": "Stop the publish schedule.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/what-should-a-user-do-to-pause-a-segment-activation-with-the-intent-of-using-that-segment-again",
+			"Comment__c": "The correct answer is A. Deactivate the segment. If a segment is no longer needed, it can be deactivated through Data Cloud and applies to all chosen targets. A deactivated segment no longer publishes, but it can be reactivated at any time1. This option allows the user to pause a segment activation with the intent of using that segment again.The other options are incorrect for the following reasons:* B. Delete the segment. This option permanently removes the segment from Data Cloud and cannot be undone2. This option does not allow the user to use the segment again.* C. Skip the activation. This option skips the current activation cycle for the segment, but does not affect the future activation cycles3. This option does not pause the segment activation indefinitely.* D. Stop the publish schedule. This option stops the segment from publishing to the chosen targets, but does not deactivate the segment4. This option does not pause the segment activation completely.References:* 1: Deactivated Segment article on Salesforce Help* 2: Delete a Segment article on Salesforce Help* 3: Skip an Activation article on Salesforce Help* 4: Stop a Publish Schedule article on Salesforce Help"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa8YAE"
+			},
+			"Question__c": "Which two common use cases can be addressed with Data Cloud?Choose 2 answers",
+			"A__c": "Understand and act upon customer data to drive more relevant experiences.",
+			"B__c": "Govern enterprise data lifecycle through a centralized set of policies and processes.",
+			"C__c": "Harmonize data from multiple sources with a standardized and extendable data model.",
+			"D__c": "Safeguard critical business data by serving as a centralized system for backup and disaster recovery.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-two-common-use-cases-can-be-addressed-with-data-cloud-choose-2-answers",
+			"Comment__c": "Data Cloud is a data platform that can help customers connect, prepare, harmonize, unify, query, analyze, and act on their data across various Salesforce and external sources. Some of the common use cases that can be addressed with Data Cloud are:* Understand and act upon customer data to drive more relevant experiences. Data Cloud can help customers gain a 360-degree view of their customers by unifying data from different sources and resolving identities across channels. Data Cloud can also help customers segment their audiences, create personalized experiences, and activate data in any channel using insights and AI.* Harmonize data from multiple sources with a standardized and extendable data model. Data Cloud can help customers transform and cleanse their data before using it, and map it to a common data model that can be extended and customized. Data Cloud can also help customers create calculated insights and related attributes to enrich their data and optimize identity resolution.The other two options are not common use cases for Data Cloud. Data Cloud does not provide data governance or backup and disaster recovery features, as these are typically handled by other Salesforce or external solutions.References:* Learn How Data Cloud Works* About Salesforce Data Cloud* Discover Use Cases for the Platform* Understand Common Data Analysis Use Cases"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWa9YAE"
+			},
+			"Question__c": "A customer has outlined requirements to trigger a journey for an abandoned browse behavior. Based on the requirements, the consultant determines they will use streaming insights to trigger a data action to Journey Builder every hour.How should the consultant configure the solution to ensure the data action is triggered at the cadence required?",
+			"A__c": "Set the activation schedule to hourly.",
+			"B__c": "Configure the data to be ingested in hourly batches.",
+			"C__c": "Set the journey entry schedule to run every hour.",
+			"D__c": "Set the insights aggregation time window to 1 hour.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-customer-has-outlined-requirements-to-trigger-a-journey-for-an-abandoned-browse-behavior-based-on",
+			"Comment__c": "Streaming insights are computed from real-time engagement events and can be used to trigger data actions based on pre-set rules. Data actions are workflows that send data from Data Cloud to other systems, such as Journey Builder. To ensure that the data action is triggered every hour, the consultant should set the insights aggregation time window to 1 hour. This means that the streaming insight will evaluate the events that occurred within the last hour and execute the data action if the conditions are met. The other options are not relevant for streaming insights and data actions. References: Streaming Insights and Data Actions Limits and Behaviors, Streaming Insights, Streaming Insights and Data Actions Use Cases, Use Insights in Data Cloud, 6 Ways the Latest Marketing Cloud Release Can Boost Your Campaigns"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaAYAU"
+			},
+			"Question__c": "Northern Trail Outfitters (NTO) wants to send a promotional campaign for customers that have purchased within the past 6 months. The consultant created a segment to meet this requirement.Now, NTO brings an additional requirement to suppress customers who have made purchases within the last week.What should the consultant use to remove the recent customers?",
+			"A__c": "Batch transforms",
+			"B__c": "Segmentation exclude rules",
+			"C__c": "Related attributes",
+			"D__c": "Streaming insight",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/northern-trail-outfitters-nto-wants-to-send-a-promotional-campaign-for-customers-that-have-purchased",
+			"Comment__c": "The consultant should use B. Segmentation exclude rules to remove the recent customers. Segmentation exclude rules are filters that can be applied to a segment to exclude records that meet certain criteria. The consultant can use segmentation exclude rules to exclude customers who have made purchases within the last week from the segment that contains customers who have purchased within the past 6 months. This way, the segment will only include customers who are eligible for the promotional campaign.The other options are not correct. Option A is incorrect because batch transforms are data processing tasks that can be applied to data streams or data lake objects to modify or enrich the data. Batch transforms are not used for segmentation or activation. Option C is incorrect because related attributes are attributes that are derived from the relationships between data model objects. Related attributes are not used for excluding records from a segment. Option D is incorrect because streaming insights are derived attributes that are calculated at the time of data ingestion. Streaming insights are not used for excluding records from a segment. References: Salesforce Data Cloud Consultant Exam Guide, Segmentation, Segmentation Exclude Rules"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaBYAU"
+			},
+			"Question__c": "What should an organization use to stream inventory levels from an inventory management system into Data Cloud in a fast and scalable, near-real-time way?",
+			"A__c": "Cloud Storage Connector",
+			"B__c": "Commerce Cloud Connector",
+			"C__c": "Ingestion API",
+			"D__c": "Marketing Cloud Personalization Connector",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/what-should-an-organization-use-to-stream-inventory-levels-from-an-inventory-management-system-into-data",
+			"Comment__c": "The Ingestion API is a RESTful API that allows you to stream data from any source into Data Cloud in a fast and scalable way. You can use the Ingestion API to send data from your inventory management system into Data Cloud as JSON objects, and then use Data Cloud to create data models, segments, and insights based on your inventory data. The Ingestion API supports both batch and streaming modes, and can handle up to100,000 records per second. The Ingestion API also provides features such as data validation, encryption, compression, and retry mechanisms to ensure data quality and security. References: Ingestion API Developer Guide, Ingest Data into Data Cloud"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaCYAU"
+			},
+			"Question__c": "Which consideration related to the way Data Cloud ingests CRM data is true?",
+			"A__c": "CRM data cannot be manually refreshed and must wait for the next scheduled synchronization,",
+			"B__c": "The CRM Connector&#39;s synchronization times can be customized to up to 15-minute intervals.",
+			"C__c": "Formula fields are refreshed at regular sync intervals and are updated at the next full refresh.",
+			"D__c": "The CRM Connector allows standard fields to stream into Data Cloud in real time.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-consideration-related-to-the-way-data-cloud-ingests-crm-data-is-true",
+			"Comment__c": "The correct answer is D. The CRM Connector allows standard fields to stream into Data Cloud in real time.This means that any changes to the standard fields in the CRM data source are reflected in Data Cloud almost instantly, without waiting for the next scheduled synchronization. This feature enables Data Cloud to have the most up-to-date and accurate CRM data for segmentation and activation1.The other options are incorrect for the following reasons:* A. CRM data can be manually refreshed at any time by clicking the Refresh button on the data stream detail page2. This option is false.* B. The CRM Connector&#39;s synchronization times can be customized to up to 60-minute intervals, not15-minute intervals3. This option is false.* C. Formula fields are not refreshed at regular sync intervals, but only at the next full refresh4. A full refresh is a complete data ingestion process that occurs once every 24 hours or when manually triggered.This option is false.References:* 1: Connect and Ingest Data in Data Cloud article on Salesforce Help* 2: Data Sources in Data Cloud unit on Trailhead* 3: Data Cloud for Admins module on Trailhead* 4: [Formula Fields in Data Cloud] unit on Trailhead* : [Data Streams in Data Cloud] unit on Trailhead"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaDYAU"
+			},
+			"Question__c": "Cloud Kicks received a Request to be Forgotten by a customer.In which two ways should a consultant use Data Cloud to honor this request?Choose 2 answers",
+			"A__c": "Delete the data from the incoming data stream and perform a full refresh.",
+			"B__c": "Add the Individual ID to a headerless file and use the delete from file functionality.",
+			"C__c": "Use Data Explorer to locate and manually remove the Individual.",
+			"D__c": "Use the Consent API to suppress processing and delete the Individual and related records from source data streams.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/cloud-kicks-received-a-request-to-be-forgotten-by-a-customer-in-which-two-ways-should-a-consultant-use",
+			"Comment__c": "To honor a Request to be Forgotten by a customer, a consultant should use Data Cloud in two ways:* Add the Individual ID to a headerless file and use the delete from file functionality. This option allows the consultant to delete multiple Individuals from Data Cloud by uploading a CSV file with their IDs1. The deletion process is asynchronous and can take up to 24 hours to complete1.* Use the Consent API to suppress processing and delete the Individual and related records from source data streams. This option allows the consultant to submit a Data Deletion request for an Individual profile in Data Cloud using the Consent API2. A Data Deletion request deletes the specified Individual entity and any entities where a relationship has been defined between that entity&#39;s identifying attribute and the Individual ID attribute2. The deletion process is reprocessed at 30, 60, and 90 days to ensure a full deletion2. The other options are not correct because:* Deleting the data from the incoming data stream and performing a full refresh will not delete the existing data in Data Cloud, only the new data from the source system3.* Using Data Explorer to locate and manually remove the Individual will not delete the related records from the source data streams, only the Individual entity in Data Cloud. References:* Delete Individuals from Data Cloud* Requesting Data Deletion or Right to Be Forgotten* Data Refresh for Data Cloud* [Data Explorer]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaEYAU"
+			},
+			"Question__c": "Northern Trail Qutfitters wants to be able to calculate each customer&#39;s lifetime value {LTV) but also create breakdowns of the revenue sourced by website, mobile app, and retail channels.What should a consultant use to address this use case in Data Cloud?",
+			"A__c": "Flow Orchestration",
+			"B__c": "Nested segments",
+			"C__c": "Metrics on metrics",
+			"D__c": "Streaming data transform",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/northern-trail-qutfitters-wants-to-be-able-to-calculate-each-customer-s-lifetime-value-ltv-but-also",
+			"Comment__c": "Metrics on metrics is a feature that allows creating new metrics based on existing metrics and applying mathematical operations on them. This can be useful for calculating complex business metrics such as LTV, ROI, or conversion rates. In this case, the consultant can use metrics on metrics to calculate the LTV of each customer by summing up the revenue generated by them across different channels. The consultant can also create breakdowns of the revenue by channel by using the channel attribute as a dimension in the metric definition. References: Metrics on Metrics, Create Metrics on Metrics"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaFYAU"
+			},
+			"Question__c": "A retail customer wants to bring customer data from different sourcesand wants to take advantage of identity resolution so that it can beused in segmentation.On which entity should this be segmented for activation membership?",
+			"A__c": "Subscriber",
+			"B__c": "Unified Individual",
+			"C__c": "Unified Contact",
+			"D__c": "Individual",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-retail-customer-wants-to-bring-customer-data-from-different-sources-and-wants-to-take-advantage-of",
+			"Comment__c": "The correct answer is B, Unified Individual. A Unified Individual is a record that represents a customer across different data sources, created by applying identity resolution rulesets. Identity resolution rulesets are sets of match and reconciliation rules that define how to link and merge data from different sources based on common attributes. Data Cloud uses identity resolution rulesets to resolve data across multiple data sources and helps you create one record for each customer, regardless of where the data came from1. A retail customer who wants to bring customer data from different sources and use identity resolution for segmentation should segment on the Unified Individual entity, which contains the resolved and consolidated customer data. The other options are incorrect because they do not represent the resolved customer data across different sources. A Subscriber is a record that represents a customer who has opted in to receive marketing communications. A Unified Contact is a record that represents a customer who has a relationship with a specific business unit. An Individual is a record that represents a customer&#39;s profile data from a single data source. References:* Identity Resolution Ruleset Processing Results* Consider Data Implications for Segmentation* Prepare for your Salesforce Data Cloud Consultant Credential* AI-based Identity Resolution: Linking Diverse Customer Data"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaGYAU"
+			},
+			"Question__c": "Northern Trail Outfitters (NTD) creates a calculated insight to compute recency, frequency, monetary {RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target.Which two actions are required when configuring the activation?Choose 2 answers",
+			"A__c": "Add additional attributes.",
+			"B__c": "Choose a segment.",
+			"C__c": "Select contact points.",
+			"D__c": "Add the calculated insight in the activation.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/northern-trail-outfitters-ntd-creates-a-calculated-insight-to-compute-recency-frequency-monetary",
+			"Comment__c": "To configure an activation to a Marketing Cloud activation target, you need to choose a segment and select contact points. Choosing a segment allows you to specify which unified individuals you want to activate.Selecting contact points allows you to map the attributes from the segment to the fields in the Marketing Cloud data extension. You do not need to add additional attributes or add the calculated insight in the activation, as these are already part of the segment definition. References: Create a Marketing Cloud Activation Target; Types of Data Targets in Data Cloud"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaHYAU"
+			},
+			"Question__c": "Which two steps should a consultant take if a successfully configured Amazon S3 data stream fails to refresh with a &quot;NO FILE FOUND&quot; error message?Choose 2 answers",
+			"A__c": "Check if correct permissions are configured for the Data Cloud user.",
+			"B__c": "Check if the Amazon S3 data source is enabled in Data Cloud Setup.",
+			"C__c": "Check If the file exists in the specified bucket location.",
+			"D__c": "Check if correct permissions are configured for the S3 user.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-two-steps-should-a-consultant-take-if-a-successfully-configured-amazon-s3-data-stream-fails-to",
+			"Comment__c": "A &quot;NO FILE FOUND&quot; error message indicates that Data Cloud cannot access or locate the file from the Amazon S3 source. There are two possible reasons for this error and two corresponding steps that a consultant should take to troubleshoot it:* The Data Cloud user does not have the correct permissions to read the file from the Amazon S3 bucket.This could happen if the user&#39;s permission set or profile does not include the Data Cloud Data Stream Read permission, or if the user&#39;s Amazon S3 credentials are invalid or expired. To fix this issue, the consultant should check and update the user&#39;s permissions and credentials in Data Cloud and Amazon S3, respectively.* The file does not exist in the specified bucket location. This could happen if the file name or path has changed, or if the file has been deleted or moved from the Amazon S3 bucket. To fix this issue, the consultant should check and verify the file name and path in the Amazon S3 bucket, and update the data stream configuration in Data Cloud accordingly. References: Create Amazon S3 Data Stream in Data Cloud, How to Use the Amazon S3 Storage Connector in Data Cloud, Amazon S3 Connection"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaIYAU"
+			},
+			"Question__c": "Northern Trail Outfitters wants to use some of its Marketing Cloud data in Data Cloud.Which engagement channel data will require custom integration?",
+			"A__c": "SMS",
+			"B__c": "Email",
+			"C__c": "CloudPage",
+			"D__c": "Mobile push",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/northern-trail-outfitters-wants-to-use-some-of-its-marketing-cloud-data-in-data-cloud-which-engagement",
+			"Comment__c": "CloudPage is a web page that can be personalized and hosted by Marketing Cloud. It is not one of the standard engagement channels that Data Cloud supports out of the box. To use CloudPage data in Data Cloud, a custom integration is required. The other engagement channels (SMS, email, and mobile push) are supported by Data Cloud and can be integrated using the Marketing Cloud Connector or the Marketing Cloud API. References: Data Cloud Overview, Marketing Cloud Connector, Marketing Cloud API"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaJYAU"
+			},
+			"Question__c": "<p>A customer has a custom Customer Email c object related to the standard Contact object in Salesforce CRM.This custom object stores the email address a Contact that they want to use for activation.To which data entity is mapped?</p>",
+			"A__c": "Contact",
+			"B__c": "Contact Point_Email",
+			"C__c": "Custom customer Email__c object",
+			"D__c": "Individual",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-customer-has-a-custom-customer-email-c-object-related-to-the-standard-contact-object-in-salesforce",
+			"Comment__c": "The Contact Point_Email object is the data entity that represents an email address associated with an individual in Data Cloud. It is part of the Customer 360 Data Model, which is a standardized data model that defines common entities and relationships for customer data. The Contact Point_Email object can be mapped to any custom or standard object that stores email addresses in Salesforce CRM, such as the custom Customer Email__c object. The other options are not the correct data entities to map to because:* A. The Contact object is the data entity that represents a person who is associated with an account that is a customer, partner, or competitor in Salesforce CRM. It is not the data entity that represents an email address in Data Cloud.* C. The custom Customer Email__c object is not a data entity in Data Cloud, but a custom object in Salesforce CRM. It can be mapped to a data entity in Data Cloud, such as the Contact Point_Email object, but it is not a data entity itself.* D. The Individual object is the data entity that represents a unique person in Data Cloud. It is the core entity for managing consent and privacy preferences, and it can be related to one or more contact points, such as email addresses, phone numbers, or social media handles. It is not the data entity that represents an email address in Data Cloud. References: Customer 360 Data Model: Individual and Contact Points - Salesforce, Contact Point_Email | Object Reference for the Salesforce Platform | Salesforce Developers,[Contact | Object Reference for the Salesforce Platform | Salesforce Developers], [Individual | Object Reference for the Salesforce Platform | Salesforce Developers]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaKYAU"
+			},
+			"Question__c": "Data Cloud receives a nightly file of all ecommerce transactions from the previous day.Several segments and activations depend upon calculated insights from the updated data in order to maintain accuracy in the customer&#39;s scheduled campaign messages.What should the consultant do to ensure the ecommerce data is ready for use for each of the scheduled activations?",
+			"A__c": "Use Flow to trigger a change data event on the ecommerce data to refresh calculated insights and segments before the activations are scheduled to run.",
+			"B__c": "Set a refresh schedule for the calculated insights to occur every hour.",
+			"C__c": "Ensure the activations are set to Incremental Activation and automatically publish every hour.",
+			"D__c": "Ensure the segments are set to Rapid Publish and set to refresh every hour.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/data-cloud-receives-a-nightly-file-of-all-ecommerce-transactions-from-the-previous-day-several-segments",
+			"Comment__c": "The best option that the consultant should do to ensure the ecommerce data is ready for use for each of the scheduled activations is A. Use Flow to trigger a change data event on the ecommerce data to refresh calculated insights and segments before the activations are scheduled to run. This option allows the consultant to use the Flow feature of Data Cloud, which enables automation and orchestration of data processing tasks based on events or schedules. Flow can be used to trigger a change data event on the ecommerce data, which is a type of event that indicates that the data has been updated or changed. This event can then trigger the refresh of the calculated insights and segments that depend on the ecommerce data, ensuring that they reflect the latest data. The refresh of the calculated insights and segments can be completed before the activations are scheduled to run, ensuring that the customer&#39;s scheduled campaign messages are accurate and relevant.The other options are not as good as option A. Option B is incorrect because setting a refresh schedule for the calculated insights to occur every hour may not be sufficient or efficient. The refresh schedule may not align with the activation schedule, resulting in outdated or inconsistent data. The refresh schedule may also consume more resources and time than necessary, as the ecommerce data may not change every hour. Option C is incorrect because ensuring the activations are set to Incremental Activation and automatically publish every hour may not solve the problem. Incremental Activation is a feature that allows only the new or changed records in a segment to be activated, reducing the activation time and size. However, this feature does not ensure that the segment data is updated or refreshed based on the ecommerce data. The activation schedule may also not match the ecommerce data update schedule, resulting in inaccurate or irrelevant campaign messages. Option D is incorrect because ensuring the segments are set to Rapid Publish and set to refresh every hour may not be optimal or effective. Rapid Publish is a feature that allows segments to be published faster by skipping some validation steps, such as checking for duplicate records or invalid values. However, this feature may compromise the quality or accuracy of the segment data, and may not be suitable for all use cases. The refresh schedule may also have the same issues as option B, as it may not sync with the ecommerce data update schedule or the activation schedule, resulting in outdated or inconsistent data. References: Salesforce Data Cloud Consultant Exam Guide, Flow, Change Data Events, Calculated Insights, Segments, [Activation]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaLYAU"
+			},
+			"Question__c": "A healthcare client wants to make use of identity resolution, but does not want to risk unifying profiles that may share certain personally identifying information (PII).Which matching rule criteria should a consultant recommend for the most accurate matching results?",
+			"A__c": "Party Identification on Patient ID",
+			"B__c": "Exact Last Name and Emil",
+			"C__c": "Email Address and Phone",
+			"D__c": "Fuzzy First Name, Exact Last Name, and Email",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-healthcare-client-wants-to-make-use-of-identity-resolution-but-does-not-want-to-risk-unifying-profiles",
+			"Comment__c": "Identity resolution is the process of linking data from different sources into a unified profile of a customer or an individual. Identity resolution uses matching rules to compare the attributes of different records and determine if they belong to the same person. Matching rules can be based on exact or fuzzy matching of various attributes, such as name, email, phone, address, or custom identifiers. A healthcare client who wants to use identity resolution, but does not want to risk unifying profiles that may share certain personally identifying information (PII), such as name or email, should use a matching rule criteria that is based on a unique and reliable identifier that is specific to the healthcare domain. One such identifier is the patient ID, which is a unique number assigned to each patient by a healthcare provider or system. By using the party identification on patient ID as a matching rule criteria, the healthcare client can ensure that only records that have the same patient ID are matched and unified, and avoid false positives or false negatives that may occur due to common or similar names or emails. The party identification on patient ID is also a secure and compliant way of handling sensitive healthcare data, as it does not expose or share any PII that may be subject to data protection regulations or standards. References: Configure Identity Resolution Rulesets, A framework of identity resolution: evaluating identity attributes and methods"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaMYAU"
+			},
+			"Question__c": "Which data model subject area should be used for any Organization, Individual, or Member in the Customer360 data model?",
+			"A__c": "Engagement",
+			"B__c": "Membership",
+			"C__c": "Party",
+			"D__c": "Global Account",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-data-model-subject-area-should-be-used-for-any-organization-individual-or-member-in-the-customer",
+			"Comment__c": "The data model subject area that should be used for any Organization, Individual, or Member in the Customer360 data model is the Party subject area. The Party subject area defines the entities that are involved in any business transaction or relationship, such as customers, prospects, partners, suppliers, etc. The Party subject area contains the following data model objects (DMOs):* Organization: A DMO that represents a legal entity or a business unit, such as a company, a department, a branch, etc.* Individual: A DMO that represents a person, such as a customer, a contact, a user, etc.* Member: A DMO that represents the relationship between an individual and an organization, such as an employee, a customer, a partner, etc.The other options are not data model subject areas that should be used for any Organization, Individual, or Member in the Customer 360 data model. The Engagement subject area defines the actions that people take, such as clicks, views, purchases, etc. The Membership subject area defines the associations that people have with groups, such as loyalty programs, clubs, communities, etc. The Global Account subject area defines the hierarchical relationships between organizations, such as parent-child, subsidiary, etc.References:* Data Model Subject Areas* Party Subject Area* Customer 360 Data Model"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaNYAU"
+			},
+			"Question__c": "A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number.To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper E164 Phone Number format. However, the phone numbers in the file appear to be in varying formats.What is the most efficient way to guarantee that the various phone number formats are standardized?",
+			"A__c": "Create a formula field to standardize the format.",
+			"B__c": "Edit and update the data in the source system prior to sending to Data Cloud.",
+			"C__c": "Assign the PhoneNumber field type when creating the data stream.",
+			"D__c": "Create a calculated insight after ingestion.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-consultant-is-planning-the-ingestion-of-a-data-stream-that-has-profile-information-including-a-mobile",
+			"Comment__c": "The most efficient way to guarantee that the various phone number formats are standardized is to assign the PhoneNumber field type when creating the data stream. The PhoneNumber field type is a special field type that automatically converts phone numbers into the E164 format, which is the international standard for phone numbers. The E164 format consists of a plus sign (+), the country code, and the national number. For example,+1-202-555-1234 is the E164 format for a US phone number. By using the PhoneNumber field type, the consultant can ensure that the phone numbers are consistent and can be used for future SMS campaigns. The other options are either more time-consuming, require manual intervention, or do not address the formatting issue. References: Data Stream Field Types, E164 Phone Number Format, Salesforce Data Cloud Exam Questions"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaOYAU"
+			},
+			"Question__c": "Which information is provided in a .csv file when activating to Amazon S3?",
+			"A__c": "An audit log showing the user who activated the segment and when it was activated",
+			"B__c": "The activated data payload",
+			"C__c": "The metadata regarding the segment definition",
+			"D__c": "The manifest of origin sources within Data Cloud",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-information-is-provided-in-a-.csv-file-when-activating-to-amazon-s3",
+			"Comment__c": "When activating to Amazon S3, the information that is provided in a .csv file is the activated data payload. The activated data payload is the data that is sent from Data Cloud to the activation target, which in this case is an Amazon S3 bucket1. The activated data payload contains the attributes and values of the individuals or entities that are included in the segment that is being activated2. The activated data payload can be used for various purposes, such as marketing, sales, service, or analytics3. The other options are incorrect because they are not provided in a .csv file when activating to Amazon S3. Option A is incorrect because an audit log is not provided in a .csv file, but it can be viewed in the Data Cloud UI under the Activation History tab4. Option C is incorrect because the metadata regarding the segment definition is not provided in a .csv file, but it can be viewed in the Data Cloud UI under the Segmentation tab5. Option D is incorrect because the manifest of origin sources within Data Cloud is not provided in a .csv file, but it can be viewed in the Data Cloud UI under the Data Sources tab. References: Data Activation Overview, Create and Activate Segments in Data Cloud, Data Activation Use Cases, View Activation History, Segmentation Overview, [Data Sources Overview]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaPYAU"
+			},
+			"Question__c": "Which permission setting should a consultant check if the custom Salesforce CRM object is not available in New Data Stream configuration?",
+			"A__c": "Confirm the Create object permission is enabled in the Data Cloud org.",
+			"B__c": "Confirm the View All object permission is enabled in the source Salesforce CRM org.",
+			"C__c": "Confirm the Ingest Object permission is enabled in the Salesforce CRM org.",
+			"D__c": "Confirm that the Modify Object permission is enabled in the Data Cloud org.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-permission-setting-should-a-consultant-check-if-the-custom-salesforce-crm-object-is-not-available",
+			"Comment__c": "To create a new data stream from a custom Salesforce CRM object, the consultant needs to confirm that the View All object permission is enabled in the source Salesforce CRM org. This permission allows the user to view all records associated with the object, regardless of sharing settings1. Without this permission, the custom object will not be available in the New Data Stream configuration2. References:* Manage Access with Data Cloud Permission Sets* Object Permissions"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaQYAU"
+			},
+			"Question__c": "Which statement about Data Cloud&#39;s Web and Mobile Application Connector is true?",
+			"A__c": "A standard schema containing event, profile, and transaction data is created at the time the connector is configured.",
+			"B__c": "The Tenant Specific Endpoint is auto-generated in Data Cloud when setting the connector.",
+			"C__c": "Any data streams associated with the connector will be automatically deleted upon deleting the app from Data Cloud Setup.",
+			"D__c": "The connector schema can be updated to delete an existing field.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-statement-about-data-cloud-s-web-and-mobile-application-connector-is-true",
+			"Comment__c": "The Web and Mobile Application Connector allows you to ingest data from your websites and mobile apps into Data Cloud. To use this connector, you need to set up a Tenant Specific Endpoint (TSE) in Data Cloud, which is a unique URL that identifies your Data Cloud org. The TSE is auto-generated when you create a connector app in Data Cloud Setup. You can then use the TSE to configure the SDKs for your websites and mobile apps, which will send data to Data Cloud through the TSE. References: Web and Mobile Application Connector, Connect Your Websites and Mobile Apps, Create a Web or Mobile App Data Stream"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaRYAU"
+			},
+			"Question__c": "A customer requests that their personal data be deleted.Which action should the consultant take to accommodate this request in Data Cloud?",
+			"A__c": "Use a streaming API call to delete the customer&#39;s information.",
+			"B__c": "Use Profile Explorer to delete the customer data from Data Cloud.",
+			"C__c": "Use Consent API to request deletion of the customer&#39;s information.",
+			"D__c": "Use the Data Rights Subject Request tool to request deletion of the customer&#39;s information.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-customer-requests-that-their-personal-data-be-deleted-which-action-should-the-consultant-take-to-accomm",
+			"Comment__c": "The Data Rights Subject Request tool is a feature that allows Data Cloud users to manage customer requests for data access, deletion, or portability. The tool provides a user interface and an API to create, track, and fulfill data rights requests. The tool also generates a report that contains the customer&#39;s personal data and the actions taken to comply with the request. The consultant should use this tool to accommodate the customer&#39;s request for data deletion in Data Cloud. References: Data Rights Subject Request Tool, Create a Data Rights Subject Request"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaSYAU"
+			},
+			"Question__c": "Cumulus Financial uses calculated insights to compute the total banking value per branch for its high net worth customers. In the calculated insight, &quot;banking value&quot; is a metric, &quot;branch&quot; is a dimension, and &quot;high net worth&quot; is a filter.What can be included as an attribute in activation?",
+			"A__c": "high net worth (filter)",
+			"B__c": "branch (dimension) and &quot;banking metric)",
+			"C__c": "banking value (metric)",
+			"D__c": "branch (dimension)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/cumulus-financial-uses-calculated-insights-to-compute-the-total-banking-value-per-branch-for-its-high",
+			"Comment__c": "According to the Salesforce Data Cloud documentation, an attribute is a dimension or a measure that can be used in activation. A dimension is a categorical variable that can be used to group or filter data, such as branch, region, or product. A measure is a numerical variable that can be used to calculate metrics, such as revenue, profit, or count. A filter is a condition that can be applied to limit the data that is used in a calculated insight, such as high net worth, age range, or gender. In this question, the calculated insight uses &quot;banking value&quot; as a metric, which is a measure, and &quot;branch&quot; as a dimension. Therefore, only &quot;branch&quot; can be included as an attribute in activation, since it is a dimension. The other options are either measures or filters, which are not attributes. References: Data Cloud Permission Sets, Salesforce Data Cloud Exam Questions"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaTYAU"
+			},
+			"Question__c": "<p>A consultant is integrating an Amazon S3 activated campaign with the customer&#39;s destination system.In order for the destination system to find the metadata about the segment, which file on the S3 will contain this information for processing?</p>",
+			"A__c": "The .txt file",
+			"B__c": "The json file",
+			"C__c": "The .csv file",
+			"D__c": "The .zip file",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/a-consultant-is-integrating-an-amazon-53-activated-campaign-with-the-customer-s-destination-system-in",
+			"Comment__c": "The file on the Amazon S3 that will contain the metadata about the segment for processing is B. The json file.The json file is a metadata file that is generated along with the csv file when a segment is activated to Amazon S3. The json file contains information such as the segment name, the segment ID, the segment size, the segment attributes, the segment filters, and the segment schedule. The destination system can use this file to identify the segment and its properties, and to match the segment data with the corresponding fields in the destination system. References: Salesforce Data Cloud Consultant Exam Guide, Amazon S3 Activation"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaVYAU"
+			},
+			"Question__c": "Cumulus Financial wants to be able to track the daily transaction volume of each of its customers in real time and send out a notification as soon as it detects volume outside a customer&#39;s normal range.What should a consultant do to accommodate this request?",
+			"A__c": "Use a calculated insight paired with a flow.",
+			"B__c": "Use streaming data transform with a flow.",
+			"C__c": "Use a streaming insight paired with a data action",
+			"D__c": "Use streaming data transform combined with a data action.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/cumulus-financial-wants-to-be-able-to-track-the-daily-transaction-volume-of-each-of-its-customers-in",
+			"Comment__c": "A streaming insight is a type of insight that analyzes streaming data in real time and triggers actions based on predefined conditions. A data action is a type of action that executes a flow, a data action target, or a data action script when an insight is triggered. By using a streaming insight paired with a data action, a consultant can accommodate Cumulus Financial&#39;s request to track the daily transaction volume of each customer and send out a notification when the volume is outside the normal range. A calculated insight is a type of insight that performs calculations on data in a data space and stores the results in a data extension. A streaming data transform is a type of data transform that applies transformations to streaming data in real time and stores the results in a data extension. A flow is a type of automation that executes a series of actions when triggered by an event, a schedule, or another flow. None of these options can achieve the same functionality as a streaming insight paired with a data action. References: Use Insights in Data Cloud Unit, Streaming Insights and Data Actions Use Cases, Streaming Insights and Data Actions Limits and Behaviors"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaWYAU"
+			},
+			"Question__c": "Which operator should a consultant use to create a segment for a birthday campaign that is evaluated daily?",
+			"A__c": "Is Today",
+			"B__c": "Is Birthday",
+			"C__c": "Is Between",
+			"D__c": "Is Anniversary Of",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/which-operator-should-a-consultant-use-to-create-a-segment-for-a-birthday-campaign-that-is-evaluated",
+			"Comment__c": "To create a segment for a birthday campaign that is evaluated daily, the consultant should use the Is Anniversary Of operator. This operator compares a date field with the current date and returns true if the month and day are the same, regardless of the year. For example, if the date field is 1990-01-01 and the current date is 2023-01-01, the operator returns true. This way, the consultant can create a segment that includes all the customers who have their birthday on the same day as the current date, and the segment will be updated daily with the new birthdays. The other options are not the best operators to use for this purpose because:* A. The Is Today operator compares a date field with the current date and returns true if the date is the same, including the year. For example, if the date field is 1990-01-01 and the current date is2023-01-01, the operator returns false. This operator is not suitable for a birthday campaign, as it will only include the customers who were born on the same day and year as the current date, which is very unlikely.* B. The Is Birthday operator is not a valid operator in Data Cloud. There is no such operator available in the segment canvas or the calculated insight editor.* C. The Is Between operator compares a date field with a range of dates and returns true if the date is within the range, including the endpoints. For example, if the date field is 1990-01-01 and the range is2022-12-25 to 2023-01-05, the operator returns true. This operator is not suitable for a birthday campaign, as it will only include the customers who have their birthday within a fixed range of dates, and the segment will not be updated daily with the new birthdays."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaXYAU"
+			},
+			"Question__c": "The recruiting team at Cumulus Financial wants to identify which candidates have browsed the jobs page on its website at least twice within the last 24 hours. They want the information about these candidates to be available for segmentation in Data Cloud and the candidates added to their recruiting system.Which feature should a consultant recommend to achieve this goal?",
+			"A__c": "Streaming data transform",
+			"B__c": "Streaming insight",
+			"C__c": "Calculated insight",
+			"D__c": "Batch bata transform",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/the-recruiting-team-at-cumulus-financial-wants-to-identify-which-candidates-have-browsed-the-jobs-page",
+			"Comment__c": "A streaming insight is a feature that allows users to create and monitor real-time metrics from streaming data sources, such as web and mobile events. A streaming insight can also trigger data actions, such as sending notifications, creating records, or updating fields, based on the metric values and conditions. Therefore, a streaming insight is the best feature to achieve the goal of identifying candidates who have browsed the jobs page on the website at least twice within the last 24 hours, and adding them to the recruiting system. The other options are incorrect because:* A streaming data transform is a feature that allows users to transform and enrich streaming data using SQL expressions, such as filtering, joining, aggregating, or calculating values. However, a streaming data transform does not provide the ability to monitor metrics or trigger data actions based on conditions.* A calculated insight is a feature that allows users to define and calculate multidimensional metrics from data using SQL expressions, such as LTV, CSAT, or average order value. However, a calculated insight is not suitable for real-time data analysis, as it runs on a scheduled basis and does not support data actions.* A batch data transform is a feature that allows users to create and schedule complex data transformations using a visual editor, such as joining, aggregating, filtering, or appending data.However, a batch data transform is not suitable for real-time data analysis, as it runs on a scheduled basis and does not support data actions. References: Streaming Insights, Create a Streaming Insight, Use Insights in Data Cloud, Learn About Data Cloud Insights, Data Cloud Insights Using SQL, Streaming Data Transforms, Get Started with Batch Data Transforms in Data Cloud, Transformations for Batch Data Transforms, Batch Data Transforms in Data Cloud: Quick Look, Salesforce Data Cloud: AI CDP."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004tWaYYAU"
+			},
+			"Question__c": "Cloud Kicks wants to be able to build a segment of customers who have visited its website within the previous7 days.Which filter operator on the Engagement Date field fits this use case?",
+			"A__c": "Is Between",
+			"B__c": "Greater than Last Number of",
+			"C__c": "Next Number of Days",
+			"D__c": "Last Number of Days",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Data-Cloud-Consultant.v2024-04-09.q52/cloud-kicks-wants-to-be-able-to-build-a-segment-of-customers-who-have-visited-its-website-within-the",
+			"Comment__c": "The filter operator Last Number of Days allows you to filter on date fields using a relative date range that specifies the number of days before today. For example, you can use this operator to filter on customers who have visited your website in the last 7 days, or the last 30 days, or any number of days you want. This operator is useful for creating dynamic segments that update automatically based on the current date12. References:* Relative Date Filter Reference* Create Filtered Segments"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9iiYAA"
+			},
+			"Question__c": "What is allowed when editing a Calculated Insight?",
+			"A__c": "Removing existing measures",
+			"B__c": "Adding new measures",
+			"C__c": "Adding new dimensions",
+			"D__c": "Removing existing dimensions",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=2",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_limits_and_guidelines_for_editing_a_calculated_insight.htm&amp;type=5</p><p>計算済みインサイトにはメジャーだけ追加できる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9ijYAA"
+			},
+			"Question__c": "Which two steps are required when configuring a Marketing Cloud activation?",
+			"A__c": "Set an Activation Schedule",
+			"B__c": "Select an Activation Target",
+			"C__c": "Add Additional Attributes",
+			"D__c": "Select Contact Points",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=3",
+			"Comment__c": "These two steps are required when configuring a Marketing Cloud activation. You need to select an activation target that represents a Marketing Cloud business unit and a contact point that represents a Marketing Cloud data extension.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_marketing_cloud.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9ilYAA"
+			},
+			"Question__c": "Which two statements are true about using consent API and exercising right to be forgotten?",
+			"A__c": "Data Deletion requests are processed within 1 hour",
+			"B__c": "Data Deletion requests are reprocessed at 30, 60, and 90 days",
+			"C__c": "Data Deletion requests are submitted for Individual profiles",
+			"D__c": "Data deletion requests submitted to Data Cloud are passed to all connected Salesforce Clouds",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=5",
+			"Comment__c": "<p>These two statements are true about using consent API and exercising right to be forgotten. Data deletion requests are reprocessed at regular intervals to ensure that any new data related to the individual is deleted.Data deletion requests are submitted for individual profiles thatrepresent unique identities in Data Cloud.References:</p><p><br></p><p>https://help.salesforce.com/s/articleView?id=sf.c360_a_data_deletion_request.htm&amp;type=5</p><p>関係するプロファイルすべてに対して削除要求を受ける必要がある</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9imYAA"
+			},
+			"Question__c": "Which two statements about Data Cloud&#39;s Web and Mobile App connector are true?",
+			"A__c": "Any Data Streams associated with Web or Mobile connector app will be automatically deleted upon deleting the app from Data Cloud Setup",
+			"B__c": "Data Cloud administrators can see the status of a Web or Mobile connector app on the app details page",
+			"C__c": "Tenant Specific Endpoint is auto-generated in Data Cloud when setting up a Mobile or Web app connection",
+			"D__c": "Mobile and Web SDK schema can be updated to delete an existing field",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=6",
+			"Comment__c": "The app details page shows the status of the app, such as active, inactive, or error. The tenant specific endpoint is a unique URL that is generated for each app and used to send data to Data Cloud from the web or mobile SDK. References:https://help.salesforce.com/s/articleView?id=sf.c360_a_web_mobile_app_connector.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9inYAA"
+			},
+			"Question__c": "Which feature can integrate in real time with Salesforce CRM?",
+			"A__c": "Data Actions",
+			"B__c": "Identity Resolution",
+			"C__c": "CRM Starter Bundle",
+			"D__c": "Data Model Triggers",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=7",
+			"Comment__c": "This feature can integrate in real time with Salesforce CRM. Data Actions allow you to perform actions on Salesforce CRM records based on Data Cloud data, such as creating, updating, or deleting records.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_actions.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9iqYAA"
+			},
+			"Question__c": "How does Data Cloud handle an individual&#39;s right to be forgotten?",
+			"A__c": "Deletes the specified Individual and records from any DMO/DLO related to the Individual.",
+			"B__c": "Deletes the specified Individual and records from any DSO mapped to the Individual DMO.",
+			"C__c": "Deletes the records from all DSOs and any downstream DMOs are updated at the next scheduled ingestion.",
+			"D__c": "Deletes the specified Individual record and its Unified Individual Link record.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=3",
+			"Comment__c": "This is how Data Cloud handles an individual&#39;s right to be forgotten. It deletes the individual record from the Individual data model object (DMO) and any related records from the data stream objects (DSOs) that are mapped to it.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_delete_individual.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9irYAA"
+			},
+			"Question__c": "Which three Data Model objects do Reconciliation Rules operate across?",
+			"A__c": "Individual",
+			"B__c": "Party Identification",
+			"C__c": "Contact Point Email",
+			"D__c": "Contact",
+			"E__c": "Lead",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=4",
+			"Comment__c": "These are the three Data Model objects that Reconciliation Rules operate across. Reconciliation rules tell Data Cloud how to prioritize values for unified individual profiles when there is conflicting information in the data model. For example, if two profiles have different email addresses, reconciliation rules can determine which one to use for the unified profile. Reconciliation rules can operate on the Individual object, which represents a person or entity, the Party Identification object, which represents an identifier such as a social media handle or a loyalty card number, and the Contact Point Email object, which represents an email address.References: Identity Resolution Reconciliation Rules"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9isYAA"
+			},
+			"Question__c": "What should be the type of the Event Time Field while ingesting Engagement data?",
+			"A__c": "Mutable",
+			"B__c": "Inconsistent",
+			"C__c": "Immutable",
+			"D__c": "None of the above",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=5",
+			"Comment__c": "The type of the Event Time Field while ingesting Engagement data should be Immutable. Immutable means that the field value cannot be changed once it is ingested. The Event Time Field is a mandatory field for Engagement data that represents the timestamp of when an event occurred. It is important to keep this field immutable to ensure the accuracy and consistency of the event data. References: Engagement Data Model"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9itYAA"
+			},
+			"Question__c": "Which data stream category should be assigned to use the data for time-based operations in segmentation and calculated insights?",
+			"A__c": "Transaction",
+			"B__c": "Individual",
+			"C__c": "Sales Order",
+			"D__c": "Engagement",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=6",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_category.htm&amp;type=5</p><p>データカテゴリはプロファイル、エンゲージメント、その他しかない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9iuYAA"
+			},
+			"Question__c": "Which method should an administrator use when performing aggregations in windows of 15 minutes on data collected via the Interactions SDK and Mobile SDK?",
+			"A__c": "Activation",
+			"B__c": "Segment",
+			"C__c": "Streaming Insight",
+			"D__c": "Calculated Insight",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=7",
+			"Comment__c": "This method should be used when performing aggregations in windows of 15 minutes on data collected via the Interactions SDK and Mobile SDK. Streaming Insight allows you to query and aggregate data from real-time streams using window functions.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_streaming_insights.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9ivYAA"
+			},
+			"Question__c": "A segment fails to refresh with the error &quot;Segment references too many Data Lake Objects (DLOs)&quot;. What are two remedies for this issue?",
+			"A__c": "Space out the segment schedules to reduce Data Lake Object load",
+			"B__c": "Refine segmentation criteria to limit up to 5 custom DMOs",
+			"C__c": "Split the segment into smaller segments",
+			"D__c": "Use Calculated Insights in order to reduce the complexity of the segmentation query",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=8",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_segmentation_troubleshooting.htm&amp;type=5</p><ul><li>計算済みインサイト (CI) を使用してセグメントが参照する DLO の数を減らします。</li><li>セグメントを複数の小さなセグメントに分割します。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9iwYAA"
+			},
+			"Question__c": "What are the two distinct phases of data model management in Data Cloud?",
+			"A__c": "Data Activation",
+			"B__c": "Data Ingestion",
+			"C__c": "Data Actions",
+			"D__c": "Data Modeling",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=2",
+			"Comment__c": "These two phases are distinct phases of data model management in Data Cloud. Data ingestion is the process of bringing data from different sources into Data Cloud using connectors or APIs. Data modeling is the process of mapping the ingested data to the Data Cloud canonical model or creating custom data model objects.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_data_model.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9ixYAA"
+			},
+			"Question__c": "Which three options can be used to build a filter in the Segmentation Canvas?",
+			"A__c": "Data Lake Objects",
+			"B__c": "Streaming Insights",
+			"C__c": "Calculated Insights",
+			"D__c": "Related Attributes",
+			"E__c": "Direct Attributes",
+			"F__c": null,
+			"Answer__c": "C,D,E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=3",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_segment_canvas_interface.htm&amp;type=5</p><p>利用できる属性は、直接・関節、あとCI</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9iyYAA"
+			},
+			"Question__c": "How many days of historical data is loaded when B2C Commerce Data Stream is created from the Order Bundle?",
+			"A__c": "90 days",
+			"B__c": "60 days",
+			"C__c": "30 days",
+			"D__c": "10 days",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=4",
+			"Comment__c": "When B2C Commerce Data Stream is created from the Order Bundle, 30 days of historical data is loaded. The Order Bundle is a preconfigured data bundle that contains order-related data from B2C Commerce Cloud.Data Stream is a feature that allows you to stream data from B2C Commerce Cloud to Data Cloud in near real time. References: B2C Commerce Data Stream"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9j0YAA"
+			},
+			"Question__c": "A user needs permissions to access Data Cloud to create, manage, and publish segments. However, the user should not be allowed to create reports or manage data sources. Which permission set should an administrator assign?",
+			"A__c": "Customer Data Cloud for Marketing Admin",
+			"B__c": "Customer Data Cloud for Marketing Specialist",
+			"C__c": "Customer Data Cloud for Marketing Data Aware Specialist",
+			"D__c": "Customer Data Cloud for Marketing Manager",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=6",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_userpermissions.htm&amp;type=5</p><p>マーケティングマネージャはセグメンテーションとアクティベーションができる</p><p>マーケティングスペシャリストはセグメンテーションだけ</p><p><span style=\"\">マーケティングデータスペシャリストはセグメントとアクティベーションは参照だけ、</span><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">データクラウドの管理</span><span style=\"\">以外は何でもできる</span></p><p>マーケティングアドミンはなんでもできる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9j1YAA"
+			},
+			"Question__c": "What are the two minimum requirements needed when using the Visual Insights Builder to create a Calculated Insight?",
+			"A__c": "WHERE clause is required",
+			"B__c": "At least two objects to join",
+			"C__c": "At least one dimension",
+			"D__c": "At least one measure",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=7",
+			"Comment__c": "These two requirements are needed when using the Visual Insights Builder to create a Calculated Insight. A dimension is an attribute that can be used to group or filter data, such as product category or customer segment. A measure is an attribute that can be used to perform calculations, such as revenue or quantity.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_calculated_insights_create.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9j3YAA"
+			},
+			"Question__c": "Cloud Kicks has received a Request to be Forgotten by a customer. In which two ways can Data Cloud honor this request?",
+			"A__c": "Use Data Explorer to locate and manually remove the Individual",
+			"B__c": "Use the Consent API to suppress processing and delete the individual and related records from source data streams",
+			"C__c": "Delete the data from the incoming data stream and perform a full refresh",
+			"D__c": "Add the Individual Id to a headerless file and use the delete from file functionality",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=2",
+			"Comment__c": "These two ways can help Data Cloud honor a request to be forgotten by a customer. The Consent API allows you to set a consent flag for an individual that prevents further processing of their data and deletes their records from source data streams. The delete from file functionality allows you to upload a file with individual IDs that will be deleted from Data Cloud. References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_consent_api.htm&amp;type=5https://help.salesfo"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9j5YAA"
+			},
+			"Question__c": "What is a unique requirement of a Streaming Insight query?",
+			"A__c": "A dimension",
+			"B__c": "A measurement",
+			"C__c": "A window function",
+			"D__c": "A WHERE clause",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=4",
+			"Comment__c": "A window function is a unique requirement of a Streaming Insight query. It defines the time interval for the query to run on the streaming data and the frequency of the query execution.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_streaming_insights.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9j6YAA"
+			},
+			"Question__c": "A customer has requested that their personal data be deleted. Which action should be performed to accommodate this request in Data Cloud?",
+			"A__c": "Manually delete customer and related records using the Profile Explorer",
+			"B__c": "Use Consent API to request deletion of the customer&#39;s information",
+			"C__c": "Utilize the Data Rights Subject Request tool to request deletion of the customer&#39;s information",
+			"D__c": "Use Ingestion API to request deletion of the customer&#39;s information",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=5",
+			"Comment__c": "This action should be performed to accommodate the request to delete personal data in Data Cloud. The Consent API allows you to set a consent flag for an individual that prevents further processing of their data and deletes their records from source data streams.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_consent_api.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jAYAQ"
+			},
+			"Question__c": "Which permission setting should an administrator check if the custom CRM object is not available in New Data Stream configuration?",
+			"A__c": "Modify All object permission enabled in Data Cloud org",
+			"B__c": "Ingest Object permission is enabled in the CRM org",
+			"C__c": "Create object permission enabled in Data Cloud org",
+			"D__c": "View All object permission enabled in source CRM org",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=2",
+			"Comment__c": "This permission setting should be checked if the custom CRM object is not available in New Data Stream configuration. The user who connects the Salesforce CRM connector must have View All permission for the custom object in the source CRM org.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_salesforce_crm.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jCYAQ"
+			},
+			"Question__c": "What happens if no file name is specified in AWS S3 data stream during ingestion?",
+			"A__c": "The system does not fetch any file and the data stream shows an error.",
+			"B__c": "The system chooses the first file found in the S3 bucket",
+			"C__c": "The ingestion setup can&#39;t be completed without specifying the filename.",
+			"D__c": "The ingestion setup is completed but the data stream shows 0 records",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-10-06.q32.html?p=4",
+			"Comment__c": "If no file name is specified in AWS S3 data stream during ingestion, the system does not fetch any file and the data stream shows an error. AWS S3 data stream is a feature that allows you to stream data from Amazon Web Services Simple Storage Service (AWS S3) to Data Cloud in near real time. You need to specify the file name or prefix of the files that you want to ingest from your S3 bucket. If you leave this field blank, the system cannot find any matching files and returns an error message. References: AWS S3 Data Stream"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jEYAQ"
+			},
+			"Question__c": "Which of the following functions returns the first value from a list that isn&#39;t empty?",
+			"A__c": "CONCAT",
+			"B__c": "COALESCE",
+			"C__c": "REPLACE",
+			"D__c": "FIND",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=2",
+			"Comment__c": "COALESCE is the function that returns the first value from a list that isn&#39;t empty. It takes a list of values as arguments and returns the first non-empty value. For example, COALESCE(NULL, &#39;&#39;, &#39;Hello&#39;, &#39;World&#39;) returns &#39;Hello&#39;. If all values are empty, it returns NULL. Reference: COALESCE"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jGYAQ"
+			},
+			"Question__c": "To which Data Model entity should the Email field from a CRM Contact object be mapped?",
+			"A__c": "Lead",
+			"B__c": "Account Contact",
+			"C__c": "Individual",
+			"D__c": "Contact Point Email",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=4",
+			"Comment__c": "The Email field from a CRM Contact object should be mapped to the Contact Point Email entity in the Customer 360 data model. This entity represents an email address that is associated with an individual or an account contact. Reference: [Contact Point Email Entity]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jIYAQ"
+			},
+			"Question__c": "Which two common use cases can be addressed with Data Cloud?",
+			"A__c": "Harmonize data from multiple sources with a standardized and extendable data model",
+			"B__c": "Understand and act upon customer data to drive more relevant experiences",
+			"C__c": "Safeguard critical business data by serving as a centralized system for backup and disaster recovery",
+			"D__c": "Govern enterprise data lifecycle through a centralized set of policies and processes",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=6",
+			"Comment__c": "Data Cloud can address these two common use cases by providing a platform that allows customers to ingest, map, enrich, and activate data from various sources using the Customer 360 data model, and by enabling customers to create segments, insights, and activations based on their customer data. Reference: [Data Cloud Overview], [Customer 360 Data Model], [Data Activation]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jJYAQ"
+			},
+			"Question__c": "What are two benefits Data Cloud provides a company in relation to managing customer data?",
+			"A__c": "Unified Identity Resolution",
+			"B__c": "Data Harmonization",
+			"C__c": "Data Governance",
+			"D__c": "Data Marketplace",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=7",
+			"Comment__c": "These two benefits Data Cloud provides a company in relation to managing customer data. Unified Identity Resolution allows a company to link data from different sources and create a single view of each customer. Data Harmonization allows a company to standardize and enrich data from different sources and improve data quality and usability. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_identity_resolution.htm&amp;type=5 https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_data_harmonization.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jKYAQ"
+			},
+			"Question__c": "Which three actions can be applied to a previously created segment?",
+			"A__c": "Reactivate",
+			"B__c": "Export",
+			"C__c": "Delete",
+			"D__c": "Copy",
+			"E__c": "Inactivate",
+			"F__c": null,
+			"Answer__c": "C,D,E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=8",
+			"Comment__c": "<p>activeなセグメントで実行可能なアクションは、ディアクティブ、プロパティ編集、削除、コピー</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jLYAQ"
+			},
+			"Question__c": "Which type of measures with aggregate functions are supported?",
+			"A__c": "Text",
+			"B__c": "Date",
+			"C__c": "Numeric",
+			"D__c": "Boolean",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=9",
+			"Comment__c": "Numeric is the only type of measures that support aggregate functions. Measures are numeric fields that can be aggregated using functions such as SUM, AVG, MIN, MAX, or COUNT. For example, you can use a measure to calculate the total revenue or the average order value from your data. Date, Text, and Boolean are not types of measures, but types of dimensions. Dimensions are fields that can be used to group or filter data, but not to perform calculations. Reference: Measures and Dimensions"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jMYAQ"
+			},
+			"Question__c": "Which operator can be used to create a segment for a birthday campaign that is evaluated daily?",
+			"A__c": "Is This Year",
+			"B__c": "Is Anniversary Of",
+			"C__c": "Is Between",
+			"D__c": "Is Birthday",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=10",
+			"Comment__c": "This operator can be used to create a segment for a birthday campaign that is evaluated daily. It compares a date attribute to the current date and returns true if they have the same month and day, regardless of the year. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_segmentation_operators.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jNYAQ"
+			},
+			"Question__c": "An administrator has configured the Salesforce CRM connector and set up a data stream for the Case object. A new custom field called &quot;Business Priority&quot; was created on the Case object. However, that field is not available when trying to add it in the data stream. What could be causing this issue?",
+			"A__c": "Custom fields on the Case objects are not supported for ingesting into Data Cloud",
+			"B__c": "Utilize the Salesforce Dataloader application to perform a bulk upload from a desktop",
+			"C__c": "The Data Cloud administrator does not need to do anything. After 24 hours when the data stream refreshes, it will automatically include any new fields that were added to CRM",
+			"D__c": "The Salesforce Integration User is missing &quot;Read&quot; permissions on the newly created field",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=2",
+			"Comment__c": "One possible reason why a new custom field is not available in the data stream is that the Salesforce Integration User, which is used to connect to the CRM source, does not have &quot;Read&quot; permissions on that field2. To fix this issue, the administrator needs to grant the appropriate permissions to the Integration User profile or permission set."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jOYAQ"
+			},
+			"Question__c": "Which three out-of-the-box connectors are available for Data Cloud?",
+			"A__c": "Marketing Cloud",
+			"B__c": "B2C Commerce",
+			"C__c": "Slack Connector",
+			"D__c": "Amazon S3",
+			"E__c": "Amazon Redshift Connector",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=3",
+			"Comment__c": "These three out-of-the-box connectors are available for Data Cloud. They allow you to ingest data from Marketing Cloud, B2C Commerce, or Amazon S3 into Data Cloud and map it to the Data Cloud data model. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_connectors.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jPYAQ"
+			},
+			"Question__c": "Which three components of Data Cloud can be bundled within a Data Kit?",
+			"A__c": "Data Models",
+			"B__c": "Calculated Insights",
+			"C__c": "Segments",
+			"D__c": "Data Streams",
+			"E__c": "Identity Resolution Rulesets",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=4",
+			"Comment__c": "<p>https://developer.salesforce.com/docs/platform/data-cloud-dev/guide/packages-data-kits.html</p><p>データキットに含められるのは、CI、DMO、ストリーム設定</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jQYAQ"
+			},
+			"Question__c": "Every day, Northern Trail Outfitters (NTO) uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than 7 days are automatically deleted. Each file contains a timestamp in a standardized naming convention. What should a consultant consider when ingesting this data stream?",
+			"A__c": "Ensure the refresh mode is set to &quot;Upsert&quot; and Refresh only new files&quot; is selected",
+			"B__c": "Ensure the refresh mode is set to &quot;Full Refresh&quot; and the filename contains a wildcard to accommodate the timestamp",
+			"C__c": "Ensure the refresh mode is set to &quot;Full Refresh&quot; and &quot;Refresh only new files&#39; is selected",
+			"D__c": "Advise NTO to change their processes: this configuration is not supported",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=5",
+			"Comment__c": "This configuration will ensure that Data Cloud only ingests new files from the Amazon S3 bucket and updates or inserts new records into the data stream without deleting existing records. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_amazon_s3.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jRYAQ"
+			},
+			"Question__c": "Which three objects are created as a result of Identity Resolution?",
+			"A__c": "Unified Subscriber",
+			"B__c": "Unified Data Model",
+			"C__c": "Unified Contact Point",
+			"D__c": "Unified Link",
+			"E__c": "Unified Individual",
+			"F__c": null,
+			"Answer__c": "C,D,E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=6",
+			"Comment__c": "Identity Resolution creates three types of objects8:Unified Individual: This object represents the unified profile of an individual, which contains attributes from multiple sources.Unified Contact Point: This object represents the unified contact information of an individual, such as email, phone, address, or app.Unified Link: This object represents the link between an Individual object and a Unified Individual object, or between a Contact Point object and a Unified Contact Point object."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jTYAQ"
+			},
+			"Question__c": "An organization wants to enable users with the ability to identify and select text attributes from a picklist of options. Which Data Cloud feature can help with this use case?",
+			"A__c": "Transformation Formulas",
+			"B__c": "Data Harmonization",
+			"C__c": "Value Suggestion",
+			"D__c": "Global Picklists",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=8",
+			"Comment__c": "Value suggestion is a feature of Data Cloud that allows you to identify and select text attributes from a picklist of options. You can use value suggestion to standardize values across different data sources and improve data quality. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_value_suggestion.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jUYAQ"
+			},
+			"Question__c": "What is the relationship between Individual and Contact Point Objects?",
+			"A__c": "1:1",
+			"B__c": "1: Many",
+			"C__c": "Many: Many",
+			"D__c": "None of the above",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=9",
+			"Comment__c": "The relationship between Individual and Contact Point Objects is 1: Many. This means that one Individual can have many Contact Points, such as email addresses, phone numbers, or postal addresses, but each Contact Point can only belong to one Individual. Reference: Data Model Overview"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jVYAQ"
+			},
+			"Question__c": "Which option allows an organization an easy way to ingest Marketing Cloud subscriber profile attributes into Data Cloud on a daily basis?",
+			"A__c": "Marketing Cloud Connect API",
+			"B__c": "Email Studio Starter Data Bundle",
+			"C__c": "Profile attributes are not yet supported",
+			"D__c": "Automation Studio and Profile API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=10",
+			"Comment__c": "This option allows an organization an easy way to ingest Marketing Cloud subscriber profile attributes into Data Cloud on a daily basis. You can use Automation Studio to export profile attributes to a data extension and use the Profile API to send them to Data Cloud. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_marketing_cloud_data_foundation.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jWYAQ"
+			},
+			"Question__c": "Northern Trail Outfitters uploads new customer data to an Amazon S3 Bucket on a daily basis to be ingested in Data Cloud. In what order should each process be run to ensure that freshly imported data is ready and available to use for any segment?",
+			"A__c": "Refresh Data Stream &gt; Calculated Insight &gt; Identity Resolution",
+			"B__c": "Identity Resolution &gt; Calculated Insight &gt; Refresh Data Stream",
+			"C__c": "Calculated Insight &gt; Identity Resolution &gt; Refresh Data Stream",
+			"D__c": "Refresh Data Stream &gt; Identity Resolution &gt; Calculated Insight",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=2",
+			"Comment__c": "The recommended order of processes for updating data in Data Cloud is as follows6:Refresh Data Stream: This process updates the data from the source, such as Amazon S3, into Data Cloud.Identity Resolution: This process runs the rulesets that link together multiple records of an individual into a unified profile.Calculated Insight: This process calculates additional attributes based on existing data, such as lifetime value or churn risk."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jXYAQ"
+			},
+			"Question__c": "How does Identity Resolution select attributes for Unified Individuals when there is conflicting information in the Data Model?",
+			"A__c": "Create additional Rule Sets",
+			"B__c": "Leverage Reconciliation Rules",
+			"C__c": "Create additional Contact Points",
+			"D__c": "Leverage Match Rules",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=3",
+			"Comment__c": "Reconciliation rules are used to select attributes for Unified Individuals when there is conflicting information in the Data Model. Reconciliation rules can use different methods to prioritize values, such as source sequence, most recent value, or most frequent value. For example, if two profiles have different first names, reconciliation rules can determine which one to use for the unified profile based on the source sequence or the most recent value. Reference: Identity Resolution Reconciliation Rules"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jYYAQ"
+			},
+			"Question__c": "To import campaign members into a campaign in CRM a user wants to export the segment to Amazon S3. The resulting file needs to include CRM Campaign ID in the name. How can this outcome be achieved?",
+			"A__c": "Include campaign identifier into the activation name",
+			"B__c": "Hard-code the campaign identifier as a new attribute in the campaign activation",
+			"C__c": "Include campaign identifier into the filename specification",
+			"D__c": "Include campaign identifier into the segment name",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=4",
+			"Comment__c": "You can use the filename specification option in the Amazon S3 activation to customize the name of the file that is exported. You can use variables such as {campaignId} to include the CRM campaign ID in the file name. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_amazon_s3.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jZYAQ"
+			},
+			"Question__c": "How many calculated insights can be created per tenant?",
+			"A__c": "5",
+			"B__c": "10",
+			"C__c": "50",
+			"D__c": "100",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=5",
+			"Comment__c": "<p>The maximum number of calculated insights that can be created per tenant is 50. A calculated insight is a metric that defines and calculates a multidimensional measure on your data. You can use calculated insights to create segments and analyze your data in Data Cloud. You can also use calculated insights to create dashboards and reports in Tableau CRM. Reference: Calculated Insights</p><p><br></p><p>https://help.salesforce.com/s/articleView?id=sf.c360_a_limits_and_guidelines_cdp.htm&amp;type=5</p><p>CIはテナント毎に100まで</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jaYAA"
+			},
+			"Question__c": "How can attribute names be modified to match a naming convention in Cloud File Storage target?",
+			"A__c": "Update attribute names in the data stream configuration",
+			"B__c": "Update field names in the data model",
+			"C__c": "Set preferred attribute names when configuring activation",
+			"D__c": "Use a formula field to update the field name in an activation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=6",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.c360_a_preferred_attribute_name.htm&amp;type=5</p><p>アクティベーション時にprefferd attribute name で変更ができる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jbYAA"
+			},
+			"Question__c": "Which two features are impacted by the timezone setting in the org Data Cloud is provisioned in?",
+			"A__c": "Segment Schedule",
+			"B__c": "Identity Resolution",
+			"C__c": "Ingestion Schedule",
+			"D__c": "Activation Schedule",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=7",
+			"Comment__c": "These two features are impacted by the timezone setting in the org Data Cloud is provisioned in. The segment schedule determines how often a segment is refreshed based on the selected timezone. The activation schedule determines how often a segment is exported to an activation target based on the selected timezone. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_segmentation_schedule.htm&amp;type=5 https://help.salesforce.com/s/articleView?id=sf.c360_a_activation_schedule.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jcYAA"
+			},
+			"Question__c": "The website team at Cumulus Financial Services wants to understand which identified users have browsed the jobs page on their website at least twice within the last 12 hours. Which component should a consultant recommend to achieve this goal?",
+			"A__c": "Streaming Insight",
+			"B__c": "Calculated Insight",
+			"C__c": "Streaming Data Transformation",
+			"D__c": "Segment",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=8",
+			"Comment__c": "This component should be recommended to achieve the goal of understanding which identified users have browsed the jobs page on their website at least twice within the last 12 hours. Streaming Insight allows you to query and filter data from real-time streams using window functions and aggregation functions. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_streaming_insights.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jdYAA"
+			},
+			"Question__c": "What is the correct formula to display the value of the raw data column of &quot;RetailPrice&#39; plus an additional 5 percent?",
+			"A__c": "sourceField[&#39;RetailPrice1*l .05",
+			"B__c": "SELECT([&#39;RetailPrice&#39;]*1.05)",
+			"C__c": "sourceField[&#39;retailprice&#39;]*1.05",
+			"D__c": "SELECT([&#39;retailprice&#39;]*1.05)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=9",
+			"Comment__c": "This is the correct formula to display the value of the raw data column of &quot;RetailPrice&quot; plus an additional 5 percent. The formula uses the sourceField function to access the raw data column, and then multiplies it by 1.05 to add 5 percent. The formula is case-sensitive, so the column name must match exactly with the raw data column name. Reference: [Formula Editor], [sourceField Function]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jeYAA"
+			},
+			"Question__c": "Which of the following cannot be used in Segmentation? (Choose 2)",
+			"A__c": "Numeric Measures",
+			"B__c": "Text Measures",
+			"C__c": "Aggregate Functions",
+			"D__c": "Date Time Measures",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=10",
+			"Comment__c": "Text Measures and Date Time Measures cannot be used in Segmentation. Segmentation is the process of creating filtered audience segments based on calculated insights. Calculated insights are metrics that define and calculate multidimensional measures on your data. Only Numeric Measures can be used as calculated insights, because they can be aggregated using functions such as SUM, AVG, MIN, MAX, or COUNT. Text Measures and Date Time Measures are not types of measures, but types of dimensions. Dimensions are fields that can be used to group or filter data, but not to perform calculations. Reference: Measures and Dimensions"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jfYAA"
+			},
+			"Question__c": "Which configuration can support separate Amazon S3 buckets for data ingestion and activation?",
+			"A__c": "Dedicated S3 data sources in activation setup",
+			"B__c": "Separate user credentials for data stream and activation",
+			"C__c": "Separate user credentials for data stream and activation target",
+			"D__c": "Dedicated S3 data sources in Data Cloud setup",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=2",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jgYAA"
+			},
+			"Question__c": "Which two dependencies can prevent a Data Stream from being deleted?",
+			"A__c": "A data stream attribute is mapped to a Data Model object",
+			"B__c": "A data stream attribute is used in Calculated Insight",
+			"C__c": "A data stream attribute is used in Segmentation",
+			"D__c": "A data stream attribute is used in Activation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=3",
+			"Comment__c": "A data stream cannot be deleted if any of its attributes are mapped to a Data Model object or used in a Calculated Insight3. These dependencies need to be removed before deleting the data stream."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jhYAA"
+			},
+			"Question__c": "What is the maximum limit of the number of records for Full Refresh Extract Method?",
+			"A__c": "10 million",
+			"B__c": "40 million",
+			"C__c": "50 million",
+			"D__c": "No hard limit",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=4",
+			"Comment__c": "The maximum limit of the number of records for Full Refresh Extract Method is 10 million. Full Refresh Extract Method is an option for extracting data from Marketing Cloud to Data Cloud. It extracts all records from a data extension regardless of when they were created or modified. If the number of records exceeds 10 million, an error occurs and no records are extracted. Reference: Extract Methods"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jiYAA"
+			},
+			"Question__c": "Which two characteristics describe the Customer 360 data model?",
+			"A__c": "A Conceptual Model",
+			"B__c": "A Static Model",
+			"C__c": "A Product Sold By Salesforce",
+			"D__c": "A Canonical Model",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=5",
+			"Comment__c": "The Customer 360 data model is a conceptual model and a canonical model. A conceptual model is a high-level representation of the entities and relationships in a domain of interest, without specifying any implementation details. A canonical model is a common and consistent data model that can be used across different systems and applications. Reference: [Customer 360 Data Model Overview], [Conceptual Model], [Canonical Model]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jjYAA"
+			},
+			"Question__c": "Which match criteria is only available as custom in order to perform an exact match in Identity Resolution?",
+			"A__c": "Phone Number",
+			"B__c": "Email Address",
+			"C__c": "Party Identification Id",
+			"D__c": "Government Id",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=6",
+			"Comment__c": "<p>Party Identification Id is the only match criteria that is only available as custom in order to perform an exact match in Identity Resolution. Party Identification Id is a unique identifier for each Party Identification record in the data model. It is not one of the standard match criteria that Data Cloud provides out of the box, so it has to be created as a custom match criteria. Custom match criteria allow you to use any field from the data model as a match rule. Reference: Create Custom Match Criteria</p><p><br></p><p>https://help.salesforce.com/s/articleView?id=sf.c360_a_match_rules_criteria.htm&amp;type=5</p>"
+		}
+	]
+}

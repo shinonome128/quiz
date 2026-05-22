@@ -1,0 +1,2356 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4EAAQ"
+			},
+			"Question__c": "The developer wants to test the array shown:const arr = Array(5).fill(0)Which two tests are the most accurate for this array ?Choose 2 answers:",
+			"A__c": "console.assert( arr.length === 5 );",
+			"B__c": "arr.forEach(elem =&gt; console.assert(elem === 0)) ;",
+			"C__c": "console.assert(arr[0] === 0 &amp;&amp; arr[ arr.length] === 0);",
+			"D__c": "console.assert (arr.length &gt;0);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=2",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4FAAQ"
+			},
+			"Question__c": "<p>Refer to following code:</p><p><br></p><p>class Vehicle {</p><p class=\"ql-indent-1\">constructor(plate) {</p><p class=\"ql-indent-2\">This.plate =plate;</p><p class=\"ql-indent-1\">}</p><p>}</p><p>Class Truck extends Vehicle {</p><p class=\"ql-indent-1\">constructor(plate, weight) {</p><p class=\"ql-indent-2\">//Missing code</p><p class=\"ql-indent-2\">This.weight = weight;</p><p class=\"ql-indent-1\">}</p><p class=\"ql-indent-1\">displayWeight() {</p><p class=\"ql-indent-2\">console.log(&#39;The truck ${this.plate} has a weight of ${this.weight} lb.&#39;);</p><p class=\"ql-indent-1\">}</p><p>} </p><p>Let myTruck = new Truck(&#39;123AB&#39;, 5000); </p><p>myTruck.displayWeight();</p><p><br></p><p>Which statement should be added to line 09 for the code to display &#39;The truck 123AB has a weight of 5000lb.&#39;?</p>",
+			"A__c": "This.plate =plate;",
+			"B__c": "Vehicle.plate = plate;",
+			"C__c": "Super.plate =plate;",
+			"D__c": "super(plate);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=2",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4GAAQ"
+			},
+			"Question__c": "<p>Refer to the HTML below:</p><p><br></p><p>&lt;div id=&quot;main&quot;&gt;</p><p>&lt;ul&gt;</p><p>&lt;li&gt;Leo&lt;/li&gt;</p><p>&lt;li&gt;Tony&lt;/li&gt;</p><p>&lt;li&gt;Tiger&lt;/li&gt;</p><p>&lt;/ul&gt;</p><p>&lt;/div&gt;</p><p><br></p><p>Which JavaScript statement results in changing &quot; Tony&quot; to &quot;Mr. T.&quot;?</p>",
+			"A__c": "document.querySelector(&#39;$main li.Tony&#39;).innerHTML = &#39; Mr. T. &#39;;",
+			"B__c": "document.querySelectorAll(&#39;$main $TONY&#39;).innerHTML = &#39; Mr. T. &#39;;",
+			"C__c": "document.querySelector(&#39;$main li:nth-child(2)&#39;),innerHTML = &#39; Mr. T. &#39;;",
+			"D__c": "document.querySelector(&#39;$main li:second-child&#39;).innerHTML = &#39; Mr. T. &#39;;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=2",
+			"Comment__c": "<pre class=\"ql-syntax\">/* リスト中の 2 番目の &lt;li&gt; 要素を選択 */\nli:nth-child(2) {\n</pre><p>https://developer.mozilla.org/ja/docs/Web/CSS/:nth-child</p><p><br></p><p>innterHTMLでタグ内部を書き換える</p><p>https://qiita.com/mzmz__02/items/7bcbce347bc3c5d64b93</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4HAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>01 let car1 = new promise((_, reject) =&gt; setTimeout(reject, 2000, &quot;Car 1 crashed in&quot;));</p><p>03 let car2 = new Promise(resolve =&gt; setTimeout(resolve, 1500, &quot;Car 2 Completed&quot;));</p><p>04 let car3 = new Promise(resolve =&gt; setTimeout (resolve, 3000, &quot;Car 3 Completed&quot;));</p><p>05 Promise.race([car1, car2, car3])</p><p>06 .then(value =&gt; (</p><p>07 let result = $(value) the race. `;</p><p>08 ))</p><p>09 .catch( err =&gt; (</p><p>10 console.log(&quot;Race is cancelled.&quot;, err);</p><p>11 ));</p><p><br></p><p>What is the value of result when Promise.race executes?</p>",
+			"A__c": "Car 1 crashed in the race.",
+			"B__c": "Race is cancelled.",
+			"C__c": "Car 2 completed the race.",
+			"D__c": "Car 3 completed the race.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=2",
+			"Comment__c": "<p>promise</p><p>https://qiita.com/cheez921/items/41b744e4e002b966391a</p><p><br></p><p>race()</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise/race</p><p>この返されたプロミスは、最初に決定したプロミスの最終的な状態で決定</p><p><br></p><p><br></p><p><span style=\"color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">promise((_, reject)はフォーマルな書き方で無い気がする、後続でresultが使われていないだけだと思われる</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4IAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>Let inArray =[ [ 1, 2 ] , [ 3, 4, 5 ] ];</p><p><br></p><p>Which two statements result in the array [1, 2, 3, 4, 5] ?Choose 2 answers</p>",
+			"A__c": "[ ]. concat ( [ ....inArray ] );",
+			"B__c": "<p>[ ]. concat.apply ([ ], inArray);</p>",
+			"C__c": "[ ]. concat.apply(inArray, [ ]);",
+			"D__c": "<p>[ ]. concat (... inArray);</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=2",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/concat</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Function/apply</p><p>Bはapplyで[]にinArrayの配列をパラメータとして渡し、concatで結合している</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_syntax</p><p>Dはスプレッド演算子で要素を展開している配列に入れて、concatで結合している</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4JAAQ"
+			},
+			"Question__c": "<p>Given the requirement to refactor the code above to JavaScript class format, which class definition is correct?</p><p>A)</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/0c1dd105284e4380533124e4d4f71a48.jpg\"></img></p><p><br></p><p>B)</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/9c582733e2671d4cb4c4509ea26271f7.jpg\"></img></p><p><br></p><p>C)</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5accd3874b983b61234ccced6e4030fd.jpg\"></img></p><p><br></p><p>D)</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/fd2e489036d32c249761c8e4f97b1b9a.jpg\"></img></p>",
+			"A__c": "Option A",
+			"B__c": "Option D",
+			"C__c": "Option B",
+			"D__c": "Option C",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=3",
+			"Comment__c": "<p>コンストラクタの使い方が正しいのはA</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes/constructor</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4KAAQ"
+			},
+			"Question__c": "Which code statement below correctly persists an objects in local Storage ?",
+			"A__c": "const setLocalStorage = (storageKey, jsObject) =&gt; {window.localStorage.persist(storageKey, jsObject);}",
+			"B__c": "const setLocalStorage = (storageKey, jsObject) =&gt; {window.localStorage.setItem(storageKey, JSON.stringify(jsObject));}",
+			"C__c": "const setLocalStorage = ( jsObject) =&gt; {window.localStorage.connectObject(jsObject));}",
+			"D__c": "const setLocalStorage = ( jsObject) =&gt; {window.localStorage.setItem(jsObject);}",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=3",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4LAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:Which value can a developer expect when referencing country,capital,cityString?</p><p><br></p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/ebc573c651b45ffa1036d80b0991075b.jpg\"></img></p>",
+			"A__c": "London&#39;",
+			"B__c": "An error",
+			"C__c": "NaN&#39;",
+			"D__c": "undefined",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=3",
+			"Comment__c": "<p>number(&quot;London&quot;)でNaNが返って、toStringで文字列になる</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Number</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4NAAQ"
+			},
+			"Question__c": "<p>Refer to code below:</p><p>console.log(0);</p><p>setTimeout(() =&gt; (</p><p>console.log(1);</p><p>});</p><p>console.log(2);</p><p>setTimeout(() =&gt; {</p><p>console.log(3);</p><p>), 0);</p><p>console.log(4);</p><p>In which sequence will the numbers be logged?</p>",
+			"A__c": "<p>01234</p>",
+			"B__c": "<p>02413</p>",
+			"C__c": "13024",
+			"D__c": "<p>02431</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=3",
+			"Comment__c": "<p>Delay省略と0は同じ、できるだけ早く実行</p><p>上の行にあるものが最初に処理されるの13の順番になる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4OAAQ"
+			},
+			"Question__c": "<p>Refer to HTML below:</p><p>&lt;p&gt; The current status of an Order: &lt;span id =&quot;status&quot;&gt; In Progress &lt;/span&gt; &lt;/p&gt;.</p><p>Which JavaScript statement changes the text &#39;In Progress&#39; to &#39;Completed&#39; ?</p>",
+			"A__c": "document.getElementById(&quot;#status&quot;).innerHTML = &#39;Completed&#39; ;",
+			"B__c": "document.getElementById(&quot;.status&quot;).innerHTML = &#39;Completed&#39; ;",
+			"C__c": "document.getElementById(&quot;status&quot;).innerHTML = &#39;Completed&#39; ;",
+			"D__c": "document.getElementById(&quot;status&quot;).Value = &#39;Completed&#39; ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=4",
+			"Comment__c": "<p>Id指定</p><p>https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4PAAQ"
+			},
+			"Question__c": "<p>Refer to HTML below:</p><p>&lt;div id =&quot;main&quot;&gt;</p><p>&lt;div id = &quot; card-00&quot;&gt;This card is smaller.&lt;/div&gt;</p><p>&lt;div id = &quot;card-01&quot;&gt;The width and height of this card is determined by its contents.&lt;/div&gt;</p><p>&lt;/div&gt;</p><p>Which expression outputs the screen width of the element with the ID card-01?</p>",
+			"A__c": "document.getElementById(&#39; card-01 &#39;).width",
+			"B__c": "<p>document.getElementById(&#39; card-01 &#39;).getBoundingClientRest().width</p>",
+			"C__c": "document.getElementById(&#39; card-01 &#39;).style.width",
+			"D__c": "document.getElementById(&#39; card-01 &#39;).innerHTML.lenght*e",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=4",
+			"Comment__c": "<p>getBoundingClientRect()で座標取得</p><p>https://developer.mozilla.org/ja/docs/Web/API/Element/getBoundingClientRect</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4QAAQ"
+			},
+			"Question__c": "Which statement accurately describes the behaviour of the async/ await keyworks ?",
+			"A__c": "The associated sometimes returns a promise.",
+			"B__c": "The associated function will always return a promise",
+			"C__c": "The associated function can only be called via asynchronous methods",
+			"D__c": "The associated class contains some asynchronous functions.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=4",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4RAAQ"
+			},
+			"Question__c": "<p>Given the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/923197e17862588bca985f57d4575ee0.jpg\"></img></p><p>What happens when the code executes?</p>",
+			"A__c": "The ur1 variable has local scope and line 02 executes correctly.",
+			"B__c": "The ur1 variables has local scope and line 02 throws an error.",
+			"C__c": "The ur1 variable has global scope and line 02 executes correctly.",
+			"D__c": "The ur1 variable has global scope and line 02 throws an error.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=4",
+			"Comment__c": "<p>回答が違う</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4TAAQ"
+			},
+			"Question__c": "<p>Refer to the following object:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/e0e12dc7e5315697818f71d41a13967d.jpg\"></img></p><p>How can a developer access the fullname property for cat?</p>",
+			"A__c": "Cat.fullname ( )",
+			"B__c": "Cat.function.fullName",
+			"C__c": "Cat,get,fullname",
+			"D__c": "Cat.fullName",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=5",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/get</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4UAAQ"
+			},
+			"Question__c": "<p>Which two code snippets show working examples of a recursive function?</p><p>Choose 2 answers</p>",
+			"A__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/fd9a854df140bd1336a5f159e36fe5d1.jpg\"></img></p>",
+			"B__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/32de700b3893d9f7528a7ac6ee1f5faa.jpg\"></img></p>",
+			"C__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/7e89fcf8fc20ca346693621b8f45a666.jpg\"></img></p>",
+			"D__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5e2d21e9de01b6980f0dae1383dc4db8.jpg\"></img></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=5",
+			"Comment__c": "<p>わからん、ギブ</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4VAAQ"
+			},
+			"Question__c": "<p>Refer to the following code block:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5244119660bd73a55d8791e20e21625c.jpg\"></img></p><p><br></p><p>What is the console output?</p>",
+			"A__c": "&gt; Better student Jackie got 100% on test.",
+			"B__c": "&gt; Better student Jackie got 70% on test.",
+			"C__c": "&gt; Jackie got 70% on test.",
+			"D__c": "&gt; Uncaught Reference Error",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=5",
+			"Comment__c": "<p>問題間違え、Aが正しい</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4YAAQ"
+			},
+			"Question__c": "<p>Given the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/ba16cff80fde9633e9c8896b7fa76067.jpg\"></img></p><p>Which method can be used to provide a visual representation of the list of users and to allow sorting by the name or email attribute?</p>",
+			"A__c": "console.groupCol lapsed (usersList) ;",
+			"B__c": "console.group(usersList) ;",
+			"C__c": "console.table(usersList) ;",
+			"D__c": "console.info(usersList) ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=6",
+			"Comment__c": "<p>console.tableでテーブル表示すると、ヘッダでソートができる、便利</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4ZAAQ"
+			},
+			"Question__c": "<p>A developer has the function, shown below, that is called when a page loads.</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/3915f2ff2bd8287d34f4cb465d5c1e67.jpg\"></img></p><p>Where can the developer see the log statement after loading the page in the browser?</p>",
+			"A__c": "Browser performance tools",
+			"B__c": "Browser javaScript console",
+			"C__c": "On the webpage",
+			"D__c": "Terminal running the web server.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=6",
+			"Comment__c": "<p>画像見えにくいけど、console.log()のこと聞いてる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4aAAA"
+			},
+			"Question__c": "Which statement accurately describes an aspect of promises?",
+			"A__c": "<p>In a , then ( ) function, returning results is not necessary since callback will catch the result of a previous promise.</p>",
+			"B__c": "<p>.Then ( ) cannot be added after a catch.</p>",
+			"C__c": ".then ( ) manipulates and returns the original promise.",
+			"D__c": "Agruments for the callback function passed to .then ( ) are optional.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=6",
+			"Comment__c": "<p>catchはthenの代替にならないのでAは正しくない</p><p>thenはcatchのあとに追加できるのでBは正しくない</p><p>thenはプロマイズオブジェクトを操作するのではなく成功したときの処理を書くのでCは正しくない</p><p>thenの引数はオプションなので正しい、promiseのリターン値をthenの引数にわたすことができる</p><p>https://qiita.com/cheez921/items/41b744e4e002b966391a</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4bAAA"
+			},
+			"Question__c": "Which three browser specific APIs are available for developers to persist data between page loads ?Choose 3 answers",
+			"A__c": "IIFEs",
+			"B__c": "indexedDB",
+			"C__c": "Cookies",
+			"D__c": "localStorage.",
+			"E__c": "Global variables",
+			"F__c": null,
+			"Answer__c": "B,C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=6",
+			"Comment__c": "<p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-three-browser-specific-apis-are-available-for-developers-to-persist-data-between-page-loads-choose</p><p>正解</p><p><br></p><p>IIFEはモジュール化して変数スコープを区切るときに利用する</p><p>https://qiita.com/raccy/items/310b4353a757296f797f</p><p><br></p><p>ローカルストレージとindexedDB</p><p><img src=\"https://cunning-narwhal-9klm1k-dev-ed.file.force.com/servlet/rtaImage?eid=a005i000001nh4b&amp;feoid=00N5i00000ICeFr&amp;refid=0EM5i0000011d1B\" alt=\"image.png\"></img></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4cAAA"
+			},
+			"Question__c": "<p>Refer to the following code that imports a module named utils:</p><p><br></p><p>import (foo, bar) from &#39;/path/Utils.js&#39;;</p><p>foo() ;</p><p>bar() ;</p><p><br></p><p>Which two implementations of Utils.js export foo and bar such that the code above runs without error?</p><p>Choose 2 answers</p>",
+			"A__c": "<p><br></p><p>Export default class {</p><p>foo() { return &#39;foo&#39; ; }</p><p>bar() { return &#39;bar&#39; ; }</p><p>}</p>",
+			"B__c": "<p>const foo = () =&gt; { return &#39;foo&#39; ; }</p><p>const bar = () =&gt; { return &#39;bar&#39; ; }</p><p>export { bar, foo }</p>",
+			"C__c": "<p>// FooUtils.js and BarUtils.js exist</p><p>Import (foo) from &#39;/path/FooUtils.js&#39;;</p><p>Import (boo) from &#39; /path/NarUtils.js&#39;;</p>",
+			"D__c": "<p>const foo = () =&gt; { return &#39;foo&#39;;}</p><p>const bar = () =&gt; {return &#39;bar&#39;; }</p><p>Export default foo, bar;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=7",
+			"Comment__c": "<p>Cはインポート方法、Dは文法間違い</p><p>export方法</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/export</p><p>https://qiita.com/koeri3/items/314ac7b9b73fc8c80a2d</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4dAAA"
+			},
+			"Question__c": "<p>Refer to the code below?</p><p>Let searchString = &#39; look for this &#39;;</p><p>Which two options remove the whitespace from the beginning of searchString?</p><p>Choose 2 answers</p>",
+			"A__c": "<p>searchString.replace(/\\s/, &#39;&#39;);</p>",
+			"B__c": "trimStart(searchString);",
+			"C__c": "searchString.trimEnd();",
+			"D__c": "searchString.trimStart();",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=7",
+			"Comment__c": "<p><br></p><p>trimstart</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4eAAA"
+			},
+			"Question__c": "<p>Universal Container(UC) just launched a new landing page, but users complain that the website is slow. A developer found some functions that cause this problem. To verify this, the developer decides to do everything and log the time each of these three suspicious functions consumes.</p><p>console.time(&#39;Performance&#39;);</p><p>maybeAHeavyFunction();</p><p>thisCouldTakeTooLong();</p><p>orMaybeThisOne();</p><p>console.timeEnd(&#39;Performance&#39;);</p><p>Which function can the developer use to obtain the time spent by every one of the three functions?</p>",
+			"A__c": "console.timeLog()",
+			"B__c": "console.getTime()",
+			"C__c": "console.trace()",
+			"D__c": "console.timeStamp()",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=7",
+			"Comment__c": "<p>出た</p><p>time()で開始、timeLog()でラップ、timeEndで終了</p><p><br></p><p>console.timeLog()</p><p>https://developer.mozilla.org/ja/docs/Web/API/console/timeLog</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4fAAA"
+			},
+			"Question__c": "<p>In the browser, the window object is often used to assign variables that require the broadest scope in an application.</p><p>Node.js application does not have access to the window object by default.</p><p>Which two methods are used to address this ?</p><p>Choose 2 answers</p>",
+			"A__c": "Create a new window object in the root file.",
+			"B__c": "<p>Assign variables to module.</p><p>exports and require them as needed.</p>",
+			"C__c": "Use the document object instead of the window object.",
+			"D__c": "Assign variables to the global object.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=7",
+			"Comment__c": "<p>https://kaimenlife.com/archives/1092/js-globalobject1/</p><p>ウインドウオブジェクトは新規作成できないのでAは不正解</p><p><br></p><p><span style=\"\">モジュール単位でグローバルスコープの変数を用意して利用するのでBは正しい</span></p><p><br></p><p>ドキュメントオブジェクト(DOM、マークアップされた要素のオブジェクト)はウィンドウオブジェクトの代替にはならないのでCは不正解</p><p><br></p><p><span style=\"\">http://www.code-magagine.com/?p=5411</span></p><p>https://kde.hateblo.jp/entry/2017/06/25/205733</p><p><span style=\"\">ブラウザやノードがグローバルオブジェクトにメソッドやプロパティを追加、ユーザも定義できる、Dは正解</span></p><p><br></p><p>なのでBD</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4gAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>const addBy = 7</p><p>const addByEight =addBy(8);</p><p>const sum = addByEight(50);</p><p>Which two function can replace line 01 and return 58 to sum? Choose 2 answers</p>",
+			"A__c": "<p>const addBy = function(num1){</p><p>return function(num2){</p><p>return num1 + num2;</p><p>}</p>",
+			"B__c": "<p>const addBy = (num1) =&gt; (num2) =&gt; num1 + num2;</p><p><br></p>",
+			"C__c": "<p>Const addby = function (num1) (</p><p>Return function (num2) (</p><p>}</p><p>}</p>",
+			"D__c": "const addBy = (num1) num1 + num2",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=7",
+			"Comment__c": "<p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-const-addby-const-addbyeight-addby-8-const-sum-addbyeight-50-which#</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4hAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>flag();</p><p>anotherFlag();</p><p><br></p><p>function flag() {</p><p>console.log(&quot;flag&quot;);</p><p>}</p><p><br></p><p>const anotherFlag = () =&gt; {</p><p>console.log(&quot;anotherFlag&quot;);</p><p>};</p><p><br></p><p><br></p><p><br></p><p>What is result of the code block?</p>",
+			"A__c": "An error is thrown.",
+			"B__c": "The console logs flag&#39; and then an error is thrown.",
+			"C__c": "The console logs only &#39;flag&#39;,",
+			"D__c": "The console logs &#39;flag&#39; and another flag&#39;,",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=8",
+			"Comment__c": "<p>anotherFlagはconstで定義されているので、呼び出す場合は、それ以降でないとエラーになる</p><p>最下部にanotherFlag()を持ってくると成功する</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4iAAA"
+			},
+			"Question__c": "Refer to the HTML below:<p> The current status of an order: &lt; span&gt; id=&#39;&#39; status &#39;&gt; In progress &lt; /span&gt; &lt; /p&gt; Which JavaScript Statement changes the text &#39;In Progress&#39; to Completed&#39;?</p>",
+			"A__c": "Document, getElementById (&#39;&#39;status&#39;&#39;), innerHTML = &#39;Completed&#39; ;",
+			"B__c": "Document, getElementById (&#39;&#39;# status&#39;&#39;), innerHTML = &#39;Completed&#39; ;",
+			"C__c": "Document, getElementById (status&#39;&#39;) , value = completed&#39; ;",
+			"D__c": "Document, getElementById (&#39;&#39;,status&#39;&#39;), innerHTML = &#39;Completed&#39; ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=8",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4jAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>Function changeValue(obj) {</p><p>Obj.value = obj.value/2;</p><p>}</p><p>Const objA = (value: 10);</p><p>Const objB = objA;</p><p>changeValue(objB);</p><p>Const result = objA.value;</p><p><br></p><p>What is the value of result after the code executes?</p>",
+			"A__c": "<p>Undefined</p><p><br></p>",
+			"B__c": "<p>Nan</p><p><br></p>",
+			"C__c": "<p>10</p>",
+			"D__c": "<p>5</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=8",
+			"Comment__c": "<p><span style=\"color: rgb(68, 68, 68);\">objB = objAは参照を代入、代入後、/2されているので5</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4kAAA"
+			},
+			"Question__c": "<p>A developer is working on an ecommerce website where the delivery date is dynamically calculated based on the current day. </p><p>The code line below is responsible for this calculation.</p><p><br></p><p>Const deliveryDate = new Date ();</p><p><span style=\"font-size: 16px; font-family: Lato, sans-serif; color: rgb(53, 76, 94);\"><span class=\"ql-cursor\">﻿</span></span></p><p>Due to changes in the business requirements, the delivery date must now be today&#39;s date + 9 days.</p><p>Which code meets this new requirement?</p>",
+			"A__c": "deliveryDate.date = new Date(+9) ;",
+			"B__c": "deliveryDate.date = Date.current () + 9;",
+			"C__c": "deliveryDate.setDate(( new Date ( )).getDate () +9);",
+			"D__c": "deliveryDate.setDate( Date.current () + 9);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=8",
+			"Comment__c": "<p>new Date()で現在時刻取得</p><p>getDate()で現在時刻の日付を取得して9加算して、setDate()で日付に設定</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4lAAA"
+			},
+			"Question__c": "<p>Given HTML below:</p><p>&lt;div&gt;</p><p>&lt;div id =&quot;row-uc&quot;&gt; Universal Container&lt;/div&gt;</p><p>&lt;div id =&quot;row-aa&quot;&gt;Applied Shipping&lt;/div&gt;</p><p>&lt;div id =&quot;row-bt&quot;&gt; Burlington Textiles &lt;/div&gt;</p><p>&lt;/div&gt;</p><p>Which statement adds the priority-account CSS class to the universal Containers row ?</p>",
+			"A__c": "Document .querySelector(&#39;#row-uc&#39;).classList.add(&#39;priority-account&#39;);",
+			"B__c": "<p>Document.queryElementById(&#39;row-uc&#39;).addclass(&#39;priority-account&#39;);</p>",
+			"C__c": "Document .querySelectorALL(&#39;#row-uc&#39;).classList.add(&#39;priority-account&#39;);",
+			"D__c": "Document .querySelector(&#39;#row-uc&#39;).classes.push(&#39;priority-account&#39;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=8",
+			"Comment__c": "<p>https://www.marks4sure.com/javascript-developer-i-salesforce-certified-javascript-developer-i-questions.html</p><p>正解</p><p><br></p><p>addClass()はJQのメソッド</p><p>JSのみだとclassList.add()</p><p>またLWC環境ではdocumentではなく、this.template.querySelector()が推奨、ID指定はできない(LWC側でサフィックスが自動的に付与される)</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4mAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>new Promise((resolve, reject) =&gt; {</p><p>const fraction = Math.random();</p><p>if( fraction &gt;0.5) reject(&quot;fraction &gt; 0.5, &quot; + fraction);</p><p>resolve(fraction);</p><p>})</p><p>.then(() =&gt;console.log(&quot;resolved&quot;))</p><p>.catch((error) =&gt; console.error(error))</p><p>.finally(() =&gt; console.log(&quot; when am I called?&quot;));</p><p><br></p><p>When does Promise.finally on line 08 get called?</p><p><br></p>",
+			"A__c": "WHen resolved",
+			"B__c": "When resolved or rejected",
+			"C__c": "When resolved and settled",
+			"D__c": "When rejected",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=9",
+			"Comment__c": "<p>promiseは処理順序を約束する</p><p>https://qiita.com/cheez921/items/41b744e4e002b966391a</p><p><br></p><p>finallyはresolveでもrejectでも呼ばれる</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4nAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>01 const server = require(&#39;server&#39;);</p><p>02 /* Insert code here */</p><p><br></p><p>A developer imports a library that creates a web server. </p><p>The imported library uses events and callbacks to start the servers </p><p>Which code should be inserted at the line 03 to set up an event and start the web server ?</p>",
+			"A__c": "serve(( port) =&gt; (",
+			"B__c": "console.log( &#39;Listening on &#39;, port) ;",
+			"C__c": "Server.start ();",
+			"D__c": "server()",
+			"E__c": "server.on(&#39; connect &#39; , ( port) =&gt; {console.log(&#39;Listening on &#39; , port) ;})",
+			"F__c": null,
+			"Answer__c": "E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=9",
+			"Comment__c": "<p>Node.jsでウェブサーバ起動はserver.on()</p><p><br></p><p>node.jsのserver.onはeliminatorを継承している</p><p>https://ja.stackoverflow.com/questions/44422/node-js%E3%81%AEhttp-server-on%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6</p><p>https://nodejs.org/api/events.html#emitteroneventname-listener</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4oAAA"
+			},
+			"Question__c": "<p>A developer has two ways to write a function:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/557491d0690b0a7c373f13e4026c5ee4.jpg\"></img></p><p>After deciding on an option, the developer creates 1000 monster objects.</p><p>How many growl methods are created with Option A and Option B?</p>",
+			"A__c": "<p>1 growl method is created for Option A. 1000 growl methods are created for Option B.</p><p><br></p>",
+			"B__c": "<p>1000 growl methods are created for Option A. 1 growl method is created for Option B.</p><p><br></p>",
+			"C__c": "<p>1 growl method is created regardless of which option is used.</p><p><br></p>",
+			"D__c": "<p>1000 growl methods are created regardless of which option is used.</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=9",
+			"Comment__c": "<p>プロトタイプで追加したメソッドはコピーではなく、参照、メモリ節約できる</p><p>https://qiita.com/saka212/items/e897af630a135981fbc3</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4pAAA"
+			},
+			"Question__c": "<p>is below:</p><p>&lt;input type=&quot;file&quot; onchange=&quot;previewFile()&quot;&gt;</p><p>&lt;img src=&quot;&quot; height=&quot;200&quot; alt=&quot;Image Preview...&quot;/&gt;</p><p><br></p><p>The JavaScript portion is:</p><p>01 function previewFile(){</p><p>02 const preview = document.querySelector(&#39;img&#39;);</p><p>03 const file = document.querySelector(&#39;input[type=file]&#39;).files[0];</p><p>04 //line 4 code</p><p>05 reader.addEventListener(&quot;load&quot;, () =&gt; {</p><p>06 preview.src = reader.result;</p><p>07 },false);</p><p>08 //line 8 code</p><p>09 }</p><p><br></p><p>In lines 04 and 08, which code allows the user to select an image from their local computer , and to display the image in the browser?</p>",
+			"A__c": "<p>.04 const reader = new File();</p><p>08 if (file) URL.createObjectURL(file);</p>",
+			"B__c": "<p>04 const reader = new FileReader();</p><p>08 if (file) URL.createObjectURL(file);</p>",
+			"C__c": "<p>04 const reader = new File();</p><p>08 if (file) reader.readAsDataURL(file);</p>",
+			"D__c": "<p>04 const reader = new FileReader();</p><p>08 if (file) reader.readAsDataURL(file);</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=9",
+			"Comment__c": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">readAsDataURLでローカルファイルを読み込む</span></p><p>https://developer.mozilla.org/ja/docs/Web/API/FileReader/readAsDataURL</p><p><br></p><p>FileReaderでローカルからファイルを読み込むときに使うオブジェクト</p><p>https://developer.mozilla.org/ja/docs/Web/API/FileReader</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4qAAA"
+			},
+			"Question__c": "Which option is true about the strict mode in imported modules?",
+			"A__c": "Add the statement use non-strict; before any other statement in the module to enable not strict mode.",
+			"B__c": "Imported modules are in strict model whether you declare them as such or not.",
+			"C__c": "You can only reference notStrict () functions from the imported module.",
+			"D__c": "Add the statement use strict = false, before any other statements In the module to enable not-strict mode.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=9",
+			"Comment__c": "<p>ストリクトモードは、エラーを返すパターンが増えるようになる</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Strict_mode</p><p><br></p><p>モジュールはデフォルトでストリクトモードで動作、non-strictなんて存在しないのでAは不正解</p><p>Bが正解、強制的にストリクトモードでインポート</p><p>https://www.freecram.net/question/Salesforce.CRT-600.v2021-03-30.q50/which-option-is-true-about-the-strict-mode-in-imported-modules-14</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4rAAA"
+			},
+			"Question__c": "<p>A developer wrote the following code:</p><p><br></p><p>01 let X = object.value;</p><p>02</p><p>03 try {</p><p>04 handleObjectValue(X);</p><p>05 } catch (error) {</p><p>06 handleError(error);</p><p>07 }</p><p><br></p><p>The developer has a getNextValue function to execute after handleObjectValue(), but does not want to execute getNextValue() if an error occurs.</p><p>How can the developer change the code to ensure this behavior?</p>",
+			"A__c": "<p>03 try {</p><p>04 handleObjectValue(x)</p><p>05 .......................</p>",
+			"B__c": "<p>03 try{</p><p>04 handleObjectValue(x);</p><p>05 } catch(error){</p><p>06 handleError(error);</p><p>07 } finally {</p><p>08 getNextValue();</p><p>10 }</p>",
+			"C__c": "<p>03 try{</p><p>04 handleObjectValue(x);</p><p>05 } catch(error){</p><p>06 handleError(error);</p><p>07 }</p><p>08 getNextValue();</p>",
+			"D__c": "<p>03 try{</p><p>04 handleObjectValue(x);</p><p>05 } catch(error){</p><p>06 handleError(error);</p><p>07 } then {</p><p>08 getNextValue();</p><p>09 }</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=10",
+			"Comment__c": "<p>Aは意味不明</p><p>エラー時はgetNextValueをしたくないのが要件</p><p>tryで失敗すればプログラムは終了するのでCが正解</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4sAAA"
+			},
+			"Question__c": "<p>Refer to code below:</p><p>Let productSKU = &#39;8675309&#39; ;</p><p><br></p><p>A developer has a requirement to generate SKU numbers that are always 19 characters long, starting with &#39;sku&#39;, and padded with zeros.</p><p>Which statement assigns the values sku0000000008675309 ?</p>",
+			"A__c": "productSKU = productSKU .padEnd (16. &#39;0&#39;).padstart(19, &#39;sku&#39;);",
+			"B__c": "productSKU = productSKU .padStart (19. &#39;0&#39;).padstart(&#39;sku&#39;);",
+			"C__c": "productSKU = productSKU .padEnd (16. &#39;0&#39;).padstart(&#39;sku&#39;);",
+			"D__c": "productSKU = productSKU .padStart (16. &#39;0&#39;).padstart(19, &#39;sku&#39;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=10",
+			"Comment__c": "<p><span style=\"\">https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/padStart</span></p><p>padStart(桁数, パディング文字)なのでpadStart(16, &#39;0&#39;)で0を付与、さらにpadStart(19, &#39;sku&#39;)でskuを付与してるのでDが正解</p><p>padEndは後ろ側にたすやつ</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4tAAA"
+			},
+			"Question__c": "A developer is wondering whether to use, Promise.then or Promise.catch, especially when a Promise throws an error?Which two promises are rejected?Which 2 are correct?",
+			"A__c": "Promise.reject(&#39;cool error here&#39;).then(error =&gt; console.error(error));",
+			"B__c": "Promise.reject(&#39;cool error here&#39;).catch(error =&gt; console.error(error));",
+			"C__c": "New Promise((resolve, reject) =&gt; (throw &#39;cool error here&#39;}).catch(error =&gt; console.error(error)) ;",
+			"D__c": "New Promise(() =&gt; (throw &#39;cool error here&#39;}).then(null, error =&gt; console.error(error)));",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=10",
+			"Comment__c": "<p>Bはpromise.rejectはcatchでひろうので正解</p><p>Cはスローしているのでcatchでひろうので正解</p><p><br></p><p>promise</p><p>https://qiita.com/cheez921/items/41b744e4e002b966391a</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4uAAA"
+			},
+			"Question__c": "<p>Given the following code:</p><p>Counter = 0;</p><p>const logCounter = () =&gt; {</p><p>console.log(counter);</p><p>);</p><p>logCounter();</p><p>setTimeout(logCounter, 1100);</p><p>setInterval(() =&gt; {</p><p>Counter++</p><p>logCounter();</p><p>}, 1000);</p><p>What is logged by the first four log statements?</p>",
+			"A__c": "0 1 2 2",
+			"B__c": "0 1 2 3",
+			"C__c": "0 1 1 2",
+			"D__c": "0 0 1 2",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=10",
+			"Comment__c": "<p>最初で0</p><p>intervalの初回1</p><p>settimeoutで1</p><p>intervalの二回目で2</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4vAAA"
+			},
+			"Question__c": "<p>Refer to the following code:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/8c178f59f17c468d0c3c1706fc86b381.jpg\"></img></p><p><br></p><p>Which two statements could be inserted at line 17 to enable the function call on line 18?</p><p>Choose 2 answers</p>",
+			"A__c": "Object.assign, assign( 1eo, trigger);",
+			"B__c": "1eo.prototype.roar = ( ) =&gt; ( console.log (They\\&#39;re pretty good1&#39;); );",
+			"C__c": "<p>Object.assign(leo,tony);</p>",
+			"D__c": "<p>leo.roar = () =&gt; { console.log(‘They’re pretty good:’); };</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=10",
+			"Comment__c": "<p>Cはobject.assign(target, source)でオブジェクトのプロパティをコピーしているので正解</p><p>Dはプロパティを無名関数で定義しているので正解</p><p><br></p><p>正解</p><p>https://www.exam4training.com/which-two-statements-could-be-inserted-at-line-17-to-enable-the-function-call-on-line-18/</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4wAAA"
+			},
+			"Question__c": "A developer is debugging a web server that uses Node.js. The server hits a runtime error every third request to an important endpoint on the web server.The developer added a break point to the start script, that is at index, js at the root of the server&#39;s source code. The developer wants to make use of Chrome DevTools to debug.Which command can be run to access DevTools and make sure the breakpoint is hit?",
+			"A__c": "Node --inspect -brk index , js",
+			"B__c": "Node -I index , js",
+			"C__c": "Node inspect index , js",
+			"D__c": "Node -- inspect index ,js",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=11",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4xAAA"
+			},
+			"Question__c": "A developer has a server running with Node.js. the command to start the web server is node server.js. the server started having latency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround.Which command can the web developer run to see what the module is doing during the latency period?",
+			"A__c": "<p>DEBUG=http, https node server,js</p>",
+			"B__c": "<p>NODE_DEBUG=http, https node server,js</p>",
+			"C__c": "<p>DEBUG=true node server,js</p>",
+			"D__c": "<p>NODE_DEBUG=true node server,js</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=11",
+			"Comment__c": "<p>NODE_DEBUGにモジュール指定して起動</p><p><br></p><p>正解</p><p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-03-07.q50/developer-has-a-web-server-running-with-node.js-the-command-to-start-the-web-server-is-node-server-js</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh4zAAA"
+			},
+			"Question__c": "<p>Refer to code below:</p><p><br></p><p>function Person() {</p><p>this.firstName = &#39;John&#39;;</p><p>}</p><p>Person.prototype ={</p><p>Job: x =&gt; &#39;Developer&#39;</p><p>};</p><p>const myFather = new Person();</p><p>const result =myFather.firstName + &#39; &#39; + myFather.job();</p><p>console.log(result);</p><p><br></p><p>What is the value of the result after line 10 executes?</p>",
+			"A__c": "John Developer",
+			"B__c": "Undefined Developer",
+			"C__c": "John undefined",
+			"D__c": "Error: myFather.job is not a function",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=11",
+			"Comment__c": "<p>プロトタイプで既存クラスにメソッドを追加</p><p>https://qiita.com/saka212/items/e897af630a135981fbc3</p><p><br></p><p><span style=\"\">XXX.prototype = {</span></p><p>メソッド名 : 関数</p><p>}</p><p>問題は関数部分がアロー演算子になっている</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh50AAA"
+			},
+			"Question__c": "Given the following code:Let x =(&#39;15&#39; + 10)*2;What is the value of a?",
+			"A__c": "3020",
+			"B__c": "35",
+			"C__c": "50",
+			"D__c": "1520",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=11",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh51AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>\t\tconst searchText = &quot;Yay! Salesforce is amazing!&quot;;</p><p>\t\tlet result1 = searchText.search(/sales/i);</p><p>\t\tlet result2 = searchText.search(/sales/);</p><p>\t\tconsole.log(result1);</p><p>\t\tconsole.log(result2);</p><p><br></p><p>After running this code, which result is displayed on the console?</p>",
+			"A__c": "<p>&gt; true </p><p>&gt; false</p>",
+			"B__c": "<p>&gt; 5 </p><p>&gt;undefined</p>",
+			"C__c": "<p>&gt; 5 </p><p>&gt; -1</p>",
+			"D__c": "<p>&gt; 5</p><p>&gt; 0</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=12",
+			"Comment__c": "<p>出た</p><p>iで大文字・小文字を含めて検索</p><p>一致しない場合は-1を返す</p><p><br></p><p>https://www.sejuku.net/blog/21049</p><p>indexOf(文字列, 開始位置)も出た</p><p>一致しない場合は-1を返す</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh52AAA"
+			},
+			"Question__c": "<p>Universal Containers (UC) notices that its application that allows users to search for accounts makes a network request each time a key is pressed. This results in too many requests for the server to handle.* Address this problem, UC decides to implement a debounce function on string change handler.</p><p><br></p><p>Choose 2 answers:</p>",
+			"A__c": "If there is an existing setTimeout and the search string changes, cancel the existing setTimeout using the persisted timerId and replace it with a new setTimeout.",
+			"B__c": "Store the timeId of the setTimeout last enqueued by the search string change handle.",
+			"C__c": "When the search string changes, enqueue the request within a setTimeout.",
+			"D__c": "Ensure that the network request has the property debounce set to true.",
+			"E__c": "If there is an existing setTimeout and the search string change, allow the existing setTimeout to finish, and do not enqueue a new setTimeout.",
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=12",
+			"Comment__c": "<p>https://github.com/trailheadapps/ebikes-lwc/blob/main/force-app/main/default/lwc/productFilter/productFilter.js</p><p>既存タイムアウト値があればクリア、なければセットタイムアウトのディレイ後にリクエスト実行</p><p>実際は下記のような実装になる</p><p><br></p><p>    window.clearTimeout(this.delayTimeout);  // ここで既存タイムアウト値を初期化し、処理キャンセル</p><p>    // eslint-disable-next-line @lwc/lwc/no-async-operation</p><p>    this.delayTimeout = setTimeout(() =&gt; { // 新規でタイムアウト後に処理を実行</p><p>      // Published ProductsFiltered message</p><p>      publish(this.messageContext, PRODUCTS_FILTERED_MESSAGE, {</p><p>        filters: this.filters</p><p>      });</p><p>    }, DELAY);</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh53AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>    function myFunction(reassign) {</p><p>      let x = 1;</p><p>      var y = 1;</p><p>      if (reassign) {</p><p>        let x = 2;</p><p>        var y = 2;</p><p>        console.log(x);</p><p>        console.log(y);</p><p>      }</p><p>      console.log(x);</p><p>      console.log(y);</p><p>    }</p><p><br></p><p><br></p><p><br></p><p>What is displayed when myfunction(true) is called?</p>",
+			"A__c": "2 2 2 2",
+			"B__c": "2 2 1 2",
+			"C__c": "2 2 1 1",
+			"D__c": "2 2 undefined undefined",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=12",
+			"Comment__c": "<p>ifセクションの中で定義された変数はそのセクション内でのみ有効</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh54AAA"
+			},
+			"Question__c": "<p>At Universal Containers, every team has its own way of copying JavaScript objects. </p><p>The code Snippet shows an implementation from one team:</p><p><br></p><p>function Person() {</p><p>this.firstName = &quot;John&quot;;</p><p>this.lastName = &#39;Doe&#39;;</p><p>this.name =() =&gt; (</p><p>console.log(&#39;Hello $(this.firstName) $(this.firstName)&#39;);</p><p>)}</p><p><br></p><p>const john = new Person ();</p><p>const dan = JSON.parse(JSON.stringify(john));</p><p>dan.firstName =&#39;Dan&#39;;</p><p>dan.name();</p><p><br></p><p>What is the Output of the code execution?</p>",
+			"A__c": "TypeError: dan.name is not a function",
+			"B__c": "Hello John DOe",
+			"C__c": "TypeError: Assignment to constant variable.",
+			"D__c": "Hello Dan Doe",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=12",
+			"Comment__c": "<p>new</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/new</p><p><br></p><p>new で関数を指定していると思いきや、クラスのコンストラクタをnewする時と指定と同じでオブジェクトが生成される</p><p>結果、JSON.stringfyでオブジェクトを読み込ませんている</p><p>nameプロパティにアロー演算子の無名関数で値を入れているだけで、nameは関数ではないので<span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">TypeError: dan.name is not a functionが正解</span></p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/new</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh55AAA"
+			},
+			"Question__c": "<p>Which two console logs out NaN?</p><p>Choose 2 answers</p>",
+			"A__c": "Console.log(10 / Number (&#39;5) );",
+			"B__c": "Console.log(10 / &#39;five&#39; &#39;) ;",
+			"C__c": "Console.log(parseint (&#39;two&#39;) ) ;",
+			"D__c": "Console.log (10 / 0);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=12",
+			"Comment__c": "<p>https://note.affi-sapo-sv.com/js-what-is-nan.php</p><p>NaNはNot-a-Number 、対象が数値じゃなかったから処理できませんでしたの意味</p><p>100 * &#39;abc&#39;とか parseInt(&#39;abc&#39;)とか</p><p>ちなみに10/0は Infinityになる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh56AAA"
+			},
+			"Question__c": "<p>What is unique feature of function defined with a fat arrow as compared to normal functional definition?</p><p>Choose 1 answers</p>",
+			"A__c": "The function uses the this from the enclosing scope.",
+			"B__c": "The function receives an argument that is always in scope, called parent this, which is the enclosing lexical scope",
+			"C__c": "The function generation its own this making it useful for separating the function&#39;s scope its enclosing scope",
+			"D__c": "If the function has a single expression in the function body, the expression will be evaluated and implicitly returned.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=13",
+			"Comment__c": "<p>正解</p><p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-03-07.q50/what-are-two-unique-features-of-functions-defined-with-a-fat-arrow-as-compared-to-normal-function-definiti</p><p>アロー関数は自身のthisを持たないのでA,Cは不正解</p><p>https://tech.adseed.co.jp/js-arrow-this</p><p>ちなみにアロー関数内でthisを使った場合は、呼び出し時点のthisが利用される</p><p><br></p><p>アロー関数利用時に引数について、通常関数と比較して特にスコープ周りの制限は無いのでBは不正解</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions</p><p><br></p><p>関数本体部分が単一式の場合は、暗黙リターンになるのでDは正しい</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions#%E9%96%A2%E6%95%B0%E3%81%AE%E6%9C%AC%E4%BD%93</p><p><br></p><p>レキシカルスコープは、変数宣言時に同じ階層で有効化される意味、例えばIFセクション内と外で同じ変数名が定義できるのは、JSがレキシカルスコープの特徴を持つから</p><p>https://uraway.hatenablog.com/entry/2018/01/24/120000</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh57AAA"
+			},
+			"Question__c": "<p>bar, awesome is a popular JavaScript module. the versions publish to npm are:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/2563dfd2785fc8b608fde92c821eba38.jpg\"></img></p><p><br></p><p>Teams at Universal Containers use this module in a number of projects. A particular project has the package, json definition below.</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/018cc335774336614469746524f9a486.jpg\"></img></p><p><br></p><p>A developer runs this command: npm install.</p><p>Which version of bar .awesome is installed?</p>",
+			"A__c": "1.4.0",
+			"B__c": "1.3.1",
+			"C__c": "The command fails, because version 130 is not found",
+			"D__c": "1.3.5",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=13",
+			"Comment__c": "<p>https://qiita.com/chihiro/items/5826678bc9287fb57a28</p><p>チルダは「以上」を意味する、~1.3.0は 1.3.0 &lt;= x &lt; 1.4.0の範囲で最新、つまり1.3.5が入る</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh58AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5e98698e1e4861dfc04b15e3bd097ea6.jpg\"></img></p><p><br></p><p>Which statement allows a developer to cancel the scheduled timed function?</p>",
+			"A__c": "ClearTimeout (timerId) ;",
+			"B__c": "ClearTimeout (timeFunction);",
+			"C__c": "removeTimeout (timerId) ;",
+			"D__c": "removeTimeout (timeFunction) ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=13",
+			"Comment__c": "<p>clerarTimeout</p><p>https://developer.mozilla.org/ja/docs/Web/API/clearTimeout</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5AAAQ"
+			},
+			"Question__c": "<p>Refer to the following code that performs a basic mathematical operation on a provided input:</p><p>function calculate(num) {</p><p>Return (num +10) / 3;</p><p>}</p><p><br></p><p>How should line 02 be written to ensure that x evaluates to 6 in the line below?</p><p>Let x = calculate (&#39;8&#39;);</p>",
+			"A__c": "<p>Return (Number (num) + 10) / 3);</p>",
+			"B__c": "Return integer (num + 10) / 3;",
+			"C__c": "Return Number (num + 10) / 3;",
+			"D__c": "Return Number (num + 10) / 3;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=13",
+			"Comment__c": "<p>Number()でIntegerにキャスト</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5BAAQ"
+			},
+			"Question__c": "A team that works on a big project uses npm to deal with the project&#39;s dependencies.A developer added a dependency to manipulated dates and pushed the updates to the remote repository. The rest of the team complains that the dependency does not get download when they execute npm install.Which two reason could be possible explanation for this?",
+			"A__c": "<p>The developer added the dependency as a dev dependency, and NODE_ENV is set to production.</p>",
+			"B__c": "<p>The developer missed the option -save when adding the dependency.</p>",
+			"C__c": "The developer missed the option - add when adding the dependency.",
+			"D__c": "<p><span style=\"color: rgb(68, 68, 68);\">The developer added the dependency as a dev dependency, and NODE_ENV is set to development.</span></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=14",
+			"Comment__c": "<p>package.json生成時にsave忘れ、Bが正解</p><p>package.jsonのdevとENVでは本番を指定していた、Aが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5CAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>let o = {</p><p class=\"ql-indent-1\">get js() {</p><p class=\"ql-indent-2\">let city1 = String(&quot;st. Louis&quot;);</p><p class=\"ql-indent-2\">let city2 = String(&quot; New York&quot;);</p><p class=\"ql-indent-2\">return {</p><p class=\"ql-indent-3\">firstCity: city1.toLowerCase(),</p><p class=\"ql-indent-3\">secondCity: city2.toLowerCase(),</p><p class=\"ql-indent-2\">}</p><p class=\"ql-indent-1\">}</p><p>}</p><p><br></p><p>What value can a developer expect when referencing o.js.secondCity?</p>",
+			"A__c": "new york &#39;",
+			"B__c": "Undefined",
+			"C__c": "An error",
+			"D__c": "New York &#39;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=14",
+			"Comment__c": "<p>New Yorkが小文字になるのでAが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5DAAQ"
+			},
+			"Question__c": "<p>A developer is setting up a new Node.js server with a client library that is built using events and callbacks.</p><p>The library:</p><p>* Will establish a web socket connection and handle receipt of messages to the server</p><p>* Will be imported with require, and made available with a variable called ws.</p><p><br></p><p>The developer also wants to add error logging if a connection fails.</p><p>Given this information, which code segment show the correct way to set up a client two events that listen at execution time?</p>",
+			"A__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/43d21bacfd1a73f82755fda8b475461b.jpg\"></img></p>",
+			"B__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/53b3bd5d824d4910168a083025970a9c.jpg\"></img></p>",
+			"C__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/4c00756ab275aeb900b5ba70ff87c360.jpg\"></img></p>",
+			"D__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/1c76d87a78dba82c2f9bbbe587291b32.jpg\"></img></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=14",
+			"Comment__c": "<p>Dかなぁ？</p><p>ノードのwsのことかしら？</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5FAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/b579ea309ad939c9ab63d1a1cf282ed1.jpg\"></img></p><p><br></p><p>Considering that JavaScript is single-threaded, what is the output of line 08 after the code executes?</p>",
+			"A__c": "12",
+			"B__c": "11",
+			"C__c": "10",
+			"D__c": "13",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=14",
+			"Comment__c": "<p>https://stackoverflow.com/questions/7648557/setinterval-behaviour-with-0-milliseconds-in-javascript</p><p>0指定は可能な限り早くになり、ブラウザ依存になる、バッドプラクティスらしい</p><p>setIntervalの結果はプロミスではないので、処理が終わったら表示される</p><p>なので最後のtotal++ のみが反映された11が表示、その後、setInerval内のtatal++が順次処理されるので正解はB</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5GAAQ"
+			},
+			"Question__c": "<p>GIven a value, which three options can a developer use to detect if the value is NaN?</p><p><br></p><p>Choose 2 answers !</p>",
+			"A__c": "<p>value !== value</p>",
+			"B__c": "Number.isNaN(value)",
+			"C__c": "Object.is(value, NaN)",
+			"D__c": "value == NaN",
+			"E__c": "value === Number.NaN",
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=15",
+			"Comment__c": "<p>https://note.affi-sapo-sv.com/js-what-is-nan.php#i4</p><p>基本はNumber.isNaN()を使う、isNaN()はもう使わない</p><p>NaN以外の値は自分自身を等価比較してもtrueになる、逆に<span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">NaNは自分自身を等価比較してもfalseになる性質がある、</span>なのでvalue !== value でNaNを検出するトリッキーな方法もある</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5HAAQ"
+			},
+			"Question__c": "<p>Given the following code:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/13137203add1275ab04e742f8a52335a.jpg\"></img></p><p>Which replacement for the conditional statement on line 02 allows a developer to correctly determine that a button on the page is clicked?</p>",
+			"A__c": "Event, clicked",
+			"B__c": "button.addEventListener ( &#39;click&#39;)",
+			"C__c": "o.nodeTarget == this",
+			"D__c": "<p>Event.target.nodeName == &#39;BUTTON&quot;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=15",
+			"Comment__c": "<p>下記で動作する</p><p>nodeNameでタグ名を取得できる</p><p><br></p><p>\t&lt;button class=&quot;favorite styled&quot; type=&quot;button&quot;&gt;Add to favorites&lt;/button&gt;</p><p><br></p><p>\t\tlet button = this.template.querySelector(&quot;button&quot;);</p><p>\t\tbutton.addEventListener(&quot;click&quot;, (event) =&gt; {</p><p>\t\t\tif (event.target.nodeName === &quot;BUTTON&quot;) {</p><p>\t\t\t\tconsole.log(&quot;fire&quot;);</p><p>\t\t\t}</p><p>\t\t});</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5IAAQ"
+			},
+			"Question__c": "A developer has the following array of student test grades:Let arr = [ 7, 8, 5, 8, 9 ];The Teacher wants to double each score and then see an array of the students who scored more than 15 points.How should the developer implement the request?",
+			"A__c": "Let arr1 = arr.filter(( val) =&gt; ( return val &gt; 15 )) .map (( num) =&gt; ( return num *2 ))",
+			"B__c": "Let arr1 = arr.map((num) =&gt; num*2). Filter (( val) =&gt; val &gt; 15);",
+			"C__c": "Let arr1 = arr.map((num) =&gt; ( num *2)).filterBy((val) =&gt; ( val &gt;15 ));",
+			"D__c": "Let arr1 = arr.mapBy (( num) =&gt; ( return num *2 )) .filterBy (( val ) =&gt; return val &gt; 15 )) ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=15",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5JAAQ"
+			},
+			"Question__c": "<p>Refer to the code snippet below:</p><p>Let array = [1, 2, 3, 4, 4, 5, 4, 4];</p><p>For (let i =0; i &lt; array.length; i++)</p><p>if (array[i] === 4) {</p><p>array.splice(i, 1);</p><p>}</p><p>}</p><p><br></p><p>What is the value of array after the code executes?</p>",
+			"A__c": "[1, 2, 3, 4, 5, 4, 4]",
+			"B__c": "[1, 2, 3, 4, 4, 5, 4]",
+			"C__c": "[1, 2, 3, 5]",
+			"D__c": "[1, 2, 3, 4, 5, 4]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=15",
+			"Comment__c": "<p>splice(位置, 1)で配列の要素を削除している</p><p>削除が発生するのは</p><p>i = 3の時、[1, 2, 3, 4, 4, 5, 4, 4]が<span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">[1, 2, 3, 4, 5, 4, 4]になる</span></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">i = 5の時、[1, 2, 3, 4, 5, 4, 4]が[1, 2, 3, 4, 5, 4]になる</span></p><p>なのでDが正しい</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5KAAQ"
+			},
+			"Question__c": "<p>developer wants to use a module named universalContainersLib and them call functions from it.</p><p>How should a developer import every function from the module and then call the fuctions foo and bar ?</p>",
+			"A__c": "<p>import * from &#39;/path/universalContaineraLib.js&#39;;</p><p>universalContainersLib.foo();</p><p>universalContainersLib.bar();</p>",
+			"B__c": "<p>import all from &#39;/path/universalContaineraLib.js&#39;;</p><p>universalContainersLib.foo();</p><p>universalContainersLib.bar();</p>",
+			"C__c": "<p>import {foo, bar} from &#39;/path/universalContainersLib.js&#39;;</p><p>foo();</p><p>bar();</p>",
+			"D__c": "<p> import * ad lib from &#39;/path/universalContainersLib.js&#39;;</p><p>lib.foo();</p><p>lib.bar();</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=15",
+			"Comment__c": "<p>import</p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/import</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5MAAQ"
+			},
+			"Question__c": "<p>Considering type coercion, what does the following expression evaluate to?</p><p>true + &#39;13&#39; + NaN</p>",
+			"A__c": "<p>&#39; true13NaN&#39;</p>",
+			"B__c": "<p>&#39; true13 &#39;</p>",
+			"C__c": "<p>14</p>",
+			"D__c": "<p> &#39; 113Nan &#39;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=16",
+			"Comment__c": "<p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/considering-type-coercion-what-does-the-following-expression-evaluate-to-true-13-nan</p><p><br></p><p>string にキャストされる</p><p>\t\tconst a = true + &quot;13&quot; + NaN;</p><p>\t\tconsole.log(a); // true13NaN</p><p>\t\tconsole.log(typeof a); // string</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5NAAQ"
+			},
+			"Question__c": "A developer has an ErrorHandler module that contains multiple functions.What kind of export be leverages so that multiple functions can be used?",
+			"A__c": "Multi",
+			"B__c": "Named",
+			"C__c": "All",
+			"D__c": "Default",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=16",
+			"Comment__c": "<p>揉めてる人たちがいる</p><p>https://jsnotice.com/posts/2021-01-30/</p><p>https://blog.uhy.ooo/entry/2021-09-09/answer-named-export/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5OAAQ"
+			},
+			"Question__c": "<p>A developer is trying to handle an error within a function.Which code segment shows the correct approach to handle an error without propagating it elsewhere?</p>",
+			"A__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/128f8f62a62bcaa1998ed5acf7df75d0.jpg\"></img></p>",
+			"B__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/55da33b60ff1aa24576c3a619e00882d.jpg\"></img></p>",
+			"C__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/a929121e2807f465690522e81cca4043.jpg\"></img></p>",
+			"D__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/0dbc3b40cff96e62e50a05d8b7303658.jpg\"></img></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=16",
+			"Comment__c": "<p>関数の中でerrorを処理したいのでDが正解</p><p>他はリターンやスローしてるので不正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5PAAQ"
+			},
+			"Question__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/1e5f0b25402605307ed5e0b6b9e7e06c.jpg\" style=\"\"></img></p><p>Given the requirement to refactor the code above to JavaScript class format, which class definition is correct?</p>",
+			"A__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/b59db5dcbda078c6595af5852d1fa964.jpg\"></img></p>",
+			"B__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/9591d190def0b96676af2a581cfe1be8.jpg\"></img></p>",
+			"C__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/8fadfcd2899a4c6ce8349c4387615465.jpg\"></img></p>",
+			"D__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/81f147e7e73656463b35b9277f171bca.jpg\"></img></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=16",
+			"Comment__c": "<p>Bはconstructorがないので不正解</p><p>Cはthis指定がないので不正解</p><p>Dはconstructorのパラメータ指定ができないので不正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5QAAQ"
+			},
+			"Question__c": "<p>A developer writes the code below to calculate the factorial of a given number.What is the result of executing line 04?</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/fe7ea4133d393d1ce934dad50cbf88b7.jpg\"></img></p>",
+			"A__c": "6",
+			"B__c": "0",
+			"C__c": "<p>RangeError</p>",
+			"D__c": "<p>-Infinity</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=17",
+			"Comment__c": "<p>Uncaught (in promise) RangeError: Maximum call stack size exceeded</p><p><br></p><p>numberは自然数ではないので、ランタイムエラーが発生するまでfactorial(numbrer - 1)が再帰的に呼び出されるのでCが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5RAAQ"
+			},
+			"Question__c": "<p>Which three actions can be using the JavaScript browser console?</p><p>Choose 4 answers:</p>",
+			"A__c": "View and change DOM the page.",
+			"B__c": "Display a report showing the performance of a page.",
+			"C__c": "View and change security cookies.",
+			"D__c": "view , change, and debug the JavaScript code of the page.",
+			"E__c": "Run code that is not related to page.",
+			"F__c": null,
+			"Answer__c": "A,B,D,E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=17",
+			"Comment__c": "<p><span style=\"color: rgb(68, 68, 68);\">要素タブで要素を参照したり変更できるのでAは正解</span></p><p><span style=\"color: rgb(68, 68, 68);\">パフォーマンスページでレポート取得できるのでBも正解な気がする</span></p><p>クッキー書き換えるのはアプリケーションページなのでCは不正解</p><p>ソースタブでJSソースにブレークポイント仕掛けたりできるのでDは正解</p><p>コンソールタブでJS実行できるのでEは正解</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5TAAQ"
+			},
+			"Question__c": "A developer wants to set up a secure web server with Node.js. The developer creates a directory locally called app-server, and the first file is app-server/index.js Without using any third-party libraries, what should the developer add to index.js to create the secure web server?",
+			"A__c": "const tls = require(&#39;tls&#39;);",
+			"B__c": "const server =require(&#39;secure-server&#39;);",
+			"C__c": "const http =require(&#39;http&#39;);",
+			"D__c": "const https =require(&#39;https&#39;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=17",
+			"Comment__c": "<p>require(&#39;https&#39;)</p><p>https://qiita.com/r-yanyo/items/3ef153dac12e69a2c46c</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5UAAQ"
+			},
+			"Question__c": "<p>A developer creates a new web server that uses Node.js. </p><p>It imports a server library that uses events and callbacks for handling server functionality.</p><p>The server library is imported with require and is made available to the code by a variable named server. </p><p>The developer wants to log any issues that the server has while booting up.</p><p>Given the code and the information the developer has, which code logs an error at boot time with an event?</p>",
+			"A__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5afed94f10d67c6f69c0d575f07e39d6.jpg\"></img></p>",
+			"B__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/4624c7e28de954b01fee94ad514a1fc8.jpg\"></img></p>",
+			"C__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/09af5d58933779713dc9fd96cd324ef8.jpg\"></img></p>",
+			"D__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/02605776427bdcb07753edb56bdd0247.jpg\"></img></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=17",
+			"Comment__c": "<p>nodeのserver制御、よくわからん</p><p><br></p><p>https://www.yoheim.net/blog.php?q=20131102</p><p>process.on(&#39;event&#39;, callback)のようなやり方もあれば</p><p><br></p><p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-03-07.q50/developer-creates-a-new-web-server-that-uses-node.js-it-imports-a-server-library-that-uses-events-and</p><p>try catch正解の声もある</p><p><br></p><p>server.onのガイドはなく、httpはemitterを継承してるので、emitterをみること</p><p>https://nodejs.org/api/events.html#emitteroneventname-listener</p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">https://nodejs.org/api/http.html</span></p><p>あー、わかった、httpで&#39;error’イベントはない</p><p>なのでtry catchが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5VAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/6828c5a2cb45fb88219ecf16a0a20c20.jpg\"></img></p><p><br></p><p>What is the output after the ode executes successfully?</p>",
+			"A__c": "<p>Start</p><p>Success</p><p>End</p>",
+			"B__c": "<p>End</p><p>Start</p><p>Success</p>",
+			"C__c": "<p>Start</p><p>End</p><p>Success</p>",
+			"D__c": "<p>Success</p><p>Start</p><p>End</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=18",
+			"Comment__c": "<p>非同期は後ろに一度、回されるので、Cが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5WAAQ"
+			},
+			"Question__c": "<p>Given the JavaScript below:</p><p>01 function filterDOM (searchString) {</p><p>02 const parsedSearchString = searchString &amp;&amp; searchString.toLowerCase() ;</p><p>03 document.quesrySelectorAll(&#39; .account&#39; ) . forEach(account =&gt; (</p><p>04 const accountName = account.innerHTML.toLOwerCase();</p><p>05 account.Style.display = accountName.includes(parsedSearchString) ? /*Insert code*/;</p><p>06 )};</p><p>07 }</p><p><br></p><p>Which code should replace the placeholder comment on line 05 to hide accounts that do not match the search string?</p>",
+			"A__c": "<p>&#39;visible &#39; : &#39; hidden &#39;</p>",
+			"B__c": "<p>&#39;Block &#39; : &#39; none &#39;</p>",
+			"C__c": "<p>&#39;hidden &#39; : &#39; visible &#39;</p>",
+			"D__c": "<p>&#39;name &#39; : &#39; block &#39;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=18",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Logical_AND</p><p>https://qiita.com/may88seiji/items/760518eac3b4b96a9218</p><p>02 const parsedSearchString = searchString &amp;&amp; searchString.toLowerCase() ;</p><p>短絡演算子で<span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">searchStringがfalsyな値の場合は、searchString.toLowerCase();が実行されない</span></p><p><br></p><p><span style=\"\">https://makky12.hatenablog.com/entry/2022/10/24/120500</span></p><p>falsyな値は 0, &quot;&quot;, null, undefined, NaN, false</p><p><br></p><p>論理積&amp;&amp;の短絡演算の使い所</p><p>実行するとエラーになるような処理をスキップしたい</p><p>今回のケース</p><p>const a = null;</p><p>const b = a &amp;&amp; a.toLowerCase(a);</p><p><br></p><p>論理和||の短絡演算の使いどころ</p><p>デフォルト値を入れる</p><p>const a = null;</p><p>const b = a || &quot;default value&quot;;</p><p><br></p><p><span style=\"\">https://itsakura.com/javascript-display</span></p><p>三項演算子とStyle.displayの内容を聞いている、blockが表示、noneが非表示なので、Bが正解</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5XAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/4ef01c7568c83b93f5dfb30804490771.jpg\"></img></p><p><br></p><p>Which code executes syhello once, two minutes from now?</p><p>select 2</p>",
+			"A__c": "<p>setTimeout (sayhello, 120000) ;</p>",
+			"B__c": "<p>setInterval (sayhello, 120000) ;</p>",
+			"C__c": "<p>setTimeout (sayhello( ), 120000) ;</p>",
+			"D__c": "delay (sayhello, 120000) ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=18",
+			"Comment__c": "<p>A, Cが正解</p><p>Cやると出力はされるがエラーが発生する、意味不明</p><p>Refused to evaluate a string as JavaScript because &#39;unsafe-eval&#39; is not an allowed source of script in the following Content Security Policy directive: &quot;script-src &#39;self&#39; &#39;nonce-ef392c87-05c5-46c8-a84b-770441a29c2f&#39;&quot;.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5YAAQ"
+			},
+			"Question__c": "<p>Refer to the following object:</p><p>const cat ={</p><p>firstName: &#39;Fancy&#39;,</p><p>lastName: &#39; Whiskers&#39;,</p><p>Get fullName() {</p><p>return this.firstName + &#39; &#39; + this.lastName;</p><p>}</p><p>};</p><p><br></p><p>How can a developer access the fullName property for cat?</p>",
+			"A__c": "cat.function.fullName()",
+			"B__c": "cat.fullName",
+			"C__c": "cat.get.fullName",
+			"D__c": "cat.fullName()",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=18",
+			"Comment__c": "<p>ゲッタープロパティが設定されているだけ、プロパティ値の取得は同じなのでBが正解</p><p>オブジェクト名.プロパティ</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5ZAAQ"
+			},
+			"Question__c": "<p>Given the following code:</p><p>Let x = (&#39;15&#39; +10) * 2;</p><p><br></p><p>What is the value of x?</p>",
+			"A__c": "50",
+			"B__c": "35",
+			"C__c": "1520",
+			"D__c": "3020",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=18",
+			"Comment__c": "<p>https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/given-the-following-code-let-x-15-10-2-what-is-the-value-of-a</p><p><br></p><p>(&quot;15&quot; + 10) はキャストされてString &quot;1510&quot;になる、数字と数字文字列の和はストリングになる</p><p>&quot;1510&quot; * 2 はキャストされてInteger 3020になる、数字と数字文字列の積は数値になる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5aAAA"
+			},
+			"Question__c": "<p>A developer wants to use a try...catch statement to catch any error that countSheep () may throw and pass it to a handleError () function.</p><p>What is the correct implementation of the try...catch?</p>",
+			"A__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/7b8fd3de042ac372d2005e2b5a32daf6.jpg\"></img></p>",
+			"B__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/abf0825b60942d94653397c2ab45e907.jpg\"></img></p>",
+			"C__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/0de4089e0f5ce972d8b82ae60ddf5886.jpg\"></img></p>",
+			"D__c": "<p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5146792e2a2d291775144167de08ba26.jpg\"></img></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=19",
+			"Comment__c": "<p>B, Dは構文間違いなので不正解</p><p>https://qiita.com/Tsuyoshi84/items/c50fbbf30a2af387efdf</p><p>https://attacomsian.com/blog/javascript-catch-exception-inside-settimeout-setinterval</p><p>トライキャッチは同期で実行するので、setTimeoutは非同期なのでAはUncaught Errorになり不正解</p><p><span style=\"\">Cが正解</span></p><p>プロミスでラップする方法と、setTimeoutの中でトライキャッチする方法があるけど、setTimeoutのほうがわかりやすい</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5bAAA"
+			},
+			"Question__c": "<p>Given the following code:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/89c79fa8342700435ff491a03aa5bb98.jpg\"></img></p><p><br></p><p>What is the output of line 02?</p>",
+			"A__c": "&#39;x&#39;&#39;",
+			"B__c": "&#39;Undefined&#39;&#39;",
+			"C__c": "&#39;null&#39;&#39;",
+			"D__c": "&#39;object&#39;&#39;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=19",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/null</p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">nullはtypeofがobjectなのは歴史的な理由らしい</span></p><p><br></p><p>https://think49.hatenadiary.org/entry/20120114/1326554107</p><p>納期に押されてやっちまったぜ！らしい、、、</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5dAAA"
+			},
+			"Question__c": "Considering type coercion, what does the following expression evaluate to?True + &#39;13&#39; + NaN",
+			"A__c": "14",
+			"B__c": "true13NaN &#39;",
+			"C__c": "113Nan &#39;",
+			"D__c": "true13 &#39;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=19",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5eAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>Let searchString = &#39; Look for this &#39;;</p><p><br></p><p>Which two options remove the whitespace from the beginning of searchString? Choose 2 answers</p>",
+			"A__c": "<p>searchString.replace(/^\\s/, &#39;&#39;);﻿</p>",
+			"B__c": "trimStart (searchString) ;",
+			"C__c": "searchString. trimEnd ( ) ;",
+			"D__c": "searchString. trimstart ( ) ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=19",
+			"Comment__c": "<p>trimStart(), replace() ともに、もとの値を変化させない</p><p>replaceの第一引数で正規表現を使う時はクォートで囲まない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5fAAA"
+			},
+			"Question__c": "A developer is leading the creation of a new browser application that will serve a single page application. The team wants to use a new web framework Minimalsit.js. The Lead developer wants to advocate for a more seasoned web framework that already has a community around it.Which two frameworks should the lead developer advocate for?Choose 2 answers",
+			"A__c": "Koa",
+			"B__c": "Express",
+			"C__c": "Vue",
+			"D__c": "Angular",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=20",
+			"Comment__c": "<p>https://qiita.com/kei-nakoshi/items/c513bbf52c66250c6d2a</p><p>koa 最小の機能、全部入りでないのでSPA向けではないので不正解</p><p><br></p><p>https://ja.wikipedia.org/wiki/Express.js</p><p>express シングル・マルチでデザインされているので正解</p><p><br></p><p>https://ja.wikipedia.org/wiki/Vue.js</p><p>vue 一応シングルも作れるのでグレー</p><p><br></p><p>https://ja.wikipedia.org/wiki/Angular</p><p>angular シングル向け</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5gAAA"
+			},
+			"Question__c": "<p>Refer to the code:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/236bbe35739127a754b13c73a4e51a4c.jpg\"></img></p><p><br></p><p>Given the code above, which three properties are set pet1?</p><p>Choose 3 answers:</p>",
+			"A__c": "Name",
+			"B__c": "Type",
+			"C__c": "canTalk",
+			"D__c": "Size",
+			"E__c": "Owner",
+			"F__c": null,
+			"Answer__c": "B,C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=20",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Function/call</p><p>call()で別オブジェクトの関数を呼び出して、自身に割り当てる、Animal.call(this, size, type)で、sizeとtypeに短絡演算子によるデフォルト値とcanTalkがセットされる</p><p><br></p><p>https://techplay.jp/column/618</p><p>prototypeはプロパティのひとつ、継承先オブジェクトが設定されている、自身のプロパティに値がない場合は、継承先に問い合わせする</p><p><br></p><p>https://jsprimer.net/basic/prototype-object/</p><p>別オブジェクトのprototypeを継承したい場合は、継承先オブジェクト.prototype = Object.create(継承元オブジェクト.prototype)で継承ができる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5hAAA"
+			},
+			"Question__c": "<p>The developer wants to test the code:</p><p>Const toNumber = (strOrNum) =&gt; + strOrNum;</p><p><br></p><p>Which two tests are most accurate for this code?</p><p>Choose 2 answers</p>",
+			"A__c": "Console.assert (toNumber (&#39;2&#39;) === 2 ) ;",
+			"B__c": "Console,assert (toNumber ( ) === NaN ) ;",
+			"C__c": "Console. Assert (Number,isNaN (toNumber ( ) ));",
+			"D__c": "Console,assert (toNumber ( &#39;-3&#39;) &lt; 0);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=20",
+			"Comment__c": "<p>文字列2をいれたらキャストされて数字に2になるのでAは正解</p><p>引数なしの場合はNaNになるが、NaNは等価比較でfalseになる性質があるのでBは不正解</p><p>引数なしの場合はNaNになるが、Number.isNaN()で判定しているので結果はtrueとなりアサートが正解するのでCは正解</p><p>文字列-3をいれたらキャストされて数字の-3になるのでDは正解としたいけど、&lt;0でアサートしているのはテストコードとしは不適切、　=== -3でアサートすべき</p><p>よってAとCが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5kAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/bb0b20ceb3671ce771214c0de2bac4aa.jpg\"></img></p><p><br></p><p>A developer import a library that creates a web server.</p><p>the imported library uses events and callback to start the server.</p><p>Which code should be inserted at line 03 to set up an event and start the web server?</p>",
+			"A__c": "<p>Server .start();</p><p><br></p><p><br></p>",
+			"B__c": "<p>server ( (port) =&gt; (</p><p>Console.log (&#39;Listening on&#39; , port) ;</p><p>}};</p>",
+			"C__c": "<p>Server. on (&#39;connet&#39; , (port) =&gt; (</p><p>Console.log (Listening on&#39; port);</p><p>}};</p>",
+			"D__c": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">server( );</span></p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "<p>https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=20</p>",
+			"Comment__c": "<p>server.on(xxxx)はhttpモジュールの使い方なのでCは不正解</p><p>serverライブラリはコールバックを使うと書かれているのAとDは不正解</p><p>コールバックを引数としてつかっているのでBが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5lAAA"
+			},
+			"Question__c": "<p>Given the HTML below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/cf65c876e5a4b89e60e4619717089730.jpg\"></img></p><p>Which statement adds the priority-account CSS class to the Unversal Containers row?</p>",
+			"A__c": "<p>Document. querySelector ( &#39;#row-uc&#39;) . classList. add ( &#39;pariority-account&#39;) ;</p>",
+			"B__c": "Document. querySelectorAll ( &#39;# row-uc &#39;) .classList. add (&#39;priority-account&#39;);",
+			"C__c": "Document. getElementById ( &#39;row-uc&#39;) addClass ( &#39; priority-account&#39;);",
+			"D__c": "Document. queryselector (&#39;# row-uc&#39;) ,classes. Push (&#39; priority-account&#39;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=21",
+			"Comment__c": "<p>https://www.marks4sure.com/javascript-developer-i-salesforce-certified-javascript-developer-i-wi23-questions.html</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/API/Document/querySelector</p><p>querySelector</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/API/Element/classList</p><p>classList.add()</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5mAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/f8a2b407948cd39908b326539cf545a7.jpg\"></img></p><p>A developer needs to dispatch a custom event called update to send information about recordId.</p><p>Which option could a developer insert at the placeholder in line 02 to achieve this? </p>",
+			"A__c": "<p>&#39;update&#39;, {</p><p>Detail ; {</p><p>recordId: &#39;123abc</p><p>}</p><p>}</p>",
+			"B__c": "<p>&#39;update&#39;, ( recordId : 123abc&#39;</p><p>)</p>",
+			"C__c": "<p>&#39;update&#39; , &#39;123abc&#39;</p><p><br></p>",
+			"D__c": "<p>{type ; update &#39;, recordId : &#39;123abc&#39;)</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=21",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/API/CustomEvent/CustomEvent</p><p>多分、deailつきのAだけが正解</p><p>Bができるかは検証すること</p><p>Bはできない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5nAAA"
+			},
+			"Question__c": "<p>Which statement can a developer apply to increment the browser&#39;s navigation history without a page refresh?</p>",
+			"A__c": "window.history.state.push(newStateObject);",
+			"B__c": "window.history.pushStare(newStateObject, &#39; &#39;, null);",
+			"C__c": "window.history.pushState(newStateObject);",
+			"D__c": "window.history.replaceState(newStateObject,&#39; &#39;, null);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=21",
+			"Comment__c": "<p>https://exam-files.com/salesforce/javascript-developer-i/salesforce.vceplus.javascript-developer-i.2021-05-20.1e.60q.vcex/</p><p>正解</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/API/History_API/Working_with_the_History_API#pushstate_%E3%81%AE%E4%BE%8B</p><p>pushStateで履歴項目を追加する、replaceStateで置き換える</p><p>問題は履歴項目の追加なのでpushStateが正しい</p><p><span style=\"\"></span></p><p><span style=\"\"></span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5oAAA"
+			},
+			"Question__c": "<p>A developer wants to create a simple image upload in the browser using the File API. </p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/970b86585f414f123523670cdc5bb404.jpg\"></img></p><p><br></p><p>The HTML is below:The JavaScript portion is:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/8680335e8c47d44e37df0f064962743d.jpg\"></img></p><p>In lines 04 and 08, which code allows the user to select an image from their local computer, and to display the image in the browser?</p><p><br></p>",
+			"A__c": "<p>04 const reader = new FileReader ( ) ;</p><p>08 if (file) URL , createObjectURL (file) ;</p>",
+			"B__c": "<p>04 const reader = new FileReader ( ) ;</p><p>08 if (file) URL , createObjectURL (file) ;</p>",
+			"C__c": "<p>04 const reader = new FileReader ( ) ;</p><p>08 if (file) reader , createAsDataURL (file) ;</p>",
+			"D__c": "<p>04 const reader = new FileReader ( ) ;</p><p>08 if (file) ,reader, readerAsDataURL (file) ;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=21",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/API/FileReader/readAsDataURL</p><p>readAsDataURLでプレビュー表示する</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5pAAA"
+			},
+			"Question__c": "<p>Refer to the following array:</p><p>Let arr1 = [1, 2, 3, 4, 5];</p><p><br></p><p>Which two lines of codes result in a second array, arr2, being created such that arr2 is not a reference to arr1? </p><p>Choose 2 answers</p>",
+			"A__c": "Let arr2 = arr1 .slice (0, 5);",
+			"B__c": "Let arr2 = arr1 sort ();",
+			"C__c": "Let arr2 = arr1;",
+			"D__c": "Let arr2 = Array. From (arr1) ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=22",
+			"Comment__c": "<p>https://www.freecram.net/question/Salesforce.CRT-600.v2021-03-30.q50/refer-to-the-following-array-let-arr1-1-2-3-4-5-exhibit-which-two-lines-of-code-result</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/slice</p><p>sliceは配列をシャローコピーして取り出す</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/from</p><p>fromは配列をシャローコピー</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5rAAA"
+			},
+			"Question__c": "<p>A developer creates a simple webpage with an input field. </p><p>When a user enters text in the input field and clicks the button, the actual value of the field must be displayed in the console.</p><p><br></p><p>Here is the HTML file content:</p><p>&lt;input type =&quot; text&quot; value=&quot;Hello&quot; name =&quot;input&quot;&gt;</p><p>&lt;button type =&quot;button&quot; &gt;Display &lt;/button&gt;</p><p><br></p><p>The developer wrote the javascript code below:</p><p>Const button = document.querySelector(&#39;button&#39;);</p><p>button.addEvenListener(&#39;click&#39;, () =&gt; (</p><p>Const input = document.querySelector(&#39;input&#39;);</p><p>console.log(input.getAttribute(&#39;value&#39;));</p><p><br></p><p>When the user clicks the button, the output is always &quot;Hello&quot;.</p><p>What needs to be done to make this code work as expected?</p>",
+			"A__c": "<p>Replace line 02 with button.addCallback(&quot;click&quot;, function() {</p>",
+			"B__c": "Replace line 04 with console.log(input .value);",
+			"C__c": "Replace line 03 with const input = document.getElementByName(&#39;input&#39;);",
+			"D__c": "Replace line 02 with button.addEventListener(&quot;onclick&quot;, function() {",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=22",
+			"Comment__c": "<p>https://qiita.com/mzmz__02/items/873118fbd8723c44956d</p><p>addEventListener(&quot;click&quot;, () =&gt; {</p><p>// 処理</p><p>})</p><p>アロー関数でイベントリスナーを仕掛ける</p><p><br></p><p>addCallbackは存在しないのでAは不正解</p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">getElementByNameはリストが返り値なのでCは不正解</span></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">Dはonclickで不正なので不正解</span></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">getAttribute(&#39;value&#39;)で取れそうに見えるが、LWC環境だと、querySelector(&#39;input&#39;)でvalue値がアトリビュートで乗っかってこない</span></p><p>.valueでアクセスすると値が取得できるのでBが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5tAAA"
+			},
+			"Question__c": "Given two expressions var1 and var2. What are two valid ways to return the logical AND of the two expressions and ensure it is data type Boolean ?Choose 2 answers:",
+			"A__c": "var1 &amp;&amp; var2",
+			"B__c": "Boolean(var1 &amp;&amp; var2)",
+			"C__c": "Boolean(var1) &amp;&amp; Boolean(var2)",
+			"D__c": "var1.toBoolean() &amp;&amp; var2toBoolean()",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=22",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5vAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>Let foodMenu1 = [&#39;pizza&#39;, &#39;burger&#39;, &#39;French fries&#39;];</p><p>Let finalMenu = foodMenu1;</p><p>finalMenu.push(&#39;Garlic bread&#39;);</p><p>What is the value of foodMenu1 after the code executes?</p>",
+			"A__c": "[ &#39;Garlic bread&#39; , &#39;pizza&#39;,&#39;Burger&#39;, &#39;French fires&#39; ]",
+			"B__c": "[ &#39;pizza&#39;,&#39;Burger&#39;, &#39;French fires&#39;]",
+			"C__c": "[ &#39;pizza&#39;,&#39;Burger&#39;, &#39;French fires&#39;, &#39;Garlic bread&#39;]",
+			"D__c": "[ &#39;Garlic bread&#39;]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=23",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5wAAA"
+			},
+			"Question__c": "<p>A developer publishes a new version of a package with new feature that do not break backward compatibility. </p><p>The previous version number was 1.1.3.Following semantic versioning format, what should the new package version number be?</p>",
+			"A__c": "1.2.0",
+			"B__c": "1.1.4",
+			"C__c": "1.2.3",
+			"D__c": "2.0.0",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=23",
+			"Comment__c": "<p>https://learn.liferay.com/dxp/latest/ja/liferay-internals/fundamentals/semantic-versioning.html</p><p>セマンティックバージョニング</p><p>aaa.bbb.ccc</p><p>aaaは下位互換性なし</p><p>bbbは機能追加</p><p>cccはバグフィックス</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh5zAAA"
+			},
+			"Question__c": "A developer at Universal Container creates a new landing page based on HTML, CSS, and JavaScript.To ensure that visitors have a good experience, a script named personalizeewebsiteCotent needs to be executed when the webpage is fully loaded (HTML content and all related files), in order to do some custom initialization.Which statement should be used to call personalizeWebsiteContent based on the above business requirement?",
+			"A__c": "Window, addEventListener(&#39;onload&#39;, personalizewebsiteContent);",
+			"B__c": "Document, addEventListener (&#39;oDCMContentLoaded&#39; , personalizewensiteContent);",
+			"C__c": "Window, addEventListener(&#39;load&#39;, personalizewebsiteContent);",
+			"D__c": "Document,addEventListener (&#39;DCMContentLoaded&#39; , personalizeWebsiteContent);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=24",
+			"Comment__c": "<p>addEventLisner, load</p><p>https://developer.mozilla.org/ja/docs/Web/API/Window/load_event</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh60AAA"
+			},
+			"Question__c": "<p>A developer wants to define a function log to be used a few times on a single-file JavaScript script.</p><p>01 // Line 1 replacement</p><p>02 console.log(&#39;&quot;LOG:&#39;, logInput);</p><p>03 }</p><p>Which two options can correctly replace line 01 and declare the function for use?</p><p>Choose 2 answers</p>",
+			"A__c": "<p>function log(logInput) {</p>",
+			"B__c": "const log(loginInput) {",
+			"C__c": "const log = (logInput) =&gt; {",
+			"D__c": "function log = (logInput) {",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=24",
+			"Comment__c": "<p>Aは関数として定義する方法</p><p>Cは変数としてアロー関数を代入する方法</p><p>ともに、利用時は</p><p>log(&quot;hoge&quot;);</p><p>でOK</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh61AAA"
+			},
+			"Question__c": "<p>Refer to the HTML below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/5311c705866ffbe6333ac937bbcdd803.jpg\"></img></p><p><br></p><p>Which JavaScript statement results in changing &#39;&#39;Tony&#39;&#39; to &#39;&#39;Mr. T. &#39;&#39;?</p>",
+			"A__c": "Document.querySelector (&#39;&#39;#main li:nth-child (2) &#39;) , innerHTML = &#39;Mr . T &#39;;",
+			"B__c": "Document.querySelector (&#39; &#39;#main li:second-child&#39;) innerHTML, = Mr, T, &#39;;",
+			"C__c": "Document.querySelectorAll (&#39;#main # TONY &#39;) , innerHTML = Mr, T , &#39; ;",
+			"D__c": "Document.querySelectorAll ( &#39;#main li, Tony &#39; ) innerHTNL = Mr, T , &#39; ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=24",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/CSS/:nth-child</p><p>CSSで2番目の要素を指定する方法</p><p>LWCではid指定はできない</p><p>Document.querySelectorも非推奨、this.template.querySelectorでやる</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh62AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><br></p><p>function foo () {</p><p>const a =2;</p><p>function bar() {</p><p>  console.log(a);</p><p>}</p><p>return bar;</p><p>}</p><p><br></p><p>Why does the function bar have access to variable a ?</p>",
+			"A__c": "Hoisting",
+			"B__c": "Outer function&#39;s scope",
+			"C__c": "Inner function&#39;s scope",
+			"D__c": "Prototype chain",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=24",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Glossary/Hoisting</p><p>ホスティング、巻き上げ、は関数定義より前に、関数実行が利用できること</p><p><br></p><p>関数barが変数aにアクセスできるのは変数aが関数fooのスコープ内にあるから</p><p>Cが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh63AAA"
+			},
+			"Question__c": "<p>A developer has two ways to write a function:</p><p>Option A:</p><p>function Monster() {</p><p>This.growl = () =&gt; {</p><p>Console.log (&quot;Grr!&quot;);</p><p>}</p><p>}</p><p>Option B:</p><p>function Monster() {};</p><p>Monster.prototype.growl =() =&gt; {</p><p>console.log(&quot;Grr!&quot;);</p><p>}</p><p>After deciding on an option, the developer creates 1000 monster objects.</p><p>How many growl methods are created with Option A Option B?</p>",
+			"A__c": "<p>1 growl method is created regardless of which option is used.</p>",
+			"B__c": "<p>1000 growl methods are created regardless of which option is used.</p>",
+			"C__c": "<p>1 growl method is created for Option A. 1000 growl methods are created for Option B.</p>",
+			"D__c": "<p>1000 growl method is created for Option A. 1 growl methods are created for Option B.</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=24",
+			"Comment__c": "<p>https://www.sejuku.net/blog/47722</p><p>prototypeでメソッドを定義すると、newでオブジェクト生成時にメソッドがコピーされないのでメモリの節約になる</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh64AAA"
+			},
+			"Question__c": "Which three options show valid methods for creating a fat arrow function? Choose 3 answers",
+			"A__c": "X =&gt; {console.log {&#39;executed&#39;} ; }",
+			"B__c": "( ) =&gt; { console.log (&#39; executed&#39;) ; )",
+			"C__c": "(x, y, z) =&gt; (console.log (&#39;executed&#39;) ;)",
+			"D__c": "X, y, z =&gt; ( console.log (&#39;executed&#39;) ; )",
+			"E__c": "{ } =&gt; { console.log (executed&#39;) ; )",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=25",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh65AAA"
+			},
+			"Question__c": "Teams at Universal Containers (UC) work on multiple JavaScript projects at the same time.UC is thinking about reusability and how each team can benefit from the work of others.Going open-source or public is not an option at this time.Which option is available to UC with npm?",
+			"A__c": "Private packages can be scored, and scopes can be associated to a private registries.",
+			"B__c": "Private packages are not supported, but they can use another package manager like yarn.",
+			"C__c": "Private registries are not supported by npm, but packages can be installed via URL.",
+			"D__c": "Private registries are not supported by npm, but packages can be installed via git.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=25",
+			"Comment__c": "<p>https://karuta-kayituka.hatenablog.com/entry/2020/04/05/124531</p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">npm private packageの作り方</span></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">github registoryを使って公開する方法</span></p><p><br></p><p>プライベートパッケージ、レジストリともにnpmで利用可能なのでB, C, Dは不正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh66AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/6287687ada8657f7cf5091a9b62985e1.jpg\"></img></p><p><br></p><p>What is the value of result when the code executes?</p>",
+			"A__c": "5 - 5",
+			"B__c": "5 - 10",
+			"C__c": "10 - 10",
+			"D__c": "10 - 5",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=25",
+			"Comment__c": "<p>changeValue()の処理は、関数ローカルの変数に代入しているだけなので、関数スコープ外では何も変更されていない</p><p>let b = a;　は参照を渡しているだけなので実態はaの10</p><p>よって、10 - 10 のCが正解</p><p><br></p><p>似たような問題で、下記のようにオブジェクトのプロパティを変更する方法はきちんと値が変更される</p><p>\t\tfunction f(param) {</p><p>\t\t\tparam.value = 5;</p><p>\t\t}</p><p>\t\tlet a = { value: 5 };</p><p>\t\tlet b = a;</p><p>\t\tf(b);</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh67AAA"
+			},
+			"Question__c": "<p>A developer is creating a simple webpage with a button.</p><p>When a user clicks this button for the first time, a message is displayed.</p><p>The developer wrote the JavaScript code below, but something is missing.</p><p><img src=\"https://www.freepdfdumps.com/uploads/JavaScript-Developer-I/f44e73001203ad4f7a0b8b1cc753f868.jpg\"></img></p><p><br></p><p>The message gets displayed time a user clicks the button instead of just the first time.</p><p>Which two code lines make this code work as required? </p><p>Choose 2 answers</p>",
+			"A__c": "On line 06, ad an option called once to button. addEventlistener ( ).",
+			"B__c": "On line 04, use event .stopPropagetion ( );",
+			"C__c": "On line 04, use button. removeEventlistener (&#39;click&#39;, listen );",
+			"D__c": "On line 02, use event.first to test if it is the first execution.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=25",
+			"Comment__c": "<p>LWCではこのコードはかけない</p><p>renderedCallback以外のファンクションの中でquerySelectorでつかめないので、removeEventListenerができない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh68AAA"
+			},
+			"Question__c": "<p>A developer implements and calls the following code when an application state change occurs:</p><p><br></p><p>Const onStateChange = (innerPageState) =&gt; {</p><p>window.history.pushState(newPageState, ‘ ’, null);</p><p>}</p><p><br></p><p>If the back button is clicked after this method is executed, what can a developer expect?</p>",
+			"A__c": "The page is navigated away from and previous page in the browser&#39;s history is loaded.",
+			"B__c": "A navigate event is fired with a state properly that details previous application state.",
+			"C__c": "The page reloads and all JavaScript is reinitialized.",
+			"D__c": "A popstate event is fired with a state properly that details the application&#39;s last state.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=25",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/API/History/pushState</p><p>pushStateはURLを偽装するだけ、何も発生しないので、BCDは不正解</p><p><br></p><p>下記をrenderedCallbackに仕込むと、URLバーがhello-world.htmlで表示される</p><p>この状態で戻るを押すと、通常動作、前ページが読み込まれる</p><p>\t\tconst state = { page_id: 1, user_id: 5 };</p><p>\t\tconst url = &quot;hello-world.html&quot;;</p><p>\t\twindow.history.pushState(state, &quot;&quot;, url);</p><p><br></p><p><span style=\"\"></span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh69AAA"
+			},
+			"Question__c": "<p>A developer has an ErrorHandler module that contains multiple functions.</p><p>What kind of export should be leveraged so that multiple function can be used?</p>",
+			"A__c": "Multi",
+			"B__c": "default",
+			"C__c": "Named",
+			"D__c": "All",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=26",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/export</p><p>エクスポートは名前付き、デフォルトのやり方がある</p><p>名前付きエクスポート (モジュールごとに 0 以上のエクスポート)</p><p>デフォルトエクスポート (モジュールごとに 1 つのエクスポート)</p><p>複数やるので、名前付きが正解</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001nh6AAAQ"
+			},
+			"Question__c": "Which function should a developer use to repeatedly execute code at a fixed time interval?",
+			"A__c": "setPeriod",
+			"B__c": "setInterval",
+			"C__c": "setInterim",
+			"D__c": "setTimeout",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.JavaScript-Developer-I.v2022-04-20.q123.html?p=26",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfGAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>for(let number =2 ; number &lt;= 5 ; number += 1 ) {</p><p>// insert code statement here</p><p>}</p><p>The developer needs to insert a code statement in the location shown. The code statement has these requirements:</p><p>1. Does not require an import</p><p>2. Logs an error when the boolean statement evaluates to false</p><p>3. Works in both the browser and Node.js</p><p>Which meet the requirements?</p>",
+			"A__c": "assert (number % 2 === 0);",
+			"B__c": "console.assert(number % 2 === 0);",
+			"C__c": "console.debug(number % 2 === 0);",
+			"D__c": "console.error(number % 2 === 0);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-for-let-number-2-number-lt-5-number-1-insert-code-statement",
+			"Comment__c": "<p>出た</p><p>多分、問題のコードが欠落している</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Remainder</p><p>%は剰余演算子</p><p>number % 2 === 0 は2で割り、あまり0</p><p><br></p><p>https://akito0107.hatenablog.com/entry/2016/12/12/145144</p><p>console.assert()はJSネイティブで使える</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfHAAQ"
+			},
+			"Question__c": "Which code statement correctly retrieves and returns an object from localStorage?",
+			"A__c": "const retrieveFromLocalStorage = (storageKey) =&gt;{return JSON.parse(window.localStorage.getItem(storageKey));}",
+			"B__c": "const retrieveFromLocalStorage = () =&gt;{return JSON.stringify(window.localStorage.getItem(storageKey));}",
+			"C__c": "const retrieveFromLocalStorage = (storageKey) =&gt;{return window.localStorage.getItem(storageKey);}",
+			"D__c": "const retrieveFromLocalStorage = (storageKey) =&gt;{return window.localStorage[storageKey];}",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-code-statement-correctly-retrieves-and-returns-an-object-from-localstorage",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfIAAQ"
+			},
+			"Question__c": "<p>Refer to code below:</p><p>console.log(0);</p><p>setTimeout(() =&gt; (</p><p>console.log(1);</p><p>});</p><p>console.log(2);</p><p>setTimeout(() =&gt; {</p><p>console.log(3);</p><p>), 0);</p><p>console.log(4);</p><p>In which sequence will the numbers be logged?</p>",
+			"A__c": "<p>02413</p>",
+			"B__c": "<p>01234</p>",
+			"C__c": "13024",
+			"D__c": "<p>02431</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-code-below-console.log-0-settimeout-gt-console.log-1-console.log-2-settimeout",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfJAAQ"
+			},
+			"Question__c": "<p>Refer to the following code:</p><p>&lt;html lang=&quot;en&quot;&gt;</p><p>&lt;body&gt;</p><p>&lt;div onclick = &quot;console.log(&#39;Outer message&#39;) ;&quot;&gt;</p><p>&lt;button id =&quot;myButton&quot;&gt;CLick me&lt;button&gt;</p><p>&lt;/div&gt;</p><p>&lt;/body&gt;</p><p>&lt;script&gt;</p><p>function displayMessage(ev) {</p><p>ev.stopPropagation();</p><p>console.log(&#39;Inner message.&#39;);</p><p>}</p><p>const elem = document.getElementById(&#39;myButton&#39;);</p><p>elem.addEventListener(&#39;click&#39; , displayMessage);</p><p>&lt;/script&gt;</p><p>&lt;/html&gt;</p><p>What will the console show when the button is clicked?</p>",
+			"A__c": "Inner message",
+			"B__c": "Outer message",
+			"C__c": "<p>Outer message</p><p>Inner message</p>",
+			"D__c": "<p>Inner message</p><p>Outer message</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-following-code-lt-html-lang-en-gt-lt-body-gt-lt-div-onclick-console.log-outer",
+			"Comment__c": "<p>出た</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/API/Document_Object_Model/Examples#%E4%BE%8B_5_%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9D%E6%92%AD_propagation</p><p>ev.stopPropagation();で、後続のonclickの発火をとめている</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseRAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>new Promise((resolve, reject) =&gt; {</p><p>const fraction = Math.random();</p><p>if( fraction &gt;0.5) reject(&quot;fraction &gt; 0.5, &quot; + fraction);</p><p>resolve(fraction);</p><p>})</p><p>.then(() =&gt;console.log(&quot;resolved&quot;))</p><p>.catch((error) =&gt; console.error(error))</p><p>.finally(() =&gt; console.log(&quot; when am I called?&quot;));</p><p><br></p><p>When does Promise.finally on line 08 get called?</p>",
+			"A__c": "WHen resolved",
+			"B__c": "When rejected",
+			"C__c": "When resolved and settled",
+			"D__c": "When resolved or rejected",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-new-promise-resolve-reject-gt-const-fraction-math.random-if-fractio",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseSAAQ"
+			},
+			"Question__c": "<p>Refer to the code below:Let textValue = &#39;1984&#39;;</p><p>Which code assignment shows a correct way to convert this string to an integer?</p>",
+			"A__c": "Let numberValue = Integer(textValue);",
+			"B__c": "let numberValue = Number(textValue);",
+			"C__c": "Let numberValue = textValue.toInteger();",
+			"D__c": "Let numberValue = (Number)textValue;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-let-textvalue-1984-which-code-assignment-shows-a-correct-way-to-convert",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseTAAQ"
+			},
+			"Question__c": "Which statement parses successfully?",
+			"A__c": "JSON.parse (&quot;&quot;foo&#39;&quot;);",
+			"B__c": "JSON.parse (&quot;foo&quot;);",
+			"C__c": "JSON.parse (&quot;foo&quot;);",
+			"D__c": "<p>JSON. parse (<span style=\"font-size: 14px; color: rgb(51, 51, 51);\">&#39; &quot;foo&quot; &#39;</span>);</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-statement-parses-successfully",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseVAAQ"
+			},
+			"Question__c": "<p>A developer has code that calculates a restaurant bill, but generates incorrect answers while testing the code:</p><p>function calculateBill ( items ) {</p><p>let total = 0;</p><p>total += findSubTotal(items);</p><p>total += addTax(total);</p><p>total += addTip(total);</p><p>return total;</p><p>}</p><p>Which option allows the developer to step into each function execution within calculateBill?</p>",
+			"A__c": "Using the debugger command on line 05.",
+			"B__c": "Calling the console.trace (total) method on line 03.",
+			"C__c": "Wrapping findSubtotal in a console.log() method.",
+			"D__c": "Using the debugger command on line 03",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-has-code-that-calculates-a-restaurant-bill-but-generates-incorrect-answers-while-testing",
+			"Comment__c": "<p>ライン03にブレークポイントを仕掛けて、ステップインすると、以降の各ステップでの値の変更がデバッガー上に表示される、Aが正解</p><p><img src=\"https://cunning-narwhal-9klm1k-dev-ed.file.force.com/servlet/rtaImage?eid=a005i000001oseV&amp;feoid=00N5i00000ICeFr&amp;refid=0EM5i0000012GDQ\" alt=\"image.png\"></img></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseWAAQ"
+			},
+			"Question__c": "Which option is a core Node,js module?",
+			"A__c": "Memory",
+			"B__c": "locate",
+			"C__c": "Path",
+			"D__c": "Ios",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-option-is-a-core-node-js-module",
+			"Comment__c": "<p>https://www.wakuwakubank.com/posts/631-nodejs-overview/#index_id2</p><p>pathはファイル・ディレクトリ操作するモジュール</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseXAAQ"
+			},
+			"Question__c": "<p>Given the code below:</p><p>01 function GameConsole (name) {</p><p>02 this.name = name;</p><p>03 }</p><p>04</p><p>05 GameConsole.prototype.load = function(gamename) {</p><p>06 console.log( ` $(this.name) is loading a game : $(gamename) ...`);</p><p>07 )</p><p>08 function Console 16 Bit (name) {</p><p>09 GameConsole.call(this, name) ;</p><p>10 }</p><p>11 Console16bit.prototype = Object.create ( GameConsole.prototype) ;</p><p>12 //insert code here</p><p>13 console.log( ` $(this.name) is loading a cartridge game : $(gamename) ...`);</p><p>14 }</p><p>15 const console16bit = new Console16bit(&#39; SNEGeneziz &#39;);</p><p>16 console16bit.load(&#39; Super Nonic 3x Force &#39;);</p><p>What should a developer insert at line 15 to output the following message using the method ?</p><p>&gt; SNEGeneziz is loading a cartridge game: Super Monic 3x Force . . .</p>",
+			"A__c": "Console16bit.prototype.load(gamename) {",
+			"B__c": "Console16bit.prototype.load = function(gamename) {",
+			"C__c": "Console16bit.prototype.load(gamename) = function() {",
+			"D__c": "Console16bit = Object.create(GameConsole.prototype).load = function(gamename) {",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/given-the-code-below-01-function-gameconsole-name-02-this.name-name-03-04-05-gameconsole.prototy",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseYAAQ"
+			},
+			"Question__c": "Which statement accurately describes the behaviour of the async/ await keyworks ?",
+			"A__c": "The associated class contains some asynchronous functions.",
+			"B__c": "The associated function will always return a promise",
+			"C__c": "The associated sometimes returns a promise.",
+			"D__c": "The associated function can only be called via asynchronous methods",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-statement-accurately-describes-the-behaviour-of-the-async-await-keyworks",
+			"Comment__c": "<p>https://qiita.com/soarflat/items/1a9613e023200bbebcb3</p><p>async は絶対にPromiseを返す</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseZAAQ"
+			},
+			"Question__c": "<p>A developer wants to leverage a module to print a price in pretty format, and has imported a method as shown below:</p><p>Import printPrice from &#39;/path/PricePrettyPrint.js&#39;;</p><p>Based on the code, what must be true about the printPrice function of the PricePrettyPrint module for this import to work ?</p>",
+			"A__c": "printPrice must be an all export",
+			"B__c": "printPrice must be the default export",
+			"C__c": "printPrice must be be a named export",
+			"D__c": "printPrice must be a multi exportc",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-wants-to-leverage-a-module-to-print-a-price-in-pretty-format-and-has-imported-a-method-as",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/export</p><p>デフォルトエクスポートの例</p><p>エクスポート側</p><p>export default function cube(x) {</p><p>  return x * x * x;</p><p>}</p><p>インポート側</p><p>import cube from &#39;./my-module.js&#39;;</p><p>console.log(cube(3)); // 27</p><p><br></p><p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/import</p><p>import defaultExport from &quot;module-name&quot;; // デフォルト</p><p>import { export1 } from &quot;module-name&quot;; // 名前付き</p><p><br></p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseaAAA"
+			},
+			"Question__c": "Considering type coercion, what does the following expression evaluate to?True + &#39;13&#39; + NaN",
+			"A__c": "true13NaN &#39;",
+			"B__c": "true13 &#39;",
+			"C__c": "14",
+			"D__c": "113Nan &#39;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/considering-type-coercion-what-does-the-following-expression-evaluate-to-true-13-nan",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osecAAA"
+			},
+			"Question__c": "<p>Refer to HTML below:</p><p>&lt;p&gt; The current status of an Order: &lt;span id =&quot;status&quot;&gt; In Progress &lt;/span&gt; &lt;/p&gt;.</p><p>Which JavaScript statement changes the text &#39;In Progress&#39; to &#39;Completed&#39; ?</p>",
+			"A__c": "document.getElementById(&quot;.status&quot;).innerHTML = &#39;Completed&#39; ;",
+			"B__c": "document.getElementById(&quot;#status&quot;).innerHTML = &#39;Completed&#39; ;",
+			"C__c": "document.getElementById(&quot;status&quot;).Value = &#39;Completed&#39; ;",
+			"D__c": "document.getElementById(&quot;status&quot;).innerHTML = &#39;Completed&#39; ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-html-below-lt-p-gt-the-current-status-of-an-order-lt-span-id-status-gt-in-progress",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osedAAA"
+			},
+			"Question__c": "Refer to code below:Let productSKU = &#39;8675309&#39; ;A developer has a requirement to generate SKU numbers that are always 19 characters lon, starting with &#39;sku&#39;, and padded with zeros.Which statement assigns the values sku0000000008675309 ?",
+			"A__c": "productSKU = productSKU .padStart (19. &#39;0&#39;).padstart(&#39;sku&#39;);",
+			"B__c": "productSKU = productSKU .padEnd (16. &#39;0&#39;).padstart(&#39;sku&#39;);",
+			"C__c": "productSKU = productSKU .padEnd (16. &#39;0&#39;).padstart(19, &#39;sku&#39;);",
+			"D__c": "productSKU = productSKU .padStart (16. &#39;0&#39;).padstart(19, &#39;sku&#39;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-code-below-let-productsku-8675309-a-developer-has-a-requirement-to-generate-sku-numbers",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseeAAA"
+			},
+			"Question__c": "<p>Refer to following code block:</p><p>Let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,];</p><p>Let output =0;</p><p>For (let num of array){</p><p>if (output &gt;10){</p><p>Break;</p><p>}</p><p>if(num % 2 == 0){</p><p>Continue;</p><p>}</p><p>Output +=num;</p><p>What is the value of output after the code executes?</p>",
+			"A__c": "16",
+			"B__c": "36",
+			"C__c": "11",
+			"D__c": "25",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-following-code-block-let-array-1-2-3-4-5-6-7-8-9-10-11-let-output-0-for-let",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osefAAA"
+			},
+			"Question__c": "<p>A developer needs to test this function:</p><p>01 const sum3 = (arr) =&gt; (</p><p>02 if (!arr.length) return 0,</p><p>03 if (arr.length === 1) return arr[0],</p><p>04 if (arr.length === 2) return arr[0] + arr[1],</p><p>05 return arr[0] + arr[1] + arr[2],</p><p>06 );</p><p>Which two assert statements are valid tests for the function?</p><p>Choose 3 answers</p>",
+			"A__c": "console.assert(sum3(-3, 2 )) == -1);",
+			"B__c": "console.assert(sum3(0)) == 0);",
+			"C__c": "console.assert(sum3(1, &#39;2&#39;)) == 12);",
+			"D__c": "console.assert(sum3(&#39;hello&#39;, 2, 3, 4)) === NaN);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-needs-to-test-this-function-01-const-sum3-arr-gt-02-if-arr.length-return-0",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osegAAA"
+			},
+			"Question__c": "<p>A developer is required to write a function that calculates the sum of elements in an array but is getting undefined every time the code is executed. The developer needs to find what is missing in the code below.</p><p>Const sumFunction = arr =&gt; {</p><p>Return arr.reduce((result, current) =&gt; {</p><p>//</p><p>Result += current;</p><p>//</p><p>), 10);</p><p>);</p><p>Which option makes the code work as expected?</p>",
+			"A__c": "Replace line 04 with result = result +current;",
+			"B__c": "Replace line 05 with return result;",
+			"C__c": "Replace line 02 with return arr.map(( result, current) =&gt; (",
+			"D__c": "Replace line 03 with if(arr.length == 0 ) ( return 0; )",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-is-required-to-write-a-function-that-calculates-the-sum-of-elements-in-an-array-but-is-getting",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce</p><p>配列.reduce(コールバック, 初期値)</p><p>初期値がない場合は、配列の要素0が初期値として利用される</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseiAAA"
+			},
+			"Question__c": "<p>Refer to the following code:</p><p>Let sampleText = &#39;The quick brown fox jumps&#39;;</p><p>A developer needs to determine if a certain substring is part of a string.</p><p>Which three expressions return true for the given substring ?</p><p>Choose 3 answers</p>",
+			"A__c": "sampleText.includes(&#39;fox&#39;);",
+			"B__c": "sampleText.includes(&#39; quick &#39;, 4);",
+			"C__c": "sampleText.includes(&#39; fox &#39;);",
+			"D__c": "<p>sampleText.includes(&#39; Fox &#39;, 3)</p>",
+			"E__c": "<p><span style=\"color: rgb(68, 68, 68);\">sampleText.includes(&#39; quick &#39;) !== -1;</span></p>",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-following-code-let-sampletext-the-quick-brown-fox-jumps-a-developer-needs-to-determine",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osejAAA"
+			},
+			"Question__c": "Which two console logs output NaN?Choose 2 answers | |",
+			"A__c": "console.log(10 / Number(&#39;5) ) ;",
+			"B__c": "console.loeg(10 / &#39;five&#39;);",
+			"C__c": "console.log(parseInt &#39; (&quot;two&#39;)) ;",
+			"D__c": "console.log(10 / 0);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-two-console-logs-output-nan-choose-2-answers",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osekAAA"
+			},
+			"Question__c": "developer is trying to convince management that their team will benefit from using Node.js for a backend server that they are going to create. The server will be a web server that handles API requests from a website that the team has already built using HTML, CSS, and JavaScript.Which three benefits of Node.js can the developer use to persuade their manager?Choose 3 answers:",
+			"A__c": "I nstalls with its own package manager to install and manage third-party libraries.",
+			"B__c": "User non blocking functionality for performant request handling .",
+			"C__c": "Ensures stability with one major release every few years.",
+			"D__c": "<p>Executes server-side JavaScript code to avoid learning a new language.</p>",
+			"E__c": "<p><span style=\"color: rgb(68, 68, 68);\">Performs a static analysis on code before execution to look for runtime errors.</span></p>",
+			"F__c": null,
+			"Answer__c": "A,B,E",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/developer-is-trying-to-convince-management-that-their-team-will-benefit-from-using-node.js-for-a-backend",
+			"Comment__c": "<p>消去法</p><p>https://blog.kasei-san.com/entry/2020/02/10/102546</p><p>メジャーリリースの速度は早い、半年ごと、Cは不正解</p><p><br></p><p>サーバサイドのJSでも学習コストは同じ、フレームワークが違うと別の生き物、Dは不正解</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oselAAA"
+			},
+			"Question__c": "<p>Refer to the following code that performs a basic mathematical operation on a provided input:</p><p>function calculate(num) {</p><p>Return (num +10) / 3;</p><p>}</p><p>How should line 02 be written to ensure that x evaluates to 6 in the line below?</p><p>Let x = calculate (8);</p>",
+			"A__c": "Return Integer(num +10) /3;",
+			"B__c": "Return Number(num + 10) / 3;",
+			"C__c": "<p>Return (Number (num) +10 ) / 3;</p>",
+			"D__c": "Return Number((num +10) /3 );",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-following-code-that-performs-a-basic-mathematical-operation-on-a-provided-input-function",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osenAAA"
+			},
+			"Question__c": "<p>Refer to the expression below:</p><p>Let x = (&#39;1&#39; + 2) == (6 * 2);</p><p>How should this expression be modified to ensure that evaluates to false?</p>",
+			"A__c": "Let x = (1 + 2 ) == ( 6 / 2);",
+			"B__c": "Let x = (&#39;1&#39; + &#39; 2&#39;) == ( 6 * 2);",
+			"C__c": "Let x = (1 + 2) == ( &#39;6&#39; / 2);",
+			"D__c": "Let x = (&#39;1&#39; + 2) == ( 6 * 2);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-expression-below-let-x-1-2-6-2-how-should-this-expression-be-modified-to",
+			"Comment__c": "<p>Bは&#39;1&#39; + &#39; 2&#39; 、2の前に半角スペースがあるので、falseになる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseoAAA"
+			},
+			"Question__c": "<p>A developer has a formatName function that takes two arguments, firstName and lastName and returns a string. They want to schedule the function to run once after five seconds.What is the correct syntax to schedule this function?</p><p>Chose 2 answers.</p>",
+			"A__c": "setTimeout (&#39;formatName&#39;, 5000, &#39;John&quot;, &quot;Doe&#39;);",
+			"B__c": "setTimeout (formatName(&#39;John&#39;, &#39;&#39;Doe&#39;), 5000);",
+			"C__c": "setTimout(() =&gt; { formatName(&quot;John&#39;, &#39;Doe&#39;) }, 5000);",
+			"D__c": "setTimeout (formatName(), 5000, &quot;John&quot;, &quot;BDoe&quot;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-has-a-formatname-function-that-takes-two-arguments-firstname-and-lastname-and-returns-a",
+			"Comment__c": "<p>https://developer.mozilla.org/ja/docs/Web/API/setTimeout</p><p>setTimout(コールバック, ディレイ, 引数....)</p><p>コールバックでは関数実行を渡さない</p><p>アローの無名関数も利用できる</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseqAAA"
+			},
+			"Question__c": "Given the following code:Let x =(&#39;15&#39; + 10)*2;What is the value of a?",
+			"A__c": "50",
+			"B__c": "35",
+			"C__c": "1520",
+			"D__c": "3020",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/given-the-following-code-let-x-15-10-2-what-is-the-value-of-a",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oserAAA"
+			},
+			"Question__c": "developer publishes a new version of a package with new features that do not break backward compatibility. The previous version number was 1.1.3.Following semantic versioning format, what should the new package version number be?",
+			"A__c": "2.0.0",
+			"B__c": "1.2.0",
+			"C__c": "1.2.3",
+			"D__c": "1.1.4",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/developer-publishes-a-new-version-of-a-package-with-new-features-that-do-not-break-backward-compatibility",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osesAAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>let sayHello = () =&gt; {</p><p>console.log (&#39;Hello, world!&#39;);</p><p>};</p><p>Which code executes sayHello once, two minutes from now?</p>",
+			"A__c": "setTimeout(sayHello, 12000);",
+			"B__c": "setInterval(sayHello, 12000);",
+			"C__c": "setTimeout(sayHello(), 12000);",
+			"D__c": "delay(sayHello, 12000);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-let-sayhello-gt-console.log-hello-world-which-code-executes",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseuAAA"
+			},
+			"Question__c": "A developer wants to set up a secure web server with Node.js. The developer creates a directory locally called app-server, and the first file is app-server/index.js Without using any third-party libraries, what should the developer add to index.js to create the secure web server?",
+			"A__c": "const server =require(&#39;secure-server&#39;);",
+			"B__c": "const https =require(&#39;https&#39;);",
+			"C__c": "const tls = require(&#39;tls&#39;);",
+			"D__c": "const http =require(&#39;http&#39;);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-wants-to-set-up-a-secure-web-server-with-node.js-the-developer-creates-a-directory-locally",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf7AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>const addBy = ?</p><p>const addByEight =addBy(8);</p><p>const sum = addBYEight(50);</p><p>Which two functions can replace line 01 and return 58 to sum?</p><p>Choose 2 answers</p>",
+			"A__c": "const addBy = function(num1){return function(num2){return num1 + num2;}",
+			"B__c": "const addBY = (num1) =&gt; (num2) =&gt; num1 + num2;",
+			"C__c": "const addBy = function(num1){return num1 + num2;}",
+			"D__c": "const addBy = (num1) =&gt; num1 + num2 ;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-const-addby-const-addbyeight-addby-8-const-sum-addbyeight-50-which",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf9AAA"
+			},
+			"Question__c": "<p>Refer to code below:</p><p>Let a =&#39;a&#39;;</p><p>Let b;</p><p>// b = a;</p><p>console.log(b);</p><p>What is displayed when the code executes?</p>",
+			"A__c": "Null",
+			"B__c": "Undefined",
+			"C__c": "ReferenceError: b is not defined",
+			"D__c": "A",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-code-below-let-a-a-let-b-b-a-console.log-b-what-is-displayed-when-the-code-executes",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfAAAQ"
+			},
+			"Question__c": "<p>Refer to the following code:</p><p>01 function Tiger(){</p><p>02 this.Type = &#39;Cat&#39;;</p><p>03 this.size = &#39;large&#39;;</p><p>04 }</p><p>05</p><p>06 let tony = new Tiger();</p><p>07 tony.roar = () =&gt;{</p><p>08 console.log(&#39;They\\&#39;re great1&#39;);</p><p>09 };</p><p>10</p><p>11 function Lion(){</p><p>12 this.type = &#39;Cat&#39;;</p><p>13 this.size = &#39;large&#39;;</p><p>14 }</p><p>15</p><p>16 let leo = new Lion();</p><p>17 //Insert code here</p><p>18 leo.roar();</p><p>Which two statements could be inserted at line 17 to enable the function call on line 18?</p><p>Choose 2 answers.</p>",
+			"A__c": "Leo.prototype.roar = () =&gt; { console.log(&#39;They\\&#39;re pretty good:&#39;); };",
+			"B__c": "Object.assign(leo,tony);",
+			"C__c": "Leo.roar = () =&gt; { console.log(&#39;They\\&#39;re pretty good:&#39;); };",
+			"D__c": "Object.assign(leo,Tiger);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-following-code-01-function-tiger-02-this.type-cat-03-this.size-large-04",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfBAAQ"
+			},
+			"Question__c": "<p>A developer at Universal Containers creates a new landing page based on HTML, CSS, and JavaScript TO ensure that visitors have a good experience, a script named personaliseContext needs to be executed when the webpage is fully loaded (HTML content and all related files ), in order to do some custom initialization.</p><p>Which statement should be used to call personalizeWebsiteContent based on the above business requirement?</p>",
+			"A__c": "window.addEventListener(&#39;load&#39;,personalizeWebsiteContext);",
+			"B__c": "Document.addEventListener(&#39;&#39;&#39;DOMContextLoaded&#39; , personalizeWebsiteContext);",
+			"C__c": "window.addEventListener(&#39;onload&#39;, personalizeWebsiteContext);",
+			"D__c": "document.addEventListener(&#39;&#39;onDOMContextLoaded&#39;, personalizeWebsiteContext);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-developer-at-universal-containers-creates-a-new-landing-page-based-on-html-css-and-javascript-to",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfCAAQ"
+			},
+			"Question__c": "Which javascript methods can be used to serialize an object into a string and deserialize a JSON string into an object, respectively?",
+			"A__c": "JSON.parse and JSON.deserialize",
+			"B__c": "JSON.serialize and JSON.deserialize",
+			"C__c": "JSON.encode and JSON.decode",
+			"D__c": "JSON.stringify and JSON.parse",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-javascript-methods-can-be-used-to-serialize-an-object-into-a-string-and-deserialize-a-json-string",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfDAAQ"
+			},
+			"Question__c": "<p>A class was written to represent items for purchase in an online store, and a second class Representing items that are on sale at a discounted price. THe constructor sets the name to the first value passed in. The </p><p><br></p><p>pseudocode is below:</p><p>Class Item {</p><p>constructor(name, price) {</p><p>... // Constructor Implementation</p><p>}</p><p>}</p><p>Class SaleItem extends Item {</p><p>constructor (name, price, discount) {</p><p>...//Constructor Implementation</p><p>}</p><p>}</p><p><br></p><p>There is a new requirement for a developer to implement a description method that will return a brief description for Item and SaleItem.</p><p><br></p><p>Let regItem =new Item(&#39;Scarf&#39;, 55);</p><p>Let saleItem = new SaleItem(&#39;Shirt&#39; 80, -1);</p><p>Item.prototype.description = function () { </p><p>return &#39;This is a &#39; + this.name; </p><p>}</p><p>console.log(regItem.description()); </p><p>console.log(saleItem.description()); </p><p>SaleItem.prototype.description = function () { </p><p>return &#39;This is a discounted &#39; + this.name;</p><p> } </p><p>console.log(regItem.description()); </p><p>console.log(saleItem.description()); </p><p><br></p><p>What is the output when executing the code above ?</p>",
+			"A__c": "<p>This is a Scarf</p><p>This is a Shirt</p><p>This is a Scarf</p><p>This is a discounted Shirt</p>",
+			"B__c": "<p>This is aScarf</p><p>Uncaught TypeError: saleItem.description is not a function</p><p>This is a Shirt</p><p>This is a did counted Shirt</p>",
+			"C__c": "<p>This is a Scarf</p><p>Uncaught TypeError: saleItem.description is not a function</p><p>This is aScarf</p><p>This is a discounted Shirt</p>",
+			"D__c": "<p>This is a Scarf</p><p>This is a Shirt</p><p>This is a discounted Scarf</p><p>This is a discounted Shirt</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/a-class-was-written-to-represent-items-for-purchase-in-an-online-store-and-a-second-class-representing",
+			"Comment__c": "<p>プロトタイプで追加したメソッドは、継承先にも適用される</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osfFAAQ"
+			},
+			"Question__c": "<p>Refer to HTML below:</p><p>&lt;div id =&quot;main&quot;&gt;</p><p>&lt;div id = &quot; card-00&quot;&gt;This card is smaller.&lt;/div&gt;</p><p>&lt;div id = &quot;card-01&quot;&gt;The width and height of this card is determined by its contents.&lt;/div&gt;</p><p>&lt;/div&gt;</p><p>Which expression outputs the screen width of the element with the ID card-01?</p>",
+			"A__c": "document.getElementById(&#39; card-01 &#39;).getBoundingClientRest().width",
+			"B__c": "document.getElementById(&#39; card-01 &#39;).style.width",
+			"C__c": "document.getElementById(&#39; card-01 &#39;).width",
+			"D__c": "document.getElementById(&#39; card-01 &#39;).innerHTML.lenght*e",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-html-below-lt-div-id-main-gt-lt-div-id-card-00-gt-this-card-is-smaller-lt-div-gt",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osexAAA"
+			},
+			"Question__c": "Which three statements are true about promises ?Choose 3 answers",
+			"A__c": "A Promise has a .then() method.",
+			"B__c": "A fulfilled or rejected promise will not change states .",
+			"C__c": "The executor of a new Promise runs automatically.",
+			"D__c": "<p>A pending promise can become fulfilled, settled, or rejected.</p>",
+			"E__c": "<p><span style=\"color: rgb(68, 68, 68);\">A settled promise can become resolved.</span></p>",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-three-statements-are-true-about-promises-choose-3-answers",
+			"Comment__c": "<p>https://qiita.com/uhyo/items/a9f6e70f43287cc0f52e</p><p>fulfilledは成功</p><p>rejectedは失敗</p><p>settledは成功か失敗で結果が出ている状態</p><p>pendingは未処理</p><p>resolvedはよくわからん</p><p><br></p><p>https://zenn.dev/estra/books/js-async-promise-chain-event-loop/viewer/3-epasync-promise-constructor-executor-func</p><p>executorはnew Promise(コールバック関数)で利用するコールバック関数の部分</p><p><br></p><p>promiseはthenメソッドを持つのでAは正解</p><p>fulfilled, rejectedは既に結果が出ているのでステータスは変わらない、Bは正解</p><p>プロミスはコールバック関数であるエクスキュータ指定が必須なのでCは不正解</p><p>pendingはfulfilled, rejected, settledになるので正しい、Dは正解</p><p>Eはよくわからん</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001oseyAAA"
+			},
+			"Question__c": "<p>Refer to code below:</p><p>Let first = &#39;who&#39;;</p><p>Let second = &#39;what&#39;;</p><p>Try{</p><p>Try{</p><p>Throw new error(&#39;Sad trombone&#39;);</p><p>}catch (err){</p><p>First =&#39;Why&#39;;</p><p>}finally {</p><p>Second =&#39;when&#39;;</p><p>} catch (err) {</p><p>Second =&#39;Where&#39;;</p><p>}</p><p>What are the values for first and second once the code executes ?</p>",
+			"A__c": "First is Who and second is When",
+			"B__c": "First is why and second is where",
+			"C__c": "First is why and second is when",
+			"D__c": "First is who and second is where",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-code-below-let-first-who-let-second-what-try-try-throw-new-error-sad-trombone",
+			"Comment__c": "<p>出た</p><p>catchが処理されるとfinallyを覗いて処理を中断する</p><p>なので、外側のcatchとかも処理されない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf2AAA"
+			},
+			"Question__c": "<p>Refer to the following code:</p><p>function test (val) {</p><p>If (val === undefined) {</p><p>return &#39;Undefined values!&#39; ;</p><p>}</p><p>if (val === null) {</p><p>return &#39;Null value! &#39;;</p><p>}</p><p>return val;</p><p>}</p><p>Let x;</p><p>test(x);</p><p>What is returned by the function call on line 13?</p>",
+			"A__c": "Undefined values!&#39;",
+			"B__c": "Undefined",
+			"C__c": "Null value!&#39;",
+			"D__c": "Line 13 throws an error.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-following-code-function-test-val-if-val-undefined-return-undefined-values",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf3AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p><img src=\"https://www.freecram.net/uploads/JavaScript-Developer-I/04c0d628e0911ff30ef493a7d5d09418.jpg\"></img></p><p><br></p><p>Line 05 causes an error.What are the values of greeting and salutation once code completes?</p>",
+			"A__c": "Greeting is Goodbye and salutation is Hello, Hello.",
+			"B__c": "Greeting is Goodbye and salutation is I say Hello.",
+			"C__c": "Greeting is Hello and salutation is Hello, Hello.",
+			"D__c": "Greeting is Hello and salutation is I say hello.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-exhibit-line-05-causes-an-error-what-are-the-values-of-greeting-and-salutation",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf4AAA"
+			},
+			"Question__c": "Which two console logs outputs NaN ?Choose 2 answers",
+			"A__c": "console.log(10/ &#39;&#39;five);",
+			"B__c": "console.log(10/ Number(&#39;5&#39;));",
+			"C__c": "console.log(parseInt(&#39;two&#39;));",
+			"D__c": "console.log(10/0);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/which-two-console-logs-outputs-nan-choose-2-answers",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf5AAA"
+			},
+			"Question__c": "Refer to the code below:Const pi = 3.1415326,What is the data type of pi?",
+			"A__c": "Float",
+			"B__c": "Number",
+			"C__c": "Double",
+			"D__c": "Decimal",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/refer-to-the-code-below-const-pi-3.1415326-what-is-the-data-type-of-pi",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osf6AAA"
+			},
+			"Question__c": "<p>Refer to the code below:</p><p>flag();</p><p>anotherflag();</p><p><br></p><p>function flag(){</p><p>console.log(&#39;flag&#39;);</p><p>}</p><p>const anotherflag = () =&gt;{</p><p>console.log(&#39;another flag&#39;);</p><p>}</p><p>What is result of the code block?</p>",
+			"A__c": "The console logs only &#39;flag&#39;.",
+			"B__c": "An error is thrown.",
+			"C__c": "The console logs &#39;flag&#39; and then an error is thrown.",
+			"D__c": "The console logs &#39;flag&#39; and another flag.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/what-is-the-result-of-the-code-block",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005i000001osevAAA"
+			},
+			"Question__c": "<p>Consider type coercion, what does the following expression evaluate to?</p><p>True + 3 + &#39;100&#39; + null</p>",
+			"A__c": "4100",
+			"B__c": "3100null&#39;",
+			"C__c": "104",
+			"D__c": "4100null&#39;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.JavaScript-Developer-I.v2021-07-31.q56/consider-type-coercion-what-does-the-following-expression-evaluate-to-true-3-100-null",
+			"Comment__c": "<p>true + 1 // 2</p><p>true が数値の1にキャストされるので合算して2になる</p><p><br></p>"
+		}
+	]
+}

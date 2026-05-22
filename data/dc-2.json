@@ -1,0 +1,1604 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jkYAA"
+			},
+			"Question__c": "How many Metrics can be present in 1 segment container?",
+			"A__c": "1",
+			"B__c": "5",
+			"C__c": "10",
+			"D__c": "100",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=7",
+			"Comment__c": "Only one metric can be present in one segment container. A segment container is a logical grouping of segments that share the same metric and granularity. A metric is a calculated insight that defines and calculates a multidimensional measure on your data. A granularity is the level of detail at which you want to analyze your data, such as daily, weekly, or monthly. You can create multiple segment containers with different metrics and granularities, but each segment container can only have one metric. Reference: Segment Containers"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jlYAA"
+			},
+			"Question__c": "What component of Calculated Insights can be included as attribute data in an activation?",
+			"A__c": "Metrics and Dimensions",
+			"B__c": "Dimensions",
+			"C__c": "Metrics",
+			"D__c": "Filters",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=8",
+			"Comment__c": "Dimensions are attributes that can be used to group or filter data in calculated insights. You can include dimensions as attribute data in an activation by selecting them from the available attributes list. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_calculated_insights.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jpYAA"
+			},
+			"Question__c": "When can the data types be changed during ingestion?",
+			"A__c": "After the DSO is created",
+			"B__c": "Before DSO is created",
+			"C__c": "Data type can never be changed",
+			"D__c": "Data type can be changed at any time",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=3",
+			"Comment__c": "The data types can be changed during ingestion before the Data Source Object (DSO) is created. A DSO is a container for ingested data that defines the schema, format, and metadata of the data. Data types can be changed in the Data Explorer before creating a DSO by using the Edit Schema option. Once a DSO is created, the data types cannot be changed. Reference: Create a Data Source Object"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jqYAA"
+			},
+			"Question__c": "Which of the following are characteristics of Formulas? (Choose 2)",
+			"A__c": "Simple logic on a row-based operation",
+			"B__c": "Ease of use, self-service",
+			"C__c": "Highly reusable content",
+			"D__c": "Attribute updated regularly",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=4",
+			"Comment__c": "These are two characteristics of Formulas. Formulas are a feature that allows you to create custom fields in the data model using simple logic on a row-based operation. For example, you can use a formula to create a field that concatenates the first name and last name of an individual. Formulas are easy to use and self-service, meaning that you can create them without coding or complex queries. You can use formulas to enrich your data and create more meaningful segments and insights. Reference: Formulas"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jrYAA"
+			},
+			"Question__c": "The leadership team at Cumulus Financial has declared that customers who have deposited more than $250,000 in the last 5 years and who are not using advisory services, will be the central focus for all new campaigns in the next year. Which two features support this need?",
+			"A__c": "Calculated Insight",
+			"B__c": "Report|",
+			"C__c": "Segment",
+			"D__c": "Dashboard",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=5",
+			"Comment__c": "These two features support the need to calculate each customer&#39;s lifetime value (LTV) and create breakdowns of the revenue sourced by different channels. Calculated Insight allows you to create complex calculations based on stored data, such as LTV. Segment allows you to create audiences based on different criteria, such as revenue source. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_calculated_insights.htm&amp;type=5 https://help.salesforce.com/s/articleView?id=sf.c360_a_segmentation.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9jsYAA"
+			},
+			"Question__c": "Which authentication type is supported for a Cloud File Storage activation target?",
+			"A__c": "Using private key certificate",
+			"B__c": "Using access and secret keys",
+			"C__c": "Using encrypted username and password",
+			"D__c": "Using JWT token",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2023-09-12.q42.html?p=6",
+			"Comment__c": "To create a Cloud File Storage activation target, you need to provide access and secret keys for authentication5. These keys are generated by your cloud storage provider, such as Amazon S3 or Google Cloud Storage."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9k3YAA"
+			},
+			"Question__c": "What can be customized in the Data Cloud canonical model?",
+			"A__c": "Fields",
+			"B__c": "Objects, Fields, and Relationships",
+			"C__c": "Objects and Fields",
+			"D__c": "Objects",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=4",
+			"Comment__c": "You can customize the Data Cloud canonical model by adding, editing, or deleting objects, fields, and relationships. You can also modify the properties, labels, and descriptions of these components. Reference: https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_canonical_model.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9k6YAA"
+			},
+			"Question__c": "A customer wants to use the transactional data from their data warehouse in Data Cloud. They are only able to export the data via a SFTP site. What are two recommended ways to bring this data into Data Cloud?",
+			"A__c": "Manually import the file using the Data Import Wizard",
+			"B__c": "Utilize Salesforce&#39;s Dataloader application to perform a bulk upload from a desktop",
+			"C__c": "Import the file into Google Cloud Storage and ingest with the Cloud Storage Connector",
+			"D__c": "Import the file into Amazon S3 and ingest with the Cloud Storage Connector",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=7",
+			"Comment__c": "These two options are recommended ways to bring transactional data from a data warehouse into Data Cloud via a SFTP site. You can use the Cloud Storage Connector to ingest files from Google Cloud Storage or Amazon S3 buckets into Data Cloud. References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_google_cloud_storage.htm&amp;type=5https://he"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9k7YAA"
+			},
+			"Question__c": "What should an administrator do to pause a segment activation but with the intent of using that segment again?",
+			"A__c": "Inactivate the segment",
+			"B__c": "Delete the segment",
+			"C__c": "Stop the Publish Schedule",
+			"D__c": "Skip the Activation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=8",
+			"Comment__c": "To pause a segment activation but with the intent of using that segment again, the administrator should stop the publish schedule for that segment. This will stop the segment from being refreshed and activated, but it will not delete or inactivate the segment. The administrator can resume the publish schedule at any time."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kBYAQ"
+			},
+			"Question__c": "How do the Data streams that use the Marketing Cloud Connector refresh data?",
+			"A__c": "Manually refreshed by CDP Admin",
+			"B__c": "Marketing Cloud&#39;s Automation Studio handles this process.",
+			"C__c": "APIs are used for refresh",
+			"D__c": "None of the above",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=12",
+			"Comment__c": "The data streams that use the Marketing Cloud Connector refresh data using Marketing Cloud&#39;s Automation Studio. The Marketing Cloud Connector is a feature that allows you to stream data from Marketing Cloud to Data Cloud in near real time. The connector uses Automation Studio to schedule and run data extracts from Marketing Cloud data extensions and send them to Data Cloud via SFTP. You can configure the frequency and time of the data extracts in Automation Studio. References: Marketing Cloud Connector"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kDYAQ"
+			},
+			"Question__c": "Which three features can be used to validate the data in the unified profile object?",
+			"A__c": "Data Actions",
+			"B__c": "Data Explorer",
+			"C__c": "Query API",
+			"D__c": "Profile Explorer",
+			"E__c": "Identity Reconciliation",
+			"F__c": null,
+			"Answer__c": "B,C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=4",
+			"Comment__c": "These three features can be used to validate the data in the unified profile object. Data Explorer allows you to view the ingested data from different sources and how it is mapped to the unified profile object. Query API allows you to query the unified profile object using SOQL or SQL queries. Profile Explorer allows you to view the unified profile records and their attributes. References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_explorer.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.c360_a_query_api.htm&amp;type=5https://help.salesforce.com/s/artic"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kEYAQ"
+			},
+			"Question__c": "Which of these is present in Identity Resolution Summary?",
+			"A__c": "Unified Individuals",
+			"B__c": "Last Processing Status",
+			"C__c": "Matched Individuals",
+			"D__c": "All the above",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=5",
+			"Comment__c": "The Identity Resolution Summary page shows all the above information: Unified Individuals, Last Processing Status, and Matched Individuals. Unified Individuals are the profiles that Data Cloud creates by linking multiple source profiles based on match rules. Last Processing Status shows the date and time of the last identity resolution run and whether it was successful or not. Matched Individuals shows the number and percentage of source profiles that were matched to a unified individual profile. Reference: Identity Resolution Summary"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kFYAQ"
+			},
+			"Question__c": "An administrator wants to be able to create a multi-dimensional metric to identify unified individual lifetime value (LTV). Which sequence of DMO joins are necessary within the Calculated Insight to enable this calculation?",
+			"A__c": "Unified Individual &gt; Individual &gt; Sales Order",
+			"B__c": "Unified Individual &gt; Unified Link Individual &gt; Sales Order",
+			"C__c": "Sales Order &gt; Unified Individual",
+			"D__c": "Sales Order &gt; Individual &gt; Unified Individual",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=6",
+			"Comment__c": "To create a multi-dimensional metric to identify unified individual lifetime value (LTV), the administrator needs to join the following data model objects (DMOs) in the Calculated Insight:Unified Individual: This DMO represents the unified profile of an individual, which contains attributes from multiple sources.Unified Link Individual: This DMO represents the link between an Individual DMO and a Unified Individual DMO.Sales Order: This DMO represents a transaction or purchase made by an individual.The sequence of joins should start from the Unified Individual DMO, then join the Unified Link Individual DMO using the UnifiedIndividualId field, and then join the Sales Order DMO using the IndividualId field. This way, the administrator can access the sales order data for each unified individual and calculate their lifetime value."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kRYAQ"
+			},
+			"Question__c": "An organization is looking to use Data Cloud to unify data across 5 Salesforce orgs, 2 Marketing Cloud accounts, 6 Amazon S3 Buckets, and 4 Personalization datasets. As far as connection limits are concerned, which platform is going to present a challenge?",
+			"A__c": "Amazon S3 Bucket",
+			"B__c": "Personalization",
+			"C__c": "Marketing Cloud",
+			"D__c": "Salesforce CRM",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=8",
+			"Comment__c": "This platform is going to present a challenge in terms of connection limits for Data Cloud. Data Cloud supports up to 3 Marketing Cloud connections per org, which means that only 3 Marketing Cloud accounts can be connected as data sources or activation targets. The other platforms have higher or no limits for connections.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_limits.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kTYAQ"
+			},
+			"Question__c": "What does the Ignore Empty Value option do in Identity Resolution?",
+			"A__c": "Ignores Individual object records with empty fields when running Identity Resolution rules",
+			"B__c": "Ignores empty fields when running any custom match rules",
+			"C__c": "Ignores empty fields when running reconciliation rules",
+			"D__c": "Ignores empty fields when running the standard match rules",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=10",
+			"Comment__c": "The Ignore Empty Value option is a setting for reconciliation rules, which determine the logic for data selection in a unified profile7. If this option is enabled, empty fields are ignored when applying the reconciliation rule. For example, if the rule is to select the most frequent value, and one of the values is empty, it will not be counted as a frequency."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kUYAQ"
+			},
+			"Question__c": "Which two dependencies need to be removed prior to disconnecting a data source?",
+			"A__c": "Activation Target",
+			"B__c": "Data Stream",
+			"C__c": "Segment",
+			"D__c": "Activation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=11",
+			"Comment__c": "These are the two dependencies that need to be removed prior to disconnecting a data source. A data stream is a process that ingests data from a data source into Data Cloud. A segment is a group of customers that meet certain criteria based on their data. If a data source is disconnected, any data streams or segments that depend on it will no longer function properly. Reference: [Data Sources], [Data Streams], [Segments]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kXYAQ"
+			},
+			"Question__c": "Which two objects or fields are supported for ingestion using the Salesforce CRM connector?",
+			"A__c": "Custom Big Objects",
+			"B__c": "Standard Big Objects",
+			"C__c": "Standard Objects",
+			"D__c": "Custom Objects",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=4",
+			"Comment__c": "These two objects or fields are supported for ingestion using the Salesforce CRM connector. You can select standard or custom objects from your Salesforce CRM org and map them to Data Cloud data model objects.References:https://help.salesforce.com/s/articleView?id=sf.c360_a_data_cloud_salesforce_crm.htm&amp;type=5"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kbYAA"
+			},
+			"Question__c": "When setting up the data source object or schema for data ingestion, what are the three data categories to select from?",
+			"A__c": "Engagement Data",
+			"B__c": "Event Data",
+			"C__c": "Other Data",
+			"D__c": "Order Data",
+			"E__c": "Profile Data",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=8",
+			"Comment__c": "<p>,These are the three data categories to select from when setting up the data source object or schema for data ingestion.</p><p>Engagement data includes information about how customers interact with a brand or product, such as clicks, views, likes, etc.</p><p>Profile data includes information about customers&#39; attributes or preferences, such as name, email, gender, etc. Reference: [Data Categories]</p><p><br></p><p>https://help.salesforce.com/s/articleView?id=sf.c360_a_category.htm&amp;type=5</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kdYAA"
+			},
+			"Question__c": "What is the first thing a business stakeholder should focus on when considering a Data Cloud implementation?",
+			"A__c": "Review consent and privacy management policies",
+			"B__c": "Obtain cross-organizational buy-in",
+			"C__c": "Identify activation targets",
+			"D__c": "Identify data sources",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=10",
+			"Comment__c": "This is the first thing a business stakeholder should focus on when considering a Data Cloud implementation. Obtaining cross-organizational buy-in involves aligning the goals and expectations of different teams and stakeholders who will use or contribute to Data Cloud. Reference: https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-basics/get-started-with-customer-data-platform"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9keYAA"
+			},
+			"Question__c": "What are three benefits of Calculated Insights over Segmentation Operators?",
+			"A__c": "Calculated Insights are better suited for non-trivial calculations, such as calculating a Net Promoter Score as a percentage",
+			"B__c": "Calculated Insights results can be refreshed near real time",
+			"C__c": "Calculated Insights are better suited for single row based operation",
+			"D__c": "Calculated Insights can query engagement data greater than 2 years",
+			"E__c": "Calculated Insights are better suited for complex queries over multiple objects",
+			"F__c": null,
+			"Answer__c": "A,D,E",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=11",
+			"Comment__c": "<p>Calculated Insights are predefined and calculated metrics that can help you build segments. Some of the benefits of Calculated Insights over Segmentation Operators are:Calculated Insights are better suited for non-trivial calculations, such as calculating a Net Promoter Score as a percentage, which would require multiple steps and operators in segmentation.Calculated Insights can query engagement data greater than 2 years, while segmentation operators are limited to 2 years of engagement data.Calculated Insights are better suited for complex queries over multiple objects, such as joining data from different sources or aggregating data across different levels.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004u9kfYAA"
+			},
+			"Question__c": "An administrator is setting up a data stream with transactional data. What field type should the administrator choose to ensure that leading zeros in the purchase order number are preserved?",
+			"A__c": "Number",
+			"B__c": "Decimal",
+			"C__c": "Text",
+			"D__c": "Serial",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freepdfdumps.com/Salesforce.Salesforce-Data-Cloud.v2024-04-10.q55.html?p=12",
+			"Comment__c": "The Text field type should be chosen to preserve leading zeros in the purchase order number, as this field type stores alphanumeric characters as strings. The Number and Decimal field types store numeric values as numbers, which would remove any leading zeros. The Serial field type is not a valid field type in Data Cloud. Reference: [Field Types]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDiYAM"
+			},
+			"Question__c": "What are the core pillars of Data Cloud capabilities?",
+			"A__c": "Connect, Harmonize, Unify, Analyze and Predict, and Act",
+			"B__c": "Import, Export, Query, Copy, Paste",
+			"C__c": "Ingest, Augment, Network, Contain, Broadcast",
+			"D__c": "Connect, Transpose, Unify, Accelerate, Act",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDkYAM"
+			},
+			"Question__c": "Which of these is a valid use case for Data Cloud’s capabilities? Choose three.",
+			"A__c": "Gain insights on data streams in real time and trigger follow-up actions.",
+			"B__c": "Build complex segments of unified individuals with related data from multiple platforms.",
+			"C__c": "Design, deploy, and deliver campaigns to any region with true 1:1 content recommendations.",
+			"D__c": "Aggregate data from multiple systems to understand a customer’s true lifetime value across multiple accounts and devices.",
+			"E__c": "Build simple segments of hierarchical identities with disparate data from one legacy system.",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDlYAM"
+			},
+			"Question__c": "Which of these is a key differentiator of Salesforce Data Cloud? Choose three.",
+			"A__c": "User-friendly interface and built on Lightning",
+			"B__c": "Uses the Customer 360 Data Model",
+			"C__c": "Replaces the need to manage data anywhere else in your organization",
+			"D__c": "Integrates easily with Salesforce products and AppExchange",
+			"E__c": "Focuses primarily on the financial services industry data",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDmYAM"
+			},
+			"Question__c": "What does “Connect” mean as a capability?",
+			"A__c": "Identify and match individuals to create a unified profile.",
+			"B__c": "Create smart segments and activate them anywhere.",
+			"C__c": "Embed data with intelligence and make it available to analytics systems.",
+			"D__c": "Synchronize data from external data sources and transform data when needed.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDnYAM"
+			},
+			"Question__c": "Which statements are true of Data Cloud platform functionality? Choose three.",
+			"A__c": "Data from Salesforce, legacy systems, web and app data, and data lakes can be brought into Data Cloud.",
+			"B__c": "Data is only ingested in batches.",
+			"C__c": "Data is transformed, cleaned, and harmonized into the standard data model.",
+			"D__c": "Data storage has a maximum threshold.",
+			"E__c": "Data can be activated in Marketing Cloud Engagement, Advertising, Personalization, and Intelligence.",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDoYAM"
+			},
+			"Question__c": "What does “Unify” mean as a capability of Data Cloud?",
+			"A__c": "Consume or activate data to any cloud and any application.",
+			"B__c": "Connect, match, and resolve customer data.",
+			"C__c": "Create smart segments and activate them anywhere.",
+			"D__c": "Embed data with intelligence and make it available to analytics systems.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDpYAM"
+			},
+			"Question__c": "What are data ethics? Choose two.",
+			"A__c": "Moral guidelines about the gathering, protection, use, and sharing of data and how it affects individuals",
+			"B__c": "Something companies need to follow to avoid getting into trouble",
+			"C__c": "A way for companies to build trust and transparency with their customers and data",
+			"D__c": "Laws that prevent certain types of data from being processed or stored",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDqYAM"
+			},
+			"Question__c": "True or false: It’s ethical to store any kind of information about a user with or without their consent, even if there’s no need for it and they receive no value in exchange.",
+			"A__c": "TRUE",
+			"B__c": "FALSE",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/fK5l29AYS7GZ9btZMnZd7Iyp6ipjbo1O#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDrYAM"
+			},
+			"Question__c": "Which  Permission Set manages the overall segmentation strategy and identifies the target campaigns?",
+			"A__c": "IT manager",
+			"B__c": "Marketing manager",
+			"C__c": "Data-aware specialist",
+			"D__c": "Marketing specialist",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDsYAM"
+			},
+			"Question__c": "Which tab in the navigation manages the data coming into Data Cloud?",
+			"A__c": "Segments",
+			"B__c": "Data streams",
+			"C__c": "Activation",
+			"D__c": "Data model",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDtYAM"
+			},
+			"Question__c": "What must the Admin user do first when setting up users in Data Cloud?",
+			"A__c": "Assign permission sets",
+			"B__c": "Setup each user as an admin",
+			"C__c": "Create profiles for each user role",
+			"D__c": "Configure data sources",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDuYAM"
+			},
+			"Question__c": "Which of the following reflects the correct order of the Data Cloud Setup process flow?",
+			"A__c": "Configure Admin user, provision and complete Data Cloud setup, configure additional users &amp; permissions, and connect to relevant Salesforce Clouds",
+			"B__c": "Connect to relevant Salesforce Clouds, provision and complete Data Cloud setup, configure Admin user, and configure additional users and permissions",
+			"C__c": "Provision and complete Data Cloud setup, connect to relevant Salesforce Clouds, and configure Admin user",
+			"D__c": "Configure additional users and permissions, configure Admin user, provision and complete Data Cloud setup, and Connect to relevant Salesforce Clouds",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDvYAM"
+			},
+			"Question__c": "Which connection can a Data Aware Specialist setup to ingest data from without needing the Admin to explicitly setup the connection?",
+			"A__c": "Google Cloud Storage",
+			"B__c": "B2C Commerce",
+			"C__c": "Amazon S3",
+			"D__c": "Salesforce CRM",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDwYAM"
+			},
+			"Question__c": "When using the GCS Connector, how frequently is data from Google Cloud Storage synchronized with Data Cloud?",
+			"A__c": "Every 15 minutes",
+			"B__c": "Every 1 hour",
+			"C__c": "Every 12 hours",
+			"D__c": "Every 24 hours",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDxYAM"
+			},
+			"Question__c": "What 2 scenarios would you recommend when provisioning Data Cloud in an existing CRM Data Org?",
+			"A__c": "Existing CRM Data Org has been highly customized",
+			"B__c": "Customer data is housed in a single Salesforce Org",
+			"C__c": "Customer is using Loyalty Management and Promotions",
+			"D__c": "Customer has a need to connect multiple CRM Orgs",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDyYAM"
+			},
+			"Question__c": "Which permission set is required to setup an External Activation Platform?",
+			"A__c": "Customer Data Platform Admin",
+			"B__c": "Customer Data Platform Data Aware Specialist",
+			"C__c": "Customer Data Platform Marketing Manager",
+			"D__c": "Customer Data Platform Marketing Specialist",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/MYPQCk-cO-Jaz4DmNPNNF7mSxLO8jqYP#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/ffnILkZ4FtbqvnJAvZyOb4ZChHAYGbnX#/lessons/DEUhK2h0G0OFG8VdwBUe0KxhcYQEEDHc</p><p>管理者は全部、データスペシャリストはストリームこらマッピングまで、マーケスペシャリストはセグメントだけ、マーケマネージャはアクティベーションまで出来る</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEDzYAM"
+			},
+			"Question__c": "Identify the attributes that describe a Package. Choose three.",
+			"A__c": "Used to bundle metadata",
+			"B__c": "A container that is distributed",
+			"C__c": "A framework to custom tie metadata",
+			"D__c": "If managed, then used by an ISV on AppExchange",
+			"E__c": "Allows more control in the package content",
+			"F__c": "May include Data Streams (S3), Data Models, and Calculated Insights",
+			"Answer__c": "B,D,F",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE0YAM"
+			},
+			"Question__c": "What is used to import AWS Data Streams into Salesforce and modify in the product interface?",
+			"A__c": "Salesforce Metadata API",
+			"B__c": "Sharing Rules",
+			"C__c": "Lightning App Builder",
+			"D__c": "Lightning Report Builder",
+			"E__c": "Salesforce Flow",
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/_nIhW0CJtdJYGG_g5wLN3NH_7IrYIoD2#/lessons/kPM47bOYMfVw-PSY64CsqyuKnovrg1mY</p><p>現在、メタデータ API は Data Cloud の次の部分で使用されています。</p><ul><li>AWS データストリーム</li><li>取り込み API データ ストリーム</li><li>モバイルとウェブのデータストリーム</li><li>データレイク</li><li>データモデル</li></ul>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE1YAM"
+			},
+			"Question__c": "What can be used to make Segments available only to certain groups based on their role?",
+			"A__c": "Salesforce Metadata API",
+			"B__c": "Sharing Rules",
+			"C__c": "Lightning App Builder",
+			"D__c": "Lightning Report Builder",
+			"E__c": "Salesforce Flow",
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE2YAM"
+			},
+			"Question__c": "What cannot be used to create a report on Data Cloud data that’s in a DMO (Data Model Objects)?",
+			"A__c": "Tableau",
+			"B__c": "CRM Analytics",
+			"C__c": "CRM Reports and Dashboards",
+			"D__c": "Marketing Cloud Intelligence",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/rP_Kxd7CD54ipsPebt3wSS__byNxy1DL#/lessons/xuQoFnzDRVameCNQjLFH2Ft3JO8bSM6V</p><p>ヒント:データ クラウド自体に存在するデータはデータ レイク内にあるため、現時点では、これに加えて CRM の標準 Salesforce レポートとダッシュボードを使用することはできないことに注意することが重要です。</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE3YAM"
+			},
+			"Question__c": "What is used to receive notifications about the latest status of Data Cloud usage without viewing records?",
+			"A__c": "Salesforce Metadata API",
+			"B__c": "Sharing Rules",
+			"C__c": "Lightning App Builder",
+			"D__c": "Lightning Report Builder",
+			"E__c": "Salesforce Flow",
+			"F__c": null,
+			"Answer__c": "E",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE4YAM"
+			},
+			"Question__c": "What is used to customize and organize Data Cloud Unified Individual Record Pages for surfacing insights?",
+			"A__c": "Salesforce Metadata API",
+			"B__c": "Sharing Rules",
+			"C__c": "Lightning App Builder",
+			"D__c": "Lightning Report Builder",
+			"E__c": "Salesforce Flow",
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE5YAM"
+			},
+			"Question__c": "Identify the features of an Unmanaged Package. Choose three.",
+			"A__c": "Not upgradeable or supported",
+			"B__c": "Typically used by ISVs on AppExchange",
+			"C__c": "Commonly used for one-time migration of metadata",
+			"D__c": "Contains a namespace",
+			"E__c": "Package Developer has no control over the components once installed",
+			"F__c": "Is upgradeable and supported",
+			"Answer__c": "A,C,E",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE6YAM"
+			},
+			"Question__c": "Which three Data Cloud actions are available via Flow?",
+			"A__c": "Publish Calculated Insights",
+			"B__c": "Publish Segments",
+			"C__c": "Trigger Identity Resolution Job",
+			"D__c": "Map Data Model Object Fields",
+			"E__c": "Publish Streaming Insights",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE7YAM"
+			},
+			"Question__c": "Identify a typical use case for customizing and organizing the Data Cloud Unified Individual record page.",
+			"A__c": "So only specific teams can view a specific record page",
+			"B__c": "To order and hide specific fields that are relevant to a team",
+			"C__c": "To reduce potential metadata duplications",
+			"D__c": "To trigger an action when a change is made",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE8YAM"
+			},
+			"Question__c": "If you want to build a CRM report to include a Data Cloud configuration object, what do you need to do first?",
+			"A__c": "Configure a custom report type",
+			"B__c": "Customize the object",
+			"C__c": "Import metadata for the object",
+			"D__c": "Create a sharing rule to make the object available",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/TN4fXZBEyzrVTZiRGkwNuZ0nPVx2Sd3r#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEE9YAM"
+			},
+			"Question__c": "What are some of the supported ways that data from CRM can be brought into Data Cloud?",
+			"A__c": "Data Bundles",
+			"B__c": "CRM Reports",
+			"C__c": "CRM Objects",
+			"D__c": "Data Kits",
+			"E__c": "Big Objects",
+			"F__c": null,
+			"Answer__c": "A,C,D",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/dzgL2u9_DhMDc2k1a7sGNXAe4JgETvEp#/lessons/H4V-VcukgsDHekixBrVhmf2-QxFay1Qp</p><p>CRMコネクタでオブジェクトが取り込める</p><p><br></p><p>https://rise.articulate.com/share/dzgL2u9_DhMDc2k1a7sGNXAe4JgETvEp#/lessons/ypeQra8rWJLwJzZ7v4GtO6g4Ig0IYA8E</p><p>バンドル、コネクタ、データキットで取り込む</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEAYA2"
+			},
+			"Question__c": "Which three connectors are available out-of-the-box for data ingestion?",
+			"A__c": "Azure",
+			"B__c": "AWS S3",
+			"C__c": "Sales and Service Cloud",
+			"D__c": "Unica",
+			"E__c": "Marketing Cloud",
+			"F__c": null,
+			"Answer__c": "B,C,E",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEBYA2"
+			},
+			"Question__c": "What are the Starter Data Bundles available in the Data Cloud CRM Connector?",
+			"A__c": "Sales Cloud Bundle",
+			"B__c": "Net Zero Cloud Bundle",
+			"C__c": "Loyalty Management Bundle",
+			"D__c": "Analytics Cloud Bundle",
+			"E__c": "Service Cloud Bundle",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEECYA2"
+			},
+			"Question__c": "Which permissions are required to expose a Salesforce object to Data Cloud? Select all that apply.",
+			"A__c": "Create",
+			"B__c": "Modify All",
+			"C__c": "Read",
+			"D__c": "View All",
+			"E__c": "Edit",
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEDYA2"
+			},
+			"Question__c": "How frequently can CRM data be refreshed in Data Cloud?",
+			"A__c": "Every 15 minutes",
+			"B__c": "Every 12 hours",
+			"C__c": "Every hour",
+			"D__c": "Every 24 hours",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/dzgL2u9_DhMDc2k1a7sGNXAe4JgETvEp#/lessons/H4V-VcukgsDHekixBrVhmf2-QxFay1Qp</p><p>１時間更新</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEEYA2"
+			},
+			"Question__c": "When setting up the data source object or schema corresponding to the data set that you’re importing, which category would you select when bringing sales order data?",
+			"A__c": "Engagement Data",
+			"B__c": "Profile Data",
+			"C__c": "Other Data",
+			"D__c": "Party Data",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEFYA2"
+			},
+			"Question__c": "Can an object be ingested more than once?",
+			"A__c": "No",
+			"B__c": "Yes",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/dzgL2u9_DhMDc2k1a7sGNXAe4JgETvEp#/lessons/H4V-VcukgsDHekixBrVhmf2-QxFay1Qp</p><p>一度ストリームを設定すると一時間毎の差分更新になる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEGYA2"
+			},
+			"Question__c": "Which type of data model is ideal for ingesting into Data Cloud?",
+			"A__c": "Normalized Data Model",
+			"B__c": "Denormalized Data Model",
+			"C__c": "Fragmented Data Model",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/NHvXKFOkcX6A9shxaBPxwOGrV_EbHO3-#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEHYA2"
+			},
+			"Question__c": "How is the Individual Object referenced in other DMOs within a data model?",
+			"A__c": "Via Party Attribute",
+			"B__c": "Via Individual.Id Attribute",
+			"C__c": "Via Party Identification Object",
+			"D__c": "Via Contact Point Identifier",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/Kh4mIPqO8oT9z28WeI2FDzpa8PJizrrL#/lessons/Em-XxIPDGrPUE9kLD6LccKWwKbXwEkVM</p><p>ヒント：</p><p><br></p><p>データ モデル内の他のオブジェクト内の個別オブジェクトへの参照は、Party属性を介して行われます。これは、 Individual.Id属性にリンクする外部キー関係と考えてください。上の図では、各 Contact Point &lt;Channel&gt; オブジェクトが Party Identification と並んでその参照を持っていることがわかります。場合によっては混乱して見えるかもしれませんが、属性に関しては Party = Individual.Idであることに注意してください。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEIYA2"
+			},
+			"Question__c": "You have a short time to create a DMO and the requestor needs this Data Cloud data available for segmentation as soon as possible.  Which type of data model object would you build?",
+			"A__c": "Custom",
+			"B__c": "Hybrid",
+			"C__c": "Standard",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEJYA2"
+			},
+			"Question__c": "Data modeling occurs after which step when establishing the data model in the Data Cloud platform?",
+			"A__c": "Segmentation",
+			"B__c": "Activation",
+			"C__c": "Identity Resolution",
+			"D__c": "Ingestion",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEKYA2"
+			},
+			"Question__c": "What do you do when datasets have fields that align to one DMO and another portion aligns to another DMO?",
+			"A__c": "Create formula fields",
+			"B__c": "Denormalize the data",
+			"C__c": "Use a subscriber key value",
+			"D__c": "Transpose the single records to multiple records",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>部分一致しているので計算式で削る</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEELYA2"
+			},
+			"Question__c": "You need to integrate new data sources with custom attributes that will be added to a standard data model object. Which type of data model objects would you build?",
+			"A__c": "Custom",
+			"B__c": "Hybrid",
+			"C__c": "Standard",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEMYA2"
+			},
+			"Question__c": "Why should a cardinality setting of 1:M be set for objects such as Contact Point Phone, Email, or  Party Identification?",
+			"A__c": "Allows a relationship to multiple records",
+			"B__c": "Requires the same cardinality as the Individual object",
+			"C__c": "Allows a relationship to multiple objects",
+			"D__c": "Is the default field for all relationship definitions",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEENYA2"
+			},
+			"Question__c": "What is the purpose of Data Explorer? (choose all that apply)",
+			"A__c": "To inspect only DMOs and DSOs",
+			"B__c": "To enable validation of the configured mappings for DMOs",
+			"C__c": "To inspect initial values and validate formula fields for DSOs",
+			"D__c": "To view over 250 records and 25 attributes",
+			"E__c": "To inspect calculated insights",
+			"F__c": null,
+			"Answer__c": "B,C,E",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEOYA2"
+			},
+			"Question__c": "Which objects must be mapped to the Individual DMO to enable the unification and activation process to work? (choose all that apply)",
+			"A__c": "Contact Point",
+			"B__c": "Purchase Order",
+			"C__c": "Party Identification",
+			"D__c": "Customer Profile",
+			"E__c": "Unified Individual",
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://rise.articulate.com/share/zGPmf87HcpwGJsY0YZklYGvEgT8IMV_g#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/Kh4mIPqO8oT9z28WeI2FDzpa8PJizrrL#/lessons/Em-XxIPDGrPUE9kLD6LccKWwKbXwEkVM</p><p>個人へのマッピング</p><p>個人 DMO へのマッピングは、プロファイル データのカテゴリを持つすべてのデータ ソースに必要です。これらのデータ ソースはすべて個人を表すことを目的としているためです。 </p><p><br></p><p>これらのプロファイルは、ID 解決プロセス中に統合個人に統合されます。 </p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEPYA2"
+			},
+			"Question__c": "The unification process recognizes and matches data belonging to individual humans. Which of the following is the end result of this process?",
+			"A__c": "The matched data appears as records mapped to Individual Data Model Objects (DMO).",
+			"B__c": "This data produces a map allowing your organization to pinpoint all its customers’ locations.",
+			"C__c": "This data produces a map allowing your organization to pinpoint all its customers’ locations at any given point in time.",
+			"D__c": "The matched data creates within Marketing Cloud a separate object for each piece of data from customers.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEQYA2"
+			},
+			"Question__c": "After the Identity Resolution process completes, what should you examine to validate the Identity Resolution ruleset outcome?",
+			"A__c": "Last Modified Date attribute",
+			"B__c": "Bi-directional ruleset",
+			"C__c": "Resolution Summary",
+			"D__c": "Known Unified Profiles figure",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEERYA2"
+			},
+			"Question__c": "What reconciliation rule is defined by default when selecting profile attributes in the Unified Individual?",
+			"A__c": "Last updated",
+			"B__c": "Source sequence",
+			"C__c": "Most occurring",
+			"D__c": "Oldest record",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEESYA2"
+			},
+			"Question__c": "A benefit of a unified profile is that all contact points associated with the individual and complete lineage is retained within Data Cloud.",
+			"A__c": "True",
+			"B__c": "False",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEETYA2"
+			},
+			"Question__c": "Which of the following represents the correct order of the steps of the Identity Resolution process?",
+			"A__c": "Profile data across data sources, configure match rules, configure reconciliation rules, validate results",
+			"B__c": "Configure match rules, configure reconciliation rules, validate results, profile data across data source",
+			"C__c": "Configure match rules, validate results, configure reconciliation rules, profile data across data sources",
+			"D__c": "Configure reconciliation rules, configure match rules, profile data across data sources, validate results",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEUYA2"
+			},
+			"Question__c": "When using match rules with Individual Attributes and contact points, you risk creating combinations of records when the same contact point (such as a shared business phone number) is used across several individuals. What should you do to prevent this from happening?",
+			"A__c": "Include many attributes and contact points.",
+			"B__c": "Avoid using match rules with Individual Attributes and contact points, since this is not a recommended practice.",
+			"C__c": "Set up match rules with a single connected contact point.",
+			"D__c": "Ensure names are included into the rules.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/vd2ZhON8W4xjGTKBUVq9w6IIJ-jrluMu#/lessons/mK_BrJ1_gkV-lUu-W44CDbMIxGOHg2hu</p><p>ビジネスメールの複数人での共有等の場合は、メールアドレスの他に名前も含めると、誤一致を防げる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEVYA2"
+			},
+			"Question__c": "Which three match rules are available to link multiple records into a unified customer profile?",
+			"A__c": "Exact Device and Name",
+			"B__c": "Exact org ID",
+			"C__c": "Exact name and email",
+			"D__c": "Exact email",
+			"E__c": "Exact phone number",
+			"F__c": null,
+			"Answer__c": "C,D,E",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/vd2ZhON8W4xjGTKBUVq9w6IIJ-jrluMu#/lessons/mK_BrJ1_gkV-lUu-W44CDbMIxGOHg2hu</p><p>デバイスと組織IDは一致ルールに利用しない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEWYA2"
+			},
+			"Question__c": "Which of the following are true of match rules? Choose three.",
+			"A__c": "They establish criteria for relating source Individual records to each other.",
+			"B__c": "They produce a record called Unified Individual.",
+			"C__c": "They make use of most standard and custom attributes mapped to the data model.",
+			"D__c": "They can only be used with standard attributes mapped to the data model.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEXYA2"
+			},
+			"Question__c": "Which of the following are true of anonymous profiles? Choose two.",
+			"A__c": "Once at least one known individual profile is matched with an anonymous record, that record will be marked as known going forward.",
+			"B__c": "For anonymous profiles to be counted correctly, the value of the Is Anonymous field must be set to 0.",
+			"C__c": "They’re excluded from the known profile utilization consumption.",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/vd2ZhON8W4xjGTKBUVq9w6IIJ-jrluMu#/lessons/XP8NiKZUbl6Sa0j_70sh6D2wEu_Z9fhK</p><p>匿名プロファイルはプロファイルリソースを消費しない、既存プロファイルに匿名レコードが一致すると既知レコードとして処理される</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEYYA2"
+			},
+			"Question__c": "Which match rule allows you to unify records based on an external loyalty ID?",
+			"A__c": "Exact email",
+			"B__c": "Exact party ID",
+			"C__c": "Exact org ID",
+			"D__c": "Exact loyalty ID",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/kGzrZeirJFj91RUWV4rL9U1JHv69s8XV#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEZYA2"
+			},
+			"Question__c": "Which one of these options would likely be an attribute?",
+			"A__c": "Equal to (=)",
+			"B__c": "Last Number of Days",
+			"C__c": "Greater than (x)",
+			"D__c": "Purchase Order Date",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/3uoQbm2BMj-nBIzfaAPcKW9GtjP8pWMt#/lessons/ZjfLoUDqZClQ4S7Gp4ePHuC1qljLaaiv</p><p>セグメンテーションの属性として発注日を使う</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEaYAM"
+			},
+			"Question__c": "Which of these two statements are true for Value Suggestions?",
+			"A__c": "“Enable Value Suggestion” needs to be turned on for the attribute.",
+			"B__c": "Only text attributes can be enabled.",
+			"C__c": "Attribute values are displayed in date order with the most recent displaying first.",
+			"D__c": "A value with more than 15 characters isn’t available.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/3uoQbm2BMj-nBIzfaAPcKW9GtjP8pWMt#/lessons/CGbnpFkoomszGBTecS5TtCcu7dlK6Nzs</p><p>値の提案</p><p>DMOの項目で有効化が必要、テキスト項目のみ</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEbYAM"
+			},
+			"Question__c": "For customers who want to &quot;set it and forget it&quot; for ongoing campaigns, what are the two automated publish schedule options on a segment?",
+			"A__c": "Every 24 hours",
+			"B__c": "Every 12 hours",
+			"C__c": "Every 1 hour",
+			"D__c": "Every 4 hours",
+			"E__c": "Every  8 hours",
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/3uoQbm2BMj-nBIzfaAPcKW9GtjP8pWMt#/lessons/AS5hNEXPniFgfHo_s9dwfj6d31Je7nGu</p><p>セグメントの公開スケジュールは12時間、24時間ごとが選択できる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEcYAM"
+			},
+			"Question__c": "Which attributes in the Attribute Library have a 1:Many relationship with the segment target?",
+			"A__c": "Related attributes",
+			"B__c": "Direct attributes",
+			"C__c": "Engagement attributes",
+			"D__c": "Profile attributes",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEdYAM"
+			},
+			"Question__c": "Which step in a segment configuration determines the attributes that show up in the Attribute Library?",
+			"A__c": "Containers",
+			"B__c": "Population",
+			"C__c": "Segment On",
+			"D__c": "Publish Schedule",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/3uoQbm2BMj-nBIzfaAPcKW9GtjP8pWMt#/lessons/AS5hNEXPniFgfHo_s9dwfj6d31Je7nGu</p><p>セグメントオンで、関係属性と直接属性を選択する</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEeYAM"
+			},
+			"Question__c": "Attributes with which data type support Value Suggestion?",
+			"A__c": "All types",
+			"B__c": "Date",
+			"C__c": "Number",
+			"D__c": "Text",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEfYAM"
+			},
+			"Question__c": "How many attributes can be enabled for Value Suggestion?",
+			"A__c": "500",
+			"B__c": "100",
+			"C__c": "50",
+			"D__c": "No limit",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEgYAM"
+			},
+			"Question__c": "Which type of Insight can be used in Segmentation?",
+			"A__c": "Calculated Insight",
+			"B__c": "Commerce Insight",
+			"C__c": "Commerce Insight",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEhYAM"
+			},
+			"Question__c": "If you want to use the same criteria in multiple segments, which feature would you recommend?",
+			"A__c": "Segment Membership DMO",
+			"B__c": "Segment Exclusions",
+			"C__c": "Nested Segments",
+			"D__c": "Segmentation API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEiYAM"
+			},
+			"Question__c": "How can you view details on Segment Membership and who all are in a specific Segment?",
+			"A__c": "Open the Segmentation Canvas and see details on who is in a specific Segment.",
+			"B__c": "It is not possible to see details on Segment Membership.",
+			"C__c": "View the Segment Membership DMO data via Data Explorer.",
+			"D__c": "Download the Segment Membership data via the ‘Download’ feature.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEjYAM"
+			},
+			"Question__c": "Which entity type(s) can be used to “Segment On” in Segmentation?",
+			"A__c": "Profile and Engagement",
+			"B__c": "Engagement",
+			"C__c": "Profile",
+			"D__c": "Profile and Engagement and Other",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/JeO1cJlA9GK4BGEtDpsHzHha0jDIo8AY#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/3uoQbm2BMj-nBIzfaAPcKW9GtjP8pWMt#/lessons/AS5hNEXPniFgfHo_s9dwfj6d31Je7nGu</p><p>セグメントターゲットの選択</p><p>–</p><p>Segment On は、セグメントの構築に使用されるターゲット エンティティ (オブジェクト) を定義します。取り込み中に、タイププロファイルとしてマークされた任意のエンティティを選択できます。</p><p><br></p><p>選択したターゲット エンティティによって、属性ライブラリでセグメント フィルターとして使用できる属性が決まります。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEkYAM"
+			},
+			"Question__c": "Which options can you use to create a Calculated Insight? Choose four.",
+			"A__c": "Create with Builder",
+			"B__c": "Create from API",
+			"C__c": "Create with SQL",
+			"D__c": "Create from a package",
+			"E__c": "Create Streaming Insights",
+			"F__c": "Import Query from Marketing Cloud",
+			"Answer__c": "A,C,D,E",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>この質問に対する答えは、選択肢(A)、(C)、(D)、(E)です。Salesforce Data CloudでCalculated Insightを作成する方法は以下の4つです¹²。</p><p><br></p><p>- **(A) Create with Builder**: SQLに精通していない場合、Builderツールを使用してCalculated InsightとStreaming Insightsの両方を構築できます。</p><p>- **(C) Create with SQL**: SQL式を書いて、マップされたオブジェクトとフィールドからメトリックとディメンションを作成します。</p><p>- **(D) Create from a package**: 他の組織で作成およびテストされたCalculated Insightがある場合、インストールされたSalesforceパッケージからInsightを作成できます。</p><p>- **(E) Create Streaming Insights**: Calculated Insightsと同様のインターフェースを使用して、リアルタイムデータソースからディメンションを越えたストリーミングメトリックを計算するSQL式を書きます。</p><p><br></p><p>選択肢(B) Create from APIは、Calculated Insightを作成するためのオプションとしては記載されていません。したがって、最適な選択肢は(A)、(C)、(D)、(E)です。</p><p><br></p><p>ソース: Bing との会話 2024/5/16</p><p>(1) Calculated Insights - Salesforce. https://help.salesforce.com/s/articleView?id=sf.c360_a_calculated_insights.htm&amp;language=en_US&amp;type=5.</p><p>(2) Create Insights in Data Cloud | Salesforce Trailhead. https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/create-insights-in-customer-data-platform.</p><p>(3) Perform In-Depth Analyses with CDP Calculated Insights. https://medium.com/salesforce-architects/perform-in-depth-analyses-with-cdp-calculated-insights-35859269899d.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEElYAM"
+			},
+			"Question__c": "Identify the three use cases best suited for Calculated Insights.",
+			"A__c": "Customer Lifetime Value",
+			"B__c": "Financial Services",
+			"C__c": "Recency Frequency Monetary",
+			"D__c": "Service and Support",
+			"E__c": "Affinity Scores",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEmYAM"
+			},
+			"Question__c": "Which three types of usages are Calculated Insights best suited for?",
+			"A__c": "Non- trivial calculation",
+			"B__c": "Complex queries across multiple objects",
+			"C__c": "Reusability purposes",
+			"D__c": "Data collected in batches",
+			"E__c": "High volume of data processing",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/4iUH2obNqJTI8jUHyyq5Ax2XN7Cw09Uv#/lessons/XQfJAq1F4fQKKZE8wRAN8tNwkIIHO8qa</p><p>計算されたインサイトの利点は、次のことができることです。</p><p><br></p><p>•</p><p>複雑な属性を計算します。 </p><p><br></p><p>•</p><p>さまざまなオブジェクトにわたる RFM スコアや LTV スコアなどのセグメンテーションを強化します。</p><p><br></p><p>•</p><p>セグメンテーションの外側で計算することで、集計と計算が抽象化されます。 </p><p><br></p><p>•</p><p>それをセグメンテーションに使用します。  </p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEnYAM"
+			},
+			"Question__c": "Which are the supported Data Action targets for Salesforce Data Cloud Streaming Insights? Choose two.",
+			"A__c": "Salesforce Marketing Cloud",
+			"B__c": "Webhook",
+			"C__c": "Salesforce Platform Event",
+			"D__c": "Salesforce Commerce Cloud",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEoYAM"
+			},
+			"Question__c": "True or False: Once you save an Insight from Visual Insights Builder, you can no longer edit it using the Visual Builder.",
+			"A__c": "True",
+			"B__c": "False",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEpYAM"
+			},
+			"Question__c": "Which type of insight is best suited to analyze clickstream data every five minutes?",
+			"A__c": "Calculated Insights",
+			"B__c": "Streaming Insights",
+			"C__c": "Eistein Insights",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEqYAM"
+			},
+			"Question__c": "Which activity is not performed with authoring Streaming Insights via SQL?",
+			"A__c": "Mapping to real-time sources",
+			"B__c": "Using Data Actions",
+			"C__c": "Creating timestamps in Data Cloud",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/iqzUxRt2iOUSGAF-_-xOiLeI7f33pygr#/lessons/ByyDud46vkE_S60_zt0QtGKC7HkhFKmJ</p><p>タイムスタンプを作成するステップはない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEErYAM"
+			},
+			"Question__c": "Which Data Cloud feature helps calculate reusable attributes like Customer Lifetime Value and Customer Satisfaction Score?",
+			"A__c": "Segments",
+			"B__c": "Calculated Insights",
+			"C__c": "Einstein Score",
+			"D__c": "Tableau Connector",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/5cwXgJIRwGT2RRhqVGwqxI_-wEZLqQYZ#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEsYAM"
+			},
+			"Question__c": "Select the correct option below to complete this sentence.\n\n\n\nActivation Membership expands the possibility of activating the profile entities that have a _______ relationship with the Segmented On entity.",
+			"A__c": "Many:1",
+			"B__c": "1:Many",
+			"C__c": "1:2",
+			"D__c": "1:1",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEtYAM"
+			},
+			"Question__c": "Where do you define the location where you want to use your segment?",
+			"A__c": "Calculated Insights",
+			"B__c": "Segment",
+			"C__c": "Activation Target",
+			"D__c": "Activation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential</p><p><br></p><p>https://rise.articulate.com/share/gX131mbD-BvVkO-XwIAO4sH_dmHhH8MV#/lessons/wJ8B42xMafJAmyJibuW95OSPc4ogoz0g</p><p>アクティベーションターゲット上で公開するセグメントを決定する</p><p><br></p><p>セグメント上でアクティベーションを作成する</p><p><br></p><p><br></p><p><br></p><p>マーケティング キャンペーンのアクティベーション ターゲットにオーディエンスを公開するセグメントをアクティブ化するプロセスを開始します。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEuYAM"
+			},
+			"Question__c": "Select the best option that completes the statement.\n\n\n\nCloud File Storage Activation Target lets you publish segments...",
+			"A__c": "From Data Cloud to Amazon S3.",
+			"B__c": "Directly from Data Cloud to Marketing Cloud Business Units.",
+			"C__c": "So Salesforce Core apps can query.",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEvYAM"
+			},
+			"Question__c": "Which two options are available for automated batch publish and activation?",
+			"A__c": "12 hours",
+			"B__c": "1 hour",
+			"C__c": "24 hours",
+			"D__c": "15 minutes",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEwYAM"
+			},
+			"Question__c": "When activating on Unified Individual to Marketing Cloud, which three attributes are automatically included?",
+			"A__c": "Email subscriber key",
+			"B__c": "Contact email address",
+			"C__c": "Contact phone number",
+			"D__c": "Contact address",
+			"E__c": "Contact ID",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEExYAM"
+			},
+			"Question__c": "What data points can be activated in Calculated Insights when activating a segment?",
+			"A__c": "Metrics",
+			"B__c": "Dimensions",
+			"C__c": "Metrics and Dimensions",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEyYAM"
+			},
+			"Question__c": "How are Calculated Insights added to an Activation?",
+			"A__c": "Additional Attribute",
+			"B__c": "Activation Target",
+			"C__c": "Contact Point",
+			"D__c": "Activation Membership",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a00IS000004uEEzYAM"
+			},
+			"Question__c": "When are Activation Targets created?",
+			"A__c": "Before setting up an activation",
+			"B__c": "Before creating a segment",
+			"C__c": "After setting up an activation",
+			"D__c": "After publishing a segment",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://rise.articulate.com/share/Zf6VgvyG6_A6ym9rBnsAca-49pjU0Wh4#/",
+			"Comment__c": "https://trailhead.salesforce.com/ja/users/strailhead/trailmixes/prepare-for-your-data-cloud-consultant-credential"
+		}
+	]
+}

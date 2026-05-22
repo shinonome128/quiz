@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f21f062d-6406-4551-8235-50e3ad018534",
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "configurationTags" : [ ],
+  "devName" : "list_a00__c",
+  "id" : "acc9003b-947f-4ce9-855a-e1d8702b1c99",
+  "label" : "Question リスト",
+  "objectApiName" : "Question__c",
+  "routeType" : "list-a00",
+  "type" : "route",
+  "urlPrefix" : "question"
+}

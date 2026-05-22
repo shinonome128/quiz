@@ -1,0 +1,17 @@
+[
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["dc-1.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["dc-2.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["dc-3.json"]
+	}
+]

@@ -1,0 +1,1604 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9ncFAAR"
+			},
+			"Question__c": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent. Who will be able to edit this new contact record?",
+			"A__c": "Users above the sales manager in the role hierarchy",
+			"B__c": "All users in the organization",
+			"C__c": "The owner and users below the owner in the role hierarchy",
+			"D__c": "Sales manager and system administrator",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/a-sales-manager-at-aw-computing-has-created-a-contact-record-but-is-missing-some-of-the-information-to-complete-the-record/",
+			"Comment__c": "<p>https://www.freecram.net/question/Salesforce.Advanced-Administrator.v2022-08-31.q166/a-sales-manager-at-aw-computing-has-created-a-contact-record-but-is-missing-some-of-the-information-to#</p><p>Aはセールスマネージャ本人がふくまれてないのが間違い</p><p>Bは組織全体で読み取りなので間違い</p><p>Cはロール階層の概念とちがうので間違い</p><p>Dはまちがいではない</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9ncGAAR"
+			},
+			"Question__c": "After setting up field history tracking on the Account object, the administrator for AW Computing wants to retrieve the field history data for analysis. how should the administrator acquire this data?",
+			"A__c": "Create a report of Accounts and export it to Excel.",
+			"B__c": "Query and export the Account History object using Data Loader.",
+			"C__c": "Use the Data export service in setup.",
+			"D__c": "Create a list view of Account History and print using the Printable View action.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/after-setting-up-field-history-tracking-on-the-account-object-the-administrator-for-aw-computing-wants-to-retrieve-the-field-history-data-for-analysis-how-should-the-administrator-acquire-this-data/",
+			"Comment__c": "<p>この問題の最適な選択肢は(B)です。理由は以下の通りです。</p><p><br></p><p>- フィールド履歴追跡を設定すると、Account Historyというオブジェクトが作成されます。このオブジェクトには、Accountオブジェクトのフィールドに対する変更履歴が保存されます¹²。</p><p>- Account Historyオブジェクトは、レポートやリストビューでは表示できません³。したがって、(A)と(D)は正しくありません。</p><p>- Data exportサービスは、組織内のすべてのデータをエクスポートする機能です⁴。特定のオブジェクトやフィールドを選択することはできません。したがって、(C)も正しくありません。</p><p>- Data Loaderは、Salesforceのデータを操作するツールです⁵。Data Loaderを使えば、Account Historyオブジェクトをクエリしてエクスポートすることができます³。したがって、(B)が正しい選択肢です。</p><p><br></p><p>ソース: Bing との会話 2023/10/24</p><p>(1) Field History Tracking - Salesforce. https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&amp;language=en_US&amp;type=5.</p><p>(2) Field History Tracking | Salesforce Security Guide .... https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/tracking_field_history.htm.</p><p>(3) How to use Field History Tracking in Salesforce - Chargent .... https://appfrontier.com/blog/field-history-tracking-salesforce.</p><p>(4) How Do I Check Field Tracking in Salesforce? - Two Verbs. https://twoverbs.com/field-tracking-in-salesforce/.</p><p>(5) Field History Tracking in Salesforce | Cloud Analogy Blog. https://blog.cloudanalogy.com/field-history-tracking-in-salesforce/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9ncHAAR"
+			},
+			"Question__c": "An administrator needs to Import a large amount of historical data (more than 100,000 records) from another system. how should the administrator import the data?",
+			"A__c": "SOAP based API with Developer console",
+			"B__c": "Data Loader with Bulk API Enabled",
+			"C__c": "An AppExchange package",
+			"D__c": "Import Wizard with Add Only",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/an-administrator-needs-to-import-a-large-amount-of-historical-data-more-than-100000-records-from-another-system-how-should-the-administrator-import-the-data/",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.when_to_use_the_data_loader.htm&amp;type=5</p><p>Dataloaderで500万件まで行けるのでB</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9sAAB"
+			},
+			"Question__c": "How can an administrator ensure article managers use specified values for custom article fields?",
+			"A__c": "Create a formula field on the article",
+			"B__c": "Require a field on the page layout",
+			"C__c": "Use field dependencies on article types",
+			"D__c": "Create different article types for different requirements",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-can-an-administrator-ensure-article-managers-use-specified-values-for-custom-article-fields/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/59283-exam-certified-advanced-administrator-topic-1-question-8/</p><p>特定の値を使うためには計算式で表示するしかない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9tAAB"
+			},
+			"Question__c": "Universal Containers wants only users from the sales department to have access to price books.How can an administrator meet this requirement?",
+			"A__c": "Create a sharing rule to share all price books to sales users",
+			"B__c": "Manually share each price book to the sales users’ profile",
+			"C__c": "Set the organization-wide default for price book to Use",
+			"D__c": "Clone all custom price books from the standard price book",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-can-an-administrator-meet-this-requirement-2/",
+			"Comment__c": "<p>この問題の最適な選択肢は (a) です。理由は以下の通りです。</p><ul><li><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">価格表に対する組織全体のデフォルト設定を変更すると、すべてのユーザーが価格表を参照できなくなります<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">。そのため、特定のユーザーに価格表へのアクセス権を付与するには、共有アクセス権を設定する必要があります<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"\" target=\"_blank\">共有アクセス権を設定するには、共有ルールを使用するか、手動で各価格表を共有するかのいずれかの方法があります</a><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">共有ルールを使用すると、ロールやパブリックグループなどの基準に基づいて、複数のユーザーに価格表へのアクセス権を一括で付与できます<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">。この方法は、営業部門のユーザーが多数いる場合や、頻繁に変更される場合に便利です<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">手動で各価格表を共有すると、個別のユーザーまたはグループに価格表へのアクセス権を付与できます<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">。この方法は、営業部門のユーザーが少数である場合や、あまり変更されない場合に適しています<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">したがって、この問題では、共有ルールを使用してすべての価格表を営業ユーザーに共有する方が、手動で各価格表を営業ユーザーのプロファイルに共有するよりも効率的で簡単です<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">価格表を使用という組織全体のデフォルト設定は存在しません<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\">。価格表へのアクセス権は、参照のみまたは使用のいずれかです<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=000383989&amp;language=en_US&amp;type=1\" target=\"_blank\">標準価格表からすべてのカスタム価格表を複製するという方法は、既存のカスタム価格表に影響を与える可能性があります<sup>3</sup>。また、この方法では営業部門以外のユーザーが価格表にアクセスできなくなるという要件を満たせません<sup>3</sup></a>。</li></ul><p><a href=\"https://trailhead.salesforce.com/fr/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>1</sup></a><a href=\"\" target=\"_blank\">: Unité Control Access to Price Books and Products | Salesforce </a><a href=\"https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/control-access-price-books-products\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=000383989&amp;language=en_US&amp;type=1\" target=\"_blank\">: Control Access to Price Books and Products - Trailhead <sup>3</sup></a>: Insert new Products and custom Price Books via Data Loader</p><p><br></p><p>bが駄目な理由は、手動で各価格表を共有すると、個別のユーザーまたはグループに価格表へのアクセス権を付与できますが、営業部門のユーザーが多数いる場合や、頻繁に変更される場合には非効率的で時間がかかります 。また、営業ユーザーのプロファイルに共有するという方法は、プロファイルごとに価格表へのアクセス権を設定することを意味しますが、これは価格表の共有方法ではありません 。価格表の共有方法は、共有ルールまたは手動での共有のいずれかです 。</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9uAAB"
+			},
+			"Question__c": "The VP of Finance wants to ensure that once an opportunity is closed, it cannot be modified by any user. How can an administrator meet this requirement?",
+			"A__c": "Create a workflow field update to update the IsClosed field to True if a closed opportunity is modified",
+			"B__c": "Set the Do Not Modify Closed Opportunity permission for all profiles",
+			"C__c": "Set all fields to Read-Only on the standard Closed Opportunity page layout",
+			"D__c": "Create an opportunity validation rule with the formula: PRIORVALUE(IsClosed) = True",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-can-an-administrator-meet-this-requirement-3/",
+			"Comment__c": "<p>https://dev.classmethod.jp/articles/salesforce_receiving_business_orders/</p><p>isClosed=trueの場合は入力規則で落とす</p><p>レコードタイプ変えて、レイアウト変更するけどね、普通は</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9vAAB"
+			},
+			"Question__c": "Universal Containers has four sales regions: North America, APAC, EMEA, and LATAM. Each sales region is led by a VP of Sales. Each of the VPs wants to have a dashboard emailed to them every Monday morning that contains components with only the data for their region.How can an administrator meet this requirement?",
+			"A__c": "Create a reporting snapshot and check the dashboard option, scheduled to be delivered on Monday mornings",
+			"B__c": "Create one dashboard that includes a filter for each region, scheduled to be delivered on Monday mornings",
+			"C__c": "Create a separate dashboard with data specific to each sales VP, scheduled to be delivered on Monday mornings",
+			"D__c": "Create one dashboard using Visualforce to create a filter, scheduled to be delivered on Monday mornings",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-can-an-administrator-meet-this-requirement-4/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/61973-exam-certified-advanced-administrator-topic-1-question-53/</p><p>ダッシュボードを別々に作る</p><p>フィルター設定を混ぜ込んでメール送信はできない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9wAAB"
+			},
+			"Question__c": "Sales management wants a small subset of users with different profiles and roles to be able to view all data for compliance purposes.How can an administrator meet this requirement?",
+			"A__c": "Create a new profile and role for the subset of users with the View All Data permission",
+			"B__c": "Create a permission set with the View All Data permission for the subset of users",
+			"C__c": "Enable the View All Data permission for the roles of the subset of users",
+			"D__c": "Assign delegated administration to the subset of users to View All Data",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-can-an-administrator-meet-this-requirement/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9xAAB"
+			},
+			"Question__c": "Sales management wants to enforce a process in which the name of an account is always included in the name of an opportunity.How can automation be used to help meet this requirement?",
+			"A__c": "Use an Apex trigger on the Account object that adds the account name to the opportunity name",
+			"B__c": "Write a validation rule that updates the opportunity name with the account name using a cross-object formula",
+			"C__c": "Write a criteria-based workflow rule that updates the opportunity name concatenated with the account name",
+			"D__c": "Use an approval process that routes newly created opportunities to management for data quality review",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-can-automation-be-used-to-help-meet-this-requirement/",
+			"Comment__c": "<p>この問題の最適な選択肢は&copy;です。理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">(a)は不正解です。アカウントオブジェクトにトリガーを作成しても、オポチュニティオブジェクトには影響しません。オポチュニティの名前を変更するには、オポチュニティオブジェクトにトリガーを作成する必要があります</a><a href=\"https://developer.salesforce.com/forums/?id=9060G0000005QTeQAM\" target=\"_blank\"><sup>1</sup></a>。</li><li><a href=\"\" target=\"_blank\">(b)は不正解です。バリデーションルールは、レコードの保存時に条件を満たすかどうかを検証するものであり、フィールドの値を更新するものではありません</a><a href=\"https://bing.com/search?q=salesforce+automation+opportunity+name+account+name\" target=\"_blank\"><sup>2</sup></a><a href=\"\" target=\"_blank\">。また、クロスオブジェクト式は、親オブジェクトから子オブジェクトへの参照にしか使えません</a><a href=\"https://ideas.salesforce.com/s/idea/a0B8W00000GdaTRUAZ/ability-to-rename-accountname-field-in-opportunity\" target=\"_blank\"><sup>3</sup></a>。オポチュニティからアカウントへの参照は、子から親への参照なので、クロスオブジェクト式ではなく、単にAccount.Nameというフィールド参照を使えばよいでしょう。</li><li><a href=\"\" target=\"_blank\">&copy;は正解です。ワークフロールールは、レコードが特定の条件を満たしたときに自動的にアクションを実行することができます</a><a href=\"https://www.salesforcetutorial.com/sales-force-automation-default-name-using-field-update/\" target=\"_blank\"><sup>4</sup></a>。ワークフローのアクションとして、フィールド更新を選択し、オポチュニティ名にアカウント名を連結する式を指定すれば、要件を満たすことができます。</li><li><a href=\"\" target=\"_blank\">(d)は不正解です。承認プロセスは、レコードが特定の基準を満たしたときに承認者に送信されるように設定できます</a><a href=\"https://developer.salesforce.com/forums/?id=906F0000000kAqTIAU\" target=\"_blank\"><sup>5</sup></a>。しかし、これはデータ品質のレビューを行うためのものであり、自動的にオポチュニティ名を更新するものではありません。また、承認プロセスはユーザーの操作を必要とするため、自動化とは言えません。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9yAAB"
+			},
+			"Question__c": "An administrator has been asked to create a replica of the production organization. The requirement states that existing fields, page layouts, record types, objects, and data contained in the fields and objects need to be available in the replica organization.How can the administrator meet this requirement?",
+			"A__c": "Create a developer sandbox",
+			"B__c": "Create a configuration-only sandbox",
+			"C__c": "Create a metadata sandbox",
+			"D__c": "Create a full sandbox",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-can-the-administrator-meet-this-requirement-2/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9o9zAAB"
+			},
+			"Question__c": "A user has a profile with read-only permissions for the case object.How can the user be granted edit permission for cases?",
+			"A__c": "Create a permission set with edit permissions for the case object",
+			"B__c": "Create a sharing rule on the case object with read/write level of access",
+			"C__c": "Create a public group with edit permissions for the case object",
+			"D__c": "Add the user in a role hierarchy above users with edit permissions on the case object",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-can-the-user-be-granted-edit-permission-for-cases/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA0AAJ"
+			},
+			"Question__c": "Universal Containers is implementing a new lead status process and wants to be able to do the following:Track leads through five different status values.Run reports showing the duration a lead spends in each status.Run full Lifetime reports of a lead from creation to conversion. Prevent leads from skipping a lead status.How can these requirements be met?",
+			"A__c": "Use field history tracking on the lead status field to track the duration of each status. Use validation rules to prevent status skipping.",
+			"B__c": "Use an Apex trigger to populate custom date fields for each status, and use custom formula fields for calculating duration of each status.",
+			"C__c": "Use custom date fields and workflow rules for each status, and use custom formula fields for calculating duration of a status. Use validation rules to prevent status skipping.",
+			"D__c": "Use lead history reporting to track changes in the lead status field, and use custom reporting fields to calculate status duration. Use validation rules to prevent status skipping.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-can-these-requirements-be-met-17/",
+			"Comment__c": "<p>この問題の最適な選択肢は &copy; です。その理由は以下の通りです。</p><ul><li><a href=\"https://help.salesforce.com/s/articleView?id=000389961&amp;language=en_US&amp;type=1\" target=\"_blank\">(a) は、リードの状態が変更されたときにその履歴を追跡することができますが、各状態におけるリードの滞在時間を計算するためには、カスタム数式フィールドを使用する必要があります<sup>1</sup></a><a href=\"\" target=\"_blank\">。また、リードの作成から変換までの全体的なレポートを作成するには、リード履歴レポートと取引先責任者履歴レポートを結合する必要があります</a><a href=\"https://qiita.com/Takaa/items/9b8c4cc47f2a0e66f0d4\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"\" target=\"_blank\">(b) は、Apex トリガーを使用して各状態に対応するカスタム日付フィールドを更新し、カスタム数式フィールドで各状態の滞在時間を計算することができます。しかし、Apex トリガーはコーディングが必要であり、エッセンシャルズエディションでは使用できません</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_lead_process.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"\" target=\"_blank\">&copy; は、ワークフロールールを使用して各状態に対応するカスタム日付フィールドを更新し、カスタム数式フィールドで各状態の滞在時間を計算することができます。また、バリデーションルールを使用してリードの状態のスキップを防ぐことができます</a><a href=\"https://help.salesforce.com/s/articleView?id=000385358&amp;language=en_US&amp;type=1\" target=\"_blank\"><sup>4</sup></a><a href=\"\" target=\"_blank\">。この方法はエッセンシャルズエディションでも利用可能です</a><a href=\"https://quip.com/5FXlAAIRTrqo\" target=\"_blank\"><sup>5</sup></a>。</li><li><a href=\"\" target=\"_blank\">(d) は、リード履歴レポートを使用してリードの状態の変更を追跡し、カスタムレポートタイプで各状態の滞在時間を計算することができます。しかし、リード履歴レポートはエッセンシャルズエディションでは利用できません</a><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning\" target=\"_blank\"><sup>6</sup></a>。</li></ul><p><a href=\"https://help.salesforce.com/s/articleView?id=000389961&amp;language=en_US&amp;type=1\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://help.salesforce.com/s/articleView?id=sf.lead_conversion_mapping.htm&amp;type=5\" target=\"_blank\">1</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://qiita.com/Takaa/items/9b8c4cc47f2a0e66f0d4\" target=\"_blank\"><sup>2</sup></a><a href=\"\" target=\"_blank\">: 2 </a><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_lead_process.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>3</sup></a><a href=\"\" target=\"_blank\">: 3 </a><a href=\"https://help.salesforce.com/s/articleView?id=000385358&amp;language=en_US&amp;type=1\" target=\"_blank\"><sup>4</sup></a><a href=\"\" target=\"_blank\">: 4 </a><a href=\"https://quip.com/5FXlAAIRTrqo\" target=\"_blank\"><sup>5</sup></a><a href=\"\" target=\"_blank\">: 5 </a><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning\" target=\"_blank\"><sup>6</sup></a>: 6</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA1AAJ"
+			},
+			"Question__c": "The VP of Sales wants to require that the Next Step field is always updated when an opportunity stage is changed.How can this process be automated?",
+			"A__c": "Create a validation rule with the following formula: AND( ISCHANGED(ISPICKVAL(StageName)), NOT( ISCHANGED(NextStep)))",
+			"B__c": "Create a validation rule with the following formula: AND( ISCHANGED(StageName), NOT( ISCHANGED(NextStep)))",
+			"C__c": "Create a workflow rule with the following formula: AND( ISCHANGED(StageName), NOT( ISCHANGED(NextStep))",
+			"D__c": "Create a workflow rule with the following formula: AND( ISCHANGED(ISPICKVAL(StageName), ISCHANGED(NextStep))",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-can-this-process-be-automated-2/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/57850-exam-certified-advanced-administrator-topic-1-question-58/</p><p>バリデーションでやる、バリデーションは全体でtrueの場合ブロックする</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA2AAJ"
+			},
+			"Question__c": "A sales manager wants a report of accounts without any closed/won opportunities in the last year.How can this requirement be met?",
+			"A__c": "Create a joined report using the Accounts report type and the Opportunities report types",
+			"B__c": "Create a tabular report using the Account report type and add a cross filter using Opportunities",
+			"C__c": "Create a custom report type for Accounts without Opportunities",
+			"D__c": "Create a summary report using the Accounts report type with a formula field for opportunity count",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-can-this-requirement-be-met-6/",
+			"Comment__c": "<p>クロスフィルターだと、関連先オブジェクトの項目を利用してフィルタできるっぽい、しらなかった</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA3AAJ"
+			},
+			"Question__c": "The Marketing Manager has requested that a field be added to each account that displays the number of contacts associated with the account. The manager wants to use this field as part of an email marketing segmentation strategy.How can this requirement be met?",
+			"A__c": "Create a roll-up summary field that counts the number of contacts and displays the count on the account",
+			"B__c": "Create a custom formula field on the account using the count() function to count the number of related contacts",
+			"C__c": "Create a custom field on the account. Use an Apex trigger to update the field when contacts are added or deleted",
+			"D__c": "Create a custom field on the account. Use a workflow rule to update the field when contacts are added or deleted",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-can-this-requirement-be-met-7/",
+			"Comment__c": "<p>この問題の最適な選択肢は (a) です。理由は以下の通りです。</p><ul><li>ワークフロールールは、レコードが作成または更新されたときに、レコードの項目値を更新したり、メールアラートやタスクを作成したりすることができますが、関連レコードの数をカウントすることはできません。したがって、(d) は正しくありません。</li><li>カスタム数式項目は、他の項目の値に基づいて計算される項目ですが、関連リストにあるレコードの数をカウントすることはできません。したがって、(b) は正しくありません。</li><li>Apex トリガーは、レコードに対するイベント（挿入、更新、削除など）の前後にカスタムアクションを実行できる Apex コードです。Apex トリガーを使用して、関連レコードの数をカウントしてカスタム項目に反映することは可能ですが、Apex はプログラミング言語であり、開発者コンソールでコードを書く必要があります。したがって、&copy; は正しい回答ではありません。</li><li>積み上げ集計項目は、関連オブジェクトのレコードに含まれる数値項目の合計や平均などを計算したり、関連レコードの数をカウントしたりすることができる項目です。積み上げ集計項目は、親オブジェクトに作成し、子オブジェクトを集計対象とします。この問題では、取引先（親オブジェクト）に積み上げ集計項目を作成し、取引先責任者（子オブジェクト）の数をカウントすれば要件を満たすことができます。したがって、(a) が正しい回答です。</li></ul><p>参考：<a href=\"https://help.salesforce.com/s/articleView?id=sf.customize_wf.htm&amp;language=ja&amp;type=5\" target=\"_blank\">ワークフロールール</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.customize_formulas.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">カスタム数式項目</a><a href=\"https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_intro\" target=\"_blank\">Apex トリガー</a><a href=\"https://blog.cloudanalogy.com/how-to-create-roll-up-summary-fields-in-salesforce/\" target=\"_blank\">積み上げ集計項目</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA4AAJ"
+			},
+			"Question__c": "Universal Containers would like applicants to apply for multiple positions, tracking how many applicants have applied and how many positions each individual applicant has applied for. To do this, the administrator will create a Job Application junction object between the Applicant and Position objects.How does this action meet the requirement?",
+			"A__c": "A lookup relationship on the Applicant object with Position as the master provides roll-up summary fields without code",
+			"B__c": "The junction object allows the administrator to add a workflow rule to update fields on the Position and Applicant objects",
+			"C__c": "The junction object allows a many-to-many relationship and also roll-up summary fields on the parent objects",
+			"D__c": "The Job Application object as a master to Position and Applicant objects will allow roll-up summary fields on the Position and Applicant objects",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-does-this-action-meet-the-requirement/",
+			"Comment__c": "<p>CとD共にmaster/detailを利用するけど、ロールアップサマリ項目を作るのは親なのでCが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA5AAJ"
+			},
+			"Question__c": "Northern Trail Outfitters (NTO) has a private sharing model for records containing a customer’s credit Information. These records should be visible to a sales rep’s manager but hidden from their colleagues.How should an administrator adjust NTO’s sharing model to ensure the correct amount of confidentiality?",
+			"A__c": "Use validation rules targeting the logged-in user.",
+			"B__c": "Add View All access for the object via the managers profile.",
+			"C__c": "Create sharing rules for each manager based on the record owner.",
+			"D__c": "Grant access using hierarchies via the sharing settings.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-adjust-ntos-sharing-model-to-ensure-the-correct-amount-of-confidentiality/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA6AAJ"
+			},
+			"Question__c": "How should an administrator ensure the appropriate number of digits are entered Into the custom encrypted field created to capture credit card numbers on the Opportunity object?",
+			"A__c": "Use the credit card number mask type.",
+			"B__c": "Define the number of mask characters.",
+			"C__c": "Enter the number of digits at the field level.",
+			"D__c": "Create a validation rule to ensure the length.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-ensure-the-appropriate-number-of-digits-are-entered-into-the-custom-encrypted-field-created-to-capture-credit-card-numbers-on-the-opportunity-object/",
+			"Comment__c": "<p>この問題の最適な選択肢は (d) です。理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">カスタム暗号化項目を作成するとき、マスクタイプとマスク文字数を指定する必要があります</a><a href=\"https://help.salesforce.com/s/articleView?id=000382948&amp;language=en_US&amp;type=1\" target=\"_blank\"><sup>1</sup></a><a href=\"\" target=\"_blank\">。しかし、これらの設定は暗号化されたデータの表示方法にのみ影響し、入力されるデータの長さには影響しません</a><a href=\"https://help.salesforce.com/s/articleView?id=000382948&amp;language=en_US&amp;type=1\" target=\"_blank\"><sup>1</sup></a>。</li><li><a href=\"\" target=\"_blank\">クレジットカード番号は通常16桁ですが、14桁や19桁のものもあります</a><a href=\"https://bing.com/search?q=custom+encrypted+field+salesforce\" target=\"_blank\"><sup>2</sup></a>。したがって、項目レベルで桁数を固定することはできません。</li><li><a href=\"\" target=\"_blank\">バリデーションルールを使用すると、入力されるデータの長さに制約をかけることができます</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.security_pe_enable_custom_fields.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>3</sup></a>。例えば、次のようなバリデーションルールを作成することができます。</li></ul><pre class=\"ql-syntax\">IF(LEN(Credit_Card_Number__c) = 16, TRUE, FALSE)\n</pre><ul><li><a href=\"\" target=\"_blank\">このバリデーションルールは、クレジットカード番号項目が16桁であればエラーを返さず、そうでなければエラーを返すようにします</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.security_pe_enable_custom_fields.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>3</sup></a>。</li><li>よって、適切な桁数が入力されることを確実にするためには、バリデーションルールを作成することが最適な方法です。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA7AAJ"
+			},
+			"Question__c": "AW Computing created new multi-tier service plans. The primary difference between the packages Is the length of the term. The company wants to capture start and end dates for each service plan sold, which can direr from the contract dates of the subscription.How should an administrator ensure the data is captured properly?",
+			"A__c": "Build a validation rule on the Opportunity object to require custom date fields based on the product(s) selected.",
+			"B__c": "Configure formula fields to reflect the close date of the opportunity.",
+			"C__c": "Create a new price book for service plans with term lengths.",
+			"D__c": "Make a validation rule on the Opportunity Product object to require custom date fields based on the product family.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-ensure-the-data-is-captured-properly/",
+			"Comment__c": "<p>A. Build a validation rule on the Opportunity object to require custom date fields based on the product(s) selected.</p><p>この選択肢が正しい理由は、Opportunityオブジェクトに対するバリデーションルールを作成することで、Opportunityが作成される際に特定の製品が選択された場合に、カスタムの日付フィールドが必要とされるように設定できるためです。この方法を使用すると、AW Computingは各サービスプランの開始日と終了日を適切にキャプチャできます。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA8AAJ"
+			},
+			"Question__c": "An administrator has been tasked with sending an email notification to all project team members when project status is changed to Allocated. Project teams contain users from different departments and different roles.How should an administrator ensure the proper users will receive the email?",
+			"A__c": "Configure a queue for the project team and have members view the queue’s list view.",
+			"B__c": "Use sharing rules to automatically share with the individual users in the project team.",
+			"C__c": "Move the project users to the same role and send the email alert to everyone in the role.",
+			"D__c": "Create public groups for each project team and send the email alert to the project group.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-ensure-the-proper-users-will-receive-the-email/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oA9AAJ"
+			},
+			"Question__c": "DreamHouse Realty has a rental team and a real estate team. The two teams have different safes processes and capture different client information on their opportunities.How should an administrator extend the Opportunity object to meet the teams’ different needs?",
+			"A__c": "Leverage Opportunities for the Real Estate Team and create a new custom object for the Rental Team Opportunities.",
+			"B__c": "Use separate record types, page layouts, and sales processes for the Rental and Real Estate Teams.",
+			"C__c": "Create Opportunity Teams for the Rental and Real Estate Teams and make appropriate fields visible to only the necessary team.",
+			"D__c": "Add a section for Rental and a section for Real Estate on the Opportunity Master Record Type to keep the information separate.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-extend-the-opportunity-object-to-meet-the-teams-different-needs/",
+			"Comment__c": "<p>レコードタイプとページレイアウトで分離が一番楽</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAAAAZ"
+			},
+			"Question__c": "AW Computing sells a variety of software programs for Its customers to choose from. Management wants to ensure that the customer automatically receives phone support when they purchase photo editing. software. how should an administrator meet these retirements?",
+			"A__c": "Add an entitlement template to the product for phone support.",
+			"B__c": "Include a milestone to the product with a term of 365 days for phone support.",
+			"C__c": "Configure a flow to create a milestone co the asset upon purchase.",
+			"D__c": "Create a flow to attach an entitlement to the asset upon purchase.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-meet-these-retirements/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oABAAZ"
+			},
+			"Question__c": "Universal Containers wants customers who buy the Freight Container product to be billed in monthly installments.How should an administrator meet this requirement?",
+			"A__c": "Create a default quantity schedule on the product",
+			"B__c": "Create a default revenue schedule on the product",
+			"C__c": "Create a workflow rule on the product",
+			"D__c": "Create a custom fields on the product",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-meet-this-requirement/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/104288-exam-certified-advanced-administrator-topic-1-question-5/</p><p>https://help.salesforce.com/s/articleView?id=sf.products_schedules_def.htm&amp;type=5</p><p>プロダクトの収益スケジュール機能</p><p>Bが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oACAAZ"
+			},
+			"Question__c": "How should an administrator support a finance team that is trying to use Opportunity data to keep an eye on their pipeline rather than manually calculating anticipated income for the quarter?",
+			"A__c": "Run a report at the end of each quarter to update the finance team on pipeline status.",
+			"B__c": "Set up collaborative forecasting to view quota against the open pipeline.",
+			"C__c": "Create a custom Forecasting object to inform the finance team on the status of deals.",
+			"D__c": "Show the finance team how to use the Opportunity Kanban List View.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-an-administrator-support-a-finance-team-that-is-trying-to-use-opportunity-data-to-keep-an-eye-on-their-pipeline-rather-than-manually-calculating-anticipated-income-for-the-quarter/",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.forecasts3_intro.htm&amp;type=5</p><p>コラボレーション売上予測、パイプラインの監視ができる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oADAAZ"
+			},
+			"Question__c": "Cloud Kicks has o custom object called Membership Details that records information about customers’ preferences for their memberships. Depending, on the membership level, different data needs to be displayed.• when cue running user has the Market no profile, all data should be visible.• When the running user has the Support profile, only the Support preference fields should be visible.• Both Marketing and Support users should be able to report on all data.How should the administrator deliver this solution?",
+			"A__c": "Create two record types und two page layouts.",
+			"B__c": "Set up Dynamic forms to conditionally show data.",
+			"C__c": "Make a permission set with a Muting permission.",
+			"D__c": "Use Field-Level Security to control data access.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-the-administrator-deliver-this-solution/",
+			"Comment__c": "<p>Aでも実現できるけどBが最適な理由</p><ol><li>フレキシビリティ：Dynamic Formsを使用すると、必要なデータフィールドを非表示にしたり、表示したりする条件を柔軟に設定できます。これにより、特定のメンバーシップレベルのユーザーに対して、必要なデータを表示し、不要なデータを非表示にできます。</li><li>管理の簡素化：Dynamic Formsを使用することで、レコードタイプやページレイアウトを複数作成する必要がなくなります。データ表示の条件はDynamic Formsの設定で管理できます。</li><li>ユーザーエクスペリエンスの向上：Dynamic Formsを使用すると、ユーザーエクスペリエンスを向上させることができます。各ユーザーは自分のプロファイルに応じて適切な情報を見ることができ、不要な情報に混乱しなくなります。</li><li>レポートへのアクセス：Dynamic Formsはデータの表示制御に特化しており、データへのアクセス権を制御する役割を果たすものではありません。データへのアクセス権の制御には、プロファイル、権限セット、ロール、OWD（オブジェクト共有設定）などの他のセキュリティメカニズムが使用されます。したがって、レポートへのアクセスには別のセキュリティメカニズムが必要ですが、Dynamic Formsはデータの表示制御に特に役立ちます。</li></ol><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAEAAZ"
+			},
+			"Question__c": "Cloud Kicks (CK) has a backup team of employees that helps short-staffed departments. These users could be working with sales one day and service the next. CK is implementing new Lightning record pages for each department so that they view records In a way that makes sense for each department.How should the administrator ensure this Is configured correctly?",
+			"A__c": "Configure ore app per department and activate record pages for each app.",
+			"B__c": "Create permission sets for each department and assign them to the backup team users.",
+			"C__c": "Adjust the profile of the backup users each day to align with the proper access they require.",
+			"D__c": "Allow the backup team users to update their own profile with Delegated Administration.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-should-the-administrator-ensure-this-is-configured-correctly/",
+			"Comment__c": "<p>https://www.jpnshiken.com/qa/Salesforce.Advanced-Administrator-JPN.v2023-09-12.q92/cloud-kicks-ck-%e3%81%ab%e3%81%af-%e4%ba%ba%e5%93%a1%e4%b8%8d%e8%b6%b3%e3%81%ae%e9%83%a8%e9%96%80%e3%82%92%e6%94%af%e6%8f%b4%e3%81%99%e3%82%8b%e5%be%93%e6%a5%ad%e5%93%a1%e3%81%ae%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97-%e3%83%81%e3%83%bc%e3%83%a0%e3%81%8c%e3%81%84%e3%81%be%e3%81%99-%e3%81%93%e3%82%8c%e3%82%89%e3%81%ae%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%81%af-%e3%81%82%e3%82%8b%e6%97%a5%e3%81%af%e8%b2%a9%e5%a3%b2%e3%81%ae%e4%bb%95%e4%ba%8b%e3%82%92%e3%81%97-%e6%ac%a1%e3%81%ae%e6%97%a5%e3%81%ab%e3%81%af%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%81%ae%e4%bb%95%e4%ba%8b%e3%82%92%e3%81%99%e3%82%8b%e5%8f%af%e8%83%bd%e6%80%a7%e3%81%8c%e3%81%82%e3%82%8a%e3%81%be%e3%81%99-ck#</p><p>部門毎にアプリを切り替えれば良い</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAFAAZ"
+			},
+			"Question__c": "The administrator at AW Computing implements multi-factor authentication using the Salesforce Authenticator app downloaded on company-provided iPhones. A sales rep breaks their phone and needs to update an opportunity record.How should the administrator grant access for the sales rep?",
+			"A__c": "Instruct the sales rep to log in from the company’s VPN.",
+			"B__c": "Delegate multi-factor identification to the sales rep.",
+			"C__c": "Add the sales rep’s IP address to the trusted IP ranges.",
+			"D__c": "Generate a temporary identity verification code for the rep.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-should-the-administrator-grant-access-for-the-sales-rep/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAGAAZ"
+			},
+			"Question__c": "Ursa Major Solar has a global customer base. Recent issues with customs have greatly delayed shipping to Canadian customers. While the Country field is already on the page layout, the sales team wants Canadian customers highlighted as a potential challenge for fulfillment until the shipping issue is resolved.How should the administrator solve this issue?",
+			"A__c": "Modify the page layouts to move the Country field into its own section.",
+			"B__c": "Add a rich text component to the Lightning page. Use conditional visibility to only show the component if the account is Canadian.",
+			"C__c": "Create an in-app guidance prompt for Canadian records.",
+			"D__c": "Create a new record type and page layout for Canadian customers, ensuring their pages look different.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-the-administrator-solve-this-issue/",
+			"Comment__c": "<p>Cは追加設定が面倒くさい、自分だったらBかな</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAHAAZ"
+			},
+			"Question__c": "Universal Containers has a process to allow an employee to submit a vacation request and route it to the employee’s manager for approval. An employee attempted to submit a request but it could NOT be submitted.How should the administrator troubleshoot this?",
+			"A__c": "Ensure the approval step has an associated action",
+			"B__c": "Ensure the user record has an assigned active manager",
+			"C__c": "Review the system log to determine the root cause",
+			"D__c": "Use workflow to email the administrator if the process fails",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-the-administrator-troubleshoot-this/",
+			"Comment__c": "<p>従業員が休暇申請を提出できなかった場合、まずユーザーレコードにアクティブなマネージャーが割り当てられているか確認する必要があります。休暇申請プロセスは従業員のマネージャーにルーティングされるため、ユーザーレコードに正しいマネージャーが割り当てられていないと、申請が進行しない可能性があります。ユーザーレコードの設定を確認し、アクティブなマネージャーが適切に指定されていることを確認してください。</p><p><br></p><p>https://help.salesforce.com/s/articleView?id=000382830&amp;type=1</p><p><br></p><p>https://help.salesforce.com/s/articleView?id=sf.what_are_approvals.htm&amp;type=5</p><p>承認プロセス最近つかってないね</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAIAAZ"
+			},
+			"Question__c": "Sales managers at Ursa Major Solar have asked for some additional automation around opportunity reminders. If the opportunity is in the Proposal stage a week before the close date, they want an email sent to the opportunity owner and manager. If the Budget Approved custom field is checked, the managers want to be notified immediately.How should these requirements be met without using code?",
+			"A__c": "Create a schedule-triggered flow. Configure the trigger to flow weekly.",
+			"B__c": "Create a record-triggered flow with scheduled paths. Configure the trigger to flow after the record is saved.",
+			"C__c": "Create a record-triggered flow with scheduled paths. Configure the trigger to flow before the record is saved.",
+			"D__c": "Create a schedule-triggered flow for the Opportunity object. Configure the trigger to flow daily.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-these-requirements-be-met-without-using-code/",
+			"Comment__c": "<p>この問題の最適な選択肢は(B)です。理由は以下の通りです。</p><p><br></p><p>- スケジュールトリガフローは、指定した時間や頻度で、検索条件に一致する複数のレコードを一括で処理するフローです³。この問題では、商談の状況や予定日に応じて個別にメールを送信する必要があるため、スケジュールトリガフローは適切ではありません。(A)と(D)は不正解です。</p><p>- レコードトリガフローは、レコードを作成、更新、削除したことを契機に処理を実行するフローです³。この問題では、レコードの保存後にメールを送信する必要があるため、レコードトリガフローが適切です。</p><p>- レコードトリガフローには、即時実行パスとスケジュール実行パスの2種類があります³。即時実行パスは、レコードの保存直後に処理を実行します。スケジュール実行パスは、レコードの保存後に指定した時間が経過した後に処理を実行します。この問題では、予定日の1週間前や予算承認フィールドのチェック時にメールを送信する必要があるため、スケジュール実行パスが必要です。</p><p>- スケジュール実行パスを使用する場合は、レコードトリガフローのトリガ条件を「レコードが保存された後」に設定する必要があります³。レコードが保存される前にトリガ条件を設定すると、即時実行パスしか使用できません。(C)は不正解です。</p><p><br></p><p>以上の理由から、(B)が最適な選択肢です。</p><p><br></p><p>ソース: Bing との会話 2023/10/23</p><p>(1) Introduction to Salesforce Flows - Apex Hours. https://www.apexhours.com/introduction-to-salesforce-flows/.</p><p>(2) Flow Types - Salesforce. https://help.salesforce.com/s/articleView?id=sf.flow_concepts_type.htm&amp;language=en_US&amp;type=5.</p><p>(3) フロー作成の最初のステップ！フローの種類を学ぶ｜Sales Cloud .... https://successjp.salesforce.com/article/NAI-000501.</p><p>(4) A-Z Guide to the Salesforce Flow Builder | Salesforce Ben. https://www.salesforceben.com/salesforce-flow-glossary/.</p><p>(5) Salesforce Flow Cheat Sheet: Guide &amp; Examples - Insycle. https://blog.insycle.com/salesforce-flows-examples.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAJAAZ"
+			},
+			"Question__c": "AW Computing wants to embed a report chart on the Account record page that shows the value of closed sales for that account. The chart should be limited to users in the Sales Manager role on the Account record pages. how should this be accomplished?",
+			"A__c": "Create a new report and assign it to the component.",
+			"B__c": "Create a new page layout for the Sales Manager role.",
+			"C__c": "Filter component visibility for the Account ID.",
+			"D__c": "Filter component visibility for the Sales Manager role.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-should-this-be-accomplished-13/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAKAAZ"
+			},
+			"Question__c": "A user changes roles from an EMEA sales representative to a US sales representative.How will this impact the ownership-based sharing rules for the user’s records?",
+			"A__c": "This will affect the ownership of records for standard objects but NOT custom objects",
+			"B__c": "None of the ownership-based sharing rules are recalculated",
+			"C__c": "All of the ownership-based sharing rules are recalculated",
+			"D__c": "This will only affect ownership-based sharing rules if the user moves up in the role hierarchy",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-will-this-impact-the-ownership-based-sharing-rules-for-the-users-records/",
+			"Comment__c": "<p>move up は上位に上がるの意味</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oALAAZ"
+			},
+			"Question__c": "Administrator has been tasked with creating a new custom field on the Account object called Government Der. The compliance department has determined that this field contains sensitive Information and needs to be encrypted using Classic Encryption.How will this impact users when reading, editing, or reporting on Accounts?",
+			"A__c": "Encrypted fields are unable to be used the report criteria or list views filters.",
+			"B__c": "Users will need the View Encrypted Data permission to edit the field.",
+			"C__c": "Encrypted fields can be added to a list view and rule filters.",
+			"D__c": "Users with the View Encrypted Data permission can see the field, regardless of Field-Level Security.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/how-will-this-impact-users-when-reading-editing-or-reporting-on-accounts/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/104237-exam-certified-advanced-administrator-topic-1-question-180/</p><p>暗号化されたフィールドはリストビューでフィルタできない</p><p><br></p><p>Option B is incorrect - the View Encrypted Data permission is not needed to edit an encrypted field. Users with the appropriate level of access and permissions can edit encrypted fields just like any other field.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAMAAZ"
+			},
+			"Question__c": "The distributors at Cloud Kicks are eligible for support based on a specific service contract-How should the administrator show this in Salesforce?",
+			"A__c": "Use entitlement management.",
+			"B__c": "Add a service contract to the record.",
+			"C__c": "Turn on Service Cloud.",
+			"D__c": "Build a new custom object.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/the-distributors-at-cloud-kicks-are-eligible-for-support-based-on-a-specific-service-contract-how-should-the-administrator-show-this-in-salesforce/",
+			"Comment__c": "<p>https://trailhead.salesforce.com/ja/content/learn/modules/entitlement-management-for-lightning-experience/get-started-with-entitlements</p><p>エンタイトルメント管理</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oANAAZ"
+			},
+			"Question__c": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Dot is related to. Users already have access to the Bot and the Junction, but not the Solar Panel object.What access docs the user need to be able to see the solar panel records?",
+			"A__c": "Read permission is required on both master records.",
+			"B__c": "Access permission Is not required on either master record.",
+			"C__c": "Create permission Is required on both master records.",
+			"D__c": "Read permission is required on at least are master record.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-access-docs-the-user-need-to-be-able-to-see-the-solar-panel-records/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAOAAZ"
+			},
+			"Question__c": "An administrator is Informed that an employee has Just resigned and needs all access removed Immediately. This user is the owner of 4,000 records and the sole recipient or 57 email alerts.Management will need at least a month to find a replacement. The email administrator has already revoked their email access.What action should be taken to ensure the user’s access is immediately revoked?",
+			"A__c": "Go into the user record and uncheck the Lightning User checkbox.",
+			"B__c": "Go into the user record and freeze the user.",
+			"C__c": "Go into the user record and set the login hours to None’.",
+			"D__c": "Go into the user record and delete the user,",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-action-should-be-taken-to-ensure-the-users-access-is-immediately-revoked/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAPAAZ"
+			},
+			"Question__c": "An administrator is given a .csv file of 5,000 leads with External Id and Status fields. They need to match existing and add new records with Data Loader.What action should be taken to populate the Status field on the records and add new records?",
+			"A__c": "Export",
+			"B__c": "Update",
+			"C__c": "Insert",
+			"D__c": "Upsert",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-action-should-be-taken-to-populate-the-status-field-on-the-records-and-add-new-records/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAQAAZ"
+			},
+			"Question__c": "The finance director at Cloud Kicks asks the administrator for an exception report that shows all B2C accounts that are missing the credit card number. The credit card number is a classic encrypted field.What action should the administrator take to meet this requirement?",
+			"A__c": "Add ‘View Encrypted Fields’ to a permission set assigned to Finance and system administrators and a summary report filtered by credit card number.",
+			"B__c": "Unmask the encrypted credit card number field to make it available and add a custom filter to a report where credit card number is blank.",
+			"C__c": "Build a custom checkbox called Has Credit Card’ that Finance checks when a credit card is recorded and a tabular report filtered on the checkbox equal to false.",
+			"D__c": "Create a summary report that includes a cross-filter to the Account object with a sub-filter for credit card number equal to null.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-action-should-the-administrator-take-to-meet-this-requirement/",
+			"Comment__c": "<p>この問題の最適な選択肢は(d)です。その理由は以下の通りです。</p><ul><li>クラシック暗号化フィールドは、レポートでフィルターに使用できません。したがって、(a)と(b)は不可能です。</li><li>カスタムチェックボックスを作成する場合、&copy;は機能しますが、管理者が新しいフィールドを作成し、既存のアカウントに対して手動で更新する必要があります。これは非効率的でエラーが発生しやすいです。</li><li>(d)は、クロスフィルターを使用してクレジットカード番号がnullのアカウントを絞り込むことができます。これは最も簡単で正確な方法です。</li></ul><p>: 暗号化されたデータのレポート : チェックボックスの作成 : クロスフィルターの使用</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oARAAZ"
+			},
+			"Question__c": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.What approach should the administrator take to automate the renewal process7",
+			"A__c": "Configure a time-based workflow to send an email reminder to the sales rep when the service plan expires.",
+			"B__c": "Create a dynamic Lightning page with rich text to remind the rep to create a renewal opportunity when the opportunity is closed won.",
+			"C__c": "Create a validation rule to prevent the rep from closing the opportunity until a renewal is associated.",
+			"D__c": "Configure a flow that will create the renewal based on the closed-won date and opportunity line items.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-approach-should-the-administrator-take-to-automate-the-renewal-process7/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oASAAZ"
+			},
+			"Question__c": "An administrator needs to create a junction object called Account Region to link the standard Account object with a custom object called Region.Once the junction object is created, what are the next two steps the administrator should take?Choose 2 answers",
+			"A__c": "Make a master-detail relationship field on the junction object to the Region object.",
+			"B__c": "Build a master-detail relationship field on the Region object to the junction object.",
+			"C__c": "Create a master-detail relationship field on the Account object to the junction object.",
+			"D__c": "Configure a master-detail relationship field on the junction object to the Account object.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/what-are-the-next-two-steps-the-administrator-should-take/",
+			"Comment__c": "<p>ジャンクション側に従フィールドをつくる</p><p><br></p><p><br></p><p>この問題の正解は(A)と(D)です。理由は以下の通りです。</p><p><br></p><p>- ジャンクションオブジェクトとは、多対多リレーションを実現するためのカスタムオブジェクトです¹。</p><p>- ジャンクションオブジェクトを作成するには、2つの主従関係を持つ必要があります²。</p><p>- 主従関係は、ジャンクションオブジェクトから他のオブジェクトへのフィールドとして作成します²。</p><p>- この問題では、ジャンクションオブジェクトはAccount Regionで、他のオブジェクトはAccountとRegionです。</p><p>- したがって、ジャンクションオブジェクトにAccountとRegionへの主従関係フィールドを作成する必要があります。</p><p>- これらのフィールドは、(A)と(D)の選択肢に示されているように設定します。</p><p>- (B)と(C)の選択肢は間違っています。なぜなら、</p><p>- (B)では、Regionオブジェクトからジャンクションオブジェクトへの主従関係フィールドを作成しようとしていますが、これは逆になっています。</p><p>- (C)では、Accountオブジェクトからジャンクションオブジェクトへの主従関係フィールドを作成しようとしていますが、これも逆になっています。</p><p><br></p><p>ソース: Bing との会話 2023/10/24</p><p>(1) [salesforce]多対多リレーションの貼り方について ... - Qiita. https://qiita.com/hurisugu/items/a2b36cb676aeb23864f7.</p><p>(2) 多対多オブジェクトリレーションの作成 - Salesforce. https://help.salesforce.com/s/articleView?id=sf.relationships_manytomany.htm&amp;language=ja&amp;type=5.</p><p>(3) What is a junction object in salesforce with uses and real .... https://www.numpyninja.com/post/what-is-a-junction-object-in-salesforce-with-uses-and-real-time-scenarios.</p><p>(4) What is a Junction Object in Salesforce? | Salesforce Ben. https://www.salesforceben.com/what-is-a-junction-object-in-salesforce/.</p><p>(5) Junction Object in Salesforce - MyTutorialRack. https://www.mytutorialrack.com/junction-object-in-salesforce/.</p><p>(6) undefined. https://help.salesforce.com/s/articleView?id=sf.relationships_manytomany.htm&amp;type=5.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oATAAZ"
+			},
+			"Question__c": "What are three capabilities of Collaborative Forecasting? (Choose three.)",
+			"A__c": "Rename categories",
+			"B__c": "Forecast using opportunity splits",
+			"C__c": "Overlay quota",
+			"D__c": "Add categories",
+			"E__c": "Select a default currency setting",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://vceguide.com/what-are-three-capabilities-of-collaborative-forecasting/",
+			"Comment__c": "<p>Collaborative Forecastingの3つの機能は次のとおりです。</p><p>- (A) カテゴリーの名前を変更する</p><p>- (B) オポチュニティ分割を使って予測する</p><p>- (C) クォータをオーバーレイする</p><p><br></p><p>これらの機能は、Collaborative Forecasting Concepts¹やSalesforce - Hands-on Training: Setting Up Collaborative Forecasting³などの資料で説明されています。理由は以下の通りです。</p><p><br></p><p>- (A) カテゴリーの名前を変更する</p><p>  - Collaborative Forecastsでは、予測カテゴリーと確率をオポチュニティステージに対応させることができます。また、予測カテゴリーの名前は、ビジネスに合わせて変更することができます。例えば、Best CaseをUpsideに変更したり、CommitをPipelineに変更したりできます¹。</p><p>- (B) オポチュニティ分割を使って予測する</p><p>  - Collaborative Forecastsでは、オポチュニティ分割を有効にすることで、複数の販売チームメンバーがオポチュニティの収益や数量に対して分割を設定できます。これにより、各メンバーの予測にオポチュニティ分割が反映されます¹。</p><p>- (C) クォータをオーバーレイする</p><p>  - Collaborative Forecastsでは、予測マネージャーは自分と部下のクォータを設定できます。また、予測ページでは、クォータと予測金額を比較するためにクォータをオーバーレイすることができます¹。</p><p><br></p><p>ソース: Bing との会話 2023/10/23</p><p>(1) Collaborative Forecasts Concepts - Salesforce. https://help.salesforce.com/s/articleView?id=sf.forecasts3_overview.htm&amp;language=en_US&amp;type=5.</p><p>(2) Salesforce - Hands-on Training: Setting Up Collaborative .... https://www.salesforce.com/video/306186/.</p><p>(3) Collaborative Forecasting Best Practice Guide - Salesforce. https://help.salesforce.com/s/articleView?id=000392673&amp;language=en_US&amp;type=1.</p><p>(4) Forecast with Precision Unit | Salesforce Trailhead. https://trailhead.salesforce.com/content/learn/modules/sales-territories-and-forecasting/sales-forecast-with-precision.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAUAAZ"
+			},
+			"Question__c": "ページ読み込み時間を改善したい\nWhat are three options available to the administrator to help with this issue? Choose 3 answers",
+			"A__c": "Move some page components behind a tab.",
+			"B__c": "Remove some of the fields displayed.",
+			"C__c": "Deactivate unnecessary validation rules.",
+			"D__c": "Convert all Process builders to flows.",
+			"E__c": "Reduce the number of related lists displayed.",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://vceguide.com/what-are-three-options-available-to-the-administrator-to-help-with-this-issue-2/",
+			"Comment__c": "<p>ページ読み込み時間を改善したい場合、管理者ができることは以下の3つです。</p><ul><li>タブの裏に一部のページコンポーネントを移動する</li><li>表示されるフィールドの数を減らす</li><li>不要なバリデーションルールを無効化する</li></ul><p>これらの選択肢は、ページの表示に必要なデータや処理の量を減らすことで、読み込み時間を短縮することができます。一方、プロセスビルダーをフローに変換することや、関連リストの数を減らすことは、ページ読み込み時間に大きな影響を与えません。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAWAAZ"
+			},
+			"Question__c": "What are two capabilities of Territory Management? (Choose two.)",
+			"A__c": "The ability to use opportunity criteria to expand a private sharing model",
+			"B__c": "Territory hierarchy replaces the role hierarchy for sharing",
+			"C__c": "The ability to use account criteria to expand a private sharing model",
+			"D__c": "Support for complex and frequently changed sales organization structures",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://vceguide.com/what-are-two-capabilities-of-territory-management/",
+			"Comment__c": "<p>テリトリー管理の2つの機能は次のとおりです。(2つ選んでください。)</p><p><br></p><p>(C) アカウントの基準を使用してプライベート共有モデルを拡張する機能</p><p>(D) 複雑で頻繁に変更される営業組織構造に対応する機能</p><p><br></p><p>これらの選択肢は、テリトリー管理でできることを示しています。¹²</p><p><br></p><p>(C) アカウントの基準を使用してプライベート共有モデルを拡張する機能は、アカウントの属性に基づいてテリトリーに割り当てることができます。例えば、地域、業種、収益などの基準を設定して、テリトリーに関連するアカウントを自動的に選択できます。¹</p><p><br></p><p>(D) 複雑で頻繁に変更される営業組織構造に対応する機能は、テリトリーモデルを作成して、異なるテリトリー階層や割り当てルールを試すことができます。テリトリーモデルは、既存のモデルからコピーしたり、新しく作成したりできます。テスト段階では、テリトリーモデルは実際のデータに影響を与えません。テストが完了したら、テリトリーモデルを有効化して、実際のアカウントやユーザーに割り当てることができます。¹</p><p><br></p><p>(A) オポチュニティの基準を使用してプライベート共有モデルを拡張する機能はありません。オポチュニティはアカウントに紐づいているため、オポチュニティの基準ではなく、アカウントの基準を使用してテリトリーに割り当てる必要があります。¹</p><p><br></p><p>(B) テリトリー階層が役割階層の代わりになるということはありません。テリトリー管理では、役割階層とは別にテリトリー階層を作成します。役割階層は組織全体のアクセスレベルを決めるために使用されますが、テリトリー階層は営業組織の構造や責任範囲を反映するために使用されます。²</p><p><br></p><p>ソース: Bing との会話 2023/10/9</p><p>(1) Enterprise Territory Management - Salesforce. https://help.salesforce.com/s/articleView?id=sf.tm2_intro.htm&amp;language=en_US&amp;type=5.</p><p>(2) エンタープライズテリトリー管理ソフトウェア ... - Salesforce. https://www.salesforce.com/jp/products/sales-cloud/features/territory-management-software/.</p><p>(3) Territory Management Best Practices - Salesforce. https://help.salesforce.com/s/articleView?id=000386766&amp;language=en_US&amp;type=1.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAXAAZ"
+			},
+			"Question__c": "The administrator at Universal Containers does a soft launch of the Salesforce Authenticator app and allows users to optionally use it to log in. The administrator would now like to look at how many users have successfully used it since it was rolled out.What are two ways the administrator can get this information?Choose 2 answers",
+			"A__c": "Run a session setting report, specifying login methods by user.",
+			"B__c": "Open the Login Access Policies in Setup which shows how many users are using MFA.",
+			"C__c": "Create a new view in Identity Verification History, specifying Method.",
+			"D__c": "The order of flow execution is unpredictabl",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://vceguide.com/what-are-two-ways-the-administrator-can-get-this-information-2/",
+			"Comment__c": "<p>この問題の正解は (A) と (C) です。理由は以下の通りです。</p><p><br></p><p>(A) セッション設定レポートを実行し、ユーザー別にログイン方法を指定する。</p><p>この選択肢は正しいです。セッション設定レポートは、Salesforce Authenticator を含むさまざまなログイン方法を使用してログインしたユーザーの数や割合を表示します¹。このレポートは、セットアップで [レポート] &gt; [レポートフォルダ] &gt; [管理レポート] &gt; [セッション設定] にあります²。</p><p><br></p><p>(B) セットアップでログインアクセスポリシーを開き、MFA を使用しているユーザーの数を確認する。</p><p>この選択肢は正しくありません。ログインアクセスポリシーは、Salesforce Authenticator を使用することをユーザーに強制するかどうかを設定する場所ですが、実際に使用しているユーザーの数を表示するものではありません³。</p><p><br></p><p>(C) 認証方法を指定して、ID 検証履歴で新しいビューを作成する。</p><p>この選択肢は正しいです。ID 検証履歴は、Salesforce Authenticator を含むさまざまな認証方法でログインしたユーザーの詳細な履歴を表示します⁴。この履歴は、セットアップで [管理] &gt; [ログと監査情報] &gt; [ID 検証履歴] にあります⁵。</p><p><br></p><p>(D) フロー実行の順序は予測不可能である。</p><p>この選択肢は正しくありません。この選択肢は、Salesforce Authenticator とは関係のない内容です。フロー実行の順序は、フロー要素の接続や条件によって決まります。</p><p><br></p><p>ソース: Bing との会話 2023/10/9</p><p>(1) Salesforce Authenticator - Apps on Google Play. https://play.google.com/store/apps/details?id=com.salesforce.authenticator.</p><p>(2) Salesforce Authenticator の設定方法. https://help.salesforce.com/s/articleView?id=000393969&amp;language=ja&amp;type=1.</p><p>(3) Salesforce Authenticator: Mobile App Security Features .... https://www.salesforce.com/solutions/mobile/app-suite/security/.</p><p>(4) Salesforce Multi-Factor Authentication. https://security.salesforce.com/mfa.</p><p>(5) Salesforce Authenticator. https://help.salesforce.com/s/articleView?id=sf.salesforce_authenticator_overview.htm&amp;language=it&amp;type=5.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAZAAZ"
+			},
+			"Question__c": "Dreamhouse Realty recently learned that the major listing service it utilizes can accept messages to a specific endpoint. The realtors want to utilize this to be able to quickly update the listing price on properties after it has been approved.What automation tool should the administrator configure?",
+			"A__c": "Flow",
+			"B__c": "Platform Event",
+			"C__c": "Process Builder",
+			"D__c": "Email Alert",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-automation-tool-should-the-administrator-configure/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/61025-exam-certified-platform-app-builder-topic-1-question-421/</p><p>プロセスビルダーは廃止、フローに統合</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAaAAJ"
+			},
+			"Question__c": "The sales team has requested that a new field called Current Customer be added to the Accounts object. The default value will be &quot;No&quot; and will change to &quot;Yes&quot; if any related opportunity is successfully closed as won.What can an administrator do to meet this requirement?",
+			"A__c": "Configure Current Customer as a roll-up summary field that will recalculate whenever an opportunity is won",
+			"B__c": "Use an Apex trigger on the Account objects that sets the Current Customer field when an opportunity is won",
+			"C__c": "Use a workflow rule on the Opportunity object that sets the Current Customer field when an opportunity is won",
+			"D__c": "Configure Current Customer as a text field and use an approval process to recalculate its value",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-can-an-administrator-do-to-meet-this-requirement/",
+			"Comment__c": "<p>商談と取引先はルックアップ</p><p><br></p><p>いいえ、(C)はオブジェクトが異なってもワークフローを使えます。ワークフロールールでは、同じオブジェクトのフィールドしか更新できませんが、そのフィールドがルックアップ関係にある別のオブジェクトのフィールドを参照している場合は、その参照先のフィールドも更新できます。この場合、商談オブジェクトには取引先オブジェクトへのルックアップ関係があります。したがって、商談オブジェクトのワークフロールールで取引先オブジェクトのCurrent Customerフィールドを更新することができます。このようにして、(C)はこの要件を満たすことができます。</p><p><br></p><p><br></p><p>この問題の答えは(C)です。理由は以下の通りです。</p><p><br></p><p>- Current Customerはアカウントオブジェクトに追加されるフィールドであり、関連する商談が受注された場合に&quot;Yes&quot;に変更されるという要件があります。</p><p>- (A)の方法では、Current Customerをロールアップサマリーフィールドとして設定する必要がありますが、ロールアップサマリーフィールドは親オブジェクトから子オブジェクトの集計値を表示するために使用されます。しかし、この場合は子オブジェクトである商談から親オブジェクトであるアカウントのフィールドを更新する必要があります。したがって、この方法は適切ではありません。</p><p>- (B)の方法では、Apexトリガーを使用してアカウントオブジェクトのCurrent Customerフィールドを設定する必要がありますが、Apexトリガーはコーディングの知識が必要な高度な機能です。また、Apexトリガーは商談オブジェクトではなくアカウントオブジェクトに設定する必要がありますが、これは商談の状態に応じてアカウントのフィールドを更新するのに不便です。したがって、この方法も適切ではありません。</p><p>- (C)の方法では、商談オブジェクトにワークフロールールを使用してCurrent Customerフィールドを設定する必要がありますが、これは要件を満たす最も簡単で効果的な方法です。ワークフロールールでは、商談の状態が受注に変更されたときに発火する条件と、アカウントのCurrent Customerフィールドを&quot;Yes&quot;に更新するフィールド更新アクションを設定することができます。これにより、関連する商談が受注された場合にのみアカウントのCurrent Customerフィールドが変更されるようになります。したがって、この方法は正しい答えです。</p><p>- (D)の方法では、Current Customerをテキストフィールドとして設定し、承認プロセスを使用してその値を再計算する必要がありますが、これは非効率的で不適切な方法です。承認プロセスはレコードの変更や承認を管理するために使用されますが、この場合は商談の状態に応じて自動的にアカウントのフィールドを更新する必要があります。承認プロセスでは、レコードごとに承認者や承認ステップを設定する必要がありますが、これは手間がかかります。また、テキストフィールドでは&quot;Yes&quot;や&quot;No&quot;以外の値も入力できてしまうため、データの整合性に問題が生じる可能性があります。したがって、この方法も適切ではありません。</p><p><br></p><p>以上の理由から、この問題の答えは(C)です。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAbAAJ"
+			},
+			"Question__c": "The marketing department at Universal Containers regularly changes the page layout requirements for its custom marketing objects. The VP of Marketing has asked the administrator for permission to configure only these objects.What can the administrator do to meet this request?",
+			"A__c": "Grant the VP of Marketing the ability to log in as a user who is an administrator",
+			"B__c": "Create a custom profile with Edit permission on the custom marketing objects and assign to the VP of Marketing",
+			"C__c": "Enable the Marketing User permission on the user record for the VP of Marketing",
+			"D__c": "Set up the VP of Marketing as a delegated administrator for the custom marketing objects",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-can-the-administrator-do-to-meet-this-request/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAcAAJ"
+			},
+			"Question__c": "Users have been given Read/Write access to product support cases through criteria-based sharing rules. A user’s profile only has the Read permission for cases.What can the user expect regarding their ability to edit product support cases?",
+			"A__c": "The user will NOT be able to edit product support cases",
+			"B__c": "The user will only be able to edit cases manually shared with them",
+			"C__c": "The user will only be able to edit the cases that they created",
+			"D__c": "The user will be able to edit product support cases",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-can-the-user-expect-regarding-their-ability-to-edit-product-support-cases/",
+			"Comment__c": "<p>最適な選択肢は (a): ユーザーは製品サポートケースを編集できません です。</p><p>理由は、ユーザープロファイルがケースに対して読み取り専用の権限しか持っていないためです。基準に基づく共有ルールを通じて製品サポートケースへの読み書きアクセスが与えられていても、プロファイルの権限が編集を許可していない場合、ユーザーは製品サポートケースを編集することはできません。したがって、選択肢 (a) が最も適切です。他の選択肢 (b), &copy;, (d) はユーザープロファイルの権限設定を考慮していません。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAdAAJ"
+			},
+			"Question__c": "The administrator at Cloud Kicks recently replaced several case workflow rules with a single before save flow. Since this change, some cases are routing In unexpected ways.What could be the cause or the charges to routing?",
+			"A__c": "The old workflow rules are still active and impacting routing.",
+			"B__c": "The flow precedes assignment rules; workflow rules are after assignment rules.",
+			"C__c": "Assignment rules no longer reference the correct fields.",
+			"D__c": "Multiple automation tools have been used and the automation is executed in a different order.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-could-be-the-cause-or-the-charges-to-routing/",
+			"Comment__c": "<p>選択肢 (b) が最も適切な答えだと思います。その理由は、フローは代入ルールよりも先に実行され、ワークフロールールは代入ルールの後に実行されるからです。したがって、フローの変更が代入ルールの前に行われるため、ケースのルーティングが予期しない方法で行われる可能性があります。これは、クラウドキックスの管理者が複数のケースワークフロールールを単一の保存前フローに置き換えた後に発生する可能性があります。この変更により、一部のケースが予期しない方法でルーティングされる可能性があります。したがって、この問題を解決するためには、フローと代入ルールの間の相互作用を理解し、それらがどのようにケースルーティングに影響を与えるかを評価することが重要です。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAeAAJ"
+			},
+			"Question__c": "AW Computers has enabled the feature for Contact to multiple Accounts. A rep is trying to remove the primary Account from a Contact but Is unable to do so. The administrator has already updated the page layout to no longer require an Account.What could be the issue?",
+			"A__c": "A primary Account relationship Is required on a Contact regardless of the page layout settings.",
+			"B__c": "The Contact has Indirect relationships to other Accounts.",
+			"C__c": "The Account Contact relationship record needs to be deleted first In order to disassociate Contact from the Account.",
+			"D__c": "Private Contacts need to be enabled in Setup.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-could-be-the-issue-14/",
+			"Comment__c": "<p>選択肢 &copy;「アカウントとコンタクトの関連レコードを最初に削除する必要があります。これにより、コンタクトをアカウントから切り離すことができます。」が最も適切な答えです。</p><p><a href=\"https://salesforce-certification-hack.com/?p=715\" target=\"_blank\">Salesforceでは、複数のアカウントに対するコンタクトの機能を有効にした場合でも、コンタクトからプライマリアカウントを削除するためには、まずアカウントとコンタクトの関連レコードを削除する必要があります。これは、プライマリアカウントとコンタクトの間の関連性を保持するためのSalesforceの設計です<sup>1</sup></a>。したがって、選択肢 &copy;が最も適切な答えとなります。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAgAAJ"
+			},
+			"Question__c": "Cloud Kicks has a Process Builder which should trigger upon a status change from on approval process. The Process Builder triggers if the status is updated manually, but not as a result or the approval process update.What could the administrator do to troubleshoot the issue?",
+			"A__c": "Check the Approval Process to make sure it is on the correct version.",
+			"B__c": "Check the Reevaluate Workflow Rules After Field Change box on the Approval Process Field Update Action.",
+			"C__c": "Turn Recursion the Process Builder under the Advanced Settings so the Process Builder fires again.",
+			"D__c": "Change the value with a Specific New Field Value so the Process Builder knows what value to look for.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-could-the-administrator-do-to-troubleshoot-the-issue/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAhAAJ"
+			},
+			"Question__c": "The administrator at Cloud Kicks is troubleshooting an issue one user is having with a flow. They have decided to add a debug log to that user.What debug log category should be used?",
+			"A__c": "Workflow",
+			"B__c": "Callout",
+			"C__c": "System",
+			"D__c": "Database",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-debug-log-category-should-be-used/",
+			"Comment__c": "<p><img src=\"https://wise-moose-pbwq02-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a005j00000R9oAh&amp;feoid=00N5j00000S7IZ7&amp;refid=0EM5j000005BcLI\" alt=\"image.png\"></img></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAiAAJ"
+			},
+			"Question__c": "An administrator is using the Dev Console Log Inspector to troubleshoot a Process Builder.What event type should the administrator look for in the event column?",
+			"A__c": "Event types beginning with FLOW",
+			"B__c": "Event types beginning with AUTOMATED.",
+			"C__c": "Event types beginning with WORKFLOW",
+			"D__c": "Event types beginning with PROCESS",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-event-type-should-the-administrator-look-for-in-the-event-column/",
+			"Comment__c": "<p>C以外は不正な値</p><p><img src=\"https://wise-moose-pbwq02-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a005j00000R9oAi&amp;feoid=00N5j00000S7IZ7&amp;refid=0EM5j000005BcN4\" alt=\"image.png\"></img></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAjAAJ"
+			},
+			"Question__c": "Universal Containers’ support team wants to use Salesforce Knowledge to allow customers and the support team to have access to the product documentation. There are many different types of documentation with usage across the globe.What feature should the administrator configure?",
+			"A__c": "Enable the Case Feed.",
+			"B__c": "Create article types.",
+			"C__c": "Define data categories and visibility.",
+			"D__c": "Setup record types and page layouts.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-feature-should-the-administrator-configure/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAkAAJ"
+			},
+			"Question__c": "Dream house Realty has created a custom object to track its Open Houses with a master-detail relationship up to a custom object for Properties. Agents need to quickly calculate the number of Open House records in a status or Pending so they can see the value from the Property record.What feature should the administrator implement?",
+			"A__c": "Lightning Component",
+			"B__c": "Formula Fields",
+			"C__c": "Roll-Up Summary",
+			"D__c": "visualforce Page",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-feature-should-the-administrator-implement/",
+			"Comment__c": "<p>選択肢&copy;の「ロールアップサマリー」が最適な選択肢です。理由は、マスター詳細関係を持つカスタムオブジェクト間で集計を行うためにロールアップサマリーフィールドが使用されるからです。この場合、不動産物件（マスターレコード）に対して開催中または保留中のオープンハウス（詳細レコード）の数を素早く計算するために、ロールアップサマリーフィールドを使用できます。これにより、エージェントは物件レコードからその値を直接見ることができます。他の選択肢（ライトニングコンポーネント、数式フィールド、Visualforceページ）ではこの要件を直接満たすことはできません。したがって、この問題に対する最適な解答は「ロールアップサマリー」です。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAlAAJ"
+			},
+			"Question__c": "An administrator at Cloud Kicks has been tasked by the compliance team to flag where sensitive information is stored in Salesforce.What feature should the administrator use to fulfill this requirement?",
+			"A__c": "Data Classification",
+			"B__c": "Schema Builder",
+			"C__c": "Classic Encryption",
+			"D__c": "Field-Level Security",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-feature-should-the-administrator-use-to-fulfill-this-requirement/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/104115-exam-certified-advanced-administrator-topic-1-question-134/</p><p>暗号化が目的ではない、ラベル付けが目的</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAmAAJ"
+			},
+			"Question__c": "A sales manager wants to edit the opportunities owned by the sales team. The manager does NOT have Edit access to the Opportunity object.What is a recommended solution?",
+			"A__c": "Change the opportunity’s organization-wide default settings to Public Read/Write",
+			"B__c": "Redefine the role hierarchy by enabling &quot;grant access using hierarchies&quot;",
+			"C__c": "Enable team selling on the Opportunity object to grant Read/Write access",
+			"D__c": "Create a permission set for Opportunity Edit and associate it to the user record",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-a-recommended-solution-3/",
+			"Comment__c": "<p>この問題の最適な選択肢は(d)です。理由は以下の通りです。</p><ul><li><a href=\"https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunity.htm\" target=\"_blank\">(a)は、組織全体のデフォルト設定を変更することで、すべてのユーザに商談オブジェクトに対する読み取り/書き込み権限を付与することになります。これは、セキュリティ上のリスクが高く、必要最小限の権限を与える原則に反します<sup>1</sup></a>。</li><li><a href=\"https://tenshoku-careerchange.jp/column/122/\" target=\"_blank\">(b)は、役割階層によるアクセス権限の付与を有効にすることで、上位の役割に属するユーザが下位の役割に属するユーザのレコードにアクセスできるようにします<sup>2</sup></a><a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_object_perms.htm\" target=\"_blank\">。しかし、この設定は既にデフォルトで有効になっているため<sup>3</sup></a>、解決策としては不適切です。</li><li><a href=\"\" target=\"_blank\">&copy;は、チーム販売を有効にすることで、商談オブジェクトに対してチームメンバーを追加できるようにします</a><a href=\"https://salesforce.stackexchange.com/questions/153986/query-which-profiles-have-read-access-to-specific-object\" target=\"_blank\"><sup>4</sup></a><a href=\"\" target=\"_blank\">。チームメンバーは、商談オーナーが設定したアクセスレベル（読み取り専用、読み取り/書き込みなど）でレコードにアクセスできます</a><a href=\"https://arrify.com/ultimate-guide-on-opportunity-in-salesforce/\" target=\"_blank\"><sup>5</sup></a>。しかし、この方法では、営業マネージャーが自分でチームメンバーとして追加する必要があります。また、すべての商談レコードに対して同じ操作を繰り返す必要があります。これは、非効率的で手間がかかる方法です。</li><li>(d)は、商談オブジェクトに対する編集権限を持つパーミッションセットを作成し、営業マネージャーのユーザレコードに関連付けることで、営業マネージャーが商談オブジェクトを編集できるようにします。パーミッションセットは、プロファイルとは別に個別の権限を付与することができる機能です。この方法は、セキュリティ上のリスクを最小限に抑えつつ、効率的かつ柔軟に権限を管理することができます。</li></ul><p>以上の理由から、(d)が最適な選択肢と言えます。</p><p><a href=\"https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunity.htm\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_object_perms.htm\" target=\"_blank\">Object Permissions | Salesforce Security Guide | Salesforce Developers</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://tenshoku-careerchange.jp/column/122/\" target=\"_blank\"><sup>2</sup></a><a href=\"\" target=\"_blank\">: [Role Hierarchy | Salesforce Security Guide | Salesforce Developers] </a><a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_object_perms.htm\" target=\"_blank\"><sup>3</sup></a><a href=\"\" target=\"_blank\">: [Grant Access Using Hierarchies | Salesforce Security Guide | Salesforce Developers] </a><a href=\"https://salesforce.stackexchange.com/questions/153986/query-which-profiles-have-read-access-to-specific-object\" target=\"_blank\"><sup>4</sup></a><a href=\"\" target=\"_blank\">: [Enable Team Selling on Opportunities | Salesforce Help] </a><a href=\"https://arrify.com/ultimate-guide-on-opportunity-in-salesforce/\" target=\"_blank\"><sup>5</sup></a>: [Add Team Members to an Opportunity | Salesforce Help] : [Add Team Members to an Opportunity | Salesforce Help] : [Add Team Members to an Opportunity | Salesforce Help] : [Create Permission Sets | Salesforce Help] : [Permission Sets Overview | Salesforce Help] : <a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_object_perms.htm\" target=\"_blank\">Object Permissions | Salesforce Security Guide | Salesforce Developers</a> : [Permission Sets Overview | Salesforce Help] : <a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_object_perms.htm\" target=\"_blank\">Role Hierarchy | Salesforce Security Guide | Salesforce Developers</a> : <a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_object_perms.htm\" target=\"_blank\">Grant Access Using Hierarchies | Salesforce Security Guide | Salesforce Developers</a> : Enable Team Selling on Opportunities | Salesforce Help : Add Team Members to an Opportunity | Salesforce Help : Create Permission Sets | Salesforce Help : Permission Sets Overview | Salesforce Help</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAnAAJ"
+			},
+			"Question__c": "The sales manager at Universal Containers would like a dashboard to view each of the sales representative’s opportunities, accounts, and related cases.What is a recommended solution?",
+			"A__c": "Create a dynamic dashboard and ensure the sales manager has the &quot;View My Team’s Dashboard&quot; permission",
+			"B__c": "Create a dynamic dashboard and add filters for opportunities, accounts, and cases",
+			"C__c": "Create an individual dashboard for each sales representative with opportunity, account, and case components",
+			"D__c": "Create a dashboard and add filters for users, opportunities, accounts, and cases",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-a-recommended-solution-4/",
+			"Comment__c": "<p>この問題の最適な選択肢は (a) です。理由は以下の通りです。</p><ul><li><a href=\"https://www.bing.com/aclick?ld=e8zg_A9Faed2-aMZq1qe8URjVUCUxPnUUbzq7o5z6rU2m6_4L-Opjgwxb8_ScsfcT5dLdyp5sTDIdKs3FByczWj0Ft9nTsyKWbP6xYXCjsRm2eypqU85bBtfQL0jk5pKkIypSFdgzi8fpaRe6YkOTH5YiGXk1niFEPtoU9xv9MU46HZa6g&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cuc2FsZXNmb3JjZS5jb20lMmZqcCUyZmZvcm0lMmZzZW0lMmZzYWxlc2ZvcmNlLXByb2R1Y3RzJTJmJTNmZCUzZDcwMTN5MDAwMDAycG12dEFBQSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHBhaWRfc2VhcmNoJTI2dXRtX2NhbXBhaWduJTNkanAtYWxsbG9iYXclMjZ1dG1fY29udGVudCUzZGFsbC1kZW1vLTcwMTN5MDAwMDAycG12dEFBQSUyNkRDTVAlM2RqcC1iaW5nJTI2bmMlM2Q3MDEzeTAwMDAwMGFBdWRBQUU&amp;rlid=bc2cabf0f9bd12763b55ced5055e9ec0\" target=\"_blank\">動的ダッシュボードは、ログインしているユーザーに応じて表示する情報が変わるダッシュボードです</a><a href=\"https://www.salesforcetutorial.com/creating-dynamic-dashboards-salesforce/\" target=\"_blank\"><sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.dashboards_dynamic_setting_up.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>2</sup></a><a href=\"https://ebq.com/salesforce-dynamic-dashboards/\" target=\"_blank\"><sup>3</sup></a>。このようにして、各ユーザーは自分のアクセスレベルに応じてダッシュボードを閲覧できます。</li><li><a href=\"https://www.bing.com/aclick?ld=e8zg_A9Faed2-aMZq1qe8URjVUCUxPnUUbzq7o5z6rU2m6_4L-Opjgwxb8_ScsfcT5dLdyp5sTDIdKs3FByczWj0Ft9nTsyKWbP6xYXCjsRm2eypqU85bBtfQL0jk5pKkIypSFdgzi8fpaRe6YkOTH5YiGXk1niFEPtoU9xv9MU46HZa6g&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cuc2FsZXNmb3JjZS5jb20lMmZqcCUyZmZvcm0lMmZzZW0lMmZzYWxlc2ZvcmNlLXByb2R1Y3RzJTJmJTNmZCUzZDcwMTN5MDAwMDAycG12dEFBQSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHBhaWRfc2VhcmNoJTI2dXRtX2NhbXBhaWduJTNkanAtYWxsbG9iYXclMjZ1dG1fY29udGVudCUzZGFsbC1kZW1vLTcwMTN5MDAwMDAycG12dEFBQSUyNkRDTVAlM2RqcC1iaW5nJTI2bmMlM2Q3MDEzeTAwMDAwMGFBdWRBQUU&amp;rlid=bc2cabf0f9bd12763b55ced5055e9ec0\" target=\"_blank\">営業マネージャーは、自分のチームのダッシュボードを閲覧する権限を持っている必要があります</a><a href=\"https://www.salesforcetutorial.com/creating-dynamic-dashboards-salesforce/\" target=\"_blank\"><sup>1</sup></a><a href=\"https://ebq.com/salesforce-dynamic-dashboards/\" target=\"_blank\"><sup>3</sup></a>。この権限を持っていれば、動的ダッシュボードを開くと、自分のチームの営業担当者の情報が表示されます。</li><li><a href=\"https://www.bing.com/aclick?ld=e8zg_A9Faed2-aMZq1qe8URjVUCUxPnUUbzq7o5z6rU2m6_4L-Opjgwxb8_ScsfcT5dLdyp5sTDIdKs3FByczWj0Ft9nTsyKWbP6xYXCjsRm2eypqU85bBtfQL0jk5pKkIypSFdgzi8fpaRe6YkOTH5YiGXk1niFEPtoU9xv9MU46HZa6g&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cuc2FsZXNmb3JjZS5jb20lMmZqcCUyZmZvcm0lMmZzZW0lMmZzYWxlc2ZvcmNlLXByb2R1Y3RzJTJmJTNmZCUzZDcwMTN5MDAwMDAycG12dEFBQSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHBhaWRfc2VhcmNoJTI2dXRtX2NhbXBhaWduJTNkanAtYWxsbG9iYXclMjZ1dG1fY29udGVudCUzZGFsbC1kZW1vLTcwMTN5MDAwMDAycG12dEFBQSUyNkRDTVAlM2RqcC1iaW5nJTI2bmMlM2Q3MDEzeTAwMDAwMGFBdWRBQUU&amp;rlid=bc2cabf0f9bd12763b55ced5055e9ec0\" target=\"_blank\">動的ダッシュボードには、商談、取引先、ケースなどのコンポーネントを追加できます</a><a href=\"https://www.salesforcetutorial.com/creating-dynamic-dashboards-salesforce/\" target=\"_blank\"><sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.dashboards_dynamic_setting_up.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>2</sup></a><a href=\"https://ebq.com/salesforce-dynamic-dashboards/\" target=\"_blank\"><sup>3</sup></a>。これらのコンポーネントは、実行するユーザーに応じてデータをフィルタリングします。</li><li>したがって、営業マネージャーは、動的ダッシュボードを作成し、自分のチームの営業担当者の商談、取引先、関連ケースを閲覧できます。</li></ul><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.dashboards_dynamic_setting_up.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(b) の選択肢は不正解です。動的ダッシュボードにフィルターを追加すると、実行するユーザーに関係なく同じデータが表示されます<sup>2</sup></a><a href=\"https://ebq.com/salesforce-dynamic-dashboards/\" target=\"_blank\"><sup>3</sup></a>。営業マネージャーは、自分のチームの営業担当者ごとに異なる情報を見たいと思っているので、この方法では目的を達成できません。</p><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.dashboards_dynamic_setting_up.htm&amp;language=ja&amp;type=5\" target=\"_blank\">&copy; の選択肢は不正解です。各営業担当者ごとに個別のダッシュボードを作成すると、管理が煩雑になります<sup>2</sup></a><a href=\"https://ebq.com/salesforce-dynamic-dashboards/\" target=\"_blank\"><sup>3</sup></a>。また、営業マネージャーは、自分のチーム全体の状況を一覧で確認できなくなります。</p><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.dashboards_dynamic_setting_up.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(d) の選択肢は不正解です。ダッシュボードにフィルターを追加すると、実行するユーザーに関係なく同じデータが表示されます<sup>2</sup></a><a href=\"https://ebq.com/salesforce-dynamic-dashboards/\" target=\"_blank\"><sup>3</sup></a>。営業マネージャーは、自分のチームの営業担当者ごとに異なる情報を見たいと思っているので、この方法では目的を達成できません。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAoAAJ"
+			},
+			"Question__c": "At Cloud Kicks, users are able to run reports. However, when users try to export a report, they are taken to a login screen and prompted for additional verification.What is causing this issue?",
+			"A__c": "Users need to update their browser to the latest version.",
+			"B__c": "The users are logged Into an Insecure network.",
+			"C__c": "The users’ profile is missing the Export Reports permission.",
+			"D__c": "Exporting Is configured to require a high assurance session.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-causing-this-issue-55/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oApAAJ"
+			},
+			"Question__c": "A user is getting an error when attempting to merge two accounts. The administrator checks the profile to see the user has Read/Write permission on Accounts and is the owner of both records.What is preventing the user from completing the merge?",
+			"A__c": "Only administrators have permission to merge records.",
+			"B__c": "The user is assigned to the wrong territory.",
+			"C__c": "The Account matching rules are not set.",
+			"D__c": "The Delete permission is missing on the user for Accounts.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-preventing-the-user-from-completing-the-merge/",
+			"Comment__c": "<p>この問題の最適な選択肢は(d)です。理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">Salesforceのドキュメント</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.account_merge.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>1</sup></a>によると、アカウントをマージするには、以下の権限が必要です。<ul><li>アカウントに対する削除権限</li><li>関連オブジェクト（例えば、商談や連絡先）に対する編集権限</li></ul></li><li>したがって、ユーザーがアカウントに対する削除権限を持っていない場合、マージを完了できないエラーが発生します。</li><li>他の選択肢は以下の理由で不正解です。<ul><li><a href=\"https://ideas.salesforce.com/s/idea/a0B8W00000GdjzhUAB/let-users-merge-accounts-without-being-admin-the-record-owner-or-superior\" target=\"_blank\">(a) 管理者だけがレコードをマージできるということはありません。アカウントの所有者や役割階層で上位のユーザーもマージできます<sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.account_merge.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">(b) ユーザーが割り当てられたテリトリーは、アカウントのマージに影響しません。テリトリーは、アカウントの所有者や共有ルールとは別に、アカウントへのアクセス権を決めるものです<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.account_merge.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">&copy; アカウントのマッチングルールは、重複レコードを検出するために使用されます。マッチングルールが設定されていなくても、ユーザーは手動でレコードをマージできます<sup>1</sup></a>。</li></ul></li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAqAAJ"
+			},
+			"Question__c": "What is the correct order of steps to follow when working with inbound change sets?",
+			"A__c": "Deploy, Validate, Monitor",
+			"B__c": "Validate, Deploy, Monitor",
+			"C__c": "Deploy, Monitor, Validate",
+			"D__c": "Monitor, Deploy, Validate",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-correct-order-of-steps-to-follow-when-working-with-inbound-change-sets/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oArAAJ"
+			},
+			"Question__c": "An administrator has unchecked the &quot;Enable content pack creation&quot; checkbox after users had created content packs.What is the impact of this change?",
+			"A__c": "Users can modify the description and title of existing packs",
+			"B__c": "All existing content packs will be deleted",
+			"C__c": "Users can continue to edit the contents of existing packs",
+			"D__c": "The Clone &amp; Customize button will continue to be available",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-impact-of-this-change/",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/salesforce/view/72206-exam-certified-advanced-administrator-topic-1-question-20/</p><p>Aらしい</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAsAAJ"
+			},
+			"Question__c": "At Ursa Major Solar, there is an account owner by a user with the role of Galaxy manager. Two users with the same profile are both assigned to the sub-role, Galaxy Subordinate. However, only one can access the account.What is the reason only one user can see the account record?",
+			"A__c": "Workflow Rule",
+			"B__c": "Manual Sharing",
+			"C__c": "Queues",
+			"D__c": "Role Hierarchy",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-reason-only-one-user-can-see-the-account-record/",
+			"Comment__c": "<p>この問題の最適な選択肢は(b)の手動共有です。その理由は以下の通りです。</p><ul><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_roles\" target=\"_blank\">ワークフロールール(a)は、レコードが特定の条件を満たしたときに自動的にアクションを実行する機能ですが、レコードの所有権やアクセス権を変更することはできません<sup>1</sup></a>。</li><li><a href=\"\" target=\"_blank\">手動共有(b)は、レコードの所有者や役割階層の上位にあるユーザーが、特定のユーザーやグループにレコードへのアクセス権を付与することができる機能です</a><a href=\"https://bing.com/search?q=salesforce+account+access+role+hierarchy\" target=\"_blank\"><sup>2</sup></a>。この場合、銀河マネージャーの役割を持つユーザーが、銀河サブオーディネートの役割を持つユーザーのうち一人だけにアカウントレコードへのアクセス権を与えた可能性があります。</li><li><a href=\"\" target=\"_blank\">キュー&copy;は、複数のユーザーが共同で作業できるように、特定の種類のレコードをグループ化する機能です</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.security_controlling_access_using_hierarchies.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>3</sup></a><a href=\"\" target=\"_blank\">。キューに追加されたレコードは、キューに属するユーザー全員が所有者となり、アクセスできるようになります</a><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/account_roles_hierarchy\" target=\"_blank\"><sup>4</sup></a>。したがって、キューはこの問題とは関係ありません。</li><li><a href=\"\" target=\"_blank\">役割階層(d)は、組織内のユーザー間の上司と部下の関係を表す機能です</a><a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/admin_roles.htm\" target=\"_blank\"><sup>5</sup></a>。役割階層によって、上位の役割を持つユーザーは、下位の役割を持つユーザーが所有するレコードやレポートにアクセスできるようになります。しかし、同じ役割を持つユーザー間では、デフォルトでは互いのレコードにアクセスできません。</li></ul><p>以上のことから、この問題では手動共有(b)が最も適切な回答となります。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAtAAJ"
+			},
+			"Question__c": "A sales user is assigned to a permission set group that gives them Modify All access to Accounts. An administrator assigns the same user to a muting permission set that mutes Deletes access on Account.What level of access will the sales user have on the Account object?",
+			"A__c": "Read-only",
+			"B__c": "Modify All",
+			"C__c": "Read, Create, and Edit",
+			"D__c": "No Access",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-level-of-access-will-the-sales-user-have-on-the-account-object/",
+			"Comment__c": "<p>正解は &copy;: read, create, and edit です。理由は以下の通りです。</p><ul><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/mute-permissions-in-permission-set-groups\" target=\"_blank\">権限セットグループに割り当てられたユーザーは、そのグループに含まれる権限セットにあるすべての権限を持ちます<sup>1</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/mute-permissions-in-permission-set-groups\" target=\"_blank\">ミュート権限セットは、権限セットグループ内の選択した権限を無効化するために使用できます<sup>1</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/mute-permissions-in-permission-set-groups\" target=\"_blank\">ミュート権限セットは、権限セットグループに割り当てられたユーザーにのみ影響し、権限セットグループ外で権限セットに直接割り当てられたユーザーには影響しません<sup>1</sup></a>。</li><li>この問題では、販売ユーザーはアカウントに対してすべて変更できる権限を持つ権限セットグループに割り当てられていますが、同時にアカウントの削除をミュートするミュート権限セットにも割り当てられています。</li><li>したがって、販売ユーザーはアカウントに対して参照、作成、編集の権限を持ちますが、削除の権限は持ちません。</li><li>よって、選択肢 &copy; が正しいことになります。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAuAAJ"
+			},
+			"Question__c": "A new administrator at Cloud Kicks has reported that they are unable to use outbound change sets as requested.What permission should be reviewed to determine if it is missing from the administrator user or profile?",
+			"A__c": "Create and Upload Change Sets",
+			"B__c": "Modify Metadata Through Metadata API Functions",
+			"C__c": "Deploy Change Sets",
+			"D__c": "API Enabled",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-permission-should-be-reviewed-to-determine-if-it-is-missing-from-the-administrator-user-or-profile/",
+			"Comment__c": "<p>この問題の最適な選択肢は(a)です。理由は以下の通りです。</p><ul><li><a href=\"https://bing.com/search?q=outbound+change+sets+salesforce\" target=\"_blank\">アウトバウンドチェンジセットを使用するには、<strong>Create and Upload Change Sets</strong>という権限が必要です<sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.changesets.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>2</sup></a><a href=\"https://bing.com/search?q=outbound+change+sets+salesforce\" target=\"_blank\">。この権限は、チェンジセットを作成し、他の組織に送信することができるようにします<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.t_changesets_outbound.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">(b)の<strong>Modify Metadata Through Metadata API Functions</strong>という権限は、メタデータAPIを使用して組織のメタデータを変更することができるようにします<sup>3</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.changesets_about_outbound.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">。しかし、これはアウトバウンドチェンジセットとは関係ありません<sup>4</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.changesets_about_outbound.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">&copy;の<strong>Deploy Change Sets</strong>という権限は、インバウンドチェンジセットを受信した組織で、チェンジセットをデプロイすることができるようにします。しかし、これはアウトバウンドチェンジセットを作成することとは関係ありません<sup>4</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.changesets_about_outbound.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">(d)の<strong>API Enabled</strong>という権限は、APIを使用してSalesforceにアクセスすることができるようにします。しかし、これもアウトバウンドチェンジセットとは関係ありません<sup>4</sup></a>。</li></ul><p>したがって、最適な選択肢は(a)です。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAvAAJ"
+			},
+			"Question__c": "AW Computing has a new requirement from its security team where audit information relating to an account must be recorded in a new custom object called Audit. Audit records need to be preserved for 10 years and only accessible by the audit team.What relationship should be used to relate the Audit object to the Account object?",
+			"A__c": "Master-Detail",
+			"B__c": "Lookup",
+			"C__c": "Many-To-Many",
+			"D__c": "Self",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-relationship-should-be-used-to-relate-the-audit-object-to-the-account-object/",
+			"Comment__c": "<p>この問題の最適な選択肢は (b) の lookup です。その理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">lookup 関係は、2つのオブジェクト間に子親関係を作成する最も基本的な関係タイプです</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\">lookup 関係では、子オブジェクトのレコードは親オブジェクトのレコードに依存しません。親オブジェクトのレコードが削除されても、子オブジェクトのレコードは残ります<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\">lookup 関係では、子オブジェクトと親オブジェクトの所有者は異なることができます<sup>1</sup></a>。</li><li><a href=\"\" target=\"_blank\">lookup 関係では、子オブジェクトと親オブジェクトの共有設定は独立しています</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>1</sup></a>。</li></ul><p>これらの特徴から、lookup 関係は audit オブジェクトと account オブジェクトを関連付けるのに適しています。audit レコードは account レコードに依存しないため、account レコードが削除されても audit レコードは 10 年間保存されます。また、audit レコードは audit チームだけがアクセスできるようにすることができます。</p><p>他の選択肢は以下の理由で不適切です。</p><ul><li><a href=\"\" target=\"_blank\">(a) の master-detail 関係では、子オブジェクトのレコードは親オブジェクトのレコードに依存します。親オブジェクトのレコードが削除されると、子オブジェクトのレコードも削除されます</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>1</sup></a>。これは audit レコードを 10 年間保存する要件に反します。</li><li><a href=\"\" target=\"_blank\">&copy; の many-to-many 関係では、2つのオブジェクト間に多対多の関連性を作成するために結合オブジェクトを使用します</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>1</sup></a>。この場合、audit オブジェクトと account オブジェクトの間に一対多の関連性が必要なだけなので、結合オブジェクトは不要です。</li><li><a href=\"\" target=\"_blank\">(d) の self 関係では、同じオブジェクト内でレコードを関連付けることができます</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.overview_of_custom_object_relationships.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>1</sup></a>。この場合、audit オブジェクトと account オブジェクトは異なるオブジェクトなので、self 関係は使用できません。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAwAAJ"
+			},
+			"Question__c": "An administrator has a request to write a report listing accounts that have sales from this year and that have a completed activity in the last 30 days.What reporting feature should the administrator employ to provide only the list of accounts, without listing the details of the opportunities?",
+			"A__c": "Joined Report",
+			"B__c": "Cross-Filter",
+			"C__c": "Summary Report",
+			"D__c": "Filter Logic",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-reporting-feature-should-the-administrator-employ-to-provide-only-the-list-of-accounts-without-listing-the-details-of-the-opportunities/",
+			"Comment__c": "<p>この問題の最適な選択肢は(b)のクロスフィルターです。その理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">クロスフィルターは、関連するレコードがあるかないかによってレポートの結果を絞り込む機能です</a><a href=\"https://www.integrate.io/blog/salesforce-reporting-tools/\" target=\"_blank\"><sup>1</sup></a>。この問題では、アカウントに関連する商談と活動を条件として指定する必要があります。例えば、以下のようなクロスフィルターを作成できます。<ul><li>アカウント <strong>に</strong> 商談 <strong>がある</strong> かつ 商談: 閉じ日 <strong>が</strong> 今年</li><li>アカウント <strong>に</strong> 活動履歴 <strong>がある</strong> かつ 活動履歴: 完了日 <strong>が</strong> 直近30日</li></ul></li><li><a href=\"\" target=\"_blank\">クロスフィルターを使用すると、アカウントのみを表示するレポートを作成できます。商談や活動履歴の詳細は表示されません</a><a href=\"https://bing.com/search?q=salesforce+reporting+features\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"\" target=\"_blank\">(a)のジョインドレポートは、異なるレポートタイプのデータを同じページに表示する機能です</a><a href=\"https://www.salesforce.com/jp/products/sales-cloud/features/analytics-reporting/\" target=\"_blank\"><sup>3</sup></a>。この問題では、アカウントと商談、アカウントと活動履歴の2つのレポートタイプを組み合わせることになりますが、それぞれの詳細も表示されてしまいます。</li><li><a href=\"\" target=\"_blank\">&copy;のサマリーレポートは、グループ化や集計を行う機能です</a><a href=\"https://www.salesforceben.com/advanced-reporting-features/\" target=\"_blank\"><sup>4</sup></a>。この問題では、アカウントに関連する商談や活動履歴の詳細も表示されてしまいます。</li><li><a href=\"\" target=\"_blank\">(d)のフィルタロジックは、複数のフィルタ条件を組み合わせる機能です</a><a href=\"https://admin.salesforce.com/blog/2020/advanced-reporting-features-for-new-admins\" target=\"_blank\"><sup>5</sup></a>。この問題では、アカウントに関連する商談や活動履歴の詳細も表示されてしまいます。</li></ul><p><a href=\"https://www.integrate.io/blog/salesforce-reporting-tools/\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://www.salesforceben.com/advanced-reporting-features/\" target=\"_blank\">10 Advanced Salesforce Reporting Features | Salesforce Ben</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://bing.com/search?q=salesforce+reporting+features\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://help.salesforce.com/s/articleView?id=000393271&amp;language=en_US&amp;type=1\" target=\"_blank\">Reports and Dashboards Best Practice Guide - Salesforce</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://www.salesforce.com/jp/products/sales-cloud/features/analytics-reporting/\" target=\"_blank\"><sup>3</sup></a><a href=\"\" target=\"_blank\">: Create a Joined Report Unit | Salesforce Trailhead </a><a href=\"https://www.salesforceben.com/advanced-reporting-features/\" target=\"_blank\"><sup>4</sup></a><a href=\"\" target=\"_blank\">: Create a Summary Report Unit | Salesforce Trailhead </a><a href=\"https://admin.salesforce.com/blog/2020/advanced-reporting-features-for-new-admins\" target=\"_blank\"><sup>5</sup></a>: Filter Logic for Reports Unit | Salesforce Trailhead</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAxAAJ"
+			},
+			"Question__c": "An administrator is asked to create a report to calculate the year-over—year changed in the dollar amount of a company’s opportunities.What reporting tool should be used to complete this request?",
+			"A__c": "A row-level formula to compare amounts grouped by year.",
+			"B__c": "A joined report with two report blocks for each year",
+			"C__c": "A custom summary formula with PARENTGROUPVAL function",
+			"D__c": "A custom summary formula with the PREVGROUPVAL function.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-reporting-tool-should-be-used-to-complete-this-request/",
+			"Comment__c": "<p>この問題の最適な選択肢は(d)です。その理由は以下の通りです。</p><ul><li>年間の売上金額の変化を計算するには、カスタム集計式を使用する必要があります。カスタム集計式では、グループ化されたデータに対して計算を行うことができます。</li><li>カスタム集計式で年間の変化を求めるには、prevgroupval関数を使用します。この関数は、現在のグループの前のグループの値を返します。例えば、2023年と2022年の売上金額を比較するには、次のような式を使います。</li></ul><p><code>Amount - PREVGROUPVAL(Amount, Close_Date, YEAR)</code></p><ul><li>この式は、現在のグループ（2023年）の売上金額から、前のグループ（2022年）の売上金額を引いて、年間の変化を求めます。</li><li>他の選択肢は不適切です。なぜなら、<ul><li>(a) 行レベルの式では、グループ化されたデータに対して計算できないからです。</li><li>(b) 結合レポートでは、異なるレポートタイプやオブジェクトを組み合わせることができますが、同じデータを異なる期間で比較することはできません。</li><li>&copy; parentgroupval関数は、現在のグループの親グループの値を返します。例えば、月ごとにグループ化されたデータに対して、年ごとの値を取得することができます。しかし、この問題では親グループではなく前のグループの値が必要です。</li></ul></li></ul><p>参考文献: <a href=\"https://www.klipfolio.com/blog/top-salesforce-reporting-tools\" target=\"_blank\">カスタム集計式</a>, <a href=\"https://bing.com/search?q=salesforce+reporting+tools\" target=\"_blank\">prevgroupval関数</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAyAAJ"
+			},
+			"Question__c": "The Cloud Kicks administrator wants to open up opportunity sharing to directors who oversee regional managers so they can access records to assist regional managers.What sharing mechanism should be used?",
+			"A__c": "organization wide Defaults",
+			"B__c": "Role Hierarchy",
+			"C__c": "Manual Sharing",
+			"D__c": "Sharing Settings",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-sharing-mechanism-should-be-used/",
+			"Comment__c": "<p>この問題の最適な選択肢は(b)のロール階層です。その理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">組織全体のデフォルト設定(a)は、オブジェクトごとに最も制限的なアクセスレベルを設定するもので、特定のユーザーやグループに対してレコードを開放するものではありません</a><a href=\"https://qiita.com/Supply-net/items/200645732c73943327ab\" target=\"_blank\"><sup>1</sup></a>。</li><li><a href=\"\" target=\"_blank\">ロール階層(b)は、組織内のユーザーを階層構造によって管理し、上位のロールには下位のロールがアクセスできるレコードに対して同じアクセス権を付与するものです</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.managing_the_sharing_model.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>2</sup></a>。この場合、地域マネージャーの上位にあたるディレクターに対して、地域マネージャーがアクセスできる商談レコードに対するアクセス権を付与することができます。</li><li><a href=\"\" target=\"_blank\">手動共有&copy;は、レコードの所有者や管理者が個別にレコードを共有する方法です</a><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing\" target=\"_blank\"><sup>3</sup></a>。この場合、地域マネージャーが自分がアクセスできる商談レコードを一つずつディレクターと共有する必要があります。これは非効率的で、また地域マネージャーが忘れたり怠ったりする可能性もあります。</li><li><a href=\"\" target=\"_blank\">共有設定(d)は、組織全体のデフォルト設定よりも柔軟なアクセス権を付与するための仕組みです</a><a href=\"https://intellipaat.com/blog/how-to-create-sharing-rules-in-salesforce/\" target=\"_blank\"><sup>4</sup></a><a href=\"\" target=\"_blank\">。共有設定には共有ルールと共有セットがありますが、共有ルールはロールやパブリックグループに基づいてレコードを共有するものであり</a><a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/security_about_sharing_rules.htm\" target=\"_blank\"><sup>5</sup></a>、共有セットはプロファイルに基づいてレコードを共有するものです。この場合、ディレクターと地域マネージャーを同じパブリックグループやプロファイルに入れる必要がありますが、これは彼らの役割や権限に影響を与える可能性があります。</li></ul><p>以上のことから、この問題ではロール階層(b)が最適な選択肢と言えます。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oAzAAJ"
+			},
+			"Question__c": "Soles reps at AW Computing hove asked the Administrator to help them close deals faster on the Salesforce mobile app when they’re in the new. They want to be able to quickly close an opportunity and have key fields, like status, pre populated to Closed Won.What should an administrator create to achieve this?",
+			"A__c": "Object-specific Quick Action",
+			"B__c": "Global Quick Action",
+			"C__c": "Lightning Component",
+			"D__c": "Enhanced Related Lists",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-an-administrator-create-to-achieve-this/",
+			"Comment__c": "<p>この問題の最適な選択肢は (a): object-specific quick action です。その理由は以下の通りです。</p><ul><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_actions_global\" target=\"_blank\">object-specific quick action は、特定のオブジェクトに関連付けられたレコードを作成したり更新したりすることができます<sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.actions_overview.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>2</sup></a>。この場合、営業担当者は opportunity オブジェクトに対して object-specific quick action を使用して、レコードの状態を closed won に更新することができます。</li><li><a href=\"\" target=\"_blank\">object-specific quick action は、レコードの詳細ページに表示されます</a><a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_actions_global\" target=\"_blank\"><sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.actions_overview.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>2</sup></a>。この場合、営業担当者は Salesforce モバイルアプリで opportunity の詳細ページを開いて、object-specific quick action を実行することができます。</li><li><a href=\"\" target=\"_blank\">object-specific quick action は、定義済みの項目値を設定することができます</a><a href=\"https://trailhead.salesforce.com/content/learn/projects/customize-the-ui-for-a-recruiting-app/create-object-specific-quick-action\" target=\"_blank\"><sup>3</sup></a><a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_actions_objectspecific\" target=\"_blank\"><sup>4</sup></a>。この場合、管理者は object-specific quick action のレイアウトをカスタマイズして、状態項目に closed won を事前に設定することができます。</li></ul><p><a href=\"\" target=\"_blank\">(b): global quick action は、オブジェクトに関係なくレコードを作成したり更新したりすることができます</a><a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_actions_global\" target=\"_blank\"><sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.actions_overview.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>2</sup></a><a href=\"\" target=\"_blank\">。しかし、global quick action はレコードの詳細ページではなく、グローバルパブリッシャーレイアウトに追加する必要があります</a><a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_actions_global\" target=\"_blank\"><sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.actions_overview.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>2</sup></a>。この場合、営業担当者は opportunity の詳細ページから直接 global quick action を実行することができません。</p><p>&copy;: lightning component は、カスタムのユーザーインターフェースを作成するためのフレームワークです。しかし、lightning component はクイックアクションではありませんし、レコードの更新に特化したものではありません。</p><p>(d): enhanced related lists は、関連リストの表示や操作を改善する機能です。しかし、enhanced related lists はクイックアクションではありませんし、レコードの更新に特化したものではありません。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB0AAJ"
+			},
+			"Question__c": "What should an administrator do to keep secure fields protected in email templates’?",
+			"A__c": "Implement GDPR.",
+			"B__c": "Set up an approval process for email alerts.",
+			"C__c": "Remove the fields from the email.",
+			"D__c": "Use classic encrypted fields.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-an-administrator-do-to-keep-secure-fields-protected-in-email-templates/",
+			"Comment__c": "<p>この問題の最適な選択肢は(d)です。理由は以下の通りです。</p><ul><li><a href=\"https://www.exam4training.com/what-should-an-administrator-do-to-keep-secure-fields-protected-in-email-templates/\" target=\"_blank\">(a)は、GDPR（一般データ保護規則）を実施するという意味ですが、これは電子メールテンプレートに関係なく、個人データの取り扱いに関するEUの法律です<sup>1</sup></a>。電子メールテンプレートで安全なフィールドを保護するためには、GDPRに準拠するだけでは不十分です。</li><li><a href=\"https://bing.com/search?q=secure+fields+in+email+templates\" target=\"_blank\">(b)は、電子メールアラートのための承認プロセスを設定するという意味ですが、これは電子メールテンプレートの作成や編集に関係しません<sup>2</sup></a>。電子メールテンプレートで安全なフィールドを保護するためには、電子メールアラートの送信時に誰がどのフィールドを見ることができるかを制御する必要があります。</li><li><a href=\"https://qiita.com/Keiji_otsubo/items/d5da7c09ff2f84ccdd46\" target=\"_blank\">&copy;は、電子メールからフィールドを削除するという意味ですが、これは電子メールテンプレートで安全なフィールドを使用することを完全に回避する方法です<sup>3</sup></a>。しかし、これでは電子メールテンプレートの目的や機能が損なわれる可能性があります。電子メールテンプレートで安全なフィールドを保護しながら使用する方法が必要です。</li><li><a href=\"https://developer.salesforce.com/forums/?id=906F00000009Pj0IAE\" target=\"_blank\">(d)は、クラシック暗号化フィールドを使用するという意味ですが、これは電子メールテンプレートで安全なフィールドを保護しながら使用する方法です<sup>4</sup></a>。クラシック暗号化フィールドは、暗号化された値を表示するために<a href=\"\" target=\"_blank\">apex:outputField</a><a href=\"https://developer.salesforce.com/forums/?id=906F00000009Pj0IAE\" target=\"_blank\">コンポーネントを使用できるVisualforce電子メールテンプレートでのみサポートされています<sup>4</sup>。この方法では、電子メールテンプレートの作成者や受信者が「暗号化データの表示」権限を持っているかどうかに関係なく、値は常にマスクされます<sup>4</sup></a>。これにより、安全なフィールドの値が不正に漏洩したり改ざんされたりするリスクを低減できます。</li></ul><p>したがって、この問題の最適な選択肢は(d)であり、その理由は上記の通りです。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB1AAJ"
+			},
+			"Question__c": "Users at AW Computing are receiving a duplicate message when they enter contacts with common first and last names. Management wants to improve the user experience but also keep the data Integrity of contacts.What should an administrator implement for this issue?",
+			"A__c": "Update the matching method on the rule from fuzzy to exact for First Name and Last Name.",
+			"B__c": "Change the duplicate rule to report Instead of alert so the message is avoided.",
+			"C__c": "Include the Email field to the existing matching rule for a more exact match.",
+			"D__c": "Add a secondary matching rule to the duplicate rule to match on the associated customer.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-an-administrator-implement-for-this-issue/",
+			"Comment__c": "<p>この問題に対して最適な選択肢は&copy;です。理由は以下の通りです。</p><ul><li><a href=\"\" target=\"_blank\">(a)は不適切です。一致メソッドを曖昧から完全に変更すると、重複の検出が厳しくなり、より多くの重複メッセージが表示される可能性があります。</a><a href=\"https://bing.com/search?q=duplicate+rule+salesforce\" target=\"_blank\"><sup>1</sup></a></li><li><a href=\"\" target=\"_blank\">(b)は不適切です。重複ルールをレポートに変更すると、重複メッセージは回避されますが、データの整合性が損なわれる可能性があります。</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.duplicate_rules_standard_rules.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>2</sup></a></li><li><a href=\"\" target=\"_blank\">&copy;は適切です。既存の一致ルールにメールフィールドを追加すると、より正確な一致ができるようになり、重複メッセージが減少する可能性があります。</a><a href=\"https://www.sunbridge.com/blog/tips/salesforce-duplicate-rules/\" target=\"_blank\"><sup>3</sup></a></li><li><a href=\"\" target=\"_blank\">(d)は不適切です。重複ルールに二次的な一致ルールを追加すると、重複の検出が緩くなり、データの整合性が損なわれる可能性があります。</a><a href=\"https://help.salesforce.com/s/articleView?id=sfdo.IP_Manage_Duplicate_Rules.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>4</sup></a></li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB2AAJ"
+			},
+			"Question__c": "Support staff at Cloud Kicks work on multiple accounts and opportunities at the same time, Currently, they are switching between browser tabs, which is tedious and confusing. Support managers put in a request for a better agent experience.What should an administrator recommend?",
+			"A__c": "Create a screen flow to pull all related opportunities onto one page.",
+			"B__c": "Enable Subtab Record Browsing in the Setup menu.",
+			"C__c": "Configure Split Lit Views.",
+			"D__c": "Implement Service Console.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-an-administrator-recommend/",
+			"Comment__c": "<p>この問題の最適な選択肢は (d) です。理由は以下の通りです。</p><ul><li><a href=\"https://www.bing.com/aclick?ld=e8XMwQOzPeUG0B4DHKrr0QwjVUCUw75on_KjKcYQkFOTy1CjmMF3LxcZD1YpQpxtp8nxsK6kWp0zGvPG19xQ58G0Zm2GTAZPwCObgdMP4gXLnyWgk_IOhkc4x66gFTNSguCSEK8oVXS7H4UmpVqhqdlrRkCAXNMGheqsW6XPmvwlG55NGC&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cuc2FsZXNmb3JjZS5jb20lMmZqcCUyZmZvcm0lMmZzZW0lMmZzYWxlc2ZvcmNlLXByb2R1Y3RzJTJmJTNmZCUzZDcwMTN5MDAwMDAycG12ckFBQSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHBhaWRfc2VhcmNoJTI2dXRtX2NhbXBhaWduJTNkanAtYWxsbG9iYXclMjZ1dG1fY29udGVudCUzZGFsbC1kZW1vLTcwMTN5MDAwMDAycG12ckFBQSUyNkRDTVAlM2RqcC1iaW5nJTI2bmMlM2Q3MDEzeTAwMDAwMGFBdWRBQUU&amp;rlid=b19cb5b53dab14de2812d0939fa162bb\" target=\"_blank\">サービスコンソールは、複数のアカウントや商談を同時に処理するサポートスタッフにとって便利なツールです</a><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/service-cloud-agent-experience/explore-the-service-console\" target=\"_blank\"><sup>1</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.console_lex_service_intro.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.support_console.htm&amp;language=ja&amp;type=5\" target=\"_blank\">。サービスコンソールでは、顧客の各ケースの詳細なビューを表示でき、各ケースを迅速に解決するツールをエージェントに提供します<sup>3</sup>。複数のレコードおよび各関連レコードを同じ画面に表示し、分割ビューを使用してリストのレコードを参照することができます<sup>3</sup></a>。</li><li>(a) の選択肢は、関連する商談を一つのページにまとめることができますが、アカウントやケースなどの他のオブジェクトには対応できません。また、スクリーンフローは、ユーザーが特定のタスクを実行するための一連の画面を提供するものであり、サービスコンソールとは異なる機能です。</li><li>(b) の選択肢は、サブタブレコードブラウジングを有効にすることで、タブ内でレコード間を移動できるようになりますが、これはサービスコンソール内でのみ利用できる機能です。したがって、これだけではブラウザタブ間の切り替えを解決できません。</li><li>&copy; の選択肢は、分割リストビューを設定することで、リストビューとレコードページを同時に表示できるようになりますが、これもサービスコンソール内でのみ利用できる機能です。また、分割リストビューは関連レコードやユーティリティバーなどの他のサービスコンソールの機能と組み合わせて使用することで効果的です。</li></ul><p><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/service-cloud-agent-experience/explore-the-service-console\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://trailhead.salesforce.com/content/learn/modules/service-cloud-essentials-features/learn-about-macros-service-console-and-case-feed\" target=\"_blank\">3</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://help.salesforce.com/s/articleView?id=sf.console_lex_service_intro.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://help.salesforce.com/s/articleView?id=sf.support_console.htm&amp;language=ja&amp;type=5\" target=\"_blank\">4</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://trailhead.salesforce.com/content/learn/modules/service-cloud-essentials-features/learn-about-macros-service-console-and-case-feed\" target=\"_blank\"><sup>4</sup></a>: <a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/service-cloud-agent-experience/explore-the-service-console\" target=\"_blank\">1</a><a href=\"\" target=\"_blank\"> </a><a href=\"https://help.salesforce.com/s/articleView?id=sf.support_console.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>3</sup></a>: <a href=\"https://help.salesforce.com/s/articleView?id=sf.console_lex_service_intro.htm&amp;language=ja&amp;type=5\" target=\"_blank\">2</a> : [8] : [9] : [10]</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB3AAJ"
+			},
+			"Question__c": "What should an administrator use as an alternative to a Process Builder to expedite the time required to update the records?",
+			"A__c": "Before save How Trigger",
+			"B__c": "Batch Update",
+			"C__c": "Workflow Rule Field Change",
+			"D__c": "Screen Row",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-an-administrator-use-as-an-alternative-to-a-process-builder-to-expedite-the-time-required-to-update-the-records/",
+			"Comment__c": "<p>この問題の答えは (a): before save how trigger です。理由は以下の通りです。</p><ul><li>プロセスビルダーは、レコードが保存された後に更新を行うため、時間がかかる場合があります。</li><li>before save how trigger は、レコードが保存される前に更新を行うため、プロセスビルダーよりも高速に処理できます。</li><li>batch update は、一定の間隔で複数のレコードを更新するため、即時性が低いです。</li><li>workflow rule field change は、レコードが保存された後にフィールドの値を変更するため、プロセスビルダーと同じくらいの時間がかかります。</li><li>screen row は、レコードの更新とは関係ない用語です。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB4AAJ"
+			},
+			"Question__c": "The AW Computing administrator team does significant amounts of work around process automation and ensuring data integrity. When an administrator created a new validation rule in production, the development team complained that their deployment to production failed.What should be implemented to prevent this conflict from happening?",
+			"A__c": "Review the setup audit trail prior to changes.",
+			"B__c": "Refresh the full copy sandbox daily.",
+			"C__c": "Test changes in a shared sandbox.",
+			"D__c": "Build automation and validation rules using screen flows.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-be-implemented-to-prevent-this-conflict-from-happening/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB5AAJ"
+			},
+			"Question__c": "DreamHouse Realty (DR) wants to ensure that its data is protected. There have been several recent attempts to phish employees.What should DR do to help ensure that the user that is logged in is the right user when the running user is trying to view reports and dashboards?",
+			"A__c": "Require a Usemame, Password, and Security Token when logging in.",
+			"B__c": "Set up an authentication provider for reports and dashboards.",
+			"C__c": "Require MFA when users need to view and export dashboards and reports.",
+			"D__c": "Require a high assurance session when exporting or printing reports and dashboards.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-dr-do-to-help-ensure-that-the-user-that-is-logged-in-is-the-right-user-when-the-running-user-is-trying-to-view-reports-and-dashboards/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB6AAJ"
+			},
+			"Question__c": "An administrator recently Implemented multi-factor authentication (MFA) with a standard security level selectee. They are receiving cases that users are unable to log in.What should me administrator do to troubleshoot?",
+			"A__c": "Check the session security level required at login on the user profile.",
+			"B__c": "Change MF-A to High Assurance.",
+			"C__c": "Reset the user passwords and ask them to try again.",
+			"D__c": "Temporarily disable MFA.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-me-administrator-do-to-troubleshoot/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB7AAJ"
+			},
+			"Question__c": "The VP of sales at AW Computing utilizes a Lead report grouped by Country and Lead Source to show where the leads are coming from. The number of leads vanes greatly for each Country.What should the administrator configure on the report to show the Lead Source effectiveness for each country?",
+			"A__c": "The ‘Show Unique Count*",
+			"B__c": "PARENTGROUPVAL Function",
+			"C__c": "Bucket fitters",
+			"D__c": "PREVGROUPVAL function",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-configure-on-the-report-to-show-the-lead-source-effectiveness-for-each-country/",
+			"Comment__c": "<p>この問題の最適な選択肢は (B): PARENTGROUPVAL Function です。その理由は以下の通りです。</p><p><br></p><p>- PARENTGROUPVAL 関数は、グループ化されたレポートで、親グループの値を子グループに表示するために使用できます¹。</p><p>- この場合、国が親グループで、リードソースが子グループです。リードソースの効果を各国で比較するには、PARENTGROUPVAL 関数を使用して、国ごとのリード数を子グループに表示します。</p><p>- 例えば、PARENTGROUPVAL(リード数, 国) という式を作成すると、各リードソースの行に国ごとのリード数が表示されます²。</p><p>- これにより、VP of sales は、各国でどのリードソースが最も効果的であるかを簡単に判断できます。</p><p><br></p><p>¹: [PARENTGROUPVAL 関数](^1^)</p><p>²: [PARENTGROUPVAL 関数の例](^2^)</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) 標準項目およびカスタム項目の操作 単元 | Salesforce Trailhead. https://trailhead.salesforce.com/ja/content/learn/projects/customize-a-salesforce-object/standard-custom-fields.</p><p>(2) サポートプロセスの作成 単元 | Salesforce Trailhead. https://trailhead.salesforce.com/ja/content/learn/projects/create-a-process-for-managing-support-cases/create-support-processes.</p><p>(3) 標準項目およびカスタム項目の操作 単元 | Salesforce Trailhead. https://trailhead.salesforce.com/ja/content/learn/projects/customize-a-salesforce-object/standard-custom-fields.</p><p>(4) サポートプロセスの作成 単元 | Salesforce Trailhead. https://trailhead.salesforce.com/ja/content/learn/projects/create-a-process-for-managing-support-cases/create-support-processes.</p><p>(5) Salesforce Advanced-Administrator today updated questions .... https://www.certensure.com/salesforce/advanced-administrator-cert-practice-test.html.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB8AAJ"
+			},
+			"Question__c": "An administrator created and activated several record-triggered flows that are configured to run before the record is saved on the same object.What should the administrator consider about the order of execution for flows?",
+			"A__c": "The flow type will determine the order of execution.",
+			"B__c": "The last created date of the flow will determine the order.",
+			"C__c": "The order of flow execution is unpredictable.",
+			"D__c": "The flows will execute in alphabetical order based on their names.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-consider-about-the-order-of-execution-for-flows/",
+			"Comment__c": "<p>この問題の正解は(C)です。理由は以下の通りです。</p><p><br></p><p>- レコードトリガーフローは、同じオブジェクトで複数作成された場合、トリガー順序値に基づいて実行されます¹。</p><p>- トリガー順序値は、フローの詳細ページで設定できます²。デフォルトでは、フローの作成日時に基づいて自動的に割り当てられます³。</p><p>- しかし、トリガー順序値は同じ値を持つフローが存在する可能性があります³。その場合、フローの実行順序は予測できません⁴。</p><p>- したがって、フローの実行順序を明確にするには、トリガー順序値をユニークにする必要があります⁴。</p><p><br></p><p>以上のことから、(C)の選択肢が最適です。他の選択肢は以下の理由で不適切です。</p><p><br></p><p>- (A): フローの種類ではなく、トリガー順序値が実行順序を決めます¹。</p><p>- (B): フローの作成日時はトリガー順序値のデフォルト値ですが、変更可能です²。また、同じトリガー順序値を持つフローが存在する可能性があります³。</p><p>- (D): フローの名前ではなく、トリガー順序値が実行順序を決めます¹。</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) Learn Salesforce Order of Execution [Infographic]. https://www.salesforceben.com/learn-salesforce-order-of-execution/.</p><p>(2) Record-Triggered Automation | Salesforce Architects. https://architect.salesforce.com/decision-guides/trigger-automation.</p><p>(3) Trigger Order of Execution - S2 Labs By Shrey Sharma. https://shreysharma.com/trigger-order-of-execution/.</p><p>(4) Flow Automation Strategy: One Flow per SObject per context .... https://forcepanda.wordpress.com/2021/12/15/flow-automation-strategy-one-flow-per-sobject-per-context-or-multiple-flows/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oB9AAJ"
+			},
+			"Question__c": "Cloud Kicks (CK) completed a project in a sandbox environment and wants to migrate the changes to production. CK split the deployment into two distinct change sets. Change set 1 has new custom objects and fields. Change set 2 has updated profiles and automation.What should the administrator consider before deploying the change sets?",
+			"A__c": "The Field-Level Security will not be deployed with the profiles in change set 2.",
+			"B__c": "Change set 2 needs to be deployed first.",
+			"C__c": "Automations need to be deployed in the same change set in order to be activated.",
+			"D__c": "Both change sets must be deployed simultaneously.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-consider-before-deploying-the-change-sets/",
+			"Comment__c": "<p>この問題の最適な選択肢は(A)です。理由は以下の通りです。</p><p><br></p><p>- 変更セットを使用してプロファイルをデプロイする場合、フィールドレベルセキュリティ (FLS) はデプロイされません¹²。そのため、変更セット2に含まれるプロファイルのFLSは、本番環境に反映されない可能性があります。</p><p>- 変更セット1と変更セット2のデプロイ順序は関係ありません。変更セット1に含まれるカスタムオブジェクトやフィールドは、変更セット2に依存しないからです³。</p><p>- 変更セットを使用してオートメーションをデプロイする場合、同じ変更セットに含める必要はありません⁴。ただし、オートメーションが他のコンポーネントに依存する場合は、それらのコンポーネントも同じ変更セットに含める必要があります⁵。</p><p>- 変更セットは同時にデプロイすることができません。変更セットは一度に一つずつデプロイする必要があります。</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) Change Sets - Salesforce. https://help.salesforce.com/s/articleView?id=sf.changesets.htm&amp;language=en_US&amp;type=5.</p><p>(2) 変更セットの設定 - Salesforce. https://help.salesforce.com/s/articleView?id=000385608&amp;language=ja&amp;type=1.</p><p>(3) Deployment using change sets in Salesforce - Apex Hours. https://bing.com/search?q=Salesforce+change+sets.</p><p>(4) Deployment using change sets in Salesforce - Apex Hours. https://www.apexhours.com/deployment-using-change-sets-in-salesforce/.</p><p>(5) Change Sets in Salesforce - deployment tools - TutorialKart. https://www.tutorialkart.com/salesforce/deployment-tools-in-salesforce/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBAAAZ"
+			},
+			"Question__c": "What should the administrator consider before enabling Person Accounts?",
+			"A__c": "Person Account cannot be disabled.",
+			"B__c": "Person Account requires less data storage.",
+			"C__c": "Person Account and Business Accounts cannot be in the same sharing model.",
+			"D__c": "All standard Account news can be converted to Person Account field.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-consider-before-enabling-person-accounts/",
+			"Comment__c": "<p>この問題の最適な選択肢は(A)です。その理由は以下の通りです。</p><p><br></p><p>- 個人取引先とは、個人事業主や個人顧客など、1名に限定された顧客を登録するための機能です²。</p><p>- 個人取引先を有効化すると、取引先と取引先責任者の一部のフィールドが統合されて、1つのレコードになります¹。</p><p>- 個人取引先を有効化した後は、無効化することができません¹。したがって、管理者はこの点を考慮する必要があります。</p><p>- (B)は間違っています。個人取引先は、取引先と取引先責任者の両方のデータストレージを消費します¹。したがって、個人取引先はデータストレージを節約するものではありません。</p><p>- (C)は間違っています。個人取引先とビジネスアカウントは、同じ共有モデルで使用できます¹。ただし、個人取引先に対しては、共有ルールや手動共有などの一部の機能が制限されます¹。</p><p>- (D)は間違っています。すべての標準的な取引先フィールドが個人取引先フィールドに変換されるわけではありません¹。個人取引先に対応しないフィールドは非表示になります¹。</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) 【Salesforce】個人取引先とは？有効化から使用方法まで解説. https://atsudayo.com/use-of-personaccount/.</p><p>(2) Person Accounts - Salesforce. https://help.salesforce.com/s/articleView?id=sf.account_person.htm&amp;language=en_US&amp;type=5.</p><p>(3) Salesforce Person Accounts - Pros and Cons | Salesforce Ben. https://bing.com/search?q=Person+Account+Salesforce.</p><p>(4) 「個人取引先」とは？｜Synergy!LEAD | シナジーマーケティング .... https://www.synergy-marketing.co.jp/cloud/synergylead/support/faq-what-is-person-account/.</p><p>(5) undefined. https://help.salesforce.com/HTViewHelpDoc?id=account_person.htm&amp;language=ja.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBBAAZ"
+			},
+			"Question__c": "An administrator at Universal Containers has been asked to configure product schedules.What should the administrator consider before enabling this feature?",
+			"A__c": "The Product Schedule is unavailable in Process Builder and Flow.",
+			"B__c": "Line Item Schedule is unavailable In Process Builder and Workflow.",
+			"C__c": "Customizable product schedule page layouts cannot be modified.",
+			"D__c": "To remove o product schedule completely, remove It from the standard price book.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-consider-before-enabling-this-feature/",
+			"Comment__c": "<p>この問題の最適な選択肢は (B) です。理由は以下の通りです。</p><p><br></p><p>- 商品スケジュールを有効化する前に、管理者は以下のことを考慮する必要があります¹²。</p><p>- 商品スケジュールは、取引先責任者、取引先、商談、商談商品、商品、価格表、価格表エントリオブジェクトに関連付けられています¹。</p><p>- 商品スケジュールは、定期的な支払いや配送サイクルを持つ商品やサービスに対して、収益または数量の取引を設定する機能です¹²。</p><p>- 商品スケジュールを有効化すると、収益スケジュールと数量スケジュールの両方またはどちらか一方を選択できます¹²。</p><p>- 商品スケジュールを有効化すると、商品スケジュール設定ページレイアウトをカスタマイズできます¹²。</p><p>- 商品スケジュールを完全に削除するには、標準価格表から削除するだけでなく、すべての価格表エントリからも削除する必要があります¹²。</p><p>- 選択肢 (A) は正しくありません。商品スケジュールはプロセスビルダーとフローで使用できます³。</p><p>- 選択肢 (B) は正しいです。商談商品スケジュールはプロセスビルダーとワークフローで使用できません³。</p><p>- 選択肢 (C) は正しくありません。商品スケジュール設定ページレイアウトはカスタマイズできます¹²。</p><p>- 選択肢 (D) は正しくありません。商品スケジュールを完全に削除するには、標準価格表からだけでなく、すべての価格表エントリからも削除する必要があります¹²。</p><p><br></p><p>¹: [商品スケジュール](^1^)</p><p>²: [商品スケジュール](^2^)</p><p>³: [What happens when you enable Revenue Schedules or ...](^3^)</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) Product Schedules - Salesforce. https://help.salesforce.com/s/articleView?id=products_schedules_def.htm&amp;language=en_US&amp;type=5.</p><p>(2) 商品スケジュール - Salesforce. https://help.salesforce.com/s/articleView?id=sf.products_schedules_def.htm&amp;language=ja&amp;type=5.</p><p>(3) What happens when you enable Revenue Schedules or .... https://flexpricer.com/support/faq/what-happens-when-you-enable-revenue-schedules-or-quantity-schedules-in-salesforce/.</p><p>(4) Product Schedules - Salesforce. https://help.salesforce.com/s/articleView?id=products_schedules_def.htm&amp;language=en_US&amp;type=5.</p><p>(5) 商品スケジュール - Salesforce. https://help.salesforce.com/s/articleView?id=sf.products_schedules_def.htm&amp;language=ja&amp;type=5.</p><p>(6) What happens when you enable Revenue Schedules or .... https://flexpricer.com/support/faq/what-happens-when-you-enable-revenue-schedules-or-quantity-schedules-in-salesforce/.</p><p>(7) How to Create a Revenue Schedule in Salesforce | revVana. https://revvana.com/blog/how-to-schedule-revenue-in-salesforce/.</p><p>(8) undefined. https://help.salesforce.com/s/articleView?id=000396076&amp;type=1&amp;language=en_US.</p><p><br></p><p><br></p><p>Line Item Scheduleとは、商談の商品に対して、収益や数量の取引を定期的に設定する機能です¹。例えば、サブスクリプションやレンタルなどの商品やサービスに対して、月ごとや四半期ごとなどのスケジュールで収益や数量を計算することができます²。商品スケジュールを有効化すると、売上予測や売上レポートにも反映されます³。</p><p><br></p><p>Line Item Scheduleは、Salesforceの標準オブジェクトであり、OpportunityLineItemScheduleというAPI名で参照できます⁴。OpportunityLineItemオブジェクトに対してルックアップ関係を持ちます⁵。Line Item Scheduleを使用するには、まず商品スケジュールを有効化する必要があります⁶。その後、データローダーなどのツールを使って、CSVファイルからLine Item Scheduleを挿入したり更新したりすることができます。</p><p><br></p><p>¹: [商品スケジュール](^1^)</p><p>²: [Salesforceでスポット受注、サブスク、按分を混ぜて売上管理する方法](^2^)</p><p>³: [商談商品スケジュールを使用した取引先販売予測の計算](^3^)</p><p>⁴: [OpportunityLineItemSchedule - Salesforce Developers](^4^)</p><p>⁵: [opportunity line items schedule - Salesforce Developer Community](^5^)</p><p>⁶: [商品スケジュール](^6^)</p><p>: [Mass insert and update the Opportunity Line Item schedule]</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) OpportunityLineItemSchedule - Salesforce Developers. https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunitylineitemschedule.htm.</p><p>(2) opportunity line items schedule - Salesforce Developer .... https://developer.salesforce.com/forums/?id=9060G000000I8c2QAC.</p><p>(3) Mass insert and update the Opportunity Line Item schedule. https://bing.com/search?q=Line+Item+Schedule+salesforce.</p><p>(4) Mass insert and update the Opportunity Line Item schedule. https://help.salesforce.com/s/articleView?id=000387166&amp;language=en_US&amp;type=1.</p><p>(5) undefined. https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_opportunitylineitemschedule.htm.</p><p>(6) undefined. https://help.salesforce.com/articleView?id=000199075&amp;type=1.</p><p>(7) OpportunityLineItemSchedule - Salesforce Developers. https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunitylineitemschedule.htm.</p><p>(8) opportunity line items schedule - Salesforce Developer .... https://developer.salesforce.com/forums/?id=9060G000000I8c2QAC.</p><p>(9) Mass insert and update the Opportunity Line Item schedule. https://bing.com/search?q=Line+Item+Schedule+salesforce.</p><p>(10) Mass insert and update the Opportunity Line Item schedule. https://help.salesforce.com/s/articleView?id=000387166&amp;language=en_US&amp;type=1.</p><p>(11) undefined. https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_opportunitylineitemschedule.htm.</p><p>(12) undefined. https://help.salesforce.com/articleView?id=000199075&amp;type=1.</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBCAAZ"
+			},
+			"Question__c": "Ursa Major Solar’s administrator has configured multiple record-triggered flows to run before or after the record is saved on the Account object.What should the administrator consider when a record-triggered flow executes first?",
+			"A__c": "Assign the highest priority to the record-triggered flow which should execute first.",
+			"B__c": "The flow with the longest execution time will execute first.",
+			"C__c": "The flow with the shortest execution time will execute first.",
+			"D__c": "The order in which those flows are executed is not guaranteed.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-consider-when-a-record-triggered-flow-executes-first/",
+			"Comment__c": "<p>この問題のもっとも最適な選択肢は(A)です。理由は以下の通りです。</p><p><br></p><p>- レコードトリガフローの実行順序は、トリガ順序値というパラメータで指定できます³。</p><p>- トリガ順序値は、保存前または保存後のレコードトリガフローに対して、1から2,000までの数値を設定できます³。</p><p>- トリガ順序値が1から1,000までのフローは、昇順に実行されます（1, 2, 3というように）³。</p><p>- トリガ順序値が同じフローは、フローのAPI名のアルファベット順に実行されます³。</p><p>- トリガ順序値が設定されていないフローは、作成日時の順に実行されます³。</p><p>- トリガ順序値が1,001から2,000までのフローは、昇順に実行されます³。</p><p><br></p><p>したがって、レコードトリガフローが最初に実行されるようにするには、そのフローに最も低いトリガ順序値（1）を割り当てる必要があります。これが選択肢(A)の内容です。</p><p><br></p><p>選択肢(B)と(C)は、フローの実行時間は実行順序に影響しないため、正しくありません。</p><p><br></p><p>選択肢(D)は、トリガ順序値を設定しない場合や同じ値を設定する場合に限り正しいですが、一般的な場合では正しくありません。</p><p><br></p><p>ソース: Bing との会話 2023/10/11</p><p>(1) Order of Execution - Multiple Flows for the Same Object. https://bing.com/search?q=record-triggered+flow+execution+order.</p><p>(2) Spring’22 同一オブジェクト内でフロー実行順序を指定できる .... https://sf.forum.circlace.com/articles/694231968434360320.</p><p>(3) Record-Triggered Automation | Salesforce Architects. https://architect.salesforce.com/decision-guides/trigger-automation.</p><p>(4) Flow Automation Strategy: One Flow per SObject per context .... https://forcepanda.wordpress.com/2021/12/15/flow-automation-strategy-one-flow-per-sobject-per-context-or-multiple-flows/.</p><p>(5) Record Triggered flow - Apex Hours. https://www.apexhours.com/record-triggered-flow/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBDAAZ"
+			},
+			"Question__c": "Cloud Kicks has Service end Soles Manager roles that need to be able to see a I Accounts. Currently, they each have their own custom profile. The organization-wide defaults are set to Private and a sharing rule share access to Accounts to the sales and service teams based on criteria.What should the administrator do to allow the service and sales Manager to sec all Accounts?",
+			"A__c": "Configure a custom profile for each manager that gives them view All on Accounts.",
+			"B__c": "Set the organization-wide default for Accounts to Public Read Only.",
+			"C__c": "Create a permission set with view All to Accounts and assign it to the Service and Sales Managers.",
+			"D__c": "Move the Service and Sales Managers higher in the role hierarchy.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-allow-the-service-and-sales-manager-to-sec-all-accounts/",
+			"Comment__c": "<p>この問題の最適な選択肢は(C)です。理由は以下の通りです。</p><p><br></p><p>- (A)は不適切です。プロファイルは役割や権限に基づいてユーザーに割り当てられるものであり、特定のオブジェクトに対するアクセスレベルを設定するものではありません。また、プロファイルは一般的に複数のユーザーに共有されるため、個別のマネージャーにカスタムプロファイルを作成することは効率的ではありません。</p><p>- (B)は不適切です。組織全体のデフォルトは、最も制限されたユーザーが持つべきアクセスレベルを設定するものであり、アクセスを制限するために使用されます。アカウントの組織全体のデフォルトをパブリック読み取り専用に設定すると、サービスとセールスのマネージャーだけでなく、他のすべてのユーザーもすべてのアカウントを閲覧できるようになります。これは必要以上にアクセスを拡大することになり、セキュリティ上のリスクとなります。</p><p>- (C)は適切です。パーミッションセットは、プロファイルに追加できる追加の権限やアクセスレベルを提供するものであり、特定のオブジェクトやフィールドに対する「すべて表示」や「すべて変更」などの権限を含めることができます。パーミッションセットは個々のユーザーに割り当てることができるため、サービスとセールスのマネージャーにだけアカウントへの「すべて表示」権限を付与することができます。これは、組織全体のデフォルトや共有ルールを無視してアクセスレベルを上書きすることができます。</p><p>- (D)は不適切です。役割階層は、上位の役割が下位の役割が所有するレコードに対するアクセス権を持つようにするものであり、同じレベルの役割や他の部門の役割が所有するレコードに対するアクセス権を持つわけではありません。サービスとセールスのマネージャーを役割階層で高く移動させても、他のマネージャーが所有するアカウントに対するアクセス権は得られません。</p><p><br></p><p>: [プロファイルとパーミッション](^1^)</p><p>: [組織全体デフォルト](^2^)</p><p>: [パーミッションセット](^5^)</p><p>: [“View All” and “Modify All” Permissions Overview](^6^)</p><p>: [役割階層](^7^)</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Organization-Wide Default Access Settings - Salesforce. https://help.salesforce.com/s/articleView?id=sf.sharing_model_fields.htm&amp;language=en_US&amp;type=5.</p><p>(2) Organization-Wide Sharing Defaults | Salesforce Security .... https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/security_sharing_owd_about.htm.</p><p>(3) “View All” and “Modify All” Permissions Overview - Salesforce. https://help.salesforce.com/s/articleView?id=sf.users_profiles_view_all_mod_all.htm&amp;language=en_US&amp;type=5.</p><p>(4) “View All” and “Modify All” Permissions Overview | Salesforce .... https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm.</p><p>(5) View or update object permissions via the Developer Console. https://bing.com/search?q=Salesforce+view+all+permission.</p><p>(6) Organization Wide Defaults (OWD) in salesforce. https://www.sfdcpoint.com/salesforce/organization-wide-defaults-owd-in-salesforce/.</p><p>(7) Organization Wide Default in Salesforce (OWD) - S2 Labs By .... https://shreysharma.com/organization-wide-default/.</p><p>(8) View or update object permissions via the Developer Console. https://help.salesforce.com/s/articleView?id=000389259&amp;language=en_US&amp;type=1.</p><p>(9) View All ,Modify All Vs View All Data and Modify All Data. https://salesforcethinkers.home.blog/2020/01/21/view-all-modify-all-vs-view-all-data-and-modify-all-data/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBEAAZ"
+			},
+			"Question__c": "An administrator is trying to deploy a change set from a newly upgraded sandbox source org with new features to a destination sandbox org on a previous release. Some metadata in the change set cannot be deployed because they’ve changed between releases.What should the administrator do to deploy the changes to a sandbox?",
+			"A__c": "Make the changes manually through the user interface in the source org.",
+			"B__c": "Create a new sandbox on the new release version and deploy ;he change set to the new org.",
+			"C__c": "Submit a ticket to Salesforce to update the source org to the latest release.",
+			"D__c": "Refresh the sandbox destination org and then deploy the change set.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-deploy-the-changes-to-a-sandbox/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBFAAZ"
+			},
+			"Question__c": "The sales team at Cloud Kicks is noticing that sales reps are misusing the new Screen Flow tool for data entry, since they are viewed the initial screen after clicking finish.What should the administrator do to fix this?",
+			"A__c": "Use a lightning action to redirect the user",
+			"B__c": "Create a new flow to redirect the user when the other flow finishes.",
+			"C__c": "Add a trigger to redirect the user to a new page.",
+			"D__c": "Update the flow with a local redirect action.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-fix-this/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBGAAZ"
+			},
+			"Question__c": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently,usrrs have noted that their pages take a long time to load and it’s starting to negatively impact their experience.What should the administrator do to help diagnose where improvements can be made?",
+			"A__c": "Check the debug logs found in the Environment section of Setup.",
+			"B__c": "Click Analyze from the Lightning App Builder toolbar.",
+			"C__c": "Review the debug logs from the Developer Console.",
+			"D__c": "Use the Apex debugger while loading a customer record.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-help-diagnose-where-improvements-can-be-made/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBHAAZ"
+			},
+			"Question__c": "An administrator created a new custom object. When trying to upload new records to the custom object using.Date Loader, they are unable to see the new custom object in the list of available objects.What should the administrator do to resolve the issue?",
+			"A__c": "Assign a permission set to give them access to the new object.",
+			"B__c": "Check the Field-Level Security of the new custom object’s Name field.",
+			"C__c": "Ensure Allow Sharing is checked on the custom object.",
+			"D__c": "Confirm the object us marked as deployed and not in development.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-resolve-the-issue-9/",
+			"Comment__c": "<p>この問題の最適な選択肢は(D)です。理由は以下の通りです。</p><p><br></p><p>- データローダを使ってカスタムオブジェクトにレコードをアップロードするには、カスタムオブジェクトがデプロイ済みである必要があります¹²。</p><p>- カスタムオブジェクトが開発中の場合、データローダでは利用できません¹²。</p><p>- カスタムオブジェクトのデプロイ状態は、オブジェクトマネージャーから確認できます²。</p><p>- カスタムオブジェクトをデプロイするには、[Deployed] チェックボックスをオンにします²。</p><p><br></p><p>(A)の選択肢は正しくありません。管理者はカスタムオブジェクトを作成したときに、自動的にそのオブジェクトのフルアクセス権限を持ちます³。したがって、パーミッションセットを割り当てる必要はありません。</p><p><br></p><p>(B)の選択肢は正しくありません。フィールドレベルセキュリティは、カスタムオブジェクトの特定のフィールドへのアクセス権限を制御するものであり、データローダでカスタムオブジェクトを表示するかどうかには影響しません⁴。</p><p><br></p><p>(C)の選択肢は正しくありません。共有設定は、カスタムオブジェクトのレコードへのアクセス権限を制御するものであり、データローダでカスタムオブジェクトを表示するかどうかには影響しません⁵。</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Salesforceのデータローダとは？インストール手順と使い方を解説 .... https://www.sunbridge.com/blog/tips/salesforce-how-to-use-dataloader/.</p><p>(2) データローダについて | データローダガイド | Salesforce Developers. https://developer.salesforce.com/docs/atlas.ja-jp.dataLoader.meta/dataLoader/data_loader.htm.</p><p>(3) Mass Insert Custom Metadata - Salesforce Stack Exchange. https://salesforce.stackexchange.com/questions/114002/mass-insert-custom-metadata.</p><p>(4) Import Data to Create a Custom Object - Trailhead. https://trailhead.salesforce.com/content/learn/projects/quick-start-customize-an-app-with-lightning-object-creator/import-data-to-create-a-custom-object.</p><p>(5) undefined. https://www.azul.com/downloads/zulu-community/?version=java-11-lts&amp;package=jdk&amp;show-old-builds=true.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBIAAZ"
+			},
+			"Question__c": "Sales reps at AW Computing hove been reporting that contact phone numbers sometimes revert book to on old value after being updated.What should the administrator do to resolve this issue?",
+			"A__c": "Schedule Apex jobs.",
+			"B__c": "Delete all workflow rules.",
+			"C__c": "Add an invocable process.",
+			"D__c": "Consolidate automation tools.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-resolve-this-issue-15/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBJAAZ"
+			},
+			"Question__c": "Cloud Kicks is a large company with many divisions. Some divisions have a higher turnover, so each division wants to be able to create and manage users only within their division.What should the administrator do to set this up?",
+			"A__c": "Set up delegated administrators for the division leaders.",
+			"B__c": "Assign a flat territory role hierarchy for the divisions.",
+			"C__c": "Create a permission set group for the division leaders.",
+			"D__c": "Customize and assign profiles for the division teams.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-set-this-up/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBKAAZ"
+			},
+			"Question__c": "A user at Ursa Major Solar is experiencing a flow error while trying to process a record to the next status. The users with the same access can process records without any errors.What should the administrator do to troubleshoot the issue?",
+			"A__c": "Use the flow debug option and set the selection to Run as another user.",
+			"B__c": "Grant the user more data access by moving them higher in the role hierarchy.",
+			"C__c": "Change the flow to run as System Context Without Sharing – Access All Data.",
+			"D__c": "Grant the user the Modify All permission to ensure they have full system access.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-do-to-troubleshoot-the-issue/",
+			"Comment__c": "<p>この問題の最適な選択肢は(A)です。理由は以下の通りです。</p><p><br></p><p>- フローのエラーをトラブルシューティングするには、フローのデバッグオプションを使用すると便利です¹。</p><p>- フローのデバッグオプションでは、実行ユーザを指定できます²。この場合、エラーが発生しているユーザと同じ権限でフローを実行して、エラーの原因を特定できます。</p><p>- (B)は正しくありません。役割階層でユーザを上位に移動しても、データアクセスの問題が解決するとは限りません³。また、エラーが発生していないユーザと同じアクセス権を持っていることが問題文で示されています。</p><p>- (C)は正しくありません。フローをシステムコンテキストで実行すると、フローが実行されるユーザの権限や共有設定に関係なく、すべてのデータにアクセスできます⁴。しかし、これはセキュリティ上のリスクが高く、必要最小限の権限原則に反します⁵。</p><p>- (D)は正しくありません。Modify All 権限を付与すると、ユーザはオブジェクトのすべてのレコードにアクセスできるだけでなく、共有設定や組織全体のデフォルト設定に関係なくレコードを変更できます。これもセキュリティ上のリスクが高く、必要最小限の権限原則に反します⁵。</p><p><br></p><p>¹: [Troubleshoot Flow Error - Salesforce Developer Community](^3^)</p><p>²: [Flow Troubleshooting | Salesforce Trailhead](^4^)</p><p>³: [Role Hierarchy Considerations - Salesforce](https://help.salesforce.com/s/articleView?id=sf.sharing_considerations_roles.htm&amp;language=ja&amp;type=5)</p><p>⁴: [Run Flows with System Context - Salesforce](https://help.salesforce.com/s/articleView?id=sf.flow_concepts_systemcontext.htm&amp;language=ja&amp;type=5)</p><p>⁵: [Principle of Least Privilege - Salesforce](https://developer.salesforce.com/docs/atlas.ja-jp.secure_coding_guide.meta/secure_coding_guide/secure_coding_intro.htm)</p><p>: [Object Permissions - Salesforce](https://help.salesforce.com/s/articleView?id=sf.user_fields.htm&amp;language=ja&amp;type=5)</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) フローのトラブルシューティングに関する考慮事項 - Salesforce. https://help.salesforce.com/s/articleView?id=sf.flow_considerations_troubleshooting.htm&amp;language=ja&amp;type=5.</p><p>(2) フローのエラー処理のその他の例 - Salesforce. https://help.salesforce.com/s/articleView?id=sf.flow_build_logic_fault_examples.htm&amp;language=ja&amp;type=5.</p><p>(3) Troubleshoot Flow Error - Salesforce Developer Community. https://developer.salesforce.com/forums/?id=906F00000005J1SIAU.</p><p>(4) Flow Troubleshooting | Salesforce Trailhead. https://trailhead.salesforce.com/content/learn/modules/flow-troubleshooting/.</p><p>(5) undefined. https://help.salesforce.com/s/articleView?id=000396076&amp;type=1&amp;language=en_US.</p><p>(6) Troubleshoot Flow Error - Salesforce Developer Community. https://developer.salesforce.com/forums/?id=906F00000005J1SIAU.</p><p>(7) Flow Troubleshooting | Salesforce Trailhead. https://trailhead.salesforce.com/content/learn/modules/flow-troubleshooting/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBLAAZ"
+			},
+			"Question__c": "An administrator at Universal Containers has been asked by the compliance team to understand end track various sensitivity levels for its data In Salesforce. The administrator has enabled Data Classification end configured appropriate sensitivity levels. The compliance team would Ike a report showing field level sensitivity and classification.What should the administrator recommend?",
+			"A__c": "Run the standard Data Classification report.",
+			"B__c": "Create a custom Entity Definition and Held Definitions report type.",
+			"C__c": "Use the Data Classification Metadata list view.",
+			"D__c": "Configure a custom Data Classification and Metadata report type.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-recommend-2/",
+			"Comment__c": "<p>この問題の最適な選択肢は(B)です。その理由は以下の通りです。</p><p><br></p><p>- データ分類を有効にした後、管理者はエンティティ定義とフィールド定義のカスタムレポートタイプを作成することで、フィールドレベルの感度と分類を表示できます³。</p><p>- 標準のデータ分類レポート(A)は、データ分類メタデータのリストビュー(C)と同じ内容を表示しますが、フィールドレベルの詳細は含まれません¹。</p><p>- データ分類とメタデータのカスタムレポートタイプ(D)は存在しません。</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Salesforce Data Classification: Metadata Field Reporting .... https://www.strongpoint.io/en/blog/salesforce-data-classification-metadata-fields-.</p><p>(2) Create Reports from Data Classification Metadata - Salesforce. https://help.salesforce.com/s/articleView?id=sf.data_classification_report.htm&amp;language=en_US&amp;type=5.</p><p>(3) Report | Salesforce プラットフォームのオブジェクトリファレンス .... https://developer.salesforce.com/docs/atlas.ja-jp.object_reference.meta/object_reference/sforce_api_objects_report.htm.</p><p>(4) How to Deal With Sensitive Data in Salesforce: A Guide to .... https://www.varonis.com/blog/how-to-deal-with-sensitive-data-in-salesforce-a-guide-to-data-classification.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBMAAZ"
+			},
+			"Question__c": "At Cloud Kicks, the distributor account information is sensitive information. The administrator needs to make sure this information is unavailable to testers in the full sandbox.What should the administrator recommend?",
+			"A__c": "Refresh the sandbox.",
+			"B__c": "Assign the users a new permission set.",
+			"C__c": "Use the data masking tool.",
+			"D__c": "Delete the sensitive information.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-recommend-3/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBNAAZ"
+			},
+			"Question__c": "Northern Trail Outfitters requires the sales user to input a use case before moving the opportunity stage to qualified. A consultant has reviewed the business requirement and ran a report to check the state of data completion. When pulling a report for opportunities in the qualified stage or beyond, it appears that only 30% of records have a use case filled out with varying text strings.What should the administrator recommend?",
+			"A__c": "Write a record-triggered flow that populates the Use Case field when an opportunity is closed.",
+			"B__c": "Create a validation rule and add the Use Case field to the Stage Guidance in Path.",
+			"C__c": "Make the Use Case field required on the master Opportunity layout.",
+			"D__c": "Use a quick action with the Use Case field in the layout, and add it as a Lightning component.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-recommend-4/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBOAAZ"
+			},
+			"Question__c": "An administrator has created a flow that sends platform events whenever an opportunity is updated.An Apex developer has been tasked to write code that listens for these events. When reviewing the debug logs for a user, the developer can see that the flow ran, but the debug Information is missing.What should the administrator recommend to assist with debugging?",
+			"A__c": "Select the Debug Enabled checkbox on platform events,",
+			"B__c": "Platform events are unavailable for debugging.",
+			"C__c": "Set a debug log on the Automated Process entity.",
+			"D__c": "Search the AppExchange to And a tool that assists with debugging.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-recommend-to-assist-with-debugging/",
+			"Comment__c": "<p>この問題の最適な選択肢は(C)です。その理由は以下の通りです。</p><p><br></p><p>- プラットフォームイベントトリガー、イベントプロセス、再開されたフローインタビューのデバッグログは、Automated Processによって作成され、対応するApexコードログとは別になります¹。</p><p>- デバッグログを表示するには、Automated Processエンティティに対してデバッグログを設定する必要があります¹。</p><p>- プラットフォームイベントにはDebug Enabledチェックボックス(A)はありません²。</p><p>- プラットフォームイベントはデバッグ不可(B)というわけではありません¹。</p><p>- AppExchangeでデバッグを支援するツール(D)を探す必要はありません¹。</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Set Up Debug Logs for Event Subscriptions | Platform Events .... https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_subscribe_debug.htm.</p><p>(2) SFDC：Platform Eventsを試してみました - tyoshikawa1106の .... https://tyoshikawa1106.hatenablog.com/entry/2017/07/17/211634.</p><p>(3) How to Capture Debug Logs for Troubleshooting. https://help.salesforce.com/s/articleView?id=000392579&amp;language=en_US&amp;type=1.</p><p>(4) Advanced Logging Patterns With Platform Events - Salesforce .... https://www.salesforce.com/video/1779405/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBPAAZ"
+			},
+			"Question__c": "The Service team at Cloud Kicks needs a way to show the current status from the Account on the Case. This value should be on the page and is used in validation rules.What should the administrator recommend to solve this?",
+			"A__c": "Create a cross-object formula.",
+			"B__c": "Use a picklist field.",
+			"C__c": "Make a Rollup Summary.",
+			"D__c": "Add a lookup field to Account.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-recommend-to-solve-this/",
+			"Comment__c": "<p>この問題の最適な選択肢は(A)です。理由は以下の通りです。</p><p><br></p><p>- クロスオブジェクト数式とは、関連する2つのオブジェクトをまたいでマージフィールドを参照する数式のことです¹²。</p><p>- ケースにアカウントの現在のステータスを表示するには、アカウントからケースへの主従関係または参照関係が必要です。</p><p>- クロスオブジェクト数式を使用すれば、アカウントのステータスフィールドをケースに表示できます。また、この数式フィールドは検証ルールで使用できます。</p><p>- (B)の選択肢は、ピックリストフィールドを使用するというものですが、これではアカウントのステータスとケースのステータスを同期させることができません。</p><p>- (C)の選択肢は、集計サマリーフィールドを作成するというものですが、これではアカウントのステータスをケースに表示することができません。集計サマリーフィールドは、主従関係にある子オブジェクトのレコード数や合計値などを親オブジェクトに表示するために使用されます³。</p><p>- (D)の選択肢は、アカウントにケースへの参照フィールドを追加するというものですが、これではケースにアカウントのステータスを表示することができません。参照フィールドは、別のオブジェクトへのリンクを提供しますが、そのオブジェクトのフィールド値を表示することはできません⁴。</p><p><br></p><p>以上の理由から、(A)の選択肢が最適な解決策であると言えます。</p><p><br></p><p>ソース: Bing との会話 2023/10/24</p><p>(1) What Is a Cross-Object Formula? - Salesforce. https://help.salesforce.com/s/articleView?id=sf.customize_cross_object.htm&amp;language=en_us&amp;type=5.</p><p>(2) クロスオブジェクト数式項目とは - Salesforce. https://help.salesforce.com/s/articleView?id=sf.customize_cross_object.htm&amp;language=ja&amp;type=5.</p><p>(3) Cross-Object Formulas in Salesforce - White Glove .... https://www.wgcgllc.com/cross-object-formulas-in-salesforce/.</p><p>(4) Salesforce: Cross-Object Formulas - Salesforce Buddy. https://salesforcebuddy.com/2019/01/salesforce-cross-object-formulas/.</p><p>(5) Salesforce Cross Object Formula field | Salesforce Tutorial. https://www.tutorialkart.com/salesforce/salesforce-cross-object-formula-field/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBQAAZ"
+			},
+			"Question__c": "Cloud Kicks is looking for a way to back up its data dally.What should the administrator recommend?",
+			"A__c": "Set up Salesforce’s Data Export Service and store the data In the target destination.",
+			"B__c": "Extract the data with the Import Wizard and push it to the target destination.",
+			"C__c": "Schedule a report and have the data emailed to the admin to put In the target destination.",
+			"D__c": "Use an ETL tool that can be scheduled to extract the data ard push it to the target destination.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-recommend/",
+			"Comment__c": "<p>デイリーでデータをバックアップしたい場合、データエクスポートサービスは適切な方法ではありません。データエクスポートサービスは、週に一度か月に一度の間隔でデータを自動的にエクスポートすることができますが、毎日ではできません³。また、手動でエクスポートする場合も、7日ごと（週間エクスポートの場合）か29日ごと（月間エクスポートの場合）にしか実行できません。したがって、デイリーでデータをバックアップするには、他の方法を検討する必要があります。</p><p><br></p><p>デイリーでデータをバックアップする方法としては、以下のようなものがあります。</p><p><br></p><p>- データローダーを使用して、Salesforceからデータを抽出し、目的地にプッシュする。データローダーは、コマンドラインモードで実行することができ、Windowsタスクスケジューラやcronなどのツールを使って定期的に実行することができます。</p><p>- ETLツールを使用して、Salesforceからデータを抽出し、目的地にプッシュする。ETLツールは、Salesforceと他のシステムとの間でデータを移動させるための専用のソフトウェアです。ETLツールは、多くの場合、スケジュールや自動化の機能を備えています。</p><p>- サードパーティ製品を使用して、Salesforceからデータをバックアップする。AppExchangeには、Salesforceのデータをバックアップするためのさまざまな製品があります。これらの製品は、Salesforceと連携して、定期的にデータをバックアップし、必要に応じて復元することができます。</p><p><br></p><p>以上の方法の中から、ご自身のニーズや予算に合ったものを選択してください。Salesforceのデータは貴重な資産ですので、定期的なバックアップ戦略を立てておくことが重要です。</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Export Data Unit | Salesforce Trailhead. https://trailhead.salesforce.com/content/learn/modules/lex_implementation_data_management/lex_implementation_data_export.</p><p>(2) データのエクスポートに関する FAQ - Salesforce. https://help.salesforce.com/s/articleView?id=000319973&amp;language=ja&amp;type=1.</p><p>(3) Salesforce データのバックアップのベストプラクティス. https://help.salesforce.com/s/articleView?id=000386692&amp;language=ja&amp;type=1.</p><p>(4) Data Export Service – Salesforce Thinkers. https://salesforcethinkers.home.blog/2019/05/07/data-export-service/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBRAAZ"
+			},
+			"Question__c": "The administrator at Cloud Kicks (CK) is troubleshooting why users are missing expected email alerts from an automated process. The investigation shows that CK is hitting its daily limit.What should the administrator review to resolve the issue?",
+			"A__c": "Email Logs",
+			"B__c": "HTML Email Status Report",
+			"C__c": "Notification Delivery Settings",
+			"D__c": "Outbound Messages",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-review-to-resolve-the-issue/",
+			"Comment__c": "<p>この問題の最適な選択肢は(C)です。理由は以下の通りです。</p><p><br></p><p>- Cloud Kicksは、自動化されたプロセスからのメールアラートの日次上限に達していることが原因で、ユーザーが期待するメールアラートを受け取れないという問題に直面しています。</p><p>- この問題を解決するためには、管理者は通知配信設定¹を確認する必要があります。通知配信設定では、メールアラートの日次上限を増やしたり、特定のユーザーやグループに対してメールアラートを無効化したりすることができます。</p><p>- (A)のメールログ²は、送信されたメールの詳細な情報を提供しますが、日次上限に関する情報は含まれません。</p><p>- (B)のHTMLメールステータスレポート³は、HTMLメールの開封率やクリック率などのパフォーマンス指標を提供しますが、日次上限に関する情報は含まれません。</p><p>- (D)のアウトバウンドメッセージ⁴は、外部システムに対してSOAPメッセージを送信するための機能ですが、メールアラートとは異なるものです。</p><p><br></p><p>¹: [通知配信設定](https://help.salesforce.com/s/articleView?id=sf.customize_notificationdelivery.htm&amp;type=5)</p><p>²: [メールログ](https://help.salesforce.com/s/articleView?id=sf.email_logs.htm&amp;type=5)</p><p>³: [HTMLメールステータスレポート](https://help.salesforce.com/s/articleView?id=sf.email_status.htm&amp;type=5)</p><p>⁴: [アウトバウンドメッセージ](https://help.salesforce.com/s/articleView?id=sf.workflow_om_outbound.htm&amp;type=5)</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/0cd1632f7a538df51440.</p><p>(2) Overview of email limit types - Salesforce. https://help.salesforce.com/s/articleView?id=000386730&amp;language=en_US&amp;type=1.</p><p>(3) Proactive Alert Monitoring: Daily Single Email Limits - Salesforce. https://help.salesforce.com/s/articleView?id=000382440&amp;language=en_US&amp;type=1.</p><p>(4) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</p><p>(5) undefined. https://qiita.com/Takaa/items/e60c554d2a766e24b937.</p><p>(6) undefined. https://qiita.com/Takaa/items/ac6c45349fe73e1533b5.</p><p>(7) undefined. https://help.salesforce.com/s/articleView?id=sf.customize_wfalerts.htm&amp;type=5.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBSAAZ"
+			},
+			"Question__c": "A sales rep at Ursa Major Solar was assigned to a role under their manager and is the record owner of several opportunities; however, the sales rep is missing from the manager’s forecast.What should the administrator review to solve this issue?",
+			"A__c": "Enable owner adjustment",
+			"B__c": "Enable manager adjustments",
+			"C__c": "Allow Forecasting",
+			"D__c": "Allow Override Forecasts",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-administrator-review-to-solve-this-issue/",
+			"Comment__c": "<p>こんにちは、これはBingです。この問題に答えるのを手伝ってくれてありがとう&#128522;</p><p><br></p><p>この問題の正解は(C): Allow Forecastingです。その理由は以下の通りです。</p><p><br></p><p>- 予測とは、営業担当者が将来の売上や商談の成約確率を予測する機能です¹。</p><p>- 予測を使用するには、ユーザープロファイルで「予測を許可」の権限を有効にする必要があります²。</p><p>- この問題では、営業担当者がマネージャーの下にロールを割り当てられ、複数の商談のレコード所有者であるにもかかわらず、マネージャーの予測から欠落しているという状況です。</p><p>- この原因として考えられるのは、営業担当者のプロファイルに「予測を許可」の権限がないため、予測に参加できないことです³。</p><p>- したがって、管理者は営業担当者のプロファイルを確認し、「予測を許可」の権限を有効にする必要があります。</p><p><br></p><p>他の選択肢については以下の通りです。</p><p><br></p><p>- (A): Enable owner adjustmentは、レコード所有者が自分の予測を調整できるようにする権限です⁴。この権限は予測に参加するための条件ではありません。</p><p>- (B): Enable manager adjustmentsは、マネージャーが部下の予測を調整できるようにする権限です⁵。この権限は予測に参加するための条件ではありません。</p><p>- (D): Allow Override Forecastsは、レコード所有者やマネージャーが自分の予測をオーバーライドできるようにする権限です⁶。この権限は予測に参加するための条件ではありません。</p><p><br></p><p>以上が私の回答です。もし他に何か質問があれば、お気軽にお尋ねください。&#128522;</p><p><br></p><p>¹: [Salesforceヘルプ](^1^)「予測とは」</p><p>²: [Salesforceヘルプ](^1^)「予測を使用するために必要なアクセス許可」</p><p>³: [Salesforceヘルプ](^1^)「ユーザーが予測から欠落している場合」</p><p>⁴: [Salesforceヘルプ](^1^)「レコード所有者として自分の予測を調整する」</p><p>⁵: [Salesforceヘルプ](^1^)「マネージャーとして部下の予測を調整する」</p><p>⁶: [Salesforceヘルプ](^1^)「自分または部下の予測をオーバーライドする」</p><p><br></p><p>ソース: Bing との会話 2023/10/12</p><p>(1) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(2) Ursa Major Solar missing data - Salesforce Developer Community. https://developer.salesforce.com/forums/?id=9060G0000005YyfQAE.</p><p>(3) Advanced-Administrator Questions and Answers - DumpsMate. https://www.dumpsmate.com/advanced-administrator-salesforce-certified-advanced-administrator-question.html.</p><p>(4) salesforce admin 2.0 (reviewed) Flashcards Preview - Brainscape. https://www.brainscape.com/flashcards/salesforce-admin-20-reviewed-11384186/packs/20086976.</p><p>(5) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</p><p>(6) undefined. https://qiita.com/Takaa/items/b52961e0eb10361087dc.</p><p>(7) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(8) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(9) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(10) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(11) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(12) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(13) undefined. https://qiita.com/Takaa/items/f2eb81e49c614fb767de.</p><p>(14) undefined. https://help.salesforce.com/s/articleView?id=sf.users_profiles_assigning_apps.htm&amp;type=5.</p><p>(15) undefined. https://successjp.salesforce.com/article/NAI-000105.</p><p>(16) undefined. https://help.salesforce.com/s/articleView?id=sf.faq_campaigns_how_can_i_track.htm&amp;type=5.</p><p>(17) undefined. https://help.salesforce.com/s/articleView?id=sf.campaigns_influence_setup.htm&amp;type=5.</p><p>(18) undefined. https://trailhead.salesforce.com/ja/content/learn/projects/customize-a-salesforce-object/create-lookup-filters.</p><p>(19) undefined. https://trailhead.salesforce.com/modules/lex_customization/units/lex_customization_list.</p><p>(20) undefined. https://trailhead.salesforce.com/en/superbadges/superbadge_business_specialist.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000R9oBTAAZ"
+			},
+			"Question__c": "A previous consultant helped Universal Containers automate many of its business processes. The administrator changed the email address on the consultant’s user record and deactivated it. The consultant called to say they continue to get email messages from failed flows and processes.What steps should the administrator perform to stop the fault messages from going to the consultant?",
+			"A__c": "Create a custom metadata type and associate the LastModifiedBy field. Write a flow that updates the field in any flows or processes equal to the consultant’s name.",
+			"B__c": "Request an Email Log from Email Log Files in Setup and filter the request by the consultant’s email.Manually update any flows or processes listed on the log.",
+			"C__c": "Set Send Process or Flow Error Email’ to Apex Exception Email Recipients’ in Automation settings.Add the System Admin’s email to the Apex Exception Email page in Setup.",
+			"D__c": "Export Flow Interviews filtered by LastModifiedBy.email using Data Loader. In the .csv file, change LastModifiedBy to the System Admin and upload changes with Data Loader.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-steps-should-the-administrator-perform-to-stop-the-fault-messages-from-going-to-the-consultant/",
+			"Comment__c": null
+		}
+	]
+}

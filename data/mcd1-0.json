@@ -1,0 +1,12 @@
+[
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["mcd1-1.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["mcd1-2.json"]
+	}
+]

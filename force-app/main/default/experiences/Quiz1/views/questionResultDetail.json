@@ -1,0 +1,66 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "eb230a53-87ea-4276-aca9-e9661524aa2e",
+  "label" : "QuestionResult Detail",
+  "regions" : [ {
+    "id" : "0dff6ccb-ed27-4698-9ada-882e50197117",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "c8f50804-d19a-4f31-9629-54dc20defc59",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "showLegacyActivityComposer" : false,
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "86c8b79a-fc76-4774-bb1e-cdba47fea2f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c2e12d01-5b94-4666-b360-6df165d79b94",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d3e8f3ee-3286-4a2b-a75f-9d6bab24778e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "97820ed1-7b66-4d1c-90c4-42b695e86c96",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "200fc6bb-9e93-436a-979b-b29147c2d016",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a01"
+}

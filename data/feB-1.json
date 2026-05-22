@@ -1,0 +1,650 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTqQAM"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。二つの　には，同じ答えが入る。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTq&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001h3TV\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTq&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001h3Rt\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>エ</p>",
+			"B__c": "<p>オ</p>",
+			"C__c": "<p>カ</p>",
+			"D__c": "<p>キ</p>",
+			"E__c": "<p>ク</p>",
+			"F__c": "<p>ケ</p>",
+			"Answer__c": "E",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b16.html",
+			"Comment__c": "<p>2進数の下6桁の取得方法をしっているか知らないかの問題</p><p>計算すること自体が間違っている</p><p><br></p><p>問題文から、下6桁がコピーされることを読み取る</p><p>あとは下xx桁の求め方を知っているかどうか</p><p><br></p><p>mod計算は奥が深い、、、</p><p>整数xの10進数の下y桁の値を求めたければ、 x mod 10^y</p><p>整数xの2進数の下y桁の値を求めたければ、 x mod 2^y</p><p><br></p><p>そしてdivも同じ考え</p><p>整数xの10進数の下y桁を切り落とした値を求めたければ、 x div 10^y</p><p>整数xの2進数の下y桁を切り落とした値を求めたければ、 x mod 2^y</p><p><br></p><p><br></p><p><br></p><p><br></p><p>符号位置は800(16)以上FFFF(16)とあります。800(16) = 1000 0000 0000(2)FFFF(16) = 1111 1111 1111 1111(2)ですから、引数 codePoint のビット長は12ビット以上16ビット以下ということになります。また、変数 utf8Bytes の値はそれぞれutf8Bytes[1] = 224(10) = 11100000(2)utf8Bytes[2] = 128(10) = 10000000(2)utf8Bytes[3] = 128(10) = 10000000(2)となっていて、下線の部分に codePoint から切り出したビット列をコピーすることになります。for文ではループ変数 i をデクリメント(－1)しながら3回繰返しますが、各回で行うべき処理は以下のとおりです。1回目 … utf8Bytes[3] に codePoint の下位6ビットをコピー2回目 … utf8Bytes[2] に codePoint の下位7ビット目から12ビット目までの6ビットをコピー3回目 … utf8Bytes[1] に codePoint の残りの部分をコピー変数 cp から</p><p><br></p><p><br></p><p>下位6ビットを取得する方法についてですが、</p><p>10進数の整数で下位3桁を取得したいときに「103＝1,000」で割った余りを求めるのと同じで、</p><p>2進数で下位3桁を取得するときには「23＝8」で割ることになります。</p><p>今回は下位6ビットを取得したいので「26＝64」を使うのが適切です。したがって「ク」が正解です。</p><p><br></p><p><br></p>",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTrQAM"
+			},
+			"Question__c": "<p>次のプログラム中のaとbに入れる正しい答えの組合せを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　コサイン類似度は，二つのベクトルの向きの類似性を測る尺度である。関数 calcCosineSimilarity は，いずれも要素数が n(n≧1)である実数型の配列 vector1 と vector2 を受け取り，二つの配列のコサイン類似度を返す。配列 vector1 が {a1,a2，…，an}，配列 vector2 が {b1，b2，…，bn} のとき，コサイン類似度は次の数式で計算される。ここで，配列 vector1 と配列 vector2 のいずれも，全ての要素に0が格納されていることはないものとする。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTr&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRCv\" alt=\"image.png\"></img></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTr&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPnq\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ウ</p>",
+			"B__c": "<p>エ</p>",
+			"C__c": "<p>オ</p>",
+			"D__c": "<p>カ</p>",
+			"E__c": "<p>キ</p>",
+			"F__c": "<p>ク</p>",
+			"Answer__c": "B",
+			"URL__c": "https://www.fe-siken.com/kakomon/05_haru/b5.html",
+			"Comment__c": "コサイン類似度は、2本のベクトルのどのくらい似ているかを定量的に表すための指標で－1～1の値をとります。機械学習の自然言語処理やクラスタリングの分野において、要素同士の類似度を評価するためなどに使われています。本問のプログラムは、配列 vector1 と vector2 の類似度を判定するプログラムということになります。プログラムは4つのブロックから成っています。2乗と平方根が行われていることに着目すると、それぞれのブロックが式中の各部分と次のように対応していることがわかります。〔aについて〕空欄aは分子の値を計算する式が入ります。a1b1 ＋ a2b2 ＋… は、比較する2つの配列で同じ位置の要素同士を乗算したもの総和なので、空欄aには「vector1[i] × vector2[i]」が当てはまります。〔bについて〕空欄bの格納先である変数 denominator は、直後の処理で分子の値（numerator）を割ることにそのまま使われているので、空欄bでは式中の最終的な分母の値を求めなくてはなりません。変数 denominator には❷の処理で、a12 ＋ a22 ＋…の平方根が格納されていますから、式どおりにするには、denominator と b12 ＋ b22 ＋…の平方根 を乗ずれば良いことになります。❸の繰返し処理において、変数 temp には配列 vector2 の各要素の2乗の総和が計算されているので、式中の❸は「temp の平方根」で求めることができます。したがって、空欄bには denominator と temp の平方根を乗じる式が当てはまります。 以上より、適切な組合せは「エ」となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTsQAM"
+			},
+			"Question__c": "<p>次のプログラム中のa～cに入れる正しい答えの組合せを，解答群の中から選べ。　関数 fizzBuzz は，引数で与えられた値が，3で割り切れて5で割り切れない場合は&quot;3で割り切れる&quot;を，5で割り切れて3で割り切れない場合は&quot;5で割り切れる&quot;を，3と5で割り切れる場合は&quot;3と5で割り切れる&quot;を返す。それ以外の場合は&quot;3でも5でも割り切れない&quot;を返す。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTs&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRMb\" alt=\"image.png\"></img></p><p><br></p><p><br></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b2.html",
+			"Comment__c": "if文による選択処理を使って、変数 num の値を以下の4つの条件で分けています。3で割り切れる（3で割り切れて5で割り切れない場合）5で割り切れる（5で割り切れて3で割り切れない場合）3と5で割り切れる（3と5で割り切れる場合）3でも5でも割り切れない（上記以外）①と②の条件は、それぞれ③の条件の一部分となっています。③の条件を満たすときは常に①の条件を満たすので、aに①を入れると、&quot;3と5で割り切れる&quot;値についても&quot;3で割り切れる&quot;と表示されてしまうため適切ではありません。同様に、③の条件を満たすときは常に②の条件を満たすので、aに②を入れると、&quot;3と5で割り切れる&quot;値についても&quot;5で割り切れる&quot;と表示されてしまうため適切ではありません。このため一番最初の判定条件であるaには③の&quot;3と5&quot;を入れ、&quot;3と5&quot;で割り切れなかった値について、&quot;3&quot;で割り切れるか、&quot;5&quot;で割り切れるかの判定を行う必要があります。したがってaが&quot;3と5&quot;になっている「ウ」が適切です。なお、&quot;3&quot;および&quot;5&quot;はbとcのどちらに入れても正しく動作します。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTtQAM"
+			},
+			"Question__c": "<p>次の記述中のaとbに入れる正しい答えの組合せを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　予防接種の病気Xに対する予防効果を調査するために集めたデータの集計結果を基に，病気Xにかかるかどうかが，予防接種の有無に影響されないと仮定した場合の人数を計算する。この人数を理論度数という。表1に集計結果の例を示し，表2に表1を基に計算した理論度数を示す。　関数 f は，引数 data で受け取った集計結果を基に計算した理論度数を返す。引数と戻り値は二次元配列で，その行が表の行，その列が表の列に対応する。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTt&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPr3\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "E",
+			"URL__c": "https://www.fe-siken.com/kakomon/07_haru/b5.html",
+			"Comment__c": "引数 data は二次元配列であり、行が表の行、列が表の列に対応するとあるので、表1の集計結果は以下の二次元配列として表現されます。data = {{82, 6}, //1行目{58, 8}  //2行目}表の各セルに入る値は、rを行番号、cを列番号として以下の式で求めることができます。(dataの行番号rの要素の和)×(dataの列番号cの要素の和)÷tt = dataの要素の和〔aについて〕空欄aは1行1列に位置しますから、次のように計算できます。dataの行番号1の要素の和：82 + 6 = 88dataの列番号1の要素の和：82 + 58 = 140t：82 + 6 + 58 + 8 = 154(88 × 140) ÷ 154 = 80よって、空欄aには「80」が当てはまります。〔bについて〕空欄bは2行2列に位置しますから、次のように計算できます。dataの行番号2の要素の和：58 + 8 = 66dataの列番号2の要素の和：6 + 8 = 14t：154(66 × 14) ÷ 154 = 6よって、空欄bには「6」が当てはまります。したがって、a=80、b=6 となる「オ」の組合せが正解となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTuQAM"
+			},
+			"Question__c": "<p>次のプログラム中のaとbに入れる正しい答えの組合せを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 findPrimeNumbers は，引数で与えられた整数以下の，全ての素数だけを格納した配列を返す関数である。ここで，引数に与える整数は2以上である。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTu&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRXt\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.fe-siken.com/kakomon/05_haru/b1.html",
+			"Comment__c": "<p>「まで」は以下と同じ</p><p>4歳までは、4歳以下と同じ、その数字も含まれる</p><p><br></p><p><br></p><p>素数（英語ではprime number）とは、2以上の自然数であり、1とその数以外では割り切れない数のことです。素数を小さい順から列挙すると、2、3、5、7、11、…となります。このプログラムは、素数判定アルゴリズムとして最も単純である「試し割り法」をプログラムとして実装したものです。「試し割り法」は、ある数について、2で割る、3で割る、4で割る、…を繰り返して、判定対象となる数の平方根まで割り切れなければ、素数として判定するというものです。〔aについて〕プログラムの終盤を見ると、divideFlag が true と等しければ、ループ変数 i を配列 pnList に追加し、最終的に配列 pnList を素数のリストとして返しています。これより、ループ変数 i は現在判定対象となっている数を保持する変数として使われていることがわかります。素数は2以上の自然数ですから、引数の maxNum 以下のうち、素数であるかどうかを判定すべき数は2～maxNumまでの整数です。したがって、空欄aには「maxNum」が当てはまります。maxNum＋1 にしてしまうと、引数の数より1大きいものまで素数として返されてしまう可能性があるため正しくありません。〔bについて〕空欄bは、二重のforループの内側に位置していて、if文の条件式となっています。また、空欄bの条件式が true のときには、次の行で変数 divideFlag に false を格納しています。どの選択肢でも i÷j をしているように、ここでは、変数 i に対して、変数 j を2から変数 i の平方根まで増やしながら除算することを繰り返しています。解説冒頭の「試し割り法」では、「ある数について、2で割る、3で割る、4で割る、…を繰り返して」に相当します。divideFlag が false になった場合、後続のif文で変数 i の値が配列 pnList に格納されなくなるので、divideFlag を false にするということは、すなわち現在の変数 i の値を「素数ではない」と判定していることになります。変数 i が素数でないと判定するのは、変数 i に割り切れる数がある場合、つまり、i÷j の余りが0となるときなので、空欄bには「i÷j の余りが0と等しい」という条件式が当てはまります。したがって正しい組合せは「ア」です。</p>",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTvQAM"
+			},
+			"Question__c": "<p>製造業のA社では，ECサイト(以下，A社のECサイトをAサイトという)を使用し，個人向けの製品販売を行っている。Aサイトは，A社の製品やサービスが検索可能で，ログイン機能を有しており，あらかじめAサイトに利用登録した個人(以下，会員という)の氏名やメールアドレスといった情報(以下，会員情報という)を管理している。Aサイトは，B社のPaaSで稼働しており，PaaS上のDBMSとアプリケーションサーバを利用している。　A社は，Aサイトの開発，運用をC社に委託している。A社とC社との間の委託契約では，Webアプリケーションプログラムの脆弱性対策は，C社が実施するとしている。　最近，A社の同業他社が運営しているWeb サイトで脆弱性が悪用され，個人情報が漏えいするという事件が発生した。そこでA社は，セキュリティ診断サービスを行っているD社に，Aサイトの脆弱性診断を依頼した。脆弱性診断の結果，対策が必要なセキュリティ上の脆弱性が複数指摘された。図1にD社からの指摘事項を示す。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTv&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001h5S5\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>オ</p>",
+			"B__c": "<p>カ</p>",
+			"C__c": "<p>キ</p>",
+			"D__c": "<p>ク</p>",
+			"E__c": "<p>ケ</p>",
+			"F__c": "<p>コ</p>",
+			"Answer__c": "B",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b17.html",
+			"Comment__c": "〔項番1について〕Aサイトは、B社のPaaS上のアプリケーションサーバとDBMSを利用して稼働しています。PaaS（Platform as a Service）は、ネットワーク、サーバ、OS、ストレージなど、ソフトウェアを開発し稼働させるためのプラットフォーム（共通の基盤）をサービスの形で提供するものです。PaaSにおいて、プラットフォームの維持管理はサービス事業者側の責任で行われるので、アプリケーションサーバの脆弱性管理に対処するのは「B社」となります。〔項番2について〕クロスサイトスクリプティングは、Webアプリケーションのセキュリティ上の不備を突いて、動的に生成されるWebページに悪意のあるスクリプトを混入させることで、攻撃者が仕込んだ操作を実行させたり、別のサイトを介してユーザのクッキーや個人情報を盗んだりする攻撃です。Aサイトのうち検索機能やログイン機能の部分はWebアプリケーションであり、その実装上の不備が原因ですので、AサイトのWebアプリケーションの脆弱性対策を委託されている「C社」が対処すべき事案となります。〔項番3について〕項番1と同じく、DBMSはB社のPaaSとして提供されているので、脆弱性に対処するのはサービス事業者である「B社」となります。したがって「カ」の組合せが適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTwQAM"
+			},
+			"Question__c": "<p>A社はIT開発を行っている従業員1,000名の企業である。総務部50名，営業部50名で，ほかは開発部に所属している。開発部員の9割は客先に常駐している。現在，A社におけるPCの利用状況は図1のとおりである。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTw&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001h72T\" alt=\"image.png\"></img></p><p><br></p><p>A社では，客先常駐開発部員が業務システムを使うためだけにA社オフィスに出社するのは非効率的であると考え，客先常駐開発部員に対して個人所有PCの業務利用(BYOD)とVPN接続の許可を検討することにした。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTw&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001h77J\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b18.html",
+			"Comment__c": "VPN接続が増加し，可用性が損なわれるリスク正しい。最大で客先に常駐する「900人×9割＝810人」の客先常駐開発部員が個人所有PCでVPN接続をすることになるので、これまでよりA社オフィスのインターネット回線やVPN装置の負荷が増すことになります。負荷増大に伴う通信遅延や応答速度の低下によって、可用性が損なわれるリスクがあります。客先常駐開発部員がA社PCを紛失するリスク誤り。客先常駐開発部員にはA社PCが貸与されないので、A社PCを紛失するリスクはありません。客先常駐開発部員がフィッシングメールのURLをクリックして個人所有PCがマルウェアに感染するリスク誤り。フィッシングメールによる攻撃を受けるリスクは、BYOD導入前と後で変わりません。総務部員が個人所有PCをVPN接続するリスク誤り。個人所有PCの業務利用は、客先常駐開発部員だけに認められます。VPN接続の際には認証が行われるので、総務部員が個人所有PCでVPN接続するリスクはありません。マルウェアに感染した個人所有PCが社内ネットワークにVPN接続され，マルウェアが社内ネットワークに拡散するリスク正しい。新たに個人所有PCが社内ネットワークと通信を行うことになるので、その通信を介してマルウェアが社内ネットワークに侵入するリスクがあります。したがって適切な組合せは「エ」です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTxQAM"
+			},
+			"Question__c": "<p>A社は従業員200名の通信販売業者である。一般消費者向けに生活雑貨，ギフト商品などの販売を手掛けている。取扱商品の一つである商品Zは，Z販売課が担当している。</p><p><br></p><p>〔Z販売課の業務〕　現在，Z販売課の要員は，商品Zについての受注管理業務及び問合せ対応業務を行っている。商品Zについての受注管理業務の手順を図1に示す。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTx&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hA5B\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p>〔Jシステムの操作権限〕</p><p>Z販売課では，Jシステムについて，次の利用方針を定めている。</p><p>［方針1］ ある利用者が入力した情報は，別の利用者が承認する。</p><p>［方針2］ 販売責任者は，Z販売課の全業務の情報を閲覧できる。</p><p><br></p><p>Jシステムでは，業務上必要な操作権限を利用者に与える機能が実装されている。　この度，商品Zの受注管理業務が受注増によって増えていることから，B社に一部を委託することにした(以下，商品Zの受注管理業務の入力作業を行うB社従業員を商品ZのB社販売担当者といい，商品ZのB社販売担当者の入力結果を閲覧して，不備があればA社に口頭で差戻しを依頼するB社従業員を商品ZのB社販売責任者という)。</p><p><br></p><p>委託に当たって，Z販売課は情報システム部にJシステムに関する次の要求事項を伝えた。</p><p>［要求1］ B社が入力した場合は，A社が承認する。</p><p>［要求2］ A社の販売担当者が入力した場合は，現状どおりにA社の販売責任者が承認する。</p><p><br></p><p>上記を踏まえ，情報システム部は今後の各利用者に付与される操作権限を表1にまとめ，Z販売課の情報セキュリティリーダーであるCさんに確認をしてもらった。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTx&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hA3Z\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b19.html",
+			"Comment__c": "業務のロール(役割)に応じて適切な権限設定が問われています。ポイントは［方針1］ある利用者が入力した情報は別の利用者が承認する「職務の分離」と、業務上必要な操作権限を利用者に与える「最小権限の原則」を考慮することです。［要求1］の「B社が入力した場合は，A社が承認する」、［要求2］の「A社の販売担当者が入力した場合は，現状どおりにA社の販売責任者が承認する」より、承認権限が付与される（省略）のロールはZ販売課の販売責任者であることがわかります。そうなると空欄に入るのは、B社販売責任者とB社販売担当者のいずれかになります。B社販売担当者は入力作業を行うので、Jシステムに対する入力権限と閲覧権限が必要です。一方、B社販売責任者の役割は、B社販売担当者の入力結果を閲覧することなので、最小権限の原則より閲覧権限のみ与えるのが適切です。したがって「エ」の組合せが適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTyQAM"
+			},
+			"Question__c": "<p>A社は栄養補助食品を扱う従業員500名の企業である。A社のサーバ及びファイアウォール(以下，FWという)を含む情報システムの運用は情報システム部が担当している。　ある日，内部監査部の監査があり，FWの運用状況について情報システム部のB部長が図1のとおり説明したところ，表1に示す指摘を受けた。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTy&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hA6n\" alt=\"image.png\"></img></p><p><br></p><p><span class=\"ql-cursor\">﻿</span><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTy&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hA8P\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b20.html",
+			"Comment__c": "情報システム部のB部長がした説明のひとつに「現在は，6名の運用担当者とも全権限を付与されており，運用担当者はFWのルールの編集後，編集を行った運用担当者が操作に誤りがないことを確認し，操作承認をしている」とあります。同一人物がFWの編集と操作承認をできてしまう現状の運用では、運用担当者の不正・誤り・誤謬等の検知をすることができないので、適切な内部統制が行われているとは言えません。これが職務分離上の問題点となります。この問題を改善するためには、同一人物が編集と操作承認を行うことができないように、FWルールの編集業務に係る編集、確認、承認の権限を別の人に振り分けることが必要です。したがって「カ」が適切な改善策となります。Endpoint Detection and Response(EDR)をコンソールに導入し，監視を強化する。誤り。EDR(Endpoint Detection and Response)は、PC、スマートフォン、サーバなどのネットワークの末端（エンドポイント）に導入するセキュリティソフトウェアで、導入された機器の状況や挙動ログを監視し、不審な挙動があれば管理者に通知する仕組みを持っています。コンソール端末への不正ログインやマルウェアの活動に対しては効果的ですが、1人が編集と操作承認ができることは変わらないので不適切です。FWでの運用担当者のログインにはパスワード認証の代わりに多要素認証を導入する。誤り。他の運用担当者になりすまして操作が行われるリスクへの対策ですが、職務分離とは関係ありません。FWのアクセス制御機能を使って，運用担当者をコンソールからログインできる者，リモートからログインできる者に分ける。誤り。1人が編集と操作承認ができることは変わらないので不適切です。FWの運用担当者を1人に限定する。誤り。1人に権限が集中すればさらに不正等が発生するリスクは高まります。運用担当者の一部を操作ログの確認だけをする者とし，それらの者には操作ログの確認権限だけを付与する。誤り。全権限を有している人が1人でもいれば、編集と操作承認を行えることに変わりはないので不適切です。運用担当者を，FWルールの編集を行う者，操作ログを確認し，操作承認をする者に分け，それぞれに必要最小限の権限を付与する。正しい。FWルールの編集業務に係る権限を別の人に適切に振り分けることが適切です。作業を行う運用担当者を，曜日ごとに割り当てる。誤り。職務の分離は、運用担当者のスケジュールを調整することではなく、職務内容と権限を適切に分けることです。曜日ごとに担当者を分けても1人が編集と操作承認ができることは変わりません。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVTzQAM"
+			},
+			"Question__c": "<p>A社は，放送会社や運輸会社向けに広告制作ビジネスを展開している。A社は，人事業務の効率化を図るべく，人事業務の委託を検討することにした。A社が委託する業務(以下，B業務という)を図1に示す。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTz&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRG9\" alt=\"image.png\"></img></p><p><br></p><p>委託先候補のC社は，B業務について，次のようにA社に提案した。</p><p>B業務だけに従事する専任の従業員を割り当てる。</p><p>B業務では，図2の複合機のスキャン機能を使用する。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTz&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRHl\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">A社は，C社と業務委託契約を締結する前に，秘密保持契約を締結した。その後，C社に質問表を送付し，回答を受けて，業務委託での情報セキュリティリスクの評価を実施した。その結果，図3の発見があった。</span></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVTz&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRJN\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">そこで，A社では，初期設定の状態のままではA社にとって情報セキュリティリスクがあり，初期設定から変更するという対策が必要であると評価した。設問　対策が必要であるとA社が評価した情報セキュリティリスクはどれか。解答群のうち，最も適切なものを選べ。</span></p>",
+			"A__c": "B業務に従事する従業員が，攻撃者からの電子メールを複合機からのものと信じて本文中にあるURLをクリックし，フィッシングサイトに誘導される。その結果，A社の採用予定者の個人情報が漏えいする。",
+			"B__c": "B業務に従事する従業員が，複合機から送信される電子メールをスパムメールと誤認し，電子メールを削除する。その結果，再スキャンが必要となり，B業務が遅延する。",
+			"C__c": "攻撃者が，複合機から送信される電子メールを盗聴し，添付ファイルを暗号化して身代金を要求する。その結果，A社が復号鍵を受け取るために多額の身代金を支払うことになる。",
+			"D__c": "攻撃者が，複合機から送信される電子メールを盗聴し，本文に記載されているURLを使ってBサーバにアクセスする。その結果，A社の採用予定者の個人情報が漏えいする。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.fe-siken.com/kakomon/05_haru/b6.html",
+			"Comment__c": "B業務に従事する従業員が，攻撃者からの電子メールを複合機からのものと信じて本文中にあるURLをクリックし，フィッシングサイトに誘導される。その結果，A社の採用予定者の個人情報が漏えいする。正しい。複合機のメール送信が初期設定のまま行われていて、その情報は誰でも見られる状態になっているため、それを知っている第三者から攻撃メールが送られてきた場合、何も疑わずにそのまま開いてしまう可能性が高いです。攻撃者は、マルウェアを添付ファイルにして、またはフィッシングサイトのURLを記載したメールを送信することによって、C社を攻撃することが可能です。B業務に従事する従業員が，複合機から送信される電子メールをスパムメールと誤認し，電子メールを削除する。その結果，再スキャンが必要となり，B業務が遅延する。初期設定のままであり、誰がスキャンを実行してもメールの内容は同じなので、スパムメールと判断する材料もありません。よって、スパムメールとして削除されることはないと言えます。攻撃者が，複合機から送信される電子メールを盗聴し，添付ファイルを暗号化して身代金を要求する。その結果，A社が復号鍵を受け取るために多額の身代金を支払うことになる。もし電子メールが盗聴に遭い添付ファイルが窃取されてしまっても、従業員ごとに異なる鍵で暗号化されているため、その内容を知られることはありません。再度スキャンすればよいだけなので復号鍵のために金銭を支払う必要はなく、また情報漏えいについて身代金を要求してきても、攻撃者は復号できないため応ずる必要はないと言えます。攻撃者が，複合機から送信される電子メールを盗聴し，本文に記載されているURLを使ってBサーバにアクセスする。その結果，A社の採用予定者の個人情報が漏えいする。Bサーバは、自社の社内ネットワークに設置されているため、攻撃者が電子メール中のURLをクリックしても、外部からBサーバにアクセスすることはできません。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU0QAM"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 makeNewArray は，要素数2以上の整数型の配列を引数にとり，整数型の配列を返す関数である。関数 makeNewArray を makeNewArray({3，2，1，6，5，4})として呼び出したとき，戻り値の配列の要素番号5の値は　となる。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU0&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gROD\" alt=\"image.png\"></img></p><p><br></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b3.html",
+			"Comment__c": "makeNewArray({3，2，1，6，5，4})を呼び出したときの処理の流れをトレースしていきます。out の末尾 に in[1] の値 を追加する配列の要素番号は1から始まるという条件があるので in[1] の値は 3、outに3を追加します。⇒out = {3}for文による繰返し処理に入ります。inの要素数は 6 なので、iの値を 2 から 6 まで1ずつ増やしながら5回繰り返します。i = 2tail ← out[outの要素数] = out[1] = 3⇒tail = 3outの末尾に tail ＋ in[2]  = 3 + 2 = 5 を追加する⇒out = {3, 5}i = 3tail ← out[outの要素数] = out[2] = 5⇒tail = 5outの末尾に tail ＋ in[3]  = 5 + 1 = 6 を追加する⇒out = {3, 5, 6}i = 4tail ← out[outの要素数] = out[3] = 6⇒tail = 6outの末尾に tail ＋ in[4]  = 6 + 6 = 12 を追加する⇒out = {3, 5, 6, 12}i = 5tail ← out[outの要素数] = out[4] = 12⇒tail = 12outの末尾に tail ＋ in[5]  = 12 + 5 = 17 を追加する⇒out = {3, 5, 6, 12, 17}i = 6tail ← out[outの要素数] = out[5] = 17⇒tail = 17outの末尾に tail ＋ in[6]  = 17 + 4 = 21 を追加する⇒out = {3, 5, 6, 12, 17, 21}戻り値として返される配列 out の要素番号5の値は 17 です。したがって「カ」が正解となります。【別解】outの末尾に追加される値は、out[1] = in[1] = 3out[2] = in[1] + in[2] = 3 + 2 = 5out[3] = in[1] + in[2] + in[3] = 3 + 2 + 1 = 6…という関係になっているので、out[5] = in[1] + in[2] + in[3] + in[4] + in[5] = 3 + 2 + 1 + 6 + 5 = 17",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU1QAM"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 search は，引数 data で指定された配列に，引数 target で指定された値が含まれていればその要素番号を返し，含まれていなければ－1を返す。data は昇順に整列されており，値に重複はない。　関数 search には不具合がある。例えば，data の　場合は，無限ループになる。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU1&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hDr3\" alt=\"image.png\"></img></p>",
+			"A__c": "要素数が1で，target がその要素の値と等しい",
+			"B__c": "要素数が2で，target が data の先頭要素の値と等しい",
+			"C__c": "要素数が2で，target が data の末尾要素の値と等しい",
+			"D__c": "要素に－1が含まれている",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b13.html",
+			"Comment__c": "関数 search は、昇順で整列されたデータ群から目的のデータを探し、その要素番号を返すプログラムです。本問のプログラムは、2分探索法の実装となります。2分探索法は、要素が昇順または降順に整列された集合に対して、探索範囲を2分の1に狭めることを繰り返して目的のデータを探索するアルゴリズムであり、以下の目的のデータを探します。探索範囲の中央に位置する値と目的値を比較する目的値の方が小さければ中央から探索範囲の最後までを、目的値の方が大きければ探索範囲の最初から中央まで探索範囲から除外する（探索範囲を2分の1にする）。目的値を見つけるまで、①と②を繰り返す解答群それぞれのケースを検討してみると以下のようになります。要素数が1で，target がその要素の値と等しいlow = 1、high = 1 の状態でwhile文が開始されます。middle ← (1 + 1) ÷ 2 の商 = 1data[1] が目的のデータ（target）と等しいので、その要素番号1を返して終了します。 ※data[1] が目的のデータ（target）と等しくない場合は、low または　high に1が代入されるので永久ループとなります。要素数が2で，target が data の先頭要素の値と等しいlow = 1、high = 2 の状態でwhile文が開始されます。middle ← (1 + 2) ÷ 2 の商 = 1data[1] が目的のデータ（target）と等しいので、その要素番号1を返して終了します。 要素数が2で，target が data の末尾要素の値と等しい正しい。low = 1、high = 2 の状態でwhile文が開始されます。middle ← (1 + 2) ÷ 2 の商 = 1引数 data は昇順に整列されており、data[1] は目的のデータ（target）よりも小さいので、low に middle の値を代入します（low = 1）。再度 low = 1、high = 2 の状態で繰り返すことになり、同じ処理が行われます。このように永久ループとなります。要素に－1が含まれている要素に－1が含まれているという理由で永久ループになることはありません。※本来の2分探索では一致しなかった中央の要素を探索範囲から外しますが、本問のプログラムでは、中央要素を含めて新しい探索範囲としてしまっているので正しく動作しません。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU2QAM"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　要素数が1以上で，昇順に整列済みの配列を基に，配列を特徴づける五つの値を返すプログラムである。　関数 summarize を summarize({0.1，0.2，0.3，0.4，0.5，0.6，0.7，0.8，0.9，1}) として呼び出すと，戻り値は　である。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU2&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hEgf\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ウ</p>",
+			"B__c": "<p>エ</p>",
+			"C__c": "<p>オ</p>",
+			"D__c": "<p>カ</p>",
+			"E__c": "<p>キ</p>",
+			"F__c": "<p>ク</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b14.html",
+			"Comment__c": "関数 summarize では、for文を使って配列 p の要素ひとつずつに対して、サブルーチンである関数 findRank を呼出し、その結果を戻り値の配列である rankData に追加しています。配列 p は{0, 0.25, 0.5, 0.75, 1}なので、rankData には、以下の5つの結果が格納されることになります。ここで、sortedDataの要素数 は10なので、関数 findRank 内で使われている&quot;sortedDataの要素数－1&quot;は9となります。findRank(sortedData, 0)i ← (0 × 9) = 0 を切り上げた値 ⇒ 0return sortedData[1] = 0.1findRank(sortedData, 0.25)i ← (0.25 × 9) = 2.25を切り上げた値 ⇒ 3return sortedData[4] = 0.4findRank(sortedData, 0.5)i ← (0.5 × 9) = 4.5を切り上げた値 ⇒ 5return sortedData[6] = 0.6findRank(sortedData, 0.75)i ← (0.75 × 9) = 6.75を切り上げた値 ⇒ 7return sortedData[8] = 0.8findRank(sortedData, 1)i ← (1 × 9) = 9を切り上げた値 ⇒ 9return sortedData[0] = 1戻り値 rankData の内容は{0.1, 0.4, 0.6, 0.8, 1}になっています。したがって「ク」が正解です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU3QAM"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。　次のプログラムにおいて，手続 proc2 を呼び出すと，　の順に出力される。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU3&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQdR\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ウ</p>",
+			"B__c": "<p>エ</p>",
+			"C__c": "<p>オ</p>",
+			"D__c": "<p>カ</p>",
+			"E__c": "<p>キ</p>",
+			"F__c": "<p>ク</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/05_haru/b2.html",
+			"Comment__c": "proc2 が呼び出された後の処理をトレースしていきます。呼び出された手続が終了した場合、呼出し元の手続きの処理に戻るということが正しい手順を考える上でのポイントです。proc2 の呼出しproc2 が proc3 を呼び出すproc3 が&quot;C&quot;を出力するproc3 が終了し、呼出し元の proc2 の処理に戻るproc2 が&quot;B&quot;を出力するproc2 が proc1 を呼び出すproc1 が&quot;A&quot;を出力するproc1 が proc3 を呼び出すproc3 が&quot;C&quot;を出力するproc3 が終了し、呼出し元の proc1 の処理に戻るproc1 が終了し、呼出し元の proc2 の処理に戻るproc2 の処理が終了する出力された文字を先頭から順に並べると、「ク」の&quot;C&quot;，&quot;B&quot;，&quot;A&quot;，&quot;C&quot;になります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU5QAM"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　関数 factorial は非負の整数 n を引数にとり，その階乗を返す関数である。非負の整数 n の階乗は n が0のときに1になり，それ以外の場合は1から n までの整数を全て掛け合わせた数となる。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU5&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRUf\" alt=\"image.png\"></img></p><p><br></p><p><br></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b7.html",
+			"Comment__c": "非負の整数であれば何でもいいですが、引数に仮の値を与えて正しい結果が返るかどうかを検証するのが確実です。ここでは引数を4として、「4!＝4×3×2×1＝24」が返されるかどうかを考えていきます。(n－1) × factorial(n)　factorial(4)＝3×factorial(4)＝3×3×factorial(4)＝3×3×3×factorial(4)…永久ループになってしまい値が返ってこないので誤りです。factorial(n－1)　factorial(4)＝factorial(3)＝factorial(2)＝factorial(1)＝factorial(0)＝1結果が常に1になってしまうので誤りです。n　factorial(4)＝4引数の値をそのまま返すだけなので誤りです。n × (n－1)　factorial(4)＝4×3＝12引数の値とそれよりも1少ない数の乗算の結果を返すだけで、階乗の結果とはなりません。n × factorial(1)　factorial(4)＝4×factorial(1)＝4×1×factorial(1)＝4×1×1×factorial(1)…永久ループになってしまい値が返ってこないので誤りです。n × factorial(n－1)正しい。　factorial(4)＝4×factorial(3)＝4×3×factorial(2)＝4×3×2×factorial(1)＝4×3×2×1×factorial(0)＝4×3×2×1×1＝24階乗の結果を得ることができるので正しい式です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU6QAM"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。　優先度付きキューを操作するプログラムである。優先度付きキューとは扱う要素に優先度を付けたキューであり，要素を取り出す際には優先度の高いものから順番に取り出される。クラス PrioQueue は優先度付きキューを表すクラスである。クラス PrioQueue の説明を図に示す。ここで，優先度は整数型の値1，2，3のいずれかであり，小さい値ほど優先度が高いものとする。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU6&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hJej\" alt=\"image.png\"></img></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU6&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001hJgL\" alt=\"image.png\"></img></p><p><br></p><p><br></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b8.html",
+			"Comment__c": "enqueue(エンキュー)はキューの最後尾に要素を追加する操作、dequeue(デキュー)はキューから要素を取り出す操作です。dequeueでは、キューの中で最も優先度の高い（優先度 prio が小さい）要素を取り出し、同じ優先度の要素が複数ある場合には、より先に追加された要素が取り出すとあります。この操作を踏まえて、プログラムの処理をトレースしていきます。以下の解説中の[ ]はキューの中身だと考えてください（左がキューの先頭）。enqueue(&quot;A&quot;, 1)[(&quot;A&quot;, 1)]enqueue(&quot;B&quot;, 2)[(&quot;A&quot;, 1), (&quot;B&quot;, 2)]enqueue(&quot;C&quot;, 2)[(&quot;A&quot;, 1), (&quot;B&quot;, 2), (&quot;C&quot;, 2)]enqueue(&quot;D&quot;, 3)[(&quot;A&quot;, 1), (&quot;B&quot;, 2), (&quot;C&quot;, 2), (&quot;D&quot;, 3)]dequeue()最も優先度の高い&quot;A&quot;を取り出す[(&quot;B&quot;, 2), (&quot;C&quot;, 2), (&quot;D&quot;, 3)]dequeue()&quot;B&quot;と&quot;C&quot;で優先度が同じなので、先に追加された&quot;B&quot;を取り出す[(&quot;C&quot;, 2), (&quot;D&quot;, 3)]enqueue(&quot;D&quot;, 3)[(&quot;C&quot;, 2), (&quot;D&quot;, 3), (&quot;D&quot;, 3)]enqueue(&quot;B&quot;, 2)[(&quot;C&quot;, 2), (&quot;D&quot;, 3), (&quot;D&quot;, 3), (&quot;B&quot;, 2)]dequeue()&quot;C&quot;と&quot;B&quot;で優先度が同じなので、先に追加された&quot;Cを取り出す[(&quot;D&quot;, 3), (&quot;D&quot;, 3), (&quot;B&quot;, 2)]dequeue()最も優先度の高い&quot;B&quot;を取り出す[(&quot;D&quot;, 3), (&quot;D&quot;, 3)]enqueue(&quot;C&quot;, 2)[(&quot;D&quot;, 3), (&quot;D&quot;, 3), (&quot;C&quot;, 2)]enqueue(&quot;A&quot;, 1)[(&quot;D&quot;, 3), (&quot;D&quot;, 3), (&quot;C&quot;, 2), (&quot;A&quot;, 1)]出力する前のキューの中身は上記のとおりです。この状態からdequeueを4回繰り返すと、優先度の高い順に&quot;A&quot;⇒&quot;C&quot;⇒&quot;D&quot;⇒&quot;D&quot;と出力されます。したがって「エ」が正解です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU7QAM"
+			},
+			"Question__c": "<p>次のプログラム中のa～cに入れる正しい答えの組合せを，解答群の中から選べ。　関数 gcd は，引数で与えられた二つの正の整数 num1 と num2 の最大公約数を，次の(1)～(3)の性質を利用して求める。</p><p><br></p><p>(1)</p><p>num1 と num2 が等しいとき，num1 と num2 の最大公約数は num1 である。</p><p><br></p><p>(2)</p><p>num1 が num2 より大きいとき，num1 と num2 の最大公約数は，(num1 － num2) と num2 の最大公約数と等しい。</p><p><br></p><p>(3)</p><p>num2 が num1 より大きいとき，num1 と num2 の最大公約数は，(num2 － num1) と num1 の最大公約数と等しい。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU7&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRZV\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b4.html",
+			"Comment__c": "まず、aとcに入る制御文ですが、(1)の説明に最大公約数は num1 と num2 が等しくなったときの num1 の値であるという説明があります。2つの正の整数について、(2)または(3)の処理を1回行っただけでは num1 と num2 が等しくなるとは限らず、両者が等しくなるまで(2)または(3)の処理を繰り返す必要があるので、繰返し処理を行うwhile文が当てはまります。よって、正解肢は「ウ」または「エ」に絞られます。bでは、条件に合致するときにx ← x － y、つまり、num1 に num1 - num2 を代入する処理を行っています。(2)の説明より、この処理を行うのは num1 が num2 より大きいときですから、x ＞ yが当てはまるとわかります。逆にx ＜ yのときにこの処理を行ってしまうと、x の値は負数となり、それ以後x ＜ y⇒x ← x － yが永遠に繰り返されることにより、繰返し処理が終了しなくなってしまいます。また、2つの正の整数の最大公約数が負数ということはありません。よって、x ＜ yを入れるのは不適切です。したがって、while文とx ＞ yの組合せである「エ」が適切です。【参考】このアルゴリズムは、最大公約数を求める有名な手法である「ユークリッドの互除法」の実装です。例えば、num1 = 36、num2 = 60 とすると、num1 ＜ num2 なので、num2 ← 60 - 36 = 24⇒num1 = 36、num2 = 24num1 ＞ num2 なので、num1 ← 36 - 24 = 12⇒num1 = 12、num2 = 24num1 ＜ num2 なので、num2 ← 24 - 12 = 12⇒num1 = 12、num2 = 12num1 = num2 なので、最大公約数は12という手順で2つの自然数の最大公約数を求めます。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU8QAM"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　関数 calc は，正の実数 x と y を受け取り，(<span style=\"background-color: rgb(255, 255, 255);\">x2＋y2</span>)^0.5 の計算結果を返す。関数 calc が使う関数 pow は，第1引数として正の実数 a を，第2引数として実数 b を受け取り，a の b 乗の値を実数型で返す。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU8&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRPp\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p><br></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "E",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b5.html",
+			"Comment__c": "関数 pow() は第1引数に値、第2引数にべき指数(累乗の指数)を指定します。x (xの平方根)は、xの1／2乗＝0.5乗であることがポイントです。　x2 = pow(x, 2)　y2 = pow(y, 2)　x2＋y2 = pow(x, 2) + pow(y, 2)x2＋y2はx2＋y2の結果を1／2乗したものなので、pow() の第1引数にpow(x, 2) + pow(y, 2)、第2引数に0.5 を指定することになります。したがって「オ」のpow(pow(x, 2) ＋ pow(y, 2), 0.5)が適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVU9QAM"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　手続 order は，図の2分木の，引数で指定した節を根とする部分木をたどりながら，全ての節番号を出力する。大域の配列 tree が図の2分木を表している。配列 tree の要素は，対応する節の子の節番号を，左の子，右の子の順に格納した配列である。例えば，配列 tree の要素番号1の要素は，節番号1の子の節番号から成る配列であり，左の子の節番号2，右の子の節番号3を配列｛2，3｝として格納する。手続 order を order(1) として呼び出すと，　の順に出力される。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVU9&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001jY3N\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b9.html",
+			"Comment__c": "プログラム order を見ると、処理対象となっている節が有する子の数（tree[n]の要素数）によって、3つの処理に分岐させています。その節が2つの子を持つ（tree[n]の要素数が2）要素の1番目の節番号（左の子）を探索する、自身の節番号を出力する、要素の2番目の節番号（右の子）を探索する（tree[n]の要素数が1）その節が1つの子を持つ要素の1番目の節番号（左の子）を探索する、自身の節番号を出力するその節が子を持たない（tree[n]の要素数が0）自身の節番号を出力する節番号1を根として探索をすると、以下のように処理されています。order(1)を呼び出す配列 tree[1] は2つの要素{2, 3}を持つので、そのうち1番目の要素（tree[1][1]）である節番号2を対象として order(2) を呼び出す配列 tree[2] は2つの要素{4, 5}を持つので、そのうち1番目の要素（tree[2][1]）である節番号4を対象として order(4) を呼び出す配列 tree[4] は2つの要素{8, 9}を持つので、そのうち1番目の要素（tree[4][1]）である節番号8を対象として order(8) を呼び出す配列 tree[8] は要素を持たないので8を出力して終了し、呼出し元の order(4) の処理に戻るorder(4) は自身の節番号4を出力した後、2番目の要素（tree[4][2]）である節番号9を対象として order(9) を呼び出す配列 tree[9] は要素を持たないので9を出力して、order(4) の処理に戻るまだ処理は続いていきますが、ここまでの出力順は8→4→9であることから、正解は「ウ」であると判断できます。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUAQA2"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　手続 delNode は，単方向リストから，引数 pos で指定された位置の要素を削除する手続である。引数 pos は，リストの要素数以下の正の整数とする。リストの先頭の位置を1とする。　クラス ListElement は，単方向リストの要素を表す。クラス ListElement のメンバ変数の説明を表に示す。ListElement 型の変数はクラス ListElement のインスタンスの参照を格納するものとする。大域変数 listHead には，リストの先頭要素の参照があらかじめ格納されている。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUA&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001jYY1\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b10.html",
+			"Comment__c": "リスト構造は、隣接するデータ同士を参照（ポインタ）で連結して表現するデータ構造です。本問の単方向リストとは、下図のように最初の要素から最後の要素までが1方向に連結されたものです。リスト構造では、要素を削除すると要素同士のつながりが途中で途切れてしまうため、要素を削除する際には、削除する要素の1つ前の参照を付け替える操作が必要となります。プログラムを見て見てみるとposが1と等しいという条件式で処理を分岐させています。pos = 1、すなわち1番目の要素を削除するときに行っている処理は、listHead に listHead.next を代入するというものです。これは先頭要素の次の要素、つまり2番目の要素を先頭要素に置き換える操作です。これにより1番目の要素はリストから離脱することになり、削除されます。else文では1番目以外の要素を削除するときの処理を行います。posが2のとき変数 prev の初期値である先頭要素をそのまま prev として使うposが3以上のとき3番目の要素を削除する場合、prev に2番目の要素を格納したいので1回、4番目の要素を削除する場合、prev に3番目の要素を格納したいので2回、というように pos - 2 回分だけポインタを移動して、prev に削除対象の要素のひとつ前の要素を設定する空欄を含む処理は、prev.next（削除対象の要素への参照）を付け替える操作です。前述のとおり、リスト要素の削除は、削除対象の要素をリストの連結から外すことによって行うので、削除対象の要素のひとつ後ろの要素への参照を設定することになります。削除対象の要素（prev.next）の次（next）ですからprev.next.nextが適切となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUBQA2"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 binSort を binSort(　) として呼び出すと，戻り値の配列には未定義の要素は含まれておらず，値は昇順に並んでいる。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUB&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001jca1\" alt=\"image.png\"></img></p>",
+			"A__c": "{2, 6, 3, 1, 4, 5}",
+			"B__c": "{3, 1, 4, 4, 5, 2}",
+			"C__c": "{4, 2, 1, 5, 6, 2}",
+			"D__c": "{5, 3, 4, 3, 2, 6}",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b11.html",
+			"Comment__c": "このプログラムは、値がnである要素をn番目に格納することで昇順の整列を行うようになっています。仮に引数が{4, 1, 5, 6, 2, 3}だったとすると、以下のような手順で整列が行われます。bins[4] = 4bins[1] = 1bins[5] = 5bins[6] = 6bins[2] = 2bins[3] = 3bins[] = {1, 2, 3, 4, 5, 6}このプログラムでは値によって格納位置が一意に決まるので、同じ値が複数あると同じ箇所に重複して代入されてしまい、不足している数字を添字とする要素が未定義のままとなります。例えば、&quot;4&quot;が重複している{3, 1, 4, 4, 5, 2}を引数とした処理結果は次のとおりです。bins[3] = 3bins[1] = 1bins[4] = 4bins[4] = 4 //bins[4]の上書きbins[5] = 5bins[2] = 2//bins[6]への代入がないbins[] = {1, 2, 3, 4, 5, 未定義}このように戻り値の配列に未定義の要素が含まれるのは、引数に値の重複がある場合です。選択肢を見ると「イ」は&quot;4&quot;が、「ウ」は&quot;2&quot;が、「エ」は&quot;3&quot;が重複しているためその箇所が未定義の要素となります。未定義の要素が含まれないのは、値の重複がない「ア」だけです。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUCQA2"
+			},
+			"Question__c": "<p>次の記述中のaとbに入れる正しい答えの組合せを，解答群の中から選べ。　三目並べにおいて自分が勝利する可能性が最も高い手を決定する。次の手順で，ゲームの状態遷移を木構造として表現し，根以外の各節の評価値を求める。その結果，根の子の中で最も評価値が高い手を，最も勝利する可能性が高い手とする。自分が選択した手を○で表し，相手が選択した手を×で表す。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUC&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001jcbd\" alt=\"image.png\"></img></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUC&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001jcer\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p><br></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b15.html",
+			"Comment__c": "設問の手順に従って、葉から節に遡る形で評価値を決めていきます。【Aが指す子の評価値】葉の一つ上の節は、一つしか子を持たないので葉の評価値そのままが節の評価値となります（左側の節は0、右側の節は10）。その一つ上の節は、相手の手番なので、評価値0と10を比較して小さいほうの0が評価値となります。【Bが指す子の評価値】葉の一つ上の右側の節は、一つしか子を持たないので葉の評価値そのままが評価値となります（左側の節は－10、右側の節は0）。その一つ上の節は、相手の手番なので、評価値－10と0を比較して小さいほうの－10が評価値となります。したがって、A＝0、B＝－10の組合せが適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUDQA2"
+			},
+			"Question__c": "<p>A社は従業員200名の電子機器メーカーである。東京に本社があり，新潟に工場がある。A社では，ファイルサーバを図1のように運用している。</p><p><br></p><p><br></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUD&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPsf\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">A社はISMS認証を取得しており，最高情報セキュリティ責任者(CISO)を中心に情報セキュリティに取り組み，定期的に，情報セキュリティリスクアセスメントを行っている。今般，ISMS認証基準がJIS Q 27001:2023に改正されたことを受け，情報セキュリティリーダーのBさんは，新基準への移行審査に向けて準備することになった。改正によって新たに追加された情報セキュリティ管理策について，Bさんは情報システム部の担当者に取組状況を確認し，その評価結果を表1にまとめた。</span></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUD&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPuH\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">Bさんは，移行審査前の内部監査で，内部監査室から表1の項番1に関するファイルサーバの運用について何点か質問を受け，表2のとおり回答した。</span></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUD&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPvt\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">設問　表2中のa1～a3に入れる字句の適切な組合せを，aに関する解答群の中から選べ。</span></p><p><span style=\"background-color: rgb(255, 255, 255);\"><span class=\"ql-cursor\">﻿</span></span><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUD&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPxV\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>ク</p>",
+			"E__c": "<p>ケ</p>",
+			"F__c": "<p>コ</p>",
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/07_haru/b6.html",
+			"Comment__c": "〔a1について〕目標復旧時点(RPO)と目標復旧時間(RTO)について確認します。目標復旧時点（RPO：Recovery Point Objective）災害時に、どの時点のデータやシステムの状態まで復旧させるかを示す目標値。RPOが72時間なら、障害発生の72時間前の状態までデータを復旧可能であることが求められる目標復旧時間（RTO：Recovery Time Objective）災害時刻から、業務が再開されるまでに掛かる時間の目標値。RTOが120時間なら、災害から120時間後には業務が再開することが求められるA社はRPOを72時間に設定しているため、金曜日の正午に障害が発生した場合、そのちょうど72時間（3日）前に当たる「火曜日の正午」の状態までデータを復元できることが要求されます。〔a2について〕A社では、土曜日の午前2時にフルバックアップを実施し、火曜日・木曜日の午前2時には増分バックアップを実施しています。増分バックアップとは、定期的にフルバックアップを行い、フルバックアップの間の期間は、前回の増分バックアップ以降に変更されたファイルだけを記録する方式です。増分バックアップ方式では、フルバックアップを適用後、フルバックアップ以降に取得した増分バックアップすべてを逐次適用する必要があります。木曜日の正午に障害が発生し、リストアを行う場合、①土曜日のフルバックアップ、②火曜日の増分バックアップ、③木曜日の増分バックアップの3つの適用が必要です。リストアに要する時間は、フルバックアップが4時間、1回の増分バックアップにつき0.25時間とあるので、必要な時間は「4＋0.25＋0.25＝4.50時間」です。〔a3について〕JIS Q 27001:2023では、事業継続の目的及びICT継続の要求事項に基づいて、ICTの備えを計画し、実施し、維持し、試験することを要求しています。これを受けたJIS Q 27002:2024では、管理策として「ICT継続計画について、経営陣による承認」が規定されています。CISO(Chief Information Security Officer)、情報システム部の担当者、内部監査室長のうち、経営陣やそれに類する立場に該当するのは、情報セキュリティ戦略の統括者である「CISO」です。以上より、a1=火曜日の正午、a2=4.50、a3=CISO となる「ク」の組合せが適切となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUEQA2"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　関数 maximum は，異なる三つの整数を引数で受け取り，そのうちの最大値を返す。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUE&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPz7\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "B",
+			"URL__c": "https://www.fe-siken.com/kakomon/06_haru/b1.html",
+			"Comment__c": "条件式の部分が空欄になっているif文では、条件式がtrueと評価されるとき、戻り値として x を返しています。関数 maximum は、3つの変数のうち最大値を返すものですから、x を返すべきなのは3つの変数の中で x が最大と判断したときです。x が最大となるのは、①x が y よりも大きい、②x が z よりも大きい、という2つの条件をともに満たす場合です。①はx ＞ y、②はx ＞ zと表すことができ、両方の条件を満たす場合なので、2つの条件をANDで結合する必要があります。したがって、空欄に入る条件式は「イ」となります。x ＞ yx と z の比較を行っていません。z が最大値であるときに、x が返されてしまうため不適切です。x ＞ y and x ＞ z正しい。x ＞ y and y ＞ zx の値にかかわらず、y が z 以下のとき右式はfalseと評価されます。x が最大である場合でも、y と z の関係によって x が返されないことがあるため不適切です。x ＞ zx と y の比較を行っていません。y が最大値であるときに、x が返されてしまうため不適切です。x ＞ z and z ＞ yx の値にかかわらず、z が y 以下のとき右式はfalseと評価されます。x が最大である場合でも、y と z の関係によって x が返されないことがあるため不適切です。z ＞ yx と他の変数の比較を行っていません。z が最大値であるときに、x が返されてしまうため不適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUFQA2"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　関数 convDecimal は，引数として与えられた，&quot;0&quot;と&quot;1&quot;だけから成る，1文字以上の文字列を，符号なしの2進数と解釈したときの整数値を返す。例えば，引数として&quot;10010&quot;を与えると18が返る。　関数 convDecimal が利用する関数 int は，引数で与えられた文字が&quot;0&quot;なら整数値0を返し，&quot;1&quot;なら整数値1を返す。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUF&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQFF\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/06_haru/b2.html",
+			"Comment__c": "引数 binary に&quot;10010&quot;を与えたとき、18が返るかどうかをトレースしていきます。別の値で検証しても問題ありません。　result ← 0　length ← 5ここまでの処理は共通なので、for文の繰返し処理の内容に注目します。result ＋ int(binary の (length － i ＋ 1)文字目の文字)●iを1から5まで繰り返すbinary の(5 - 1 + 1 = 5)文字目は&quot;0&quot;result ← result + 0　//result = 0binary の(5 - 2 + 1 = 4)文字目は&quot;1&quot;result ← result + 1　//result = 1以降、3文字目、2文字目、1文字目と同じ処理です。&quot;1&quot;の分だけ＋1するだけなので、result の値は最終的に2となります。result ＋ int(binary の i文字目の文字)●iを1から5まで繰り返すbinary の(i = 1)文字目は&quot;1&quot;result ← result + 1　//result = 1binary の(i = 2)文字目は&quot;0&quot;result ← result + 0　//result = 1以降、3文字目、4文字目、5文字目と同じ処理です。&quot;1&quot;の分だけ＋1するだけなので、result の値は最終的に2となります。result × 2 ＋ int(binary の (length － i ＋ 1)文字目の文字)●iを1から5まで繰り返すbinary の(5 - 1 + 1 = 5)文字目は&quot;0&quot;result ← result × 2 + 0　//result = 0binary の(5 - 2 + 1 = 4)文字目は&quot;1&quot;result ← result × 2 + 1　//result = 1binary の(5 - 3 + 1 = 3)文字目は&quot;0&quot;result ← result × 2 + 0　//result = 2binary の(5 - 4 + 1 = 2)文字目は&quot;0&quot;result ← result × 2 + 0　//result = 4binary の(5 - 5 + 1 = 1)文字目は&quot;1&quot;result ← result × 2 + 1　//result = 9result の値は最終的に9となります。result × 2 ＋ int(binary の i文字目の文字) ●iを1から5まで繰り返すbinary の(i = 1)文字目は&quot;1&quot;result ← result × 2 + 1　//result = 1binary の(i = 2)文字目は&quot;0&quot;result ← result × 2 + 0　//result = 2binary の(i = 3)文字目は&quot;0&quot;result ← result × 2 + 0　//result = 4binary の(i = 4)文字目は&quot;1&quot;result ← result × 2 + 1　//result = 9binary の(i = 5)文字目は&quot;0&quot;result ← result × 2 + 0　//result = 18result の値は最終的に18となります。したがって「エ」の式が適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUGQA2"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　図1に示すグラフの頂点には，1から順に整数で番号が付けられている。グラフは無向グラフであり，各頂点間には高々一つの辺がある。一つの辺は両端の頂点の番号を要素にもつ要素数2の整数型の配列で表現できる。例えば，{1，3}は頂点1と頂点3を端点とする辺を表す。グラフ全体は，グラフに含まれる辺を表す要素数2の配列を全て格納した配列(以下，辺の配列という)で表現できる。辺の配列の要素数はグラフの辺の個数と等しい。図1のグラフは整数型配列の配列{{1，3}，{1，4}，{3,4}，{2，4}，{4，5}}と表現できる。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUG&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQLh\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">関数 edgesToMatrix は，辺の配列を隣接行列に変換する。隣接行列とは，グラフに含まれる頂点の個数と等しい行数及び列数の正方行列で，i行j列の成分は頂点iと頂点jを結ぶ辺があるときに1となり，それ以外は0となる。行列の対角成分は全て0で，無向グラフの場合は対称行列になる。図1のグラフを表現する隣接行列を図2に示す。</span></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUG&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQNJ\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">関数 edgesToMatrix は，引数 edgeList で辺の配列を，引数 nodeNum でグラフの頂点の個数をそれぞれ受け取り，隣接行列を表す整数型の二次元配列を返す。</span></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUG&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQOv\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/06_haru/b3.html",
+			"Comment__c": "図1のグラフの配列表現 {{1, 3}, {1, 4}, {3, 4}, {2, 4}, {4, 5}}と図2の隣接行列は次のように対応します。二次元配列 adjMatrix は上記の隣接行列を表したものなので、{1, 3}の配列要素であれば adjMatrix の [1, 3] および [3, 1] を1に、同様に{1, 4}の配列要素であれば [1, 4] および [4, 1] を1にすれば良いことがわかります。つまり、1つの辺を表すためには、二次元配列の [行番号, 列番号]、[列番号, 行番号] の2つの場所を1にする必要があるということです。for文の処理では、辺の配列である edgeList の要素に順番にアクセスし、その1番目の要素を変数 u に、2番目の要素を変数 v に格納しています。先頭要素である{1, 3}を例に出すと、変数 u には1(行番号)が、変数 v には3(列番号)が格納されることになります。配列表現と隣接行列の対応関係を踏まえると、[行番号, 列番号] は [u, v]、[列番号, 行番号] は [v, u] と変数で表すことができます。 この2つの場所にそれぞれ1を代入することで、1つの辺を表すことができます。adjMatrix[u，v] ← 1adjMatrix[v，u] ← 1したがって「エ」が適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUHQA2"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 merge は，昇順に整列された整数型の配列 data1 及び data2 を受け取り，これらを併合してできる昇順に整列された整数型の配列を返す。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUH&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQQX\" alt=\"image.png\"></img></p>",
+			"A__c": "実行されない",
+			"B__c": "1回実行される",
+			"C__c": "2回実行される",
+			"D__c": "3回実行される",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.fe-siken.com/kakomon/06_haru/b4.html",
+			"Comment__c": "プログラムは3つのwhile文から成り立っています。最も重要なのは1つ目のwhile文で、ここでは引数の2つの配列（data1、data2）の値を比較して小さいほうを 配列 work に代入することを繰り返します。そして、どちらかが末尾まで達した時点でループを抜けます。2つ目と3つ目のwhile文は、後処理のようなもので、最初のwhile文でどちらかの配列が最後まで処理された後、もう一方の配列に残っている値を配列 work に追加する処理を行っています。merge({2，3}，{1，4})を呼び出した場合、具体的には次のように処理されていきます。まず、各変数は以下のように初期化されます。n1 ← 2n2 ← 2work ← {未定義, 未定義, 未定義, 未定義}i ← 1j ← 1k ← 1//1つ目のループ●iが2以下 かつ jが2以下 である間、繰り返すdata1[1] = 2 ≦ data2[2] = 1 はfalsework[1] に data2[1] = 1 を代入　//work{1, 未定義, 未定義, 未定義}j ← j ＋ 1　//j = 2k ← k ＋ 1　//k = 2data1[1] = 2 ≦ data2[2] = 4 はtruework[2] に data1[1] = 2 を代入　//work{1, 2, 未定義, 未定義}i ← i ＋ 1　//i = 2k ← k ＋ 1　//k = 3data1[2] = 3 ≦ data2[2] = 4 はtruework[3] に data1[2] = 3 を代入　//work{1, 2, 3, 未定義}i ← i ＋ 1　//i = 3k ← k ＋ 1　//k = 4i=3で、2より大きくなったのでループを抜ける//2つ目のループ●iが2以下である間、繰り返すi=3で、2より大きいので1回も実行されない//3つ目のループ●jが2以下である間、繰り返すwork[4] に data2[2] = 4 を代入　//αの行 work{1, 2, 3, 4}j ← j ＋ 1　//j = 3k ← k ＋ 1　//k = 5j=3で、2より大きくなったのでループを抜ける戻り値として配列 work を返してプログラムは終了したがってαの行は「1回実行される」が適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUIQA2"
+			},
+			"Question__c": "<p>次のプログラム中のa～cに入れる正しい答えの組合せを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　一度の注文で購入された商品のリストを，注文ごとに記録した注文データがある。表に，注文データの例を示す。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUI&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQS9\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">注文データから，商品xと商品yとが同一の注文で購入されやすい傾向を示す関連度Lxyを，次の式で計算する。</span></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUI&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQTl\" alt=\"image.png\"></img></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">Lxy＝Mxy × 全注文数Kx × Ky　ここで，Mxyは商品xと商品yとが同一の注文で購入された注文数，Kxは商品xが購入された注文数，Kyは商品yが購入された注文数を表す。表の例では，MABが2，全注文数が6，KAが4，KBが3であるので，商品Aと商品Bの関連度LABは，(2×6)／(4×3)＝1.0である。　手続 putRelatedItem は，大域変数 orders に格納された注文データを基に，引数で与えられた商品との関連度が最も大きい商品のうちの一つと，その関連度を出力する。プログラムでは，商品は文字列で表し，注文は購入された商品の配列，注文データは注文の配列で表している。注文データには2種類以上の商品が含まれるものとする。また，注文データにある商品以外の商品が，引数として与えられることはないものとする。</span></p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUI&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQVN\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p><span class=\"ql-cursor\">﻿</span><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUI&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQWz\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "E",
+			"URL__c": "https://www.fe-siken.com/kakomon/06_haru/b5.html",
+			"Comment__c": "説明文で与えられている以下の式と、それをプログラムで表現している部分と比較すると、次のような対応関係になっていることがわかります。Lxy＝Mxy × 全注文数Kx × KyvalueL ← (arrayM[i] × c) ÷ (itemCount × arrayK[i])Lxy ⇒ valueLMxy ⇒ arrayM[i]全注文数 ⇒ cKx ⇒ itemCountKy ⇒ arrayK[i]まずわかりやすいのは空欄cです。全注文数を表す式ですから、注文データの配列であるorders の要素数が当てはまります。次に空欄a、bを含むfor文を見てみると、order（注文データ）に含まれる値を条件として1を加算する処理を行っています。order に otherItems[i] が含まれるbに1を加算order に otherItems[i] が含まれ、かつ、order に item が含まれるaに1を加算仮に引数 item が&quot;A&quot;だったとすると、order に&quot;A&quot;以外の対象商品が含まれていればbを1を加算、さらに order に&quot;A&quot;が含まれていればaを1を加算します。&quot;A&quot;とそれ以外の対象商品が同時購入された注文数は Mxy ですから、空欄aにはそれに対応する変数であるarrayM[i]が当てはまります。もう一方の空欄bには、引数 item との関連度を調べたい商品の注文数であるarrayK[i]が当てはまります。したがって「オ」の組合せが適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUJQA2"
+			},
+			"Question__c": "<p>A社は従業員450名の商社であり，昨年から働き方改革の一環として，在宅でのテレワークを推進している。A社のシステム環境を図1に示す。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUJ&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQbp\" alt=\"image.png\"></img></p><p><br></p><p>テレワークの定着が進むにつれて，社内PCからインターネットへの接続が極端に遅くなり，業務に支障をきたしているので改善できないかと，従業員から問合せがあった。A社の社内ネットワークとインターネットとの間の通信量を調査したところ，テレワーク導入前に比べ，業務時間帯で顕著に増加していることが判明した。そのため，情報システム部では，テレワークでA社利用クラウドサービスに接続する場合には，A社の社内ネットワークも社内PCも介さずに直接接続することを可能にするネットワークの設定変更を実施することにした。　設定変更に当たり，情報セキュリティ上の問題がないかをA社の情報セキュリティリーダーであるBさんが検討したところ，幾つか問題があることが分かった。その一つは，A社利用クラウドサービスへの不正アクセスのリスクが増加することである。そこでBさんは，リスクを低減するために，情報システム部に対策を依頼することにした。</p><p><br></p><p>設問　次の対策のうち，情報システム部に依頼することにしたものはどれか。解答群のうち，最も適切なものを選べ。</p>",
+			"A__c": "A社の社内ネットワークからA社利用クラウドサービスへの通信を監視する。",
+			"B__c": "A社の社内ネットワークとA社利用クラウドサービスとの間の通信速度を制限する。",
+			"C__c": "A社利用クラウドサービスにA社外から接続する際の認証に2要素認証を導入する。",
+			"D__c": "A社利用クラウドサービスのうち，A社利用グループウェアだけを直接接続の対象とする。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.fe-siken.com/kakomon/06_haru/b6.html",
+			"Comment__c": "テレワーク環境からA社利用クラウドサービスを利用する場合、私有PC→A社→クラウドサービス→A社→私有PC という通信の流れとなるので、通信の中継地点となるA社ネットワークには行きと帰りで通常の2倍のトラフィックが発生します。また、リモートデスクトップやオンライン会議で行われる画面転送は画像データなので、テキストデータと比べて通信負荷が大きいです。このような理由から、テレワーク環境からのクラウドサービスを利用する場合、通信を中継する拠点のネットワークに負荷がかかり、通信の遅延などが生じる例があります。本問のように、拠点を経由せずに直接クラウドサービスと通信を行う方法は「インターネットブレイクアウト」と呼ばれ、拠点の通信量を大幅に減少させることができます。A社の社内ネットワークからA社利用クラウドサービスへの通信を監視する。変更後は、私有PCからA社利用クラウドサービスに直接接続されるため、通信はA社の社内ネットワークを経由しません。よって、通信を監視しても意味がありません。A社の社内ネットワークとA社利用クラウドサービスとの間の通信速度を制限する。変更後は、私有PCからA社利用クラウドサービスに直接接続されるため、通信はA社の社内ネットワークを経由しません。よって、通信速度を制限しても意味がありません。A社利用クラウドサービスにA社外から接続する際の認証に2要素認証を導入する。正しい。これまでA社のクラウドサービスへのログインは、A社の社内ネットワークからのみ可能なように設定されていました。しかし、変更によりこの制限がなくなり、外部からも直接接続できるようになります。現状では利用者IDとパスワードの組で認証を行っていますが、これは強固な認証方法とは言えず、外部から不正ログインされるリスクがあります。この不正アクセスのリスクを低減するためには認証を強化する必要があります。そのため、2要素認証を導入することが適切な対策となります。現状のID・パスワード方式に加えて端末認証やバイオメトリクス認証を実施すれば、不正アクセスのリスクを大幅に低減することができます。A社利用クラウドサービスのうち，A社利用グループウェアだけを直接接続の対象とする。不正アクセスへの対策とはなりません、また通信への負荷は、動画の送受信が必要となるオンライン会議サービスの方が圧倒的に大きいです。そのため、A社のグループウェアだけを直接接続にしても、通信量の削減効果はあまり期待できません。専用アプリの保存禁止機能を無効にする。社内PCのリモートデスクトップは継続して利用されるため、専用アプリによる保護は継続する必要があります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUKQA2"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　次の手続 sort は，大域の整数型の配列 data の，引数 first で与えられた要素番号から引数 last で与えられた要素番号までの要素を昇順に整列する。ここで，first＜ last とする。手続 sort を sort(1，5) として呼び出すと，/*** α ***/ の行を最初に実行したときの出力は&quot;　&quot;となる。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUK&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gQtZ\" alt=\"image.png\"></img></p>",
+			"A__c": "1 2 3 4 5",
+			"B__c": "1 2 3 5 4",
+			"C__c": "2 1 3 4 5",
+			"D__c": "2 1 3 5 4",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/05_haru/b3.html",
+			"Comment__c": "data = {2, 1, 3, 5, 4} に対して、sort(1, 5) を呼び出したときの処理をトレースしていきます。プログラム中のwhile (true)は、特定の条件式に依存せず、繰返し処理中で明示的に終了命令が出されたときのみ繰返し処理を中断する一般的な文です。pivot ← (1 + 5) ÷ 2 の商 = 3i ← first = 1j ← last = 5while (true) の繰返し処理に入る//data[i] が pivot より小さい間、iに1を加えることを繰り返すwhile (data[i] ＜ pivot)　i ← i ＋ 1endwhile値が3より小さい data[1] と data[2] のとき、i が1→2、2→3と2回インクリメント（＋1）され、i=3 で繰返しが終了する//data[j] が pivot より大きい間、jから1を減じることを繰り返すwhile (pivot ＜ data[j])　j ← j － 1endwhile値が3より大きい data[5] と data[4] のとき、j が5→4、4→3と2回デクリメント（－1）され、j=3 で繰返しが終了するi ≧ j なので、while (true) の繰返し処理が終了する/*** α ***/の処理が行われるこの時点で data = {2, 1, 3, 5, 4} と初期値と同じなので、先頭から順に出力すると、2 1 3 5 4 になります。したがって「エ」が正解となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVULQA2"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 add は，引数で指定された正の整数 value を大域の整数型の配列 hashArray に格納する。格納できた場合は true を返し，格納できなかった場合は false を返す。ここで，整数 value を hashArray のどの要素に格納すべきかを，関数 calcHash1 及びcalcHash2 を利用して決める。　手続 test は，関数 add を呼び出して，hashArray に正の整数を格納する。手続 test の処理が終了した直後の hashArray の内容は，　である。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUL&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gR4r\" alt=\"image.png\"></img></p><p><br></p><p><span class=\"ql-cursor\">﻿</span><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUL&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gR6T\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/05_haru/b4.html",
+			"Comment__c": "手続 test の最初で、配列 hashArray は{－1, －1, －1, －1, －1}に初期化されています。3回の関数 add では、以下のように値が格納されていきます。add(3)i ← calcHash1(3) が実行されるvalue=3、hashArrayの要素数が5なので、calcHash1(3) は、3÷5の余りに1を加えた数、すなわち4を返すhashArray[4] = -1 なので、hashArray[4] に3を格納して終了するadd(18)i ← calcHash1(18)value=18、hashArrayの要素数が5なので、calcHash1(18) は、18÷5の余りに1を加えた数、すなわち4を返すhashArray[4] ≠ -1 なので、else文に飛び、i ← calcHash2(18) が実行されるvalue + 3 = 21、hashArrayの要素数が5なので、calcHash2(18) は、21÷5の余りに1を加えた数、すなわち2を返すhashArray[2] = -1 なので、hashArray[2] に18を格納して終了するadd(11)i ← calcHash1(11)value=11、hashArrayの要素数が5なので、calcHash1(11) は、11÷5の余りに1を加えた数、すなわち2を返すhashArray[2] ≠ -1 なので、else文に飛び、i ← calcHash2(11) が実行されるvalue + 3 = 14、hashArrayの要素数が5なので、calcHash2(11) は、14÷5の余りに1を加えた数、すなわち5を返すhashArray[5] = -1 なので、hashArray[5] に11を格納して終了する以上より、hashArray[4]には3、hashArray[2]には18、hashArray[5]には11が、それぞれ格納されます。したがって、手続 test 終了後の配列 hashArray の内容は {－1, 18, －1, 3, 11} になっています。よって正解は「エ」です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUMQA2"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。　プログラムを実行すると，&quot;　&quot;と出力される。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUM&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRKz\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b1.html",
+			"Comment__c": "xは1、yは2、zは3で初期化されています。x ← yxに、yの値(2)を代入します。この時点で、x=2、y=2、z=3 です。y ← zyに、zの値(3)を代入します。この時点で、x=2、y=3、z=3 です。z ← xzに、xの値(2)を代入します。この時点で、x=2、y=3、z=2 です。したがって、yの値(3)とzの値(2)をコンマ(,)で区切った「3,2」が適切です。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUNQA2"
+			},
+			"Question__c": "<p>次のプログラム中のaとbに入れる正しい答えの組合せを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 push は，引数で与えられた整数をスタックに格納する。格納できた場合はtrueを返し，格納できなかった場合はfalseを返す。　関数 pop は，スタックから値を取り出して返す。スタックが空のときは未定義の値を返す。　スタックを，要素数が4である大域の整数型の配列 stack，及び次に値を格納する位置を示す大域の変数 stackPos で表現する。スタックの初期状態を図に示す。　プログラムでは，配列の領域外を参照してはならないものとする。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUN&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPnp\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.fe-siken.com/kakomon/07_haru/b3.html",
+			"Comment__c": "<p>スタックは、後入れ先出し（LIFO：Last-In, First-Out）のデータ構造です。データを追加するときは要素群の最後尾に加え、取り出しは直前に追加したデータから行います。〔aについて〕空欄には配列 stack の要素番号を指定する式が入ります。関数 push は、引数で受け取った値をスタックに追加する操作です。図を見ると、変数 stackPos が示す要素番号3は、要素群の最後尾に位置しており&quot;未定義（まだ値が入っていない）&quot;なので、この場所に新しい値を入れることになります。したがって、格納先の要素番号には stackPos を指定します。よって、空欄aにはstackPosが当てはまります。その直後に行われているインクリメント（＋1）は、stackPos を1つ後ろにずらすための処理です。〔bについて〕関数 pop は、スタックから値を取り出す操作です。スタックは「後から入れたものを先に出す」構造なので、最後に入れた値が取り出す対象となります。図の配列 stack に対し pop を実行した場合、取り出すべき要素は要素番号2の「3」です。これは、現在の stackPos の1つ前の位置（stackPos - 1）に位置するので、popData への代入処理が行われる前に、stackPos を1つ減らす（3→2）必要があります。よって、空欄bにはstackPos - 1が当てはまります。したがって適切な組合せは「イ」となります。</p><p><br></p><p><br></p>",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUOQA2"
+			},
+			"Question__c": "<p>次のプログラム中のaとbに入れる正しい答えの組合せを，解答群の中から選べ。　関数 function1 が受け取る引数と，関数 function2 が受け取る引数とが同じとき，二つの関数は同じ値を返す。ここで，引数 n と引数 m は正の整数であり，引数 m は引数 n よりも10以上大きい数とする。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUO&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRWH\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": "<p>オ</p>",
+			"F__c": "<p>カ</p>",
+			"Answer__c": "F",
+			"URL__c": "https://www.fe-siken.com/kakomon/07_haru/b1.html",
+			"Comment__c": "まず、function1の動作を確認します。この関数ではループ処理で引数 n から m までの各整数を順番に調べ、i mod 4 が0（iを4で割った余りが0）、すなわちその値が「4の倍数」であれば引数 count を＋1しています。これを全ての値について繰り返すと、最終的に n から m までの範囲に存在する「4の倍数の個数」が返されます。次に function2 を見てみます。function2は2つのfor文で構成されており、前半ループでは変数 tempN を調整し、後半ループでは count を加算するための別のループを回しています。こちらも「4の倍数の個数」を返す必要があります。後半ループの条件式として、解答群に「4ずつ増やす」という選択肢があること、ループ内処理で count が無条件に加算されていることに着目すると、4→8→12→16→・・・ というように、4の倍数をたどっていく処理ではないかと推測できます。つまり、前半のループで起点となる tempN を確定し、そこから m 以下の範囲で4を加算していけばよいです。〔aについて〕前半ループの目的は、後半ループの起点となる n 以上で最初に現れる「4の倍数」を tempN に設定することです（例：4⇒4、5～7⇒8） 。n を4で割った余りは 0、1、2、3 のいずれかですから、確実に4の倍数へ到達するには、最高で3回、tempN を＋1する操作が必要です。ループ回数が最大2回では、n mod 4 が1の場合、tempN が「4の倍数」に届かず正しい処理となりません。よって、空欄aには「iを1から3まで1ずつ増やす」が当てはまります。〔bについて〕前半ループ終了時点で tempN は4の倍数に設定されています。後半ではこの tempN を起点として m を超えない範囲で4ずつ増やせば、その範囲に存在する4の倍数の数だけループ内処理（countの＋1）を行うことができます。よって、空欄bには「jをtempNから始めてmを超えない範囲で4ずつ増やす」が当てはまります。1ずつ増やすと余分な値でも数えてしまい、tempN ずつ増やすとカウントすべき値を飛ばしてしまうため不適切です。例）n=5, m=16（4の倍数は3個）tempN = 8 となる。//tempNから4ずつ増やす8から16まで4ずつ増やすと、戻り値 count = 3（j = 8, 12, 16） となる。//tempNから1ずつ増やす8から16まで1ずつ増やすと、戻り値 count = 9（j = 8, 9, 10, 11, 12, 13, 14, 15, 16） となる。//nからtempNずつ増やす5から16まで8ずつ増やすと、戻り値 count = 2（j = 5, 13）となる。要件を満たす処理内容は次の2つです。a：iを1から3まで1ずつ増やすb：jをtempNから始めてmを超えない範囲で4ずつ増やすしたがって「カ」の組合せが正解となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUPQA2"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　関数 change は，10より大きい整数を引数 n で受け取り，1円玉，5円玉，10円玉を使ってちょうどn円にする組合せの総数を返す。　例えば，12円にする組合せは，次のように数えられる。10円玉を使わない場合には，1円玉と5円玉だけでちょうど12円にすることになる。その組合せは，使える5円玉の枚数が0以上(12÷5の商)以下なので，(12÷5の商)＋1＝3通りある。同様に，10円玉を1枚使う場合には，1円玉と5円玉だけでちょうど2円にすることになり，その組合せは(2÷5の商)＋1＝1通りある。10円玉を2枚以上使う組合せはない。よって，1円玉，5円玉，10円玉を使ってちょうど12円にする組合せは，3＋1＝4通りである。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUP&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPmD\" alt=\"image.png\"></img></p>",
+			"A__c": "rest ≧ 0",
+			"B__c": "rest ≧ 5",
+			"C__c": "rest ≧ 10",
+			"D__c": "rest ＞ 0",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.fe-siken.com/kakomon/07_haru/b2.html",
+			"Comment__c": "設問では、1円・5円・10円を用いてn円を支払う組合せの総数の求め方が説明されています。例示されている12円の場合、以下のようになります。10円を使わない場合、①1円12枚、②5円1枚＋1円7枚、③5円2枚＋1円2枚 の3通りがある。つまり「使える5円の枚数＋1」で組合せ数が決まる(12円 ÷ 5 の商) + 1 = 2 + 1 = 310円を1枚使う場合　残りの2円は1円2枚の1通りしかない。ここでも組合せ数は「使える5円の枚数＋1」で決まる(2円 ÷ 5 の商) + 1 = 0 + 1 = 1組合せの総数　3 + 1 = 4同じ考え方で、22円であれば9通りになります。10円 0枚　(22円 ÷ 5 の商) + 1 = 4 + 1 = 510円 1枚　(12円 ÷ 5 の商) + 1 = 2 + 1 = 310円 2枚　(2円 ÷ 5 の商) + 1 = 0 + 1 = 1組合せの総数　5 + 3 + 1 = 9本プログラムは、10円の使用数を1枚ずつ増やしながら、その残額を1円と5円だけで支払う組合せ数を求め、その合計数を count に求めるものです。まずは、答えが明らかである12円（4通り）を設問のプログラムに当てはめてみます。rest（残りという意味）の初期値が12なので、1回目のwhileループはどの選択肢の場合でも実行されます。count ←　0 + (12 ÷ 5 の商) + 1 = 3rest ← 12 - 10 = 2この後、(2 ÷ 5 の商) + 1を count に加えるには、2回目のwhileループが実行される必要があります。この際、while文の条件がrest ≧(＞) 5, 10では、restが2となった時点でループを抜けてしまい、正しく処理されません。これより、解答の候補は0と比較している「ア」と「エ」に絞られます。「ア」と「エ」を比較するために、restが0となる n = 20円（9通り）の場合を試してみると、count ←　0 + (20 ÷ 5 の商) + 1 = 5rest ← 20 - 10 = 10count ←　5 + (10 ÷ 5 の商) + 1 = 8rest ←　10 - 10 = 0//「エ：rest ＞ 0」はここでループ終了 count = 8count ←　8 + (0 ÷ 5 の商) + 1 = 9rest ←　0  - 10 = -10//「ア：rest ≧ 0」はここでループ終了 count = 9この結果より、restが0の場合にもwhileループを実行しなければ、正しい結果が得られないことがわかります。残額が0円のケース（10円玉だけでちょうど払える）も1つの組合せとしてカウントする必要があるためです。よって、空欄にはrest ≧ 0が当てはまります。したがって「ア」が正解となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVUQQA2"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 simRatio は，引数として与えられた要素数1以上の二つの文字型の配列 s1 と s2 を比較し，要素数が等しい場合は，配列の並びがどの程度似ているかの指標として，(要素番号が同じ要素の文字同士が一致する要素の組みの個数 ÷ s1の要素数)を実数型で返す。例えば，配列の全ての要素が一致する場合の戻り値は1，いずれの要素も一致しない場合の戻り値は0である。　なお，二つの配列の要素数が等しくない場合は，－1を返す。　関数 simRatio に与える s1，s2 及び戻り値の例を表に示す。プログラムでは，配列の領域外を参照してはならないものとする。</p><p><br></p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUQ&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001k4RR\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b12.html",
+			"Comment__c": "問題文において、このプログラムの戻り値は「要素番号が同じ要素の文字同士が一致する要素の組みの個数 ÷ s1の要素数」と説明されています。プログラムの最後でcnt ÷ s1の要素数を戻り値としていることから、cnt は問題文でいう「要素番号が同じ要素の文字同士が一致する要素の組みの個数」を格納する変数であることがわかります。if文では条件式がtrueのときに cnt をインクリメント（＋1）しているので、空欄には「引数 s1 と s2 の同じ位置の文字が等しい」という意味の式を入れることになります。同じ要素番号の文字を比較したいのですから、s1[i] と比較すべきは s2[i] となります。したがってs1[i] ＝ s2[i]の式が当てはまります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001vhVURQA2"
+			},
+			"Question__c": "<p>次の記述中の　に入れる正しい答えを，解答群の中から選べ。ここで，配列の要素番号は1から始まる。　関数 search は，二つの文字型の配列を，それぞれ引数 data 及び key で受け取り，data から，key の要素の並びと同じ並びを全て探し，その先頭の要素番号を全て格納した配列を返す。見つからなければ，要素数0の配列を返す。　関数 search を search({&quot;a&quot;，&quot;b&quot;，&quot;a&quot;，&quot;b&quot;，&quot;c&quot;，&quot;a&quot;，&quot;b&quot;，&quot;c&quot;}，{&quot;a&quot;，&quot;b&quot;，&quot;c&quot;}) として呼び出すと，/*** β ***/の行の条件式が真となる回数は　回である。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001vhVUR&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gPpR\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>10</p>",
+			"B__c": "<p>9</p>",
+			"C__c": "<p>8</p>",
+			"D__c": "<p>7</p>",
+			"E__c": "<p>6</p>",
+			"F__c": "<p>5</p>",
+			"Answer__c": "C",
+			"URL__c": "https://www.fe-siken.com/kakomon/07_haru/b4.html",
+			"Comment__c": "特定の引数が示され、結果や処理回数を問うプログラム問題では、トレースして確認するのが基本の解き方です。以下は、関数 search を呼び出した場合の処理の流れです。lenData ← dataの要素数 = 8lenKey ←　keyの要素数 = 3外側のループ処理が開始。「lenData - lenKey + 1 = 8 - 3 + 1 = 6」なので、1から6まで繰り返すi=1：内側のループ処理が開始。lenKey = 3 なので、jを1から3まで繰り返すdata[1] = key[1]（&quot;a&quot; = &quot;a&quot;）はtrue（真）data[2] = key[2]（&quot;b&quot; = &quot;b&quot;）はtrue（真）data[3] = key[3]（&quot;a&quot; = &quot;c&quot;）はfalse（偽）i=2：内側のループ処理が開始。jを1から3まで繰り返すdata[2] = key[1]（&quot;b&quot; = &quot;a&quot;）はfalse（偽）内側のループ終了i=3：内側のループ処理が開始。jを1から3まで繰り返すdata[3] = key[1]（&quot;a&quot; = &quot;a&quot;）はtrue（真）data[4] = key[2]（&quot;b&quot; = &quot;b&quot;）はtrue（真）data[5] = key[3]（&quot;c&quot; = &quot;c&quot;）はtrue（真）同じ並びが見つかる。resultにiを追加i=4：内側のループ処理が開始。jを1から3まで繰り返すdata[4] = key[1]（&quot;b&quot; = &quot;a&quot;）はfalse（偽）内側のループ終了i=5：内側のループ処理が開始。jを1から3まで繰り返すdata[5]（&quot;c&quot; = key[1]（&quot;a&quot;）はfalse（偽）内側のループ終了i=6：内側のループ処理が開始。jを1から3まで繰り返すdata[6] = key[1]（&quot;a&quot; = &quot;a&quot;）はtrue（真）data[7] = key[2]（&quot;b&quot; = &quot;b&quot;）はtrue（真）data[8] = key[3]（&quot;c&quot; = &quot;c&quot;）はtrue（真）同じ並びが見つかる。resultにiを追加外側のループが終了。result {3, 6} を返却以上の結果より、βの部分の条件式が真となる回数は8回です。したがって「ク」が正解となります。",
+			"Type__c": "FE-B"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01dL00001viH74QAE"
+			},
+			"Question__c": "<p>次のプログラム中の　に入れる正しい答えを，解答群の中から選べ。　関数 rev は8ビット型の引数 byte を受け取り，ビットの並びを逆にした値を返す。例えば，関数 rev を rev(01001011) として呼び出すと，戻り値は11010010となる。　なお，演算子∧はビット単位の論理積，演算子∨はビット単位の論理和，演算子&gt;&gt;は論理右シフト，演算子&gt; n は value の値を n ビットだけ右に論理シフトし，value &lt;&lt; n は value の値を n ビットだけ左に論理シフトする。</p><p><img src=\"https://playful-otter-hhv0qt-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01dL00001viH74&amp;feoid=00NdL00001wLrfV&amp;refid=0EMdL000001gRT3\" alt=\"image.png\"></img></p>",
+			"A__c": "<p>ア</p>",
+			"B__c": "<p>イ</p>",
+			"C__c": "<p>ウ</p>",
+			"D__c": "<p>エ</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.fe-siken.com/kakomon/sample/b6.html",
+			"Comment__c": "設問で登場する4種類のビット演算の意味は次のとおりです。論理積（AND）両方のビットがともに&quot;1&quot;であるときのみ&quot;1&quot;を出力し、それ以外では&quot;0&quot;を出力する。マスクビットの特定箇所を&quot;1&quot;とすることで、他方のビット列からその&quot;1&quot;とした部分のビットを取り出すことができる論理和（OR）少なくとも1つのビットが&quot;1&quot;であるときに&quot;1&quot;を出力し、両方のビットがともに&quot;0&quot;のときのみ&quot;0&quot;を出力する論理右シフトビット列全体を指定された数だけ右にずらす。はみ出た最下位ビット部分は無視し、先頭ビットは&quot;0&quot;で埋める論理左シフトビット列全体を指定された数だけ左にずらす。はみ出た先頭ビット部分は無視し、最下位ビットは&quot;0&quot;で埋めるr ← (r &lt;&lt; 1) ∨ (rbyte ∧ 00000001)rbyte ← rbyte &gt;&gt; 1正しい。論理積の特徴を踏まえるとrbyte ∧ 00000001の部分では、変数 rbyte の最下位ビットを取得していることがわかります。この取得したビットと1ビット左シフトした変数 r を論理和演算することで、変数 rbyte の最下位ビットが変数 r の最下位ビットにコピーされます。その後、変数 rbyte を右に1つずらすことで、次に取得対象となる最下位ビットを移動させています。for文で上記の処理が繰り返されることにより、①変数 rbyte の最下位ビットを取得⇒②変数 r を1ビット左シフト⇒③変数 rbyte の最下位ビットを変数 r の最下位ビットにコピー、④変数 rbyte を1ビット右シフトの流れができ、8回繰り返すと引数 byte の最下位ビットから順に変数 r の先頭ビットに格納されていることとなります。r ← (r &lt;&lt; 7) ∨ (rbyte ∧ 00000001)rbyte ← rbyte &gt;&gt; 72行目のrbyte ← rbyte &gt;&gt; 7では、変数 rbyte を7ビット右にシフトした値で更新しています。引数が 01001011 だったと仮定すると、繰返し処理の1回目において rbyte の値が 00000000 に変わることになり、その後の繰返し処理で元のビット列の情報を得ることが不可能になってしまいます。よって不適切です。r ← (rbyte &lt;&lt; 1) ∨ (rbyte &gt;&gt; 7)rbyte ← r変数 r に代入される(rbyte &lt;&lt; 1) ∨ (rbyte &gt;&gt; 7)がどのような処理を考えてみると、rbyte &lt;&lt; 1は変数 rbyte を1ビット左にシフトするので最下位ビットが0のビット列、rbyte &gt;&gt; 7は変数 rbyte を7ビット右にシフトするので、従前の先頭ビットが最下位ビットの値であり、それ以外は0のビット列となります。この2つのビット列の論理和をとると、ビット列全体を1ビット左にずらして空いた（0埋めされた）最下位ビットの位置に、従前の先頭ビットが入ることになります。　01001011 &lt;&lt; 1 OR 01001011 &gt;&gt; 7＝10010110 OR 00000000＝10010110//rbyte の先頭ビット(01001011)が最下位ビット(10010110)に移動するこれを8回繰り返しても、終了時の変数 r は元の引数 byte と同じビット列になるだけなので不適切です。r ← (rbyte &gt;&gt; 1) ∨ (rbyte &lt;&lt; 7)rbyte ← r変数 r に代入される(rbyte &gt;&gt; 1) ∨ (rbyte &lt;&lt; 7)がどのような処理を考えてみると、rbyte &gt;&gt; 1は変数 rbyte を1ビット右にシフトするので先頭ビットが0のビット列、rbyte &lt;&lt; 7は変数 rbyte を7ビット左にシフトするので、従前の最下位ビットが先頭ビットの値であり、それ以外が0のビット列となります。この2つのビット列の論理和をとると、ビット列全体を1ビット右にずらして空いた（0埋めされた）先頭ビットの位置に、従前の最下位ビットが入ることになります。　01001011 &gt;&gt; 1 OR 01001011 &lt;&lt; 7＝00100101 OR 10000000＝10100101//rbyte の最下位ビット(01001011)が先頭ビット(10100101)に移動するこれを8回繰り返しても、終了時の変数 r は元の引数 byte と同じビット列になるだけなので不適切です。【参考】rbyte ← 01001011、r ← 00000000r ← 00000000 OR 00000001 = 00000001rbyte ← 00100101r ← 00000010 OR 00000001 = 00000011rbyte ← 00010010r ← 00000110 OR 00000000 = 00000110rbyte ← 00001001r ← 00001100 OR 00000001 = 00001101rbyte ← 00000100r ← 00011010 OR 00000000 = 00011010rbyte ← 00000010r ← 00110100 OR 00000000 = 00110100rbyte ←00000001r ← 01101000 OR 00000001 = 01101001rbyte ← 00000000r ← 11010010 OR 00000000 = 11010010rbyte ← 00000000",
+			"Type__c": "FE-B"
+		}
+	]
+}

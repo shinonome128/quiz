@@ -1,0 +1,93 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "5fbc40e1-4f35-4241-afb5-4e56faba7d1a",
+  "label" : "Quiz",
+  "regions" : [ {
+    "id" : "4ac40ca3-4005-4200-837d-63b7706e8526",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:quizCard",
+      "id" : "dc9d322e-d642-4e84-bb38-80d3e7bd67c2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:quizAnswer",
+      "id" : "8aa9bb79-ea28-426b-a367-6af6389a2e4e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1d68b667-c734-4ef5-aa4c-0185deb84243",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:quizList",
+      "id" : "ca72ac2c-a926-4c2d-b6c9-d8641448dbd0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:quizFilter",
+      "id" : "6b5d8a87-bdff-42b8-8951-469f41ff39a1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:activity",
+      "id" : "1bc1d5c5-0ace-46d6-b7ff-16bc4e0d33c6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:progress",
+      "id" : "63b0170d-93dd-46ed-89e7-2f57030c07b9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:statistics",
+      "id" : "7ada5d47-97e2-4ab1-a5da-8f88827f36ac",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "baf89d0f-e8d4-494e-81ea-32a5c44a6b7d",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "9c471c3c-2f9a-4af3-80ef-2abe69b21d81",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Quiz"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b5fc3255-f812-4d5d-ad18-3e20e215a870",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9376c757-cd2b-4e56-80ee-43aa98f504f4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-quiz"
+}

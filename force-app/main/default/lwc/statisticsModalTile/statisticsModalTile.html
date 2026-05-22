@@ -1,0 +1,16 @@
+<template>
+	<div class="slds-box slds-theme_default slds-scrollable_y">
+		<p class="slds-text-heading_medium">{title}</p>
+		<p class="slds-text-heading_large">{length}</p>
+		<template for:each={questions} for:item="question">
+			<span
+				key={question.Id}
+				class="slds-text-link"
+				onclick={handleClick}
+				data-index={question.Id}
+			>
+				{question.Name}
+			</span>
+		</template>
+	</div>
+</template>

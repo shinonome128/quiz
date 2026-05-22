@@ -1,0 +1,39 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e514489e-0772-44cd-b537-7d9c1ebeb7d5",
+  "label" : "Question 関連リスト",
+  "regions" : [ {
+    "id" : "854dfc5e-975e-4403-9822-f3ec5de73b42",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "87e26319-ae82-4b4a-b751-0476cebe2f97",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1c2d7872-ab42-48d3-9b31-1f28a1d54525",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3bbf987f-5102-45ef-9cbe-e054216bf46b",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a00"
+}

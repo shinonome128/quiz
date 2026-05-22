@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f0110589-2b77-4e2c-b76e-059effe540d5",
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "configurationTags" : [ "too-many-requests", "allow-in-static-site" ],
+  "devName" : "Too_Many_Requests",
+  "id" : "5eeb912a-00b2-420f-bb81-6baa926f2039",
+  "label" : "要求が多すぎます",
+  "routeType" : "too-many-requests",
+  "type" : "route",
+  "urlPrefix" : "too-many-requests"
+}

@@ -1,0 +1,42 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "43ed12f7-1d12-4bf9-8c77-3faa612e9953",
+  "label" : "検索",
+  "regions" : [ {
+    "id" : "574a8c13-bffa-41d0-bb80-1fb855b9dd6a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : true,
+          "name" : "KnowledgeArticleVersion"
+        }, {
+          "isPublic" : true,
+          "name" : "Question__c"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "a125971d-1e58-4861-98ab-e1d1ebaa1cd9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aebff2ad-c431-415e-9cc9-b72f04fd9abf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f167f708-6c23-4a45-8e5f-2269f14ace5a",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}

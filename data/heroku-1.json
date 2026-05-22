@@ -1,0 +1,2660 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR6AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）あるアプリはworker dynoのキューを使用して複雑な画像処理を実行していますが、処理の実行時にworker dynoがメモリ不足になることがあります。現在、それらのdynoはすべてstandard-1x dynoです。このシナリオでアーキテクトが推奨するものは何ですか？",
+			"A__c": "worker dynoを追加する",
+			"B__c": "複数のdynoに画像処理を分割します",
+			"C__c": "アプリをPrivate Spacesに移動する",
+			"D__c": "dynoのタイプをstandard-2xに変更します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "メモリを増やすにはスケールアップが必要  https://devcenter.heroku.com/articles/dyno-types https://devcenter.heroku.com/articles/dyno-types"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR7AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントはHerokuを使用してSalesforceとGoogle Cloud Platform（GCP）間のデータブリッジを構築したいと考えています。HerokuとGCP間の接続を保護するためにアーキテクトが推奨するHeroku機能の組み合わせはどれですか。",
+			"A__c": "Heroku Shield Private SpacesおよびHeroku Shield Connect",
+			"B__c": "Heroku Private SpacesとPrivate Space VPN Connections",
+			"C__c": "Heroku Private SpacesとPrivate Space Peering",
+			"D__c": "Heroku Shield Private Spacesと内部ルーティング",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/vpn-private-space-google-cloud-platform https://devcenter.heroku.com/articles/vpn-private-space-google-cloud-platform"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRLAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントがSSL/TLSを使用してWebアプリケーションを保護したい。特定のバージョンのSSL/TLSの使用に関する特定の要件はありません。アーキテクトがオプションとして推奨するHeroku機能はどれですか？ （2つ選択してください。）",
+			"A__c": "Heroku Private Spaces",
+			"B__c": "自動証明書管理",
+			"C__c": "Heroku SSL",
+			"D__c": "Heroku Shield Private Spaces",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/understanding-ssl-on-heroku https://devcenter.heroku.com/articles/understanding-ssl-on-heroku HerokuアプリのカスタムドメインでSSLを有効にする方法は、自動証明書管理(ACM)、Heroku SSL、有料アドオンの３つ  https://devcenter.heroku.com/articles/automated-certificate-management https://devcenter.heroku.com/articles/automated-certificate-management  https://devcenter.heroku.com/articles/ssl https://devcenter.heroku.com/articles/ssl"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRMAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、Salesforceの大規模なデータセットに対して複雑な処理を実行したいと考えています。データは機密ですが、高度なコンプライアンス要件はありません。このシナリオでアーキテクトが推奨するHeroku Enterpriseの機能は何ですか？",
+			"A__c": "Shield Private SpacesとHeroku外部オブジェクト",
+			"B__c": "Private SpaceとHeroku Connect",
+			"C__c": "Private SpaceとHeroku外部オブジェクト",
+			"D__c": "Shield Private SpacesとHeroku Shield Connect",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "Heroku外部オブジェクトはsaleforce connectを利用して外部DBをSalesforce側で表示、検索できる仕組み Shield Private SpacesとHeroku Shield Connectは高度なコンプライアンス要件はないため×  https://devcenter.heroku.com/articles/heroku-enterprise#shield-heroku-connect https://devcenter.heroku.com/articles/heroku-enterprise#shield-heroku-connect privateとshieldで料金は異なる  https://devcenter.heroku.com/articles/heroku-enterprise#shield-heroku-connect https://devcenter.heroku.com/articles/heroku-enterprise#shield-heroku-connect"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRNAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersは最近、Herokuでホストされているモバイルアプリでより多くのトラフィックが発生しました。Universal Containersがそれぞれ1GB RAMの4つのstandard2x dynoを実行していたときに、複数のH12（「リクエストタイムアウト」）エラーが発生しました。アプリが800MBを超えるRAMを消費したことはありません。次に、2.5GB RAMのperformance-M dynoに切り替え、自動スケーリングを最大2 dynoに設定しました。ただし、H12（「リクエストタイムアウト」）エラーは引き続き発生します。この問題を軽減するためにアーキテクトが推奨する改善策は何ですか？",
+			"A__c": "長時間実行されるタスクをWorker Dynoに移動する",
+			"B__c": "Elementsマーケットプレイスからロギングアドオンを追加します",
+			"C__c": "14GB RAMを搭載したPerformance-L dynosへのアップグレード",
+			"D__c": "自動スケーリングを手動スケーリングオプションに置き換えます",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "web dynoは30秒以内にレスポンスを返さないとエラーになるので、重い処理はWorker Dynoに任せる"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeROAA0"
+			},
+			"Question__c": "パターン１（ソード）顧客は、Salesforce組織とHeroku Postgresの間でデータを同期したいと考えています。 Heroku Connectを推奨する場合、アーキテクトが覚えておくべき制限はどれですか？（2つ選択してください。）",
+			"A__c": "Heroku Connectは、関連するSalesforce統合ユーザーがアクセスできるフィールドとオブジェクトにのみアクセスできます",
+			"B__c": "Heroku Connectは、すべてのSalesforceオブジェクトとフィールドをサポートしていません",
+			"C__c": "Heroku ConnectはAPIを提供しません",
+			"D__c": "Heroku Connectはカスタムオブジェクトを同期できません",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRUAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントがHeroku Connectを使用して、Heroku PostgresテーブルからSalesforce組織にデータを同期したいと考えています。 クライアントは、テーブル内の行の特定のサブセットのみを同期する必要があります。これはどのように実行する必要がありますか？",
+			"A__c": "同期を設定するときにマッピングフィルターをテーブルに追加し、リストから適切な基準を選択します",
+			"B__c": "データベース内のデータをフィルタリングし、同期で使用する代替テーブルまたはビューを提供します",
+			"C__c": "Heroku Connectマッピングクエリエディターを使用し、クエリにフィルターを追加する",
+			"D__c": "レコードに共有ルールを配置し、必要な行のみに可視性を制限します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "Heroku Connectの設定に使用したユーザアカウントが閲覧可能なレコードのみが同期される  https://help.heroku.com/I1GWFHDR/how-do-i-filter-the-rows-that-heroku-connect-synchronizes-from-salesforce https://help.heroku.com/I1GWFHDR/how-do-i-filter-the-rows-that-heroku-connect-synchronizes-from-salesforce フィルタリングの機能はない 共有ルールはSalesforce側の参照できる行をふやす仕組み"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRzAAK"
+			},
+			"Question__c": "パターン２（シールド）Go言語で作られたアプリで、リリース時にOne Off DynoでRubyスクリプトを流している。必ず実行前にスクリプトを流す方法は？",
+			"A__c": "GoビルドバックにRubyをインストールして.profileに記述",
+			"B__c": "rubyビルドパックを追加してProcファイルのreleaseプロセスにスクリプトを記述する",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "mulitple-buildpacksかProcfileにreleaseとし登録のいずれかと思われる  https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app  https://qiita.com/sho7650/items/3013719e951c90e2f2b8 https://qiita.com/sho7650/items/3013719e951c90e2f2b8 <a href=\"https://devcenter.heroku.com/articles/release-phase#specifying-release-phase-tasks https://devcenter.heroku.com/articles/release-phase#specifying-release-phase-tasks\" target=\"_blank\"></a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS0AAK"
+			},
+			"Question__c": "パターン２（シールド）Private SpacesとGCPを繋げる方法（２つ選択）",
+			"A__c": "CIDRが重複してはならない",
+			"B__c": "private VPNで接続",
+			"C__c": "CIDRが重複してもよい",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS1AAK"
+			},
+			"Question__c": "パターン２（シールド）100万件のデータをHeroku Connectで同期する際にどれくらい時間がかかるか",
+			"A__c": "エラーになる",
+			"B__c": "1時間",
+			"C__c": "12時間",
+			"D__c": "そのときどきによる",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>https://devcenter.heroku.com/articles/heroku-connect#mapping-objects https://devcenter.heroku.com/articles/heroku-connect#mapping-objects (100万レコードのマップ更新してもエラーにならなかった気がするけど…？)</p><p><br></p><p>heroku connectのパフォーマンスは接続状況に影響する</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS2AAK"
+			},
+			"Question__c": "パターン２（シールド）バイナリデータをHeroku Connectで同期する方法",
+			"A__c": "バイナリサポートしてない",
+			"B__c": "バイナリサポートしてる",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-connect-faq#can-heroku-connect-sync-images-from-salesforce https://devcenter.heroku.com/articles/heroku-connect-faq#can-heroku-connect-sync-images-from-salesforce"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS3AAK"
+			},
+			"Question__c": "パターン2（シールド）DynoAとDynoBの2個からなるWebアプリケーションがある。とあるクライアントからのリクエストがDynoAに振り分けられた。その後、同じクライアントから続けてリクエストがあった場合、リクエストはどのように振り分けられるか。",
+			"A__c": "必ずDynoAに振り分けられる。",
+			"B__c": "必ずDynoBに振り分けられる。",
+			"C__c": "ランダムで振り分けられる。",
+			"D__c": "前回のリクエストの処理が終わっていればDynoA、終わっていなければDynoB。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "ランダムに振り分けられるらしい。  https://devcenter.heroku.com/articles/http-routing#request-distribution HTTP Routing - Request distribution"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS4AAK"
+			},
+			"Question__c": "パターン２（シールド）複数のアプリがHeroku Postgresを利用している。アプリの1つがHeroku Connectを使用してるが、そのアプリを削除するとPostgresテーブルはどうなる？",
+			"A__c": "HerokuConnectで同期したスキーマにあるテーブル、トリガ、関数は削除され、Postgres自体やその他のスキーマにあるテーブルは残る",
+			"B__c": "すべてのテーブルが削除される",
+			"C__c": "テーブルは保持されたまま",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-connect-faq#what-happens-to-my-data-if-i-delete-my-application https://devcenter.heroku.com/articles/heroku-connect-faq#what-happens-to-my-data-if-i-delete-my-application 基本的にはアドオンとテーブルは削除されるが、他のアプリからも接続されているデータは残る"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeQxAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersは、Herokuアプリケーションのログを2つの宛先に書き込む必要があります：オンプレミスのSyslogログサーバーと、HTTPSエンドポイントを使用してログを取り込むクラウド分析プロバイダーです。このシナリオでアーキテクトが推奨すべきことは何ですか？",
+			"A__c": "すべてのログをHerokuのApache Kafkaに公開し、ログメッセージを消費および配信する別のアプリを作成します。",
+			"B__c": "すべてのログをバッファーとしてHeroku Redisに書き込み、アドオンを使用して両方の宛先に送信します",
+			"C__c": "すべてのログを両方の宛先に直接送信するロギングライブラリをアプリケーションソースに追加する",
+			"D__c": "すべてのログをstdoutに書き込み、宛先ごとに個別のlog drainを設定します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "Log drainとはHerokuログを他サーバに流せる機能  https://devcenter.heroku.com/articles/logging https://devcenter.heroku.com/articles/logging log drainsは複数設定できる。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR4AAK"
+			},
+			"Question__c": "パターン１（ソード）クライアントは、Heroku WebアプリケーションにCPU集中型のビデオ処理機能を追加したいと考えていますが、この機能を実装するためにアーキテクトが推奨すべき戦略はどれですか？ （2つ選択してください。）",
+			"A__c": "キューからビデオ処理ジョブをPullするWorker Dynoを追加する",
+			"B__c": "Heroku Elements Marketplaceのビデオ処理アドオンをアプリケーションに追加する",
+			"C__c": "ビデオ処理タスクをアプリのステージングバージョンに委任して、運用アプリから負荷を取り除く",
+			"D__c": "各ビデオ処理タスクを複数のWeb Dynoに分割して、追加のCPU負荷を軽減する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR5AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersには、いくつかのサードパーティアドオンを使用するHerokuアプリがあります。データプライバシーを強化し、一般データ保護規則（GDPR）に準拠する必要があります。このシナリオでのデータの保管に関して、アーキテクトはUCに何を助言すべきですか",
+			"A__c": "Herokuは、アドオンプロバイダーがデータを保存する場所について制御しません",
+			"B__c": "Herokuサポートは、特定のデータ保管ニーズに合わせてアドオンを構成できます",
+			"C__c": "Herokuは、コントロールサーフェイスAPIの物理的な場所を保証します",
+			"D__c": "アドオンのデータ保管は、SalesforceのGDPRコンプライアンスの対象です",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>Herokuは、アドオンプロバイダーがデータをinstalledのものはspaceと同じリージョンに保存される Herokuは、コントロールサーフェイスAPIの物理的な場所を保証しない https://devcenter.heroku.com/articles/regions#data-residency https://devcenter.heroku.com/articles/regions#data-residency アドオンのデータ保管は、サードパーティのものは対象外と思われる</p><p><br></p><p>Heroku does not control where add-on providers store data. Contact add-on providers directly for more information.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR8AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、Herokuで実行されている2つのアプリケーション間で簡単に共有できる設計を望んでいます。アーキテクトが推奨するものは何ですか？",
+			"A__c": "Heroku Postgresなどの単一のストレージアドオンを両方のアプリケーションに接続する",
+			"B__c": "外部データラッパーを作成して、あるデータベースから別のデータベースにテーブルを公開する",
+			"C__c": "Heroku Connectをプロビジョニングして、データをSalesforceのカスタムオブジェクトに同期します",
+			"D__c": "HerokuでApache Kafkaをプロビジョニングして、2つのアプリ間でデータを簡単にストリーミングする",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-connect https://devcenter.heroku.com/articles/heroku-connect"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR9AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）ヘルスケアサービスクライアントは、複数のアプリケーションが連携するアーキテクチャを要求しています。1つはマーケティングアプリケーションであり、他の2つはカスタマーがヘルスケアレコードとやり取りできるカスタマーサービスアプリケーションです。マーケティングアプリケーションは、トラフィックの急増に応じて数秒以内に拡大できる必要があります。クライアントは、これらの各アプリケーションを米国東海岸およびEMEAにデプロイできるようにしたいと考えていますが、どのHerokuランタイムにどのアプリケーションをデプロイする必要がありますか？",
+			"A__c": "Private Spacesへマーケティングアプリケーション。Shield Private Spacesへ顧客サービスアプリケーション",
+			"B__c": "Common Runtimeへマーケティングアプリケーション。Shield Private Spacesへ顧客サービスアプリケーション",
+			"C__c": "Common Runtimeへマーケティングアプリケーション。Private Spacesへカスタマーサービスアプリケーション",
+			"D__c": "Private Spacesへマーケティングアプリケーション。別のPrivate Spacesへ顧客サービスアプリケーション",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "デプロイリージョンの指定はPrivate Spaces アプリ間でやりとりをするなら同一のSpacesにデプロイする シールドDBはprivate外からアクセスできない  https://devcenter.heroku.com/articles/heroku-postgres-and-private-spaces https://devcenter.heroku.com/articles/heroku-postgres-and-private-spaces"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRAAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）アーキテクトがHeroku Redisの使用を推奨するユースケースはどれですか？ （2つ選択してください。）",
+			"A__c": "長期的なデータウェアハウスを提供",
+			"B__c": "ジョブをキューに追加する",
+			"C__c": "データキャッシュレイヤーの提供",
+			"D__c": "リレーショナルデータへの問い合わせ",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRBAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）ユニバーサルコンテナは、基盤となるインフラ障害が原因で、本番環境のHerokuのPostgresデータベースの停止を経験しました。データベースは1時間利用できませんでした。データベースはStandard-0プランですが、今後、このようなデータベースの障害と停止を緩和するために、アーキテクトが推奨するアクションは2つありますか？（2つ選択してください。）",
+			"A__c": "本番DBと同じプランを使用するフォロワーデータベースを作成する",
+			"B__c": "データベースをプレミアムレベルのプランに移行する",
+			"C__c": "データベースをより大きなstandardプランに移行する",
+			"D__c": "本番DBと同じプランを使用するフォークデータベースを作成します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRCAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）HerokuのWebアプリケーションでSalesforceデータを表示したいと考えています。Webアプリケーションのすべてのユーザーは次のことを行います。1）SalesforceでSSOを使用して認証する。 2）Salesforceにユーザーレコードを保持します。 Salesforceセキュリティモデルを適切に維持するために推奨されるアーキテクチャは何ですか？",
+			"A__c": "Heroku Connectを使用して、SalesforceデータとSalesforceセキュリティモデルをHeroku Postgresに同期します",
+			"B__c": "アプリケーションに、キャッシュ管理資格情報を使用してSalesforceデータとセキュリティモデルを直接照会させる",
+			"C__c": "Heroku Connectを使用して、ユーザごとの認証モデルと、HerokuのPostgresにSalesforceのデータを同期します",
+			"D__c": "実行中のユーザーとして、アプリケーションにSalesforce APIを介してSalesforceデータを直接照会させる",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRWAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントには、データをローカルJSONファイルに永続化するWebアプリケーションがあります。彼らはアプリケーションをHerokuに移行しています。アプリケーションがTwelve-Factor方法論に準拠するために、アーキテクトが推奨する変更は何ですか？",
+			"A__c": "アプリケーションはデータベースアドオンにデータを保持する必要があります",
+			"B__c": "アプリケーションは、データをローカルSQLiteデータベースに永続化する必要があります",
+			"C__c": "アプリケーションは、少なくとも2つのdynoを使用して、JSONファイルの高可用性を確保する必要があります",
+			"D__c": "アプリケーションはステートレスである必要があるため、データをまったく保持しない",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "プロセスはステートレスにし、ローカルにデータを持つべきでない でもまったく保持しないのはおかしいので「アプリケーションはデータベースアドオンにデータを保持する必要があります」かな  https://12factor.net/ja/processes https://12factor.net/ja/processes Twelve-Factorのプロセスはステートレスかつシェアードナッシング である。永続化する必要のあるすべてのデータは、ステートフルなバックエンドサービス（典型的にはデータベース）に格納しなければならない。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRXAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Private Spacesのアプリケーションでは「使用可能(Available)」であるが、Private Spacesでは「インストール可能(Installable)」ではないアドオンの特性はどれですか？",
+			"A__c": "アドオンは常に、プロビジョニングアプリケーションと同じPrivate Spacesで実行されます",
+			"B__c": "プロビジョニングアプリとアドオンを追加する間のトラフィックは、パブリックインターネット上を移動します",
+			"C__c": "アドオンは、プロビジョニングアプリケーションと常に同じリージョンで実行されますが、同じPrivate Spacesでは実行されません",
+			"D__c": "アドオンのデータは、常にプロビジョニングアプリケーションと同じPrivate Spacesに保存されます",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/private-spaces#add-ons-marked-as-available-in-a-private-space https://devcenter.heroku.com/articles/private-spaces#add-ons-marked-as-available-in-a-private-space  https://devcenter.heroku.com/articles/private-spaces#add-ons-and-private-spaces https://devcenter.heroku.com/articles/private-spaces#add-ons-and-private-spaces"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRYAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントのHerokuアプリケーションは、Heroku上のApache Kafkaのインスタンスにメッセージを公開しています。これらのメッセージを消費するために、2番目のHerokuアプリケーションは何をする必要がありますか？",
+			"A__c": "メッセージが公開されているKafkaパーティションをサブスクライブする",
+			"B__c": "パブリッシングアプリケーションも含むコンシューマグループに参加する",
+			"C__c": "メッセージが公開されているKafkaのトピックをサブスクライブする",
+			"D__c": "発行アプリケーションをストリームプロセッサに変換する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRZAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、EUリージョンでHeroku Postgresデータベースをプロビジョニングします。どのHeroku Postgresに関連するサービスは、米国にありますか？（2つ選択してください。）",
+			"A__c": "フォークおよびフォロワーデータベース",
+			"B__c": "Heroku Postgres Continuous Protectionバックアップ",
+			"C__c": "Heroku PGBackupsで作成されたスナップショット",
+			"D__c": "Heroku Dataclips",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRVAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、Webアプリケーションのログが、アプリケーション自体と同じ隔離されたネットワーク内からのみアクセス可能であることを要求します。このシナリオでアーキテクトが推奨するソリューションはどれですか？",
+			"A__c": "アプリケーションをPrivate Spacesにデプロイします。Private Spacesから発信されるすべてのログをブロックするために、Private Spacesの安定したアウトバウンドIP HerokuのLogplexルーターを提供する",
+			"B__c": "Private Space Loggingを有効にして、アプリケーションをShield Private Spaceにデプロイします。 Shield Private Spaces内の宛先にログを転送する",
+			"C__c": "アプリケーションをPrivate Spacesにデプロイします。VPNを使用してPrivate Spacesをオンプレミスロギングシステムに接続し、Log drainとして指定する",
+			"D__c": "アプリケーションをPrivate Spacesにデプロイします。内部ルーティングを有効にして、アプリケーションのログがPrivate Spacesの外部に転送されないようにします",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>Private SpacesではLogplexを使えない オンプレミスネットワークからプライベートスペースへのVPN接続がある場合、プライベートスペースロギングはプライベート接続を介してオンプレミスロギングシステムにアクセスできません。 https://devcenter.heroku.com/articles/private-space-logging#private-space-logging-does-not-support-logging-to-drains-only-accessible-via-private-connection https://devcenter.heroku.com/articles/private-space-logging#private-space-logging-does-not-support-logging-to-drains-only-accessible-via-private-connection</p><p><br></p><p>https://vceguide.com/which-solution-should-an-architect-recommend-in-this-scenario/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRrAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Private Spacesを作成する場合、デフォルトリージョン以外のリージョンを指定する利点は何ですか？",
+			"A__c": "Private Spacesは、現在のリージョンへのトラフィックを制限します",
+			"B__c": "Herokuの価格はリージョンによって異なります",
+			"C__c": "ユーザーの場所に近いアプリケーションを実行すると、待ち時間を短縮できます",
+			"D__c": "利用可能なコンピューティングリソースはリージョンによって異なる",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<ul></ul> +&quot;「現在のリージョンへのトラフィックを制限」は意味不明。 +&quot;Herokuの価格は全リージョンで共通。 https://devcenter.heroku.com/articles/usage-and-billing#cost&gt;Dynoの価格 https://elements.heroku.com/addons/heroku-private-spaces&gt;Private Spacesの価格 +&quot;ユーザーの場所に近いアプリケーションを実行すると、待ち時間を短縮できるのはその通り。 +&quot;同じPrivate Spacesなら、利用可能なコンピューティングリソース（＝Dyno）は全リージョンで共通。 +&quot;&quot;"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRsAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）顧客のIT部門は、自社運用ゲートウェイを介したVPNアクセスを許可しません。ユーザーが信頼できるHerokuアプリケーションにアクセスできる必要があるのは、オフィスにいるときだけです。これらのアプリケーションは、Heroku Private Spacesにデプロイされます。オンプレミスユーザーが必要なアクセスを取得できるようにするために、アーキテクトが推奨するPrivate Spaces機能はどれですか？（2つ選択してください。）",
+			"A__c": "安定したアウトバウンドIPアドレス",
+			"B__c": "VPC peering",
+			"C__c": "内部ルーティング",
+			"D__c": "信頼できるIP範囲の設定",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS6AAK"
+			},
+			"Question__c": "パターン２（シールド）アプリの削除権限があるのは？（２つ選択）",
+			"A__c": "adminロール",
+			"B__c": "manage",
+			"C__c": "view",
+			"D__c": "deploy",
+			"E__c": "operate",
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS7AAK"
+			},
+			"Question__c": "パターン２（シールド）Redisの容量がいっぱい、アップグレードする以外の方法は？",
+			"A__c": "キーエビクションポリシーを変更する",
+			"B__c": "Postgresに移動",
+			"C__c": "ローカルに保存",
+			"D__c": "スキーマを分ける",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-redis#maxmemory-policy https://devcenter.heroku.com/articles/heroku-redis#maxmemory-policy"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS8AAK"
+			},
+			"Question__c": "パターン２（シールド）カード情報を保存するときに満たす必要のあるものは",
+			"A__c": "PCI Level1",
+			"B__c": "HIPAA",
+			"C__c": "ISO 27018",
+			"D__c": "ISO 27017",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS9AAK"
+			},
+			"Question__c": "パターン２（シールド）開発環境と本番環境のギャップを最小限にする方法は？",
+			"A__c": "同じデータベースを使う",
+			"B__c": "stdoutを使う",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "ここで言う「同じデータベース」は同じインスタンスではなく、同じ製品・バージョンのDBを使うということだと思う。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSBAA0"
+			},
+			"Question__c": "パターン２（シールド）アプリケーションで読込みクエリがDBの負担になっている。SQLのパフォーマンスをこれ以上改善できないときの対象方法は（２つ選択）",
+			"A__c": "外部キャッシュを有効にする",
+			"B__c": "postgresのキャッシュを有効にするため再起動する",
+			"C__c": "フォローDBを作成",
+			"D__c": "Heroku Appで処理",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<ul></ul> + https://devcenter.heroku.com/articles/scaling#backing-service-bottlenecks https://devcenter.heroku.com/articles/scaling#backing-service-bottlenecks フォローDBはリードレプリカとして重い読込み処理をこちらに逃がす用途でよく利用される。 + https://devcenter.heroku.com/articles/understanding-postgres-data-caching Understanding Heroku Postgres Data Cachingに再起動について書かれていないので、Postgresのキャッシュと再起動は無関係と思われる +データをHeroku Appで処理するのは一般には非効率なので、たぶん不正解 +"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSCAA0"
+			},
+			"Question__c": "パターン２（シールド）重いSQLの調査を行いたい",
+			"A__c": "forkDBを作成する",
+			"B__c": "フォロワーDBを作成する",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "forkDBは作成時点のスナップショット。フォロワーDBは読み取り専用のレプリカ。調査は本番に近い環境でやるのが良いでしょう。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSDAA0"
+			},
+			"Question__c": "パターン２（シールド）フォロワーDBの特徴はなに？",
+			"A__c": "書き込み",
+			"B__c": "read only",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "フォローDBは読み取り専用のレプリカ。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSEAA0"
+			},
+			"Question__c": "パターン２（シールド）対話的コマンドの履歴をログに残すには？",
+			"A__c": "Shield Private SpacesのKeystroke Logging",
+			"B__c": "DataClip",
+			"C__c": "herokuなんとか？を利用して、SSHトンネル経由で出力する？",
+			"D__c": "プライベートスペースでの、プライベートスペースロギングを有効化",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<ul></ul> +DataclipはPostgresに対してSQLを発行する機能。 +自作すればログを外部に送信することもできるかも知れないが、Heroku純正の機能である Keystroke Loggingを使うべきでしょう。 + https://devcenter.heroku.com/articles/private-space-logging Private Space Loggingはコマンドの履歴を記録するものではない。 +"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSFAA0"
+			},
+			"Question__c": "パターン２（シールド）負荷テストを実施するときの注意点は？（２つ選択）",
+			"A__c": "Herokuに通知する",
+			"B__c": "自動スケールアップを有効にする",
+			"C__c": "10分の１のデータで負荷テストを実行する",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSGAA0"
+			},
+			"Question__c": "パターン２（シールド）数百万のアクセスが予想されるサイトで注意することは？（２つ選択）",
+			"A__c": "Herokuに通知して負荷テストを実施する",
+			"B__c": "起動時の影響を最小限にするため、自動スケールアップをオフにする",
+			"C__c": "パフォーマンスDynoを使う",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeS5AAK"
+			},
+			"Question__c": "パターン２（シールド）アプリをロックするとどうなる",
+			"A__c": "新規リリースができなくなる",
+			"B__c": "メンバーに与えていた権限が削除される",
+			"C__c": "新規メンバーへの自動権限付与がなくなる",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/org-users-access#locking-an-app https://devcenter.heroku.com/articles/org-users-access#locking-an-app 新しく追加されたチームユーザーがアプリの詳細を表示できなくなります。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeQyAAK"
+			},
+			"Question__c": "パターン１（ソード）ある病院は、施設内の患者登録システムを書き換えることを計画しています。現在のシステムは、HIPAA準拠およびISO 27018準拠です。書き換え後も同じ認定レベルを維持する必要があります。新しいアプリでは、PII（個人を特定できる情報）データをSalesforce組織と同期する必要もあります。アーキテクトが提案するHeroku Enterpriseソリューションは何ですか？",
+			"A__c": "Shield Heroku Postgresデータベースを使用して、Shield Private Spaceでアプリを構築し、HerokuでApache Kafkaを使用してSalesforce組織からストリーミングします。",
+			"B__c": "Common Runtimeでアプリをビルドし、Heroku Postgresデータベースを使用し、Heroku Connectを使用してSalesforceと同期します",
+			"C__c": "Shield Heroku Postgresデータベースを使用して、Shield Private Spaceでアプリを構築し、Shield Heroku Connectを使用してSalesforceと同期します",
+			"D__c": "プライベートHeroku Postgresデータベースを使用してPrivate Spacesでアプリを構築し、Heroku Connectを使用してSalesforceと同期する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "HIPPA対応するにはShieldにする必要あり  https://devcenter.heroku.com/articles/shield-private-space https://devcenter.heroku.com/articles/shield-private-space  https://devcenter.heroku.com/articles/establish-trust-private-space-and-salesforce https://devcenter.heroku.com/articles/establish-trust-private-space-and-salesforce  https://devcenter.heroku.com/categories/heroku-connect https://devcenter.heroku.com/categories/heroku-connect"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeQzAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントが新しいAPIアプリケーションを作成しています。アプリは、Herokuにデプロイする他のアプリからのみアクセスできるようにする必要があります。また、他のアプリとAPIの間のトラフィックはパブリックインターネットを通過すべきではありません。アーキテクトがこれらの要件を満たすために推奨するソリューションはどれですか。",
+			"A__c": "デフォルトオプションを使用してPrivate Spacesにアプリケーションを作成する",
+			"B__c": "Private Spacesにアプリケーションを作成し、アプリケーションの信頼できるIP範囲のセットを制限する",
+			"C__c": "Private Spacesで、内部ルーティングを有効にしてアプリケーションを作成します",
+			"D__c": "TLS terminationのより厳しい要件を実施するために、Shield Private Spaceにアプリケーションを作成します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/internal-routing https://devcenter.heroku.com/articles/internal-routing 内部ルーティングを有効にすると、Herokuにデプロイしたアプリ以外からアクセスできなくなる"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR0AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、本番Heroku Postgresデータベースにデータがありレポート作成のためにそのデータにすばやくアクセスする必要があります。これを可能にするためにHeroku Dataclipsが提供する機能はどれですか？（2つ選択してください。）",
+			"A__c": "CORSをサポートしたクエリ結果のJSONエクスポート",
+			"B__c": "クエリ結果のCSVエクスポート",
+			"C__c": "クエリ結果への簡単なREST APIアクセス",
+			"D__c": "クエリ結果のPostgresダンプファイル",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR1AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Herokuでシングルサインオン（SSO）サービスを正常にセットアップするために必要な項目はどれですか？ （3つ選択してください。）",
+			"A__c": "Herokuの組み込みサポートを備えたIDプロバイダー",
+			"B__c": "Heroku Enterprise Team",
+			"C__c": "各ユーザーの既存のHerokuアカウント",
+			"D__c": "少なくとも1つの有効なSSO証明書",
+			"E__c": "選択したIDプロバイダーの管理権限",
+			"F__c": null,
+			"Answer__c": "B,D,E",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR2AAK"
+			},
+			"Question__c": "パターン１（ソード）Universal Containersは、カード支払いを受け入れるアプリを作成する予定です。アプリは、カード会員データを保存、処理、および送信する必要もあります。アーキテクトが推奨するHerokuアーキテクチャはどれですか。",
+			"A__c": "アプリのコードを実行するための安全で隔離されたコンテナを備えたCommon Runtime",
+			"B__c": "信頼できるIP範囲のセットに制限されたPrivate Spaces",
+			"C__c": "Shield Postgresアドオンを備えたShield Private Spaces",
+			"D__c": "アプリで内部ルーティングが有効になっているPrivate Spaces",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "カード情報を保存するならShieldでしょう"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeR3AAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、Private Spacesで実行されているHerokuアプリケーションとAWS VPCの間にセキュリティで保護されたネットワーク接続を作成したいと考えています。アーキテクトが推奨するHerokuアーキテクチャはどれですか。",
+			"A__c": "内部ルーティング",
+			"B__c": "Private Space Peering",
+			"C__c": "Private Space VPN Connections",
+			"D__c": "Heroku Connect",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/private-space-peering https://devcenter.heroku.com/articles/private-space-peering 相手がAWS VPCの場合はPrivate Space Peeringが使用できる"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRDAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、相互に通信するスケーラブルなマイクロサービスのセットを作成したいと考えています。複数のマイクロサービスには公開REST APIをもっています。Herokuでこれを許可するアーキテクチャ戦略はどれですか？",
+			"A__c": "各マイクロサービスは、個別のHerokuのアプリとする。各マイクロサービスは、Apache Kafkaをメッセージバスとして使用し通信する",
+			"B__c": "各マイクロサービスは、単一のHerokuアプリの個別のプロセスとする。各マイクロサービスは、Redisをメッセージバスとして使用して通信する",
+			"C__c": "各マイクロサービスはPrivate Spacesで実行される個別のプロセスとする。各マイクロサービスは、DNS Service Discoveryを使用し通信する",
+			"D__c": "各マイクロサービスは、単一のHeorkuアプリ内の個別のプロセスとする。各マイクロサービスは共有メモリを使用し通信する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "Kafkaはrest endpointは用意されている  https://devcenter.heroku.com/articles/event-driven-microservices-with-apache-kafka https://devcenter.heroku.com/articles/event-driven-microservices-with-apache-kafka マイクロサービスはpublicなREST APIなので HerokuのDNSは利用できない  https://devcenter.heroku.com/articles/dyno-dns-service-discovery https://devcenter.heroku.com/articles/dyno-dns-service-discovery DNS Service Discoveryを使うと同じスペース内で他のDynoのIPアドレスを取得できる"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeREAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersには、オンプレミスネットワークへのVPN接続を備えたHeroku Private Spacesがあります。彼らは、リモートの従業員がVPN接続のみを使用してHerokuアプリケーションにアクセスできるようにしたいと考えています。アーキテクトが推奨するソリューションはどれですか？",
+			"A__c": "Herokuアプリケーションを別のプライベートスペースに複製し、リモート従業員用にVPNを構成する",
+			"B__c": "リモートの従業員が会社のオンプレミスネットワークにVPN接続できるようにします",
+			"C__c": "現在のプライベートスペースにリモートの従業員が使用できる別のVPN接続を構成する",
+			"D__c": "すべてのリモート従業員をエンタープライズチームに追加し、SSOを介してプライベートペースに接続するように構成します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>現在、プライベートスペースごとに1つのVPN接続（2つの冗長トンネル）のみがサポートされています。 https://devcenter.heroku.com/articles/private-space-vpn-connection https://devcenter.heroku.com/articles/private-space-vpn-connection 会社のオンプレミスネットワークにVPN接続できるようにしても、リモート従業員以外もアクセスできる 1つのプライベートスペースに複数のVPNは構築できない すべてのリモート従業員をエンタープライズチームに追加し、SSOを介してもリモートからの接続はできない</p><p><br></p><p>会社のVPN設備に接続すると、会社の既存ネットワークの一部になる</p><p>heroku側には追加の接続は不要</p><p>https://vceguide.com/which-solution-should-an-architect-recommend/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRFAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）は、IDプロバイダー（IdP）を使用してHeroku Enterprise TeamのSSOを構成しました。新しい従業員が会社に参加するとき、Herokuアカウントをどのように作成する必要がありますか？",
+			"A__c": "従業員がSSO経由で初めてHerokuにログインすると、Herokuアカウントが自動的に作成されます",
+			"B__c": "従業員は、IdPレコードにリストされている正確なメールアドレスで新しいHerokuアカウントを作成する必要があります",
+			"C__c": "特定のエンタープライズチームのすべてのSSOユーザーは単一のHerokuアカウントに関連付けられているため、アカウントを作成する必要はありません。",
+			"D__c": "エンタープライズチームの管理者は、従業員のIdPレコードにリストされている正確なメールアドレスでHerokuアカウントを作成します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/using-sso-services-with-heroku https://devcenter.heroku.com/articles/using-sso-services-with-heroku ユーザーがIdPを介してHerokuに初めてログインすると、IdPプロビジョニングを介して自動的にHerokuアカウントが作成されます"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRGAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、Heroku Connectを使用して、Salesforce組織とHeroku Postgresデータベースの間で双方向にデータを同期したいと考えています。このシナリオで、Heroku Connectマッピングでカスタム外部識別子フィールドを設定する利点はどれですか？（2つ選択してください。）",
+			"A__c": "外部IDにより、Salesforce組織での多態的な関係のマッピングが簡素化されます",
+			"B__c": "複数の関連オブジェクトを挿入する場合、外部IDにより速度が向上します",
+			"C__c": "外部IDは、Heroku Postgresで孤立した複製の作成を防ぎます",
+			"D__c": "双方向同期を有効にするには外部IDが必要です",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>https://vceguide.com/which-two-are-advantages-to-setting-a-custom-external-identifier-field-in-the-heroku-connect-mapping/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRPAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）ヘルスケアクライアントは、Herokuで顧客用のWebポータルを作成しています。これは、Salesforceインスタンスから供給されます。表示したいSalesforceデータの一部はHIPAAに準拠しており、監査人はこのデータを保存時に暗号化して保存する必要があると判断しました。この要件を満たすために、彼らはSalesforceでプラットフォーム暗号化を有効にしました。彼らはHeroku Shield Private Spaces、Shield Dynos、Shield Postgres、Shield Heroku Connectを検討しています。Shield Heroku Connectは、Salesforceの暗号化フィールドとどのようにやり取りしますか？",
+			"A__c": "Shield Heroku Connectは、Salesforceのフィールドの暗号化テキストのみにアクセスできます。 Salesforceから暗号化キーをインポートして、復号化してShield Pstgresに保存する必要があります",
+			"B__c": "Shield Heroku Connectは、追加のカスタマイズなしでSalesforceのフィールドからデータを同期できますが、書き込む前にSalesforce暗号化キーを使用して書き込みを暗号化する必要があります",
+			"C__c": "Shield Heroku Connectは、Herokuに送信する前にデータを復号化するためにSalesforce側でカスタマイズする必要があります",
+			"D__c": "Shield Heroku Connectは、追加のカスタマイズなしでデータを双方向に同期できます",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-connect-database-tables#encrypted-strings https://devcenter.heroku.com/articles/heroku-connect-database-tables#encrypted-strings"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRQAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）オンプレミスサーバーでホストされる財務報告アプリケーションは、ネイティブライブラリ（wkhtmltopdf）を使用してHTMLレポートをPDFに変換します。アプリはHerokuに移行中です。アーキテクトがHerokuアプリケーションでwkhtmltopdfを使用できるようにするために推奨するオプションは何ですか？",
+			"A__c": "Herokuアプリがdynoの再起動時にクラウドストレージからwkhtmltopdfライブラリを取得するようにします",
+			"B__c": "プロジェクトルートの.profileからsudo apt install wkhmltopdfを使用して依存関係をインストールします",
+			"C__c": "引き続きオンプレミスでwkhtmltopdfをホストし、Herokuアプリからライブラリを呼び出せるようにREST APIを構築します",
+			"D__c": "カスタムビルドパックを使用して、aptを使用してwkhtmltopdfをインストールする",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/buildpacks https://devcenter.heroku.com/articles/buildpacks カスタムビルドパックを使用して、Herokuの公式にサポートされているビルドパックでカバーされていない言語またはフレームワークをサポートできます  https://elements.heroku.com/buildpacks/axonepro/heroku-buildpack-wkhtmltopdf https://elements.heroku.com/buildpacks/axonepro/heroku-buildpack-wkhtmltopdf"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRRAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントが20個のStandard-2x dynoでアプリを実行しています。アプリケーションに大きな負荷がかかっているときに、パフォーマンスが非常に変動することに気づいています。このシナリオでアーキテクトが行うべき提案はどれですか。（2つ選択してください。）",
+			"A__c": "Standard-1x dynoを使用するようにアプリを構成する",
+			"B__c": "Performance dynoを使用するようにアプリを構成する",
+			"C__c": "パフォーマンス監視ツールをインストールする",
+			"D__c": "Standard-2x dynoを追加する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>https://vceguide.com/which-two-suggestions-should-an-architect-make-in-this-scenario/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRSAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）は、HerokuでApache Kafkaを使用して、世界中のリアルタイムで出荷在庫データをストリーミングします。Kafkaトピックは、輸送中の配送コンテナーのGPS座標の更新を含むメッセージを送信するために使用されます。UCはHeroku KafkaのBasic-0プランを使用しています。このトピックは、8パーティション、1週間の保持、および圧縮なしでプロビジョニングされました。イベントのキーはHeroku Kafkaによって割り当てられています。つまり、パーティション間でランダムに分散されます。UCには、データをエンタープライズデータウェアハウス（EDW）に永続化するシングルdynoコンシューマアプリケーションがあります。最近、彼らはEDWのデータ損失に気付いています。Kafkaの経験を持つアーキテクトは何を推奨すべきですか？",
+			"A__c": "トピックの圧縮を有効にして古いメッセージをドロップします。これにより、同じキーを持つ古いメッセージがドロップされます",
+			"B__c": "より大きなデータ容量を持つHerokuプラン用のより大きなApache Kafkaへのアップグレード",
+			"C__c": "Heroku Redisを使用してメッセージ受信情報を保存し、「少なくとも」一度配信されると、メッセージが複数回処理されないことを保証します。",
+			"D__c": "パーティションごとにプロセスが1つになるように、パーティションの数に合わせてコンシューマdynoをスケールアウトします",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "トピックの圧縮はパフォーマンスに影響なし 問題はデータの欠損なのでメッセージが複数回処理されることが原因ではない  https://devcenter.heroku.com/articles/event-driven-microservices-with-apache-kafka https://devcenter.heroku.com/articles/event-driven-microservices-with-apache-kafka パーティションの数に合わせてコンシューマdynoをスケールアウトは×  https://www.ospn.jp/osc2017.enterprise/pdf/OSC2017.enterprise_Hitachi_Kafka.pdf https://www.ospn.jp/osc2017.enterprise/pdf/OSC2017.enterprise_Hitachi_Kafka.pdf"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRTAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントのHerokuアプリケーションは、Salesforce Bulk APIを使用してHeroku PostgresデータベースとSalesforce組織の間でデータを同期します。 クライアントは、アプリケーションが現在クライアントの1日あたりのSalesforce Bulk API制限の90％を使用していると判断しました。この問題を克服するには、このシナリオでBulk API実装を置き換えるために、アーキテクトが推奨すべき機能は何ですか？",
+			"A__c": "カスタムApexコールアウト",
+			"B__c": "Heroku Connect",
+			"C__c": "Salesforce SOAP API",
+			"D__c": "Salesforce Connect",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-connect-faq https://devcenter.heroku.com/articles/heroku-connect-faq"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRaAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersは、軽量のNode.jsフロントエンドを備えた新しいアプリケーションを開発しています。また、データをSalesforceの顧客データと結合するJavaベースのAPIを使用します。すべてのデータとAPIは極秘です。アーキテクトは、セキュリティを強化するために何を提案すべきですか？",
+			"A__c": "アプリをHeroku Common Runtimeにデプロイします。JavaアプリがCDNを使用するように強制し、Node.jsアプリがそのappname.herokuapp.comドメインを指すようにします",
+			"B__c": "すべてのアプリをCommon Runtimeにデプロイします。JavaアプリでSSL/TLSセッションを使用するように強制し、Node.jsアプリがそのappname.herokuapp.comドメインを指すようにします",
+			"C__c": "すべてのアプリをHeroku Private Spacesにデプロイします。JavaアプリでSSL/TLSセッションを使用するように強制し、Node.jsアプリがそのappname.herokuapp.comドメインを指すようにします",
+			"D__c": "すべてのアプリをHerokuPrivate Spacesにデプロイします。 内部ルーティングを有効にしてJavaアプリをデプロイします。 内部ルーティングを有効にせずにNode.jsアプリをデプロイする",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/internal-routing https://devcenter.heroku.com/articles/internal-routing 内部ルーティングを有効にすると、インターネットからアクセスできなくなる アプリ生成時に内部ルーティングを有効にするか決定する  https://devcenter.heroku.com/articles/internal-routing#working-with-internally-routed-apps https://devcenter.heroku.com/articles/internal-routing#working-with-internally-routed-apps private space内でインスタンス間はDNS サービスディスカバリでアクセスする"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRbAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Heroku Enterprise Teamsを必要とするHeroku機能はどれですか？（2つ選択してください。）",
+			"A__c": "詳細なアプリアクセス制御",
+			"B__c": "シングル・サインオン",
+			"C__c": "有料アドオンプラン",
+			"D__c": "Herokuパイプライン",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRcAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、バックグラウンドworker dynoでアプリケーションを実行します。このアプリケーションにより、ユーザーはパーソナライズされた情報をPDFとしてリクエストできます。ピーク使用時には、アプリは一度に何百万ものリクエストを処理します。結果として生じるリクエストの数がボトルネックを引き起こし、パフォーマンスに影響を与えています。アーキテクトがボトルネックを解決してパフォーマンスを向上させるために推奨できる2つのソリューションはどれですか？（2つ選択してください。）",
+			"A__c": "worker dynoの数を増やして、Jobをより早く消費する",
+			"B__c": "アプリケーションをPrivate Spacesに移動する",
+			"C__c": "Heroku Redisをジョブキューとして追加する",
+			"D__c": "ElementsマーケットプレイスからCDNアドオンを追加します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRdAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントのアプリケーションは、データ保管の目的でヨーロッパの国で実行する必要があります。このシナリオで考慮すべきことは何ですか？",
+			"A__c": "dynoのライフサイクルでは、別のリージョンで再起動される場合があります",
+			"B__c": "ヨーロッパのリージョンは、Private Spacesで実行されているアプリケーションでのみ利用可能です",
+			"C__c": "Heroku Postgresのbackup snapshotとDataclipは常に米国に保存されます",
+			"D__c": "Heroku Postgresデータベースが、それをプロビジョニングするアプリケーションと同じリージョンに作成されるという保証はありません",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-postgresql https://devcenter.heroku.com/articles/heroku-postgresql PG Backup snapshots are stored in the US. Dataclips are stored in the US."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeReAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersは、プラットフォームでの使用開始時にHerokuの総コストを制限したいと考えています。これを達成するために、彼らは特定のアドオンを同等のオープンソースコンポーネントに置き換えることを検討していますが、開発チームはアドオンが提供する特定の機能へのアクセスを失いたくありません。機能の可用性に影響を与えずにアドオンコストを削減するために、アーキテクトが推奨するオプションはどれですか？",
+			"A__c": "高コストのアドオンのエイリアスを削除する",
+			"B__c": "互換性のある有料アドオンの単一インスタンスを複数のアプリケーションで共有します",
+			"C__c": "アプリケーションのステージングバージョンおよび開発バージョンからデータストアアドオンを削除する",
+			"D__c": "アドオンを無料プランに移行する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "「特定の機能へのアクセスを失いたくありません」 →おそらくadd-onを利用し続けることを要求している エイリアスの消しても料金は変わらない データストアアドオンを削除するとadd-onの機能が利用できなくなるのでNG アドオンの無料プランでは容量不足に陥る可能性があるため×"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSHAA0"
+			},
+			"Question__c": "パターン２（シールド）Herokuアプリケーション Salesforce、オンプレがあり、Mule anypoint を使って連携したい。",
+			"A__c": "HerokuPostgresをエンドポイントとすることでSalesforceまで一括した連携ができる",
+			"B__c": "HerokuPostgresをエンドポイントとすることでSalesforceまで一括した連携ができない",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "JDBCコネクタでHeroku Postgresと接続？  https://blogs.mulesoft.com/dev/howto/connect-heroku-postgres-database-connector/ https://blogs.mulesoft.com/dev/howto/connect-heroku-postgres-database-connector/  https://devcenter.heroku.com/articles/integrating-heroku-and-salesforce#mulesoft https://devcenter.heroku.com/articles/integrating-heroku-and-salesforce#mulesoft"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSIAA0"
+			},
+			"Question__c": "パターン２（シールド）Mule anypointを使っている上で、Heroku Connectを使用するメリットは？（2つ選択）",
+			"A__c": "Heroku Postgresエンドポイントが使える",
+			"B__c": "SalesforceとPostgresで双方向同期ができる",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSJAA0"
+			},
+			"Question__c": "パターン２（シールド）オンプレ、Salesforce、Herokuそれぞれがファイアーアンドフォーゲット形式で通信可能な仕組みを作りたい。提案する手法を選べ（２つ選択）",
+			"A__c": "Heroku Connect",
+			"B__c": "Salesforce Platform Event Streams",
+			"C__c": "Kafka",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSKAA0"
+			},
+			"Question__c": "パターン２（シールド）Httpsでサービス同士を連携したい",
+			"A__c": "Common RuntimeでREST APIで通信",
+			"B__c": "private spaceで構築",
+			"C__c": "DNS Service Discoveryで通信",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "２問ほど出題、個人情報を含むデータではない、Dyno間での通信ではない、プロトコルはHTTP/HTTPSなのでCommon Runtime　REST APIを選択"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSLAA0"
+			},
+			"Question__c": "パターン２（シールド）AzureとVPN接続",
+			"A__c": "Azureと標準のVPNで接続",
+			"B__c": "AzureとカスタムしたVPNで接続",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "残念ながら、Heroku VPNは管理されたAzure VPN機能と互換性がありません。ただし、互換性のあるVPNソフトウェアをAzureで実行したり、Azure MarketplaceのVPNサービスを使用してHerokuへの接続を確立したりできます。 https://devcenter.heroku.com/articles/private-space-vpn-connection#compatibility https://devcenter.heroku.com/articles/private-space-vpn-connection#compatibility"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSNAA0"
+			},
+			"Question__c": "パターン２（シールド）heroku connect を実行する sync_sfdc アプリケーションを運用している。sync_sfdc アプリケーションを停止すると同期も停止するが、削除した場合にはどのようなことが発生するか？",
+			"A__c": "heroku connectで指定していたHeroku Postgres テーブルが削除される",
+			"B__c": "heroku connectで指定していたSalesforceオブジェクトが削除される",
+			"C__c": "<p>削除した時点での双方のデータは残される</p>",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRHAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）ユニバーサルコンテナ（UC）は最近、別の会社International Shippingを買収しました。各企業には独自のSalesforce組織があり、UCはこれらの組織が近い将来に分離されたままになることを望んでいます。このシナリオで、アーキテクトが買収後にUCに付加価値を提供するために推奨するHeroku機能はどれですか？",
+			"A__c": "Heroku Connectを使用して、2つのSalesforce組織間でデータを直接同期できます。",
+			"B__c": "両方の組織をアドオンとして同じHerokuアプリケーションに添付できます-アプリケーションのリージョンにデータを常駐させるために",
+			"C__c": "Heroku外部オブジェクトは、両方のSalesforce組織からの読み取り専用データをHeroku Postgresに公開できます",
+			"D__c": "Heroku Postgresデータベースは、高度なクエリ機能のために両方の組織からのデータを同期できます",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "APPはお互いの Salesforceと接続できるが直接やりとりはできない（1つのアプリケーションに複数Heroku Connect作成可能）  https://devcenter.heroku.com/articles/heroku-connect#multiple-instances-of-heroku-connect https://devcenter.heroku.com/articles/heroku-connect#multiple-instances-of-heroku-connect 両方の組織をアドオンとして同じHerokuアプリケーションに添付できない。ただし両方のアプリに同じPostgres Addonをattachすることは可能。 外部オブジェクトは Salesforce Connect。外部DBを Salesforce側で表示  https://devcenter.heroku.com/articles/heroku-connect-faq#can-i-create-more-than-one-heroku-connect-add-on-per-app-database https://devcenter.heroku.com/articles/heroku-connect-faq#can-i-create-more-than-one-heroku-connect-add-on-per-app-database"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRIAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal ContainersはHeroku Connectを使用して、Salesforce組織のデータをHeroku Postgresと同期します。定期的に、これらの2つのシステム間で完全に複製する必要がある非常に大きな変更セットを書き込みます。アーキテクトが提案すべきアクションはどれですか？（2つ選択してください。）",
+			"A__c": "Heroku Postgresで直接変更を行います。次に、Heroku ConnectがHeroku外部オブジェクトを使用してSalesforce組織に公開できるようにします",
+			"B__c": "データローダーを使用して、変更をSalesforce組織に書き込みます。次に、Heroku ConnectがHeroku Postgresに同期できるようにします",
+			"C__c": "Heroku Postgresで直接変更を行います。次に、Heroku ConnectがBulk APIを使用してSalesforce組織に同期できるようにします",
+			"D__c": "Heroku Connectを一時停止し、Salesforce組織で直接変更します。次に、Heroku ConnectがSalesforce Bulk APIを使用してHeroku Postgresに同期できるようにします",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRJAA0"
+			},
+			"Question__c": "<p>【出題実績有】パターン１（ソード）Universal Containers（UC）は、Heroku Postgresデータベースで保存時の暗号化を有効にすることを望んでいます。その機能を有効にするには、UCが使用する必要があるプランはどれですか？ （4つ選択してください。）</p>",
+			"A__c": "private",
+			"B__c": "standard",
+			"C__c": "hobby",
+			"D__c": "shield",
+			"E__c": "premium",
+			"F__c": null,
+			"Answer__c": "A,B,D,E",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRfAAK"
+			},
+			"Question__c": "パターン１（ソード）ある病院は、患者が提出された保険金請求のステータスを確認できるモバイルアプリを構築したいと考えています。これは病院がデータをSalesforce Health Cloudに保存し、アプリのバックエンドはHerokuで実行されます。アプリがHIPAAに準拠していることを確認するために、アーキテクトが推奨すべき2つの対策はどれですか？ （2つ選択してください。）",
+			"A__c": "Heroku Shield Connectを使用して、SalesforceからHeroku Postgresデータベースに請求データを同期します",
+			"B__c": "Heroku Shiled Postgresデータベースのみを使用して、クレームデータをSalesforce Health Cloudの外部に保存する",
+			"C__c": "バックエンドアプリケーションのコードがすべてのクレームデータを暗号化してから、Heroku Postgresデータベースに書き込むことを確認します",
+			"D__c": "モバイルアプリは、病院のイントラネット上でのみ実行できることを確認します。イントラネットは、VPNを介してバックエンドのShield Private Spacesに接続されます。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>https://jp.heroku.com/compliance</p><p>https://vceguide.com/which-the-hospital-stores-in-salesforce-health-cloud-the-apps-back-end-will-run-on-heroku-which-two-measures-should-an-architect-recommend-to-help-ensure-that-the-app-is-compliant-with-hipaa/</p><p><br></p><p>シールドポスグレとシールドコネクトでないと、HIPAAに準拠できないので、AとBが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRgAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）には、米国のバージニア州で実行されるHerokuアプリケーションがあり、HerokuでApache Kafkaを使用しています。彼らはアジアでアプリのコピーを展開しました。現在、両方のアプリには、マルチリージョン配信をサポートするメッセージングバックボーンが必要です。アーキテクトが推奨すべき最も複雑でないアーキテクチャは何ですか？",
+			"A__c": "HerokuにApache Kafkaのマルチリージョンバージョンをデプロイする",
+			"B__c": "HerokuのマルチテナントKafka Basicプランを使用する",
+			"C__c": "アジアのアプリは、バージニア州のKafkaインスタンスに書き込む必要があります",
+			"D__c": "Second Kafkaアドオンをアジアでプロビジョニングします。 アプリの各インスタンスは互いに同期する必要があります",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>マルチリージョンのKafkaはない マルチテナントはシングルテナントよりパフォーマンスが落ちる - https://devcenter.heroku.com/articles/multi-tenant-kafka-on-heroku https://devcenter.heroku.com/articles/multi-tenant-kafka-on-heroku リージョン跨ぎで連携するのは難しいので×</p><p><br></p><p>https://vceguide.com/what-is-the-least-complex-architecture-that-an-architect-should-recommend/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRhAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）には、Common Runtimeで実行されているHerokuアプリに接続されたHeroku Postgresデータベースがあります。信頼できる場所にのみデータベースを保護するために、アーキテクトがUCに推奨することは何ですか？",
+			"A__c": "データベースとアプリをPrivate Spacesに移動する",
+			"B__c": "信頼できるIP範囲をHeroku Postgres構成に追加します",
+			"C__c": "信頼できる場所からアプリへのVPNをセットアップします",
+			"D__c": "Heroku Postgresへのアクセスが必要な場合、one-off dynoでVPCをセットアップする",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/private-spaces#trusted-ip-ranges https://devcenter.heroku.com/articles/private-spaces#trusted-ip-ranges"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRiAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）は、開発者が特定のアドオンのみを使用できるようにしたいと考えています。UCは、エンタープライズチームのアドオンコントロールを有効にし、許可したいアドオンをリストに追加します。リストにないアプリケーションには、既存のアドオンのセットが添付されています。これらのアドオンはどうなりますか？",
+			"A__c": "それらは削除され、すべてのデータがバックアップおよび保存されます",
+			"B__c": "許可されたアドオンのリストに追加されます",
+			"C__c": "それらは例外リストに追加され、影響を受けません",
+			"D__c": "削除のフラグが立てられ、開発者に通知されます",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "元々インストールされてたor管理者がインストールしたものは例外リストに追加される コントロールを有効にしても、現在プロビジョニングされているアドオンは動作を停止しませんが、ホワイトリストにないアドオンが今後インストールされるのを防ぎます。  https://devcenter.heroku.com/articles/addon-controls https://devcenter.heroku.com/articles/addon-controls"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRjAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containersには、Heroku Redisを使用するCommon Runtimeで実行されるアプリケーションがあります。Heroku Redisのデータには、サードパーティアプリケーションからアクセスする必要があります。アーキテクトは、Heroku Redisからサードパーティアプリケーションに移動するデータのセキュリティを確保するために、どの接続方法を推奨する必要がありますか？",
+			"A__c": "stunnelを使用して、Heroku Redisとサードパーティアプリケーション間の接続を保護します",
+			"B__c": "HerokuおよびサードパーティアプリケーションでSSL証明書を設定する",
+			"C__c": "SSH接続を介したHeroku Redisへのアクセスのみを許可する",
+			"D__c": "Herokuとサードパーティアプリケーションの間にVPNとVPCの両方をセットアップする",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/securing-heroku-redis https://devcenter.heroku.com/articles/securing-heroku-redis RedisはSSL接続が用意されていない stunnelを使うとRedisとdynoの間にSSL接続が作られる  https://devcenter.heroku.com/articles/heroku-redis#external-connections https://devcenter.heroku.com/articles/heroku-redis#external-connections"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSOAA0"
+			},
+			"Question__c": "パターン２（シールド）監査対応としてアプリケーションログを一箇所に集約する必要があるどのようなソリューションが推奨されるか",
+			"A__c": "すべてのアプリケーションを共通ランタイムにリリースし、同じlog drain urlに出力する",
+			"B__c": "すべてのアプリケーションを共通ランタイムにリリースし、ログ収集アドオンに出力する",
+			"C__c": "すべてのアプリケーションをプライベートスペースにリリースし、logplexを有効化する",
+			"D__c": "すべてのアプリケーションをシールドプライベートスペースにリリースし、プライベートスペースロギングを有効化する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "正しい？ https://devcenter.heroku.com/articles/logplex https://devcenter.heroku.com/articles/logplex"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSPAA0"
+			},
+			"Question__c": "パターン２（シールド）Heroku postgresデータベースを分析するために外部レポートツールを使用して読み込みをしたい。Postgresは現在アクセス負荷が高い。どのような手法が最適か？",
+			"A__c": "フォロワーDBを作成し、レポートツールを接続する",
+			"B__c": "フォークDBを作成し、レポートツールを接続する",
+			"C__c": "直接データベースにレポートツールを接続する",
+			"D__c": "pgbouncerを利用する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "自信ないです。フォークかも。"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSQAA0"
+			},
+			"Question__c": "パターン２（シールド）アジア圏に向けたWebアプリケーションをHerokuで実装している。機密情報はないが、DBへのアクセスが集中することが想定される。リリースはどのようにすれば良いか？",
+			"A__c": "東京リージョンの共通ランタイムにリリースする",
+			"B__c": "東京リージョンのプライベートスペースにリリースする",
+			"C__c": "東京リージョンのシールドプライベートスペースにリリースする",
+			"D__c": "米国リージョンの共通ランタイムにリリースし、CDNを利用してコンテンツを提供する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSRAA0"
+			},
+			"Question__c": "パターン２（シールド）Enterprise Teamsにて「リリース」権限を持ったユーザが可能なことを３つ選択",
+			"A__c": "アプリケーションのロールバックが可能",
+			"B__c": "別のEnterprise Teamsに転送が可能",
+			"C__c": "環境変数の管理が可能",
+			"D__c": "有料アドオンのプロビジョニングが可能",
+			"E__c": "無料アドオンのプロビジョニングが可能",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p><br></p><p>https://trailhead.salesforce.com/ja/content/learn/modules/heroku_enterprise_baiscs/getting_the_most</p><p><br></p><p><br></p><p>リリース：コードのリリース、1 回限りの dyno の実行、無料のアドオンの追加または削除、設定変数の表示および編集を行います。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSSAA0"
+			},
+			"Question__c": "パターン２（シールド）大量メッセージが集中するアプリケーションで有効な機能は？",
+			"A__c": "kafka",
+			"B__c": "Redis",
+			"C__c": "Herokuボタン",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSTAA0"
+			},
+			"Question__c": "パターン２（シールド）private space loggingの特徴を2つ選択",
+			"A__c": "Logplex機能が使用できない",
+			"B__c": "すべてのログは同じ場所に送られる",
+			"C__c": "同じspaceやVPN内にしかログ宛先に指定できない",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>https://devcenter.heroku.com/ja/articles/logplex</p><p>https://devcenter.heroku.com/articles/private-space-logging#private-space-logging-does-not-support-logging-to-drains-only-accessible-via-private-connection</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRKAA0"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）で、Yuichiroという開発者が、実稼働環境でMySQLデータベースを使用するPHPアプリケーションを作成しました。Yuichiroは、新しいUC開発者であり、開発環境をセットアップしているMaryに参加しています。 YuichiroはMaryに次のことを依頼します。1）アプリケーションが実行されるように関連するPHPライブラリを手動でインストールします。2）開発環境でMySQLの代わりにMongoDBを使用します。 Twelve-Factor方法論によると、アーキテクトが推奨する変更はどれですか？",
+			"A__c": "アプリケーションの環境変数でコードの依存関係を明示的に宣言し、開発と本番の両方で同じタイプのデータベースを使用します",
+			"B__c": "アプリケーションの本番データベースでコードの依存関係を保持します。同じ種類のデータベースをローカルで使用して、依存関係にアクセスできるようにします",
+			"C__c": "アプリケーションの起動時のコード依存関係を再帰的に判断し、MongoDBおよびMySQL互換バージョンのアプリケーション用に個別のGitブランチを維持します",
+			"D__c": "アプリケーションのソースでコードの依存関係を明示的に宣言し、開発と本番の両方で同じタイプのデータベースを使用します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>×本番データベースでコードの依存関係を保持 ○コードベースでコードの依存関係を保持 設定 ソースは開発/本番一致 https://12factor.net/ja/dev-prod-parity https://12factor.net/ja/dev-prod-parity</p><p><br></p><p>環境変数は文字通り環境の違いを吸収するのでAは間違い、ソースに明示的に記載なのでD</p><p>https://vceguide.com/which-changes-should-an-architect-recommend/</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRkAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）どのHerokuランタイムがキーストロークロギングを提供しますか？",
+			"A__c": "Common Runtime、Private Spaces、およびShield Private Spaces",
+			"B__c": "Private SpacesとShield Private Spaces",
+			"C__c": "Shield Private Spacesのみ",
+			"D__c": "キーストロークロギングはHerokuでは使用できません",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/shield-private-space#keystroke-logging https://devcenter.heroku.com/articles/shield-private-space#keystroke-logging Shield Private Spacesの機能"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRlAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Heroku Elements Marketplaceにはどの3つのリソースがありますか？（3つ選択してください。）",
+			"A__c": "Herokuボタン",
+			"B__c": "ビルドパック",
+			"C__c": "Herokuスタック",
+			"D__c": "Dockerイメージファイル(Docker画像ファイルとか翻訳されてることがある)",
+			"E__c": "アドオン",
+			"F__c": null,
+			"Answer__c": "A,B,E",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRmAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントがアプリケーションをHerokuにデプロイすることを計画しています。クライアントのIT部門では、すべてのアプリケーションを本社のあるオーストラリアにホストする必要があります。オーストラリアの規制当局は、アプリケーションのインタラクティブセッションを作成するすべてのエンジニアのキーストロークログを必要とします。このシナリオでアーキテクトが推奨するのはどれですか？",
+			"A__c": "Private Spaces loggingが有効になっているシドニーリージョンのPrivate Spacesにアプリケーションをデプロイする",
+			"B__c": "シドニーリージョンのCommon Runtimeにアプリケーションをデプロイします",
+			"C__c": "シドニーリージョンのShield Private Spaceにアプリケーションをデプロイします",
+			"D__c": "内部ルーティングを有効にして、シドニー地域のPrivate Spacesにアプリケーションをデプロイします",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "keystroke loggingはシールドプライベートスペースのみ  https://devcenter.heroku.com/articles/private-space-logging https://devcenter.heroku.com/articles/private-space-logging"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRnAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Private Spaces loggingの特徴を説明しているのはどれですか？（2つ選択してください。）",
+			"A__c": "ログエントリはHTTPS POSTリクエストとして転送されます",
+			"B__c": "ログエントリは、HerokuのLogplexルーターによって照合および転送されます",
+			"C__c": "ログエントリは、最大3つのログサービスに転送できます。",
+			"D__c": "ログエントリは1つのログサービスのみに転送できます",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRoAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントは、オンプレミスアプリケーションをHerokuに移行したいと考えています。アプリケーションは、パフォーマンスを向上させるために、データストア用にローカルのメモリ内キャッシュを維持します。アーキテクトは、Herokuでのアプリケーションの実行についてクライアントに何をアドバイスする必要がありますか？",
+			"A__c": "アプリケーションは、メモリ内キャッシュを別個のプロセスタイプとして宣言して、デプロイ間で保持する必要があります。",
+			"B__c": "アプリケーションのすべてのWebダイノは、単一のメモリ内キャッシュを共有します",
+			"C__c": "アプリケーションは、インメモリキャッシュをローカルディスクに複製して、デプロイ間で保持する必要があります。",
+			"D__c": "アプリケーションのメモリ内キャッシュはいつでもクリアされる可能性があります",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "プロセスは１日１回再起動されるのでクリアされるのでデプロイ間で保持できない -  https://devcenter.heroku.com/articles/http-caching https://devcenter.heroku.com/articles/http-caching"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRpAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）次のHerokuプラットフォームの規則のうち、「アプリを1つ以上のステートレスプロセスとして実行する」というTwelve-Factorの方法論の推奨事項を反映しているのはどれか？ （2つ選択してください。）",
+			"A__c": "アプリの各dynoからのログメッセージは、互いに別々に保持されます",
+			"B__c": "Herokuアプリは、Procfileでプロセスタイプを定義します",
+			"C__c": "Herokuアプリの構成変数は、デプロイおよびアプリの再起動時に削除されます",
+			"D__c": "Dynoには一時ファイルシステムがあります",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>環境変数はephemeralに保存されるのでD</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRtAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）Universal Containers（UC）は、日本とドイツにオフィスを開設しています。これにより、アジアおよびヨーロッパの新規顧客にサービスを提供できます。UCは、アプリが大量の動的コンテンツを提供するため、新規顧客のアプリケーション遅延を心配しています。アーキテクトがこの懸念を軽減するために推奨するHeroku Enterpriseの機能はどれですか？",
+			"A__c": "各リージョンでSalesforce組織を作成し、Heroku Connectを使用してそれらをリンクします",
+			"B__c": "アプリケーションのインスタンスを東京とフランクフルトのプライベートスペースに展開する",
+			"C__c": "グローバルに分散したCDNをアプリケーションの前に展開します",
+			"D__c": "Heroku Pipelineを作成して、各地域のアプリとそのデータをミラーリングします",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<ul></ul> +&quot;Heroku ConnectはSalesforce組織間をリンクするものではない。 +&quot;東京とフランクフルトというユーザに近い場所にサーバを配置するのは有効。 +&quot;対象が動的ページなのでCDNは効果が無い。 +&quot;Heroku Pipelineはアプリやデータをミラーリングする機能ではない。 +&quot;&quot;"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRuAAK"
+			},
+			"Question__c": "パターン２（シールド）Merged Writesアルゴリズムの注意点は？(２つ選択)",
+			"A__c": "循環依存関係が問題を引き起こす",
+			"B__c": "Bulk APIが使えない",
+			"C__c": "SOAP APIが使えない",
+			"D__c": "API制限にひっかかることがある",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRvAAK"
+			},
+			"Question__c": "パターン２（シールド）Dataclipsで参照できるデータストアは？",
+			"A__c": "Postgres",
+			"B__c": "Redis",
+			"C__c": "Kafka",
+			"D__c": "Postgresと設定した外部DB",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/dataclips&gt;Sharing Query Results with Dataclips +&quot;<blockquote>Heroku Dataclips enable you to create SQL queries for your Heroku Postgres databases</blockquote>&quot;"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSUAA0"
+			},
+			"Question__c": "パターン２（シールド）Redisを公開インターネットから隔離する方法は？",
+			"A__c": "Private Spacesにプロビジョニングし、アプリを再リリースする",
+			"B__c": null,
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSVAA0"
+			},
+			"Question__c": "パターン２（シールド）オンプレの画像アップロードアプリをHerokuに移行する際に、修正が必要あるのはどれ？（2つ選択）",
+			"A__c": "ログはstdoutに書き込む",
+			"B__c": "一時的な画像の保存先に外部ストレージサービスを使う",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSWAA0"
+			},
+			"Question__c": "パターン２（シールド）バッキングサービスの例はどれ？（3つ選択）",
+			"A__c": "メール配信",
+			"B__c": "ロギング",
+			"C__c": "データベース",
+			"D__c": "重い処理を行うバックエンドサービス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSXAA0"
+			},
+			"Question__c": "パターン２（シールド）フランクフルトのPrivate Spacesにあるアプリだが、大半のアクセスはアジアから。費用対効果の高い改善策は？",
+			"A__c": "新しいPrivate Spaceを東京リージョンで作成。フランクフルトは削除する",
+			"B__c": "新しいPrivate Spaceを東京リージョンで作成。フランクフルトも残す",
+			"C__c": "Common Runtimeに移行",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSYAA0"
+			},
+			"Question__c": "パターン２（シールド）Kafkaの利点はどれ？（3つ選択）",
+			"A__c": "高可用性で高耐障害性",
+			"B__c": "プロデューサーとコンシューマーを別々に拡張可能",
+			"C__c": "大量メッセージ発生時に個々のアプリを自由に拡張可能",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSZAA0"
+			},
+			"Question__c": "パターン２（シールド）ユニバーサルコンテナ社にはSalesforceから呼び出されて非同期に処理を行うHerokuアプリがある。Herokuアプリは処理結果をSalesforce REST APIを呼び出すことで返却する。SalesforceおよびHerokuアプリのAPIをインターネットからアクセスできないようにするにはどうすればよいか？（2つ選択）",
+			"A__c": "HerokuへアクセスできるIPをSalesforceのアドレスのみに制限する",
+			"B__c": "Salesforceの接続アプリケーションにHerokuのIPアドレスを登録する",
+			"C__c": "HerokuへアクセスできるIPをユニバーサルコンテナ社のアドレスのみに制限する",
+			"D__c": "Salesforceの接続アプリケーションにユニバーサルコンテナ社のアドレスを登録する",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSaAAK"
+			},
+			"Question__c": "パターン２（シールド）SalesforceとHerokuのPostgresでデータを同期し、さらにPostgresのデータを外部のデータストアに出力したい。どうすればよい？（2つ選択）",
+			"A__c": "SalesforceとPostgresをHeorku Connectで結ぶ",
+			"B__c": "Postgresから外部データストアにETLツールで出力する",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSbAAK"
+			},
+			"Question__c": "パターン２（シールド）既存のアプリケーションを2つの別々のアプリに分割するときどうする？",
+			"A__c": "既存と新規で異なるKafkaアドオンを使用する",
+			"B__c": "Kafkaのトピックを2つのアプリで排他的にして使用する",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeScAAK"
+			},
+			"Question__c": "パターン２（シールド）アプリケーションを複数のリージョンにリリースしたい。どうする？",
+			"A__c": "private spacesでリージョンを指定",
+			"B__c": "common runtimeで複数のリージョンにいっせいにリリースできる",
+			"C__c": "heroku cliを使えばいつでもリージョンを変更できる",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSdAAK"
+			},
+			"Question__c": "パターン２（シールド）アプリabcがある。公開インターネットからアクセス可能なアプリはcだけにしたい。（アプリa bは相互にアクセス可、アプリcはアプリa bにアクセス可の図が表示）利用できる機能は？（2つ選択）",
+			"A__c": "internal routing",
+			"B__c": "trusted ip ranges",
+			"C__c": "private spaces",
+			"D__c": "vpc peering",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSeAAK"
+			},
+			"Question__c": "（2020/08/20追加）Herokuアプリケーションでクレジットカード決済を扱う為、クレジットカードにある名前、番号、有効期限を保存する必要がある。アーキテクトはどのような構成を推奨すべきですか？",
+			"A__c": "Trusted IPを用いたPrivate Spaces",
+			"B__c": "Common Runtime",
+			"C__c": "Shield Private Spaces",
+			"D__c": "Internal Routingを用いたPrivate Spaces",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://jp.heroku.com/compliance https://jp.heroku.com/compliance"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRqAAK"
+			},
+			"Question__c": "【出題実績有】パターン１（ソード）クライアントのHeroku Webアプリケーションは、バックエンドファイルストレージシステムから取得したデータを表示します。クライアントは、このデータをSalesforce組織から表示できるようにしたが、編集できないようにしたいと考えています。このシナリオでは、アーキテクトはどの推奨事項を作成する必要がありますか？",
+			"A__c": "ファイルをHeroku Postgresデータベースのテーブルに複製し、Heroku Connectを使用してテーブルをSalesforce組織に同期します",
+			"B__c": "すべてのファイルURLをHeroku Postgresテーブルに保存し、Heroku Connectを使用してテーブルをSalesforce組織に同期します",
+			"C__c": "ファイルをHeroku Postgresデータベースのテーブルに複製し、Heroku外部オブジェクトを使用してテーブルをSalesforce組織に公開します",
+			"D__c": "ファイルをアプリケーションのローカルファイルシステムに複製し、worker dynoを使用して定期的にSalesforce組織に同期します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "<p>Heroku Connectはバイナリに対応していない</p><p><br></p><p>https://vceguide.com/which-recommendation-should-an-architect-make-in-this-scenario/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSgAAK"
+			},
+			"Question__c": "（2020/10/10追加）DynoAとDynoBの2個からなるWebアプリケーションがある。とあるクライアントからのリクエストがDynoAに振り分けられた。その後、同じクライアントから続けてリクエストがあった場合、リクエストはどのように振り分けられるか。",
+			"A__c": "必ずDynoAに振り分けられる。",
+			"B__c": "必ずDynoBに振り分けられる。",
+			"C__c": "ランダムで振り分けられる。",
+			"D__c": "前回のリクエストの処理が終わっていればDynoA、終わっていなければDynoB。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "ランダムに振り分けられるらしい。  https://devcenter.heroku.com/articles/http-routing#request-distribution HTTP Routing - Request distribution"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeSfAAK"
+			},
+			"Question__c": "（2020/08/20追加）Heroku Connectで同期を開始してからデータが削除されていることがある事に気づいたので再度マッピングを行いたい。再度マッピングを行ったらどうなるか？",
+			"A__c": "テーブルは切り捨てられ、データは全て削除される。同期を自動で開始される。",
+			"B__c": "テーブルは切り捨てられ、データは全て削さされる。同期を手動で開始しなければならない。",
+			"C__c": "テーブルは残り、データも全て残ったままである。同期を自動で開始される。",
+			"D__c": "テーブルは残り、データも全て残ったまでである。同期を手動で開始しなければならない。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": "https://devcenter.heroku.com/articles/heroku-connect-faq#what-does-reloading-a-mapping-do https://devcenter.heroku.com/articles/heroku-connect-faq#what-does-reloading-a-mapping-do"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRwAAK"
+			},
+			"Question__c": "パターン２（シールド）複数のアプリケーションがあるとき、ログを同じ場所に保管する方法は？",
+			"A__c": "既存のログアドオンを他のアプリケーションにも追加する",
+			"B__c": "Redisでまとめる",
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRxAAK"
+			},
+			"Question__c": "パターン２（シールド）Heroku Postgresと外部のデータストアを接続する方法（2つ選択)",
+			"A__c": "Private Spacesを使う SSLエンドポイントを使う",
+			"B__c": null,
+			"C__c": null,
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000bGeRyAAK"
+			},
+			"Question__c": "パターン２（シールド）Production Checkでできることは？（2つ選択してください）",
+			"A__c": "Web Dynoの冗長性の確認（少なくとも２つ起動できること）",
+			"B__c": "Worker Dynoの冗長性の確認（少なくとも１つ起動できること）",
+			"C__c": "データベースが本番用かの確認",
+			"D__c": "CDNを配置しているか",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://flt.backlog.jp/git/219TECPTL/quiz/blob/master/heroku_arch_designer_quiz/config.js",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8sAAG"
+			},
+			"Question__c": "A client is creating a new API application. The app should only be accessible from other apps that they deploy to Heroku. Also, traffic between the other apps and the API should not transit the public internet.Which solution should an Architect recommend to meet these requirements?",
+			"A__c": "Create the application in a Private Space with default options.",
+			"B__c": "Create the application in a Private Space and restrict the application’s set of trusted IP ranges.",
+			"C__c": "Create the application with Internal Routing enabled, in a Private Space.",
+			"D__c": "Create the application in a Shield Private Space to enforce stricter requirements for TLS termination.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-solution-should-an-architect-recommend-to-meet-these-requirements/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7tAAG"
+			},
+			"Question__c": "Which two conventions of the Heroku platform reflect the Twelve-Factor methodology’s recommendation to &quot;execute the app as one or more stateless processes?&quot; (Choose two.)",
+			"A__c": "Log messages from each of an app’s dynos are kept separate from each other.",
+			"B__c": "Heroku apps define process types in a Procfile.",
+			"C__c": "A Heroku app’s config vars are deleted on deploys and app restarts.",
+			"D__c": "<p>Dynos have an ephemeral filesystem.</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://vceguide.com/which-two-conventions-of-the-heroku-platform-reflect-the-twelve-factor-methodologys-recommendation-to-execute-the-app-as-one-or-more-stateless-processes/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7uAAG"
+			},
+			"Question__c": "A client’s Heroku web application displays data that is fetched from a back-end file storage system. The client now wants this data to be viewable, but not editable, from their Salesforce org.Which recommendation should an Architect make in this scenario?",
+			"A__c": "Replicate the files to tables in a Heroku Postgres database, and use Heroku Connect to synchronize the tables to the Salesforce org.",
+			"B__c": "Store all file URLs in a Heroku Postgres table, and use Heroku Connect to synchronize the table to the Salesforce org.",
+			"C__c": "Replicate the files to tables in a Heroku Postgres database, and use Heroku External Objects to expose the tables to the Salesforce org.",
+			"D__c": "Replicate the files to the application’s local filesystem, and use worker dynos to periodically sync them to the Salesforce org.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-recommendation-should-an-architect-make-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7vAAG"
+			},
+			"Question__c": "When creating a Private Space, what is a valid reason to specify a region other than the default region?",
+			"A__c": "Private Spaces restrict inbound traffic to the current region.",
+			"B__c": "Heroku pricing varies by region.",
+			"C__c": "Running an application closer to its intended users can reduce latency.",
+			"D__c": "Available compute resources vary by region.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/when-creating-a-private-space-what-is-a-valid-reason-to-specify-a-region-other-than-the-default-region/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7wAAG"
+			},
+			"Question__c": "A customer’s IT department will not allow VPN access through their on-premise gateway. Users need to be able to access trusted Heroku applications only when they are in the office. These applications are deployed to a Heroku Private Space.Which two Private Spaces features should an Architect recommend to enable on-premise users to gain the access they need? (Choose two.)",
+			"A__c": "Stable outbound IP addresses",
+			"B__c": "VPC peering",
+			"C__c": "Internal routing",
+			"D__c": "Trusted IP ranges",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/which-two-private-spaces-features-should-an-architect-recommend-to-enable-on-premise-users-to-gain-the-access-they-need/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7xAAG"
+			},
+			"Question__c": "Universal Containers (UC) is opening offices in Japan and Germany. This will allow them to serve new customers in Asia and in Europe. UC is concerned about application latency for their new customers, especially because the app serves large amounts of dynamic content.Which Heroku Enterprise feature should an Architect recommend to alleviate this concern?",
+			"A__c": "Create Salesforce orgs in each region and use Heroku Connect to link them.",
+			"B__c": "Deploy instances of their applications into Private Spaces in Tokyo and Frankfurt.",
+			"C__c": "Deploy a globally-distributed CDN in front of the application.",
+			"D__c": "Create a Heroku Pipeline to mirror the app and its data in each region.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-heroku-enterprise-feature-should-an-architect-recommend-to-alleviate-this-concern/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7yAAG"
+			},
+			"Question__c": "Which three resources can be found in the Heroku Elements Marketplace? (Choose three.)",
+			"A__c": "Heroku Buttons",
+			"B__c": "Buildpacks",
+			"C__c": "Heroku Stacks",
+			"D__c": "Docker image files",
+			"E__c": "Add-ons",
+			"F__c": null,
+			"Answer__c": "A,B,E",
+			"URL__c": "https://vceguide.com/which-three-resources-can-be-found-in-the-heroku-elements-marketplace/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC7zAAG"
+			},
+			"Question__c": "A client is planning to deploy an application to Heroku. The client’s IT department requires all applications to be hosted from Australia, where their main office is located. Regulators in Australia require keystroke logs of all engineers who create interactive sessions for the application.Which should an Architect recommend in this scenario?",
+			"A__c": "Deploy the application to a Private Space in the Sydney region with Private Space Logging enabled.",
+			"B__c": "Deploy the application to the Common Runtime in the Sydney region.",
+			"C__c": "Deploy the application to a Shield Private Space in the Sydney region.",
+			"D__c": "Deploy the application to a Private Space in the Sydney region with Internal Routing enabled.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-should-an-architect-recommend-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC80AAG"
+			},
+			"Question__c": "Which two statements describe characteristics of Private Space Logging? (Choose two.)",
+			"A__c": "Log entries are forwarded as HTTPS POST requests.",
+			"B__c": "Log entries are collated and forwarded by Heroku’s Logplex router.",
+			"C__c": "Log entries can be forwarded to up to three logging services.",
+			"D__c": "Log entries can be forwarded to only one logging service.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/which-two-statements-describe-characteristics-of-private-space-logging/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC81AAG"
+			},
+			"Question__c": "A client wants to migrate their on-premise application to Heroku. The application maintains a local, in-memory cache for its data store to improve performance.What should an Architect advise the client about running the application on Heroku?",
+			"A__c": "The application should declare its in-memory cache as a separate process type to preserve it across deploys.",
+			"B__c": "All of the application’s web dynos will share a single in-memory cache.",
+			"C__c": "The application should replicate its in-memory cache to a local disk to preserve it across deploys.",
+			"D__c": "The application’s in-memory cache might be cleared at any time.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-an-architect-advise-the-client-about-running-the-application-on-heroku/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC82AAG"
+			},
+			"Question__c": "Universal Containers (UC) has a Heroku application that runs in Virginia, in the U.S., that uses Apache Kafka on Heroku. They have deployed a copy of the app in Asia. Now, both apps need a messaging backbone that will support multiregion distribution.What is the least complex architecture that an Architect should recommend?",
+			"A__c": "Deploy a multi-region version of Apache Kafka on Heroku.",
+			"B__c": "Use Heroku’s multi-tenant Kafka Basic plan.",
+			"C__c": "The app in Asia should write to the Kafka instance in Virginia.",
+			"D__c": "Provision a second Kafka add-on in Asia. Each instance of the app should sync with each other.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-least-complex-architecture-that-an-architect-should-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC83AAG"
+			},
+			"Question__c": "Universal Containers (UC) has a Heroku Postgres database attached to a Heroku app, which is running in the Common Runtime.What should an Architect recommend UC do to secure their database to only trusted locations?",
+			"A__c": "Move the database and the app into the Private Space.",
+			"B__c": "Add a Trusted IP range to the Heroku Postgres configuration.",
+			"C__c": "Set up a VPN from the trusted locations to the app.",
+			"D__c": "Set up a VPC in a one-off dyno when access to Heroku Postgres is needed.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-an-architect-recommend-uc-do-to-secure-their-database-to-only-trusted-locations/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC84AAG"
+			},
+			"Question__c": "Universal Containers (UC) wants to allow its developers to only use certain add-ons. UC enables Add-on Controls for Enterprise Teams and adds the add-ons they wish to allow to the list. There is an existing set of add-ons attached to applications, which are NOT on the list.What happens to these add-ons?",
+			"A__c": "They are deleted, and all data is backed up and saved.",
+			"B__c": "They are added to the allowed add-ons list.",
+			"C__c": "They are added to the exception list and not affected.",
+			"D__c": "They are flagged for removal, and the developers are notified.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-happens-to-these-add-ons/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC85AAG"
+			},
+			"Question__c": "Universal Containers has an application running in the Common Runtime that uses Heroku Redis. The data in Heroku Redis needs to be accessed by a third-party application.Which connection method should an Architect recommend to ensure the security of the data as it moves from Heroku Redis to the third-party application?",
+			"A__c": "Use stunnel to secure the connection between Heroku Redis and the third-party application.",
+			"B__c": "Set up SSL Certificates on Heroku and the third-party application.",
+			"C__c": "Only allow access to Heroku Redis through an SSH connection.",
+			"D__c": "Set up both a VPN and a VPC between Heroku and the third-party application.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/which-connection-method-should-an-architect-recommend-to-ensure-the-security-of-the-data-as-it-moves-from-heroku-redis-to-the-third-party-application/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC86AAG"
+			},
+			"Question__c": "Which Heroku runtimes provide keystroke logging?",
+			"A__c": "The Common Runtime, Private Spaces, and Shield Private Spaces",
+			"B__c": "Private Spaces and Shield Private Spaces",
+			"C__c": "Shield Private Spaces only",
+			"D__c": "Keystroke logging is not available on Heroku",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-heroku-runtimes-provide-keystroke-logging/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC87AAG"
+			},
+			"Question__c": "Which two Heroku features require Heroku Enterprise Teams? (Choose two.)",
+			"A__c": "<p>Fine-grained app access controls</p>",
+			"B__c": "Single Sign-on",
+			"C__c": "Paid add-on plans",
+			"D__c": "Heroku Pipelines",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/which-two-heroku-features-require-heroku-enterprise-teams/",
+			"Comment__c": "<p>https://devcenter.heroku.com/articles/app-privileges-in-heroku-organizations</p><p>fire gainedではなく、fine-grained(きめ細かい) access controlね</p><p><br></p><p><span style=\"\">https://devcenter.heroku.com/ja/articles/pipelines</span></p><p>パイプライン自体は無料で利用できる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC88AAG"
+			},
+			"Question__c": "A client runs an application on a background worker dyno. The application allows its users to request personalized information as a PDF. At peak usage, the app processes millions of requests at once. The resulting number of requests has caused a bottleneck that is impacting its performance.Which two solutions can an Architect recommend to resolve the bottleneck and improve performance? (Choose two.)",
+			"A__c": "Increase the number of workers to consume the job faster.",
+			"B__c": "Move the application to a Private Space.",
+			"C__c": "Add Heroku Redis as a job queue.",
+			"D__c": "Add a CDN add-on from the Elements marketplace.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://vceguide.com/which-two-solutions-can-an-architect-recommend-to-resolve-the-bottleneck-and-improve-performance/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC89AAG"
+			},
+			"Question__c": "A client’s application needs to run in a European country for data residence purposes.What is a consideration in this scenario?",
+			"A__c": "When a dyno is cycled, its replacement might run in a different region.",
+			"B__c": "European regions are only available for applications running in Private Spaces.",
+			"C__c": "Heroku Postgres backup snapshots and dataclips are always stored in the U.S.",
+			"D__c": "There is no guarantee that a Heroku Postgres database will be created in the same region as the application that provisions it.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-a-consideration-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8AAAW"
+			},
+			"Question__c": "Universal Containers wants to limit the total cost of their Heroku usage while they’re getting started on the platform. To accomplish this, they are considering replacing certain add-ons with comparable open-source components, but the development team doesn’t want to lose access to certain features that the add-ons provide.Which option should an Architect recommend for reducing add-on costs without affecting feature availability?",
+			"A__c": "Remove aliases for high-cost add-ons.",
+			"B__c": "Share a single instance of a compatible paid add-on across multiple applications.",
+			"C__c": "Remove data store add-ons from the staging and development versions of the applications.",
+			"D__c": "Migrate add-ons to free plans.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-option-should-an-architect-recommend-for-reducing-add-on-costs-without-affecting-feature-availability/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8BAAW"
+			},
+			"Question__c": "A hospital wants to build a mobile app that allows patients to check the status of submitted insurance claims, which the hospital stores in Salesforce Health Cloud. The app’s back end will run on Heroku. Which two measures should an Architect recommend to help ensure that the app is compliant with HIPAA? (Choose two.)",
+			"A__c": "Use Heroku Shield Connect to sync claim data from Salesforce to a Heroku Postgres database.",
+			"B__c": "Use only Heroku Shield Postgres databases to store claim data outside of Salesforce Health Cloud.",
+			"C__c": "Ensure that the back-end application’s code encrypts all claim data before writing it to a Heroku Postgres database.",
+			"D__c": "Ensure that the mobile app can only run when on the hospital’s intranet, which is connected to the back end’s Shield Private Space via VPN.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/which-the-hospital-stores-in-salesforce-health-cloud-the-apps-back-end-will-run-on-heroku-which-two-measures-should-an-architect-recommend-to-help-ensure-that-the-app-is-compliant-with-hipaa/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8CAAW"
+			},
+			"Question__c": "A client has a web application that persists data to a local JSON file. They are migrating the application to Heroku. In order for the application to conform to the Twelve-Factor methodology, what changes should an Architect recommend?",
+			"A__c": "The application should persist the data to a database add-on.",
+			"B__c": "The application should persist the data to a local SQLite database.",
+			"C__c": "The application should use at least 2 dynos to ensure that the JSON file is highly available.",
+			"D__c": "The application should be stateless and therefore not persist data at all.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-changes-should-an-architect-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8DAAW"
+			},
+			"Question__c": "Which is a characteristic of an add-on that is &quot;available&quot; for applications in Private Spaces but not &quot;installable&quot; in a Private Space?",
+			"A__c": "The add-on always runs in the same Private Space as the provisioning application.",
+			"B__c": "The traffic between the provisioning app and the add-on will travel across the public Internet.",
+			"C__c": "The add-on will always run in the same region, but not in the same Private Space, as the provisioning application.",
+			"D__c": "The add-on’s data will always be stored in the same Private Space as the provisioning application.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-is-a-characteristic-of-an-add-on-that-is-available-for-applications-in-private-spaces-but-not-installable-in-a-private-space/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8EAAW"
+			},
+			"Question__c": "A client’s Heroku application is publishing messages to an instance of Apache Kafka on Heroku.What does a second Heroku application need to do to consume those messages?",
+			"A__c": "Subscribe to the Kafka partition(s) that the messages are being published to.",
+			"B__c": "Join a consumer group that also includes the publishing application.",
+			"C__c": "Subscribe to the Kafka topic(s) that the messages are being published to.",
+			"D__c": "Convert the publishing application into a stream processor.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-does-a-second-heroku-application-need-to-do-to-consume-those-messages/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8FAAW"
+			},
+			"Question__c": "A client provisions a Heroku Postgres database in the EU region.Which two services related to Heroku Postgres are located in the U.S.? (Choose two.)",
+			"A__c": "Fork and follower databases",
+			"B__c": "Heroku Postgres Continuous Protection backups",
+			"C__c": "Snapshots created with Heroku PGBackups",
+			"D__c": "Heroku Dataclips",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://vceguide.com/which-two-services-related-to-heroku-postgres-are-located-in-the-u-s/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8GAAW"
+			},
+			"Question__c": "Universal Containers is developing a new application that has a lightweight Node.js front end. They will also be using a Java-based API, which combines data with Salesforce customer data. All of the data, and the API, is highly confidential.What should an Architect suggest to enforce security?",
+			"A__c": "Deploy the apps into either Heroku runtime. Force the Java app to use a CDN, and point the Node.js app to its appname.herokuapp.com domain.",
+			"B__c": "Deploy all of the apps to the Common Runtime. Force the Java app to use SSI/TLS sessions, and point the Node.js app to its appname.herokuapp.com domain.",
+			"C__c": "Deploy all of the apps to a Heroku Private Space. Force the Java app to use SSI/TLS sessions, and point the Node.js app to its appname.herokuapp.corn domain.",
+			"D__c": "Deploy all of the apps to a Heroku Private Space. Deploy the Java app with Internal Routing enabled. Deploy the Node.js app without Internal Routing enabled.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-an-architect-suggest-to-enforce-security/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8HAAW"
+			},
+			"Question__c": "A client is running an app on 20 Standard-2x dynos. They are noticing highly variable performance when the application is experiencing a heavy load. Which two suggestions should an Architect make in this scenario? (Choose two.)",
+			"A__c": "Configure the app to use Standard-lx dynos.",
+			"B__c": "Configure the app to use Performance dynos.",
+			"C__c": "Install a performance monitoring tool.",
+			"D__c": "Add additional Standard-2x dynos.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://vceguide.com/which-two-suggestions-should-an-architect-make-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8IAAW"
+			},
+			"Question__c": "Universal Containers (UC) uses Apache Kafka on Heroku to stream shipment inventory data in real time throughout the world. A Kafka topic is used to send messages with updates on the shipping container GPS coordinates as they are in transit. UC is using a Heroku Kafka basic-0 plan. The topic was provisioned with 8 partitions, 1 week of retention, and no compaction. The keys for the events are being assigned by Heroku Kafka, which means that they will be randomly distributed between the partitions.UC has a single-dyno consumer application that persists the data to their Enterprise Data Warehouse (EDW). Recently, they’ve been noticing data loss in the EDW.What should an Architect with Kafka experience recommend?",
+			"A__c": "Enable compaction on the topic to drop older messages, which will drop older messages with the same key.",
+			"B__c": "Upgrade to a larger Apache Kafka for Heroku plan, which has greater data capacity.",
+			"C__c": "Use Heroku Redis to store message receipt information to account for &quot;at-least&quot; once delivery, which will guarantee that messages are never processed more than once. Scale up the consumer dynos to match the number of partitions sothat there is one process for each partition.",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-an-architect-with-kafka-experience-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8JAAW"
+			},
+			"Question__c": "A client’s Heroku application syncs data between a Heroku Postgres database and a Salesforce org using the Salesforce Bulk API. The client has determined the application currently uses 90% of the client’s daily Salesforce Bulk API limit.To overcome this issue, what feature, to replace the Bulk API implementation in this scenario, should an Architect recommend?",
+			"A__c": "Custom Apex callouts",
+			"B__c": "Heroku Connect",
+			"C__c": "Salesforce SOAP API",
+			"D__c": "Salesforce Connect",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-feature-to-replace-the-bulk-api-implementation-in-this-scenario-should-an-architect-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8KAAW"
+			},
+			"Question__c": "A client wants to use Heroku Connect to sync data from a Heroku Postgres table to a Salesforce org. The client only needs to sync a specific subset of the rows in the table.How should this be performed?",
+			"A__c": "Add a mapping filter to the table when setting up the sync, and select appropriate criteria from the list.",
+			"B__c": "Filter the data in the database, and provide an alternative table or view for use in the sync.",
+			"C__c": "Use the Heroku Connect Mapping Query Editor, and add filters to the query.",
+			"D__c": "Place Sharing Rules on the records, and restrict visibility to only those rows that are needed.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-should-this-be-performed/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8LAAW"
+			},
+			"Question__c": "A client requires that their web application’s logs are accessible only from within the same isolated network as the application itself.Which solution should an Architect recommend in this scenario?",
+			"A__c": "Deploy the application to a Private Space. Provide the Private Space’s stable outbound IPs to Heroku’s Logplex router to block all logs originating from the Private Space.",
+			"B__c": "Deploy the application to a Shield Private Space with Private Space Logging enabled. Forward logs to a destination within the Shield Private Space.",
+			"C__c": "Deploy the application to a Private Space. Connect the Private Space to an on-premise logging system using VPN and specify it as a log drain.",
+			"D__c": "Deploy the application to a Private Space. Enable Internal Routing to prevent the application’s logs from being forwarded outside of the Private Space.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-solution-should-an-architect-recommend-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8MAAW"
+			},
+			"Question__c": "A financial reporting application, hosted on an on-premise server, uses a native library (wkhtmltopdf) to convert its HTML reports into PDFs. The app is being migrated to Heroku.What option should an Architect recommend to enable the Heroku application to use wkhtmltopdf?",
+			"A__c": "Ensure that the Heroku app fetches the wkhtmltopdf library from cloud storage on dyno restart.",
+			"B__c": "Install the dependency using sudo apt installwkhtmltopdf from .profile in the project root.",
+			"C__c": "Continue to host wkhtmltopdf on-premise, and build a REST API so the library can be invoked from the Heroku app.",
+			"D__c": "Use a custom buildpack to install wkhtmltopdf using apt.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-option-should-an-architect-recommend-to-enable-the-heroku-application-to-use-wkhtmltopdf/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8NAAW"
+			},
+			"Question__c": "A customer wants to sync data between their Salesforce org and Heroku Postgres.Which two limitations should an Architect remember when recommending Heroku Connect? (Choose two.)",
+			"A__c": "Heroku Connect can only access fields and objects that its associated Salesforce integration user can access.",
+			"B__c": "Heroku Connect does not support all Salesforce objects and fields.",
+			"C__c": "Heroku Connect does not provide an API.",
+			"D__c": "Heroku Connect cannot sync custom objects.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/which-two-limitations-should-an-architect-remember-when-recommending-heroku-connect/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8OAAW"
+			},
+			"Question__c": "A Heroku application uses Heroku Connect to integrate with data from a Salesforce org. Since then, several fields from the Salesforce objects that were mapped using Connect have been removed. As a result, the development team will reload the mapping using Heroku Connect.What is an implication of reloading the mapping?",
+			"A__c": "The mapped tables in Heroku Postgres will continue to store the previously synchronized data, and synchronization will restart normally.",
+			"B__c": "The mapped tables in Heroku Postgres will be truncated as part of the reload action. The data in removed fields will be lost, and synchronization will pause until manually restarted.",
+			"C__c": "The mapped tables in Heroku Postgres will continue to store the previously synchronized data, but synchronization will pause until manually restarted.",
+			"D__c": "The mapped tables in Heroku Postgres will be truncated as part of the reload action. The data in removed fields will be lost, and synchronization will restart normally.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-an-implication-of-reloading-the-mapping/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8PAAW"
+			},
+			"Question__c": "Universal Containers has recently experienced a higher volume of traffic on their mobile app hosted on Heroku. When Universal Containers was running 4 standard-2x dynos with 1 GB RAM each, they encountered multiple H12 (&quot;request timeout&quot;) errors. The app never consumed more than 800 MB of RAM. They then switched to performance-m dynos, with 2.5 GB RAM, and set autoscaling to a maximum of 2 dynos. However, they still encountered H12 (&quot;request timeout&quot;) errors.What remediation should an Architect recommend to alleviate this problem?",
+			"A__c": "Move long-running tasks to worker dynos.",
+			"B__c": "Add a logging add-on from the Elements marketplace.",
+			"C__c": "Upgrade to performance-L dynos with 14 GB RAM.",
+			"D__c": "Replace autoscaling with a manual scaling option of 2.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-remediation-should-an-architect-recommend-to-alleviate-this-problem/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8QAAW"
+			},
+			"Question__c": "A healthcare client is creating a web portal for their customers on Heroku, which is sourced from a Salesforce instance. Some of the Salesforce data they wish to display falls under HIPAA compliance, and their auditors have determined this data must be stored encrypted-at-rest. To satisfy this requirement, they have enabled Platform Encryption on Salesforce. They are investigating Heroku Shield Private Spaces, Shield Dynos, Shield Postgres, and Shield Heroku Connect.How will Shield Heroku Connect interact with the encrypted fields in Salesforce?",
+			"A__c": "Shield Heroku Connect will be able to access only cypher text in the fields from Salesforce. They will need to import the encryption key from Salesforce to decrypt to store in Shield Postgres.",
+			"B__c": "Shield Heroku Connect will be able to synchronize data from fields in Salesforce without additional customization, but any writes will need to be encrypted using the Salesforce encryption key first before being written.",
+			"C__c": "Shield Heroku Connect requires customization on the Salesforce side to decrypt the data before transmitting to Heroku.",
+			"D__c": "Shield Heroku Connect will be able to synchronize data bidirectionally without additional customization.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-will-shield-heroku-connect-interact-with-the-encrypted-fields-in-salesforce/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8RAAW"
+			},
+			"Question__c": "<p>Universal Containers (UC) has expressed a desire to have encryption-at-rest enabled on their Heroku Postgres databases.Which three tiers would UC need to use to have that feature enabled? (Choose 4.)</p>",
+			"A__c": "Private",
+			"B__c": "Standard",
+			"C__c": "Hobby",
+			"D__c": "Shield",
+			"E__c": "Premium",
+			"F__c": null,
+			"Answer__c": "A,B,D,E",
+			"URL__c": "https://vceguide.com/which-three-tiers-would-uc-need-to-use-to-have-that-feature-enabled/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8SAAW"
+			},
+			"Question__c": "At Universal Containers (UC), a developer named Yuichiro wrote a PHP application that, in production, uses a MySQL database. Yuichiro is onboarding Mary, a new UC developer, who is setting up her development environment. Yuichiro asks Mary to:1) install the related PHP libraries manually so the application will run;2) use MongoDB, instead of MySQL, in the development environment.According to the Twelve-Factor methodology, which changes should an Architect recommend?",
+			"A__c": "Explicitly declare code dependencies in the application’s environment variables and use the same type of database in both development and production.",
+			"B__c": "Persist code dependencies in the application’s production database. Use the same type of database locally to ensure that the dependencies are accessible.",
+			"C__c": "Recursively determine code dependencies on application startup and maintain separate Git branches for the MongoDB- and MySQL- compatible versions of the application.",
+			"D__c": "Explicitly declare code dependencies in the application’s source and use the same type of database in both development and production.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/which-changes-should-an-architect-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8TAAW"
+			},
+			"Question__c": "A client wants to secure their web application using SSL/TLS. They do not have specific requirements regarding using a particular version of SSL/TLS.Which two Heroku features should an Architect recommend as options? (Choose two.)",
+			"A__c": "Heroku Private Spaces",
+			"B__c": "Automated Certificate Management",
+			"C__c": "Heroku SSL",
+			"D__c": "Heroku Shield Private Spaces",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/which-two-heroku-features-should-an-architect-recommend-as-options/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8UAAW"
+			},
+			"Question__c": "A client wants to perform complex processing on large data sets in Salesforce. The data is confidential, but it does not have advanced compliance requirements.What Heroku Enterprise features should an Architect recommend in this scenario?",
+			"A__c": "Shield Private Spaces and Heroku External Objects",
+			"B__c": "Private Spaces and Heroku Connect",
+			"C__c": "Private Spaces and Heroku External Objects",
+			"D__c": "Shield Private Spaces and Heroku Shield Connect",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-heroku-enterprise-features-should-an-architect-recommend-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8VAAW"
+			},
+			"Question__c": "Universal Containers has a Heroku Private Space with a VPN connection to their on-premise network. They want their remote employees to be able to access their Heroku applications using a VPN connection only.Which solution should an Architect recommend?",
+			"A__c": "Clone the Heroku applications to a second Private Space, and configure its VPN for remote employees.",
+			"B__c": "Enable remote employees to VPN into the company’s on-premise network.",
+			"C__c": "Configure a second VPN connection for the Private Space that remote employees can use.",
+			"D__c": "Add all remote employees to an Enterprise Team, and configure it to connect to the Private Space via SSO.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-solution-should-an-architect-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8WAAW"
+			},
+			"Question__c": "Universal Containers (UC) has configured SSO for their Heroku Enterprise Team using an identity provider (IdP).When a new employee joins the company, how should their Heroku account be created?",
+			"A__c": "A Heroku account is created for the employee automatically the first time they log in to Heroku via SSO.",
+			"B__c": "The employee should create a new Heroku account with the exact email address listed in their IdP record.",
+			"C__c": "No account creation is required, because all SSO users in a particular Enterprise Team are associated with a single Heroku account.",
+			"D__c": "An administrator of the Enterprise Team creates the Heroku account with the exact email address listed in the employee’s IdP record.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/when-a-new-employee-joins-the-company-how-should-their-heroku-account-be-created/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8XAAW"
+			},
+			"Question__c": "A client wants to use Heroku Connect to sync data bidirectionally between a Salesforce org and a Heroku Postgres database. In this scenario, which two are advantages to setting a custom External Identifier field in the Heroku Connect mapping? (Choose two.)",
+			"A__c": "External IDs simplify the mapping of polymorphic relationships in the Salesforce org.",
+			"B__c": "External IDs improve speed when inserting multiple related objects.",
+			"C__c": "External IDs prevent the creation of orphaned duplicates in Heroku Postgres.",
+			"D__c": "External IDs are required to enable bidirectional synchronization.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/which-two-are-advantages-to-setting-a-custom-external-identifier-field-in-the-heroku-connect-mapping/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8YAAW"
+			},
+			"Question__c": "Universal Containers (UC) recently acquired another company, International Shipping. Each company has its own Salesforce org, and UC wants those orgs to remain separate for the foreseeable future.Given this scenario, which Heroku feature should an Architect recommend to provide additional value to UC following the acquisition?",
+			"A__c": "Heroku Connect can be used to synchronize data directly between the two Salesforce orgs.",
+			"B__c": "Both orgs can be attached to the same Heroku application as an add-on to ensure data residency in the application’s region.",
+			"C__c": "Heroku External Objects can expose read-only data from both Salesforce orgs to Heroku Postgres.",
+			"D__c": "A Heroku Postgres database can sync data from both orgs for advanced querying capabilities.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/which-heroku-feature-should-an-architect-recommend-to-provide-additional-value-to-uc-following-the-acquisition/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8ZAAW"
+			},
+			"Question__c": "Universal Containers uses Heroku Connect to sync their Salesforce org’s data with Heroku Postgres. Periodically, they write a very large set of changes that needs to be fully replicated between these two systems.Which two sets of actions should an Architect propose? (Choose two.)",
+			"A__c": "Make the changes directly in Heroku Postgres. Then allow Heroku Connect to expose them to the Salesforce org using Heroku External Objects.",
+			"B__c": "Use Data Loader to write the changes to the Salesforce org. Then allow Heroku Connect to sync them to Heroku Postgres.",
+			"C__c": "Make the changes directly in Heroku Postgres. Then allow Heroku Connect to use the Bulk API to sync them to the Salesforce org.",
+			"D__c": "Pause Heroku Connect then make the changes directly in the Salesforce org. Then allow Heroku Connect to use the Salesforce Bulk API to sync them to Heroku Postgres.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/which-two-sets-of-actions-should-an-architect-propose/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8aAAG"
+			},
+			"Question__c": "A healthcare services client is requesting an architecture for a set of applications: one is a marketing application, and the other two are of customer service applications that allow for customers to interact with their healthcare records. The marketing application must be able to scale up within seconds in response to traffic spikes. The client wants to be able to deploy each of these applications to the U.S. East Coast and EMEA.Which applications should be deployed into which Heroku runtime?",
+			"A__c": "The marketing application into Private Spaces; customer service applications into Shield Private Spaces",
+			"B__c": "The marketing application into the Common Runtime; customer service applications into Shield Private Spaces",
+			"C__c": "The marketing application into the Common Runtime; customer service applications into Private Spaces",
+			"D__c": "The marketing application into Private Spaces; customer service applications into separate Private Spaces",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/which-applications-should-be-deployed-into-which-heroku-runtime/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8bAAG"
+			},
+			"Question__c": "For which two use cases should an Architect recommend using Heroku Redis? (Choose two.)",
+			"A__c": "Providing long-term data warehousing",
+			"B__c": "Adding jobs to a queue",
+			"C__c": "Providing a data cache layer",
+			"D__c": "Querying relational data",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/which-two-use-cases-should-an-architect-recommend-using-heroku-redis/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8cAAG"
+			},
+			"Question__c": "Universal Containers experienced an outage with their production Heroku Postgres database due to a fault with the underlying infrastructure. The database was unavailable for an hour. The database is on the Standard-0 plan. Which two actions should an Architect recommend to mitigate such database failures and outages in the future? (Choose two.)",
+			"A__c": "Create a follower database that uses the same plan as the leader.",
+			"B__c": "Migrate the database to a Premium-tier plan.",
+			"C__c": "Migrate the database to a larger Standard-tier plan.",
+			"D__c": "Create a fork of the database that uses the same plan as the leader.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/which-two-actions-should-an-architect-recommend-to-mitigate-such-database-failures-and-outages-in-the-future/",
+			"Comment__c": "<p>プレミアムプランは高可用性が提供されている</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8dAAG"
+			},
+			"Question__c": "A web application on Heroku wants to surface Salesforce data. All users of the web application will: 1) Authenticate using SSO with Salesforce. 2) Have user records in Salesforce.What architecture should be recommended in order to maintain the Salesforce security model already in place?",
+			"A__c": "Use Heroku Connect to sync the Salesforce data and Salesforce security model to Heroku Postgres.",
+			"B__c": "Have the application query Salesforce data and the security model directly using a cached admin credential.",
+			"C__c": "Use Heroku Connect, with a per-user authentication model, to sync the Salesforce data to Heroku Postgres.",
+			"D__c": "Have the application query Salesforce data directly through the Salesforce APIs as the running user.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-architecture-should-be-recommended-in-order-to-maintain-the-salesforce-security-model-already-in-place/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8eAAG"
+			},
+			"Question__c": "A client wants to create a scalable set of microservices that communicate with each other, where multiple microservices have a public REST API.Which architecture strategy allows this on Heroku?",
+			"A__c": "Each microservice is a separate Heroku app. The microservices communicate by using Apache Kafka as a message bus.",
+			"B__c": "Each microservice is a separate process type in a single Heroku app. The microservices communicate by using Redis as a message bus.",
+			"C__c": "Each microservice is a separate private space. The microservices communicate by using DNS Service Discovery.",
+			"D__c": "Each microservice is a separate process in a single Heroku app. The microservices communicate by using shared memory.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/which-architecture-strategy-allows-this-on-heroku/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8fAAG"
+			},
+			"Question__c": "Universal Containers has a Heroku app that uses several third-party add-ons. They now need to enforce data privacy and be compliant with General Data Protection Regulation (GDPR).What should an Architect advise UC regarding data residency in this scenario?",
+			"A__c": "Heroku does not control where add-on providers store data.",
+			"B__c": "Heroku support can configure add-ons for specific data residency needs.",
+			"C__c": "Heroku guarantees the physical location of its control surface APIs.",
+			"D__c": "Data residency for add-ons is covered under Salesforce’s GDPR compliance.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-an-architect-advise-uc-regarding-data-residency-in-this-scenario/",
+			"Comment__c": "<p>https://devcenter.heroku.com/ja/articles/regions#data-residency</p><p>アドオンのデータ所在はHerokuで規制してない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8gAAG"
+			},
+			"Question__c": "An app uses a queue of worker dynos to perform complex image processing, but the worker dynos are occasionally running out of memory when performing the processing. All of their dynos are currently standard-1x dynos.What should an Architect recommend in this scenario?",
+			"A__c": "Add additional worker dynos.",
+			"B__c": "Break up the image processing across multiple dynos.",
+			"C__c": "Move the app to a Private Space.",
+			"D__c": "Change the type of dynos to standard-2x.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-an-architect-recommend-in-this-scenario-2/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8hAAG"
+			},
+			"Question__c": "A client wants to use Heroku to build a data bridge between Salesforce and Google Cloud Platform (GCP).Which combination of Heroku features should an Architect recommend to secure the connection between Heroku and GCP?",
+			"A__c": "Heroku Shield Private Spaces and Heroku Shield Connect",
+			"B__c": "Heroku Private Spaces and Private Space VPN Connections",
+			"C__c": "Heroku Private Spaces and Private Space Peering",
+			"D__c": "Heroku Shield Private Spaces and Internal Routing",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-combination-of-heroku-features-should-an-architect-recommend-to-secure-the-connection-between-heroku-and-gcp/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8iAAG"
+			},
+			"Question__c": "Part of a client’s design is the ability to easily share between two applications running on Heroku.What should an Architect recommend?",
+			"A__c": "Attach a single storage add-on, such as Heroku Postgres, to both applications.",
+			"B__c": "Create Foreign Data Wrappers to expose the tables from one database to another.",
+			"C__c": "Provision Heroku Connect to sync the data into a custom object in Salesforce.",
+			"D__c": "Provision Apache Kafka on Heroku to easily stream the data between the two apps.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-should-an-architect-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8jAAG"
+			},
+			"Question__c": "A client has data in a production Heroku Postgres database, and needs to quickly get access to a subset of that data for reporting needs.Which two features does Heroku Dataclips provide to enable this? (Choose two.)",
+			"A__c": "JSON export of query results, with CORS support",
+			"B__c": "CSV export of query results",
+			"C__c": "A simple REST API access to query results",
+			"D__c": "Postgres dump file of query results",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/which-two-features-does-heroku-dataclips-provide-to-enable-this/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8kAAG"
+			},
+			"Question__c": "Which three items are required to successfully set up Single Sign-on (SSO) services with Heroku? (Choose three.)",
+			"A__c": "An identity provider with built-in support for Heroku",
+			"B__c": "A Heroku Enterprise Team",
+			"C__c": "An existing Heroku account for each user",
+			"D__c": "At least one valid SSO certificate",
+			"E__c": "Administrative permissions on the selected identity provider",
+			"F__c": null,
+			"Answer__c": "B,D,E",
+			"URL__c": "https://vceguide.com/which-three-items-are-required-to-successfully-set-up-single-sign-on-sso-services-with-heroku/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8lAAG"
+			},
+			"Question__c": "Universal Containers intends to build an app which will accept card payments. The app also needs to store, process, and transmit cardholder data.Which Heroku architecture should an Architect recommend?",
+			"A__c": "Common Runtime with secure, isolated containers for running the app’s code.",
+			"B__c": "A Private Space restricted to a set of trusted IP ranges.",
+			"C__c": "A Shield Private Space with a Shield Postgres add-on.",
+			"D__c": "A Private Space with Internal Routing enabled on the app.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-heroku-architecture-should-an-architect-recommend/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8mAAG"
+			},
+			"Question__c": "A client wants to create a secure network connection between Heroku applications running in a Private Space and an AWS VPC.Which Heroku feature should an Architect recommend to create the connection?",
+			"A__c": "Internal Routing",
+			"B__c": "Private Space Peering",
+			"C__c": "Private Space VPN connections",
+			"D__c": "Heroku Connect",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-heroku-feature-should-an-architect-recommend-to-create-the-connection/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8nAAG"
+			},
+			"Question__c": "A client wants to add CPU-intensive video processing functionality to their Heroku web application. Which two strategies should an Architect recommend for implementing this functionality? (Choose two.)",
+			"A__c": "Add a new process type for worker dynos that pull video processing jobs from a queue.",
+			"B__c": "Attach a video processing add-on from the Heroku Elements Marketplace to the application.",
+			"C__c": "Delegate video processing tasks to the app’s staging version to remove load from the production app.",
+			"D__c": "Divide each video processing task across multiple web dynos to mitigate added CPU load.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/which-two-strategies-should-an-architect-recommend-for-implementing-this-functionality/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8qAAG"
+			},
+			"Question__c": "Universal Containers needs to write their Heroku application’s logs to two destinations: an on-premise Syslog log server and a cloud analytics provider that ingests logs using an HTTPS endpoint.What should an Architect recommend in this scenario?",
+			"A__c": "Publish all logs to Apache Kafka on Heroku, and create a separate app that consumes and distributes log messages.",
+			"B__c": "Write all logs to Heroku Redis as a buffer and use an add-on to send them to both destinations.",
+			"C__c": "Add a logging library to the application source that sends all logs directly to both destinations.",
+			"D__c": "Write all logs to stdout, and configure a separate log drain for each destination.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-should-an-architect-recommend-in-this-scenario/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a002w00000cSC8rAAG"
+			},
+			"Question__c": "A hospital is planning to rewrite its on-premise patient registration system. Their current system is HIPAA-compliant as well as ISO 27018-compliant. They need to maintain these same certification levels after the rewrite. Their new app also needs to sync PII (personally identifiable information) data with their Salesforce org.What Heroku Enterprise solutions should an Architect propose?",
+			"A__c": "Build the app in a Shield Private Space, with a Shield Heroku Postgres database, and use Apache Kafka on Heroku to stream from the Salesforce org.",
+			"B__c": "Build the app in the Common Runtime, use a Heroku Postgres database, and use Heroku Connect to sync to Salesforce.",
+			"C__c": "Build the app in a Shield Private Space, with a Shield Heroku Postgres database, and use Shield Heroku Connect to sync to Salesforce.",
+			"D__c": "Build the app in a Private Space with a Private Heroku Postgres database, and use Heroku Connect to sync to Salesforce.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-heroku-enterprise-solutions-should-an-architect-propose/",
+			"Comment__c": null
+		}
+	]
+}

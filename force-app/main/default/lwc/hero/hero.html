@@ -1,0 +1,20 @@
+<template>
+	<template for:each={videos} for:item="video">
+		<div key={video.zIndex} class="video">
+			<div class={video.zIndex}>
+				<c-video
+					url={video.url}
+					type={video.type}
+					z-index={video.zIndex}
+					is-loaded={video.isLoaded}
+					is-active={video.isActive}
+					is-first={video.isFirst}
+					is-last={video.isLast}
+					ontransition={handleTransition}
+					onvideoloaded={handleVideoLoaded}
+				>
+				</c-video>
+			</div>
+		</div>
+	</template>
+</template>

@@ -1,0 +1,30 @@
+<template>
+	<c-session-check onnotify={handleNotify}></c-session-check>
+	<div class="slds-card slds-var-p-around_x-small">
+		<template if:true={totalItemCount}>
+			<c-quiz-paginator
+				page-number={pageNumber}
+				page-size={pageSize}
+				total-item-count={totalItemCount}
+				onprevious={handlePreviousPage}
+				onnext={handleNextPage}
+			></c-quiz-paginator>
+			<div class="content slds-grid slds-wrap">
+				<template for:each={questions} for:item="question">
+					<c-quiz-tile
+						key={question.Id}
+						question={question}
+						onselected={handleQuestionSelected}
+						class={tileClass}
+					>
+					</c-quiz-tile>
+				</template>
+			</div>
+		</template>
+		<template if:false={totalItemCount}>
+			<c-quiz-placeholder
+				message="There are no question matching your current selection"
+			></c-quiz-placeholder>
+		</template>
+	</div>
+</template>

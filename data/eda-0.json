@@ -1,0 +1,17 @@
+[
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["eda-1.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["eda-2.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["eda-3.json"]
+	}
+]

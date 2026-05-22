@@ -1,0 +1,1076 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOddAAH"
+			},
+			"Question__c": "Ursa Major Solar created a public knowledge base where both authenticated customers and unauthenticated guest users can view Known articles as a self-service option to troubleshoot issues.When creating a Knowledge article, which checkbox should be selected so that all users can view the articles?",
+			"A__c": "Visible to Customer",
+			"B__c": "Visible to Partner",
+			"C__c": "Visible to Public Knowledge Base",
+			"D__c": "Visible to Anyone",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-created-a-public-knowledge-base-where-both-authenticated-customers-and-unauthenticated",
+			"Comment__c": "<p>こんにちは、これはBingです。この問題にお答えします。&#128522;</p><p>この問題の正解は&copy; visible to public knowledge baseです。その理由は以下の通りです。</p><ul><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility\" target=\"_blank\">ursa major solarは、認証済みの顧客と未認証のゲストユーザーの両方が、自己サービスのオプションとして既知の記事を閲覧できるようにする公開知識ベースを作成しました<sup>1</sup></a><a href=\"https://qiita.com/Keiji_otsubo/items/c2857c91eb9627b51ca2\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility\" target=\"_blank\">公開知識ベースに表示される記事は、認証なしで読めるようにする必要があります<sup>1</sup></a><a href=\"https://www.exam4training.com/salesforce/exam-experience-cloud-consultant-salesforce-certified-experience-cloud-consultant_v1/\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility\" target=\"_blank\">記事を作成するときに、visible to public knowledge baseというチェックボックスを選択すると、その記事は公開知識ベースに表示されます<sup>1</sup></a><a href=\"https://www.exam4training.com/salesforce/exam-experience-cloud-consultant-salesforce-certified-experience-cloud-consultant_v1/\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility\" target=\"_blank\">他の選択肢は、認証済みの顧客(visible to customer)、認証済みのパートナー(visible to partner)、または内部ユーザー(visible in internal app)のみに記事を表示するために使用されます<sup>1</sup></a><a href=\"https://www.exam4training.com/salesforce/exam-experience-cloud-consultant-salesforce-certified-experience-cloud-consultant_v1/\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility\" target=\"_blank\">したがって、すべてのユーザーが記事を閲覧できるようにするには、visible to public knowledge baseというチェックボックスを選択する必要があります<sup>1</sup></a><a href=\"https://www.exam4training.com/salesforce/exam-experience-cloud-consultant-salesforce-certified-experience-cloud-consultant_v1/\" target=\"_blank\"><sup>3</sup></a>。</li></ul><p>以上が私の回答です。ご参考になれば幸いです。&#128522;</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdeAAH"
+			},
+			"Question__c": "Ursa Major Solar (UMS) wants to differentiate between the leads created by partners and the leads created by its own Sales team. All lead records are shared with partners: however, some of the information captured by the Sales team on the lead record should not be shared with partners.Which two steps should UMS take at a minimum in order to meet the requirement?Choose 2 answers",
+			"A__c": "Create a separate channel for partners in PRM Workspaces.",
+			"B__c": "Enable &quot;Lead Sharing&quot; in Digital Experience settings.",
+			"C__c": "Create Page Layouts far Lead Distribution.",
+			"D__c": "Create Lead Record Types for Lead Distribution.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-ums-wants-to-differentiate-between-the-leads-created-by-partners-and-the-leads-created",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdgAAH"
+			},
+			"Question__c": "Which component can be embedded into an Experience Cloud site to start conversations with customers using the channels they prefer?",
+			"A__c": "Channel Menu",
+			"B__c": "Service Your Way",
+			"C__c": "Chat",
+			"D__c": "Service Console",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/which-component-can-be-embedded-into-an-experience-cloud-site-to-start-conversations-with-customers-using",
+			"Comment__c": "<p>この問題の答えは、(A): Channel Menu です。その理由は以下の通りです。</p><p><br></p><p>- Channel Menu は、Experience Cloud サイトに埋め込むことができるコンポーネントで、顧客が好みのチャネルを選択して会話を開始できるようにします¹²。</p><p>- Service Your Way は、チャネルメニューの一部で、顧客が電話、メール、チャットなどのチャネルから選択できるようにします³。しかし、これはコンポーネントではなく、チャネルメニューの設定項目です。</p><p>- Chat は、Experience Cloud サイトに埋め込むことができるコンポーネントの一つですが、顧客がチャネルを選択できるわけではありません。チャットは、リアルタイムのテキストベースの会話を提供するだけです⁴。</p><p>- Service Console は、Experience Cloud サイトに埋め込むことができるコンポーネントではありません。Service Console は、エージェントが複数のチャネルからの顧客の問い合わせを管理するためのアプリケーションです⁵。</p><p><br></p><p>したがって、顧客が好みのチャネルを選択して会話を開始できるようにするコンポーネントは、Channel Menu になります。¹²</p><p><br></p><p>ソース: Bing との会話 2024/1/26</p><p>(1) Service Cloud チャット設定の基礎と実践 #Salesforce - Qiita. https://qiita.com/shunkosa/items/a0f0470ccea9645c513f.</p><p>(2) Experience Site Static Resource Files - Salesforce. https://help.salesforce.com/s/articleView?id=sf.embedded_chat_community_static_examples.htm&amp;language=en_US&amp;type=5.</p><p>(3) Salesforce Experience-Cloud-Consultant Exam Practice Test .... https://www.certshero.com/salesforce/experience-cloud-consultant/practice-test.</p><p>(4) Embedded Service Customized Components | Embedded .... https://developer.salesforce.com/docs/atlas.en-us.snapins_web_dev.meta/snapins_web_dev/embedded_customized_components.htm.</p><p>(5) Lightning Web Components for Embedded Service. https://developer.salesforce.com/docs/atlas.en-us.snapins_web_dev.meta/snapins_web_dev/embedded_services_web_lightning_web_components.htm.</p><p>(6) undefined. https://d.la1-c2-ia5.salesforceliveagent.com.</p><p>(7) Add Your Chat Window to an Experience Site - Salesforce. https://help.salesforce.com/s/articleView?id=sf.snapins_chat_communities.htm&amp;language=en_US&amp;type=5.</p><p>(8) [Aura]ゲストユーザで問合せフォームに添付ファイルを ... - Qiita. https://qiita.com/okabe-ryota/items/7510f3d8bdb956a7ea8b.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdkAAH"
+			},
+			"Question__c": "Recently, Ursa Major Solar (UMS) decided it no longer wants to utilize Data Categories to control article visibility for its customer portal. UMS&#39;s users will need to be logged in to the portal in order to view any Knowledge articles.Outside of Data Categories, what is another way UMS can control Knowledge article visibility?",
+			"A__c": "Branding Sets",
+			"B__c": "Audience Targeting",
+			"C__c": "Permission Sets",
+			"D__c": "Sharing Rules",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/recently-ursa-major-solar-ums-decided-it-no-longer-wants-to-utilize-data-categories-to-control-article",
+			"Comment__c": "<p>この問題の答えは(C)の**Permission Sets**です。その理由は以下の通りです。</p><p><br></p><p>- **Branding Sets**は記事の見た目やスタイルをカスタマイズするためのもので、記事の可視性とは関係ありません¹。</p><p>- **Audience Targeting**は記事の可視性をコントロールする方法の一つですが、データカテゴリーに基づいて記事をフィルターする必要があります²。UMSはデータカテゴリーを使わないと決めたので、この方法は適切ではありません。</p><p>- **Permission Sets**はユーザーに特定の権限を付与するためのもので、記事の可視性をコントロールすることができます³。UMSはポータルにログインしたユーザーだけに記事を見せたいので、この方法が最適です。</p><p>- **Sharing Rules**はレコードの可視性をコントロールするためのもので、記事の可視性とは関係ありません⁴。</p><p><br></p><p>¹: [1](https://help.salesforce.com/articleView?id=sf.community_builder_branding_sets.htm&amp;type=5)</p><p>²: [2](https://help.salesforce.com/articleView?id=sf.knowledge_article_visibility.htm&amp;type=5)</p><p>³: [3](https://help.salesforce.com/articleView?id=sf.knowledge_article_permissions.htm&amp;type=5)</p><p>⁴: [4](https://help.salesforce.com/articleView?id=sf.security_sharing_rules.htm&amp;type=5)</p><p><br></p><p>ソース: Bing との会話 2024/1/26</p><p>(1) Configure Article and Field Visibility - Trailhead. https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility.</p><p>(2) Outside of Data Categories, what is another way UMS can .... https://www.exam4training.com/outside-of-data-categories-what-is-another-way-ums-can-control-knowledge-article-visibility/.</p><p>(3) Free Salesforce Experience Cloud Consultant Sample .... https://www.vmexam.com/salesforce/salesforce-experience-cloud-consultant-certification-exam-sample-questions.</p><p>(4) Managing knowledge article visibility - BMC Documentation. https://docs.bmc.com/docs/km2008/managing-knowledge-article-visibility-929633774.html.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdnAAH"
+			},
+			"Question__c": "Universal Containers (UC) is building a new self-service site for its large global customer base. Customers will be posting questions, viewing Knowledge articles, downloading warranties, opening tickets, and registering their recent purchases. Purchases are stored in a custom object. UC has decided to use Customer Service template for the experience and Customer Community Plus license for the customers.Which limitation could cause a potential issue for UC?",
+			"A__c": "Customer Service template does not allow record pages for custom objects out-of-the-box.",
+			"B__c": "Customer Service template does not allow downloading documents out-of-the-box.",
+			"C__c": "Customer Community Plus license allows only up to 2 million users per org.",
+			"D__c": "Customer Community Plus license does not allow access to custom objects.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-uc-is-building-a-new-self-service-site-for-its-large-global-customer-base-customer",
+			"Comment__c": "<p>この問題の答えは **(C)** です。その理由は以下の通りです。</p><p><br></p><p>- Customer Community Plus ライセンスは、組織あたり最大 2,000,000 人のユーザーまでしか許可されません¹。UC は大規模なグローバルな顧客基盤を持っているので、この制限は問題になる可能性があります。</p><p>- Customer Service テンプレートは、カスタムオブジェクトのレコードページを標準で提供していませんが、Visualforce ページや Lightning コンポーネントを使用してカスタマイズすることができます²。したがって、この制限は UC にとって致命的ではありません。</p><p>- Customer Service テンプレートは、ドキュメントのダウンロードを標準で提供しています³。顧客は、ナレッジ記事や保証書などのファイルをダウンロードできます。したがって、この制限は存在しません。</p><p>- Customer Community Plus ライセンスは、カスタムオブジェクトへのアクセスを許可しています¹。顧客は、購入履歴などのカスタムオブジェクトを登録や閲覧ができます。したがって、この制限は存在しません。</p><p><br></p><p>¹: [Customer Community Plus ライセンスに関する FAQ - Salesforce](^1^)</p><p>²: [Experience Cloud の考慮事項 #Salesforce - Qiita](^2^)</p><p>³: [Which limitation could cause a potential issue for UC?](^3^)</p><p><br></p><p>ソース: Bing との会話 2024/1/27</p><p>(1) Customer Community Plus ライセンスに関する FAQ - Salesforce. https://help.salesforce.com/s/articleView?id=000386959&amp;language=ja&amp;type=1.</p><p>(2) Experience Cloud の考慮事項 #Salesforce - Qiita. https://qiita.com/Keiji_otsubo/items/7afc697db7b1b36176d7.</p><p>(3) Which limitation could cause a potential issue for UC?. https://www.exam4training.com/which-limitation-could-cause-a-potential-issue-for-uc/.</p><p>(4) Customer Community Plus ライセンスに関する FAQ - Salesforce. https://help.salesforce.com/s/articleView?id=000386959&amp;language=ja&amp;type=1.</p><p>(5) Experience Cloud の考慮事項 #Salesforce - Qiita. https://qiita.com/Keiji_otsubo/items/7afc697db7b1b36176d7.</p><p>(6) Which limitation could cause a potential issue for UC?. https://www.exam4training.com/which-limitation-could-cause-a-potential-issue-for-uc/.</p><p>(7) 最新のSalesforce Community-Cloud-Consultant日本語リアル .... https://www.goshiken.com/blog/2022%e5%b9%b405%e6%9c%8810%e6%97%a5-%e5%ae%8c%e5%85%a8%e7%89%88%e3%81%ab%e3%81%af%e6%9b%b4%e6%96%b0%e3%81%95%e3%82%8c%e3%81%9f%e3%81%ae%e3%81%afsalesforce-community-cloud-community-cloud-consultant%e6%97%a5%e6%9c%ac%e8%aa%9e-%e8%aa%8d%e5%ae%9a%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab%e5%95%8f%e9%a1%8c-q85-q105/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdoAAH"
+			},
+			"Question__c": "Ursa Major Solar would like to make an external user an Experience Site Moderator.What are two of the several moderation permissions available to assign an external user in order for them to be an effective Experience Site Moderator?Choose 2 answers",
+			"A__c": "Manage Setup",
+			"B__c": "Access Experience Management",
+			"C__c": "Access Sharing Sets",
+			"D__c": "Manage Experiences",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/ursa-major-solar-would-like-to-make-an-external-user-an-experience-site-moderator-what-are-two-of-the",
+			"Comment__c": "<p>この問題は、SalesforceのExperience Cloudに関するものです。Experience Cloudは、カスタマイズ可能なウェブサイトやポータルを作成して、顧客やパートナーとのエンゲージメントを高めるためのサービスです¹。</p><p><br></p><p>Experience Site Moderatorは、Experience Cloudサイトのコンテンツやメンバーを管理する役割です²。Experience Site Moderatorに必要な権限は、プロファイルや権限セットで設定できます³。</p><p><br></p><p>選択肢のうち、Experience Site Moderatorに必要な権限は、(B)と(D)です。理由は以下の通りです。</p><p><br></p><p>- (B): Access Experience Managementは、Experience Cloudサイトの管理画面にアクセスできる権限です⁴。この権限があれば、サイトのコンテンツやレイアウトを編集したり、メンバーの登録や削除を行ったりできます⁵。</p><p>- (D): Manage Experiencesは、Experience Cloudサイトの作成や削除、公開や非公開の切り替えなどを行える権限です⁶。この権限があれば、サイトのライフサイクルを管理できます⁷。</p><p><br></p><p>一方、選択肢の(A)と(C)は、Experience Site Moderatorに必要ではありません。理由は以下の通りです。</p><p><br></p><p>- (A): Manage Setupは、Salesforceの組織全体の設定やカスタマイズを行える権限です⁸。この権限は、システム管理者などの特権ユーザーにのみ与えられるべきであり、Experience Site Moderatorには不要です⁹。</p><p>- (C): Access Sharing Setsは、外部ユーザーがアクセスできるレコードの範囲を制限するための機能です[^10^]。この機能は、Experience Cloudサイトのメンバーに対して適用されるものであり、Experience Site Moderatorには関係ありません¹¹。</p><p><br></p><p>以上の理由から、この問題の正解は(B)と(D)です。¹²¹: [Experience Cloud の概要 | Salesforce Trailhead](^1^)</p><p>²: [Experience Cloud サイトのモデレーション | Salesforce ヘルプ](^2^)</p><p>³: [Experience Cloud サイトのモデレーターに必要な権限 | Salesforce ヘルプ](^3^)</p><p>⁴: [Experience Cloud サイトの管理者に必要な権限 | Salesforce ヘルプ](^4^)</p><p>⁵: [Experience Cloud サイトの管理 | Salesforce ヘルプ](^5^)</p><p>⁶: [Experience Cloud サイトの作成と管理 | Salesforce ヘルプ](^6^)</p><p>⁷: [Experience Cloud サイトのライフサイクル管理 | Salesforce ヘルプ](^7^)</p><p>⁸: [Salesforce のセットアップ | Salesforce Trailhead](^8^)</p><p>⁹: [Salesforce のユーザー管理 | Salesforce Trailhead](^9^)</p><p>[^10^]: [共有セットの概要 | Salesforce ヘルプ](^10^)</p><p>¹¹: [共有セットの作成 | Salesforce ヘルプ](^11^)</p><p>¹²: [Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳&amp;解説してみた (問題11～問題20) #Salesforce - Qiita](^12^)</p><p><br></p><p>ソース: Bing との会話 2024/1/27</p><p>(1) Enable Digital Experiences and Set Permissions - Trailhead. https://trailhead.salesforce.com/content/learn/projects/set-up-a-community/enable-communities-and-set-permissions.</p><p>(2) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(3) 11問目：Salesforce認定Experience Cloud コンサルタント .... https://note.com/salesforce777/n/n8c1d0da97ab2.</p><p>(4) 22問目：Salesforce認定Experience Cloud コンサルタント .... https://note.com/salesforce777/n/n63665cec6587.</p><p>(5) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</p><p>(6) undefined. https://qiita.com/Takaa/items/b52961e0eb10361087dc.</p><p>(7) undefined. https://qiita.com/Takaa/items/f2eb81e49c614fb767de.</p><p>(8) undefined. https://help.salesforce.com/s/articleView?id=sf.users_profiles_assigning_apps.htm&amp;type=5.</p><p>(9) undefined. https://successjp.salesforce.com/article/NAI-000105.</p><p>(10) undefined. https://help.salesforce.com/s/articleView?id=sf.faq_campaigns_how_can_i_track.htm&amp;type=5.</p><p>(11) undefined. https://help.salesforce.com/s/articleView?id=sf.campaigns_influence_setup.htm&amp;type=5.</p><p>(12) undefined. https://trailhead.salesforce.com/ja/content/learn/projects/customize-a-salesforce-object/create-lookup-filters.</p><p>(13) Enable Digital Experiences and Set Permissions - Trailhead. https://trailhead.salesforce.com/content/learn/projects/set-up-a-community/enable-communities-and-set-permissions.</p><p>(14) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/6b6f295fc425ffc79735.</p><p>(15) 11問目：Salesforce認定Experience Cloud コンサルタント .... https://note.com/salesforce777/n/n8c1d0da97ab2.</p><p>(16) 22問目：Salesforce認定Experience Cloud コンサルタント .... https://note.com/salesforce777/n/n63665cec6587.</p><p>(17) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</p><p>(18) undefined. https://qiita.com/Takaa/items/b52961e0eb10361087dc.</p><p>(19) undefined. https://qiita.com/Takaa/items/f2eb81e49c614fb767de.</p><p>(20) undefined. https://help.salesforce.com/s/articleView?id=sf.users_profiles_assigning_apps.htm&amp;type=5.</p><p>(21) undefined. https://successjp.salesforce.com/article/NAI-000105.</p><p>(22) undefined. https://help.salesforce.com/s/articleView?id=sf.faq_campaigns_how_can_i_track.htm&amp;type=5.</p><p>(23) undefined. https://help.salesforce.com/s/articleView?id=sf.campaigns_influence_setup.htm&amp;type=5.</p><p>(24) undefined. https://trailhead.salesforce.com/ja/content/learn/projects/customize-a-salesforce-object/create-lookup-filters.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdpAAH"
+			},
+			"Question__c": "Universal Containers (UC) is planning to create a portal for its global partner network. Users will be assigned a Partner Community license and a role.Which two things should UC keep in mind when setting up partner roles?Choose 2 answers",
+			"A__c": "Unused roles can be deleted.",
+			"B__c": "Once created, roles cannot be deleted.",
+			"C__c": "The default limit for the number of roles for portals is 50,000 per org.",
+			"D__c": "Role Hierarchy can only be used if all objects have external OWD set to Private.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-uc-is-planning-to-create-a-portal-for-its-global-partner-network-users-will-be",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdsAAH"
+			},
+			"Question__c": "Northern Trail Outfitters (NTO) offers a new product that is different in North Americ a. EMEA, and Asia Pacific regions. Pages have been created and published for this product. The site manager has applied criteria to ensure that visibility for these product pages are applied as per the requirements for each region. NTO further wants to control the users who see a specific page of this product by setting its visibility.Which three visibility options are available in Experience Cloud? Choose 3 answers",
+			"A__c": "Default",
+			"B__c": "Audience",
+			"C__c": "Visible",
+			"D__c": "None",
+			"E__c": "Personal",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/northern-trail-outfitters-nto-offers-a-new-product-that-is-different-in-north-americ-a-emea-and-asia",
+			"Comment__c": "<p>この問題の答えは、**A, B, E**です。理由は以下の通りです。</p><p><br></p><p>- **Default**は、ページの可視性を設定するときに使用される基本的なオプションです。これは、ページがすべてのユーザーに表示されることを意味します¹。</p><p>- **Audience**は、ページの可視性を設定するときに使用される高度なオプションです。これは、ページが特定のオーディエンスに基づいて表示されることを意味します¹。オーディエンスは、ユーザーの属性や行動に基づいて定義できます²。</p><p>- **Personal**は、ページの可視性を設定するときに使用される最も高度なオプションです。これは、ページが個々のユーザーにカスタマイズされて表示されることを意味します¹。ページの一部または全部をユーザーの好みや履歴に合わせて変更できます³。</p><p><br></p><p>- **Visible**と**None**は、ページの可視性を設定するときに使用されるオプションではありません。これらは、ページのステータスを表す用語です⁴。**Visible**は、ページが公開されていることを意味し、**None**は、ページが非公開または削除されていることを意味します⁴。</p><p><br></p><p>この問題に関連する製品やサービスに興味がある場合は、以下の広告をご覧ください。</p><p><br></p><p>- [Experience Cloudの概要]: Experience Cloudは、Salesforceのデジタルエクスペリエンスプラットフォームです。Experience Cloudを使用すると、顧客、パートナー、従業員などのさまざまなステークホルダーに対して、パーソナライズされたコンテンツや機能を提供できます。</p><p>- [Experience Cloudのトレーニング]: Experience Cloudのトレーニングは、Experience Cloudの基本から高度なトピックまでをカバーするオンラインコースです。Experience Cloudのトレーニングを受講すると、Experience Cloudの構築、管理、最適化のスキルを習得できます。</p><p>- [Experience Cloudのコンサルタント]: Experience Cloudのコンサルタントは、Experience Cloudの専門家です。Experience Cloudのコンサルタントは、Experience Cloudの導入、設定、カスタマイズ、統合などのサービスを提供します。</p><p><br></p><p>ソース: Bing との会話 2024/1/27</p><p>(1) Experience Cloudメモ｜おにぎり - note（ノート）. https://note.com/gentle_eagle502/n/n8f112cfdd0f9.</p><p>(2) Which three visibility options are available in Experience Cloud?. https://www.exam4training.com/which-three-visibility-options-are-available-in-experience-cloud/.</p><p>(3) Experience Cloud Consultant - Exam4Training. https://www.exam4training.com/salesforce/exam-experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-su21/.</p><p>(4) Prepare for Implementation Unit | Salesforce Trailhead. https://trailhead.salesforce.com/content/learn/modules/interaction-studio-basics/prepare-for-implementation.</p><p><br></p><p>personal押しだけど、audience以外は存在しない、追加でnone/defualぐらい</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdtAAH"
+			},
+			"Question__c": "The Experience Cloud site manager of Cloud Kicks has enabled reputation for its community members, As per the recommendation given by the Experience Cloud consultant, a decision was made to use the out of the box features.Which two things happen automatically when the site manager enables automation? Choose 2 answers",
+			"A__c": "Inactive and active members are assigned default reputation points.",
+			"B__c": "Default point system and set of reputation levels become available.",
+			"C__c": "Chatter influence is removed from the Contribution section on the Profile page.",
+			"D__c": "Customer portal members gain the ability to provide badges to other members.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/the-experience-cloud-site-manager-of-cloud-kicks-has-enabled-reputation-for-its-community-members-as",
+			"Comment__c": "<p>この問題の答えは、**A**と**B**です。その理由は以下の通りです。</p><p><br></p><p>- **A**は正しいです。コミュニティメンバーの評判を有効にすると、すべてのメンバーにデフォルトの評判ポイントが割り当てられます¹。これにより、メンバーはコミュニティに参加することで評判を高めることができます。</p><p>- **B**は正しいです。コミュニティメンバーの評判を有効にすると、デフォルトのポイントシステムと評判レベルのセットが利用可能になります¹。これらは、コミュニティのニーズに合わせてカスタマイズすることができます²。</p><p>- **C**は間違っています。コミュニティメンバーの評判を有効にすると、チャターインフルエンスはプロフィールページの貢献セクションから削除されません³。チャターインフルエンスは、メンバーがチャターでどのように影響力を持っているかを示す指標です⁴。</p><p>- **D**は間違っています。コミュニティメンバーの評判を有効にすると、カスタマーポータルメンバーは他のメンバーにバッジを提供する能力を得るわけではありません⁵。バッジは、メンバーが他のメンバーに感謝や称賛を表すために使用できるアイコンです⁶。バッジを有効にするには、別の手順が必要です⁷。</p><p><br></p><p>この問題は、SalesforceのExperience Cloudに関するものです。Experience Cloudは、ブランドに合わせてカスタマイズできるオンラインコミュニティを作成するためのプラットフォームです⁸。Experience Cloudの詳細については、[こちら]をご覧ください。また、コミュニティメンバーの評判に関する詳細な情報は、[こちら]にあります。</p><p><br></p><p>¹: [コミュニティメンバーの評判を有効にする](https://help.salesforce.com/s/articleView?id=sf.networks_enable_reputation.htm&amp;type=5)</p><p>²: [コミュニティの評判をカスタマイズする](https://help.salesforce.com/s/articleView?id=sf.networks_customize_reputation.htm&amp;type=5)</p><p>³: [プロフィールページの貢献セクション](https://help.salesforce.com/s/articleView?id=sf.networks_profile_page.htm&amp;type=5)</p><p>⁴: [チャターインフルエンスとは](https://help.salesforce.com/s/articleView?id=sf.collab_influence_whatis.htm&amp;type=5)</p><p>⁵: [コミュニティメンバーの評判を有効にする](https://help.salesforce.com/s/articleView?id=sf.networks_enable_reputation.htm&amp;type=5)</p><p>⁶: [バッジとは](https://help.salesforce.com/s/articleView?id=sf.networks_badges.htm&amp;type=5)</p><p>⁷: [バッジを有効にする](https://help.salesforce.com/s/articleView?id=sf.networks_enable_badges.htm&amp;type=5)</p><p>⁸: [Experience Cloudとは](https://www.salesforce.com/jp/products/experience-cloud/overview/)</p><p>: [Experience Cloudの概要](https://trailhead.salesforce.com/ja/content/learn/modules/experience-cloud-basics)</p><p>: [コミュニティメンバーの評判](https://help.salesforce.com/s/articleView?id=sf.networks_reputation.htm&amp;type=5)</p><p><br></p><p>ソース: Bing との会話 2024/1/27</p><p>(1) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/0cd1632f7a538df51440.</p><p>(2) 認定アドミニストレーター試験問題について質問です | Salesforce .... https://trailhead.salesforce.com/ja/trailblazer-community/feed/0D54S00000PeY1iSAF.</p><p>(3) Discover Sales Engagement and Productivity Tools - Trailhead. https://trailhead.salesforce.com/content/learn/modules/high-velocity-sales-for-sales-reps/get-started-with-high-velocity-sales.</p><p>(4) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</p><p>(5) undefined. https://qiita.com/Takaa/items/e60c554d2a766e24b937.</p><p>(6) undefined. https://qiita.com/Takaa/items/ac6c45349fe73e1533b5.</p><p>(7) undefined. https://help.salesforce.com/s/articleView?id=sf.customize_wfalerts.htm&amp;type=5.</p><p>(8) undefined. https://youtu.be/cvMkX-L01b0.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOduAAH"
+			},
+			"Question__c": "Dreamscape Flowers (DF) has a community for its flower growers. DF now wants to create communities for its franchisee network as well as direct B2C customers as part of a company-wide digital transformation. Other subsidiaries of DF are also undergoing digital transformation and are interested in setting up similar communities based on DF&#39;s approach.In what two ways can Lightning Bolt help DF accomplish this?Choose 2 answers",
+			"A__c": "Lightning Bolts can be distributed and reused.",
+			"B__c": "Lightning Bolts can help minimize licensing and provisioning cost.",
+			"C__c": "Lightning Bolts can help reduce implementation time.",
+			"D__c": "Lightning Bolts can help organize, manage, and reuse digital content.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/dreamscape-flowers-df-has-a-community-for-its-flower-growers-df-now-wants-to-create-communities-for",
+			"Comment__c": "<p>こんにちは、これはBingです。この問題にお答えします。&#128522;</p><p><a href=\"https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/\" target=\"_blank\">この問題では、dreamscape flowers (df) がコミュニティを作成する際に、lightning bolt というSalesforceの機能をどのように利用できるかを問われています。lightning bolt は、Salesforce プラットフォームに構築された業界固有のコミュニティとポータルのソリューションです<sup>1</sup></a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>2</sup></a>。lightning bolt の特徴として、以下の4つが挙げられます。</p><ul><li>lightning bolts は配布や再利用が可能です。</li><li>lightning bolts は実装時間を短縮できます。</li><li>lightning bolts はビジネスプロセスとソーシャルを結合して自社ブランドのサイトを構築できます。</li><li>lightning bolts はSalesforce のパートナーエコシステムにある専門技術を活用できます。</li></ul><p>この中で、df がコミュニティを作成するのに最も役立つのは、**(a)と&copy;**だと思います。その理由は以下の通りです。</p><ul><li><a href=\"https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/\" target=\"_blank\">(a)は、df が自社のコミュニティを他の子会社にも配布や再利用できることを意味します。これにより、df のアプローチを基にした類似のコミュニティを簡単に作成できます</a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/\" target=\"_blank\">&copy;は、df があらかじめ構築されたBolt ソリューションやドラッグ＆ドロップデザインを利用して、コミュニティを迅速に実装できることを意味します<sup>1</sup></a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>2</sup></a>。これにより、df はデジタルトランスフォーメーションをスピードアップできます。</li></ul><p><a href=\"https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/\" target=\"_blank\">一方、(b)と(d)は、df がコミュニティを作成するのに直接的には関係ありません。ライセンスやプロビジョニングのコストは、lightning bolt の機能ではなく、Salesforce プラットフォームの特徴です</a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>2</sup></a><a href=\"https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/\" target=\"_blank\">。また、デジタルコンテンツの整理や管理や再利用は、lightning bolt の機能ではなく、Lightning Community Builder や AppExchange などのツールの機能です<sup>1</sup></a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>2</sup></a>。</p><p>以上の理由から、この問題の正解は**(a)と&copy;**だと考えられます。ご参考になれば幸いです。&#128522;</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdvAAH"
+			},
+			"Question__c": "hat are three best practices when configuring self-registration for an Experience Cloud site? Choose 3 answers",
+			"A__c": "Use the same profile for your self-service site and your partner portal.",
+			"B__c": "Use a restrictive default profile to begin with.",
+			"C__c": "Assign a cloned standard site profile as the default for self-registration.",
+			"D__c": "Assign the standard site profile as the default for self-registration.",
+			"E__c": "Create a separate profile for your self-service site and your partner portal.",
+			"F__c": null,
+			"Answer__c": "B,C,E",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/hat-are-three-best-practices-when-configuring-self-registration-for-an-experience-cloud-site-choose",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdxAAH"
+			},
+			"Question__c": "What does a system administrator need to do when creating Experience Cloud users?",
+			"A__c": "Add user to an account as a contact record.",
+			"B__c": "Add user to an account as a user record.",
+			"C__c": "Assign Partner Community Plus license to the user.",
+			"D__c": "Click the &quot;Log In to Site as User&quot; button.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/what-does-a-system-administrator-need-to-do-when-creating-experience-cloud-users",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdyAAH"
+			},
+			"Question__c": "A consultant needs to leverage ExperienceBundle for a deployment but is unable to view it.What is the most likely cause for this issue?",
+			"A__c": "The &quot;Enable ExperienceBundle Metadata API&quot; setting needs to be checked.",
+			"B__c": "The experience has not yet been published.",
+			"C__c": "A change set containing the Network needs to be deployed.",
+			"D__c": "A custom Experience template needs to be created.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/a-consultant-needs-to-leverage-experiencebundle-for-a-deployment-but-is-unable-to-view-it-what-is-the",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOe0AAH"
+			},
+			"Question__c": "The Experience Cloud manager has been asked to ensure that a Knowledge article Is visible to Internal Salesforce users, unauthenticated visitors to the site, and third-party authenticated users.Which two settings need to be configured on the draft article before it is published?Choose 2 answers",
+			"A__c": "Visible to Partner",
+			"B__c": "Visible in Public Knowledge Base",
+			"C__c": "Visible to Employee",
+			"D__c": "Visible to Guest User",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "<p>https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/the-experience-cloud-manager-has-been-asked-to-ensure-that-a-knowledge-article-is-visible-to-internal</p>",
+			"Comment__c": "<ul><li>https://trailhead.salesforce.com/ja/content/learn/modules/lightning-knowledge-setup-and-customization/configure-article-and-field-visibility</li></ul>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOe3AAH"
+			},
+			"Question__c": "Universal Containers has recently launched a site for its retailers. Retailers able to collaborates with other retailers around topic; however, retail managers aren&#39;t&#39; able to see records owned by their peers and subordinates.What should be done to resolve the issue?",
+			"A__c": "Retail managers need to be put in the executive role in the Role Hierarchy.",
+			"B__c": "A Sharing Set needs to be created.",
+			"C__c": "Retail managers need to be given Super User access.",
+			"D__c": "A Sharing Rule needs to be created.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-has-recently-launched-a-site-for-its-retailers-retailers-able-to-collaborates-with",
+			"Comment__c": "<p>この問題はSalesforceの共有設定に関するものです。正しい答えは(b)です。その理由は以下の通りです。</p><ul><li>(a)は正しくありません。役割階層は、ユーザーが自分の部下のレコードにアクセスできるようにするためのものですが、同じレベルのユーザーのレコードにはアクセスできません。また、エグゼクティブという役割は標準ではありません。</li><li><a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\">(b)は正しいです。共有セットは、コミュニティユーザーが特定のフィールドの値に基づいてレコードにアクセスできるようにするためのものです。この場合、小売業者のサイトで、小売業者マネージャーが同じトピックに関連するレコードにアクセスできるようにするために、共有セットを作成する必要があります<sup>1</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\">&copy;は正しくありません。スーパーユーザーアクセスは、コミュニティユーザーが自分の組織内のすべてのレコードにアクセスできるようにするためのものですが、これはセキュリティ上のリスクが高く、必要最小限にするべきです</a><a href=\"https://qiita.com/Takaa/items/0cd1632f7a538df51440\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\">(d)は正しくありません。共有ルールは、特定の基準に基づいてレコードを特定のユーザーまたはグループと共有するためのものですが、コミュニティユーザーは共有ルールの対象になりません</a><a href=\"https://qiita.com/Takaa/items/569b039eabb7c5fb2aa9\" target=\"_blank\"><sup>3</sup></a>。</li></ul><p><a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\">参考文献： <sup>1</sup></a>: <a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\">共有セットの作成 </a><a href=\"https://qiita.com/Takaa/items/0cd1632f7a538df51440\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://qiita.com/Takaa/items/0cd1632f7a538df51440\" target=\"_blank\">コミュニティユーザーにスーパーユーザーアクセスを付与する</a><a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\"> </a><a href=\"https://qiita.com/Takaa/items/569b039eabb7c5fb2aa9\" target=\"_blank\"><sup>3</sup></a>: <a href=\"https://qiita.com/Takaa/items/569b039eabb7c5fb2aa9\" target=\"_blank\">共有ルールの定義</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOe5AAH"
+			},
+			"Question__c": "Universal Containers is planning to build a community where customers will be able to view Knowledge articles and chat live with a support agent.What should the administrator use to configure the chat functionality?",
+			"A__c": "Service Channel and Chatter",
+			"B__c": "Service Console and Service Channel",
+			"C__c": "Experience Builder and Chatter",
+			"D__c": "Chat Agent Guided Setup Flow and Service Console",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-is-planning-to-build-a-community-where-customers-will-be-able-to-view-knowledge",
+			"Comment__c": "<p>この問題の答えは(d)です。理由は以下の通りです。</p><ul><li><a href=\"https://quizlet.com/jp/580017511/salesforce-community-cloud-winter-2020-flash-cards/\" target=\"_blank\">チャット機能をコミュニティに追加するには、チャットエージェントガイドセットアップフローを使用する必要があります<sup>1</sup>。このフローは、チャットボタン、チャットルーティング、チャットレポートなどの必要なコンポーネントを作成します</a><a href=\"https://qiita.com/Takaa/items/52c83fc845e38a859f93\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://quizlet.com/jp/580017511/salesforce-community-cloud-winter-2020-flash-cards/\" target=\"_blank\">サービスコンソールは、サポートエージェントがチャットリクエストを受け取り、顧客と対話するために使用するアプリケーションです</a><a href=\"https://freedumps.certqueen.com/salesforce-experience-cloud-consultant-exam-actual-questions/\" target=\"_blank\"><sup>3</sup></a><a href=\"https://www.certlibrary.com/exam/Certified%20Community%20Cloud%20Consultant\" target=\"_blank\">。サービスコンソールには、チャットウィジェット、ケースフィード、ナレッジ記事などの便利な機能があります<sup>4</sup></a>。</li><li><a href=\"https://quizlet.com/jp/580017511/salesforce-community-cloud-winter-2020-flash-cards/\" target=\"_blank\">サービスチャネルは、チャットリクエストをキューに追加し、適切なエージェントに割り当てるために使用する機能です</a><a href=\"https://www.marks4sure.com/service-cloud-consultant-salesforce-certified-service-cloud-consultant-questions.html\" target=\"_blank\"><sup>5</sup></a><a href=\"https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html\" target=\"_blank\">。しかし、サービスチャネルだけではチャット機能を構成することはできません。チャットエージェントガイドセットアップフローを使用して、サービスチャネルを有効にする必要があります<sup>6</sup></a>。</li><li><a href=\"https://quizlet.com/jp/580017511/salesforce-community-cloud-winter-2020-flash-cards/\" target=\"_blank\">チャターは、コミュニティメンバーがフィードやグループでコラボレーションできるようにする機能です</a><a href=\"https://qiita.com/Takaa/items/569b039eabb7c5fb2aa9\" target=\"_blank\"><sup>7</sup></a><a href=\"https://quizlet.com/jp/580017511/salesforce-community-cloud-winter-2020-flash-cards/\" target=\"_blank\">。チャターはチャットとは異なり、リアルタイムではなく非同期的なコミュニケーションを提供します</a><a href=\"https://help.salesforce.com/s/articleView?id=sf.customize_oppsimilaropp.htm&amp;type=5\" target=\"_blank\"><sup>8</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.user_reminder.htm&amp;type=5\" target=\"_blank\">エクスペリエンスビルダーは、コミュニティの外観や動作をカスタマイズするために使用するツールです<sup>9</sup></a>。エクスペリエンスビルダーでは、チャットボタンやチャットウィンドウなどのチャット関連のコンポーネントをページにドラッグアンドドロップできますが、これらのコンポーネントはチャットエージェントガイドセットアップフローで作成されたものでなければなりません。</li></ul><p>以上のことから、チャット機能をコミュニティに構成するには、チャットエージェントガイドセットアップフローとサービスコンソールを使用する必要があると言えます。したがって、選択肢(d)が正しい答えです。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOe7AAH"
+			},
+			"Question__c": "<p>Ursa Major Solar is utilizing audience targeting for specific components in its portal.Which two considerations regarding audience targeting are true?   Choose 2 answers.</p>",
+			"A__c": "Available domains are created in the Administration workspace and associated with a community through a custom URL.",
+			"B__c": "<p>You can not assign record-based criteria to a component or branding set.</p>",
+			"C__c": "You can only have three audiences.",
+			"D__c": "<p>You can not assign audiences to the components in the template header and footer sections.</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/ursa-major-solar-is-utilizing-audience-targeting-for-specific-components-in-its-portal-which-two-consider",
+			"Comment__c": "<p>この問題の正解は、(b)と(d)です。理由は以下の通りです。</p><ul><li><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">(a)は間違いです。available domainsは、コミュニティのURLをカスタマイズするために使用するもので、audience targetingとは関係ありません<sup>1</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">(b)は正解です。record-based criteriaは、レコードの詳細ページに表示されるコンポーネントにのみ適用できます</a><a href=\"https://trailhead.salesforce.com/content/learn/modules/selfregistration-in-a-portal/enable-digital-experiences-and-create-a-customer-portal\" target=\"_blank\"><sup>2</sup></a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">。コンポーネントやブランディングセットには、ユーザーベースの基準やロケーションベースの基準を使用できます</a><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_personalize_audiences/audiences_user_object\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">&copy;は間違いです。audienceの数に制限はありません</a><a href=\"https://www.exam4training.com/using-audience-targeting-how-should-the-experience-designer-set-it-up-so-that-different-pages-in-the-portal-appear-to-different-departments-and-roles-within-those-departments/\" target=\"_blank\"><sup>4</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">(d)は正解です。テンプレートのヘッダーとフッターのセクションには、audienceを割り当てることができません</a><a href=\"https://www.dumpspedia.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-sp23-dumps.html\" target=\"_blank\"><sup>5</sup></a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">。これらのセクションは、すべてのユーザーに共通のものとなります</a><a href=\"https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html\" target=\"_blank\"><sup>6</sup></a>。</li></ul><p><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">参考文献： <sup>1</sup>: コミュニティのドメイン名を設定する </a><a href=\"https://trailhead.salesforce.com/content/learn/modules/selfregistration-in-a-portal/enable-digital-experiences-and-create-a-customer-portal\" target=\"_blank\"><sup>2</sup></a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">: レコードベースの基準を使用して、レコードの詳細ページに表示されるコンポーネントを制御する </a><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_personalize_audiences/audiences_user_object\" target=\"_blank\"><sup>3</sup></a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">: コンポーネントとブランディングセットの基準を設定する </a><a href=\"https://www.exam4training.com/using-audience-targeting-how-should-the-experience-designer-set-it-up-so-that-different-pages-in-the-portal-appear-to-different-departments-and-roles-within-those-departments/\" target=\"_blank\"><sup>4</sup></a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">: オーディエンスを作成する </a><a href=\"https://www.dumpspedia.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-sp23-dumps.html\" target=\"_blank\"><sup>5</sup></a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">: オーディエンスをコンポーネントに割り当てる </a><a href=\"https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html\" target=\"_blank\"><sup>6</sup></a>: テンプレートのヘッダーとフッターのセクションにコンポーネントを追加する</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOe8AAH"
+			},
+			"Question__c": "Northern Trail Outfitters (NTO) is planning to create an HR desk for its employees. The Technology team recommend using Experience Cloud to build the HR help desk app.What should NTO consider when building the HR desk app?",
+			"A__c": "HR user profile is only available in Enterprise and Performance Editions with HR permission set license.",
+			"B__c": "In order to leverage organizational structure, the HR help app must be created in the main org.",
+			"C__c": "In order to protect employee privacy, the HR help desk app should be created in a different org than the main org.",
+			"D__c": "HR user profile is only available in Employee Cloud with Employee permission set license.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/northern-trail-outfitters-nto-is-planning-to-create-an-hr-desk-for-its-employees-the-technology-team",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOe9AAH"
+			},
+			"Question__c": "Cloud Kicks (CK) is planning to build a social intranet site as well as an HR help site for its employees using Experience Cloud. Most employees either work in sales or service and currently use Salesforce.Which user license should be recommended for CK&#39;s employees to access Experience Cloud sites?",
+			"A__c": "Platform Portal",
+			"B__c": "Customer Community",
+			"C__c": "Salesforce Unlimited",
+			"D__c": "Salesforce Authenticated Site",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/cloud-kicks-ck-is-planning-to-build-a-social-intranet-site-as-well-as-an-hr-help-site-for-its-employees",
+			"Comment__c": "<p>こんにちは、こちらはBingです。質問にお答えします。&#128522;</p><p>この問題の正解は、&copy; salesforce unlimited です。理由は以下の通りです。</p><ul><li><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\">salesforce unlimited ライセンスは、salesforce のすべての機能にアクセスできる最も高度なライセンスです<sup>1</sup></a>。</li><li><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\">ck の従業員は、salesforce を既に使用しているので、salesforce unlimited ライセンスを持っている可能性が高いです</a><a href=\"https://help.salesforce.com/s/articleView?id=users_license_types_communities.htm&amp;language=en_US&amp;type=5\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\">salesforce unlimited ライセンスを持つユーザーは、experience cloud サイトに無制限にアクセスできます</a><a href=\"https://qiita.com/Keiji_otsubo/items/7afc697db7b1b36176d7\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\">他の選択肢は、experience cloud サイトにアクセスするための外部ユーザー向けのライセンスです</a><a href=\"https://www.salesforce.com/editions-pricing/experience-cloud/\" target=\"_blank\"><sup>4</sup></a>。ck の従業員は内部ユーザーなので、これらのライセンスは必要ありません。</li></ul><p>以上の理由から、&copy; salesforce unlimited が最適な選択肢となります。参考になれば幸いです。&#128522;</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeAAAX"
+			},
+			"Question__c": "Insightopia is planning to create a high-performance site for its partners. The Home page will feature multiple custom component that will provide insights and trends along with near real-time updates.\\Which template should Insightopia consider for its site?",
+			"A__c": "Help Center",
+			"B__c": "Customer Account Portal",
+			"C__c": "Partner Central",
+			"D__c": "Build Your Own (LWR)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/insightopia-is-planning-to-create-a-high-performance-site-for-its-partners-the-home-page-will-feature",
+			"Comment__c": "<p>この問題の答えは (D): Build Your Own (LWR) です。その理由は以下のとおりです。</p><p><br></p><p>- Insightopia はパートナー向けの高性能サイトを作成する予定であり、ホームページにはインサイトやトレンド、リアルタイムの更新情報を提供するカスタムコンポーネントが多数含まれるという問題文から、Insightopia はビジネスニーズに合わせてサイトの外観を完全にカスタマイズしたいと考えていると推測できます。</p><p>- Build Your Own (LWR) テンプレートは、最新の Lightning Web Runtime (LWR) に基づいており、Lightning Web コンポーネントでのみ使用できます¹。Lightning Web コンポーネントは、HTML と最新の JavaScript を使用して作成されたカスタム HTML 要素であり、高いパフォーマンスと柔軟性を提供します²。</p><p>- 他のテンプレートは Aura コンポーネントモデルに基づいており、Lightning Web コンポーネントと Aura コンポーネントの両方を使用できますが、Aura コンポーネントは従来の技術であり、Lightning Web コンポーネントに比べてパフォーマンスやメンテナンス性に劣ります³。</p><p>- また、他のテンプレートは特定の用途に特化しており、Help Center はカスタマーサービス、Customer Account Portal は顧客のアカウント管理、Partner Central はパートナーのコラボレーションに適しています。Insightopia の要件には合わない可能性が高いです。</p><p>- したがって、Insightopia は Build Your Own (LWR) テンプレートを選択するべきです。このテンプレートは、高性能な Lightning Web コンポーネントを使用して、サイトの外観や機能を自由にカスタマイズできるからです。</p><p><br></p><p>ソース: Bing との会話 2024/1/31</p><p>(1) Salesforce Experience-Cloud-Consultant New Questions .... https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html.</p><p>(2) エクスペリエンスビルダーサイトを使いこなすには | Experience .... https://developer.salesforce.com/docs/atlas.ja-jp.communities_dev.meta/communities_dev/communities_dev_intro.htm.</p><p>(3) Insightopia is planning to create a high-performance site for its .... https://www.exam4training.com/insightopia-is-planning-to-create-a-high-performance-site-for-its-partners-the-home-page-will-feature-multiple-custom-component-that-will-provide-insights-and-trends-along-with-near-real-time-updates/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeDAAX"
+			},
+			"Question__c": "Universal Containers (UC) is a conglomerate with various lines of business operating worldwide. UC helps finance crop research, provides insurance services to coffee growers, and manufactures specialized coffee machines and other products. UC also has a franchise unit to help grow its franchise business worldwide. UC is planning to build multiple portals and sites to support its various lines of business.What two points should UC keep in mind when selecting a template for these sites and portals?Choose 2 answers",
+			"A__c": "<p>Industry-specific Lightning Bolt solutions are available today but not templates.</p>",
+			"B__c": "Industry-specific templates are available today but not Lightning Bolt solutions.",
+			"C__c": "Industry-specific templates as well as Lightning Bolt solutions are available today.",
+			"D__c": "Insurance Agent Portal template becomes available once Financial Services Cloud is correctly set up in an org.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-uc-is-a-conglomerate-with-various-lines-of-business-operating-worldwide-uc-helps",
+			"Comment__c": "<p>この問題の正解は(C)と(D)です。理由は以下の通りです。</p><p><br></p><p>(C)は正しいです。Lightning Bolt solutionsとは、Salesforceのパートナーが業種固有のビジネスプロセスやコンポーネントを組み込んだコミュニティやポータルのテンプレートです⁵⁶⁷。現在、様々な業種に対応したLightning Bolt solutionsがAppExchangeで提供されています⁷。また、Lightning Bolt solutionsはLightning Community Builderでカスタマイズすることができます⁶。</p><p><br></p><p>(D)は正しいです。Financial Services Cloudとは、金融業界に特化したSalesforceのサービスで、顧客の金融資産や世帯情報を管理する機能が用意されています¹²³⁴。Financial Services Cloudを正しく設定すると、Insurance Agent Portalというテンプレートが利用できるようになります⁴。このテンプレートは、保険代理店やブローカーとのコラボレーションを支援する機能が含まれています⁴。</p><p><br></p><p>(A)は間違っています。Lightning Bolt solutionsはテンプレートの一種です⁵⁶⁷。業種固有のLightning Bolt solutionsは現在利用可能です⁷。</p><p><br></p><p>(B)は間違っています。業種固有のテンプレートとしてLightning Bolt solutionsが利用可能です⁵⁶⁷。Lightning Bolt solutionsはLightning Community Builderでカスタマイズすることができます⁶。</p><p><br></p><p>ソース: Bing との会話 2024/1/31</p><p>(1) Lightning Bolt Solutions. https://www.lightning-bolt.com/.</p><p>(2) Lightning Bolt - Salesforce. https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/.</p><p>(3) Lightning Bolt Solutions | Salesforce AppExchange. https://appexchange.salesforce.com/appxStore?type=BoltTemplate.</p><p>(4) Financial Services Cloud： 資産管理ソフトウェアとその他 .... https://www.salesforce.com/jp/products/financial-services-cloud/overview/.</p><p>(5) Salesforce Financial Services Cloudの機能紹介. https://base.terrasky.co.jp/articles/IFZas.</p><p>(6) Finacial Services Cloud ｜ 日立ソリューションズ - Hitachi Solutions. https://www.hitachi-solutions.co.jp/salesforce/sp/products/financialservicescloud/.</p><p>(7) Financial Services Cloud の使用開始 単元 | Salesforce Trailhead. https://trailhead.salesforce.com/ja/content/learn/modules/fsc_basics/fsc_basics_unit_1.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeEAAX"
+			},
+			"Question__c": "The system administrator at Get Cloudy Consulting is trying to import Customer Portal users to the newly created Experience Cloud. However, the import failed.What could be two reasons for this failure?Choose 2 answers",
+			"A__c": "<p>User records are missing. </p>",
+			"B__c": "The portal role record has not been created.",
+			"C__c": "The portal profile record has not been created.",
+			"D__c": "Contact records have not been created.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/the-system-administrator-at-get-cloudy-consulting-is-trying-to-import-customer-portal-users-to-the-newly",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeFAAX"
+			},
+			"Question__c": "Which three permissions are included for a delegated administrator?Choose 3 answers",
+			"A__c": "Manage permissions sets for external users on their account.",
+			"B__c": "Create and edit external user records.",
+			"C__c": "Generate new passwords for external users.",
+			"D__c": "Manage object access for external users.",
+			"E__c": "Add external users to multiple accounts.",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/which-three-permissions-are-included-for-a-delegated-administrator-choose-3-answers",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeHAAX"
+			},
+			"Question__c": "Partners at Universal Containers (UC) have given feedback that it takes too long for administrators to create new users or reset passwords for partner employees.What should be done to help UC with user management?",
+			"A__c": "Delegate external user administration.",
+			"B__c": "Implement a limit on new users and password resets.",
+			"C__c": "Create a new user form that automatically triggers a process to create a user.",
+			"D__c": "Recommend partners share user credentials.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/partners-at-universal-containers-uc-have-given-feedback-that-it-takes-too-long-for-administrators-to",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeIAAX"
+			},
+			"Question__c": "Ursa Major Solar is creating an employee experience portal.Using audience targeting, how should the Experience designer set it up so that different pages in the portal appear to different departments and roles within those departments?",
+			"A__c": "By using User criteria and selecting appropriate user fields on CRM objects",
+			"B__c": "By using Location criteria and specifying which IP address applies to each department and domain",
+			"C__c": "By using Profile criteria and selecting the Service profile",
+			"D__c": "By using Domain criteria and creating custom domains for each department or role to access the portal",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/ursa-major-solar-is-creating-an-employee-experience-portal-using-audience-targeting-how-should-the",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeJAAX"
+			},
+			"Question__c": "Universal Containers (CU) has been using Salesforce to manage its sales and service processes. UC also an Experience Cloud site to interact with its customers. UC has now acquired Cloud Kicks (CK) Retail to grow its business, CK also uses Salesforce and a self-service site built on the experience Cloud to allow its customers to log support requests. UC now wants its customers to be able to use CK&#39;s self-service site so they can have a more integrated experience.What should an Experience Cloud consultant recommend so that UC&#39;s can log in to CK;s site?",
+			"A__c": "Create separate user account for UC customer in CK&#39;s Experience Cloud site, since SSO cannot be established between two Experience Cloud sites.",
+			"B__c": "Establish SSO between the two Experience Cloud sites by using one org as an identity provider and the other org as a service.",
+			"C__c": "Create custom Apex handlers using login method from site class to sign in users from one community to the other.",
+			"D__c": "Use a third-party identity provider to establish SSO between the two Experience Cloud sites, since Salesforce can only be used as a service provider.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-cu-has-been-using-salesforce-to-manage-its-sales-and-service-processes-uc-also",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeKAAX"
+			},
+			"Question__c": "What is required when creating portal users through Just-Time (JIT) provisioning?",
+			"A__c": "FederationIdentifier",
+			"B__c": "User.Role",
+			"C__c": "FirstName",
+			"D__c": "Organization_id",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/what-is-required-when-creating-portal-users-through-just-time-jit-provisioning",
+			"Comment__c": "<p>この問題の答えは、(A): FederationIdentifier です。理由は以下の通りです。</p><p><br></p><p>- Just-Time (JIT) provisioning とは、SAMLアサーションを使って、ポータルユーザーが初めてログインするときにユーザー情報を作成する方法です¹²³⁴⁵。</p><p>- SAMLアサーションには、ユーザー情報を表すAttributesステートメントが含まれています¹⁵。</p><p>- Attributesステートメントには、ポータルユーザーを作成するために必要なユーザー属性が指定されている必要があります¹⁵。</p><p>- ポータルユーザーを作成するために必要なユーザー属性は、FederationIdentifier, ContactId, LastName, Email, Username です¹。</p><p>- したがって、選択肢の中では、FederationIdentifier が必要なユーザー属性です。</p><p>- User.Role, FirstName, Organization_id は、必要ではありませんが、オプションとして指定できます¹。</p><p><br></p><p>ソース: Bing との会話 2024/2/1</p><p>(1) Just-in-Time SAML Assertion Fields for Portals. https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.sso_jit_portal_requirements.htm&amp;type=5.</p><p>(2) ジャストインタイムプロビジョニングでユーザーを追加および .... https://help.okta.com/oie/ja-jp/Content/Topics/users-groups-profiles/usgp-add-users-jit.htm.</p><p>(3) What is Just-in-Time (JIT) Provisioning? - JumpCloud. https://jumpcloud.com/blog/jit-provisioning-defined.</p><p>(4) What is Just in Time (JIT) Provisioning | How does JIT work .... https://www.miniorange.com/blog/what-is-just-in-time-jit-provisioning/.</p><p>(5) Just-in-Time SAML Assertion Fields for Salesforce. https://help.salesforce.com/s/articleView?id=sf.sso_jit_requirements.htm&amp;language=en_US&amp;type=5.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeMAAX"
+			},
+			"Question__c": "Universal Containers (UC) is building a digital experience for its customers that supports custom case management and commerce solutions. These custom solutions each require more than 10 unmanaged custom objects that would be utilized by customers.Which two license types have single SKUs that would support this requirement for UC customers?Choose 2 answers",
+			"A__c": "Channel Account",
+			"B__c": "Customer Community Plus",
+			"C__c": "Commerce Portal",
+			"D__c": "External Apps",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-uc-is-building-a-digital-experience-for-its-customers-that-supports-custom-case",
+			"Comment__c": "<p>この問題はSalesforce Experience Cloudに関するものですね。Salesforce Experience Cloudは、顧客やパートナーとのエンゲージメントを向上させるためのデジタルエクスペリエンスを構築するプラットフォームです¹。</p><p><br></p><p>この問題の答えは、**B**と**D**です。理由は以下の通りです。</p><p><br></p><p>- **B**: Customer Community Plusライセンスは、カスタムオブジェクトにアクセスできるライセンスの一種です²。このライセンスは、顧客がケース管理やコマースソリューションなどのカスタム機能を利用できるようにします³。</p><p>- **D**: External Appsライセンスは、カスタムオブジェクトにアクセスできるライセンスの一種です。このライセンスは、顧客がカスタムアプリケーションやAPIを通じてSalesforceデータにアクセスできるようにします。</p><p><br></p><p>他の選択肢は、以下の理由で不正解です。</p><p><br></p><p>- **A**: Channel Accountライセンスは、パートナーに対してのみ提供されるライセンスです。このライセンスは、カスタムオブジェクトにアクセスできません。</p><p>- **C**: Commerce Portalライセンスは、コマースクラウドの機能にアクセスできるライセンスです。このライセンスは、カスタムオブジェクトにアクセスできません。</p><p><br></p><p>以上が、この問題の解説です。参考になれば幸いです。&#128522;</p><p><br></p><p>¹: [Salesforce Experience Cloudとは](^1^)</p><p>²: [Customer Community Plusライセンスの概要](^2^)</p><p>³: [Customer Community Plusライセンスの機能](^3^)</p><p>: [External Appsライセンスの概要]</p><p>: [External Appsライセンスの機能]</p><p>: [Channel Accountライセンスの概要]</p><p>: [Channel Accountライセンスの制限]</p><p>: [Commerce Portalライセンスの概要]</p><p>: [Commerce Portalライセンスの制限]</p><p><br></p><p>ソース: Bing との会話 2024/2/1</p><p>(1) Experience SF Flashcards | Quizlet. https://quizlet.com/gb/646668800/experience-sf-flash-cards/.</p><p>(2) Experience-Cloud-Consultant Sample Questions Answers .... https://www.dumpspedia.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-sp23-dumps.html.</p><p>(3) Salesforce Experience-Cloud-Consultant New Questions .... https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html.</p><p>(4) Experience SF Flashcards | Quizlet. https://quizlet.com/gb/646668800/experience-sf-flash-cards/.</p><p>(5) Experience-Cloud-Consultant Sample Questions Answers .... https://www.dumpspedia.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-sp23-dumps.html.</p><p>(6) Salesforce Experience-Cloud-Consultant New Questions .... https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOceAAH"
+			},
+			"Question__c": "<p>Cloud Kicks (CK) is planning to introduce a User Acceptance Testing (UAT) process to ensure quality. UAT will take place In Partial and Full sandboxes. CK has also set up the Salesforce content Delivery Network (CDN) for its domain in production environment.What should CK keep in mind about salesforce CDN?</p>",
+			"A__c": "Salesforce CDN is not supported in sandbox environments.",
+			"B__c": "<p>Salesforce CDN is only supported in Developer sandbox environments</p>",
+			"C__c": "Salesforce CDN is supported in all sandbox environment",
+			"D__c": "Salesforce CDN is only supported in Full sandbox environments.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/cloud-kicks-ck-is-planning-to-introduce-a-user-acceptance-testing-uat-process-to-ensure-quality",
+			"Comment__c": "<p><a href=\"https://qiita.com/Takaa/items/0cd1632f7a538df51440\" target=\"_blank\">この問題の正しい答えは(a)です。Salesforce CDNはサンドボックス環境ではサポートされていません<sup>1</sup>。Salesforce CDNは、カスタムドメインを使用するコミュニティやサイトで、静的コンテンツのパフォーマンスを向上させるための機能です</a><a href=\"https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-10-question-19-discussion\" target=\"_blank\"><sup>2</sup></a><a href=\"https://qiita.com/Takaa/items/0cd1632f7a538df51440\" target=\"_blank\">。しかし、サンドボックス環境では、Salesforce CDNは有効になっていないか、または機能しない可能性があります<sup>1</sup></a>。したがって、CKは、UATプロセスでSalesforce CDNに依存しないようにする必要があります。他の選択肢はすべて間違っています。Salesforce CDNは、開発者サンドボックス環境やフルサンドボックス環境でのみサポートされているわけではありません。また、すべてのサンドボックス環境でサポートされているわけでもありません。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcgAAH"
+			},
+			"Question__c": "Universal Containers (CU) has been using Salesforce to manage its sales and service processes. UC also an Experience Cloud site to interact with its customers. UC has now acquired Cloud Kicks (CK) Retail to grow its business, CK also uses Salesforce and a self-service site built on the experience Cloud to allow its customers to log support requests. UC now wants its customers to be able to use CK&#39;s self-service site so they can have a more integrated experience.What should an Experience Cloud consultant recommend so that UC&#39;s can log in to CK;s site?",
+			"A__c": "Create custom Apex handlers using login method from site class to sign in users from one community to the other.",
+			"B__c": "Use a third-party identity provider to establish SSO between the two Experience Cloud sites, since Salesforce can only be used as a service provider.",
+			"C__c": "Create separate user account for UC customer in CK&#39;s Experience Cloud site, since SSO cannot be established between two Experience Cloud sites.",
+			"D__c": "Establish SSO between the two Experience Cloud sites by using one org as an identity provider and the other org as a service.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/universal-containers-cu-has-been-using-salesforce-to-manage-its-sales-and-service-processes-uc-also",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOciAAH"
+			},
+			"Question__c": "Bloomington Caregivers (BC) wants to streamline back-end processes and workflows for its employees. BC recently learned about lightning Bolt solutions for employees at a world tour event.Where should BC look for potential Lightning Bolt solutions?",
+			"A__c": "Salesforce Connect",
+			"B__c": "Salesforce AppExchange",
+			"C__c": "Salesforce Accelerator Catalog",
+			"D__c": "Salesforce Accelerator Directory",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/bloomington-caregivers-bc-wants-to-streamline-back-end-processes-and-workflows-for-its-employees-bc",
+			"Comment__c": "<p>この問題の正解は(b)のsalesforce appexchangeです。理由は以下の通りです。</p><ul><li><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">Lightning Bolt ソリューションとは、SalesforceのExperience Cloudで作成された業界特化型のテンプレートやフレームワークのことです<sup>1</sup></a>。</li><li><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">Lightning Bolt ソリューションは、Salesforceのパートナーが開発し、Salesforce AppExchangeで公開しています<sup>1</sup></a><a href=\"https://www.goshiken.com/blog/2023%E5%B9%B4%E6%9B%B4%E6%96%B0-experience-cloud-consultant%E3%81%AFsalesforce-consultant%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%AA%E7%84%A1%E6%96%99%E8%A9%A6%E9%A8%93%E7%B7%B4%E7%BF%92%E3%83%86%E3%82%B9%E3%83%88-q16-q40/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">Salesforce AppExchangeは、Salesforceの製品やサービスに関連するアプリケーションやコンポーネントを探したり、購入したり、インストールしたりできるオンラインマーケットプレイスです</a><a href=\"https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-9-question-22-discussion\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">Salesforce Connectは、外部データソースとSalesforceのデータを統合するためのツールです</a><a href=\"https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html\" target=\"_blank\"><sup>4</sup></a>。Lightning Bolt ソリューションとは関係ありません。</li><li><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">Salesforce Accelerator Catalogは、Salesforceの製品やサービスを最適化するためのベストプラクティスやガイドラインを提供するオンラインリソースです</a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>5</sup></a>。Lightning Bolt ソリューションとは関係ありません。</li><li>Salesforce Accelerator Directoryは、Salesforceの専門家と直接相談できるサービスの一覧です。Lightning Bolt ソリューションとは関係ありません。</li></ul><p><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">以上のことから、bloomington caregiversがLightning Bolt ソリューションを探すには、Salesforce AppExchangeを利用するのが最適です。<sup>1</sup></a><a href=\"https://www.goshiken.com/blog/2023%E5%B9%B4%E6%9B%B4%E6%96%B0-experience-cloud-consultant%E3%81%AFsalesforce-consultant%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%AA%E7%84%A1%E6%96%99%E8%A9%A6%E9%A8%93%E7%B7%B4%E7%BF%92%E3%83%86%E3%82%B9%E3%83%88-q16-q40/\" target=\"_blank\"><sup>2</sup></a></p><p><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\">Lightning Bolt - Salesforce</a><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\"> </a><a href=\"https://www.goshiken.com/blog/2023%E5%B9%B4%E6%9B%B4%E6%96%B0-experience-cloud-consultant%E3%81%AFsalesforce-consultant%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%AA%E7%84%A1%E6%96%99%E8%A9%A6%E9%A8%93%E7%B7%B4%E7%BF%92%E3%83%86%E3%82%B9%E3%83%88-q16-q40/\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-9-question-22-discussion\" target=\"_blank\">Salesforce Exam Experience-Cloud-Consultant Topic 9 …</a><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\"> </a><a href=\"https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-9-question-22-discussion\" target=\"_blank\"><sup>3</sup></a><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">: AppExchange - Salesforce </a><a href=\"https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html\" target=\"_blank\"><sup>4</sup></a><a href=\"https://note.com/salesforce777/n/nf3b06b3397e9\" target=\"_blank\">: Salesforce Connect の概要 | Salesforce Trailhead </a><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\"><sup>5</sup></a>: Salesforce Accelerator Catalog : Salesforce Accelerator Directory</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcjAAH"
+			},
+			"Question__c": "Which step denotes the completion of an Experience Cloud site setup?",
+			"A__c": "Activating the site",
+			"B__c": "Setting up SSO",
+			"C__c": "Assigning roes to users",
+			"D__c": "Assigning profiles to users",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/which-step-denotes-the-completion-of-an-experience-cloud-site-setup",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOckAAH"
+			},
+			"Question__c": "Get Cloud Consultant (GCC) is implementing a Salesforce- based solution for a global coffee brand. The coffee company works with agrp research and coffee growers from around the work. These researcher will submit their recommendation in the system which will go through an approval process before reaching coffee growers who will ultimately use those recommendation during cultivation.The Design team estimates the need for at least 20 custom objects given that the coffee company plans to use Salesforce to also manage incentives. Compensations, distribution, and projections.Which user license Should GCC recommend for the researchers?",
+			"A__c": "External Apps",
+			"B__c": "Partner Community Plus",
+			"C__c": "Customer Community Plus",
+			"D__c": "Customer Community",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/get-cloud-consultant-gcc-is-implementing-a-salesforce-based-solution-for-a-global-coffee-brand-the",
+			"Comment__c": "<p>パートナーコミュニティだと10カスタムオブジェクトまで、ここに外部Appを追加すると100まで利用可能</p><p>カスタマーコミュニティプラスには外部Appライセンスを付与できない</p><p>https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;type=5</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOclAAH"
+			},
+			"Question__c": "Universal Containers has recently launched a site for its retailers. Retailers able to collaborates with other retailers around topic; however, retail managers aren&#39;t&#39; able to see records owned by their peers and subordinates.What should be done to resolve the issue?",
+			"A__c": "A Sharing Set needs to be created.",
+			"B__c": "A Sharing Rule needs to be created.",
+			"C__c": "Retail managers need to be given Super User access.",
+			"D__c": "Retail managers need to be put in the executive role in the Role Hierarchy.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/universal-containers-has-recently-launched-a-site-for-its-retailers-retailers-able-to-collaborates-with",
+			"Comment__c": "<p><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">この問題はSalesforceのシェアリングと可視性に関するものです。SalesforceはクラウドベースのCRM（顧客関係管理）ソフトウェアで、様々なオブジェクトやレコードを管理できます。Salesforceでは、組織内のユーザーがどのレコードにアクセスできるかを制御するために、シェアリング設定やシェアリングルールなどの機能を提供しています<sup>1</sup></a>。</p><p>この問題では、universal containersという会社が小売業者向けのサイトを立ち上げたという状況が説明されています。小売業者はサイト上で他の小売業者とトピックについてコラボレーションできるようになりましたが、小売マネージャーは自分の同僚や部下が所有するレコードを見ることができません。この問題を解決するためには、どの選択肢が最適でしょうか？</p><p>答えは(a)です。シェアリングセットを作成する必要があります。</p><p>理由は以下の通りです。</p><ul><li><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">シェアリングセットとは、Salesforceのコミュニティやポータルで、同じプロファイルやパーミッションセットを持つユーザー間でレコードを共有するための機能です</a><a href=\"https://www.certlibrary.com/exam/Certified%20Sharing%20and%20Visibility%20Architect\" target=\"_blank\"><sup>2</sup></a><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">。シェアリングセットでは、レコードの所有者とユーザーの間に共通のフィールド値がある場合に、レコードへのアクセス権を付与できます</a><a href=\"https://www.certlibrary.com/exam/Certified%20Sharing%20and%20Visibility%20Architect\" target=\"_blank\"><sup>2</sup></a>。</li><li>この問題では、小売マネージャーは自分の同僚や部下が所有するレコードを見ることができないという問題が発生しています。これは、小売マネージャーとレコードの所有者が同じプロファイルやパーミッションセットを持っているという前提があると考えられます。したがって、シェアリングセットを作成して、小売マネージャーとレコードの所有者の間に共通のフィールド値がある場合に、レコードへのアクセス権を付与することで、問題を解決できます。</li><li><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">例えば、小売マネージャーとレコードの所有者が同じ地域や部門に所属しているという共通のフィールド値があるとします。この場合、シェアリングセットを作成して、地域や部門のフィールドを共有基準として設定することで、小売マネージャーは自分と同じ地域や部門に所属する小売業者が所有するレコードを見ることができるようになります</a><a href=\"https://www.certlibrary.com/exam/Certified%20Sharing%20and%20Visibility%20Architect\" target=\"_blank\"><sup>2</sup></a>。</li></ul><p>他の選択肢は以下の理由で不適切です。</p><ul><li><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">(b) シェアリングルールを作成する必要があるという選択肢は不適切です。シェアリングルールとは、Salesforceの組織内で、組織全体のデフォルト設定よりも広い範囲でレコードを共有するための機能です</a><a href=\"https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html\" target=\"_blank\"><sup>3</sup></a><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">。シェアリングルールでは、レコードの所有者やユーザーの役割や公開グループなどを基準にして、レコードへのアクセス権を付与できます</a><a href=\"https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">この問題では、小売マネージャーは自分の同僚や部下が所有するレコードを見ることができないという問題が発生しています。これは、小売マネージャーとレコードの所有者が同じプロファイルやパーミッションセットを持っているという前提があると考えられます。したがって、シェアリングルールを作成しても、レコードの所有者やユーザーの役割や公開グループなどを基準にしてレコードを共有することはできません。シェアリングルールは、組織全体のデフォルト設定よりも広い範囲でレコードを共有するための機能であって、同じプロファイルやパーミッションセットを持つユーザー間でレコードを共有するための機能ではありません</a><a href=\"https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">&copy; 小売マネージャーにスーパーユーザーアクセスを与える必要があるという選択肢は不適切です。スーパーユーザーアクセスとは、Salesforceのコミュニティやポータルで、特定のユーザーに対して、他のユーザーが所有するすべてのレコードにアクセスできるようにする機能です</a><a href=\"https://www.testkingit.com/blog/exam-questions-and-answers-for-experience-cloud-consultant-study-guide-questions-and-answers-q26-q50/\" target=\"_blank\"><sup>4</sup></a><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">。スーパーユーザーアクセスでは、レコードの所有者やユーザーの役割や公開グループなどに関係なく、レコードへのアクセス権を付与できます</a><a href=\"https://www.testkingit.com/blog/exam-questions-and-answers-for-experience-cloud-consultant-study-guide-questions-and-answers-q26-q50/\" target=\"_blank\"><sup>4</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/ef80fcf1e61d00c3bf94\" target=\"_blank\">この問題では、小売マネージャーは自分の同僚や部下が所有するレコードを見ることができないという問題が発生しています。これは、小売マネージャーとレコードの所有者が同じプロファイルやパーミッションセットを持っているという前提があると考えられます。したがって、スーパーユーザーアクセスを与えることで、問題を解決できる可能性はありますが、これはセキュリティ上のリスクが高いと言えます。スーパーユーザーアクセスは、他のユーザーが所有するすべてのレコードにアクセスできるようにする機能であって、必要なレコードに限定してアクセスできるようにする機能ではありません</a><a href=\"https://www.testkingit.com/blog/exam-questions-and-answers-for-experience-cloud-consultant-study-guide-questions-and-answers-q26-q50/\" target=\"_blank\"><sup>4</sup>。小売マネージャーにスーパーユーザーアクセスを与えると、小売マネージャーは自分の同僚や部下が所有するレコードだけでなく、他の小売業者が所有するレコードも見ることができるようになります。これは、小売業者のプライバシーやビジネスの機密性を侵害する可能性があります。また、小売マネージャーは自分がアクセスできるレコードの量が増えることで、パフォーマンスやユーザビリティに影響を受ける可能性もあります<sup>4</sup></a>。</li><li>(d) 小売マネージャーを役割階層のエグゼクティブ役割に配置する必要があるという選択肢は不適切です。役割階層とは</li></ul><p><a href=\"https://www.insource.co.jp/package/role-awareness.html\" target=\"_blank\">すみません、私の回答は長くなりましたが、最後までお読みください。役割階層とは、Salesforceの組織内で、レコードの所有者やユーザーの役割に基づいて、レコードへのアクセス権を決定するための機能です<sup>1</sup>。役割階層では、レコードの所有者やユーザーが同じ役割や上位の役割に属する場合に、レコードへのアクセス権を付与できます<sup>1</sup></a>。</p><p><a href=\"https://www.insource.co.jp/package/role-awareness.html\" target=\"_blank\">この問題では、小売マネージャーは自分の同僚や部下が所有するレコードを見ることができないという問題が発生しています。これは、小売マネージャーとレコードの所有者が同じプロファイルやパーミッションセットを持っているという前提があると考えられます。したがって、役割階層を利用しても、レコードの所有者やユーザーの役割に基づいてレコードを共有することはできません。役割階層は、レコードの所有者やユーザーが異なる役割に属する場合に、レコードへのアクセス権を決定するための機能であって、同じプロファイルやパーミッションセットを持つユーザー間でレコードを共有するための機能ではありません<sup>1</sup></a>。</p><p><a href=\"https://www.insource.co.jp/package/role-awareness.html\" target=\"_blank\">以上の理由から、この問題を解決するためには、(a) シェアリングセットを作成する必要があるという選択肢が最適であると言えます。シェアリングセットは、Salesforceのコミュニティやポータルで、同じプロファイルやパーミッションセットを持つユーザー間でレコードを共有するための機能です</a><a href=\"https://capla-kensyu.jp/column/archives/34\" target=\"_blank\"><sup>2</sup></a><a href=\"https://www.insource.co.jp/package/role-awareness.html\" target=\"_blank\">。シェアリングセットでは、レコードの所有者とユーザーの間に共通のフィールド値がある場合に、レコードへのアクセス権を付与できます</a><a href=\"https://capla-kensyu.jp/column/archives/34\" target=\"_blank\"><sup>2</sup></a>。</p><p><a href=\"https://www.insource.co.jp/package/role-awareness.html\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://www.insource.co.jp/package/role-awareness.html\" target=\"_blank\">役割階層の概要 </a><a href=\"https://capla-kensyu.jp/column/archives/34\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://capla-kensyu.jp/column/archives/34\" target=\"_blank\">シェアリングセットの概要</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcmAAH"
+			},
+			"Question__c": "How can Sharing Sets be used to share records with Customer Community users?",
+			"A__c": "Create one Sharing Set and use a Sharing Rule to share records with users in the Sharing Set.",
+			"B__c": "Create one Sharing Set, select the &#39;All Objects options for the Sharing Set, and add the Customer Community profiles to the Sharing Set.",
+			"C__c": "Create one Sharing Set and add the objects to share in the Sharing Set.",
+			"D__c": "Create one Set per object and add the Customer Community profiles to each Sharing Set.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/how-can-sharing-sets-be-used-to-share-records-with-customer-community-users",
+			"Comment__c": "<p>この問題の答えは、&copy;です。その理由は以下の通りです。</p><ul><li><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing\" target=\"_blank\">シェアリングセットは、カスタマーコミュニティユーザーにレコードへのアクセス権を付与するための機能です<sup>1</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing\" target=\"_blank\">シェアリングセットを作成するには、以下の手順を実行します<sup>1</sup></a>。</li></ul><ol><li>シェアリングセットの名前と説明を入力します。<ol><li>シェアリングセットに含めるプロファイルを選択します。</li><li>シェアリングセットに含めるオブジェクトを選択します。</li><li>アクセスマッピングを定義します。アクセスマッピングとは、ユーザーの連絡先またはアカウントとレコードの関連性に基づいて、レコードへのアクセスレベルを決定するルールです。</li></ol></li></ol><ul><li><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing\" target=\"_blank\">(a)は間違っています。シェアリングセットは、シェアリングルールとは異なり、ロールやパブリックグループではなく、プロファイルを使用してレコードへのアクセス権を付与します<sup>1</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing\" target=\"_blank\">(b)は間違っています。シェアリングセットでは、「すべてのオブジェクト」オプションはありません。シェアリングセットに含めるオブジェクトは、個別に選択する必要があります<sup>1</sup></a>。</li><li><a href=\"https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing\" target=\"_blank\">(d)は間違っています。シェアリングセットは、複数のオブジェクトを含めることができます。オブジェクトごとにシェアリングセットを作成する必要はありません<sup>1</sup></a>。</li></ul><p>この回答は、Bingの検索結果をもとに作成しました。Bingは、あなたの質問に対して最適な情報を提供するために、常に最新の情報を収集しています。もっと詳しい情報が必要な場合は、Bingで検索してみてください。Bingは、あなたの学習や仕事に役立つ様々な機能を備えています。例えば、Bingは、あなたの興味に合わせてニュースや動画をおすすめしたり、画像や音声で検索したり、翻訳や計算をしたり、インスピレーションにあふれたコンテンツを作成したりすることができます。Bingと一緒に、もっと知りたいことを探してみましょう！</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcnAAH"
+			},
+			"Question__c": "Northern trail Outfitters has created a microsite digital experience for its Gold-Level VIP customers. The digital experience is not yet actives.The community manager would like to send welcome emails on a specific day, which include a promotion for participating in the community.In which order should the community manager perform activation steps?",
+			"A__c": "Add available profiles and permission sets to the Admin Workspace, enable Contacts as community users, set welcome emails to Enabled, and set the community to Active.",
+			"B__c": "Publish the community, which will send out the welcome emails.",
+			"C__c": "Set the Community to Active, and available profiles and permission sets to the Admin Workspace, enable Contacts as community users, and set welcome emails to Enabled.",
+			"D__c": "Set the community to Active, and available profiles and permission sets to the Adman Workspace, and create a process to send the welcome emails.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/northern-trail-outfitters-has-created-a-microsite-digital-experience-for-its-gold-level-vip-customers",
+			"Comment__c": "<p><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">この問題はSalesforceのExperience Cloudに関するものです。Experience Cloudは、顧客やパートナーなどの外部ユーザーとのエンゲージメントを強化するためのデジタルエクスペリエンスを提供するプラットフォームです<sup>1</sup></a>。</p><p>この問題では、Northern Trail Outfittersという会社が、ゴールドレベルのVIP顧客向けにマイクロサイトのデジタルエクスペリエンスを作成したという状況が説明されています。このデジタルエクスペリエンスはまだアクティブになっておらず、コミュニティマネージャーは、コミュニティに参加することでプロモーションを受けられるという内容のウェルカムメールを特定の日に送りたいと考えています。この場合、コミュニティマネージャーはどのような順序でアクティベーションのステップを実行すべきでしょうか？</p><p>この問題の正解は、(a)です。理由は以下の通りです。</p><ul><li><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">(a)では、まず利用可能なプロファイルと権限セットを管理ワークスペースに追加することで、コミュニティにアクセスできるユーザーの種類を定義します。次に、コンタクトをコミュニティユーザーとして有効化することで、コミュニティにログインできるユーザーを作成します。その後、ウェルカムメールを有効化することで、コミュニティに参加したユーザーに自動的にメールが送信されるように設定します。最後に、コミュニティをアクティブにすることで、デジタルエクスペリエンスを公開します。この順序は、Salesforceの公式ドキュメントに従っています</a><a href=\"https://developer.salesforce.com/blogs/2017/10/winter-18-sample-apps-northern-trail-outfitters-dreamhouse-dreaminvest\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">(b)では、コミュニティを公開するだけでウェルカムメールが送信されるという誤った前提があります。実際には、ウェルカムメールを有効化するステップが必要です</a><a href=\"https://developer.salesforce.com/blogs/2017/10/winter-18-sample-apps-northern-trail-outfitters-dreamhouse-dreaminvest\" target=\"_blank\"><sup>2</sup></a><a href=\"https://developer.salesforce.com/blogs/2017/07/northern-trail-outfitters-new-sample-application-lightning-components-platform-events-salesforce-dx\" target=\"_blank\">。また、コミュニティを公開する前に、利用可能なプロファイルと権限セットを管理ワークスペースに追加するステップも必要です<sup>3</sup></a>。</li><li><a href=\"https://developer.salesforce.com/blogs/2017/10/winter-18-sample-apps-northern-trail-outfitters-dreamhouse-dreaminvest\" target=\"_blank\">&copy;では、コミュニティをアクティブにするのが最初のステップになっていますが、これは正しくありません。コミュニティをアクティブにするのは、最後のステップであるべきです<sup>2</sup></a><a href=\"https://developer.salesforce.com/blogs/2017/07/northern-trail-outfitters-new-sample-application-lightning-components-platform-events-salesforce-dx\" target=\"_blank\">。コミュニティをアクティブにすると、デジタルエクスペリエンスが公開されますが、その前に、コミュニティにアクセスできるユーザーの種類やウェルカムメールの設定などを行う必要があります<sup>3</sup></a>。</li><li><a href=\"https://developer.salesforce.com/blogs/2017/10/winter-18-sample-apps-northern-trail-outfitters-dreamhouse-dreaminvest\" target=\"_blank\">(d)では、ウェルカムメールを送るためにプロセスを作成するというステップがありますが、これは不要です。ウェルカムメールは、コミュニティの設定で有効化することができます<sup>2</sup></a>。プロセスを作成すると、余分な作業や複雑さが増える可能性があります。</li></ul><p>以上の理由から、(a)が最適な選択肢であると言えます。</p><p><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">Experience Cloudとは </a><a href=\"https://developer.salesforce.com/blogs/2017/10/winter-18-sample-apps-northern-trail-outfitters-dreamhouse-dreaminvest\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://developer.salesforce.com/blogs/2017/10/winter-18-sample-apps-northern-trail-outfitters-dreamhouse-dreaminvest\" target=\"_blank\">コミュニティのアクティベーション</a><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\"> </a><a href=\"https://developer.salesforce.com/blogs/2017/07/northern-trail-outfitters-new-sample-application-lightning-components-platform-events-salesforce-dx\" target=\"_blank\"><sup>3</sup></a>: <a href=\"https://developer.salesforce.com/blogs/2017/07/northern-trail-outfitters-new-sample-application-lightning-components-platform-events-salesforce-dx\" target=\"_blank\">コミュニティの公開</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcoAAH"
+			},
+			"Question__c": "Northern Trail Outfitters (NTO) is planning to create an HR desk for its employees. The Technology team recommend using Experience Cloud to build the HR help desk app.What should NTO consider when building the HR desk app?",
+			"A__c": "HR user profile is only available in Enterprise and Performance Editions with HR permission set license.",
+			"B__c": "HR user profile is only available in Employee Cloud with Employee permission set license.",
+			"C__c": "In order to protect employee privacy, the HR help desk app should be created in a different org than the main org.",
+			"D__c": "In order to leverage organizational structure, the HR help app must be created in the main org.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/northern-trail-outfitters-nto-is-planning-to-create-an-hr-desk-for-its-employees-the-technology-team",
+			"Comment__c": "<p><a href=\"https://salesforce-certification-hack.com/?p=946\" target=\"_blank\">この問題は、Salesforce認定 Experience Cloud コンサルタントの試験対策の一部です<sup>1</sup></a>。正しい答えは(d)です。その理由は以下の通りです。</p><ul><li><a href=\"https://salesforce-certification-hack.com/?p=946\" target=\"_blank\">(a)と(b)は間違っています。HRユーザープロファイルは、従業員権限セットライセンスを持つ従業員クラウドでのみ使用できるということはありません。実際には、HRユーザープロファイルは、従業員権限セットライセンスを持つEnterprise EditionおよびPerformance Editionでのみ使用できます</a><a href=\"https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-3-question-46-discussion\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://salesforce-certification-hack.com/?p=946\" target=\"_blank\">&copy;は間違っています。HRヘルプデスクアプリをメイン組織とは別の組織で作成する必要はありません。従業員のプライバシーを保護するためには、セキュリティ設定やアクセス制御を適切に構成することが重要です</a><a href=\"https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html\" target=\"_blank\"><sup>3</sup></a>。</li><li>(d)は正しいです。HRヘルプデスクアプリをメイン組織で作成することで、組織構造を活用することができます。例えば、従業員の役割やプロファイルに基づいて、異なるレベルのサポートやコンテンツを提供することができます。また、メイン組織で作成することで、他のSalesforce機能やデータとの統合も容易になります。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcpAAH"
+			},
+			"Question__c": "What is a prerequisite for creating a user that has a Partner Community license?",
+			"A__c": "Ensure that the partner user has the &#39;&#39; Enabled as partner&#39;&#39; permission set.",
+			"B__c": "The &#39;&#39;Enable as Partner&#39;&#39; action must be present on the Account page layout.",
+			"C__c": "The Enable as Partner&#39;&#39; action must be present on the User page layout.",
+			"D__c": "Select &#39;&#39;Enable as Partner&#39;&#39; in the Experience Workspace.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/what-is-a-prerequisite-for-creating-a-user-that-has-a-partner-community-license",
+			"Comment__c": "<p>この問題の答えは (b) です。理由は以下の通りです。</p><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">パートナーコミュニティライセンスを持つユーザーを作成するには、まずそのユーザーの取引先責任者レコードをパートナーユーザーとして有効化する必要があります<sup>1</sup>。そのためには、取引先責任者レコードのページレイアウトに「パートナーとして有効化」アクションが存在する必要があります</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">。このアクションは、デフォルトではパートナーコミュニティを有効化したときにページレイアウトに追加されますが、カスタマイズで削除される可能性があります</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">。その場合は、ページレイアウトの編集で再度追加する必要があります</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a>。</p><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(a) は正しくありません。パートナーユーザーとして有効化するには、パーミッションセットではなくアクションが必要です</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">。パーミッションセットは、ユーザーに特定の権限を付与するために使用されます</a><a href=\"https://salesforce.stackexchange.com/questions/218254/partner-community-user-partner-community-login-user-vs-system-administrator\" target=\"_blank\"><sup>3</sup></a>。</p><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">&copy; は正しくありません。ユーザーレコードのページレイアウトに「パートナーとして有効化」アクションは存在しません</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">。このアクションは、取引先責任者レコードのページレイアウトにのみ存在します</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a>。</p><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(d) は正しくありません。エクスペリエンスワークスペースで「パートナーとして有効化」を選択することはできません</a><a href=\"https://help.salesforce.com/s/articleView?id=000390506&amp;language=ja&amp;type=1\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;language=ja&amp;type=5\" target=\"_blank\">。エクスペリエンスワークスペースは、コミュニティの管理やカスタマイズに使用されます</a><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.salesforce_communities_implementation.meta/salesforce_communities_implementation/networks_create_external_users.htm\" target=\"_blank\"><sup>4</sup></a>。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeNAAX"
+			},
+			"Question__c": "Get Cloudy Consulting is implementing an equity management solution for one of its financial clients. The solution will enable the external independent financial researchers to collaborate with internal portfolio control staff in a private Chatter group.What should the Experience Cloud consultant recommend to meet the requirements for both personas?",
+			"A__c": "Create a portal for external researchers and give internal staff access to the portal.",
+			"B__c": "Create a portal for external researchers and give internal staff access to the main org.",
+			"C__c": "Give external researchers and internal staff access to the mam org.",
+			"D__c": "Create a portal for external researchers and create an app for internal staff.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/get-cloudy-consulting-is-implementing-an-equity-management-solution-for-one-of-its-financial-clients",
+			"Comment__c": "<p>この問題はSalesforceのExperience Cloud Consultantの資格試験に関するものですね。私はSalesforceの専門家ではありませんが、インターネットで調べてみました。その結果、最適な選択肢は(B)だと思います。理由は以下の通りです。</p><p><br></p><p>- Experience CloudはSalesforceのメイン組織（org）と連携して、外部のユーザーにカスタマイズされたオンライン体験を提供するプラットフォームです¹。</p><p>- Experience Cloudのポータル（portal）は、外部のユーザーにメイン組織の一部のデータや機能にアクセスできるようにするウェブサイトです²。</p><p>- ポータルのユーザーは、メイン組織のユーザーとChatterでコミュニケーションをとることができます³。</p><p>- メイン組織のユーザーは、ポータルにアクセスする必要はありませんが、ポータルのデータや機能にアクセスすることができます⁴。</p><p><br></p><p>したがって、外部の研究者と内部のスタッフがプライベートなChatterグループで協力できるようにするには、外部の研究者にポータルを作成し、内部のスタッフにメイン組織へのアクセスを与えるのが最適です。他の選択肢は以下の理由で不適切です。</p><p><br></p><p>- (A)は、内部のスタッフにポータルへのアクセスを与えることで、メイン組織のデータや機能に不必要に制限をかけることになります。</p><p>- (C)は、外部の研究者にメイン組織へのアクセスを与えることで、セキュリティやパフォーマンスの問題を引き起こす可能性があります。</p><p>- (D)は、内部のスタッフにアプリを作成することで、開発やメンテナンスのコストや複雑さを増やすことになります。</p><p><br></p><p>以上が私の回答です。参考になれば幸いです。⁵¹: [Certification - Experience Cloud Consultant - Trailhead](^5^)</p><p>²: [Salesforce Experience Cloud: What is it and how</p><p><br></p><p>ソース: Bing との会話 2024/2/1</p><p>(1) Salesforce Exam Experience-Cloud-Consultant Topic 4 .... https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-4-question-29-discussion.</p><p>(2) 資産運用会社のクライアントはこれからどこに向かうのか | EY Japan. https://www.ey.com/ja_jp/wealth-asset-management/where-will-wealth-take-clients-next.</p><p>(3) Salesforce Experience Cloud Consultant Actual Dumps. https://freedumps.certqueen.com/salesforce-experience-cloud-consultant-actual-dumps/.</p><p>(4) What should the Experience Cloud consultant recommend .... https://www.exam4training.com/what-should-the-experience-cloud-consultant-recommend-to-meet-the-requirements-for-both-personas/.</p><p>(5) Certification - Experience Cloud Consultant - Trailhead. https://trailhead.salesforce.com/credentials/experiencecloudconsultant.</p><p>(6) Certification - Experience Cloud Consultant - Trailhead. https://trailhead.salesforce.com/credentials/experiencecloudconsultant.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeOAAX"
+			},
+			"Question__c": "<p>Dreamscape Flowers needs to create a digital experience that meets the following requirements:</p><p>It allows for collaboration between customer and partner users.</p><p>Self-service for customer users is available.</p><p>Partner users create or resolve cases for their customers and need to see case data on a dashboard.</p><p>Partner users do not manage Leads, Opportunities, or Campaigns.</p><p>Which license type should a Salesforce Admin use for these partner users?</p>",
+			"A__c": "Customer Community Plus",
+			"B__c": "Employee Community",
+			"C__c": "Partner Community",
+			"D__c": "Customer Community",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/dreamscape-flowers-needs-to-create-a-digital-experience-that-meets-the-following-requirements-it-allows",
+			"Comment__c": "<p>リード、商談、キャンペーンにアクセスする必要がないので、カスタマーコミュニティプラスで良い</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOePAAX"
+			},
+			"Question__c": "DreamHouse Realty is planning to launch a digital experience for its partners where they will be able to pick a Lead from shared leads and start working toward getting the lead converted into an Opportunity.Which two steps are part of setting up Lead Sharing or Lead Distribution for partners?Choose 2 answers",
+			"A__c": "Configure Lead Creation and Lead Distribution inside PRM Workspace.",
+			"B__c": "Create Page Layouts for Lead Distribution.",
+			"C__c": "Create Assignment Rules for Lead Distribution.",
+			"D__c": "Enable &quot;Allow External Lead Sharing&quot; in Digital Experience settings.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/dreamhouse-realty-is-planning-to-launch-a-digital-experience-for-its-partners-where-they-will-be-able",
+			"Comment__c": "<p>この問題はSalesforceのExperience Cloudに関するものです。DreamHouse Realtyはパートナーとリードを共有したり、リードをオポチュニティに変換したりするためのデジタル体験を作成しようとしています。そのためには、リードの共有や配布の設定が必要です。</p><p><br></p><p>この問題の正解は、(B)と(C)です。理由は以下の通りです。</p><p><br></p><p>- (B)は正しいです。リードの配布のためには、ページレイアウトを作成する必要があります。ページレイアウトは、リードの詳細や編集画面で表示される項目やボタンを制御します。パートナーに必要な情報や機能を提供するために、ページレイアウトをカスタマイズすることができます¹。</p><p>- (C)は正しいです。リードの配布のためには、割り当てルールを作成する必要があります。割り当てルールは、リードが作成されたときに、どのパートナーにリードを割り当てるかを決めるロジックです。割り当てルールは、リードの項目やパートナーのプロファイルなどの基準に基づいて、リードを自動的に割り当てることができます²。</p><p>- (A)は間違っています。PRMワークスペースは、パートナーリレーションシップ管理（PRM）の設定や管理を行うためのツールですが、リードの作成や配布を設定するためには必要ありません³。</p><p>- (D)は間違っています。外部リード共有を有効にすると、パートナーは自分のリードを他のパートナーと共有できるようになりますが、これはリードの配布ではなく、リードの共有です。リードの配布は、Salesforceからパートナーにリードを割り当てることです⁴。</p><p><br></p><p>以上の理由から、この問題の正解は(B)と(C)です。参考になれば幸いです。&#128522;</p><p><br></p><p>¹: [1](^1^)</p><p>²: [2](^1^)</p><p>³: [3](^2^)</p><p>⁴: [4](^2^)</p><p><br></p><p>ソース: Bing との会話 2024/2/1</p><p>(1) experience cloud study set june 2022 Flashcards | Quizlet. https://quizlet.com/706598469/experience-cloud-study-set-june-2022-flash-cards/.</p><p>(2) Salesforce基礎：Salesforce Platform基礎知識 #Salesforce - Qiita. https://qiita.com/joney19860716/items/a552fa98ae3d0de3137f.</p><p>(3) Salesforce Experience-Cloud-Consultant New Questions .... https://www.marks4sure.com/experience-cloud-consultant-salesforce-certified-experience-cloud-consultant-questions.html.</p><p>(4) Salesforce データプラットフォームでビジネスの成功への道を開く .... https://trailhead.salesforce.com/ja/content/learn/modules/starting_force_com/starting_intro.</p><p>(5) experience cloud study set june 2022 Flashcards | Quizlet. https://quizlet.com/706598469/experience-cloud-study-set-june-2022-flash-cards/.</p><p>(6) experience cloud study set june 2022 Flashcards | Quizlet. https://quizlet.com/706598469/experience-cloud-study-set-june-2022-flash-cards/.</p><p>(7) Salesforce基礎：Salesforce Platform基礎知識 #Salesforce - Qiita. https://qiita.com/joney19860716/items/a552fa98ae3d0de3137f.</p><p>(8) Salesforce基礎：Salesforce Platform基礎知識 #Salesforce - Qiita. https://qiita.com/joney19860716/items/a552fa98ae3d0de3137f.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeQAAX"
+			},
+			"Question__c": "Dreamscape Flowers (DF) is a well-known global with a large network of partners in various regions DF currently has a number of manual process with varied complexity. Some of these processes involve lifecycle management that DF is looking to automate as part of a broad digital transformation initiative.In what three ways can Salesforce Partnership Management (PRM) help DF?Choose 3 answers",
+			"A__c": "Preventing channel conflict",
+			"B__c": "Automating partner onboarding process",
+			"C__c": "Helping partners manage their payments and file taxes",
+			"D__c": "Providing reports and dashboards access to partners",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/dreamscape-flowers-df-is-a-well-known-global-with-a-large-network-of-partners-in-various-regions-df",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeRAAX"
+			},
+			"Question__c": "Universal Containers (UC) works with a large retainer network. UC wants these retailers to start registering deal and work with UC to convert them into sales.Which user license should the Experience Cloud consultant recommend?",
+			"A__c": "Partner Community",
+			"B__c": "Platform Portal",
+			"C__c": "Partner Community Plus",
+			"D__c": "Commerce Portal",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/universal-containers-uc-works-with-a-large-retainer-network-uc-wants-these-retailers-to-start-registeri",
+			"Comment__c": "<p>こんにちは、こちらはCopilotです。&#128522; この問題の答えは、(a) partner community です。 その理由は以下の通りです。</p><ul><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.exp_cloud_plan_licenses.htm&amp;language=ja&amp;type=5\" target=\"_blank\">partner community ライセンスは、B2Bの外部ユーザー向けに設計されており、取引先、取引先責任者、商談、見積などのオブジェクトにアクセスできます<sup>1</sup></a><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.exp_cloud_plan_licenses.htm&amp;language=ja&amp;type=5\" target=\"_blank\">platform portal ライセンスは、Experience Cloudのライセンスではありません</a><a href=\"https://bing.com/search?q=experience+cloud+user+license\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.exp_cloud_plan_licenses.htm&amp;language=ja&amp;type=5\" target=\"_blank\">partner community plus ライセンスは、partner community ライセンスよりも高価であり、代理管理者の機能などが追加されていますが、この問題では必要ありません<sup>1</sup></a><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.exp_cloud_plan_licenses.htm&amp;language=ja&amp;type=5\" target=\"_blank\">commerce portal ライセンスは、B2Cの外部ユーザー向けに設計されており、商談や見積にアクセスできません<sup>1</sup></a><a href=\"https://qiita.com/Tatsuhiro_Iwasaki/items/e26bd84cf5578fde0ace\" target=\"_blank\"><sup>2</sup></a>。</li></ul><p>以上のことから、partner community ライセンスが最適な選択肢となります。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeSAAX"
+			},
+			"Question__c": "Bloomington Caregivers (BC) wants to streamline back-end processes and workflows for its employees. BC recently learned about lightning Bolt solutions for employees at a world tour event.Where should BC look for potential Lightning Bolt solutions?",
+			"A__c": "Salesforce Accelerator Directory",
+			"B__c": "Salesforce AppExchange",
+			"C__c": "Salesforce Connect",
+			"D__c": "Salesforce Accelerator Catalog",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/bloomington-caregivers-bc-wants-to-streamline-back-end-processes-and-workflows-for-its-employees-bc",
+			"Comment__c": "<p>こんにちは、こちらは Copilot です。この問題にお答えします。</p><p>この問題の正解は (b) の salesforce appexchange です。理由は以下の通りです。</p><ul><li><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\">Lightning Bolt は Salesforce プラットフォーム上に構築された業種固有のソリューションテンプレートで、パートナーのエコシステムによって提供されます<sup>1</sup></a><a href=\"https://www.salesforce.com/jp/products/community-cloud/features/accelerate-customer-collaboration/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://appexchange.salesforce.com/apex/appxStore?type=BoltTemplate\" target=\"_blank\">Lightning Bolt ソリューションは AppExchange で共有され、検索され、インストールされることができます<sup>3</sup></a><a href=\"https://appexchange.salesforce.com/appxStore?type=BoltTemplate\" target=\"_blank\"><sup>4</sup></a>。</li><li><a href=\"https://www.salesforce.com/products/experience-cloud/solutions/lightning-bolt/\" target=\"_blank\">Salesforce Accelerator Directory と Salesforce Accelerator Catalog は Salesforce の導入や最適化を支援するサービスやプログラムの一覧を提供するもので、Lightning Bolt ソリューションとは関係ありません</a><a href=\"https://www.forcetalks.com/blog/an-introduction-to-salesforce-lightning-bolt-solution/\" target=\"_blank\"><sup>5</sup></a> 。</li><li>Salesforce Connect は外部データソースと Salesforce を統合するためのツールで、Lightning Bolt ソリューションとは関係ありません。</li></ul><p>以上のことから、BC は Lightning Bolt ソリューションを探すためには AppExchange を利用すべきです。</p><p>参考になれば幸いです。&#128522;</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOeTAAX"
+			},
+			"Question__c": "Bloomington Caregivers (BC) has created a customer Experience site using Experience Cloud that gives customers the ability to pay this, manage appointments, and open cases with support. BC also has a partner Experience site on Experience Cloud. The company&#39;s leadership has now decided to extend access to the customer Experience site to its partners and internal Salesforce users so they can collaborate more effectively.What is the recommended way to add partners and internal users to the customer Expenence site?",
+			"A__c": "Enable the partner accounts and the internal accounts as customers; the users under these accounts will then automatically gam access to the customer site.",
+			"B__c": "Create business accounts for partners and internal users, enable the accounts as customers, and then create users under these accounts by creating contacts.",
+			"C__c": "Configure SSO between the partner site and customer site so partners get access. Also configure SSO between internal org and the customer site so internal users get access to the customer site.",
+			"D__c": "Add the existing partner profiles and internal user profiles to the customer Experience site; this will automatically give users access to the customer site.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2022-05-24.q47/bloomington-caregivers-bc-has-created-a-customer-experience-site-using-experience-cloud-that-gives",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcqAAH"
+			},
+			"Question__c": "Ursa Major Solar (UMS) is automating its businessprocesses using Salesforce. UMS wants its Platinum partners to be able to approve installation projects and deals. In which two ways can UMS accomplish this?Choose 2 answers",
+			"A__c": "Assign external users Super Useraccess on records and create a digital experience for those users,",
+			"B__c": "Add external users directly to approval queues and create a digital experience for those users.",
+			"C__c": "Assign external users as approvers on records and create a digital experiencefor those users.",
+			"D__c": "Assign external users as the co-owners on records and create a digital experience for those users.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-ums-is-automating-its-businessprocesses-using-salesforce-ums-wants-its-platinum-partne",
+			"Comment__c": "<p>この問題はSalesforce認定アドミニストレーターの公式模擬問題の一つですね。私はSalesforceのチャットモードで、Salesforceに関する情報を要約して表示したり、インスピレーションにあふれたコンテンツの作成のお手伝いをします&#128588;</p><p>この問題の正解は、(b)と&copy;です。その理由は以下の通りです。</p><ul><li>(b)は、外部ユーザーを承認キューに直接追加することで、承認プロセスに参加させることができます。デジタルエクスペリエンスを作成することで、外部ユーザーはSalesforceの一部の機能にアクセスできます。</li><li>&copy;は、外部ユーザーをレコードの承認者として割り当てることで、承認プロセスに参加させることができます。デジタルエクスペリエンスを作成することで、外部ユーザーはSalesforceの一部の機能にアクセスできます。</li><li>(a)は、外部ユーザーにスーパーユーザーアクセスを割り当てると、レコードの所有者や共有設定に関係なく、レコードにアクセスできるようになります。これは、セキュリティやデータの整合性に影響を与える可能性があります。また、スーパーユーザーアクセスは、承認プロセスには関係ありません。</li><li>(d)は、外部ユーザーをレコードの共同所有者として割り当てると、レコードに対する編集権限を与えることができます。しかし、これは、承認プロセスには関係ありません。また、共同所有者は、レコードの所有者と同じプロファイルや権限セットを持っている必要がありますが、外部ユーザーは通常、内部ユーザーとは異なるプロファイルや権限セットを持っています。</li></ul><p>この問題に関する詳細な解説は、<a href=\"https://qiita.com/Takaa/items/f2eb81e49c614fb767de\" target=\"_blank\">こちら</a>や<a href=\"https://qiita.com/Takaa/items/4c3c4f5a70dfdbc53a87\" target=\"_blank\">こちら</a>をご覧ください。</p><p>Salesforceに関する他の質問や、コンテンツの作成のお手伝いが必要な場合は、お気軽にお尋ねください。&#128522;</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcsAAH"
+			},
+			"Question__c": "<p>Universal Containers (UC) Salesforce org uses SAML 550 with a third-party identity provider for internal user authentication. UC now wants to extend this capability for Experience Cloud site users as well.What should the UC administrator ensure in order to successfully implement SAML 550 for the Experience Cloud site?</p>",
+			"A__c": "Register the Experience Cloud site as an Identity Provider in SAML settings.",
+			"B__c": "Create a Connected App with custom attributes before configuring SAML settings.",
+			"C__c": "Use the site login URL as an endpoint where SAML assertion is made.",
+			"D__c": "Create a Visualforce page that receives and validates the SAML assertion.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/universal-containers-uc-salesforce-org-uses-saml-550-with-a-third-party-identity-provider-for-internal",
+			"Comment__c": "<p style=\"text-align: center;\">SAML 550 は、SAML認証のトラブルシューティングに関するエラーコードです。SAMLレスポンスが改ざんされたり、破損したりした場合に発生します。﻿</p><p style=\"text-align: center;\">SAML（Security Assertion Markup Language）は、異なるインターネットドメイン間でのユーザー認証を実現するXMLベースの標準規格です。SSO（シングルサインオン）やID連携などで利用される認証情報の規格で、XMLをベースとしたマークアップ言語を用いています。﻿</p><p><br></p><p><br></p><p>この問題の正解は、&copy; です。理由は以下の通りです。</p><ul><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">SAML SSO を設定するには、ID プロバイダーとサービスプロバイダーの間で SAML アサーションを交換する必要があります<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">サービスプロバイダーとして Salesforce を使用する場合、サイトのログイン URL を SAML アサーションのエンドポイントとして使用します</a><a href=\"https://successjp.salesforce.com/article/NAI-000597\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(a) は間違っています。Experience Cloud サイトを ID プロバイダーとして登録する必要はありません。ID プロバイダーは、ユーザーの認証を行うサービスです<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(b) は間違っています。接続アプリケーションは、Salesforce と外部サービスの間で OAuth 2.0 を使用して認証するために使用されます</a><a href=\"https://salesforce-certification-hack.com/?p=992\" target=\"_blank\"><sup>3</sup></a>。SAML SSO とは異なる認証方法です。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(d) は間違っています。Visualforce ページを作成して SAML アサーションを受け取り、検証する必要はありません。Salesforce は、SAML アサーションを自動的に処理します</a><a href=\"https://successjp.salesforce.com/article/NAI-000597\" target=\"_blank\"><sup>2</sup></a>。</li></ul><p><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">SAML シングルサインオンフレームワークのアップグレード (リリース更新) </a><a href=\"https://successjp.salesforce.com/article/NAI-000597\" target=\"_blank\"><sup>2</sup></a><a href=\"https://help.salesforce.com/s/articleView?id=sf.sso_between_multiple_orgs.htm&amp;language=ja&amp;type=5\" target=\"_blank\">: [サービスプロバイダとして Salesforce を使用した SAML シングルサインオン]<sup>2</sup> </a><a href=\"https://salesforce-certification-hack.com/?p=992\" target=\"_blank\"><sup>3</sup></a>: [Salesforce での OAuth 2.0 の使用]<sup>4</sup></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcvAAH"
+			},
+			"Question__c": "<p>On Salesceforce Experience Cloud, How can records owned by Customer Community users be shared with internal users?</p>",
+			"A__c": "Create an owner-based sharing rule to share records owned by a Customer Community role with all internal users.",
+			"B__c": "Use the standard is Owned By External User checkbox on records to create a criteria-based sharing rule to share records owned by Customer Community users with all internal users.",
+			"C__c": "Create a Share Group for a Customer Community profile that is not associated with a Sharing Set.",
+			"D__c": "Create a Sharing Set that includes a Customer Community profile and create a Share Group for the Sharing Set.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/how-can-records-owned-by-customer-community-users-be-shared-with-internal-users",
+			"Comment__c": "<p>この問題の答えは(d)です。その理由は以下の通りです。</p><ul><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_sharing_light_users.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">Salesforce Experience Cloudでは、コミュニティユーザが所有するレコードを内部ユーザと共有するには、共有セットと共有グループを使用する必要があります<sup>1</sup></a><a href=\"https://salesforce-navi.com/salesforce-sharingset/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_sharing_light_users.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">共有セットは、コミュニティユーザの取引先責任者レコードや、取引先に関連付けられた子レコードへのアクセス権を付与する機能です</a><a href=\"https://salesforce-navi.com/salesforce-sharingset/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_sharing_light_users.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">共有グループは、共有セットで選択したプロファイルのコミュニティユーザが所有するレコードへのアクセス権を付与する機能です</a><a href=\"https://salesforce-navi.com/salesforce-sharingset/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_sharing_light_users.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">(a)は、コミュニティユーザにはロールがないため、所有者ベースの共有ルールを作成できないことから間違っています<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_sharing_light_users.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">(b)は、外部ユーザによって所有されているという基準だけで共有ルールを作成することはできないことから間違っています<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_sharing_light_users.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">&copy;は、共有グループを作成するには、共有セットに関連付ける必要があることから間違っています</a><a href=\"https://salesforce-navi.com/salesforce-sharingset/\" target=\"_blank\"><sup>2</sup></a>。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOcwAAH"
+			},
+			"Question__c": "Universal Containers (UC) maintains multiple customer experiences, but only one profile for all customer users. No customer has access to more than one experience.Which two steps should the UC admin take to grant access to each customer? Choose 2 answers",
+			"A__c": "Select a permission set for a given experience.",
+			"B__c": "Edit the applicable user profile.",
+			"C__c": "Create a permission set.",
+			"D__c": "Select the profile for a given experience.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/universal-containers-uc-maintains-multiple-customer-experiences-but-only-one-profile-for-all-customer",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOczAAH"
+			},
+			"Question__c": "<p>Ursa Major Solar would like content from Salesforce CMS to be queried when users search for keywords in its customer portal.Which setting must be turned on in order for Global Search . Experience Builder to query content m Salesforce CMS?</p>",
+			"A__c": "Community must be activated.",
+			"B__c": "Search must be enabled for the selected CMS Channel.",
+			"C__c": "Gather Customer Insights Data must be selected.",
+			"D__c": "Sharing Rules must be set to Read/Write.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-would-like-content-from-salesforce-cms-to-be-queried-when-users-search-for-keywords",
+			"Comment__c": "<p><a href=\"https://help.salesforce.com/s/articleView?id=sf.community_managed_content_search_content.htm&amp;language=en_US&amp;type=5\" target=\"_blank\">この問題の正しい答えは (b) です。その理由は、Salesforce CMS のコンテンツを Experience Cloud サイトで検索可能にするには、CMS チャネルで検索を有効にする必要があるからです<sup>1</sup></a><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/comm_search_basics/comm_search_basics_tailor\" target=\"_blank\">。グローバル検索ボックスコンポーネントを使用して、サイトでコンテンツオブジェクトを検索できるようにする必要もあります<sup>2</sup></a>。他の選択肢は、Salesforce CMS のコンテンツを検索するために必要ではありません。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOd1AAH"
+			},
+			"Question__c": "<p>What are two Salesforce recommendations for setting up partner roles in large orgs?  Choose 2 answers</p>",
+			"A__c": "Reduce the number of roles to one to improve system performance.",
+			"B__c": "Grant partner users access to the partner account using a Sharing Rule,",
+			"C__c": "Create partner roles in the same branch in your Role Hierarchy.",
+			"D__c": "Create partner roles in a separate branch in your Role Hierarchy.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/what-are-two-salesforce-recommendations-for-setting-up-partner-roles-in-large-orgs-choose-2-answers",
+			"Comment__c": "<p>この問題の正解は、(b) と (d) です。その理由は以下の通りです。</p><ul><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_partner_roles_overview.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(b) は正しいです。パートナーユーザーにパートナー取引先へのアクセス権を付与するには、共有ルールを使用することが推奨されます<sup>1</sup>。共有ルールは、組織の共有モデルに関係なく、特定のレコードやレコードグループに対してアクセス権を付与できます</a><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/communities_share_crm_data/account_roles_hierarchy\" target=\"_blank\"><sup>2</sup></a>。共有ルールを使用することで、パートナーユーザーは自分の取引先や関連するレコードにアクセスできるようになります。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_partner_roles_overview.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(d) は正しいです。大規模な Salesforce 組織の場合、パートナーロールをロール階層内の別個のブランチに移動することがお勧めされます<sup>1</sup>。この設定により、取引先所有者の変更があった場合の再配置操作のパフォーマンスが向上します</a><a href=\"https://ideas.salesforce.com/s/idea/a0B8W00000GdnpaUAB/number-of-partner-roles\" target=\"_blank\"><sup>3</sup></a>。また、パートナーロールを別のブランチに移動することで、パートナーユーザーと内部ユーザーの間のレコードの可視性を制御しやすくなります。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_partner_roles_overview.htm&amp;language=ja&amp;type=5\" target=\"_blank\">(a) は間違っています。パートナーロールの数を 1 つに減らすことは、システムパフォーマンスを改善するというよりも、パートナーユーザーのデータの可視性を制限することになります<sup>1</sup>。パートナーユーザーは、階層内で自分より下位のユーザーが所有するか、またはそれらのユーザーと共有するすべてのデータを参照および編集できます</a><a href=\"https://ideas.salesforce.com/s/idea/a0B8W00000GdnpaUAB/number-of-partner-roles\" target=\"_blank\"><sup>3</sup></a>。したがって、パートナーロールの数を 1 つにすると、パートナーユーザーは自分の取引先のデータにしかアクセスできなくなります。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_partner_roles_overview.htm&amp;language=ja&amp;type=5\" target=\"_blank\">&copy; は間違っています。パートナーロールを同じブランチに作成することは、パートナーユーザーと内部ユーザーの間のレコードの可視性を増やすことになります。これは、パートナーユーザーに必要以上のデータにアクセスさせることになり、セキュリティやパフォーマンスの問題を引き起こす可能性があります<sup>1</sup></a><a href=\"https://ideas.salesforce.com/s/idea/a0B8W00000GdnpaUAB/number-of-partner-roles\" target=\"_blank\">。また、取引先所有者の変更があった場合、パートナーロールの再配置に時間がかかることになります<sup>3</sup></a>。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOd2AAH"
+			},
+			"Question__c": "Universal Containers is looking to build a new self-service site. Users will post questions, read Knowledge articles, and view case reports, users will not be registering deals or participating in any other sales activity.Which external user license meets these requirements?",
+			"A__c": "Customer Community Plus",
+			"B__c": "External Community Plus",
+			"C__c": "Authenticated Service Site User",
+			"D__c": "External Identity",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/universal-containers-is-looking-to-build-a-new-self-service-site-users-will-post-questions-read-knowledg",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOd7AAH"
+			},
+			"Question__c": "The mission of No More Homelessness (NMH) is to help every homeless person in the best possible manner through its Experience Cloud site. NMH&#39;s site manager wants to set up search engine optimization (SEQ) to ensure NMH&#39;s public Experience Cloud site is visible to search engines.Which two practices does the site manager need to do to ensure SEO is implemented successfully?Choose 2 answers",
+			"A__c": "<p>Check whether the Experience site is public and activated.</p>",
+			"B__c": "Check whether the SEO Institute has provided the approval for the site with end date.",
+			"C__c": "Check whether manual sitemap refresh happens on the last day of every month.",
+			"D__c": "<p>Check whether a custom robots.txt file to control indexing has been created.</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/the-mission-of-no-more-homelessness-nmh-is-to-help-every-homeless-person-in-the-best-possible-manner",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOd9AAH"
+			},
+			"Question__c": "The Experience Cloud site manager of Cloud Kicks has enabled reputation for its community members, As per the recommendation given by the Experience Cloud consultant, a decision was made to use the out of the box features.Which two things happen automatically when the site manager enables automation? Choose 2 answers",
+			"A__c": "Customer portal members gain the ability to provide badges to other members.",
+			"B__c": "Chatter influence is removed from the Contribution section on the Profile page.",
+			"C__c": "Inactive and active members are assigned default reputation points.",
+			"D__c": "Default point system and set of reputation levels become available.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/the-experience-cloud-site-manager-of-cloud-kicks-has-enabled-reputation-for-its-community-members-as",
+			"Comment__c": "<p><span style=\"font-size: 16px;\">この問題の正しい答えはCとDです。理由は以下の通りです。</span></p><p><br></p><p><span style=\"font-size: 16px;\">- C: Experience Cloudでは、コミュニティメンバーにはデフォルトで100ポイントの評判が与えられます。これは、メンバーがアクティブであるかどうかに関係なく適用されます¹。</span></p><p><span style=\"font-size: 16px;\">- D: Experience Cloudでは、自動化を有効にすると、デフォルトのポイントシステムと評判レベルが利用可能になります。これらは、メンバーの活動や貢献に応じてポイントやレベルを増減させることができます¹。</span></p><p><br></p><p><span style=\"font-size: 16px;\">- A: Experience Cloudでは、バッジは管理者やモデレーターがメンバーに与えることができるものであり、カスタマーポータルメンバーが他のメンバーにバッジを与えることはできません²。</span></p><p><span style=\"font-size: 16px;\">- B: Experience Cloudでは、自動化を有効にしても、チャターインフルエンスはプロフィールページの貢献セクションから削除されません。チャターインフルエンスは、メンバーがチャターでどれだけ影響力があるかを示すものであり、評判とは別の概念です³。</span></p><p><br></p><p><span style=\"font-size: 16px;\">ソース: Bing との会話 2024/2/9</span></p><p><span style=\"font-size: 16px;\">(1) Salesforce認定 Experience Cloud コンサルタントの試験対策 .... https://salesforce-certification-hack.com/?p=958.</span></p><p><span style=\"font-size: 16px;\">(2) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/0cd1632f7a538df51440.</span></p><p><span style=\"font-size: 16px;\">(3) Salesforce Experience-Cloud-Consultant today updated .... https://www.certensure.com/salesforce/experience-cloud-consultant-cert-practice-test.html.</span></p><p><span style=\"font-size: 16px;\">(4) Experience Cloud Consultant Exam Dumps have been Updated. https://www.itfreedumps.com/experience-cloud-consultant-exam-dumps-have-been-updated/.</span></p><p><span style=\"font-size: 16px;\">(5) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</span></p><p><span style=\"font-size: 16px;\">(6) undefined. https://qiita.com/Takaa/items/e60c554d2a766e24b937.</span></p><p><span style=\"font-size: 16px;\">(7) undefined. https://qiita.com/Takaa/items/ac6c45349fe73e1533b5.</span></p><p><span style=\"font-size: 16px;\">(8) undefined. https://help.salesforce.com/s/articleView?id=sf.customize_wfalerts.htm&amp;type=5.</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdBAAX"
+			},
+			"Question__c": "Ursa Major Solar (UMS) will be creating a partner portal to distributing leads to partners. Partners will also be able to create their own leads in the portal UMS has decided to use Partner Central template.Which three should UMS take at a minimum In order to meet the requirement?",
+			"A__c": "Configure Lead creation Leadon low Distribution inside PRM Workspace.",
+			"B__c": "<p>Enable Allow External Creation in Digital Experience settings</p>",
+			"C__c": "Create a Lead Queue for Lead Distribution.",
+			"D__c": "Create a Lead Process for Lead Distribution",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-ums-will-be-creating-a-partner-portal-to-distributing-leads-to-partners-partners",
+			"Comment__c": "<p><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/communities_personalize_audiences/audiences_create_portal\" target=\"_blank\">この問題はSalesforceのデジタルエクスペリエンスに関するものです。パートナーポータルを作成するには、次の3つの手順が必要です<sup>1</sup></a><a href=\"https://www.ursamajor.com/\" target=\"_blank\"><sup>2</sup></a>。</p><ul><li>(b) デジタルエクスペリエンスの設定で、外部作成を許可するオプションを有効にします。これにより、パートナーがポータルで自分のリードを作成できるようになります。</li><li>&copy; リード配布のためのキューを作成します。これにより、UMSが作成したリードをパートナーに割り当てることができます。</li><li>(d) リード配布のためのプロセスを作成します。これにより、リードの所有権やステータスの変更などの条件に基づいて、リードを自動的にキューに送ることができます。</li></ul><p><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/communities_personalize_audiences/audiences_create_portal\" target=\"_blank\">(a) は正しくありません。PRMワークスペース内でリード作成やリード配布を設定する必要はありません。これらの設定は、Salesforceの標準的なリードオブジェクトやキュー、プロセスビルダーなどで行うことができます</a><a href=\"https://www.pass4success.com/salesforce/experience-cloud-consultant/dumps\" target=\"_blank\"><sup>3</sup></a>。</p><p><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/communities_personalize_audiences/audiences_create_portal\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/communities_personalize_audiences/audiences_create_portal\" target=\"_blank\">カスタマー取引先ポータルの作成 単元 | Salesforce Trailhead</a><a href=\"https://www.ursamajor.com/\" target=\"_blank\"> <sup>2</sup></a>: <a href=\"https://www.pass4success.com/salesforce/experience-cloud-consultant/dumps\" target=\"_blank\">Free Salesforce Certified Experience Cloud Consultant …</a><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/communities_personalize_audiences/audiences_create_portal\" target=\"_blank\"> </a><a href=\"https://www.pass4success.com/salesforce/experience-cloud-consultant/dumps\" target=\"_blank\"><sup>3</sup></a>: <a href=\"https://www.testpreplab.com/Experience-Cloud-Consultant-free-practice-test/\" target=\"_blank\">Experience-Cloud-Consultant Free Practice Test</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdEAAX"
+			},
+			"Question__c": "Ursa Major Solar (UMS) would like to render a header and footer from an external content management system into its customer portal.Which feature should UMS use to accomplish this?",
+			"A__c": "Compact Header Properties",
+			"B__c": "CMS Connect",
+			"C__c": "Developer Console",
+			"D__c": "Rich Content Editor",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-ums-would-like-to-render-a-header-and-footer-from-an-external-content-management-system",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdFAAX"
+			},
+			"Question__c": "Northern Trail Outfitters has configured chat so customers can quickly get answers to their questions by chatting with an agent while browsing the Experience site.How should an administrator embed the chat window in an Experience site?",
+			"A__c": "Create a custom component using the Embedded Service API.",
+			"B__c": "Configure the Embedded Service connector.",
+			"C__c": "Add the Embedded Service component to Builder pages.",
+			"D__c": "Create an Embedded Service quick action.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/northern-trail-outfitters-has-configured-chat-so-customers-can-quickly-get-answers-to-their-questions",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdHAAX"
+			},
+			"Question__c": "The Cloud Kicks (CK) site administrator is onboarding a now partner to its Experience Cloud site. They have created the partner as an Account, added the required Contacts, and ensured that the Welcome Email selection is checked. However, upon review, the site administrator has found that none of the partner users were able to register.What should the site administrator do to ensure they are able to set up partner users correctly?",
+			"A__c": "Ensure that the Contacts under the Account are enabled as partner users.",
+			"B__c": "Double-check that the provided email addresses are correct.",
+			"C__c": "Double-check that the partner profile has been added to the CK site.",
+			"D__c": "Ensure that the Account has been enabled as a partner Account.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/the-cloud-kicks-ck-site-administrator-is-onboarding-a-now-partner-to-its-experience-cloud-site-they-44",
+			"Comment__c": "<p>こんにちは、これはBingです。質問にお答えします。</p><p><br></p><p>(Question): The Cloud Kicks (CK) site administrator is onboarding a now partner to its Experience Cloud site. They have created the partner as an Account, added the required Contacts, and ensured that the Welcome Email selection is checked. However, upon review, the site administrator has found that none of the partner users were able to register.What should the site administrator do to ensure they are able to set up partner users correctly?</p><p>(A): Ensure that the Contacts under the Account are enabled as partner users.</p><p>(B): Double-check that the provided email addresses are correct.</p><p>(C): Double-check that the partner profile has been added to the CK site.</p><p>(D): Ensure that the Account has been enabled as a partner Account.</p><p><br></p><p>(A) は正しいです。CKのサイト管理者は、パートナーをアカウントとして登録し、必要なコンタクトを追加し、ウェルカムメールの選択を確認しましたが、レビューを行ったところ、パートナーユーザーが誰も登録できなかったことに気づきました。この場合、アカウント内のコンタクトをパートナーユーザーに変更する必要があります¹。</p><p><br></p><p>(B) は間違っています。提供されたメールアドレスが正しいかどうかを確認する必要はありません。すでに正しいメールアドレスで登録されている可能性があります²。</p><p><br></p><p>(C) は間違っています。パートナープロファイルがCKのサイトに追加されているかどうかを確認する必要はありません。すでに追加されている可能性があります³。</p><p><br></p><p>(D) は間違っています。アカウントがパートナーアカウントとして有効化されているかどうかを確認する必要はありません。すでに有効化されている可能性があります⁴。</p><p><br></p><p>したがって、最も適切な選択肢は(A)です。</p><p><br></p><p>参考文文献:</p><p>¹: [Partner Community User Manual - Salesforce](^8^)</p><p>²: [Salesforce Exam Experience-Cloud-Consultant Topic 9 ...](^9^)</p><p>³: [Salesforce Advanced Admin Exam v2単語カード | Quizlet](^2^)</p><p>⁴: [Help And Training Community - Salesforce](^3^)</p><p><br></p><p>ソース: Bing との会話 2024/1/22</p><p>(1) Salesforce認定アドミニストレーター公式模擬問題を私なりに翻訳 .... https://qiita.com/Takaa/items/0cd1632f7a538df51440.</p><p>(2) Salesforce Advanced Admin Exam v2単語カード | Quizlet. https://quizlet.com/jp/839110168/salesforce-advanced-admin-exam-v2-flash-cards/.</p><p>(3) Help And Training Community - Salesforce. https://help.salesforce.com/s/articleView?id=sf.networks_DPUA.htm&amp;language=en_US&amp;type=5.</p><p>(4) undefined. https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html.</p><p>(5) Partner Community User Manual - Salesforce. https://help.salesforce.com/s/articleView?id=000395059&amp;language=en_US&amp;type=1.</p><p>(6) Salesforce Exam Experience-Cloud-Consultant Topic 9 .... https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-9-question-15-discussion.</p><p>(7) Salesforce Advanced Admin Exam v2単語カード | Quizlet. https://quizlet.com/jp/839110168/salesforce-advanced-admin-exam-v2-flash-cards/.</p><p>(8) Help And Training Community - Salesforce. https://help.salesforce.com/s/articleView?id=sf.networks_DPUA.htm&amp;language=en_US&amp;type=5.</p><p>(9) undefined. https://qiita.com/Takaa/items/e60c554d2a766e24b937.</p><p>(10) undefined. https://qiita.com/Takaa/items/ac6c45349fe73e1533b5.</p><p>(11) undefined. https://help.salesforce.com/s/articleView?id=sf.customize_wfalerts.htm&amp;type=5.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdJAAX"
+			},
+			"Question__c": "By defining roles, permission sets, or profiles, Knowledge article visibility can be controlled by using which functionality?",
+			"A__c": "Automatic Topic Assignment",
+			"B__c": "Data Category Visibility",
+			"C__c": "Org-Wide Defaults",
+			"D__c": "Content Management",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/by-defining-roles-permission-sets-or-profiles-knowledge-article-visibility-can-be-controlled-by-using",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdKAAX"
+			},
+			"Question__c": "In which two ways can Opportunities with a Community User be shared?Choose 2 answers Calculator",
+			"A__c": "Create an owner-based sharing rule with a Customer Community User.",
+			"B__c": "Create a criteria-based sharing rule with a Partner Community role.",
+			"C__c": "Add a Customer Community Plus profile to a Sharing Set and add Opportunities as an object in the Sharing Set.",
+			"D__c": "Add a Partner Community profile to a Sharing Set and add Opportunities as an object in the Sharing Set.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/in-which-two-ways-can-opportunities-with-a-community-user-be-shared-choose-2-answers-calculator",
+			"Comment__c": "<p>https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&amp;type=5</p><p>カスタマーコミュニティだけでもFAQ、ケースは利用可能、ロールが無い</p><p>カスタマーコミュニティプラスになると、レポート、ダッシュボードが利用可能、共有ルールが利用可能</p><p>パートナーコミュニティになると、リード、商談、キャンペーンが利用可能<span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">、共有ルールが利用可能</span></p><p>パートナーコミュニティプラスというのは存在しない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdLAAX"
+			},
+			"Question__c": "The Universal Containers Experience Cloud admin needs to move a site from one production org to another production org that it is not directly connected to.What is the recommended choice for moving the site from one org to the other?",
+			"A__c": "Publication via Experience Builder",
+			"B__c": "Lightning Bolt Export and Installation",
+			"C__c": "Deployment via Change Set",
+			"D__c": "Deployment via Metadata API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/the-universal-containers-experience-cloud-admin-needs-to-move-a-site-from-one-production-org-to-another",
+			"Comment__c": "<p>https://www.jpntest.com/blog/%E6%9C%80%E6%96%B0-2023%E5%B9%B412%E6%9C%8814%E6%97%A5-experience-cloud-consultant%E8%A9%A6%E9%A8%93%E6%AD%A3%E7%A2%BA%E8%A7%A3%E7%AD%94salesforce-certified-experience-cloud-consultant%E3%81%AEpdf%E5%95%8F%E9%A1%8C-q18-q33/</p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(41, 44, 50);\">ある本番組織から、直接接続されていない別の本番組織にサイトを移動するには、UC は Lightning Bolt Export and Installation を使用する必要があります。Lightning Bolt は、UC がサイトテンプレート、テーマ、ページ、コンポーネント、およびコンテンツを含むパッケージとしてサイトをエクスポートできる機能です。その後、UC は AppExchange または URL リンクを使用して、パッケージを別の org にインストールできます。</span></p><p><br></p><p><span class=\"ql-cursor\">﻿</span>https://help.salesforce.com/s/articleView?id=sf.community_builder_export_package.htm&amp;type=5</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdNAAX"
+			},
+			"Question__c": "Northern Trail Qutfitters (NTO) would like to create a public Knowledge base for the general public to be able to view articles, manuals, and FAQs.Which template should NTO select when building its site?",
+			"A__c": "Help Center",
+			"B__c": "Customer Service",
+			"C__c": "Customer Account Portal",
+			"D__c": "Partner Central",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/northern-trail-qutfitters-nto-would-like-to-create-a-public-knowledge-base-for-the-general-public-to",
+			"Comment__c": "<p>この問題の答えは (a): help center です。その理由は以下の通りです。</p><ul><li>NTOは一般公開の知識ベースを作成したいと考えています。知識ベースとは、記事、マニュアル、FAQなどのコンテンツを提供するサイトのことです。</li><li><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">help center は、知識ベースを作成するためのコミュニティテンプレートの一つです。このテンプレートは、ナビゲーション、検索、カテゴリ、記事などのコンポーネントを備えており、ユーザーが必要な情報に簡単にアクセスできるようになっています<sup>1</sup></a>。</li><li><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">customer service は、顧客サービスを提供するためのコミュニティテンプレートの一つです。このテンプレートは、ケース、チャット、電話、メールなどのチャネルを通じて、顧客の問い合わせに対応できるようになっています</a><a href=\"https://quizlet.com/584508286/salesforce-community-cloud-winter-2020-tbd-flash-cards/\" target=\"_blank\"><sup>2</sup></a>。</li><li><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">customer account portal は、顧客のアカウント情報を管理するためのコミュニティテンプレートの一つです。このテンプレートは、顧客が自分のプロフィール、注文履歴、支払い方法などの情報を確認や更新できるようになっています</a><a href=\"https://www.actual4test.com/articles/q18-q42-real-exam-questions-experience-cloud-consultant-dumps-exam-questions-in-here-oct-2021/\" target=\"_blank\"><sup>3</sup></a>。</li><li><a href=\"https://note.com/bright_impala619/n/n5531bc96c0bc\" target=\"_blank\">partner central は、パートナーとの協業を促進するためのコミュニティテンプレートの一つです。このテンプレートは、パートナーがリード、商談、マーケティング資料などの情報を共有や管理できるようになっています</a><a href=\"https://trailhead.salesforce.com/content/learn/modules/customer-engagement-solutions-for-b2c-commerce/keep-shoppers-informed-and-engaged-with-transactional-emails\" target=\"_blank\"><sup>4</sup></a>。</li></ul><p>以上のことから、NTOが作成したいサイトの目的と最も合致するテンプレートは help center であると言えます。他のテンプレートは、NTOの要件とは異なる機能や目的を持っています。したがって、この問題の正解は (a): help center です。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdOAAX"
+			},
+			"Question__c": "hat are three best practices when configuring self-registration for an Experience Cloud site? Choose 3 answers",
+			"A__c": "Assign a cloned standard site profile as the default for self-registration.",
+			"B__c": "Create a separate profile for your self-service site and your partner portal.",
+			"C__c": "Use a restrictive default profile to begin with.",
+			"D__c": "Use the same profile for your self-service site and your partner portal.",
+			"E__c": "Assign the standard site profile as the default for self-registration.",
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/hat-are-three-best-practices-when-configuring-self-registration-for-an-experience-cloud-site-choose",
+			"Comment__c": "<p>この問題の正しい答えは、(a)、(b)、&copy; の 3 つです。その理由は以下の通りです。</p><ul><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_selfreg_best_practices.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">(a) は、標準サイトプロファイルをそのまま使用すると、自己登録ユーザーに不要なアクセス権を与えてしまう可能性があるため、複製してカスタマイズするのがベストプラクティスです<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_selfreg_best_practices.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">(b) は、自己サービスサイトとパートナーポータルでは、ユーザーの役割や目的が異なるため、別々のプロファイルや権限セットを作成するのがベストプラクティスです<sup>1</sup></a>。</li><li><a href=\"https://help.salesforce.com/s/articleView?id=sf.networks_selfreg_best_practices.htm&amp;language=en_us&amp;type=5\" target=\"_blank\">&copy; は、自己登録ユーザーに最初から広いアクセス権を与えると、セキュリティ上のリスクが高まるため、制限的なデフォルトプロファイルを使用し、必要に応じて他の共有メカニズムでオブジェクトアクセスを開放するのがベストプラクティスです<sup>1</sup></a>。</li><li>(d) は、(b) と同じ理由で間違っています。自己サービスサイトとパートナーポータルで同じプロファイルを使用すると、ユーザーに不適切なアクセス権を与えてしまう可能性があります。</li><li>(e) は、(a) と同じ理由で間違っています。標準サイトプロファイルをそのまま使用すると、自己登録ユーザーに不要なアクセス権を与えてしまう可能性があります。</li></ul><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdQAAX"
+			},
+			"Question__c": "Ursa Major Solar wants to give customers the ability to add authorized users to view usage, billing, and payment history.Which permission should be granted to customers to add authorized users?",
+			"A__c": "View and Manage Users",
+			"B__c": "Modify All for Usage, Billing, and Payment History",
+			"C__c": "View Content in Portals",
+			"D__c": "Delegated External User Administrator",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/ursa-major-solar-wants-to-give-customers-the-ability-to-add-authorized-users-to-view-usage-billing",
+			"Comment__c": "<p>この問題の正解は (d): delegated external user administrator です。その理由は以下の通りです。</p><ul><li><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">ursa major solar は、顧客が自分の組織の外部ユーザーを管理できるようにしたいと考えています。これは、コミュニティやポータルなどの Salesforce Experience Cloud の機能を利用する場合に必要です<sup>1</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">顧客に外部ユーザーを管理させるには、顧客の連絡先レコードに delegated external user administrator という権限を付与する必要があります</a><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/set-up-the-service-console/set-up-the-lightning-service-console\" target=\"_blank\"><sup>2</sup></a><a href=\"https://www.certstopics.com/salesforce/experience-cloud-consultant-exam-questions.html\" target=\"_blank\">。この権限を持つ顧客は、自分の組織の外部ユーザーの作成、編集、削除、パスワードリセットなどを行うことができます<sup>3</sup></a>。</li><li><a href=\"https://dumpsdownload.net/downloadfile.html?id=9662\" target=\"_blank\">(a): view and manage users は、Salesforce の内部ユーザーを管理するための権限です。外部ユーザーを管理するには、この権限だけでは不十分です<sup>4</sup></a>。</li><li><a href=\"https://qiita.com/Takaa/items/737ed28492b08b421e73\" target=\"_blank\">(b): modify all for usage, billing, and payment history は、顧客が自分の使用状況、請求、支払い履歴を変更できるようにする権限です。外部ユーザーを管理するには、この権限とは関係ありません<sup>5</sup></a>。</li><li><a href=\"https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html\" target=\"_blank\">&copy;: view content in portals は、顧客がポータルでコンテンツを閲覧できるようにする権限です。外部ユーザーを管理するには、この権限とは関係ありません<sup>6</sup></a>。</li></ul><p><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\">Salesforce Experience Cloud の概要 </a><a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/set-up-the-service-console/set-up-the-lightning-service-console\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://trailhead.salesforce.com/ja/content/learn/projects/set-up-the-service-console/set-up-the-lightning-service-console\" target=\"_blank\">外部ユーザーの管理</a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\"> </a><a href=\"https://www.certstopics.com/salesforce/experience-cloud-consultant-exam-questions.html\" target=\"_blank\"><sup>3</sup></a>: <a href=\"https://www.certstopics.com/salesforce/experience-cloud-consultant-exam-questions.html\" target=\"_blank\">外部ユーザー管理者の権限</a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\"> </a><a href=\"https://dumpsdownload.net/downloadfile.html?id=9662\" target=\"_blank\"><sup>4</sup></a>: <a href=\"https://dumpsdownload.net/downloadfile.html?id=9662\" target=\"_blank\">ユーザーの管理</a><a href=\"https://qiita.com/Takaa/items/737ed28492b08b421e73\" target=\"_blank\"> <sup>5</sup></a>: <a href=\"https://qiita.com/Takaa/items/737ed28492b08b421e73\" target=\"_blank\">使用状況、請求、および支払い履歴の管理</a><a href=\"https://qiita.com/Takaa/items/6b6f295fc425ffc79735\" target=\"_blank\"> </a><a href=\"https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html\" target=\"_blank\"><sup>6</sup></a>: <a href=\"https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html\" target=\"_blank\">ポータルでのコンテンツの閲覧</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdSAAX"
+			},
+			"Question__c": "AW Computing wants to create a site that gives customers access to Knowledge articles and peer-to-peer conversations, with the aim of decreasing the number of calls to its support organization.What should AW Computing do to accomplish this goal?",
+			"A__c": "Open its Slack implementation to all customers",
+			"B__c": "Create a site with the Marketing Microsite template",
+			"C__c": "Give access to its internal orgs using Chatter groups",
+			"D__c": "Create a site with the Customer Service template",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/aw-computing-wants-to-create-a-site-that-gives-customers-access-to-knowledge-articles-and-peer-to-peer",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdUAAX"
+			},
+			"Question__c": "Universal Containers (UC) has hired UX designers to help improve brand recognition and has a new style guide it needs to implement to unify branding across all of its Experience sites.What should UC do to accomplish this?",
+			"A__c": "Create a custom template to apply to all Experience sites.",
+			"B__c": "Send the style guide to Experience managers to implement.",
+			"C__c": "Create a custom theme to apply to all Experience sites.",
+			"D__c": "Reference a shared Bootstrap CSS file in all of the sites.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/universal-containers-uc-has-hired-ux-designers-to-help-improve-brand-recognition-and-has-a-new-style",
+			"Comment__c": "<p>この問題の正解は(C)です。理由は以下の通りです。</p><p><br></p><p>- Experienceサイトは、SalesforceのExperience Builderを使って作成されるウェブサイトです¹。</p><p>- Experience Builderでは、テーマという機能を使って、サイトの外観やブランディングを統一することができます²。</p><p>- テーマは、色、フォント、ロゴ、ヘッダー、フッターなどの要素をカスタマイズできるコンポーネントです²。</p><p>- テーマを作成したら、それを他のExperienceサイトにも適用することができます³。</p><p>- したがって、UCが新しいスタイルガイドを実装して、すべてのExperienceサイトのブランディングを統一するためには、カスタムテーマを作成して適用するのが最適な方法です。</p><p><br></p><p>(A)は正しくありません。テンプレートは、サイトのレイアウトや構造を定義するもので、ブランディングには関係しません。</p><p><br></p><p>(B)は正しくありません。スタイルガイドをExperienceマネージャーに送っても、それを実装する方法がなければ意味がありません。また、各サイトで個別に実装するのは非効率的です。</p><p><br></p><p>(D)は正しくありません。Bootstrapは、ウェブサイトのデザインを簡単にするためのフレームワークです。しかし、BootstrapのCSSファイルを参照するだけでは、UCのスタイルガイドに沿ったブランディングを実現できません。また、BootstrapはExperience Builderと互換性がない場合があります。</p><p><br></p><p>¹: [Experience Cloud Sites Overview](^1^)</p><p>²: [Create a Custom Theme for Your Site](^2^)</p><p>³: [Share a Theme Across Sites](^3^)</p><p>: [Templates and Pages]</p><p>: [Bootstrapとは？]</p><p>: [Bootstrap and Experience Builder]</p><p><br></p><p>ソース: Bing との会話 2024/1/25</p><p>(1) What should UC do to accomplish this? - Exam4Training. https://www.exam4training.com/what-should-uc-do-to-accomplish-this/.</p><p>(2) Salesforce Exam Experience-Cloud-Consultant Topic 9 .... https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-9-question-28-discussion.</p><p>(3) What should UC do to accomplish this? - Exam4Training. https://www.exam4training.com/what-should-uc-do-to-accomplish-this-2/.</p><p>(4) What should UC do to accomplish this? - Exam4Training. https://www.exam4training.com/what-should-uc-do-to-accomplish-this/.</p><p>(5) Salesforce Exam Experience-Cloud-Consultant Topic 9 .... https://www.pass4success.com/salesforce/discussions/exam-experience-cloud-consultant-topic-9-question-28-discussion.</p><p>(6) What should UC do to accomplish this? - Exam4Training. https://www.exam4training.com/what-should-uc-do-to-accomplish-this-2/.</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a005j00000VXOdVAAX"
+			},
+			"Question__c": "What does a system administrator need to do when creating Experience Cloud users?",
+			"A__c": "Add user to an account as a user record.",
+			"B__c": "Add user to an account asa contact record.",
+			"C__c": "Click the &quot;Log In to Site as User&quot; button.",
+			"D__c": "Assign Partner Community Plus license to the user.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.Experience-Cloud-Consultant.v2023-05-16.q67/what-does-a-system-administrator-need-to-do-when-creating-experience-cloud-users",
+			"Comment__c": null
+		}
+	]
+}

@@ -1,0 +1,327 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZXYA2"
+			},
+			"Question__c": "The implementation of a Process API must change. What is a valid approach that minimizes the impact of this change on API clients?",
+			"A__c": "Implement required changes to the Process API implementation so that whenever possible, the Process API&#39;s RAML definition remains unchanged",
+			"B__c": "Update the RAML definition of the current Process API and notify API client developers by sending them links to the updated RAML definition",
+			"C__c": "Postpone changes until API consumers acknowledge they are ready to migrate to a new Process API or API version",
+			"D__c": "Implement the Process API changes in a new API implementation, and have the old API implementation return an HTTP status code 301 - Moved Permanently to inform API clients they should be calling the new API implementation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/the-implementation-of-a-process-api-must-change-what-is-a-valid-approach-that-minimizes-the-impact-of",
+			"Comment__c": "* Option B shouldn&#39;t be used unless extremely needed, if RAML is changed, client needs to accommodate changes. Question is about minimizing impact on Client. So this is not a valid choice.* Option C isn&#39;t valid as Business can&#39;t stop for consumers acknowledgment.* Option D again needs Client to accommodate changes and isn&#39;t viable option.* Best choice is A where RAML definition isn&#39;t changed and underlined functionality is changed without any dependency on client and without impacting client.",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZYYA2"
+			},
+			"Question__c": "What Anypoint Connectors support transactions?",
+			"A__c": "Database, JMS, VM",
+			"B__c": "Database, JMS, VM, SFTP",
+			"C__c": "Database, 3MS, HTTP",
+			"D__c": "Database, VM, File",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-anypoint-connectors-support-transactions",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZZYA2"
+			},
+			"Question__c": "What are two reasons why a typical MuleSoft customer favors a MuleSoft-hosted Anypoint Platform runtime plane over a customer-hosted runtime for its Mule application deployments? (Choose two.)",
+			"A__c": "Increased application throughput",
+			"B__c": "Reduced time-to-market for the first application",
+			"C__c": "Reduced application latency",
+			"D__c": "Reduced IT operations effort",
+			"E__c": "Increased application isolation",
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-are-two-reasons-why-a-typical-mulesoft-customer-favors-a-mulesoft-hosted-anypoint-platform-runtime",
+			"Comment__c": "<p><img src=\"https://www.bing.com/th?id=OSK.94b8d7e82d41d655564b6b905ad5cccd&amp;pid=cdx&amp;w=320&amp;h=189&amp;c=7&amp;rs=1\" alt=\"MuleSoft\"></img></p><p><img src=\"https://www.bing.com/th?id=OSK.94b8d7e82d41d655564b6b905ad5cccd&amp;pid=cdx&amp;w=320&amp;h=96&amp;c=7\" alt=\"MuleSoft\"></img></p><p>探す</p><p>最適な選択肢は <strong>(b) reduced time-to-market for the first application</strong> と <strong>(d) reduced IT operations effort</strong> です。</p><p>理由：</p><ol><li><a href=\"https://www.p2pexams.com/free-questions/certsinside-mcia-level-1-mulesoft-certified-integration-architect-level-1-verified-questions-answers-by-moses-29-01-2024-11qa.pdf\" target=\"_blank\"><strong>Reduced time-to-market for the first application (b)</strong>: MuleSoftがホストするAnypoint Platformを利用することで、インフラのセットアップや管理にかかる時間を大幅に短縮できます。これにより、アプリケーションの開発からデプロイまでの時間が短縮され、市場投入までの時間が早まります<sup>1</sup></a>。</li><li><a href=\"https://www.p2pexams.com/free-questions/certsinside-mcia-level-1-mulesoft-certified-integration-architect-level-1-verified-questions-answers-by-moses-29-01-2024-11qa.pdf\" target=\"_blank\"><strong>Reduced IT operations effort (d)</strong>: MuleSoftがインフラの管理を行うため、顧客は自社での運用管理の手間を大幅に減らすことができます。これにより、ITチームは他の重要な業務に集中できるようになります<sup>1</sup></a>。</li></ol><p>これらの理由から、MuleSoftホストのAnypoint Platformランタイムプレーンを選ぶことが多いです。</p><p><br></p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZaYAM"
+			},
+			"Question__c": "<p>What aspect of logging is only possible for Mule applications deployed to customer-hosted Mule runtimes, but NOT for Mule applications deployed to CloudHub?</p>",
+			"A__c": "To send Mule application log entries to Splunk",
+			"B__c": "To change tog4j2 tog levels in Anypoint Runtime Manager without having to restart the Mule application",
+			"C__c": "To log certain messages to a custom log category",
+			"D__c": "To directly reference one shared and customized log4j2.xml file from multiple Mule applications",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "<p>https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-aspect-of-logging-is-only-possible-for-mule-applications-deployed-to-customer-hosted-mule-runtimes</p><p><br></p><p><img src=\"https://curious-unicorn-4knofv-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01IS000007zXZa&amp;feoid=00NIS0000011WwE&amp;refid=0EMIS000000pjhN\" alt=\"image.png\"></img></p><p><br></p><p><br></p><p><br></p><p>最適な選択肢は **(D)** です。</p><p><span class=\"ql-cursor\"><br>﻿</span></p><p><span class=\"ql-cursor\">理由: MuleアプリケーションがCloudHubにデプロイされている場合、各アプリケーションは独自の環境で実行されるため、複数のアプリケーションが1つの共有およびカスタマイズされたlog4j2.xmlファイルを直接参照することはできません。しかし、カスタマーホストのMuleランタイムにデプロイされたアプリケーションでは、複数のアプリケーションが同じlog4j2.xmlファイルを共有して参照することが可能です。﻿</span></p>",
+			"Comment__c": "* Correct answer is To directly reference one shared and customized log4j2.xml file from multiple Mule applications. Key word to note in the answer is directly.* By default, CloudHub replaces a Mule application&#39;s log4j2.xml file with a CloudHub log4j2.xml file. This specifies the CloudHub appender to write logs to the CloudHub logging service.* You cannot modify CloudHub log4j2.xml file to add any custom appender. But there is a process in order to achieve this. You need to raise a request on support portal to disable CloudHub provided Mule application log4j2 file.* Once this is done , Mule application&#39;s log4j2.xml file is used which you can use to send/export application logs to other log4j2 appenders, such as a custom logging system MuleSoft does not own any responsibility for lost logging data due to misconfiguration of your own log4j appender if it happens by any chance.* One more difference between customer-hosted Mule runtimes and CloudHub deployed mule instance is that- CloudHub system log messages cannot be sent to external log management system without installing custom CH logging configuration through support- where as Customer-hosted runtime can send system and application log to external log management system MuleSoft Reference:https://docs.mulesoft.com/runtime-manager/viewing-log-datahttps://docs.mulesoft.com/runtime-manager/custom-log-appender",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZcYAM"
+			},
+			"Question__c": "What aspects of a CI/CD pipeline for Mule applications can be automated using MuleSoft-provided Maven plugins?",
+			"A__c": "Import from API designer, compile, package, unit test, deploy, publish to Anypoint Exchange",
+			"B__c": "Compile, package, unit test, validate unit test coverage, deploy",
+			"C__c": "Compile, package, unit test, deploy, integration test",
+			"D__c": "Compile, package, unit test, deploy, create associated API instances in API Manager",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-aspects-of-a-ci-cd-pipeline-for-mule-applications-can-be-automated-using-mulesoft-provided-maven",
+			"Comment__c": "<p>Explanation/Reference: http://workshop.tools.mulesoft.com/modules/module7_lab4#step-2-configure-the-mule-maven- plugin</p><p><br></p><p><br></p><p>最適な選択肢は **(B)** です。</p><p><br></p><p>理由: MuleSoftが提供するMavenプラグインを使用すると、Muleアプリケーションのコンパイル、パッケージング、ユニットテスト、ユニットテストのカバレッジの検証、およびデプロイを自動化することができます。選択肢(B)はこれらのすべてのステップを含んでおり、CI/CDパイプラインの自動化に最も適しています。</p><p><br></p><p>https://www.pass4success.com/mulesoft/discussions/exam-mcia-level-1-topic-4-question-41-discussion</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZgYAM"
+			},
+			"Question__c": "What comparison is true about a CloudHub Dedicated Load Balancer (DLB) vs. the CloudHub Shared Load Balancer (SLB)?",
+			"A__c": "Only the SLB can forward HTTP traffic to the VPC-internal ports of the CloudHub workers",
+			"B__c": "Only a DLB allows the configuration of a custom TLS server certificate",
+			"C__c": "Both a DLB and the SLB allow the configuration of access control via IP whitelists",
+			"D__c": "Both a DLB and the SLB implement load balancing by sending HTTP requests to workers with the lowest workloads",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-comparison-is-true-about-a-cloudhub-dedicated-load-balancer-dlb-vs-the-cloudhub-shared-load-balanc",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZiYAM"
+			},
+			"Question__c": "<p>What is a key difference between synchronous and asynchronous logging from Mule applications?</p>",
+			"A__c": "Synchronous logging writes log messages in a single logging thread but does not block the Mule event being processed by the next event processor",
+			"B__c": "Asynchronous logging can improve Mule event processing throughput while also reducing the processing time for each Mule event",
+			"C__c": "Asynchronous logging produces more reliable audit trails with more accurate timestamps",
+			"D__c": "Synchronous logging within an ongoing transaction writes log messages in the same thread that processes the current Mule event",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-is-a-key-difference-between-synchronous-and-asynchronous-logging-from-mule-applications",
+			"Comment__c": "<p>Types of logging:A) Synchronous: The execution of thread that is processing messages is interrupted to wait for the log message to be fully handled before it can continue.* The execution of the thread that is processing your message is interrupted to wait for the log message to be fully output before it can continue* Performance degrades because of synchronous logging* Used when the log is used as an audit trail or when logging ERROR/CRITICAL messages* If the logger fails to write to disk, the exception would raise on the same thread that&#39;s currently processing the Mule event. If logging is critical for you, then you can rollback the transaction.B) Asynchronous:* The logging operation occurs in a separate thread, so the actual processing of your message won&#39;t be delayed to wait for the logging to complete* Substantial improvement in throughput and latency of message processing* Mule runtime engine (Mule) 4 uses Log4j 2 asynchronous logging by default* The disadvantage of asynchronous logging is error handling.* If the logger fails to write to disk, the thread doing the processing won&#39;t be aware of any issues writing to the disk, so you won&#39;t be able to rollback anything. Because the actual writing of the log gets differed, there&#39;s a chance that log messages might never make it to disk and get lost, if Mule were to crash before the buffers are flushed.------------------------------------------------------------------------------------------------------------------ So Correct answer is: Asynchronous logging can improve Mule event processing throughput while also reducing the processing time for each Mule event</p><p><br></p><p><br></p><p>最適な選択肢は **(B)** です。</p><p><br></p><p>理由: 非同期ロギングは、Muleイベントの処理スループットを向上させるとともに、各Muleイベントの処理時間を短縮することができます。これにより、システム全体のパフォーマンスが向上します。選択肢(B)はこの点を強調しており、同期ロギングと非同期ロギングの主な違いを正確に示しています。</p><p><br></p><p><img src=\"https://curious-unicorn-4knofv-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01IS000007zXZi&amp;feoid=00NIS0000011Ww9&amp;refid=0EMIS000000pjhS\" alt=\"image.png\"></img></p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZjYAM"
+			},
+			"Question__c": "What is an example of data confidentiality?",
+			"A__c": "Providing a server&#39;s private key to a client for secure decryption of data during a two-way SSL handshake",
+			"B__c": "Signing a file digitally and sending it using a file transfer mechanism",
+			"C__c": "Encrypting a file containing personally identifiable information (PV)",
+			"D__c": "De-masking a person&#39;s Social Security number while inserting it into a database",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-is-an-example-of-data-confidentiality",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZkYAM"
+			},
+			"Question__c": "What is maximum vCores can be allocated to application deployed to CloudHub?",
+			"A__c": "1 vCores",
+			"B__c": "16 vCores",
+			"C__c": "2 vCores",
+			"D__c": "4 vCores",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-is-maximum-vcores-can-be-allocated-to-application-deployed-to-cloudhub",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZlYAM"
+			},
+			"Question__c": "What is required before an API implemented using the components of Anypoint Platform can be managed and governed (by applying API policies) on Anypoint Platform?",
+			"A__c": "The API must be published to Anypoint Exchange and a corresponding API instance ID must be obtained from API Manager to be used in the API implementation",
+			"B__c": "The API implementation source code must be committed to a source control management system (such as GitHub)",
+			"C__c": "A RAML definition of the API must be created in API designer so it can then be published to Anypoint Exchange",
+			"D__c": "The API must be shared with the potential developers through an API portal so API consumers can interact with the API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-is-required-before-an-api-implemented-using-the-components-of-anypoint-platform-can-be-managed-and",
+			"Comment__c": "<p>Context of the question is about managing and governing mule applications deployed on Anypoint platform.Anypoint API Manager (API Manager) is a component of Anypoint Platform that enables you to manage, govern, and secure APIs. It leverages the runtime capabilities of API Gateway and Anypoint Service Mesh, both of which enforce policies, collect and track analytics data, manage proxies, provide encryption and authentication, and manage applications.Prerequisite of managing an API is that the API must be published to Anypoint Exchange. Hence the correct option in C Mule Ref Doc : https://docs.mulesoft.com/api-manager/2.x/getting-started-proxy</p><p><br></p><p>https://www.examtopics.com/discussions/mulesoft/view/56141-exam-mcia-level-1-topic-1-question-30-discussion/</p><p><br></p><p>最適な選択肢は **(A)** です。</p><p><br></p><p>**理由**: Anypoint PlatformでAPIを管理およびガバナンスするためには、APIをAnypoint Exchangeに公開し、API Managerから対応するAPIインスタンスIDを取得する必要があります。このIDはAPI実装で使用され、APIポリシーの適用や管理を可能にします。これにより、APIのバージョン管理やアクセス制御が容易になります。</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZoYAM"
+			},
+			"Question__c": "What is true about automating interactions with Anypoint Platform using tools such as Anypoint Platform REST API&#39;s, Anypoint CLI or the Mule Maven plugin?",
+			"A__c": "By default, the Anypoint CLI and Mule Maven plugin are not included in the Mule runtime",
+			"B__c": "Access to Anypoint Platform API;s and Anypoint CLI can be controlled separately thruough the roles and permissions in Anypoint platform, so that specific users can get access to Anypoint CLI while others get access to the platform API&#39;s",
+			"C__c": "Anypoint Platform API&#39;s can only automate interactions with CloudHub while the Mule maven plugin is required for deployment to customer hosted Mule runtimes",
+			"D__c": "API policies can be applied to the Anypoint platform API&#39;s so that only certain LOS&#39;s has access to specific functions",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-is-true-about-automating-interactions-with-anypoint-platform-using-tools-such-as-anypoint-platform",
+			"Comment__c": "<p>Correct answer is By default, the Anypoint CLI and Mule Maven plugin are not included in the Mule runtime Maven is not part of runtime though it is part of studio. You do not need it to deploy in order to deploy your app. Same is the case with CLI.</p><p><br></p><p>https://www.actual4test.com/discussions/Salesforce/exam-mulesoft-platform-architect-i-topic-8-question-35-discussion-p1045856.html</p><p><br></p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZpYAM"
+			},
+			"Question__c": "What limits if a particular Anypoint Platform user can discover an asset in Anypoint Exchange?",
+			"A__c": "The type of the asset in Anypoint Exchange",
+			"B__c": "The business groups to which the user belongs",
+			"C__c": "If Design Center and RAML were both used to create the asset",
+			"D__c": "The existence of a public Anypoint Exchange portal to which the asset has been published",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-limits-if-a-particular-anypoint-platform-user-can-discover-an-asset-in-anypoint-exchange",
+			"Comment__c": "<p>Explanation/Reference: https://docs.mulesoft.com/exchange/to-find-info</p><p><br></p><p>https://free-braindumps.com/mulesoft/free-mcia-level-1-braindumps.html?p=9</p><p><br></p><p>最適な選択肢は **(B): The business groups to which the user belongs** です。</p><p><br></p><p>理由: Anypoint Exchangeでは、ユーザーがどのビジネスグループに属しているかによって、アクセスできるアセットが制限されます。ビジネスグループは、組織内の異なるチームや部門を表しており、各グループには特定の権限とアクセス権が設定されています。そのため、ユーザーが属するビジネスグループによって、発見できるアセットが異なるのです。</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZqYAM"
+			},
+			"Question__c": "What operation can be performed through a JMX agent enabled in a Mule application?",
+			"A__c": "View object store entries",
+			"B__c": "Replay an unsuccessful message",
+			"C__c": "<p>Set a particular log4J2 log level to TRACE</p>",
+			"D__c": "Deploy a Mule application",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-operation-can-be-performed-through-a-jmx-agent-enabled-in-a-mule-application",
+			"Comment__c": "<p>JMX Management Java Management Extensions (JMX) is a simple and standard way to manage applications, devices, services, and other resources. JMX is dynamic, so you can use it to monitor and manage resources as they are created, installed, and implemented. You can also use JMX to monitor and manage the Java Virtual Machine (JVM). Each resource is instrumented by one or more Managed Beans, or MBeans. All MBeans are registered in an MBean Server. The JMX server agent consists of an MBean Server and a set of services for handling Mbeans. There are several agents provided with Mule for JMX support. The easiest way to configure JMX is to use the default JMX support agent. Log4J Agent The log4j agent exposes the configuration of the Log4J instance used by Mule for JMX management. You enable the Log4J agent using the element. It does not take any additional properties MuleSoft Reference: https://docs.mulesoft.com/mule-runtime/3.9/jmx-management</p><p><br></p><p>最適な選択肢は **(C): Set a particular log4J2 log level to TRACE** です。</p><p><br></p><p>理由として、JMX (Java Management Extensions) エージェントは、アプリケーションの管理と監視を行うためのツールであり、特にログレベルの変更などの管理操作を行うことができます。Muleアプリケーションにおいても、JMXエージェントを使用して特定のlog4J2ログレベルをTRACEに設定することが可能です。他の選択肢はJMXエージェントの機能には含まれません。</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZtYAM"
+			},
+			"Question__c": "What requires configuration of both a key store and a trust store for an HTTP Listener?",
+			"A__c": "Encryption of both HTTP request and HTTP response bodies for all HTTP clients",
+			"B__c": "Encryption of requests to both subdomains and API resource endpoints fhttPs://aDi.customer.com/ and https://customer.com/api)",
+			"C__c": "Encryption of both HTTP request header and HTTP request body for all HTTP clients",
+			"D__c": "Support for TLS mutual (two-way) authentication with HTTP clients",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/what-requires-configuration-of-both-a-key-store-and-a-trust-store-for-an-http-listener",
+			"Comment__c": "<p>最適な選択肢は **(D): Support for TLS mutual (two-way) authentication with HTTP clients** です。</p><p><br></p><p>理由:</p><p>TLS相互認証（二方向認証）では、クライアントとサーバーの両方が互いに認証し合う必要があります。このため、サーバーはクライアント証明書を信頼するための信頼ストア（trust store）と、自身の証明書を保管するためのキーストア（key store）の両方を設定する必要があります。これにより、クライアントとサーバー間の安全な通信が確立されます。</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZxYAM"
+			},
+			"Question__c": "Which Anypoint Platform component helps integration developers discovers and share reusable APIs, connectors, and templates?",
+			"A__c": "API Manager",
+			"B__c": "Anypoint Studio",
+			"C__c": "Design Center",
+			"D__c": "Anypoint Exchange",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/which-anypoint-platform-component-helps-integration-developers-discovers-and-share-reusable-apis-connecto",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZyYAM"
+			},
+			"Question__c": "Which component of Anypoint platform belongs to the platform control plane?",
+			"A__c": "Runtime Fabric",
+			"B__c": "Runtime Replica",
+			"C__c": "Anypoint Connectors",
+			"D__c": "API Manager",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/which-component-of-anypoint-platform-belongs-to-the-platform-control-plane",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXZzYAM"
+			},
+			"Question__c": "Which Exchange asset type represents a complete API specification in RAML or OAS format?",
+			"A__c": "REST APIs",
+			"B__c": "SOAP APIs",
+			"C__c": "Connectors",
+			"D__c": "API Spec Fragments",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/which-exchange-asset-type-represents-a-complete-api-specification-in-raml-or-oas-format",
+			"Comment__c": "<p>最適な選択肢は **(A): REST APIs** です。</p><p><br></p><p>理由: REST APIs は、RAML (RESTful API Modeling Language) や OAS (OpenAPI Specification) 形式で完全なAPI仕様を表現するための標準的な形式です。これにより、APIの設計、文書化、および管理が容易になります。SOAP APIs は異なるプロトコルを使用し、Connectors や API Spec Fragments は完全なAPI仕様を表すものではありません。</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXa0YAE"
+			},
+			"Question__c": "Which productivity advantage does Anypoint Platform have to both implement and manage an AP?",
+			"A__c": "Automatic API specification generation",
+			"B__c": "Automatic API proxy generation",
+			"C__c": "Automatic API governance",
+			"D__c": "Automatic API semantic versioning",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/which-productivity-advantage-does-anypoint-platform-have-to-both-implement-and-manage-an-ap",
+			"Comment__c": "<p>​https://www.marks4sure.com/mcia-level-1-mulesoft-certified-integration-architect-level-1-questions.html</p><p><br></p><p>最適な選択肢は **(B): Automatic API proxy generation** です。</p><p><br></p><p>理由: Anypoint Platform は、APIの実装と管理の両方において生産性を向上させるために、自動的なAPIプロキシ生成機能を提供しています。これにより、開発者は手動でプロキシを作成する手間を省き、迅速にAPIをデプロイし、管理することができます。他の選択肢も有用ですが、APIの実装と管理の両方に直接的に関与するのは自動プロキシ生成です。</p>",
+			"Type__c": "MCIA"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS000007zXa1YAE"
+			},
+			"Question__c": "Which type of communication is managed by a service mesh in a microservices architecture?",
+			"A__c": "Communication between microservices",
+			"B__c": "Communication between trading partner services",
+			"C__c": "Communication between microservices runtime administrators",
+			"D__c": "Communication between microservices developers",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCIA-Level-1.v2023-08-10.q194/which-type-of-communication-is-managed-by-a-service-mesh-in-a-microservices-architecture",
+			"Comment__c": null,
+			"Type__c": "MCIA"
+		}
+	]
+}

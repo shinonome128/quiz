@@ -1,0 +1,8 @@
+.slds-card {
+	background: rgb(243, 242, 242);
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

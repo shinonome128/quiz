@@ -1,0 +1,1704 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VB8YAM"
+			},
+			"Question__c": "IT 部門は、Salesforce 実装、学生情報システム (SIS)、および住宅システムの間の統合の必要性を判断しています。すべての学生の連絡先情報は SIS から取得されます。学生は、キャンパス内およびキャンパス外の住宅の郵送情報を SIS に報告する必要があります。システム間の統合の方向性は何ですか?",
+			"A__c": "ハウジング システムへの Salesforce との一方向の統合",
+			"B__c": " ハウジング システムと Salesforce との一方向の統合",
+			"C__c": " SIS から Salesforce への一方向の統合",
+			"D__c": " Salesforce と SIS との一方向の統合",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=21",
+			"Comment__c": "システム間の統合の方向は、Salesforce 実装、SIS、およびハウジング システム間の統合ニーズを決定する IT 部門にとって、SIS から Salesforce への一方向の統合です。一方向統合は、ソース システムから宛先システムへの一方向のデータ フローを可能にする統合のタイプです。SIS はソース システムであり、Salesforce は学生の連絡先情報と住居の郵送先情報の宛先システムです。IT 部門は、SIS から Salesforce への一方向の統合を設定して、両方のシステムでデータの一貫性と正確性を確保する必要があります。Salesforce からハウジング システムへの一方向の統合、ハウジング システムから Salesforce への一方向の統合、または Salesforce から SIS への一方向の統合は、システム間の正しい統合方向ではありません。参考文献:https://trailhead.salesforce.com/en/content/learn/modules/api_basics/api_basics_introductionhttps://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdf",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VB9YAM"
+			},
+			"Question__c": "Student Services は、学生のインシデントとインシデント解決のデータを、古いシステムから Education Data Architecture (EDA) を使用する Salesforce.org に移行する準備を進めています。コンサルタントはどのオブジェクトを使用する必要がありますか?",
+			"A__c": "属性",
+			"B__c": " ケース",
+			"C__c": " ケースコメント",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=4",
+			"Comment__c": "Case オブジェクトは、EDA で生徒のインシデントと解決策を追跡するために使用されます。標準の検索フィールドを使用して、ケースを連絡先、取引先、または所属に関連付けることができます。ケースには、インシデントに関する追加情報やコミュニケーションを取得するためのケース コメントを含めることもできます1。Attribute オブジェクトは、人口統計、興味、好みなど、連絡先またはアカウントに関する追加情報を保存するために使用されます3。Case Comment オブジェクトは Case オブジェクトの子であり、単独で使用することはできません。1: Education Data Architecture (EDA) データ モデル 2: Education Cloud コンサルタント認定ガイドとヒント- Salesforce Ben 3: 属性オブジェクト: ケースコメントオブジェクト",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBAYA2"
+			},
+			"Question__c": "University Advancement のスタッフは、ユーザー名とパスワードを使用してログインすることと、携帯電話のアプリを使用して認証することの両方によって、内部システムに対して認証する必要があります。この要件を満たすためにコンサルタントはどの ID 管理機能を推奨する必要がありますか?",
+			"A__c": "シングル サインオン",
+			"B__c": " 多要素認証",
+			"C__c": " 接続されているアプリ",
+			"D__c": " ソーシャルサインオン",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=24",
+			"Comment__c": "多要素認証は、ユーザー名とパスワードを使用したログインと携帯電話のアプリを介した認証の両方による内部システムへの認証の要件を満たすためにコンサルタントが推奨できる ID 管理機能です。多要素認証は、モバイル アプリ、セキュリティ キー、電子メール リンクなどの 2 番目の要素を使用して ID を確認することをユーザーに要求することにより、ログイン プロセスに追加のセキュリティ層を追加する機能です。多要素認証は、不正アクセスを防止し、機密データを保護するのに役立ちます。シングル サインオン、接続されたアプリ、およびソーシャル サインオンは、ユーザー名とパスワードを使用してログインすることと、携帯電話のアプリを介して認証することの両方によって内部システムへの認証をユーザーに要求する ID 管理機能ではありません。参考文献:https://help.salesforce.com/s/articleView?id=sf.identity_mfa.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/identity_login/identity_login_mfa",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBBYA2"
+			},
+			"Question__c": "アドミッションズオフィスは、申請者の歩留まりと融解に関するより深い洞察を得るために、申請者の過去の傾向を評価することに興味を持っています。コンサルタントは何をアドバイスすべきでしょうか?",
+			"A__c": "既存のサンプル レポートを活用します。",
+			"B__c": " Admissions Connect Tableau Accelerator を使用します。",
+			"C__c": " カスタム レポート タイプを作成します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=30",
+			"Comment__c": "コンサルタントは、Admissions Connect Tableau Accelerator を使用して志願者の過去の傾向を評価し、入学事務局に対する申請の歩留まりと融通に関するより詳細な洞察を得るようにアドバイスする必要があります。Admissions Connect Tableau Accelerator は、Admissions Connect ユーザーがデータと指標を分析するための事前構築されたダッシュボードとレポートを提供するツールです。Admissions Connect Tableau Accelerator は、入学事務局が志願者の過去の傾向を評価し、ファネル分析、コホート分析、地理的分析などの機能を使用して、出願の成果と融通に関するより詳細な洞察を得るのに役立ちます。既存のサンプル レポートを活用したり、カスタム レポート タイプを作成したり、データポータルを使用して古いデータを処理したりすることは、志願者の過去の傾向を評価し、入学事務局にとって志願者の合格率と融通についてより詳細な洞察を得る方法ではありません。参照：https://www.salesforce.org/products/admissions-connect/overview/https://www.salesforce.org/wp-content/uploads/2021/06/Salesforce.org-Admissions-Connect-Tableau-Accelerator.pdf",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBCYA2"
+			},
+			"Question__c": "ある学校は Student Success Hub の活用を検討しています。コンサルタントはどの運用要件を確認する必要がありますか?",
+			"A__c": "Student Success Hub をインストールする前に、Einstein ボットを有効にする必要があります。",
+			"B__c": " Student Success Hub には Education Data Architecture (EDA) が必要です。",
+			"C__c": " 連絡先、アカウント、ケースへの読み取り、作成、編集のアクセス権が必要です。",
+			"D__c": " Student Success Hub には K-12 アーキテクチャ キットが必要です。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=20",
+			"Comment__c": "コンサルタントは、Student Success Hub が運用要件として Education Data Architecture (EDA) を必要とすることを確認する必要があります。Student Success Hub は、EDA を拡張して学生サービスとサポートのニーズを満たすソリューションです。Student Success Hub は、早期アラート、サクセス プラン、パスウェイ、アドバイス イベントなどの機能を提供します。Student Success Hub をインストールするには、Student Success Hub をインストールする前に、Salesforce 環境に EDA をインストールして構成する必要があります。Student Success Hub をインストールする前に Einstein ボットが有効になっていること、連絡先、アカウント、ケースへの読み取り、作成、編集アクセスが必要であること、または Student Success Hub に K-12 アーキテクチャ キットが必要であることは、コンサルタントが確認する必要がある運用要件ではありません。参考文献:https://www.salesforce.org/products/student-success-hub/overview/https://powerofus.force.com/s/article/SSHub-installation",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBDYA2"
+			},
+			"Question__c": "ある学校は、K-12 Architecture Kit を使用して小学生とその保護者を追跡したいと考えています。K-12 アーキテクチャ キットについて、コンサルタントは学校とどのような考慮事項を話し合う必要がありますか?",
+			"A__c": "Experience Cloud が必要です。",
+			"B__c": " 教育データ アーキテクチャに基づいて構築されています。",
+			"C__c": " Nonprofit Success Pack に基づいて構築されています。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=36",
+			"Comment__c": "コンサルタントは、小学生とその保護者を追跡するために K-12 アーキテクチャ キットを使用する場合の考慮事項として、K-12 アーキテクチャ キットが Nonprofit Success Pack に基づいて構築されていることを学校と話し合う必要があります。K-12 アーキテクチャ キットは、K-12 の学校が生徒のライフサイクルを管理するための柔軟でスケーラブルなデータ アーキテクチャを提供する製品です。K-12 アーキテクチャ キットは、非営利団体が構成員や寄付者を管理するためのデータ アーキテクチャを提供する製品である Nonprofit Success Pack に基づいて構築されています。K-12 アーキテクチャ キットは、連絡先、アカウント、関係、所属、出席イベント、行動応答などのオブジェクトや機能を追加することで、Nonprofit Success Pack を拡張します。コンサルタントは、K-12 アーキテクチャ キットを小学生とその保護者を追跡するために使用する場合の考慮事項として、K-12 アーキテクチャ キットが非営利サクセス パックに基づいて構築されていることを学校と話し合う必要があります。これには、非営利サクセス パックを使用する利点と課題を説明する必要があります。 K-12 の学校 (データ モデル、用語、構成など)。Experience Cloud が必要であるか、EDA 上に構築されているか、Admissions Connect 上に構築されているかは、K-12 アーキテクチャ キットを小学生とその保護者の追跡に使用する場合にコンサルタントが学校と話し合う必要がある K-12 アーキテクチャ キットに関する考慮事項ではありません。参照：https://www.salesforce.org/products/k-12-architecture-kit/overview/https://powerofus.force.com/s/article/K12-Architecture-Kit",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBEYA2"
+			},
+			"Question__c": "ある機関の主要な贈与担当者は、管理しなければならない膨大なポートフォリオに圧倒されていると感じています。彼らは、担当地域内の有権者に大量の電子メールを送信し、エンゲージメントと指定された基準に基づいて寄付者見込み客の優先順位付けを自動化したいと考えています。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "アカウントのエンゲージメント",
+			"B__c": " Salesforce エンゲージメント",
+			"C__c": " Salesforce 受信箱",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=37",
+			"Comment__c": "Salesforce Inbox は、担当地域内の有権者に大量のメールを送信し、エンゲージメントと指定された基準に基づいて寄付者見込み客の優先順位付けを自動化したいと考えている主要な寄付担当者にコンサルタントが推奨できるソリューションです。Salesforce Inbox はメールとカレンダーを Salesforce と統合し、ユーザがメールの開封、クリック、返信を追跡し、イベントとタスクを同期し、受信トレイからレコードを作成および更新できるようにします。Salesforce Inbox は、メールとカレンダーの活動を Salesforce の関連レコードに自動的に記録する Einstein 活動キャプチャと、プロファイルと行動に基づいて各リードにスコアを割り当てる Einstein リード スコアリングもサポートしています2。Salesforce Inbox は、主要なギフト担当者が時間を節約し、生産性を向上させ、最も有望な見込み客に集中できるように支援します。Account Engagement と Salesforce Engage は、このシナリオでは有効なソリューションではありません。アカウント エンゲージメントは、Education Cloud の機能であり、ユーザーがエンゲージメントと教育機関との適合性に基づいてアカウントをスコアリングおよび評価できるようになります3。ただし、Account Engagement では、一括メール送信や寄付者見込み客の優先順位付けの自動化はサポートされていません。Salesforce Engage は、ユーザーがパーソナライズされたメールを見込み客に送信し、やり取りを追跡できるようにする Pardot の機能です4。ただし、Salesforce Engage は非営利または教育のユースケース向けに設計されていないため、Pardot ライセンスが必要です。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBFYA2"
+			},
+			"Question__c": "ある教育機関では、Education Data Architecture (EDA) を使用する Salesforce 組織でレコードのロックと共有のパフォーマンスの問題が発生しています。コンサルタントは、1 つの親レコードに 10,000 を超える子レコードが関連付けられていることに気付きました。コンサルタントはどのオブジェクトを最初にレビューする必要がありますか?",
+			"A__c": "アカウント",
+			"B__c": " 関係",
+			"C__c": " 所属",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=18",
+			"Comment__c": "コンサルタントは、EDA を備えた Salesforce 組織でレコードのロックと共有パフォーマンスの問題が発生している教育機関の 1 つの親レコードに 10,000 を超える子レコードが関連付けられていることに気付いた場合、まずリレーションシップ オブジェクトを確認する必要があります。Relationships オブジェクトは、親子、兄弟、配偶者など、2 つの連絡先が互いにどのように関連しているかに関する情報をユーザーが保存できるようにする EDA のオブジェクトです。多数の関係や所属を持つ取引先責任者など、単一の親レコードに関連付けられている子レコードが多すぎる場合、関係オブジェクトにより、EDA を備えた Salesforce 組織でレコードのロックと共有のパフォーマンスの問題が発生する可能性があります。コンサルタントは、EDA を使用した Salesforce 組織でレコードのロックと共有のパフォーマンスの問題が発生している教育機関の 1 つの親レコードに 10,000 を超える子レコードが関連付けられていることに気付いた場合、まずリレーションシップ オブジェクトを確認する必要があります。これには、データ スキューがあるかどうかを確認する必要があります。所有権の偏りの問題と、それを解決するためのベスト プラクティスの適用。EDA を備えた Salesforce 組織でレコードのロックと共有パフォーマンスの問題が発生している教育機関の 1 つの親レコードに 10,000 を超える子レコードが関連付けられていることにコンサルタントが気付いた場合、アカウントまたは所属は最初に確認する必要があるオブジェクトではありません。参照：https://powerofus.force.com/s/article/EDA-Relationshipshttps://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/ldv_deployments_introduction.htm",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBGYA2"
+			},
+			"Question__c": "ある教育機関では、卒業生向けの電子メールによるコミュニケーションを一元管理しています。大学全体の学部は、自分のチームのコンテンツのみを表示できるようにする必要があります。この要件を満たすためにコンサルタントは何を推奨すべきでしょうか?",
+			"A__c": "Salesforce データ管理プラットフォーム",
+			"B__c": " Einstein アカウントベースのマーケティング",
+			"C__c": " Pardot ビジネスユニット",
+			"D__c": " Marketing Cloud ビジネス ユニット",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=17",
+			"Comment__c": "Marketing Cloud Business Unit は、卒業生向けの電子メール通信を一元化し、大学全体の部門が自分のチームのコンテンツのみを閲覧できるようにするという要件を満たすためにコンサルタントが推奨できるソリューションです。Marketing Cloud ビジネスユニットは、ユーザーが Marketing Cloud アカウントをブランド、地域、製品、チームなどのさまざまな基準に基づいて個別のユニットにセグメント化できる機能です。Marketing Cloud ビジネス ユニットを使用すると、データ、コンテンツ、サブスクライバー、レポート、各ユニットの設定へのアクセスを制御できます。Marketing Cloud ビジネス ユニットは、大学が各部門のデータ セキュリティと可視性を維持しながら、卒業生向けに一元的な電子メール コミュニケーション戦略を作成するのに役立ちます。Salesforce Data Management Platform、Einstein Account-Based Marketing、および Pardot Business Unit は、卒業生向けの電子メール通信を一元化し、大学全体の部門が自分のチームのコンテンツのみを閲覧できるようにするという要件を満たすソリューションではありません。参考文献:https://help.salesforce.com/s/articleView?id=sf.mc_overview_business_units.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/marketing-cloud-basics/marketing-cloud-basics-",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBHYA2"
+			},
+			"Question__c": "ある教育機関は、Facebook、Twitter、Instagram で毎年恒例の Giving Day のオンライン エンゲージメントを追跡する取り組みを統合したいと考えています。この要件を満たすソリューションはどれですか?",
+			"A__c": "キャンペーンの影響",
+			"B__c": " Salesforce 受信箱",
+			"C__c": " マーケティング クラウド",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=5",
+			"Comment__c": "コンサルタントは、組織の Facebook、Twitter、Instagram での年次 Giving Day のオンライン エンゲージメントを追跡するための取り組みを統合するという要件を満たすソリューションとして、Marketing Cloud を推奨する必要があります。Marketing Cloud は、ユーザーが顧客や見込み顧客向けにパーソナライズされたターゲットを絞ったマーケティング キャンペーンを作成および管理できる製品です。Marketing Cloud は、ソーシャル スタジオ、ソーシャル リスニング、ソーシャル分析などの機能を使用して、教育機関が Facebook、Twitter、Instagram で毎年恒例の Giving Day のオンライン エンゲージメントを追跡する取り組みを統合するのに役立ちます。Campaign Influence、Salesforce Inbox、または Pardot は、教育機関の Facebook、Twitter、Instagram での年次 Giving Day のオンライン エンゲージメントを追跡するための取り組みを統合するという要件を満たすことができるソリューションではありません。参考文献:https://www.salesforce.com/products/marketing-cloud/overview/https://www.salesforce.com/products/marketing-cloud/social-media-marketing/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBIYA2"
+			},
+			"Question__c": "ある高校は最近幼稚園から高校までのアーキテクチャ キットを導入し、生徒の授業および学年途中の欠席を追跡したいと考えています。これらの要件に対処するためにコンサルタントはどの 2 つのオブジェクトを使用する必要がありますか?答えを 2 つ選択してください。",
+			"A__c": "行動への関与",
+			"B__c": " プログラムの登録",
+			"C__c": " 学期の成績",
+			"D__c": " 出席イベント",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=32",
+			"Comment__c": "学期成績と出席イベントは、コンサルタントが授業および学年途中の成績からの生徒の欠席を追跡する要件に対処するために使用する必要がある 2 つのオブジェクトです。Term Grade は、特定の学期に提供されるコースに対して学生が受け取った成績を保存するオブジェクトです。出席イベントは、コース提供またはコース接続に対する学生の出席または欠席に関する情報を保存するオブジェクトです。行動への関与とプログラムへの登録は、生徒の授業および学年途中の欠席を追跡できるオブジェクトではありません。参照：https://powerofus.force.com/s/article/K12-Architecture-Kit-Data-Dictionaryhttps://powerofus.force.com/s/article/K12-Architecture-Kit-Term-Gradeshttps://powerofus.force.com/s/article/K12-Architecture-Kit-Attendance",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBJYA2"
+			},
+			"Question__c": "ある高等教育機関は Salesforce を長年使用しており、個人取引先を有効にしています。この教育機関は、既存の Salesforce 環境に Education Data Architecture (EDA) をインストールしたいと考えています。コンサルタントはどのような考慮事項を機関と話し合う必要がありますか?",
+			"A__c": "個人取引先は EDA ではサポートされていません。",
+			"B__c": " 個人アカウントを無効にするにはサポート チケットが必要です。",
+			"C__c": " 個人アカウントは管理アカウントとのみ結合できます。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=3",
+			"Comment__c": "Education Cloud では、学生、教職員、卒業生、外部連絡先などの個々の人々に関するデータが、個人取引先として取引先オブジェクトに保存されます。ただし、EDA に関しては、個人アカウントはサポートされません。EDA は、教育機関に特有の複雑な関係や所属に対応するように設計された別のアカウント モデルを使用するためです2。EDA を使用したい場合は、個人取引先を直接サポートしない EDA アカウント モデルに移行する必要があるため、既存の個人取引先の処理方法を検討する必要があることを教育機関と話し合うことが重要です1。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBLYA2"
+			},
+			"Question__c": "ある小学校は遠隔授業に切り替え、生徒の健康状態、テクノロジーのニーズ、注意が必要なさまざまな家族の状況を追跡したいと考えています。この要件を満たす Education Cloud ソリューションはどれですか?",
+			"A__c": "学生の成功ハブ",
+			"B__c": " 経路",
+			"C__c": " K-12 アーキテクチャ キット",
+			"D__c": " アドミッション コネクト",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=41",
+			"Comment__c": "Student Success Hub は、特に遠隔学習のシナリオにおいて、学校が生徒と家族に総合的なサポートを提供できるようにするソリューションです。これにより、学校は生徒のニーズや目標に基づいて、生徒向けの介入、紹介、サービスを作成し、追跡できるようになります。また、学生の進捗状況と結果を監視するためのダッシュボードとレポートも提供します。Student Success Hub は、Education Data Architecture (EDA) 上に構築されており、Program Management Module (PMM) と Case Management Module (CMM) を活用して、包括的な学生サポート システムを提供します。参照：学生サクセスハブStudent Success Hub 実装ガイドStudent Success Hub Trailhead モジュール",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBNYA2"
+			},
+			"Question__c": "ある大学が Student Success Hub Tableau Accelerator に興味を持っています。コンサルタントはどのオブジェクトにデータがあることを確認する必要がありますか?",
+			"A__c": "可用性トピック",
+			"B__c": " 予約の出席者",
+			"C__c": " 行動インシデント",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=39",
+			"Comment__c": "コンサルタントは、Student Success Hub Tableau Accelerator の Appointment 出席者オブジェクトにデータがあることを確認する必要があります。これは、学生とアドバイザーの間の予定の出席と結果が追跡されるためです。Availability Topic オブジェクトは、アドバイザーが予約を提供できるトピックを定義しますが、予約データは追跡しません。Behaviour Incident オブジェクトは、予定ではなく、生徒の行動に関連するインシデントと介入を追跡します。参照：https://help.salesforce.com/s/articleView?id=sf.ssh_tableau_accelerator.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.ssh_appointment_attendee.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.ssh_availability_topic.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.ssh_behavior_incident.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBOYA2"
+			},
+			"Question__c": "ある大学が、Salesforce の日付優先に関するベスト プラクティスとヒントに興味を持っています。コンサルタントはどのリソースを推奨すべきですか?",
+			"A__c": "IdeaExchange",
+			"B__c": " 先駆者コミュニティ",
+			"C__c": " パートナー コミュニティ",
+			"D__c": " AppExchange",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=17",
+			"Comment__c": "Trailblazer コミュニティは、コンサルタントが Salesforce データ ガバナンスのベスト プラクティスとヒントを推奨できるリソースです。Trailblazer コミュニティは、顧客が他の Salesforce ユーザー、専門家、パートナーとつながり、知識や経験を共有できるオンライン プラットフォームです。Trailblazer コミュニティは、データ ガバナンスを含むさまざまなトピックに関連するグループ、イベント、ブログ、ウェビナー、リソースへのアクセスも提供します。IdeaExchange、パートナー コミュニティ、および AppExchange は、Salesforce データ ガバナンスに関するベスト プラクティスやヒントを提供するリソースではありません。参考文献:https://trailblazer.salesforce.com/https://trailhead.salesforce.com/en/content/learn/modules/trailblazer_community_basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBPYA2"
+			},
+			"Question__c": "ある大学システムが Salesforce を購入し、システム内のすべての学校をエンタープライズ モデルに移行したいと考えています。大学は学生を個人として、また世帯の一員として追跡する必要があります。採用・入学事務局は、イベント、イベントの場所、イベントのベンダーも追跡したいと考えています。コンサルタントはどのアカウント モデルを推奨する必要がありますか?",
+			"A__c": "教育データ アーキテクチャ (EDA) アカウント モデル",
+			"B__c": " 個人取引先モデル",
+			"C__c": " 標準アカウント モデル",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=7",
+			"Comment__c": "コンサルタントは、Salesforce を購入し、システム内のすべての学校をエンタープライズ モデルに移行したいと考えている大学システムのアカウント モデルとして、教育データ アーキテクチャ (EDA) アカウント モデルを推奨する必要があります。EDA アカウント モデルは、学生、保護者、教職員、卒業生、寄付者など、教育機関に関連する個人または組織に関する情報をユーザーが保存できるアカウント モデルです。EDA アカウント モデルは、連絡先、アカウント、関係、所属などの機能を使用して、大学システムが学生を個人として、また世帯の一員として追跡するのに役立ちます。EDA アカウント モデルは、採用および入学事務局がキャンペーンやキャンペーン メンバーなどの機能を使用してイベント、イベントの場所、イベント ベンダーを追跡するのにも役立ちます。個人アカウントモデルと標準アカウントモデルは、Salesforce を購入し、システム内のすべての学校をエンタープライズモデルに移行したいと考えている大学システムの要件を満たすことができるアカウントモデルではありません。参照：https://powerofus.force.com/s/article/EDA-Accountshttps://powerofus.force.com/s/article/EDA-Campaigns",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBQYA2"
+			},
+			"Question__c": "ある大学では Salesforce の導入を計画しています。プロジェクト リーダーはコミュニケーション計画の草案を作成中で、実装後に送信するコミュニケーションの例を提供するようコンサルタントに依頼しました。コンサルタントが推奨すべき 2 つのコミュニケーション例はどれですか?2 つの答えを選択してください",
+			"A__c": "ユーザーコンテスト",
+			"B__c": " 本番稼働後の要約",
+			"C__c": " ティーザーメール",
+			"D__c": " プロジェクト スポンサーのプロフィール",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=9",
+			"Comment__c": "ユーザー コンテストと本番稼働後の要約は、コンサルタントが実装後に送信することを推奨できる 2 つのコミュニケーション例です。ユーザーコンテストは、一定数のタスクの完了、Trailhead でのバッジの獲得、フィードバックやアイデアの送信など、Salesforce の使用に関連するコンテストやチャレンジへの参加をユーザーに促すコミュニケーションの一種です。ユーザーコンテストは、Salesforce に対するユーザーのエンゲージメント、導入、満足度を高めるのに役立ちます。稼働後の要約は、主要な成果、学んだ教訓、成功事例、次のステップなど、実装プロジェクトの結果と結果を要約する一種のコミュニケーションです。稼働後の要約は、プロジェクトの完了を祝い、プロジェクト チームと関係者に感謝し、将来の改善のためのガイダンスを提供するのに役立ちます。ティーザー電子メールとプロジェクト スポンサーのプロフィールは、コンサルタントが実装前に送信することを推奨できる 2 つのコミュニケーション例です。参考文献:https://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdfhttps://trailhead.salesforce.com/en/content/learn/modules/change_management/change_management_com",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBTYA2"
+			},
+			"Question__c": "ある大学では約9万人の学生を対象にAdvisor Linkを導入する予定だ。大学は学生情報システム (SIS) から Salesforce にデータを入力する必要があります。SIS からエクスポートされたデータは、Salesforce の値に対応するように自動的に変更される必要があります。コンサルタントはどの統合アプローチを推奨すべきですか?",
+			"A__c": "ライトニング接続",
+			"B__c": " Salesforce データ インポート ウィザード",
+			"C__c": " ETL ツール",
+			"D__c": " Salesforce データローダー",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=25",
+			"Comment__c": "ETL ツールは、SIS から Salesforce にデータを入力し、Salesforce の値に対応するようにデータを自動的に変更するためにコンサルタントが推奨する統合アプローチです。ETL ツールは、あるシステムから別のシステムにデータを抽出、変換、ロードできるソフトウェア アプリケーションです。ETL ツールは、マッピング、フィルタリング、並べ替え、集計などのデータ変換を実行して、SIS からのデータが Salesforce の値と一致することを確認できます。Lightning Connect、Salesforce データインポートウィザード、および Salesforce データローダーは、Salesforce の値に対応するようにデータを自動的に変更できる統合アプローチではありません。参考文献:https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integration_patthttps://trailhead.salesforce.com/en/content/learn/modules/data-integration-strategies",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBUYA2"
+			},
+			"Question__c": "ある大学には、データ ガバナンスと変更管理を監督する一元化された IT チームと委員会があります。採用担当者は企業関係データへのアクセスを望んでいます。コーポレートリレーションズは、エグゼクティブ教育情報へのアクセスを望んでいます。同窓会事務局はあらゆる部門と協力したいと考えています。コンサルタントはどの Salesforce 環境戦略を推奨すべきですか?",
+			"A__c": "Recruitment 用の 1 つの Salesforce 環境と、他のビジネスユニット用の別の Salesforce 環境",
+			"B__c": " ビジネスユニットごとに個別の Salesforce 環境",
+			"C__c": " すべてのビジネスユニットに対応する 1 つの Salesforce 環境",
+			"D__c": " 同窓会関係用の 1 つの Salesforce 環境と、他のビジネスユニット用の別個の Salesforce 環境",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=38",
+			"Comment__c": "コンサルタントは、大学の Salesforce 環境戦略として、すべてのビジネスユニットに 1 つの Salesforce 環境を推奨する必要があります。これは、大学が、採用、企業関係、幹部教育、同窓会関係など、すべてのビジネスユニットのニーズとプロセスをサポートする単一の Salesforce 組織を持つことを意味します。これにより、大学は事業部門全体でデータの一貫性、可視性、コラボレーションを実現し、集中化された IT チームとデータ ガバナンスおよび変更管理委員会を活用することができます。コンサルタントは、大学が各ビジネスユニットのデータへのアクセスと可視性を制御するためのセキュリティと共有設定を実装するのを支援することもできます。ビジネスユニットごとに個別の Salesforce 環境を用意すること、または採用担当や同窓会関係のみに個別の Salesforce 環境を用意することは、コンサルタントが大学に対して推奨すべき Salesforce 環境戦略ではありません。参照：https://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdfhttps://trailhead.salesforce.com/en/content/learn/modules/org-setup",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBVYA2"
+			},
+			"Question__c": "ある大学には標準の Salesforce 環境があり、学部へのアドバイスに Student Success Hub を使用したいと考えています。Student Success Hub を使用するには何が必要ですか?",
+			"A__c": "教育データ アーキテクチャ",
+			"B__c": " カスタマー コミュニティ ライセンス",
+			"C__c": " 経路",
+			"D__c": " フィールドサービス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=17",
+			"Comment__c": "Education Data Architecture (EDA) は、大学の学部生へのアドバイスに Student Success Hub を使用する必要があります。EDA は、高等教育機関が学生のライフサイクルを管理するための柔軟でスケーラブルなデータ アーキテクチャを提供する製品です。EDA は、アカウント、連絡先、関係、所属、属性、コース接続などのオブジェクトと機能を提供します。Student Success Hub は、EDA を拡張して学生サービスとサポートのニーズを満たすソリューションです。Student Success Hub は、早期アラート、サクセス プラン、パスウェイ、アドバイス イベントなどの機能を提供します。Student Success Hub をインストールするには、Student Success Hub をインストールする前に、Salesforce 環境に EDA をインストールして構成する必要があります。大学の学部生へのアドバイスに Student Success Hub を使用する場合、カスタマー コミュニティ ライセンス、Pathways、または Field Service は必要ありません。参考文献:https://www.salesforce.org/products/education-cloud/overview/https://www.salesforce.org/products/student-success-hub/overview/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBWYA2"
+			},
+			"Question__c": "ある大学の CRM 委員会は、Salesforce.org および Salesforce.com プラットフォームの機能強化のメジャー リリースのペースについてコンサルタントに質問しました。Salesforce.org のリリースはいつですか?",
+			"A__c": "Salesforce.com のリリースから約 2 週間後",
+			"B__c": " Salesforce.com リリースの約 1 か月前",
+			"C__c": " Salesforce.com がリリースされる約 2 週間前",
+			"D__c": " Safesforce.com リリースから約 1 か月後",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=26",
+			"Comment__c": "Salesforce.org のリリースは、Salesforce.com のリリースから約 2 週間後に行われます。これは、Salesforce.org の顧客がプラットフォームの機能強化と業界固有のソリューションの両方からタイムリーにメリットを享受できることを意味します。他のオプションは、Salesforce.org の実際のリリース頻度を反映していないため、正しくありません。参照：https://powerofus.force.com/s/article/SFDO-Release-Schedulehttps://www.salesforce.org/blog/salesforce-org-release-schedule/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBXYA2"
+			},
+			"Question__c": "ある大学は Student Success Hub の導入を計画しており、学生の学業をサポートするために Pathways を構成したいと考えています。Pathways を導入する際に考慮すべきことは何ですか?",
+			"A__c": "プラン要件レコードの数には制限があります。",
+			"B__c": " Pathways はプログラム計画と計画要件レコードを使用します。",
+			"C__c": " Pathways のプログラム プラン要件は 2 つのレベルのみです。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=4",
+			"Comment__c": "大学は、学生の学業をサポートするために Pathways を導入する際に、Pathways がプログラム計画と計画要件の記録を使用することを考慮する必要があります。Pathways は Student Success Hub の機能で、ユーザーが生徒の目標や興味に基づいてパーソナライズされた学習計画を作成および管理できるようにします。Pathways は、プログラム計画と計画要件レコードを使用して、コース、単位、マイルストーンなどの学習計画の構造と要件を定義します。大学は、Pathways を実装する際に、Pathways がプログラム計画と計画要件レコードを使用して、学業プログラムとポリシーに合わせてこれらのレコードを構成およびカスタマイズすることで学生の学業をサポートすることを考慮する必要があります。プラン要件レコードの数に制限がある、またはパスウェイのプログラム プラン要件が 2 レベルしかないことは、学生の学業をサポートするためにパスウェイを導入する際に大学が考慮すべき事項ではありません。参考文献:https://www.salesforce.org/products/student-success-hub/overview/https://powerofus.force.com/s/article/SSHub-Pathways",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBYYA2"
+			},
+			"Question__c": "ある大学は、Power of Us Hub で読んだ Salesforce.org オープンソース共通プロジェクトに興味を持っています。大学は、オープンソース コモンズによってサポートされるオープンソース ソリューションの利点を知りたいと考えています。コンサルタントが大学と共有できるオープンソース共通プロジェクトの利点の 1 つは何ですか?答えを 1 つ選択してください。",
+			"A__c": "プロジェクトは Salesforce.org のみが所有します。",
+			"B__c": " プロジェクトは、有料ソリューションの置き換えに重点を置いています。",
+			"C__c": " プロジェクトは Salesforce セキュリティ レビューを受けます。",
+			"D__c": " プロジェクトには少数の参加者のみが許可されます。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=38",
+			"Comment__c": "コンサルタントが大学と共有できるオープンソース共通プロジェクトの利点の 1 つは、プロジェクトが Salesforce セキュリティ レビューを通過することです。これは、プロジェクトがセキュリティ標準とベストプラクティスに関して Salesforce によって評価および承認されていることを意味します。これにより、顧客がプロジェクトを安全かつ信頼して使用できることが保証されます。プロジェクトは Salesforce.org だけが所有するのではなく、コミュニティが所有します。プロジェクトは、有料ソリューションを置き換えることに重点を置くのではなく、既存のソリューションを強化するか、ギャップに対処することに重点を置きます。プロジェクトには少数の参加者のみを許可するのではなく、貢献したい人なら誰でも歓迎します。参考文献:https://www.salesforce.org/open-source-commons/https://www.salesforce.org/blog/payment-open-source-commons/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBZYA2"
+			},
+			"Question__c": "ある大学は、Salesforce Education Data Architecture (EDA) 環境を拡張して、すべての学校の学生サービスをサポートすることを計画しています。大学はコンタクトさんの家族情報を求めている。コンサルタントはどのような行動を取るべきでしょうか?",
+			"A__c": "デフォルトのアカウント モデルを管理者に設定します。",
+			"B__c": " 「アカウント」フィールドに世帯レコードを入力します。",
+			"C__c": " デフォルトのアカウント モデルを世帯に設定します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=11",
+			"Comment__c": "デフォルトのアカウントモデルを世帯に設定すると、大学は世帯アカウントを使用して連絡先の家族情報を取得できるようになります。世帯アカウントは、新しい連絡先が追加されたときに自動的に作成されます。デフォルトのアカウント モデルを管理者に設定すると、管理者アカウントが作成されます。これは、家族関係ではなく、教育機関または組織への所属によって連絡先をグループ化するために使用されます。「口座」フィールドは読み取り専用であり、デフォルトの口座モデルに基づいて自動的に入力されるため、「口座」フィールドに世帯レコードを入力することは有効なアクションではありません。参考文献:https://powerofus.force.com/s/article/EDA-Account-Modelhttps://powerofus.force.com/s/article/EDA-Accounts-and-Contacts",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBbYAM"
+			},
+			"Question__c": "ある大学は、Salesforce を使用して採用および入学プロセスを管理することを計画しています。入学予定の学生は、Suspects、Prospects、Applicants、Matriculated の 4 つの成熟段階を経ます。ID は志願者の段階で学生情報システム (SIS) によって割り当てられます。Salesforce の記録システムには 2 つの段階がありますか?2 つの答えを選択してください",
+			"A__c": "入学済み",
+			"B__c": " 容疑者",
+			"C__c": " 見込み客",
+			"D__c": " 申請者",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=29",
+			"Comment__c": "Salesforce は、大学の採用および入学プロセスの容疑者および見込み客の段階における記録システムです。記録システムは、特定のエンティティまたはプロセスの信頼できるデータ ソースとして機能するシステムです。Salesforce は、興味を表明した学生、または大学によってターゲットとして特定された潜在的な学生に関する情報 (名前、電子メール、電話番号、関心のあるプログラムなど) を保存および管理するため、容疑者および見込み客の段階における記録システムです。Student Information System (SIS) は、大学の募集および入学プロセスの志願者段階および入学段階における記録システムです。SIS は、ID、成績証明書、テストのスコア、奨学金など、大学に出願または入学した学生に関する情報を保存および管理するシステムです。参照：https://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdfhttps://trailhead.salesforce.com/en/content/learn/modules/highered_admissions",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBcYAM"
+			},
+			"Question__c": "ある大学は、テクノロジーとデータ戦略についてアドバイスするためにコンサルタントを雇用しました。コンサルタントはどのツールを活用すべきでしょうか?",
+			"A__c": "データ成熟度モデル",
+			"B__c": " プログラム管理モジュール",
+			"C__c": " Insights プラットフォームのデータ整合性",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=28",
+			"Comment__c": "コンサルタントは、大学のテクノロジーとデータ戦略についてアドバイスするツールとしてデータ成熟度モデルを活用する必要があります。データ成熟度モデルは、組織がデータ管理の現状を評価し、改善と成長の余地がある領域を特定するのに役立つツールです。データ成熟度モデルは、次の 5 つのレベルで構成されます。アドホック、リアクティブ、プロアクティブ、マネージド、最適化。コンサルタントはデータ成熟度モデルを活用し、調査、ベンチマーク、ベスト プラクティスなどの機能を使用して大学のテクノロジーとデータ戦略についてアドバイスできます。プログラム管理モジュール、Insights Platform Data Integrity、または Salesforce Advisor Link は、コンサルタントが大学のテクノロジーおよびデータ戦略についてアドバイスするために活用できるツールではありません。参考文献:https://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdfhttps://www.salesforce.org/wp-content/uploads/2019/03/Data-Maturity-Model.pdf",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBdYAM"
+			},
+			"Question__c": "ある大学は、ユーザーが提案に投票できるセンター オブ エクセレンス (CoE) のリソースを作成したいと考えています。 ...要件を満たすためにコンサルタントは何を作成する必要がありますか?",
+			"A__c": "パブリック グループ",
+			"B__c": " 成功チーム",
+			"C__c": " Chatter グループ",
+			"D__c": " キュー",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=22",
+			"Comment__c": "Chatter グループは、ユーザーが提案に投票して相互にコラボレーションできる CoE のリソースを作成するという要件を満たすためにコンサルタントが作成する必要があります。Chatter グループは、ユーザーがアイデア、ファイル、投票、イベントを特定の人々と共有できるようにする機能です。ユーザは、投稿に「いいね！」をしたりコメントしたり、Chatter グループ内のトピックやユーザーをフォローしたりすることもできます。パブリック グループ、サクセス チーム、およびキューは、ユーザーが提案に投票して相互に協力できる CoE のリソースを作成できる機能ではありません。参考文献:https://help.salesforce.com/s/articleView?id=sf.collab_groups_overview.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/chatter_basics/chatter_basics_groups",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBeYAM"
+			},
+			"Question__c": "ある大学は、レガシー システムを Salesforce Education Data Architecture (EDA) 環境に移行しています。既存のシステムでは、大学内の学部ごとに学生がグループ化されています。システム管理者は、EDA 設定の EDA デフォルト アカウント モデルで教育機関レコード タイプを選択しました。コンサルタントはどの点を考慮して大学と話し合う必要がありますか?",
+			"A__c": "連絡先は、管理アカウント レコード タイプに対してのみプライベートです。",
+			"B__c": " 推奨されるデフォルトのアカウント レコードは、管理アカウント レコード タイプです。",
+			"C__c": " 新しい連絡先が作成されると、新しいプログラム登録レコードが自動的に作成されます。",
+			"D__c": " 複数住所管理は、House Account レコード タイプに対してのみ有効にできます。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=40",
+			"Comment__c": "<p>最適な選択肢は **(B): 推奨されるデフォルトのアカウント レコードは、管理アカウント レコード タイプです** です。</p><p><br></p><p>理由: Salesforce Education Data Architecture (EDA) では、標準的なアカウントモデルとして「管理アカウント (Administrative Account)」を使用することが推奨されています。これは、学生ごとのデータ管理を効率的に行うために設計されており、以下の利点があります：</p><p><br></p><p>1. **効率的な管理**: 各学生の情報を個別に管理でき、データの整合性が保たれます。</p><p>2. **一貫性のあるデータ管理**: 全体のデータが一元管理され、学部ごとのグループ化が適切に行われます。</p><p>3. **柔軟性の向上**: 将来的なデータ追加や機能拡張に対応しやすくなります。</p><p><br></p><p>他の選択肢については以下の通りです：</p><p>- **(A): 連絡先は、管理アカウント レコード タイプに対してのみプライベートです**: これは一部の設定に関する事項であり、デフォルトのアカウントモデルの選択には直接関係しません。</p><p>- **(C): 新しい連絡先が作成されると、新しいプログラム登録レコードが自動的に作成されます**: これは自動的には行われないため、誤りです。</p><p>- **(D): 複数住所管理は、House Account レコード タイプに対してのみ有効にできます**: これは特定のレコードタイプに限定されるわけではありません。</p><p><br></p><p>したがって、最適な選択肢は **(B)** です。何か他に質問があれば教えてくださいね。</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBfYAM"
+			},
+			"Question__c": "ある大学は、学生が大規模に参加し、一般的な質問やリソースに対する答えを見つけ、学生が学生団体と交流できるようにするツールを開発することで、学生の定着率を向上させたいと考えています。この要件を満たすためにコンサルタントは何を推奨すべきでしょうか?",
+			"A__c": "Experience Cloud",
+			"B__c": " Pardot Engagement Studio",
+			"C__c": " インタラクション スタジオ",
+			"D__c": " Einstein ボット",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=15",
+			"Comment__c": "Experience Cloud は、学生が大規模に参加し、一般的な質問やリソースに対する答えを見つけ、学生が学生団体と交流できるようにするためのツールを開発するという要件を満たすためにコンサルタントが推奨できるソリューションです。Experience Cloud は、ユーザーがあらゆるデバイスやチャネルで顧客、パートナー、従業員向けのデジタル エクスペリエンスを作成および管理できるようにする製品です。Experience Cloud は、フォーラム、記事、チャット、グループ、イベント、アンケートなどの機能を提供する学生コミュニティを作成することで、大学が学生の定着率を向上させるのに役立ちます。Pardot Engagement Studio、Interaction Studio、および Einstein ボットは、学生が大規模に参加し、一般的な質問やリソースに対する答えを見つけ、学生が学生団体と交流できるようにするためのツールを開発するという要件を満たすソリューションではありません。参照：https://www.salesforce.com/products/ experience-cloud/overview/https://trailhead.salesforce.com/en/content/learn/modules/community_rollout_impl/community_rollout_impl_introduction",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBgYAM"
+			},
+			"Question__c": "ある大学は、学生の申請書と申請書レビュー担当者の割り当てを管理する Salesforce ソリューションを必要としています。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "プログラム管理モジュール",
+			"B__c": " ケース管理",
+			"C__c": " アドミッション コネクト",
+			"D__c": " 学生の成功ハブ",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=40",
+			"Comment__c": "Admissions Connect は、学生の申請書と申請書レビュー担当者の割り当てを管理するという要件を満たすためにコンサルタントが推奨できるソリューションです。Admissions Connect は、EDA を拡張して高等教育の入学および登録のニーズを満たすソリューションです。Admissions Connect は、オンライン申請管理、申請レビュー、意思決定の伝達、レビュー担当者の割り当てなどの機能を提供します。コンサルタントは、大学が Admissions Connect を構成およびカスタマイズして、採用および入学プロセスをサポートできるように支援します。プログラム管理モジュール、ケース管理、および Student Success Hub は、学生の申請書および申請書レビュー担当者の割り当てを管理できるソリューションではありません。参考文献:https://www.salesforce.org/products/admissions-connect/overview/https://trailhead.salesforce.com/en/content/learn/modules/admissions-connect-basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBhYAM"
+			},
+			"Question__c": "ある大学は、教育データ アーキテクチャ (EDA) の全社的な導入を計画しています。同社はコンサルタントに対し、購入が必要となる可能性のある追加アプリを特定するためにEDAの標準機能を分析するよう依頼した。EDAの標準機能は何ですか?",
+			"A__c": "イベント管理",
+			"B__c": " 学位監査",
+			"C__c": " アドレス管理",
+			"D__c": " 学生へのアドバイス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=10",
+			"Comment__c": null,
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBjYAM"
+			},
+			"Question__c": "ある大学は学生コミュニティを導入し、20,000 人の学生に展開しています。IT 管理者は、一度にシステムにアクセスするユーザーが大幅に増加していることを懸念しています。コンサルタントはどのステップを推奨すべきですか?",
+			"A__c": "サードパーティのテスト自動化ツールを使用します。",
+			"B__c": " パフォーマンス テスト戦略を策定します。",
+			"C__c": " 制限を増やすには、Salesforce サポートにケースを登録します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=31",
+			"Comment__c": "学生コミュニティにアクセスするユーザーが一度に大幅に増加することを懸念している IT マネージャーにコンサルタントが推奨するステップは、B. パフォーマンス テスト戦略の策定です。これは、パフォーマンス テスト戦略は、IT 管理者がさまざまなユーザー負荷やシナリオの下でシステムのパフォーマンス、スケーラビリティ、信頼性、可用性を測定するテストを計画、実行、分析するのに役立つためです。パフォーマンス テスト戦略は、IT 管理者が学生コミュニティを稼働させる前にパフォーマンスの問題やボトルネックを特定して解決し、システムが期待されるサービス レベル アグリーメントとユーザー満足度を確実に満たしていることを確認するのにも役立ちます2。A) サードパーティのテスト自動化ツールを使用する、および C. Salesforce サポートにケースを登録して制限を増やすことは、このシナリオでは有効な手順ではありません。サードパーティのテスト自動化ツールの使用はパフォーマンス テスト戦略の一部である可能性がありますが、それ自体がステップではありません。IT 管理者は、テスト自動化ツールを選択して使用する前に、パフォーマンス テスト戦略の目的、範囲、アプローチ、ツール、指標を定義する必要があります2。制限を増やすために Salesforce サポートにケースを登録することは、パフォーマンス テストを実施して結果を分析した後に IT マネージャーが実行できるアクションである可能性がありますが、コンサルタントがテスト前に推奨する手順ではありません。IT 管理者は、Salesforce サポートに制限の引き上げを要求する前に、現在および予想されるシステム容量、スループット、応答時間、およびリソース使用率を判断する必要があります3。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBkYAM"
+			},
+			"Question__c": "ある大学は進学キャンペーンを計画しており、フォーチュン 500 企業で働くビジネス スクールの卒業生を世帯ごとにセグメント化するクロス フィルターを使用したレポートを作成したいと考えています...要件を満たすためにコンサルタントはどのレポートを作成する必要がありますか?",
+			"A__c": "連絡先とアカウントのレポート",
+			"B__c": " 連絡先と摩擦レポート",
+			"C__c": " 連絡先と関係レポート",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=26",
+			"Comment__c": "連絡先および取引先レポートを使用すると、クロス フィルターを使用してフォーチュン 500 企業に勤務するビジネス スクールの卒業生を世帯ごとにセグメント化することができます。このレポートでは、ビジネス スクールへの主な所属と世帯口座名によって連絡先をフィルタリングし、クロス フィルターを使用してアカウント タイプが Fortune 500 に等しいアカウントを表示できます。連絡先と所属レポートには連絡先の所属の詳細が表示されますが、詳細は表示されません。彼らの世帯情報。連絡先と関係レポートには、連絡先の関係の詳細が表示されますが、アカウントの種類は表示されません。参照：https://help.salesforce.com/s/articleView?id=sf.reports_cross_filters.htm&amp;type=5https://powerofus.force.com/s/article/EDA-Reports",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBlYAM"
+			},
+			"Question__c": "ある大規模なオンライン大学は、Salesforce と Education Data Architecture (EDA) を使用して運営を管理しています。Salesforce 環境には大量のレコードがあり、検索とリスト ビューの生成に時間がかかります。コンサルタントは問題を解決するためにどの機能を使用する必要がありますか?",
+			"A__c": "MuleSoft Anypoint プラットフォーム",
+			"B__c": " カスタムインデックス",
+			"C__c": " データローダーのエラーログ",
+			"D__c": " テーブル駆動のトリガー管理",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=9",
+			"Comment__c": "コンサルタントは、大量のレコードがあり EDA を使用する大規模なオンライン大学の Salesforce 環境の検索とリスト ビューの生成に時間がかかるという問題を解決するには、カスタム インデックスを使用する必要があります。カスタム インデックスは、カスタム フィールド、長いテキスト領域フィールド、複数選択リスト フィールドなど、デフォルトではインデックスが作成されていないフィールドにインデックスを作成できる機能です。カスタム インデックスは、インデックス付きフィールドをフィルターとして使用するクエリとリスト ビューのパフォーマンスと速度を向上させるのに役立ちます。コンサルタントは、検索やリストビューで頻繁に使用される項目を特定し、Salesforce サポートにカスタムインデックスの作成を依頼する必要があります。MuleSoft Anypoint Platform、Data Loader エラー ログ、およびテーブル駆動トリガー管理は、大量のレコードと使用量を持つ大規模なオンライン大学の Salesforce 環境の検索とリスト ビューの生成に時間がかかるという問題を解決できる機能ではありません。エダ。参照：https://help.salesforce.com/s/articleView?id=sf.customize_index.htm&amp;type=5https://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/ldv_deployments_infrastruction_indexes.htm",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBmYAM"
+			},
+			"Question__c": "ある大規模大学のヘルプ デスクは、学生のパスワード リセット要求に関連する平均解決時間とエスカレーションを追跡および測定したいと考えています。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "Salesforce ID",
+			"B__c": " デジタル エンゲージメント",
+			"C__c": " Einstein の次善のアクション",
+			"D__c": " サービス クラウド",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=19",
+			"Comment__c": "Service Cloud は、学生のパスワード リセット要求に関連する平均解決時間とエスカレーションを追跡および測定するためにコンサルタントが推奨できるソリューションです。Service Cloud を使用すると、ヘルプ デスクは学生の問題を表すケースを作成、管理、解決できます。Service Cloud は、解決時間、エスカレーション率、顧客満足度などの主要な指標を示すレポートとダッシュボードも提供します。Salesforce Identity、Digital Engagement、および Einstein Next Best Action は、学生のパスワード リセット要求に関連する平均解決時間とエスカレーションを追跡および測定できるソリューションではありません。参照：https://www.salesforce.com/products/service-cloud/overview/https://trailhead.salesforce.com/en/content/learn/modules/service_cloud_basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBnYAM"
+			},
+			"Question__c": "ある大規模大学は、Salesforce を使用した新しい採用および入学ソリューションのリリースを計画しています。大学は、キャンパスカレンダーと合わせて開始時期を綿密に評価しています。タイムラインに影響を与える可能性がある Salesforce 製品のリリース日を大学はどこで確認すればよいですか?",
+			"A__c": "トレイルヘッド",
+			"B__c": " Salesforce Trust Web サイト",
+			"C__c": " セットアップメニュー",
+			"D__c": " パートナー コミュニティ",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=16",
+			"Comment__c": "大学は、タイムラインに影響を与える可能性がある Salesforce 製品のリリース日を Salesforce Trust Web サイトで確認できます。Salesforce Trust Web サイトでは、Salesforce 製品のメンテナンス スケジュール、リリース カレンダー、リリースの準備状況に関する情報が提供されます。大学はこの情報を使用して、キャンパスカレンダーと合わせて開始期間を計画できます。Trailhead、セットアップメニュー、パートナーコミュニティは、大学が Salesforce 製品のリリース日を確認できる場所ではありません。参考文献:https://status.salesforce.com/products/all/maintenanceshttps://trailhead.salesforce.com/en/content/learn/modules/salesforce-release-readiness-strategies",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBoYAM"
+			},
+			"Question__c": "エグゼクティブ教育部門は Salesforce を使用して、企業や組織へのカスタム教育プログラムの販売を追跡しています。部門長はカスタム プログラムのパイプラインを知っている必要があります。コンサルタントはこのビジネス要件をどのように満たすべきでしょうか?",
+			"A__c": "カスタム レポート タイプを作成します。",
+			"B__c": " 商談レポートを使用します。",
+			"C__c": " アフィリエーション レポートを設定します。",
+			"D__c": " リストビューを設定します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=37",
+			"Comment__c": "コンサルタントは、エグゼクティブ教育部門のカスタム プログラムのパイプラインを表示するというビジネス要件を満たすために、Opportunity レポートを使用する必要があります。商談レポートは、金額、段階、確率、完了日など、商談に関する情報を表示するレポートの一種です。Opportunity レポートは、プログラム タイプ、アカウント、所有者などのさまざまな基準ごとに Opportunity の分布とパフォーマンスを表示することで、部門責任者がカスタム プログラムのパイプラインを把握するのに役立ちます。カスタム レポート タイプの作成、所属レポートの設定、またはリスト ビューの構成は、エグゼクティブ教育部門のカスタム プログラムのパイプラインを表示するというビジネス要件を満たす方法ではありません。参考文献:https://help.salesforce.com/s/articleView?id=sf.reports_standard_opp.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/reports_dashboards/reports_dashboards_funnel",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBpYAM"
+			},
+			"Question__c": "エグゼクティブ教育部門は、入学予定者および在学生向けに教育データ アーキテクチャ (EDA) を使用する予定です。システム管理者は、見込み客と学生の雇用主を Salesforce の標準の [アカウント] フィールドにマッピングしたいと考えています。コンサルタントは代わりにどのアクションを推奨する必要がありますか?",
+			"A__c": "[主要なビジネス組織] フィールドに雇用主の所属レコードを入力します。",
+			"B__c": " EDA 設定でデフォルトのアカウント モデルとして [管理] を選択します。",
+			"C__c": " EDA 設定でデフォルトのアカウント モデルとして組織を選択します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=27",
+			"Comment__c": "<p>見込み客と学生の雇用主を Salesforce の標準の取引先フィールドにマッピングする代わりに、コンサルタントが推奨するアクションは A.雇用主の所属レコードを [主要ビジネス組織] フィールドに入力します1。</p><p><br></p><p>これは、EDA が標準の Salesforce アカウント モデルとは異なるアカウント モデルを使用しているためです。</p><p><br></p><p>これにより、教育セクターに存在する複雑な関係や所属を把握する際の柔軟性と拡張性が向上します2。</p><p><br></p><p>EDA では、アカウントは、個人、世帯、教育機関、組織、コースの提供など、さまざまなタイプのエンティティを表すことができます。</p><p><br></p><p>各アカウントは、その属性と動作を定義するレコード タイプを持つことができます。</p><p><br></p><p>EDA は、取引先と連絡先間の接続を作成できるようにする、Relationship と Affiliation という 2 つのカスタム オブジェクトも提供します。</p><p><br></p><p>関係とは、親子関係やメンターとメンティーの関係など、2 人の連絡先間のつながりです。</p><p><br></p><p>所属とは、学生のコース提供や従業員と組織との関係など、連絡先とアカウントの間のつながりです2。</p><p><br></p><p>Affiliation オブジェクトを使用すると、システム管理者は見込み客や学生を雇用主にリンクできます。</p><p><br></p><p>雇用主は、Organization レコード タイプの Accounts によって表されます。</p><p><br></p><p>システム管理者は、連絡先レコードの [主要なビジネス組織] フィールドに値を入力することで、各連絡先の主要な所属を指定することもできます。</p><p><br></p><p>このフィールドは Affiliation オブジェクトへのルックアップであり、雇用主の名前およびその他の情報を連絡先ページ レイアウトに表示できるようにします。</p><p><br></p><p>このアプローチを使用すると、システム管理者は重複したアカウントや不要なアカウントの作成を回避でき、EDA データ モデルを活用して見込み客と学生のネットワーク全体を把握できます1。</p><p><br></p><p>B) EDA 設定でデフォルトのアカウント モデルとして「管理」を選択すること、および C. EDA 設定でデフォルトのアカウント モデルとして組織を選択することは、このシナリオでは有効なアクションではありません。</p><p><br></p><p>EDA 設定のデフォルトのアカウントモデルは、Salesforce で作成された新しい取引先責任者に対して EDA がアカウントを作成する方法を決定する設定です。</p><p><br></p><p>管理アカウント モデルは、連絡先ごとに 1 つのアカウントを作成し、両方のレコードに同じ名前を割り当てます。</p><p><br></p><p>家計口座モデルは、世帯ごとに 1 つの口座を作成し、その口座に世帯名を割り当てます。</p><p><br></p><p>組織アカウント モデルは、組織ごとに 1 つのアカウントを作成し、そのアカウントに組織名を割り当てます。</p><p><br></p><p>ただし、これらの設定は、EDA3 で作成された新しい連絡先と取引先にのみ適用されるため、EDA が見込み客と学生の雇用主を Salesforce の標準の取引先フィールドにマッピングする方法には影響しません。</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBqYAM"
+			},
+			"Question__c": "エグゼクティブ教育部門は教育データの使用を計画しています建築予定者および在学生向けの建築 (EDA)。システム管理者は、見込み客と学生の雇用主を Salesforce の標準の取引先フィールドにマッピングしたいと考えています。コンサルタントが代わりに推奨すべき 2 つのアクションはどれですか? 2 つの答えを選択してください",
+			"A__c": "[主要なビジネス組織] フィールドに雇用主の所属レコードを入力します。",
+			"B__c": " EDA 設定でデフォルトのアカウント モデルとして [管理] を選択します。",
+			"C__c": " [主要なビジネス組織] フィールドに雇用主のアカウント レコードを入力します。",
+			"D__c": " EDA 設定でデフォルトのアカウント モデルとして組織を選択します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=6",
+			"Comment__c": "コンサルタントは、見込み客と学生の雇用主を Salesforce の標準の取引先フィールドにマッピングするのではなく、[主なビジネス組織] フィールドに雇用主の所属レコードを入力し、EDA 設定でデフォルトの取引先モデルとして組織を選択することを推奨する必要があります。所属は、連絡先と取引先または別の連絡先との間の関係を表すオブジェクトです。所属を使用すると、学生、教職員、卒業生、寄付者、雇用主など、さまざまな種類の関係を追跡できます。Contact オブジェクトの Primary Business Organization フィールドは、どの所属レコードが連絡先のビジネス組織のプライマリとしてマークされているかを示します。コンサルタントは、Salesforce の標準の [取引先] 項目を使用する代わりに、見込み顧客と学生の雇用主を追跡するために、所属を使用する必要があります。組織は、ユーザーが企業や非営利団体など、教育機関ではない組織に関する情報を保存できるアカウント モデルです。組織を使用すると、名前、業界、収益、従業員など、組織に関するさまざまな情報を追跡できます。コンサルタントは、EDA で標準アカウントまたは他のアカウント モデルを使用するのではなく、EDA 設定でデフォルトのアカウント モデルとして組織を選択する必要があります。参考文献:https://powerofus.force.com/s/article/EDA-Affiliationshttps://powerofus.force.com/s/article/EDA-Accountshttps://powerofus.force.com/s/article/EDA-Settings",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBrYAM"
+			},
+			"Question__c": "キャリアサービス部門は Salesforce の導入を計画しています。コンサルタントは、ディレクターおよびアドバイススタッフとともにディスカバリーセッションの準備を行っています。コンサルタントは調査セッション中にどの質問をすべきですか?",
+			"A__c": "システム管理者アクセスが必要なユーザーはどれですか?",
+			"B__c": " プロジェクトの推定予算はいくらですか?",
+			"C__c": " プロジェクトの成功指標は何ですか?",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=23",
+			"Comment__c": "コンサルタントは、キャリア サービス部門の目標と期待、およびそれらを測定する方法を理解するために、プロジェクトの成功指標について尋ねる必要があります。これは、コンサルタントが部門のビジョンとニーズに合ったソリューションを設計するのに役立ちます。どのユーザーにシステム管理者アクセスが必要か、またプロジェクトの推定予算はいくらかという質問は、検出セッションではなく、プロジェクトの計画または実行フェーズの後半で尋ねることができます。参照：https://trailhead.salesforce.com/en/content/learn/modules/education-cloud-basics/education-cloud-discoveryhttps://trailhead.salesforce.com/en/content/learn/modules/education-cloud-basics/education-cloud-project-planning",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBsYAM"
+			},
+			"Question__c": "コミュニティ カレッジは、Admissions Connect を使用して、志願者が特定の基準を満たした場合に自動的に入学を許可したいと考えています。コンサルタントは何をすべきでしょうか?",
+			"A__c": "新しいフローを作成します。",
+			"B__c": " ApplicantCommunityHomePageController Apex クラスをアクティブ化します。",
+			"C__c": " 既存のフローの活用 サンプル: アプリケーションの自動承認。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=11",
+			"Comment__c": "コンサルタントは、既存のフロー「サンプル: 申請自動承認」を利用して、Admissions Connect の使用を希望するコミュニティ カレッジの特定の基準を満たしている申請者を自動的に承認する必要があります。フローは、ユーザーが画面を案内したり、データを収集したり、アクションを実行したりすることにより、ビジネス プロセスを自動化できるツールです。サンプル: Application Auto Admit は Admissions Connect の既存のフローで、ユーザーが GPA やテストスコアなどの特定の基準を満たしている場合に、申請者を自動的に承認できるようにします。コンサルタントは、既存のフロー「サンプル: 申請自動承認」を利用して、入学要件とポリシーに一致するようにフローを構成およびカスタマイズすることで、Admissions Connect の使用を希望するコミュニティ カレッジの特定の基準を満たしている志願者を自動的に入学させることができます。新しいフローの作成、ApplicantCommunityHomePageController Apex クラスの有効化、または提出期限を現在の日付と照合するカスタムトリガーの開発は、コミュニティカレッジが希望するコミュニティカレッジの特定の基準を満たしている場合に志願者を自動的に許可するためにコンサルタントが行うべきことではありません。 Admissions Connect を使用します。参考文献:https://help.salesforce.com/s/articleView?id=sf.flow.htm&amp;type=5https://www.salesforce.org/products/admissions-connect/overview/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBuYAM"
+			},
+			"Question__c": "コンサルタントは、Education Data Architecture (EDA) が使用されている Salesforce 環境で新しい取引先責任者が作成されたときに実行する Apex クラスを作成しています。コードが意図した順序で実行されるようにするには、コンサルタントは何をすべきでしょうか?",
+			"A__c": "Apex トリガを記述して実行順序を設定します。",
+			"B__c": " EDA 設定に移動して、実行順序を設定します。",
+			"C__c": " テーブル駆動トリガー管理 (TDTM) を使用して実行順序を設定します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=2",
+			"Comment__c": "テーブル駆動トリガー管理 (TDTM) は、Salesforce のコードを管理し、Apex の動作を制御するツールです5。TDTM を使用すると、コンサルタントは Salesforce インターフェースのテーブルを介して物事の順序を簡単に並べ替えることができます (したがって、TDTM では「テーブル駆動」となります)6。TDTM を使用すると、コンサルタントはコードを書かずに、Apex トリガに「最初に X を実行し、次に Y を実行し、次に Z を実行する」と指示できます6。TDTM は教育データ アーキテクチャ (EDA) の一部であり、EDA 設定 5 からアクセスできます。参照：5: テーブル駆動トリガー管理 (TDTM) の概要 - Salesforce76: テーブル駆動のトリガー管理とそれが重要な理由8",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBvYAM"
+			},
+			"Question__c": "コンサルタントは、Education Data Architecture (EDA) のコンパクトなレイアウトに変更を加えており、新しいリリースが Salesforce 環境にプッシュされたときにそれらの変更を維持したいと考えています。これを達成するにはコンサルタントはどの手順を実行する必要がありますか?",
+			"A__c": "EDA コンパクト レイアウトのクローンを作成します。",
+			"B__c": " ミニ ページ レイアウトを編集します。",
+			"C__c": " ミニ ページ レイアウトをすべてのユーザーに割り当てます。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=13",
+			"Comment__c": "コンサルタントは、EDA のコンパクト レイアウトに変更を加え、新しいリリースが Salesforce 環境にプッシュされたときにそれらの変更を維持するためのステップとして、EDA コンパクト レイアウトのクローンを作成する必要があります。コンパクト レイアウトは、リスト ビューやレコード ハイライト パネルなどの概要ビューにレコードのキー フィールドを表示するレイアウトです。EDA コンパクト レイアウトのクローン作成とは、EDA が提供するデフォルトのコンパクト レイアウトのコピーを作成し、フィールドの追加や削除などの変更を行うことを意味します。EDA コンパクト レイアウトのクローンを作成すると、コンサルタントは EDA のコンパクト レイアウトに変更を加え、新しいリリースが Salesforce 環境にプッシュされたときにその変更を保持できるようになります。これにより、カスタムのコンパクト レイアウトが EDA の更新によって上書きされなくなります。ミニ ページ レイアウトの編集、ミニ ページ レイアウトのすべてのユーザーへの割り当て、またはカスタム レコード タイプの作成は、コンサルタントが EDA でコンパクト レイアウトに変更を加え、新しいリリースがプッシュされたときにそれらの変更を保持するために実行する必要がある手順ではありません。 Salesforce環境。参考文献:https://help.salesforce.com/s/articleView?id=sf.compact_layouts_overview.htm&amp;type=5https://powerofus.force.com/s/article/EDA-Compact-Layouts",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBxYAM"
+			},
+			"Question__c": "コンサルタントは、学生サービス用に Education Data Architecture (EDA) を使用する新しい Salesforce 組織を設計しています。大学は、どのクラスがティーチングアシスタントによって教えられているかを追跡したいと考えています。コンサルタントはどの EDA オブジェクトを使用する必要がありますか?",
+			"A__c": "コースの提供",
+			"B__c": " コース接続",
+			"C__c": " 学期の成績",
+			"D__c": " プログラムの登録",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=27",
+			"Comment__c": "Course Connection は、コンサルタントがティーチング・アシスタントによってどのクラスが教えられているかを追跡するために使用する EDA オブジェクトです。コース接続は、連絡先とコース提供の間のジャンクションを表すオブジェクトです。Course Connection を使用すると、学生、教師、ティーチングアシスタントなど、さまざまなタイプの役割を追跡できます。コンサルタントは、コース接続オブジェクトで指導アシスタント用のカスタム選択リスト値を作成し、それをクラスを指導する連絡先に関連付けることができます。コースの提供、学期の成績、およびプログラムの登録は、ティーチング・アシスタントによってどのクラスが教えられているかを追跡できる EDA オブジェクトではありません。参照：https://powerofus.force.com/s/article/EDA-Course-Connectionshttps://powerofus.force.com/s/article/EDA-Course-Connections-Create",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VByYAM"
+			},
+			"Question__c": "コンサルタントは、学部の顧問部門向けの Advisor Link の実装に取り​​組んでいます。アドバイザーは、生徒のクラスを表示し、マイルストーンを追跡し、生徒のミーティングを設定し、ミーティングを Outlook カレンダーと統合できる必要があります。アドバイス部門は、Advisor Link にどの機能が含まれているか、またサードパーティ アプリケーションが必要かどうかを知りたいと考えています。どの機能にサードパーティ製アプリが必要になる可能性がありますか?",
+			"A__c": "度数の視覚化",
+			"B__c": " 予約のスケジュール設定",
+			"C__c": " 成功計画",
+			"D__c": " カレンダーの同期",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=5",
+			"Comment__c": "<p>学位可視化機能は、Advisor Link用のサードパーティアプリが必要な場合があります。 学位の可視化により、アドバイザーと学生は、学位プログラムの進捗と要件をグラフィカルな方法で確認することができます。 Advisor Linkはこの機能を提供していないため、サードパーティのアプリが必要になる場合があります。 サクセスプラン、カレンダー同期、アポイントメントスケジューリングは、Advisor Linkに含まれる機能であり、サードパーティ製アプリは必要ありません。</p><p><span style=\"font-size: 16px; color: rgb(68, 68, 68);\">https://www.salesforce.org/advisor-link/</span></p><p><span style=\"font-size: 16px; color: rgb(68, 68, 68);\">https://help.salesforce.com/s/articleView?id=sf.eda_advisor_link_features.htm&amp;type=5</span></p><p><br></p><p><span class=\"ql-cursor\">﻿</span>https://myitguides.com/EDUCATION-CLOUD-CONSULTANT-exam-questions</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VBzYAM"
+			},
+			"Question__c": "コンサルタントは、教育データ アーキテクチャ (EDA) を使用するスペインの大学と協力しています。EDA のスペイン語への翻訳に関する次の考慮事項のうち、コンサルタントが大学と話し合う必要があるのはどれですか?",
+			"A__c": "EDA 選択リストの値は組織のデフォルト言語に制限されます。",
+			"B__c": " 相互関係の EDA 選択リスト値は手動で変換する必要があります。",
+			"C__c": " スペイン語は EDA のプラットフォーム専用言語です。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=17",
+			"Comment__c": "コンサルタントは、EDA を使用する際の EDA のスペイン語への翻訳に関する考慮事項として、相互関係の EDA 選択リストの値を手動で翻訳する必要があることについて大学と話し合う必要があります。EDA をスペイン語に翻訳するとは、EDA オブジェクト、フィールド、ラベル、または値の言語をスペイン語に変更することを意味します。相互関係の EDA 選択リスト値は、EDA を使用するときに EDA をスペイン語に翻訳する際の考慮事項として手動で翻訳する必要があります。これは、これらの選択リスト値が Salesforce の翻訳ワークベンチ ツールによって自動的に翻訳されず、手動による介入が必要であるためです。コンサルタントは、EDA を使用する際の EDA のスペイン語への翻訳に関する考慮事項として、相互関係の EDA 選択リスト値を手動で翻訳する必要があることについて大学と話し合い、カスタム ラベルまたは数式フィールドを使用してこれらの選択リスト値をスペイン語に翻訳する方法を説明する必要があります。EDA 選択リストの値が組織のデフォルト言語に制限されているか、スペイン語が EDA のプラットフォーム専用言語であるかは、EDA の使用時に EDA をスペイン語に翻訳することについて考慮されません。参照：https://powerofus.force.com/s/article/EDA-Relationshipshttps://powerofus.force.com/s/article/EDA-Translate-Picklists",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC0YAM"
+			},
+			"Question__c": "コンサルタントは、教育データ アーキテクチャで初めてコース接続を有効にしています。コンサルタントはまず何をすべきでしょうか?",
+			"A__c": "コース接続バックフィルを実行します。",
+			"B__c": " コース提供スケジュールを設定します。",
+			"C__c": " コース登録を無効にします。",
+			"D__c": " コース接続のレコード タイプを設定します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=42",
+			"Comment__c": "EDA で初めてコース接続を有効にするときにコンサルタントが最初に行うべきことは、コース接続のレコード タイプを設定することです。レコード タイプを使用すると、コンサルタントは、講師、学生、ティーチング アシスタントなど、さまざまなタイプのコース接続を定義できます。レコード タイプは、コース接続の各タイプのページ レイアウトと選択リストの値も決定します。コース接続バックフィルの実行、コース提供スケジュールの設定、およびコース登録の無効化は、EDA でコース接続を有効にするための最初の手順ではありません。参考文献:https://powerofus.force.com/s/article/EDA-Course-Connectionshttps://help.salesforce.com/s/articleView?id=sf.customize_recordtype.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC1YAM"
+			},
+			"Question__c": "コンサルタントは、教育データアーキテクチャ (EDA) を備えた大学の Salesforce 本番環境に大量のレコードをインポートする必要があります。インポート ファイルには、アカウントとアドレスの情報がすでに定義されています。大学の環境にはプライベート共有モデルといくつかの共有ルールがあります。データをインポートする前にコンサルタントが実行すべき一時的なアクションを 2 つ選択してください。",
+			"A__c": "共有モデルをパブリック読み取り/書き込みに変更します。",
+			"B__c": " TDTM を使用して不要なコードを無効にします。",
+			"C__c": " TDTM を使用して共有ルールを無効にします。",
+			"D__c": " アカウント モデルを世帯に変更します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=7",
+			"Comment__c": "コンサルタントは、EDA を備えた大学の Salesforce 本番環境にデータをインポートする前に、TDTM を使用して不要なコードを無効にし、TDTM を使用して共有ルールを無効にする 2 つの一時的なアクションを実行する必要があります。TDTM は Table Driven Trigger Management の略で、ユーザーが EDA トリガーの動作をカスタマイズし、必要に応じて無効または有効にすることができる機能です。TDTM を使用して不要なコードを無効にすると、不要な自動化や検証が実行されてデータ インポートに影響を与えるのを防ぐことができます。TDTM を使用して共有ルールを無効にすると、共有の再計算を防止し、パフォーマンスを向上させることができます。共有モデルをパブリック読み取り/書き込みに変更したり、アカウントモデルを世帯に変更したりすることは、EDA を備えた大学の Salesforce 本番環境にデータをインポートする前にコンサルタントが実行する必要がある一時的なアクションではありません。参考文献:https://powerofus.force.com/s/article/EDA-TDTMhttps://help.salesforce.com/s/articleView?id=sf.data_loader_tips.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC2YAM"
+			},
+			"Question__c": "コンサルタントは、教育データを含む大学の Salesforce 環境への大量の学生レコードのデータ インポートを最適化するために、特定の設定を無効にすることを検討しています。コンサルタントはデータのインポート中にどの構成を保持する必要がありますか?",
+			"A__c": "ワークフロー ルール",
+			"B__c": " 共有ルール",
+			"C__c": " 役割階層",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=5",
+			"Comment__c": "コンサルタントは、レコードの所有権、ロール階層、フィールド値などの基準に基づいてレコードのアクセスと表示を制御するため、データのインポート中に共有ルールを維持する必要があります。共有ルールを無効にすると、データのセキュリティやプライバシーの問題が発生する可能性があります。ワークフロー ルールとロール階層は、パフォーマンスを向上させ、エラーや競合を回避するために、データのインポート中に無効にできる構成です。参考文献:https://help.salesforce.com/s/articleView?id=sf.data_loader_disable_triggers_workflow.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.data_loader_sharing_rules.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC3YAM"
+			},
+			"Question__c": "コンサルタントは、州と国の選択リスト機能を有効にして、留学生の連絡先と住所の情報を Salesforce Education Data Architecture (EDA) 環境に移行する必要があります。コンサルタントはデータを移行する前に何を確認する必要がありますか?",
+			"A__c": "連絡先の複数アドレスを有効にするがチェックされています。",
+			"B__c": " すべての州および国の値は ISO-3166 値です。",
+			"C__c": " すべての連絡先には州と国の値があります。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=2",
+			"Comment__c": "Salesforce の州と国選択リスト機能を使用すると、ユーザーはテキストフィールドに手動で入力する代わりに、事前定義された標準化されたリストから州と国を選択できます2。これらの選択リストは、国とその下位区分を識別するための国際的に認められたコードである ISO-3166 標準値に基づいています。したがって、データを移行する前に、コンサルタントはソース データ内のすべての州と国の値が ISO-3166 値であることを確認する必要があります。そうしないと、ターゲット環境の選択リストの値と一致しなくなります。連絡先の複数アドレスの有効化は、ユーザーが自宅、勤務先、郵送先住所などの連絡先の複数のアドレスを保存できるようにする EDA の設定です。ISO-3166 値である限り、この設定は州および国の値の移行には影響しません。これらのフィールドは EDA では必須ではないため、州と国の値を持つすべての連絡先も移行の要件ではありません。参照：2: 州および国の選択リストの構成 - Salesforce3 ISO 3166 - ウィキペディア 連絡先の複数アドレスを有効にする - Salesforce",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC5YAM"
+			},
+			"Question__c": "コンサルタントは教育機関の顧客のリスクをどのように文書化する必要がありますかクラウド導入？",
+			"A__c": "早期アラートを設定して関係者に通知します。",
+			"B__c": " プロジェクトの健全性ダッシュボードを維持します。",
+			"C__c": " Center of Excellence を推奨します。",
+			"D__c": " Salesforce リソースを顧客と共有します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=32",
+			"Comment__c": "コンサルタントは、プロジェクトの健全性ダッシュボードを維持して、Education Cloud 実装における顧客のリスクを文書化する必要があります。プロジェクト健全性ダッシュボードは、主要なマイルストーン、成果物、問題、リスクなど、プロジェクトのステータスと進行状況を視覚的に表現するツールです。プロジェクト健全性ダッシュボードは、プロジェクトの範囲、タイムライン、予算、品質に影響を与える可能性のある潜在的な脅威や課題を特定して追跡し、緩和戦略や緊急時対応計画を提供することで、コンサルタントが Education Cloud 実装における顧客のリスクを文書化するのに役立ちます。早期アラートの設定、Center of Excellence の推奨、顧客との Salesforce リソースの共有は、Education Cloud 実装における顧客のリスクを文書化する方法ではありません。参考文献:https://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdfhttps://trailhead.salesforce.com/en/content/learn/modules/project-management-basics/project-management",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC8YAM"
+			},
+			"Question__c": "システム管理者は、次の順序でデータを Salesforce にロードすることを計画しています。チーム、コース、コースの提供、およびアカウント。コンサルタントはシステム管理者と何を話し合う必要がありますか?",
+			"A__c": "アカウントはチームの必須フィールドです。",
+			"B__c": " アカウント データの偏りのリスクがあります。",
+			"C__c": " ルックアップ データ スキューのリスクがあります。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=5",
+			"Comment__c": "チーム、コース、コース提供、取引先の順にデータを Salesforce にロードすると、検索データに偏りが生じるリスクがあります。チーム オブジェクトには取引先オブジェクトとの参照関係があり、多くのチーム レコードが同じ取引先レコードを参照する可能性があるためです。 。これにより、データのクエリまたは更新時にパフォーマンスの問題が発生する可能性があります。アカウントはチームの必須フィールドではないため、単一のユーザーが多数のアカウント レコードを所有する場合に発生するアカウント データの偏りのリスクはありません。参考文献:https://help.salesforce.com/s/articleView?id=sf.data_loader_lookup_skew.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.data_loader_account_skew.htm&amp;type=5https://powerofus.force.com/s/article/EDA-チーム",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VC9YAM"
+			},
+			"Question__c": "システム管理者は、自分の組織向けのカスタム ソリューションのアイデアを思いつき、それが他の人にも役立つかもしれないと考えています。システム管理者は、他の 2 つの学校の同僚とこの件について話し合います。彼らはシステム管理者のアイデアに興奮し、協力を申し出ました。システム管理者は次のステップとして何を検討すべきでしょうか?",
+			"A__c": "Trailblazer Idea Exchange にアイデアを投稿します。",
+			"B__c": " GitHub からプロジェクトをダウンロードしてインストールします。",
+			"C__c": " 同僚に機密保持契約書に署名するよう依頼します。",
+			"D__c": " オープンソース コモンズおよびコミュニティ スプリント グループに参加します",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=36",
+			"Comment__c": "システム管理者は、カスタム ソリューションのアイデアの次のステップとして、Power of Us Hub の Open Source Commons &amp; Community Sprints グループへの参加を検討する必要があります。Open Source Commons &amp; Community Sprints グループは、Salesforce.org がサポートするオープンソース プロジェクトに貢献したり、オープンソース プロジェクトから学んだりすることに関心のあるユーザを結び付けるグループです。Open Source Commons &amp; Community Sprints グループは、EDA、NPSP、CumulusCI、Metecho などのさまざまなオープンソース プロジェクトに関連するリソース、イベント、ディスカッション、機会へのアクセスを提供します。システム管理者はグループに参加して、そのアイデアについて共同作業したり、フィードバックを提供したりする可能性のある他のユーザーとアイデアを共有できます。Trailblazer Idea Exchange にアイデアを投稿したり、GitHub からプロジェクトをダウンロードしてインストールしたり、同僚に機密保持契約への署名を依頼したりすることは、システム管理者がカスタム ソリューションのアイデアに関して検討すべき次のステップではありません。参照：https://powerofus.force.com/s/group/0F980000000CjQOCA0/sfdo-open-source-contributorshttps://www.salesforce.org/open-source-commons/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCAYA2"
+			},
+			"Question__c": "すべての学生とサポート スタッフのやり取り、アクティビティ、および割り当てられたサポート スタッフに対してどのオブジェクトを構成する必要がありますか?",
+			"A__c": "関係",
+			"B__c": " アカウント",
+			"C__c": " ケース",
+			"D__c": " プールへのアドバイス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=12",
+			"Comment__c": "Case は、すべての学生とサポート スタッフのやり取り、アクティビティ、および割り当てられたサポート スタッフに対して構成する必要があるオブジェクトです。ケースは、組織からの解決や支援を必要とするリクエストや問題を表すオブジェクトです。ケースを使用すると、ステータス、優先度、カテゴリ、解決策など、学生のリクエストや問題に関するさまざまな情報を追跡できます。コンサルタントは、ケース割り当てルール、ケース エスカレーション ルール、ケース チームなどの機能を使用して、すべての学生とサポート スタッフのやり取り、アクティビティ、割り当てられたサポート スタッフに対してケースを設定できます。人間関係、アカウント、およびアドバイスプールは、学生とサポートスタッフのすべてのやり取り、アクティビティ、および割り当てられたサポートスタッフに対して構成する必要があるオブジェクトではありません。参考文献:https://help.salesforce.com/s/articleView?id=sf.cases_overview.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/service_basics/service_basics_cases",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCCYA2"
+			},
+			"Question__c": "パートナーは、アプリが教育データ アーキテクチャ (EDA) の準備状況に準拠していることを自己証明したいと考えています。パートナーは、そのソリューションが EDA と互換性があること、または EDA の機能を複製する場合は、それが適切に文書化されており、主要な EDA オブジェクトの規則に従っていることを証明する必要があります。EDA で使用される 2 つの主要なオブジェクトは何ですか?答えを 2 つ選択してください。",
+			"A__c": "チャンス",
+			"B__c": " アカウント",
+			"C__c": " 所属",
+			"D__c": " 属性",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=29",
+			"Comment__c": "<p>最適な選択肢は **(B): アカウント** と **(C): 所属** です。</p><p><br></p><p>理由:</p><p>1. **アカウント (B)**: Salesforce Education Data Architecture (EDA)では、アカウントは学生や教育機関などの重要なエンティティを管理するための主要オブジェクトの一つです。アカウントを使用して、組織全体のデータを構造化し、学生の関係や履歴を管理します。</p><p><br></p><p>2. **所属 (C)**: 所属オブジェクトは、学生がどの組織やプログラムに属しているかを追跡するために使用されます。これは学生の進捗状況やエンゲージメントを管理する上で重要な役割を果たします。</p><p><br></p><p>他の選択肢について：</p><p>- **チャンス (A)**: これは主に営業プロセスに関連するオブジェクトであり、EDAの主要オブジェクトではありません。</p><p>- **属性 (D)**: 属性オブジェクトは特定の追加情報を管理するために使用されることがありますが、EDAの主要オブジェクトではありません。</p><p><br></p><p>したがって、EDAで使用される2つの主要なオブジェクトは**アカウント**と**所属**です。他に質問があれば教えてくださいね。</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCFYA2"
+			},
+			"Question__c": "ビジネススクールは、MBA の採用と入学のために Salesforce を導入します。Salesforce Center of Excellence に参加すべき役割はどれですか?",
+			"A__c": "大学技術副学長",
+			"B__c": " Salesforce システム管理者",
+			"C__c": " 大学の学長",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=3",
+			"Comment__c": "Salesforce システム管理者は、MBA の募集と入学のために Salesforce を導入するビジネススクールの Salesforce Center of Excellence (COE) に参加する必要がある役割です。Salesforce システム管理者は、Salesforce プラットフォームを設定、保守、サポートし、ユーザーや関係者のニーズと要件を確実に満たすようにする人です。Salesforce システム管理者は、ユーザー アクセス、セキュリティ、データ品質、レポート、ダッシュボード、ワークフロー、統合の管理も担当します2。Salesforce システム管理者は、COE に貴重な入力やフィードバックを提供したり、COE によって割り当てられたタスクやプロジェクトを実行したりできます。大学の技術副学長と大学の学長は、ビジネススクールの Salesforce COE に参加すべき役割ではありません。大学の技術副学長は、大学全体の IT 戦略、予算、運営を監督する人物ですが、Salesforce プラットフォームに直接関与したり専門知識を持っていない場合があります3。大学の学長は、大学の学術、管理、財務を指揮する人物ですが、Salesforce プラットフォームに直接関与したり専門知識を持たない場合があります4。これらの役割は COE から相談または通知される場合がありますが、COE チームの一員ではありません。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCGYA2"
+			},
+			"Question__c": "開発担当副社長は大学のトップサポーターを訪問する準備をしています。副社長は、約束を優先することで移動時間を最大限に短縮したいと考えています。閉店する可能性が最も高いもの。コンサルタントはどのレポート ソリューションを推奨すべきですか?",
+			"A__c": "Salesforce マップ",
+			"B__c": " 商談ファネル レポート",
+			"C__c": " アインシュタインの予測",
+			"D__c": " Einstein 商談スコアリング",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=30",
+			"Comment__c": "Einstein 商談スコアリングは、開発担当副社長が成約する可能性が最も高い誓約に優先順位を付けるのに役立つ、コンサルタントが推奨できるレポート ソリューションです。Einstein 商談スコアリングは、人工知能を使用して履歴データを分析し、各商談にスコアを割り当てて、その商談が獲得される可能性を示す機能です。Einstein 商談スコアリングでは、重要な要素や傾向など、スコアに関する洞察と説明も提供されます。開発担当副社長は、Einstein 商談スコアリングを使用して、スコアに基づいて商談を並べ替えてフィルタリングし、成約の可能性が最も高い商談に焦点を当てることができます。Salesforce Maps、Opportunity Funnel Report、および Einstein Forecasting は、開発担当副社長が成立する可能性が最も高い誓約に優先順位を付けるのに役立つソリューションをレポートしていません。参照：https://help.salesforce.com/s/articleView?id=sf.einstein_sales_oppty_scoring.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/einstein_sales/einstein_sales_opportunity_scoring",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCHYA2"
+			},
+			"Question__c": "学生サービス部門は、学生とアドバイザーが学業の選択肢をより明確にイメージし、学位要件を視覚化できる方法を望んでいます。コンサルタントはニーズを満たすためにどのコンポーネントを推奨する必要がありますか?",
+			"A__c": "<p>経路(パスウェイ)</p>",
+			"B__c": " 成功計画",
+			"C__c": " パス",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=14",
+			"Comment__c": "パスウェイとプラン要件は、学生とアドバイザーが学業の選択肢をより明確にイメージし、学位要件を視覚化する方法を提供するという要件を満たすためにコンサルタントが推奨できる 2 つのコンポーネントです。Pathways は、ユーザーが専攻、副専攻、証明書などの学生の学業計画を作成および管理できるようにするコンポーネントです。パスウェイは、学業計画を完了するために必要なコースと要件を示すことで、学生とアドバイザーが学業の選択肢をより明確にイメージできるように支援します。プラン要件は、ユーザーが単位、コース、選択科目などの学術プランの要件を定義およびグループ化できるようにするコンポーネントです。Plan Requirements は、学業計画の各要件の進捗状況とステータスを示すことで、学生と指導教員が学位要件を視覚化するのに役立ちます。成功プランとパスは、学生とアドバイザーが学業の選択肢をより明確にイメージし、学位要件を視覚化する方法を提供するという要件を満たすことができるコンポーネントではありません。参照：https://www.salesforce.org/products/student-success-hub/overview/https://powerofus.force.com/s/article/SSHub-Pathwayshttps://powerofus.force.com/s/article/SSHub-Plan-Requirements",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCIYA2"
+			},
+			"Question__c": "学部顧問部門は、新しい組織に Student Success Hub と Pathways を導入する予定です。システム管理者は、外部ユーザー向けに推奨設定を使用したいと考えています。コンサルタントはどのセキュリティ設定を構成する必要がありますか?",
+			"A__c": "レコード タイプに基づいて読み取りアクセスを提供するアカウント共有ルールを作成します。",
+			"B__c": " レコード タイプに基づいて読み取りアクセスを提供するプログラム プラン共有ルールを作成します。",
+			"C__c": " デフォルトのプログラム プランの共有設定をプライベートに変更します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=18",
+			"Comment__c": "コンサルタントは、学部向けの新しい組織に Student Success Hub と Pathways を実装するときに外部ユーザーに推奨設定を使用したいシステム管理者に、レコード タイプに基づいて読み取りアクセスを提供するプログラム プラン共有ルールを作成するセキュリティ設定を構成する必要があります。アドバイス部門。共有ルールは、ユーザーがパブリック グループ、ロール、またはテリトリー内のユーザーに共有アクセスを拡張できるようにするセキュリティ設定です。プログラム プラン共有ルールは、学生やアドバイザーなどの外部ユーザーに関連または適切な特定のプログラム プラン レコードへのアクセスを許可することで、システム管理者がレコード タイプに基づいて外部ユーザーに読み取りアクセスを提供するのに役立ちます。レコード タイプに基づいて読み取りアクセスを提供するアカウント共有ルールの作成、デフォルトのプログラム プラン共有設定のプライベートへの変更、または外部ユーザー向けのカスタム権限セットの作成は、コンサルタントがシステム管理者が使用するように構成する必要があるセキュリティ設定ではありません。学部顧問部門の新しい組織に Student Success Hub と Pathways を実装するときに外部ユーザーに推奨される設定。参考文献:https://help.salesforce.com/s/articleView?id=sf.sharing_overview.htm&amp;type=5https://powerofus.force.com/s/article/SSHub-Pathways",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCJYA2"
+			},
+			"Question__c": "教育機関の顧客が、オープンソース コモンズ コミュニティ スプリント プロジェクトへの参加に興味を持っています。定常的にアドバイスすべき開発上の考慮事項はどれですか?",
+			"A__c": "プロジェクトには、プロジェクト チームに少なくとも 1 人の Salesforce スタッフが必要です。",
+			"B__c": " プロジェクトは継続的な統合とデプロイに CumulusCI を使用します。",
+			"C__c": " プロジェクトは教育データ アーキテクチャ (EDA) と互換性がある必要があります。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=23",
+			"Comment__c": "コンサルタントは、プロジェクトが継続的な統合と展開に CumulusCI を使用することをアドバイスする必要があります。これは、Salesforce アプリケーションの開発とリリースのプロセスを自動化するツールです。プロジェクトには、プロジェクト チームに少なくとも 1 人の Salesforce スタッフが含まれる必要はありませんが、一部の Salesforce 従業員が貢献者またはアドバイザーとして含まれる場合があります。プロジェクトは教育データ アーキテクチャ (EDA) と互換性がある必要はありませんが、一部のプロジェクトでは基礎または拡張として EDA を使用する場合があります。参考文献:https://trailhead.salesforce.com/en/content/learn/modules/open-source-commons/open-source-projectshttps://trailhead.salesforce.com/en/content/learn/modules/cumulusci-basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCMYA2"
+			},
+			"Question__c": "継続教育および専門教育のスタッフは、認定プログラムのマーケティングと管理に Salesforce と Pardot を使用しています。スタッフは、別のトランザクション システムでアクセスできるコース支払い情報を表示する必要がある場合があります。システム管理者は、Salesforce にレポートと自動化用の CRM データのみを含めることを望んでいます。コース支払い情報に関してコンサルタントはどのデータ管理戦略を推奨する必要がありますか?",
+			"A__c": "トランザクション システムでコースの支払いを管理します。",
+			"B__c": " コースの支払いを Pardot と Salesforce に移行します。",
+			"C__c": " トランザクション システムと Pardot でコースの支払いを管理します。",
+			"D__c": " Salesforce からのコース支払いをトランザクション システムに統合します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=15",
+			"Comment__c": "<p>最適な選択肢は **(A): トランザクション システムでコースの支払いを管理します** です。</p><p><br></p><p>**理由**:</p><p>システム管理者は、Salesforce にレポートと自動化用の CRM データのみを含めることを望んでいます。そのため、コース支払い情報を別のトランザクション システムで管理することで、Salesforce のデータをシンプルに保ち、管理の複雑さを避けることができます。また、トランザクション システムで支払い情報を管理することで、支払い処理に特化したシステムの機能を最大限に活用できます。</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCNYA2"
+			},
+			"Question__c": "研究大学の知的財産部門は、大学の特許を管理する必要があります。この学部は学生にはサービスを提供しておらず、B2B のビジネス プロセスを採用しています。どのアカウントモードですか！定数が推奨するべきですか？",
+			"A__c": "家計簿モデル",
+			"B__c": " 管理アカウント モデル",
+			"C__c": " 標準アカウント モデル",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=39",
+			"Comment__c": "コンサルタントは、追加のレコードや関係を作成することなく、標準の取引先オブジェクトと取引先責任者オブジェクトを使用して B2B ビジネス プロセスを管理できるため、知的財産部門に標準アカウント モデルを推奨する必要があります。家計アカウント モデルと管理アカウント モデルは、B2B ではなく、B2C または教育関係を管理するために設計されています。参考文献:https://powerofus.force.com/s/article/EDA-Account-Modelhttps://help.salesforce.com/s/articleView?id=sf.account.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCPYA2"
+			},
+			"Question__c": "顧客は、既存の Salesforce 組織に Education Data Architecture (EDA) をインストールしたいと考えています。コンサルタントは導入に向けてどのような準備をすべきでしょうか?",
+			"A__c": "EDA を統合するミドルウェア ツールを選択します。",
+			"B__c": " 適切な API カスタマイズを構築します。",
+			"C__c": " 既存の Salesforce データをすべてエクスポートします。",
+			"D__c": " Salesforce カスタム オブジェクトを EDA オブジェクトにマッピングします。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=18",
+			"Comment__c": "コンサルタントは、既存の Salesforce 組織に EDA をインストールする準備として、Salesforce カスタム オブジェクトを EDA オブジェクトにマッピングする必要があります。これは、既存の組織内のどのカスタム オブジェクトが EDA オブジェクトと同様または同等の機能を持つかを特定し、それに応じてそれらの項目と関係をマッピングすることを意味します。これは、コンサルタントがどのカスタム オブジェクトを EDA オブジェクトに置き換えることができるか、どのカスタム オブジェクトを EDA オブジェクトと統合する必要があるか、どのカスタム オブジェクトをそのまま保持する必要があるかを判断するのに役立ちます。EDA を統合するためのミドルウェア ツールの選択、適切な API カスタマイズの構築、および既存のすべての Salesforce データのエクスポートは、EDA のインストールを準備するためにコンサルタントが行うべきタスクではありません。参考文献:https://powerofus.force.com/s/article/EDA-Migratehttps://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_Migration_Guide.pdf",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCQYA2"
+			},
+			"Question__c": "顧問部長は、学生がなぜ顧問と会うのかをより深く理解したいと考えています。コンサルタントはどの Advisor Link 機能をレポートに含めるべきですか?",
+			"A__c": "成功プランのタイプ",
+			"B__c": " アラートの理由",
+			"C__c": " 予定のトピック",
+			"D__c": " ケースのステータス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=37",
+			"Comment__c": "予約トピックは、学生がアドバイザーと面談する理由をよりよく理解するために、コンサルタントがレポートに含める必要があるアドバイザー リンク機能です。Appointment Topic は、会議の理由または主題を示す Appointment オブジェクトのフィールドです。成功プランのタイプ、アラートの理由、およびケースのステータスは、学生がアドバイザーと面談する理由を示すアドバイザー リンク機能ではありません。参照：https://help.salesforce.com/s/articleView?id=sf.eda_appointment_topic.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.eda_advisor_link_reports.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCTYA2"
+			},
+			"Question__c": "採用および入学部門は、Salesforce を使用して、見込み学生、採用イベント、学生の応募、デジタル エンゲージメント、モバイル デバイスでの見込み学生とのやり取りを追跡したいと考えています。入学希望者は、モバイル デバイスの SMS、ソーシャル メディア、電子メールを介して通信します。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "Salesforce マップ",
+			"B__c": " Einstein ボット",
+			"C__c": " アクティビティのタイムライン",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=35",
+			"Comment__c": "Einstein ボットは、SMS、ソーシャル メディア、電子メールなどのさまざまなチャネルで受験生との会話を自動化できるチャットボットです。情報を提供し、質問に答え、データを収集し、必要に応じて人間のエージェントに会話を引き継ぐことができます。Einstein ボットは、採用および入学部門がモバイル デバイス上でのデジタル エンゲージメントや見込み客とのやり取りを追跡し、学生エクスペリエンスを向上させるのに役立ちます12。Salesforce Maps は、営業チームやサービス チームが担当地域、ルート、スケジュールを最適化するのに役立つロケーション インテリジェンス ソリューションです3。アクティビティ タイムラインは、通話、電子メール、会議、タスクなどの記録に関連するアクティビティを時系列で表示する機能です4。これらの解決策はどちらも、質問で説明されているシナリオとは直接関係ありません。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCWYA2"
+			},
+			"Question__c": "財務部長は、Salesforce で Gift Entry Manager (GEM) で収集した誓約と寄付を機関の財務システムと連携させるソリューションを必要としています。要件を満たすためにコンサルタントはどのソリューションを推奨する必要がありますか?",
+			"A__c": "Bulk API を使用します。",
+			"B__c": " Salesforce Connect を使用します。",
+			"C__c": " 会計補助元帳をインストールします。",
+			"D__c": " アウトバウンド ファンド モジュールをインストールします。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=42",
+			"Comment__c": "Accounting Subledger は、GEM を使用して Salesforce で収集された誓約と寄付を機関の財務システムと調整するためにコンサルタントが推奨できるソリューションです。Accounting Subledger を使用すると、教育機関は Salesforce から会計対応データを作成し、それを財務システムにエクスポートできます。Accounting Subledger は、Salesforce と財務システム間の調整ステータスと不一致を示すレポートとダッシュボードも提供します。Bulk API の使用、Salesforce Connect の使用、および Outbound Fund Module のインストールは、GEM を使用して Salesforce で収集された誓約および寄付を機関の財務システムと調整できるソリューションではありません。参照：https://www.salesforce.org/nonprofit/accounting-subledger/https://www.salesforce.org/wp-content/uploads/2020/08/Accounting-Subledger-Data-Sheet.pdf",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCXYA2"
+			},
+			"Question__c": "私立学校の進学オフィスは、寄付ページを作成し、オンライン寄付を処理し、Salesforce と簡単に統合できる募金ソリューションを探しています。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "経路",
+			"B__c": " Experience Cloud",
+			"C__c": " 昇格",
+			"D__c": " 会計補助元帳",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=43",
+			"Comment__c": "Elevate は、非営利団体や教育機関のオンライン募金、支払い処理、会計照合を支援する製品スイートです。Elevate には、Giving Pages、Payment Services、Accounting Subledger が含まれています。Giving Pages を使用すると、組織は、Web サイトに埋め込んだり、電子メールやソーシャル メディアを通じて共有したりできる、ブランド化されたモバイル対応の寄付フォームを作成できます。支払いサービスにより、オンライン寄付、定期的なギフト、誓約に対する安全かつ柔軟な支払い処理が可能になります。Accounting Subledger は、寄付と支払いを総勘定元帳と照合するプロセスを簡素化し、複数の通貨と税規制をサポートします。参照：Salesforce.org Elevate の概要Salesforce.org Elevate データシートSalesforce Education Cloud コンサルタント資格の準備をする",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCZYA2"
+			},
+			"Question__c": "小学校は、幼稚園から高等学校までの生徒のニーズをサポートするために Student Success Hub を導入します。学校は主に生徒の家族を追跡し、問題について保護者とコミュニケーションをとる必要があります。コンサルタントはどのデフォルトのアカウント モデルを推奨する必要がありますか?",
+			"A__c": "標準アカウント モデル",
+			"B__c": " 家計簿モデル",
+			"C__c": " 管理者アカウント モデル",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=43",
+			"Comment__c": "EDA の家計口座モデルは、世帯ごとに 1 つの口座を作成し、複数の連絡先をその口座に関連付けます。このモデルは、生徒の家族を追跡し、問題について保護者とコミュニケーションをとるのに適しています。家計簿モデルは、世帯の自動命名、住所管理、ロールアップ フィールドなどの機能も提供します。コンサルタントは、Student Success Hub を導入する小学校にこのモデルを推奨する必要があります。参考文献: [Salesforce Education Cloud Academy: コンサルタントの基礎]、[EDA アカウントモデル]",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCaYAM"
+			},
+			"Question__c": "小学校区は非営利サクセス パックを評価しており、現在は幼稚園から高等学校までのアーキテクチャ キットを評価したいと考えています。コンサルタントはどのような行動を取るべきでしょうか?",
+			"A__c": "AppExchange から K-12 アーキテクチャ キットをインストールします。",
+			"B__c": " 新しい K-12 アーキテクチャ キットのトライアルを開始します。",
+			"C__c": " K-12 アーキテクチャ キットのレコード タイプをプロファイルで使用できるようにします。",
+			"D__c": " GitHub から K-12 アーキテクチャ キットをインストールします。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=13",
+			"Comment__c": "コンサルタントは、GitHub から K-12 アーキテクチャ キットをインストールして、学区向けに評価する必要があります。GitHub は、コード リポジトリをホストし、ユーザーがソフトウェア開発プロジェクトで共同作業できるようにするプラットフォームです。K-12 アーキテクチャ キットは、EDA を拡張して K-12 学校のニーズを満たすソリューションです。K-12 アーキテクチャ キットは、成績、出席、プログラム登録などの学生情報を追跡するためのオブジェクトと機能を提供します。K-12 アーキテクチャ キットは AppExchange では入手できませんが、ユーザーがインストールしてカスタマイズできるオープン ソース プロジェクトとして GitHub で入手できます。AppExchange から K-12 アーキテクチャ キットをインストールすること、新しい K-12 アーキテクチャ キットのトライアルを開始すること、または K-12 アーキテクチャ キットのレコード タイプをプロファイルで利用できるようにすることは、コンサルタントが学区向けに評価するために実行できるアクションではありません。参考文献:https://github.com/SalesforceFoundation/k12-architecture-kithttps://powerofus.force.com/s/article/K12-Architecture-Kit",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCcYAM"
+			},
+			"Question__c": "新卒採用担当ディレクターは Education Cloud に興味を持っています。採用担当者は、学生に関する機会およびキャンペーンメンバー情報にアクセスする必要があります。IT ディレクターはコストを懸念しており、採用ユーザーには他のライセンス タイプを使用することを提案しています。コンサルタントはクライアントと何を話し合うべきですか?",
+			"A__c": "Unlimited Edition には、Salesforce の完全ライセンスが必要です。",
+			"B__c": " Education Data Architecture にはコミュニティ ライセンスが必要です。",
+			"C__c": " ビジネス ユーザーのケースでは、Lighting Platform Plus ライセンスが必要です。",
+			"D__c": " ビジネス ユーザーのケースでは、Salesforce のフル ライセンスが必要です。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=36",
+			"Comment__c": "コンサルタントは、ビジネスユーザーのケースでは他の種類のライセンスではなく完全な Salesforce ライセンスが必要であることをクライアントと話し合う必要があります。Salesforce の完全ライセンスにより、ユーザーは取引先、連絡先、商談、キャンペーンなどの標準 CRM 機能にアクセスできます。これは、採用担当者が学生に関する機会およびキャンペーンメンバー情報にアクセスするために必要なものです。Lightning Platform や Community ライセンスなどの他のライセンス タイプでは、CRM 機能へのアクセスが制限されており、ビジネス ユーザーのケースを満たさない可能性があります。参照：https://help.salesforce.com/s/articleView?id=sf.users_license_types_available.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/identity_basics/identity_basics_licenses",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCdYAM"
+			},
+			"Question__c": "推進オフィスは、教育データ アーキテクチャ (EDA) の自動化機能を評価しています。オフィスは、非アクティブなアドレスを特定し、連絡先レコードと同期できる必要があります。コンサルタントはこの要件をどのように満たすべきでしょうか?",
+			"A__c": "統合を通じて連絡先レコードに非アクティブなアドレスを設定します。",
+			"B__c": " 住所レコードの「非アクティブ」チェックボックスを選択します。",
+			"C__c": " 連絡先レコードを更新するカスタム トリガーを開発します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=43",
+			"Comment__c": "Education Data Architecture (EDA) は、Address オブジェクト 1 を使用して連絡先とアカウントの複数のアドレスを追跡および管理する機能を提供します。Address オブジェクトには、アドレスが現在使用されているかどうかを示す「Inactive」というフィールドがあります2。住所レコードの「非アクティブ」チェックボックスを選択すると、コンサルタントはアドレスを非アクティブとしてマークし、連絡先レコードと同期させることができます。連絡先レコードの [郵送先アドレス] フィールドに無効なアドレスが表示され、無効であることを示す取り消し線が表示されます3。統合を通じて連絡先レコードに非アクティブなアドレスを設定することは、EDA アドレス管理機能をバイパスし、連絡先レコードとアドレス レコードの間に不整合が生じるため、推奨される解決策ではありません。EDA には、Address オブジェクトを使用して非アクティブなアドレスを処理する組み込みメカニズムがすでに提供されているため、連絡先レコードを更新するためのカスタム トリガーを開発する必要もありません。参照：1: EDA のアドレスを理解する - Salesforce2: EDA オブジェクトリファレンス - Salesforce3: 住所レコードへの単純な変更を管理する - Salesforce",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCeYAM"
+			},
+			"Question__c": "推進チームは募金活動に Salesforce を使用しています。チームは、キャンペーンの目標を達成できるかどうかを判断するのに役立つツールを必要としています。コンサルタントはどの分析ツールを推奨すべきですか?",
+			"A__c": "Einstein 予測ビルダー",
+			"B__c": " キャンペーンの影響",
+			"C__c": " Tableau Prep コンダクター",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=27",
+			"Comment__c": "コンサルタントは、推進チームがキャンペーン目標を達成できるかどうかを判断するのに役立つツールを作成するために、Einstein 予測ビルダーを推奨する必要があります。Einstein 予測ビルダーを使用すると、寄付者が一定の金額を寄付する可能性や一定レベルのエンゲージメントに達する可能性を予測するなど、Salesforce データに基づいてカスタム予測を作成できます。キャンペーンの影響力は、キャンペーンの目標ではなく、キャンペーンが機会にどのような影響を与えるかを追跡する機能です。Tableau Prep Conductor は、予測ではなくデータ準備フローを自動化してスケジュールするツールです。参照：https://help.salesforce.com/s/articleView?id=sf.bi_einstein_prediction_builder.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.campaigns_influence.htm&amp;type=5https://help.tableau.com/current/prep/en-us/prep_conductor.htm",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCfYAM"
+			},
+			"Question__c": "世界的なパンデミックの後、学区が再開されています。K-12 アーキテクチャ キットを使用して構成された既存の Salesforce 組織があります。学区は、既存の組織で学校向けに Work.com コマンド センターを活用したいと考えています。コンサルタントは何をアドバイスすべきでしょうか?",
+			"A__c": "Work.com コマンド センターは別の組織で動作します。",
+			"B__c": " Work.com Command Center を既存の組織にインストールします。",
+			"C__c": " Student Success Hub を活用します。",
+			"D__c": " AppExchange のサードパーティ アプリを使用します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=26",
+			"Comment__c": "コンサルタントは、学区に対し、既存の組織に Work.com コマンド センターをインストールするようアドバイスする必要があります。そうすることで、既存の組織で学校向けに Work.com コマンド センターを活用できるようになります。Work.com コマンド センターは、世界的なパンデミック後の組織の再開と復旧の取り組みを管理するのに役立つソリューションです。学校向け Work.com コマンド センターは、学校が生徒と職員の健康状態、出席状況、取り組み状況を監視するのに役立つ Work.com コマンド センターの特定の構成です。Work.com Command Center は、AppExchange から管理パッケージとして既存の組織にインストールできます。Work.com Command Center は別の組織で運用されることはなく、Student Success Hub を活用したり、AppExchange のサードパーティ アプリを使用したりする必要もありません。参照：https://www.salesforce.org/workdotcom/https://www.salesforce.org/wp-content/uploads/2020/08/WorkDotCom-for-Schools.pdfhttps://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMkZCUA1",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCgYAM"
+			},
+			"Question__c": "大きな大学には、在学生や卒業生にキャリアに関するアドバイスを提供するキャリア サービス センターがあります。スタッフが電話、メール、対面でアドバイスを提供します。学生と卒業生は先着順で対応され、特定のアドバイザーが割り当てられることはほとんどありません。要件を満たすためにコンサルタントは何を推奨する必要がありますか?",
+			"A__c": "キュー管理",
+			"B__c": " 予約のスケジュール設定",
+			"C__c": " 成功チーム",
+			"D__c": " 割り当てルール",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=8",
+			"Comment__c": null,
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VChYAM"
+			},
+			"Question__c": "大学が Power of Us Hub の Open Source Commons &amp; Community Sprints グループに参加しました。しかし、ニーズを満たす現在または過去のオープンソース コモンズ プロジェクトを見つけることができませんでした。大学が現在のオープンソース プロジェクトを見つけて共同作業できるように、コンサルタントは追加でどの Power of Us Hub グループを推奨できますか?",
+			"A__c": "部門: 高等教育",
+			"B__c": " SFDO メジャー リリースのお知らせ",
+			"C__c": " SFDO オープンソースの貢献者",
+			"D__c": " CumulusCI (CCI)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=6",
+			"Comment__c": "Power of Us Hub の SFDO Open Source Contributors グループは、大学が現在のオープンソース プロジェクトを見つけて共同作業できるように、コンサルタントが推奨できる追加グループです。SFDO Open Source Contributors グループは、Salesforce.org がサポートするオープンソース プロジェクトに貢献したり、オープンソース プロジェクトから学んだりすることに関心のあるユーザを結びつけるグループです。SFDO Open Source Contributors グループは、EDA、NPSP、CumulusCI、Metecho などのさまざまなオープンソース プロジェクトに関連するリソース、イベント、ディスカッション、機会へのアクセスを提供します。Power of Us Hub の「セクター: 高等教育」、「SFDO メジャー リリース発表」、および CumulusCI (CCI) グループは、大学が現在のオープンソース プロジェクトを見つけて共同作業するのを支援できるグループではありません。参照：https://powerofus.force.com/s/group/0F980000000CjQOCA0/sfdo-open-source-contributorshttps://www.salesforce.org/open-source-commons/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCjYAM"
+			},
+			"Question__c": "大学には、プログラムのスタッフ全員がマスコミュニケーションに使用できる電子メール マーケティング ツールが必要です。プログラムのスタッフは、不足している申請項目をリストした電子メールを学生に送信する必要があります。アイテムは Salesforce のカスタム オブジェクトに保存されます。プログラム スタッフは、自分の部門のマーケティング資料、見込み顧客、見込み客、テンプレートのみにアクセスできることが重要です。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "Salesforce 一括メール",
+			"B__c": " 電子メール アラートによるカスタム オートメーション",
+			"C__c": " マーケティング クラウド",
+			"D__c": " デジタル エンゲージメント メッセージング",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=16",
+			"Comment__c": "Marketing Cloud は、すべてのプログラム スタッフがマス コミュニケーションに使用でき、欠落している申請項目をリストした電子メールを学生に送信できる電子メール マーケティング ツールを提供するという要件を満たすためにコンサルタントが推奨できるソリューションです。Marketing Cloud は、ユーザーが顧客や見込み顧客向けにパーソナライズされたターゲットを絞った電子メール キャンペーンを作成および管理できる製品です。Marketing Cloud は Salesforce とも統合されているため、ユーザーは CRM データを活用してメール メッセージをセグメント化し、カスタマイズできます。Marketing Cloud は、データ、コンテンツ、購読者、レポート、各プログラム スタッフの設定へのアクセスを制御するのに役立つビジネス ユニットやロールなどの機能も提供します。Salesforce マスメール、電子メールアラートによるカスタム自動化、およびデジタルエンゲージメントメッセージングは​​、すべてのプログラムスタッフがマスコミュニケーションに使用でき、欠落しているアプリケーション項目をリストした電子メールを送信できる電子メールマーケティングツールを提供するという要件を満たすソリューションではありません。学生。参照：https://www.salesforce.com/products/marketing-cloud/overview/https://trailhead.salesforce.com/en/content/learn/modules/marketing-cloud-basics",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCkYAM"
+			},
+			"Question__c": "大学には留学オフィスがあり、ビザ、パスポート、予防接種、その他の情報などの学生の書類を収集する必要があります。大学はスプレッドシートを使用してこの情報を管理しており、Salesforce で追跡したいと考えています。この要件を満たすためにコンサルタントはどの EDA オブジェクトを使用する必要がありますか?",
+			"A__c": "プログラム計画",
+			"B__c": " 成功チーム",
+			"C__c": " 属性",
+			"D__c": " 所属",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=34",
+			"Comment__c": "属性は、ビザ、パスポート、予防接種、その他の情報などの学生の文書を追跡するという要件を満たすためにコンサルタントが使用する EDA オブジェクトです。属性は、他の EDA オブジェクトでは取得されない、学生または申請者に関する追加情報を格納するオブジェクトです。属性を使用すると、テストのスコア、言語、趣味、資格、文書など、さまざまな種類の情報を追跡できます。プログラム計画、成功チーム、および所属は、学生の文書を保存できる EDA オブジェクトではありません。参考文献:https://powerofus.force.com/s/article/EDA-Attributeshttps://powerofus.force.com/s/article/EDA-Data-Dictionary",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VClYAM"
+			},
+			"Question__c": "大学の IT 部門とそのコンサルタントは、学生情報システム (SIS) から教育データ アーキテクチャ (EDA) にデータを統合しています。アドバイザーは生徒の主な学習コースを確認する必要があります。EDA 内のどのオブジェクトが学生の専攻を示していますか?",
+			"A__c": "学歴",
+			"B__c": " 関係",
+			"C__c": " プログラム プランの要件",
+			"D__c": " プログラムの登録",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=2",
+			"Comment__c": "<p>プログラム登録は、学生の主な学習コースまたは専攻を示す EDA のオブジェクトです。プログラム登録は、連絡先とプログラム プランの間の接点を表すオブジェクトです。プログラム登録は、ステータス、開始日、終了日、レベルなど、学生の学習コースに関するさまざまな情報を追跡するために使用できます。コンサルタントは、各学生のプログラム登録記録を作成し、それを主な学習コースまたは専攻に関連付けることができます。学歴、関係、およびプログラム計画の要件は、学生の主な学習コースまたは専攻を示す EDA のオブジェクトではありません。参照：https://powerofus.force.com/s/article/EDA-Program-Enrollmentshttps://powerofus.force.com/s/article/EDA-Program-Enrollments-Create</p><p><br></p><p><br></p><p>affiliationとprogram enrollmentがつながっているので、affiliationからも学歴が追跡できる</p><p>program enrollmentとaffiliationのどちらでも追跡ができる</p><p>​https://sfdo-docs.s3.us-west-2.amazonaws.com/EDA_ERD.pdf</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCmYAM"
+			},
+			"Question__c": "大学の IT 部門とそのコンサルタントは、学生情報システム (SIS) から教育データ アーキテクチャ (EDA) にデータを統合しています。アドバイザーは生徒の主な学習コースを確認する必要があります。EDA 内のどのオブジェクトが学生の専攻を示していますか?",
+			"A__c": "学歴",
+			"B__c": " 関係",
+			"C__c": " プログラム プランの要件",
+			"D__c": " 所属",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=33",
+			"Comment__c": "<p>所属は、学生の専攻または主な学習コースを示す EDA のオブジェクトです。所属は、連絡先と取引先または別の連絡先との間の関係を表すオブジェクトです。所属を使用すると、学生、教職員、卒業生、寄付者、顧問など、さまざまな種類の関係を追跡できます。コンサルタントは、各学生の所属レコードを作成し、それを専攻または主な学習コースに関連付けることができます。学歴、関係、およびプログラム計画の要件は、学生の専攻または主な学習コースを示す EDA のオブジェクトではありません。参考文献:https://powerofus.force.com/s/article/EDA-Affiliationshttps://powerofus.force.com/s/article/EDA-Affiliations-Mappings</p><p>​</p><p>affiliationとprogram enrollmentがつながっているので、affiliationからも学歴が追跡できる</p><p>program enrollmentとaffiliationのどちらでも追跡ができる</p><p>​https://sfdo-docs.s3.us-west-2.amazonaws.com/EDA_ERD.pdf</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCnYAM"
+			},
+			"Question__c": "大学の IT 部門は、コンサルタントに Salesforce 統合戦略の構築を依頼しました。コンサルタントは統合に関するどの考慮事項について概要を説明する必要がありますか?",
+			"A__c": "データ要素",
+			"B__c": " Salesforce ライセンスの種類",
+			"C__c": " サンドボックス環境",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=8",
+			"Comment__c": "コンサルタントは、大学の IT 部門向けに Salesforce 統合戦略を構築する際に、統合の考慮事項としてデータ要素の概要を説明する必要があります。データ要素は、システム間で交換されるデータのタイプ、形式、品質、または量を指す統合の考慮事項です。コンサルタントは、大学の IT 部門向けに Salesforce 統合戦略を構築する際に、どのデータを統合する必要があるか、どのように変換またはマッピングするか、どのように検証またはクレンジングするか、またはどのように行うかを特定することにより、統合の考慮事項としてデータ要素の概要を説明する必要があります。それは保存またはアーカイブされます。Salesforce ライセンスの種類、サンドボックス環境、またはセキュリティ モデルは、コンサルタントが大学の IT 部門向けに Salesforce 統合戦略を構築する際に概説すべき統合の考慮事項ではありません。参考文献:https://trailhead.salesforce.com/en/content/learn/modules/api_basics/api_basics_datahttps://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdf",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCoYAM"
+			},
+			"Question__c": "大学の IT 部門は、システムの開発と拡張にバージョン管理ベースのプロセスを使用しています。この部門は、コンサルタントが設定した新機能を専用の短期間の Salesforce 環境でテストしたいと考えています。要件を満たすためにコンサルタントは何を使用する必要がありますか?",
+			"A__c": "スクラッチ組織",
+			"B__c": " Developer Edition 組織",
+			"C__c": " 完全なサンドボックス",
+			"D__c": " 部分コピーサンドボックス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=21",
+			"Comment__c": "スクラッチ組織は、コンサルタントがバージョン管理ベースのプロセスで設定した新機能をテストするために使用できる専用の短期 Salesforce 環境です。スクラッチ組織は、Salesforce コードとメタデータのソース主導型の使い捨てデプロイメントです。スクラッチ組織は完全に設定可能なため、コンサルタントはさまざまな Salesforce エディションや機能をエミュレートできます。Developer Edition 組織、完全な Sandbox、および部分コピー Sandbox は、バージョン管理ベースのプロセスで使用できる専用の短期的な Salesforce 環境ではありません。参考文献:https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htmhttps://trailhead.salesforce.com/en/content/learn/modules/scratch-orgs",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCpYAM"
+			},
+			"Question__c": "大学の IT 部門は、学生採用のためのオープンソース ソリューションを評価しています。コンサルタントはどの点を考慮して部門と話し合う必要がありますか?",
+			"A__c": "コードは Salesforce リリースを通じて更新されます。",
+			"B__c": " コードは Salesforce 開発者によって保守されています。",
+			"C__c": " コードはコミュニティによって共有され、ソースされます。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=25",
+			"Comment__c": "コンサルタントが IT 部門と話し合う必要がある考慮事項は C です。コードはコミュニティによって共有され、ソースされます1。これは、学生募集のためのオープンソース ソリューションが、協力してアイデア、フィードバック、コードを交換するボランティア、貢献者、ユーザーのネットワークによって開発および維持されることを意味します。コードは公開されており、ライセンス条項および条件に従う人なら誰でも変更、カスタマイズ、再配布できます2。A: コードは Salesforce リリースによって更新され、B. コードは Salesforce 開発者によって保守されますが、これは学生募集のためのオープンソース ソリューションの有効な考慮事項ではありません。これらの記述は、Education Data Architecture (EDA) や Higher Education Data Platform (HEDA)3 など、Salesforce によって構築およびサポートされる Salesforce 製品および機能に適用されます。ただし、オープンソース ソリューションは Salesforce プラットフォームの一部ではなく、Salesforce リリースや開発者に依存しません。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCqYAM"
+			},
+			"Question__c": "大学の IT 部門は、学生情報システム (SIS) と教育データ アーキテクチャ (EDA) の間の統合をセットアップしています。SIS の統合により、学生の専攻、ステータス、日付が送信されます。これをどの Salesforce オブジェクトにマッピングする必要がありますか?",
+			"A__c": "コース接続",
+			"B__c": " 学歴",
+			"C__c": " プログラムへの登録",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=6",
+			"Comment__c": "EDA のプログラム登録オブジェクトは、登録日、ステータス、獲得単位、GPA1 などの情報を含む、学術プログラムまたは学習コースへの学生の登録を追跡するために使用されます。コース接続オブジェクトは、役割、成績、出席状況などの情報を含む、特定のコースへの学生の登録を追跡するために使用されます2。Education History オブジェクトは、出席した学校、取得した学位、テストのスコアなど、学生の以前の教育記録を追跡するために使用されます3。参考文献:1: 教育データアーキテクチャのドキュメント - Salesforce12: EDA オブジェクトリファレンス - Salesforce43: EDA オブジェクトリファレンス - Salesforce4",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCrYAM"
+			},
+			"Question__c": "大学の Salesforce 実装を監督する CRM 運営委員会は、ガバナンスのベスト プラクティスに関するガイダンスを必要としています。コンサルタントはどのベスト プラクティスを推奨する必要がありますか?",
+			"A__c": "部門リーダーのみをチャンピオンとして割り当てます。",
+			"B__c": " 委員会のメンバーに、ローカルの Salesforce グループに参加するよう依頼します。",
+			"C__c": " 常任委員会会議を開催します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=3",
+			"Comment__c": "コンサルタントは、大学の Salesforce 実装を監督する CRM 運営委員会のガバナンスのベスト プラクティスとして常設委員会会議を開催することを推奨する必要があります。常任委員会会議は、固定の議題と出席者のもとで定期的かつ一貫して開催される会議です。常設委員会会議は、進捗状況を確認し、問題について議論し、決定を下し、最新情報を伝達するためのフォーラムを提供することで、CRM 運営委員会が大学の Salesforce 実装を監督するのに役立ちます。部門のリーダーのみをチャンピオンとして割り当てること、委員会のメンバーにローカルの Salesforce グループへの参加を依頼すること、または変更管理計画を作成することは、大学の Salesforce 実装を監督する CRM 運営委員会に対してコンサルタントが推奨すべきガバナンスのベスト プラクティスではありません。参照：https://www.salesforce.org/wp-content/uploads/2019/03/Education_Cloud_COE_Guide.pdfhttps://trailhead.salesforce.com/en/content/learn/modules/org-change-management",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCtYAM"
+			},
+			"Question__c": "大学のキャリア センターは Student Success Hub の使用を計画しており、学生データをインポートする準備をしています。データはどの順序でインポートする必要がありますか?",
+			"A__c": "コース、コースの提供、プログラム計画、および所属の記録",
+			"B__c": " アカウント、期間、コース、およびコース提供の記録",
+			"C__c": " アカウント、期間、プログラム登録、およびコース記録",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=35",
+			"Comment__c": "<p>Student Success Hub の使用を計画し、学生データのインポートを準備しているキャリア センターのデータは、アカウント、期間、プログラム登録、およびコース記録の順序でインポートする必要があります。データのインポート順序は、Salesforce 内でデータの一貫性と正確性を確保し、オブジェクト間の関係を維持するために重要です。これらのオブジェクトには相互に依存関係または参照があるため、データはアカウント、期間、プログラム登録、コース レコードの順序でインポートする必要があります。</p><p><br></p><p>たとえば、プログラム登録レコードにはアカウント レコードと期間レコードへのルックアップがあり、コース レコードには期間レコードへのルックアップがあります。</p><p>この順序でデータをインポートすると、エラーやデータの欠落を回避できます。</p><p><br></p><p><br></p><p>コース、コース提供、プログラム プラン、および所属レコード、</p><p>またはアカウント、期間、コース、およびコース提供レコードは、</p><p>Student Success Hub の使用を計画し、学生データのインポートを準備しているキャリア センターにとって、データ インポートの正しい順序ではありません。参照：https://powerofus.force.com/s/article/EDA-Data-Importhttps://powerofus.force.com/s/article/EDA-Program-Enrollments</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCvYAM"
+			},
+			"Question__c": "大学のマーケティング部門は、年に 2 回、元学生に今後の募金イベントについて通知するメールを送信します。同部門は受信した返送メールの数を懸念している。元学生がメール アドレスを更新できるようにするために、マーケティング チームはどのソリューションを検討すべきですか?",
+			"A__c": "ソーシャル スタジオ",
+			"B__c": " エクスペリエンスクラウド",
+			"C__c": " Salesforce エンゲージメント",
+			"D__c": " Salesforce 受信箱",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=32",
+			"Comment__c": "Experience Cloud は、元学生がメール アドレスを更新できるようにするために、マーケティング チームが検討できるソリューションです。Experience Cloud を使用すると、大学はブランド化されたオンライン コミュニティを作成し、元学生がログインしてプロフィール情報を表示および編集し、他の卒業生と交流できるようになります。Experience Cloud は Salesforce とも統合されているため、コミュニティ内の元生徒が行った変更は連絡先レコードに反映されます。Social Studio、Salesforce Engage、および Salesforce Inbox は、元学生がメールアドレスを更新できるソリューションではありません。参考文献:https://www.salesforce.com/products/ experience-cloud/overview/https://trailhead.salesforce.com/en/content/learn/modules/community_rollout_impl/community_rollout_im",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCwYAM"
+			},
+			"Question__c": "大学の開発オフィスは、電子メール キャンペーンのエンゲージメントが低い有権者にソーシャル メディア広告を提示したいと考えています。この部門では、キャンペーン管理に Marketing Cloud Corporate Edition を使用しています。コンサルタントはどの Marketing Cloud 製品を推奨すべきですか?",
+			"A__c": "広告スタジオ",
+			"B__c": " ソーシャル スタジオ",
+			"C__c": " インタラクション スタジオ",
+			"D__c": " 電子メール スタジオ",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=10",
+			"Comment__c": "Advertising Studio は、電子メール キャンペーンへの関与が低い有権者にソーシャル メディア広告を提示するために、コンサルタントが推奨できる Marketing Cloud 製品です。Advertising Studio は、ユーザーが Facebook、Instagram、Twitter、LinkedIn などのさまざまなソーシャル メディア プラットフォームで広告キャンペーンを作成および管理できるようにする製品です。Advertising Studio は Marketing Cloud Corporate Edition とも統合されているため、ユーザーはメール購読者データを活用して、関連性の高い広告で対象ユーザーをターゲティングしたり再ターゲティングしたりできます。Social Studio、Interaction Studio、および Email Studio は、Advancement オフィスが電子メール キャンペーンへの関与が低い有権者にソーシャル メディア広告を提示するのに役立つ Marketing Cloud 製品ではありません。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCxYAM"
+			},
+			"Question__c": "大学の学部長は、夏季の工学系インターンシップに学生を紹介したいと考えており、土木工学入門クラスで最終高得点を獲得した人のリストを要求しています。コンサルタントはどのオブジェクトをレポートに含めるべきですか?",
+			"A__c": "連絡先によるプログラム登録",
+			"B__c": " 連絡先のある学期の成績",
+			"C__c": " アカウントを含む学歴",
+			"D__c": " 学術プログラムとのコースの接続",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=11",
+			"Comment__c": "連絡先付きの学期成績は、土木工学入門クラスで高い最終スコアを獲得した人を示すために、コンサルタントがレポートに含める必要があるオブジェクトです。Term Grades は、特定の学期に提供されるコースに対して学生が受け取った成績を保存するオブジェクトです。連絡先は、学生の個人情報を保存するオブジェクトです。連絡先によるプログラム登録、アカウントによる教育履歴、学術プログラムによるコース接続は、EDA のクラスの最終スコアを表示できるオブジェクトではありません。参照：https://powerofus.force.com/s/article/EDA-Data-Dictionaryhttps://help.salesforce.com/s/articleView?id=sf.reports_builder_create.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCyYAM"
+			},
+			"Question__c": "大学の財政援助部門は Student Success Hub を使用しています。学生は、財政援助アドバイザーとの約束をスケジュールできる必要があります。この要件を満たすために、コンサルタントは Student Success Hub でどのオブジェクトを設定する必要がありますか?",
+			"A__c": "プールへのアドバイス",
+			"B__c": " パブリック グループ",
+			"C__c": " EDA 関係",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=4",
+			"Comment__c": "コンサルタントは、Student Success Hub を使用する財政援助部門の財政援助アドバイザーとの予約を学生に許可するという要件を満たすように、Student Success Hub のアドバイス プール オブジェクトを構成する必要があります。Advising Pools オブジェクトは Student Success Hub のオブジェクトで、ユーザーが共通の可用性、場所、またはサービスを共有するアドバイザーのグループを作成できるようにします。アドバイスプールオブジェクトは、財政援助アドバイザーのアドバイスプールレコードを作成し、それを財政援助アドバイスのサービスレコードに関連付けることにより、財政援助部門が学生に財政援助アドバイザーとの約束をスケジュールできるようにするという要件を満たすのに役立ちます。コンサルタントは、アドバイジング プール レコードの可用性、場所、容量などの他の設定を構成することもできます。パブリック グループ、EDA 関係、またはプログラム プランは、Student Success Hub を使用する財政援助部門の財政援助アドバイザーとの予約を学生に許可するという要件を満たすために、コンサルタントが Student Success Hub で設定する必要があるオブジェクトではありません。参照：https://www.salesforce.org/products/student-success-hub/overview/https://powerofus.force.com/s/article/SSHub-Advising-Pools",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VCzYAM"
+			},
+			"Question__c": "大学の進学促進部門は、タグ付けされたアウトリーチと寄付の機会について学校の過去のデータを追跡したいと考えています。コンサルタントはどの教育データ アーキテクチャ機能を推奨する必要がありますか?",
+			"A__c": "学歴",
+			"B__c": " プログラム計画",
+			"C__c": " 属性",
+			"D__c": " 関係",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=6",
+			"Comment__c": "<p>教育履歴は、タグ付けされたアウトリーチや寄付の機会に関する学校履歴データを追跡するためにコンサルタントが推奨できる EDA 機能です。教育履歴は、コンサルタントが教育機関での連絡先の以前または現在の教育に関する情報を保存できる機能です。教育履歴を使用すると、学校名、学位、専攻、副専攻、学年、スポーツ チームなど、さまざまな種類の情報を追跡できます。コンサルタントは教育履歴を使用して、学校履歴データに基づいて卒業生をセグメント化し、ターゲットを絞ることができます。プログラム計画、属性、関係は、タグ付けされたアウトリーチや寄付の機会について学校の履歴データを追跡できる EDA 機能ではありません。参考文献:https://powerofus.force.com/s/article/EDA-Education-Historyhttps://powerofus.force.com/s/article/EDA-Education-History-Create</p><p><br></p><p>タグ付けされたアウトリーチの意味</p><p>アウトリーチはプッシュの意味、必要な人に必要な情報やモノや何かをプッシュすること</p><p>反対語はプル</p><p>一言で言えば、見込み客を探したい</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD0YAM"
+			},
+			"Question__c": "大学の推進オフィスは、卒業生、寄付者、支援者を管理するために教育データ アーキテクチャを実装することを計画しています。大学は、職員が連絡先レコードを作成したときに家族レコードが自動的に作成されるシステムのデフォルトを設定したいと考えています。コンサルタントはどのデフォルト アカウント モデルを推奨する必要がありますか?",
+			"A__c": "世帯",
+			"B__c": " 管理者",
+			"C__c": " 教育機関",
+			"D__c": " 人",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=14",
+			"Comment__c": "コンサルタントは、卒業生、寄付者、支援者を管理するために EDA の導入を計画している大学のアドバンスト オフィスのデフォルト アカウント モデルとして世帯を推奨する必要があります。世帯は、配偶者や兄弟など、家族または世帯関係によって関連する個人に関する情報をユーザーが保存できるアカウント モデルです。世帯を使用すると、名前、電子メール、電話番号、住所、世帯収入の合計など、個人または家族単位に関するさまざまな情報を追跡できます。コンサルタントは、大学が EDA 設定で世帯をデフォルトのアカウント モデルとして設定し、スタッフ メンバーが連絡先レコードを作成したときに家族レコードが自動的に作成されるように支援できます。行政機関、教育機関、および個人は、スタッフ メンバーが連絡先レコードを作成するときに家族レコードを自動的に作成するシステムのデフォルトを設定する要件を満たすことができるアカウント モデルではありません。参考文献:https://powerofus.force.com/s/article/EDA-Accountshttps://powerofus.force.com/s/article/EDA-Settings",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD2YAM"
+			},
+			"Question__c": "大学の同窓会事務局は、従来のシステムを Salesforce に置き換えています。コンサルタントは、大量の卒業生の連絡先レコードを新しい Salesforce 環境にロードする必要があります。コンサルタントはどのような行動を取るべきでしょうか?",
+			"A__c": "データをロードする前に、アカウントと連絡先の共有をパブリック読み取り/書き込みに設定します。",
+			"B__c": " データをロードする前に、アカウントと連絡先の共有をプライベートに設定します。",
+			"C__c": " 取引先および連絡先のデータのロードが完了した後に、レコード所有者をロードします。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=6",
+			"Comment__c": "大量の同窓会取引先責​​任者レコードを新しい Salesforce 環境にロードするときにコンサルタントが実行する必要があるアクションは B です。データをロードする前に、取引先と取引先責任者の共有を非公開に設定します1。これは、共有をプライベートに設定すると、プロセス中に Salesforce が実行する必要がある共有の計算と再計算の数が減り、データ読み込みのパフォーマンスと速度が向上するためです。共有をプライベートに設定すると、データのロードが完了して検証されるまで、他のユーザーによる不正アクセスやデータの閲覧を防ぐこともできます2。A) データのロード前に取引先と取引先責任者の共有をパブリック読み取り/書き込みに設定すること、および C. 取引先と取引先責任者のデータのロードが完了した後にレコード所有者をロードすることは、このシナリオでは有効なアクションではありません。共有をパブリック読み取り/書き込みに設定すると、プロセス中に Salesforce が実行する必要がある共有計算と再計算の数が増加するため、データ読み込みのパフォーマンスと速度が低下する可能性があります。共有をパブリック読み取り/書き込みに設定すると、データを表示または編集するための適切な権限や役割を持たない他のユーザーにもデータが公開される可能性があります2。レコード所有者は取引先オブジェクトと取引先責任者オブジェクトの必須フィールドであるため、取引先企業と取引先責任者のデータのロードが完了した後にレコード所有者をロードすると、データにエラーや不整合が発生する可能性があります。データのロード後にレコード所有者をロードすると、不必要なワークフローや検証がトリガーされ、データの品質と整合性に影響を与える可能性があります3。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD3YAM"
+			},
+			"Question__c": "大学の留学オフィスは、内部プロセスを合理化するために Salesforce を導入する準備を進めています。以前は、ほとんどの作業はスプレッドシートと紙を使用して行われていました。事務局は、導入プロジェクトが成功したかどうかを判断するためにどの指標を使用すればよいかわかりません。コンサルタントはどの指標を推奨する必要がありますか?",
+			"A__c": "学生の電話問い合わせ数",
+			"B__c": " 毎月のスタッフのログインの割合",
+			"C__c": " オフィスへの電子メールの量",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=24",
+			"Comment__c": "毎月のスタッフのログイン率は、Study Abroad オフィスの Salesforce 導入プロジェクトの成功を測定するためにコンサルタントが推奨できる指標です。この指標は、ユーザーの採用、満足度、新しいシステムへの関与のレベル、およびトレーニングと変更管理戦略の有効性を示すことができます。毎月のスタッフのログイン率が高いということは、スタッフが Salesforce を定期的かつ継続的に使用して、学生の申し込みの管理、プログラムのステータスの追跡、パートナーとのコミュニケーションなどの内部プロセスを合理化していることを示しています2。学生からの電話による問い合わせの数とオフィスへの電子メールの量は、Study Abroad オフィスの内部プロセスに対する Salesforce 実装の影響を反映していないため、このシナリオでは有効な指標ではありません。これらの指標は、留学プログラムの需要、ウェブサイトやマーケティング資料の品質、スタッフの対応状況や対応力など、他の要因によって影響を受ける可能性があります。これらの指標は、Salesforce が提供できるデータとワークフローの効率と正確さを捉えていない可能性もあります。",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD4YAM"
+			},
+			"Question__c": "大学は Advisor Link を導入しており、学生情報システム (SIS) との統合をテストし、アドバイザーにトレーニング スペースを提供する必要があります。大学は、アドバイザーのトレーニングのために本番組織のデータの一部にアクセスする必要があります。このユースケースに適合する 2 種類のサンドボックスはどれですか?2 つの答えを選択してください",
+			"A__c": "開発者サンドボックス",
+			"B__c": " デベロッパー プロ サンドボックス",
+			"C__c": " 完全なサンドボックス",
+			"D__c": " 部分的なサンドボックス",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=7",
+			"Comment__c": "フル サンドボックスと部分サンドボックスは、Advisor Link を実装し、SIS との統合をテストし、アドバイザーにトレーニング スペースを提供する必要がある大学のこの使用例に適合する 2 種類のサンドボックスです。サンドボックスは、ユーザーが実際のデータや操作に影響を与えることなく開発、テスト、トレーニングできるようにする実稼働環境のコピーです。フル サンドボックスは、運用環境からすべてのデータとメタデータをコピーするサンドボックスの一種です。部分サンドボックスは、指定された基準に基づいて運用環境からすべてのメタデータとデータのサンプルをコピーするサンドボックスのタイプです。大学は完全サンドボックスまたは部分サンドボックスを使用して SIS との統合をテストし、本番組織のデータの一部にアクセスできるアドバイザー向けのトレーニング スペースを提供できます。Developer Sandbox と Developer Pro Sandbox は、Advisor Link を実装し、SIS との統合をテストし、アドバイザーにトレーニング スペースを提供する必要がある大学のこのユースケースを満たすサンドボックスのタイプではありません。参照：https://help.salesforce.com/s/articleView?id=sf.data_sandbox.htm&amp;type=5https://www.salesforce.org/products/advisor-link/overview/",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD5YAM"
+			},
+			"Question__c": "大学は、Education Data Architecture (EDA) を使用する既存の Salesforce 環境の機能を拡張する必要があります。大学は、将来のアプリと構成に互換性があり、テーブル駆動トリガー管理 (TDTM) 機能をサポートしていることを確認したいと考えています。",
+			"A__c": "EDA 対応のサードパーティ アプリを使用します。",
+			"B__c": " Salesforce.org コミュニティ ソリューションを使用します。",
+			"C__c": " Salesforce.org GitHub の yaml ファイルを使用します。",
+			"D__c": " EDA を利用したサードパーティ アプリを使用します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=43",
+			"Comment__c": "<p>最適な選択肢は **(A): EDA 対応のサードパーティ アプリを使用します** です。</p><p><br></p><p>理由: EDA 対応のサードパーティアプリを使用することで、Education Data Architecture (EDA) 環境において将来のアプリや構成と互換性を持たせることができます。これらのアプリは、Salesforceのベストプラクティスに基づいて開発されており、EDAのデータモデルやテーブル駆動トリガー管理 (TDTM) 機能と互換性があるように設計されています。したがって、大学が既存のSalesforce環境を拡張する際に、これらのサードパーティアプリを使用することが最適です。</p><p><br></p><p>他の選択肢については以下の通りです：</p><p>- **Salesforce.org コミュニティ ソリューション (B)**: これはコミュニティベースのソリューションですが、特にEDA対応の要件を満たす保証がありません。</p><p>- **Salesforce.org GitHub の yaml ファイル (C)**: これは設定ファイルであり、アプリ自体ではありません。EDAの機能をサポートするものとしては不十分です。</p><p>- **EDA を利用したサードパーティ アプリ (D)**: これは混乱を招く表現ですが、正確には &quot;EDA 対応のサードパーティ アプリ (A)&quot; と同義と考えられます。</p><p><br></p><p>したがって、最適な選択肢は **(A): EDA 対応のサードパーティ アプリを使用します** です。何か他に質問があれば教えてくださいね。</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD6YAM"
+			},
+			"Question__c": "大学は、登録日、ステータス、取得した単位に関する情報など、学術プログラムまたは学習コースへの学生の登録に関する詳細を追跡する必要があります。教育データ アーキテクチャ (EDA) 内のどのオブジェクトに、この種の学術データの概要が含まれていますか?",
+			"A__c": "コースの提供",
+			"B__c": " プログラムの登録",
+			"C__c": " プログラム計画",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=12",
+			"Comment__c": "EDA のプログラム登録オブジェクトには、登録日、ステータス、獲得単位、GPA1 など、学術プログラムまたは学習コースへの学生の登録に関する概要の学術データが含まれています。コース提供オブジェクトは、学期または学期中に提供されるコースの特定のインスタンスを表します2。プログラム プラン オブジェクトは、学術プログラムまたは学習コースの要件と構造を定義します3。参考文献:1: 教育データアーキテクチャのドキュメント - Salesforce12: EDA オブジェクトリファレンス - Salesforce43: EDA オブジェクトリファレンス - Salesforce4",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD7YAM"
+			},
+			"Question__c": "大学は教育データ アーキテクチャ (EDA) を使用して、入学予定の学生と在学生を管理します。学生の連絡先メールアドレスのフィールドとレコードは、外部システムとの統合を通じて Salesforce に入力されます。コンサルタントは何を勧めるべきですか?",
+			"A__c": "アドレス関連のトリガー ハンドラー レコードを無効にします。",
+			"B__c": " すべての EDA およびカスタム トリガー ハンドラー レコードを無効にします。",
+			"C__c": " 取引先レコード タイプに基づいてレコード レベルのトリガーの起動を設定します。",
+			"D__c": " デフォルトのアカウント モデルを管理者に設定します。",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=41",
+			"Comment__c": "コンサルタントは、EDA を使用して入学予定者と在学生を管理し、外部システムとの統合を通じて Salesforce に学生の連絡先メールアドレスのフィールドとレコードを入力している大学に対して、住所関連のトリガーハンドラレコードを無効にすることを推奨する必要があります。トリガー ハンドラー レコードは、EDA トリガーの動作を制御するレコードであり、必要に応じて無効または有効にすることができます。住所関連のトリガーハンドラーレコードを無効にすると、外部システムとの統合を通じて学生の連絡先住所のフィールドとレコードが Salesforce に入力されるときに、重複または競合する住所レコードが EDA によって作成または更新されるのを防ぐことができます。すべての EDA およびカスタム トリガー ハンドラー レコードを無効にすること、アカウント レコード タイプに基づいてレコード レベルのトリガー起動を設定すること、またはデフォルトのアカウント モデルを管理者に設定することは、EDA を使用して将来の学生と在学生を管理し、学生を管理している大学には推奨されません。外部システムとの統合を通じて、Salesforce に入力される連絡先のメールアドレスのフィールドとレコード。参考文献:https://powerofus.force.com/s/article/EDA-TDTMhttps://powerofus.force.com/s/article/EDA-Addresses",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD8YAM"
+			},
+			"Question__c": "大学は継続教育プログラムを通じてビジネス専門家と協力しています。企業の採用担当者は雇用主と協力してこれらのプログラムを後援します。採用担当者はスポンサーシップ リクエストの進行状況を追跡するためにどのオブジェクトを使用する必要がありますか?",
+			"A__c": "キャンペーン",
+			"B__c": "<p> チャンス(<span style=\"background-color: rgb(255, 255, 255);\">Opportunity)</span></p>",
+			"C__c": " プログラム計画",
+			"D__c": " 所属",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=39",
+			"Comment__c": "<p>Opportunity は、採用担当者がスポンサーシップ リクエストの進捗状況を追跡するために使用するオブジェクトです。Opportunity は、寄付、助成金、スポンサーシップなど、組織の潜在的な販売源または収入源を表すオブジェクトです。Opportunity を使用すると、金額、ステージ、確率、締切日など、スポンサーシップ リクエストに関するさまざまな情報を追跡できます。キャンペーン、プログラム プラン、および所属は、採用担当者がスポンサーシップ リクエストの進捗状況を追跡するために使用すべきオブジェクトではありません。参照：https://help.salesforce.com/s/articleView?id=sf.opportunity_overview.htm&amp;type=5https://trailhead.salesforce.com/en/content/learn/modules/nonprofit_fundraise/nonprofit_fundraise_opportunities</p><p><br></p><p>アカウントでプログラムが作れる、これと商談を紐づけ、進捗を管理する</p><p>の方がスッキリする</p>",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VD9YAM"
+			},
+			"Question__c": "大学は採用および入学プロセスに Salesforce を使用しており、それを学生情報システム (SIS) と統合する必要があります。コンサルタントは最初にどのステップをとるべきですか?",
+			"A__c": "統合レイヤーを識別します。",
+			"B__c": " トリガー ハンドラー レコードを無効にします。",
+			"C__c": " データ インポート ウィザードを使用します。",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=32",
+			"Comment__c": "Salesforce と Student Information System (SIS) を統合するときにコンサルタントが実行する必要がある最初のステップは、統合レイヤーを特定することです。統合レイヤーとは、データモデル、データ形式、データ形式など、システム間でデータを交換する方法を定義するコンポーネントです。データ転送とデータセキュリティ。これは、コンサルタントが統合プロジェクトの範囲と複雑さを理解し、適切なツールと方法を選択するのに役立ちます。トリガー ハンドラー レコードの無効化とデータ インポート ウィザードの使用は、最初ではなく、プロジェクトの実行またはテスト段階の後半で実行できる手順です。参照：https://trailhead.salesforce.com/en/content/learn/modules/education-cloud-basics/education-cloud-integrationshttps://help.salesforce.com/s/articleView?id=sf.data_loader_disable_triggers_workflow.htm&amp;type=5https://help.salesforce.com/s/articleView?id=sf.data_importer.htm&amp;type=5",
+			"Type__c": "New"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01IS0000080VDAYA2"
+			},
+			"Question__c": "大学投資サービス (UIS) は、金融投資を通じて大学の寄付金を管理する内部部門です。大学とは独立して運営されており、投資会社や金融機関とのみ協力しています。UIS は、投資会社、その会社 Contacts を追跡する CRM に興味を持っています。リード、機会、アクティビティ。コンサルタントはどのソリューションを推奨すべきでしょうか?",
+			"A__c": "Sales Cloud",
+			"B__c": " 教育データ アーキテクチャ",
+			"C__c": " 金融サービス クラウド",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.jpnpdf.com/Salesforce.Education-Cloud-Consultant.v2024-06-13.q209-mondaishu.html?p=31",
+			"Comment__c": "Financial Services Cloud は、資産管理、銀行業務、保険などの金融サービス業界向けに設計された Salesforce ソリューションです1。Financial Services Cloud は、UIS のニーズに合わせた次のような機能を提供します。投資会社とその連絡先を金融口座および口座メンバーとして追跡する2.標準の Salesforce オブジェクトとツールを使用したリード、商談、アクティビティの管理3.Einstein A.を活用して投資機会に関する洞察と推奨事項を明らかにする4.事前構築されたコネクタとアクセラレータを使用したコア金融システムとデータ ソースとの統合5.Sales Cloud は汎用 CRM ソリューションであり、金融​​サービス業界に特有の機能は備えていません6。Education Data Architecture (EDA) は、K-12 および高等教育機関を含む教育部門向けに設計された Salesforce ソリューションです7。EDA には、金融サービス業界に特化した機能もありません。参考文献:1: Financial Services Cloud の概要 - Salesforce82: 金融サービス クラウド データ モデル - Salesforce3: Financial Services Cloud ユーザーガイド - Salesforce4: Financial Services Cloud 用 Einstein - Salesforce5: Financial Services Cloud 統合ガイド - Salesforce6: Sales Cloud の概要 - Salesforce7: 教育データアーキテクチャの概要 - Salesforce",
+			"Type__c": "New"
+		}
+	]
+}

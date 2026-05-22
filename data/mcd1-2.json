@@ -1,0 +1,820 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzywIAD"
+			},
+			"Question__c": "<p>An HTTP Request operation sends an HTTP request with a non-empty JSON object payload to an external HTTP endpoint. The response from the external HTTP endpoint returns an XML body. The result is stored in a target named the Result.What is the payload at the event processor after the HTTP Request?</p>",
+			"A__c": "The original JSON request body",
+			"B__c": "null",
+			"C__c": "A non-empty Java object",
+			"D__c": "The XML response body",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/an-http-request-operation-sends-an-http-request-with-a-non-empty-json-object-payload-to-an-external-http",
+			"Comment__c": "<p>この問題の文脈に基づいて、最も適切な選択肢は <strong>(a) the original json request body</strong> です。</p><p>理由は、HTTPリクエスト操作によって外部のHTTPエンドポイントに対して非空のJSONオブジェクトペイロードが送信された場合、イベントプロセッサにおけるペイロードはそのHTTPリクエストが行われた後も変更されません。応答としてXMLボディが返され、その結果が’the result’というターゲットに格納されますが、これはイベントプロセッサのペイロードには影響しません。したがって、イベントプロセッサのペイロードは元のJSONリクエストボディのままです。選択肢(b)、&copy;、(d)は、この文脈では正しくありません。選択肢(b)はペイロードがnullになることを示唆していますが、これはペイロードが存在しない場合にのみ当てはまります。選択肢&copy;はJavaオブジェクトがペイロードになることを示唆していますが、問題文ではJSONオブジェクトがペイロードであると述べています。選択肢(d)は応答ボディがXMLであるため、ペイロードがXMLレスポンスボディになることを示唆していますが、これは応答が格納されるターゲットに関するものであり、イベントプロセッサのペイロードには影響しません。よって、正解は選択肢(a)です。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzyxIAD"
+			},
+			"Question__c": "<p>Refer to the exhibit.What data is expected by the POST /accounts endpoint?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/48a15516a6154a3c1c383c3013bc271b.jpg\"></img></p><p><br></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">A)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/2454ae0d5003a5d6dae7a7fa99ecaadc.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">B)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/2ffc5c83a6d86f35e705c2903bf5bd5b.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">C)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f15f944b60133c8cd43ecb4f31dc95ad.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">D)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/745040b1c368268cccd3195e8296eca1.jpg\"></img></strong></p>",
+			"A__c": "Option A",
+			"B__c": "Option B",
+			"C__c": "Option C",
+			"D__c": "Option D",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-exhibit-what-data-is-expected-by-the-post-accounts-endpoint-a-exhibit-b",
+			"Comment__c": "<p>XMLなのでBとCは不正解</p><p>Aはgetのリターンで取得できるJSON</p><p>Dが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzyyIAD"
+			},
+			"Question__c": "<p>Refer to the exhibits.The Set Payload transformer&#39;s value is set to {&#39;year&#39;: &#39;2020&#39;}.What message value should be added to the Logger component to output the message &#39;The year is 2020&#39;, without hardcoding 2020?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f620b3ae55f93f7e237157eb5de9c82b.jpg\"></img>",
+			"A__c": "The year is #[payload.year]&#39;",
+			"B__c": "&#39;#[&quot;Theyear is++payload-year&quot;]&#39;",
+			"C__c": "&#39;#[The year is $(pay load .year)]*",
+			"D__c": "&#39;#[The year is &quot; + paytoad.year]&#39;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-the-set-payload-transformer-s-value-is-set-to-year-2020-what",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzyzIAD"
+			},
+			"Question__c": "<p>A web client submits a request to http://localhost:8081/books/0471767840. The value &quot;0471767840&quot; is captured by a Set Variable transformer to a variable named booklSBN.What is the DataWeave expression to access booklSBN later in the flow?</p>",
+			"A__c": "booklSBN",
+			"B__c": "attributes.booklSBN",
+			"C__c": "vars. booklSBN",
+			"D__c": "flowVars.booklSBN",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-web-client-submits-a-request-to-http-localhost-8081-books-0471767840-the-value-0471767840-is-captur",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzz0IAD"
+			},
+			"Question__c": "<p>Refer to the exhibits.A JSON payload is set in the Set Payload transformer.What is logged by the Logger?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/1f28a64c440f50f1f9d028ea2e88e350.jpg\"></img></p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/25f8066981995425458058d5dd11b480.jpg\"></img></p>",
+			"A__c": "Object",
+			"B__c": "JSON",
+			"C__c": "String",
+			"D__c": "Array",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-a-json-payload-is-set-in-the-set-payload-transformer-what-is-logged",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/mulesoft/view/48462-exam-mcd-level-1-topic-1-question-105-discussion/</p><p><br></p><p>https://docs.mulesoft.com/jp/dataweave/latest/dw-core-functions-typeof</p><p><span style=\"background-color: rgb(249, 250, 251); color: rgb(24, 24, 24);\">typeOf({ a </span><span style=\"background-color: rgb(249, 250, 251); color: rgb(34, 104, 62);\">: 5 }</span><span style=\"background-color: rgb(249, 250, 251); color: rgb(24, 24, 24);\">)</span></p><p>はObjectになる</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzz1IAD"
+			},
+			"Question__c": "<p>A flow contains an HTTP Listener as the event source. What is the DataWeave expression to log the Content-Type header using a Logger component?</p>",
+			"A__c": "#[&quot;Content-Type: &quot; ++ attributes.headers.&#39;content-type&#39;]",
+			"B__c": "#[&quot;Content-Type: &quot; + headers.&#39;content-type&#39;]",
+			"C__c": "#[&quot;Content-Type: &quot; + attributes.headers.&#39;content-type&#39;]",
+			"D__c": "#[&quot;Content-Type: &quot; ++ headers.&#39;content-type&#39;]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-flow-contains-an-http-listener-as-the-event-source-what-is-the-dataweave-expression-to-log-the-content",
+			"Comment__c": "<p>Option 1 is the only correct choice due to two reasons. 1) Concatenation is always with ++ sign and not with + sign which makes option 2 and 3 wrong 2) hearders can be accessed with attributes. headers and not with only headers which makes option 4 incorrect</p><p><br></p><p><br></p><p>この問題に対する最適な選択肢は <strong>(a)</strong> です。理由は、HTTPリスナーからのイベントがトリガーされたとき、<code>attributes</code>オブジェクトがメッセージのメタデータを含んでおり、その中にはHTTPリクエストのヘッダー情報が含まれています。<code>headers</code>プロパティは<code>attributes</code>オブジェクトの中にあるため、<code>attributes.headers.&#39;content-type&#39;</code>という表現を使って<code>content-type</code>ヘッダーを取得します。また、DataWeave言語では文字列の連結に<code>++</code>演算子を使用します。</p><p>したがって、正しいDataWeave式は以下のようになります：</p><pre class=\"ql-syntax\">#[content-type: &amp;quot; ++ attributes.headers.&#39;content-type&#39;]\n</pre><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzz2IAD"
+			},
+			"Question__c": "<p>What of the below is not a feature of API Notebooks?</p>",
+			"A__c": "API documentation",
+			"B__c": "Creates a client for an API",
+			"C__c": "Creates a mock service for an API",
+			"D__c": "Perform authenticated live calls on a real server",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-of-the-below-is-not-a-feature-of-api-notebooks",
+			"Comment__c": "<p>Correct answer is Creates a mock service for an APIAPI Notebook is an open source, shareable web application for API documentation, interactive API tutorial and example generatation, and a client for your API endpoints. Using API Notebook, you can make requests and quickly transform the responses into readable format. However it cannot be used to mock service for an API.MuleSoft Doc Ref : https://docs.mulesoft.com/api-manager/1.x/api-notebook-concept</p><p><br></p><p><a href=\"https://docs.mulesoft.com/api-manager/1.x/creating-an-api-notebook\" target=\"_blank\">選択肢&copy;「APIのモックサービスを作成する」がAPIノートブックの機能ではありません。APIノートブックは、APIのドキュメントを提供し<sup>1</sup></a><a href=\"https://docs.mulesoft.com/api-manager/1.x/guide-api-notebook\" target=\"_blank\">、APIのためのクライアントを生成し<sup>2</sup></a><a href=\"https://docs.mulesoft.com/api-manager/1.x/creating-an-api-notebook\" target=\"_blank\">、実際のサーバー上で認証されたライブコールを実行することができます<sup>1</sup></a>。しかし、モックサービスを作成する機能はAPIノートブックには含まれていないため、選択肢&copy;が「APIノートブックの機能ではない」という質問に対する正しい答えです。</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzz5IAD"
+			},
+			"Question__c": "<p>Refer to the exhibits.What payload and quantity are togged at the end of the main flow?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/2087d0ae4c41f4c887b065e60d9f6279.jpg\"></img>",
+			"A__c": "[[order1, order2, order3, order4], 14]",
+			"B__c": "[orderlorder2order3order4, 14]",
+			"C__c": "[[1,2,3,4], 10]",
+			"D__c": "[[1,2,3,4], 14]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-what-payload-and-quantity-are-togged-at-the-end-of-the-main-flow",
+			"Comment__c": "<p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">The correct answer is D. The payload at the end of the flow is the original because outside the for each the payload does not change. But variables keep the current status so If into the for each variables change, this status keeps at the end of the flow.</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzz8IAD"
+			},
+			"Question__c": "<p>Refer to the exhibit.The API needs to be updated using the company-wide standard for the Plan data type. The Object data type has already been published in Anypoint Exchange with the global reference . ACME/DataTypes/PlanDataType.raml.What is a valid RAML specification that reuses the Plan data type?A)B)C)D)</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/a649fd71e0dd6014092a7ea67a2a868e.jpg\"></img></p><p><br></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">A)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/cdb38b8d00911f42147148a606c4d5b4.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">B)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/d3700406637a17f5d448a41b8a9728fa.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">C)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/72da1058334ce7f83c68e1d7da8cf18d.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">D)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/57195121aaa726bd5c41ad90da07ef56.jpg\"></img></strong></p>",
+			"A__c": "Option A",
+			"B__c": "Option B",
+			"C__c": "Option C",
+			"D__c": "Option D",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-exhibit-the-api-needs-to-be-updated-using-the-company-wide-standard-for-the-plan",
+			"Comment__c": "<p>As can be seen in RAML, POST expects input in application/json format which eliminates two of the options as two options are in xml format.Now out of the two remaining options, one has id field in request which is only mentioned for get response and not for POST request. Hence id field is not expected in POST request.Hence correct answer is{&quot;name&quot;: &quot;GoerdiLa Forge&quot;,&quot;address&quot;: &quot;1 Westland CA&quot;,&quot;customer_since&quot;: &quot;2014-01-04&quot;,&quot;balance&quot;: &quot;4829.29&quot;,&quot;bank_agend_id&quot;: &quot;12556&quot;}</p><p><br></p><p>https://www.friendsofmulesoft.com/en/news/exam_questions/exam_question_ms_21_033_for_mulesoft_certified_developer_mcd_level_1/77/</p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">To reuse a data type, it has to be included it in the RAML specification. According to the RAML syntax, data types are included in the block &quot;types&quot;, not in &quot;dataTypes&quot;, which eliminates answers A and B.</span></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">Further on, to include a RAML file, &quot;!included&quot; is used, not &quot;!reference&quot;, which leads us to the answer D.</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzAIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.The main flow contains an HTTP Request. The HTTP Listeners and HTTP Request use default configurations.Whatvalues are accessible in the child flow after a web client submits a request to http://localhost:8081/order? col or= red?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/c141752b90745f22cefc8b48a2c6af25.jpg\"></img>",
+			"A__c": "payload",
+			"B__c": "payloadquantity var color query param",
+			"C__c": "payloadcolor query param",
+			"D__c": "payloadquantity var",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-the-main-flow-contains-an-http-request-the-http-listeners-and-http",
+			"Comment__c": "<p><span style=\"color: rgb(51, 51, 51); font-size: 14px;\">The correct answer is A. Variables and params are lost in the child flow after the request. Payload and variables are available in the main flow before and after request, but not inside the child flow.</span></p><p><br></p><p>https://www.examtopics.com/discussions/mulesoft/view/59895-exam-mcd-assoc-topic-1-question-23-discussion/</p><p>やっぱり子フロー側では親変数にアクセスできない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzBIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits. A company has defined this Book data type and Book example to be used in APIs. What is valid RAML for an API that uses this Book data type and Book example?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/fd3bd0baa200918adfcc95e5268bcbc9.jpg\"></img></p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">A)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/132df7e616f55b2c9c19ca96c92e4a67.jpg\"></img></strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">B)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/9283312cb7170d204163d844771bc8d6.jpg\"></img></strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">C)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/83a6ee7fa86d783708968a9f816e88e1.jpg\"></img></strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">D)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/4f95f720dd9cdb9b1b7c4006fd452e3a.jpg\"></img></strong></p>",
+			"A__c": "Option D",
+			"B__c": "Option C",
+			"C__c": "Option B",
+			"D__c": "Option A",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-a-company-has-defined-this-book-data-type-and-book-example-to-be-used-in-apis",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzDIAT"
+			},
+			"Question__c": "<p>A web client submits a request to http://localhost:8081?accountType=personal. The query parameter is captured using a Set Variable transformer to a variable named accountType.What is the correct DataWeave expression to log accountType?</p>",
+			"A__c": "Account Type: #[flowVars.accountType]",
+			"B__c": "Account Type: #[message.inboundProperties.accountType]",
+			"C__c": "Account Type: # [attributes.accountType]",
+			"D__c": "Account Type: #[vars.accountType]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-web-client-submits-a-request-to-http-localhost-8081-accounttype-personal-the-query-parameter-is-48",
+			"Comment__c": "vars: Keyword for accessing a variable, for example, through a DataWeave expression in a Mule component, such as the Logger, or from an Input or Output parameter of an operation. If the name of your variable is myVar, you can access it like this: vars.myVar Hence correct answer is Account Type: #[vars.accountType]"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzGIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits. A web client sends a POST request to the HTTP Listener and the Validation component in the Try scope throws an error.What response message is returned to the web client?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/9a852b100208e5c882cba6d6089f025c.jpg\"></img>",
+			"A__c": "Validation Error",
+			"B__c": "END",
+			"C__c": "ERROR1",
+			"D__c": "&#39;&#39;ERROR2&quot;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-a-web-client-sends-a-post-request-to-the-http-listener-and-the-validation-component",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzJIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits. What payload is logged at the end of the main flow?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/1e209eb507a03556c8a25dca214bacd5.jpg\"></img>",
+			"A__c": "[order1, order2, order3, order4]",
+			"B__c": "[1, 2, 3, 4]",
+			"C__c": "order4",
+			"D__c": "order1order2order3order4",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-what-payload-is-logged-at-the-end-of-the-main-flow-exhibit",
+			"Comment__c": "This is a trick question. For Each does not modify the current payload. The output payload is the same as the input. Hence output of logger is the same payload which is set before invoking For Each scope. Hence option 2 is correct answer."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzLIAT"
+			},
+			"Question__c": "<p>Refer to the exhibit. The input array of strings is passed to the batch job, which does NOT do any filtering or aggregating. What payload is logged by the Logger component?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/8ccd8f6fe452f852968beaf65b07f931.jpg\"></img>",
+			"A__c": "[ &quot;Apple&quot;, &quot;Banana&quot; ]",
+			"B__c": "[ &quot;Apptel&quot;, &quot;Bananal&quot;, 2 ]",
+			"C__c": "Summary report of processed records",
+			"D__c": "[ &quot;Apptel2&quot;, &quot;Bananal2&quot; ]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-the-input-array-of-strings-is-passed-to-the-batch-job-which-does-not-do-any-filteri",
+			"Comment__c": "<p>on complete では変数は何も見えない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzNIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.The  expression for the Choice router needs to be written.What is a valid  expression to route Mule events to the non-default flow?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f9e2ff720ebeb4009578851a273dc52f.jpg\"></img>",
+			"A__c": "<p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">#[&#39;MuleSoft&#39; == paytoad.company]</span></p>",
+			"B__c": "#[ company = &quot;MuleSoft&quot; ]",
+			"C__c": "#[ if( &#39;MuleSoff == payload.company) ]",
+			"D__c": "#[ if( company = &quot;MuleSoft&quot;) ]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-the-lt-when-gt-expression-for-the-choice-router-needs-to-be-written",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzOIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits. The Set Payload transformer in the addltem child flow uses DataWeave to create an order object.What is the correct DataWeave code for the Set Payload transformer in the createOrder flow to use the addltem child flow to add a router call with the price of 100 to the order?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/b90df8005e05da4a31f62e8b0f92aa04.jpg\"></img>",
+			"A__c": "addltem( { payload: { price: &quot;100&quot;, item: &quot;router&quot;, itemType: &quot;cable&quot; &gt; } )",
+			"B__c": "lookup( &quot;addltern&quot;, { price: &quot;100&quot;, item: &quot;router&quot;, itemType: &quot;cable&quot; } )",
+			"C__c": "addltem( { price: &quot;100&quot;, item: &quot;router&quot;, itemType: &quot;cable&quot; } )",
+			"D__c": "lookup( &quot;addltem&quot;, { payload: { price: &quot;100&quot;, item: &quot;router&quot;, itemType: &quot;cable&quot; } &gt; )",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-the-set-payload-transformer-in-the-addltem-child-flow-uses-dataweave-to-create",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/mulesoft/view/48373-exam-mcd-level-1-topic-1-question-104-discussion/</p><p><br></p><p>https://docs.mulesoft.com/mule-runtime/4.3/dw-mule-functions-lookup</p><p><span style=\"color: rgb(80, 80, 80); font-size: 14.72px; background-color: rgb(255, 255, 255);\">A. lookup( &quot;addItem&quot;, { price: &quot;100&quot;, item: &quot;router&quot;, itemType: &quot;cable&quot; } )</span></p><p><span style=\"color: rgb(80, 80, 80); font-size: 14.72px; background-color: rgb(255, 255, 255);\">- The first argument is for what flow to be called</span></p><p><span style=\"color: rgb(80, 80, 80); font-size: 14.72px; background-color: rgb(255, 255, 255);\">- The second argument is the payload</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzVIAT"
+			},
+			"Question__c": "<p>Refer to the exhibit. The main flow contains an HTTP Request in the middle of the flow. The HTTP Listeners and HTTP request use default configurations.What values are accessible to the Logger at the end of the flow after a web client submit request to http://local:801/order?color=red?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/00dcc5b8e33667681807ac7fa20fbc61.jpg\"></img>",
+			"A__c": "payload",
+			"B__c": "payload quantity var",
+			"C__c": "payload color query param",
+			"D__c": "payload quantity var color query param",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-the-main-flow-contains-an-http-request-in-the-middle-of-the-flow-the-http-listeners",
+			"Comment__c": "<p>Correct answer is as below. Query parameters are replaced when external HTTP call is invoked.payloadproducer var</p><p><br></p><p>クエリパラムは、別のHTTPコールが発生すると利用できなくなる</p><p><br></p><p>https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-the-main-flow-contains-an-http-request-in-the-middle-of-the-flow-the-http-listeners</p><p>と類似問題だけど、こっちはメインフロー側のログコンポーネントでアクセスできる変数を聞いている</p><p>本問題は子フロー側なので注意</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzWIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.What payload and variable are logged at the end of the main flow?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/e27ce6b845f1348b1b070c34bafefd76.jpg\"></img></p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/046830d800fde77ce83c95ea70d1db0e.jpg\"></img></p>",
+			"A__c": "[[5, 10, 15, 20], 1]",
+			"B__c": "[[5, 10, 15, 20], 5]",
+			"C__c": "[[Req5, Req10, Req15, Req20], 5]",
+			"D__c": "[Req5Req10,Req15Req20, 5]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-what-payload-and-variable-are-logged-at-the-end-of-the-main-flow-exhibi",
+			"Comment__c": "Correct answer is [[5, 10, 15, 20], 5]Key thing to note here is that any changes made to payload in for each loop are not available outside for each scope where as variable value updated in for each loop is visible out side for each loop too."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzXIAT"
+			},
+			"Question__c": "<p>What HTTP method in a RESTful web service is typically used to completely replace an existing resource?</p>",
+			"A__c": "GET",
+			"B__c": "PATCH",
+			"C__c": "PUT",
+			"D__c": "POST",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-http-method-in-a-restful-web-service-is-typically-used-to-completely-replace-an-existing-resource",
+			"Comment__c": "PUT replaces the original version of the resource, whereas the PATCH method supplies a set of instructions to modify the resource"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzaIAD"
+			},
+			"Question__c": "<p>A RAML example fragment named StudentExample.raml is placed in the examples folder in an API specification project. What is the correct syntax to reference the fragment?</p>",
+			"A__c": "examples: !include StudentExample.raml",
+			"B__c": "examples: #import StudentExample.raml",
+			"C__c": "examples: !include examples/StudentExample.raml",
+			"D__c": "examples: #import examples/StudentExample.raml",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-raml-example-fragment-named-studentexample.raml-is-placed-in-the-examples-folder-in-an-api-specification",
+			"Comment__c": "To include property. To keep the API definition concise, you can include external content, such as documentation, schemas, and frequently used patterns outside the definition itself. The parser interprets !include as if the content of the externally-hosted file or a URL were declared in-line.To use the fragments in RAML you have to include the exact path(copy the path) of that fragment you want to use as shown below Option 3 is the correct as correct syntax is examples: !include examples/StudentExample.raml"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzbIAD"
+			},
+			"Question__c": "<p>What is the main purpose of flow designer in Design Center?</p>",
+			"A__c": "To design and develop fully functional Mule applications in a hosted development environment",
+			"B__c": "To design API RAML files in a graphical way",
+			"C__c": "To design and mock Mule application templates that must be implemented using Anypoint Studio",
+			"D__c": "To define API lifecycle management in a graphical way",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-is-the-main-purpose-of-flow-designer-in-design-center",
+			"Comment__c": "Its primary function is to design and develop fully functional Mule applications in a hosted development environment."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzdIAD"
+			},
+			"Question__c": "<p>Refer to the exhibit.A Mule event is composed of a hierarchy of objects. Where in the hierarchy are variables stored?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/a1d3dc7a18afefde266656d8c02f075a.jpg\"></img>",
+			"A__c": "Mule event",
+			"B__c": "Mule message payload",
+			"C__c": "Mule message",
+			"D__c": "Mule message attributes",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-exhibit-a-mule-event-is-composed-of-a-hierarchy-of-objects-where-in-the-hierarchy",
+			"Comment__c": "<p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/94129e36896032edc7112831f503269c.jpg\"></img></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzeIAD"
+			},
+			"Question__c": "<p>Refer to the exhibits.A web client sends a POST request to the HTTP Listener with the payload &quot;Hello-&quot;. What response is returned to the web client?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/637f97ac980786d906517afacd43a00b.jpg\"></img></p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/9e01b8d4fe267196b10f1ff2f1444d44.jpg\"></img></p>",
+			"A__c": "HTTP-JMS2-Three",
+			"B__c": "Helb-JMS1-HTTP-JMS2 -Three",
+			"C__c": "Hello-HTTP-Three",
+			"D__c": "Hello- HTTP-] MS2-Three",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-a-web-client-sends-a-post-request-to-the-http-listener-with-the-payload",
+			"Comment__c": "<p>publish以外は同期処理</p><p><br></p><p><br></p><p>https://www.examtopics.com/discussions/mulesoft/view/48362-exam-mcd-level-1-topic-1-question-75-discussion/</p><p> <a href=\"https://www.examtopics.com/user/Dineshsinghal/\" target=\"_blank\" style=\"color: rgb(0, 149, 235);\">Dineshsinghal </a><span style=\"font-size: 14.72px;\">3 years ago</span></p><p>Please clarify why A is correct. Please provide explanation</p><p>   <span style=\"font-size: 14.08px;\">upvoted 2 times</span></p><p><br></p><p> <a href=\"https://www.examtopics.com/user/kanasaikuat/\" target=\"_blank\" style=\"color: rgb(0, 149, 235);\">kanasaikuat </a><span style=\"font-size: 14.72px;\">2 years, 12 months ago</span></p><p>The flow starts with the payload &quot;Hello-&quot; from the POST request. Since the VM-Publish processor is asynchronous, the Set Payload in the flow oneJmsQueueListener does not change the payload at this moment. Continuing to the Request processor, a &quot;HTTP-&quot; is being appended to the payload. Next is the VM-Publish consume processor which is synchronous and &quot;JMS2-&quot; is being appended to the payload. At the end of the flow, the Set Payload processor appends &quot;Three&quot; to the payload.</p><p>   <span style=\"font-size: 14.08px;\">upvoted 7 times</span></p><p><br></p><p> <a href=\"https://www.examtopics.com/user/Alandt/\" target=\"_blank\" style=\"color: rgb(0, 149, 235);\">Alandt </a><span style=\"font-size: 14.72px;\">4 months, 3 weeks ago</span></p><p>Yes exactly. Publish = Asynchronous, because message is sent and does not wait for response. Publish consume = Synchronous, because flow is waiting for response, hence changing the payload (in this specific case).</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzjIAD"
+			},
+			"Question__c": "<p>A Mule application&#39;s HTTP Listener is configured with the HTTP protocol. The HTTP listeners port attribute is configured with a property placeholder named http.port. The mule application sets the http.port property placeholder&#39;s value to 9090 . The Mule application is deployed to CloudHub without setting any properties in the Runtime manager Properties tab and a log message reports the status of the HTTP listener after the Mule application deployment completes. After the mule applications is deployed, what information is reported in the worker logs related to the port on which the Mule application&#39;s HTTP Listener listens?</p>",
+			"A__c": "The HTTP Listener is listening on port 80",
+			"B__c": "The HTTP Listener is listening on port 9090",
+			"C__c": "The HTTP Listener is listening on port 8081",
+			"D__c": "The HTTP Listener failed to bind to the port and is not listening for connections",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-mule-application-s-http-listener-is-configured-with-the-http-protocol-the-http-listeners-port-attribute",
+			"Comment__c": "<p>Cloudhub expose services on port 8081 and override value in http.port with this one .Sample log in Runtime Manager is below21:15:53.148 08/08/2021 Worker-0 ArtifactDeployer.start.01 INFOListening for connections on &#39;http://0.0.0.0:8081&#39;</p><p><br></p><p>最適な選択肢は <strong>&copy;: the http listener is listening on port 8081</strong> です。</p><p><a href=\"https://help.mulesoft.com/s/question/0D52T00004mXV8iSAG/host-and-port-configuration-in-cloudhub\" target=\"_blank\">理由: CloudHubにデプロイされたMuleアプリケーションでは、HTTPリスナーのポートが指定されていない場合、デフォルトでポート8081が使用されます<sup>1</sup></a><a href=\"https://help.mulesoft.com/s/question/0D52T00005UaJrbSAF/why-would-a-mule-application-use-the-httpport-property-placeholder-for-its-http-listenerport-when-it-is-deployed-to-cloudhub\" target=\"_blank\"><sup>2</sup></a>。今回の問題では、<code>http.port</code>プロパティが設定されているものの、CloudHubのRuntime Managerプロパティタブで特定のプロパティが設定されていないため、デフォルトのポート8081が使用されることになります。</p><p><a href=\"https://help.mulesoft.com/s/question/0D52T00004mXV8iSAG/host-and-port-configuration-in-cloudhub\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://help.mulesoft.com/s/question/0D52T00004mXV8iSAG/host-and-port-configuration-in-cloudhub\" target=\"_blank\">Host and Port configuration in Cloudhub </a><a href=\"https://help.mulesoft.com/s/question/0D52T00005UaJrbSAF/why-would-a-mule-application-use-the-httpport-property-placeholder-for-its-http-listenerport-when-it-is-deployed-to-cloudhub\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://blogs.perficient.com/2017/02/28/enabling-https-for-mule-application/\" target=\"_blank\">Enabling HTTPS for a Mule Application</a></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzkIAD"
+			},
+			"Question__c": "<p>What is the purpose of the api:router element in APIkit?</p>",
+			"A__c": "Creates native connectors using a 3rd party Java library",
+			"B__c": "Serves as an API implementation",
+			"C__c": "Validates requests against RAML API specifications and routes them to API implementations",
+			"D__c": "Validates responses returned from API requests and routes them back to the caller",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-is-the-purpose-of-the-api-router-element-in-apikit",
+			"Comment__c": "The APIkit Router is a key message processor that validates requests against the provided definition, enriches messages (for example by adding default values to the messages) and routes requests to a particular flow. Also, the Router raises errors messages if errors occurs while routing, validating or processing the user request."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzlIAD"
+			},
+			"Question__c": "<p>What are the latest specification of RAML available?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/fc3ebfa8e6ac68c958581e9afd80408f.jpg\"></img>",
+			"A__c": "1.2",
+			"B__c": "1",
+			"C__c": "0.8",
+			"D__c": "2",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-are-the-latest-specification-of-raml-available",
+			"Comment__c": "The current version of the RAML specification is 1.0You can check RAML version in RAML definition by referring to first comment. See highlighted part in below image."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzmIAD"
+			},
+			"Question__c": "<p>What is the trait name you would use for specifying client credentials in RAML?</p>",
+			"A__c": "headers",
+			"B__c": "client-id",
+			"C__c": "client-id-required",
+			"D__c": "cannot be specified in RAML",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-is-the-trait-name-you-would-use-for-specifying-client-credentials-in-raml",
+			"Comment__c": "<p>client-id-required enforces clients to add client_id and client_secret.</p><p>Please refer to below steps.</p><p>Add a section called traits: at the root level to define query parameters:</p><p>traits:</p><p>- client-id-required:</p><p>queryParameters:</p><p>client_id:</p><p>type: string</p><p>client_secret:</p><p>type: string</p><p>2) Reference the trait in each of the methods to specify that each of the methods require these query parameters. After each method in the RAML file, add is: [client-id-required]. For example:</p><p>/users:</p><p>get:</p><p>is: [client-id-required]</p><p>description: Gets a list of JSONPlaceholder users.</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzpIAD"
+			},
+			"Question__c": "<p>An API specification is designed using RAML. What is the next step to create a REST Connector from this API specification?</p>",
+			"A__c": "Implement the API specification using flow designer in Design Center",
+			"B__c": "Add the specification to a Mule project&#39;s src/main/resources/api folder",
+			"C__c": "Publish the API specification to Any point Exchange",
+			"D__c": "Download the API specification and build the interface using APIkit",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/an-api-specification-is-designed-using-raml-what-is-the-next-step-to-create-a-rest-connector-from-this",
+			"Comment__c": "<p>https://www.examtopics.com/discussions/mulesoft/view/125850-exam-mcd-level-1-topic-1-question-90-discussion/</p><p><br></p><p><span style=\"color: rgb(80, 80, 80); font-size: 14.72px; background-color: rgb(255, 255, 255);\">First step is to build your RESTful API specification using RAML 1.0 or later. Design Center is the best tool to achieve this. Once you&#39;re done you can publish your new asset directly to Exchange.</span></p><p><br></p><p><span style=\"color: rgb(80, 80, 80); font-size: 14.72px; background-color: rgb(255, 255, 255);\">https://help.mulesoft.com/s/article/How-to-generate-a-connector-for-a-REST-API-for-Mule-3-x-and-4-x</span></p><p><br></p><p><br></p><p><span style=\"color: rgb(80, 80, 80); font-size: 14.72px; background-color: rgb(255, 255, 255);\">﻿</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzsIAD"
+			},
+			"Question__c": "<p>Refer to the payload.The Set payload transformer sets the payload to an object. The logger component&#39;s message attribute is configured with the string &quot;Result #[&quot;INFO&quot;++ payload]&quot; What is the output of logger when this flow executes?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/e374afeba4c26504cb95acf924803892.jpg\"></img></p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/55769f6dae444299893eb2630f7545f6.jpg\"></img></p>",
+			"A__c": "Result INFOpayload",
+			"B__c": "Result INFO{&quot;student&quot;:{&quot;name&quot;:&quot;Anay&quot;,&quot;age&quot;:6}}",
+			"C__c": "<p>String (&quot;INFO&quot;)</p><p>Object ({student: {name: &quot;Anay&quot; as String {class: &quot;java.lang.String&quot;},age: 6 as Numbe...)</p>",
+			"D__c": "Error : You evaluated inline expression # without ++",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-payload-exhibit-the-set-payload-transformer-sets-the-payload-to-an-object-the-logger",
+			"Comment__c": "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">Correct answer is as below as concatenation operation works only with string and not with the objects. In this case payload is object.</span></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">&quot;You called the function &#39;++&#39; with these arguments:</span></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">1: String (&quot;INFO&quot;)</span></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">2: Object ({student: {name: &quot;Anay&quot; as String {class: &quot;java.lang.String&quot;},age</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzuIAD"
+			},
+			"Question__c": "<p>A Utility.dwl file is located in a Mule project at src/main/resources/modules. The Utility.dwl hie defines a function named pascalize that reformats strings to pascal case.What is the correct DataWeave to call the pascalize function in a Transform Message component?</p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">A)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/fac9d3858ae1eca5f8ac00e02ec113bc.jpg\"></img></strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">B)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/7b9e343008a25c9c2020f91f5914f25b.jpg\"></img></strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">C)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/5da4bb05a33259b874a6d85f2d294f8c.jpg\"></img></strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\">D)</strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(51, 51, 51);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f1e07f2fddb65347d187f9aaafe0285d.jpg\"></img></strong></p>",
+			"A__c": "Option D",
+			"B__c": "Option A",
+			"C__c": "Option C",
+			"D__c": "Option B",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-utility.dwl-file-is-located-in-a-mule-project-at-src-main-resources-modules-the-utility.dwl-hie-defines",
+			"Comment__c": "<p>https://docs.mulesoft.com/jp/dataweave/latest/dw-functions</p><p><br></p><p>import * from XXXでインポートしていないので関数の呼び出し時にモジュール名から呼ぶ​</p><p><br></p><p>%dw 2.0</p><p>import dw::core::Strings</p><p>output application/json</p><p>---</p><p>{ &#39;plural&#39;: Strings::pluralize(&quot;box&quot;) }</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzvIAD"
+			},
+			"Question__c": "<p>Following Mulesoft&#39;s recommended API-led connectivity approach , an organization has created an application network. The organization now needs to create API&#39;s to transform , orchestrate and aggregate the data provided by the other API&#39;s in the application network. This API should be flexible enought ot handle the data from additional API&#39;s in future.According to Mulesoft&#39;s recommended API-led connectivity approach , what is the best layer for this new API?</p>",
+			"A__c": "Process layer",
+			"B__c": "System layer",
+			"C__c": "Experience layer",
+			"D__c": "Data layer",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/following-mulesoft-s-recommended-api-led-connectivity-approach-an-organization-has-created-an-applicatio",
+			"Comment__c": "Correct answer is process layer as all the orchestration and transformation logic should be in process layer as per Mulesoft&#39;s recommended approach for API led connectivity."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzxIAD"
+			},
+			"Question__c": "<p>How we can scale deployed Mule application vertically on cloudhub?</p>",
+			"A__c": "Changing worker size",
+			"B__c": "Adding multiple workers",
+			"C__c": "Mule applications can be scaled only horizontally",
+			"D__c": "Option 1 and 2 both can be used",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/how-we-can-scale-deployed-mule-application-vertically-on-cloudhub",
+			"Comment__c": "Mule applications can be scaled vertically by changing worker size. Mule applications can be scaled horizontally by adding more workers."
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TEzzzIAD"
+			},
+			"Question__c": "<p>Refer to the exhibits. Client sends the request to ClientRequestFlow which calls ShippingFlow using HTTP Request activity.During E2E testing it is found that that HTTP:METHOD_NOT_ALLOWED error is thrown whenever client sends request to this flow.What attribute you would change in ClientRequestFlow to make this implementation work successfully?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f4ef96160b1b90e038bc3595809618a5.jpg\"></img></p><p><br></p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/4ca6ec972ffc918f1eebabec02876f9b.jpg\"></img></p>",
+			"A__c": "Change the method attribute value to &quot;*&quot;",
+			"B__c": "Change the path attribute value to &quot;/api/ship&quot;",
+			"C__c": "Change the allowed method attributes value to &quot;POST&quot;",
+			"D__c": "Change the protocol attribute value to &quot;HTTPS&quot;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-client-sends-the-request-to-clientrequestflow-which-calls-shippingflow-using-http",
+			"Comment__c": "<p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">Correct answer is Change the method attributes value to &quot;POST&quot;.</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">It can be fixed in either of the two ways as below.</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">1) Changing method attribute to POST in ClientRequestFlow</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">2) Setting allowedMethods as PUT in ShippingFlow (but doesn&#39;t fit as question mentions about changing ClientRequestFlow)</span></p><p><br></p><p>二発目のリクエストの受け入れがPOSTになっているのに、PUTで送っている</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF003IAD"
+			},
+			"Question__c": "<p>A Database On Table Row listener retrieves data from a CUSTOMER table that contains a primary key userjd column and an increasing kxjin_date_time column. Neither column allows duplicate values.How should the listener be configured so it retrieves each row at most one time?</p>",
+			"A__c": "Set the watermark column to the bgin_date_time column",
+			"B__c": "Set the target value to the last retrieved login_date_time value",
+			"C__c": "Set the target value to the last retrieved user_jd value",
+			"D__c": "Set the watermark column to the user_Id column",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-database-on-table-row-listener-retrieves-data-from-a-customer-table-that-contains-a-primary-key-userjd",
+			"Comment__c": "<p>* Watermark allows the poll scope to poll for new resources instead of getting the same resource over and over again.* The database table must be ordered so that the &quot;watermark functionality&quot; can move effectively in the ordered list. Watermark stores the current/last picked up &quot;record id.&quot;* If the Mule application is shut down, it will store the last picked up &quot;record id&quot; in the Java Object Store and the data will continue to exist in the file. This watermark functionality is valuable and enables developers to have increased transparency.* Developers do not need to create code to handle caching; it is all configurable!* There are two columns and both are unique but user_id can&#39;t guaranty sequence whereas date_time will always be in increasing order and table content can easily be ordered on the basis of last processed date_time.So correct answer is: Set the watermark column to the date_time column</p><p><br></p><p><br></p><p>ウォーターマーク列とは、データベースやデータ処理システムにおいて、データの一意性や順序を保証するために使用される列のことです。この列は、通常、時間や増加する数値などの一意の値を持ち、データの重複を防ぎ、各行が一度だけ処理されるようにします。</p><p><a href=\"https://www.softbank.jp/biz/blog/cloud-technology/articles/202404/watermark/\" target=\"_blank\">例えば、</a><code><a href=\"https://www.softbank.jp/biz/blog/cloud-technology/articles/202404/watermark/\" target=\"_blank\">bgin_date_time</a></code><a href=\"https://www.softbank.jp/biz/blog/cloud-technology/articles/202404/watermark/\" target=\"_blank\"> 列をウォーターマーク列として設定することで、リスナーは最後に取得した日時を記録し、それ以降の新しい行のみを取得することができます。これにより、各行が一度だけ取得されることが保証されます<sup>1</sup></a>。</p><p>何か他に知りたいことはありますか？</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF005IAD"
+			},
+			"Question__c": "<p>Refer to the exhibits.The web client sends a POST request to the ACME Order API with an XML payload. An error is returned.What should be changed in the request so that a success response code is returned to the web client?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/26129ccd2c1c0812a1a89571f37c6751.jpg\"></img>",
+			"A__c": "Set a response header with the name Content-Type to a value of applkation/xml",
+			"B__c": "Set a request header with the name Content-Type to a value of applicatron/octet-stream",
+			"C__c": "Set a request header with the name Content-Type to a value of application/xml",
+			"D__c": "Set a response header with the name Content-Type to a value of application/octet-stream",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-the-web-client-sends-a-post-request-to-the-acme-order-api-with-an-xml",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00AIAT"
+			},
+			"Question__c": "<p>What is the output type of the DataWeave map operator?</p>",
+			"A__c": "String",
+			"B__c": "Object",
+			"C__c": "Array",
+			"D__c": "Map",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-is-the-output-type-of-the-dataweave-map-operator",
+			"Comment__c": "<p>https://docs.mulesoft.com/dataweave/latest/dw-core-functions-map</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00CIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.A web client submits a request to http://localhQst:8081. What is the structure of the payload at the end of the flow?</p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/879811e77d5e828ede5cbeac3cc6af19.jpg\"></img></p><p><br></p><p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/b9909738086b934437b2494c408f3ff2.jpg\"></img></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">A)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/a14fadb2243c76c721348ed126953b05.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">B)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f1c0b721ded1a7e8deb4e5bc0276b662.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">C)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/787e696a83aa125e6993348e62daa0ac.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">D)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/ea28f2b6526ca47128aa2fb344da60bb.jpg\"></img></strong></p><p><br></p>",
+			"A__c": "Option A",
+			"B__c": "Option B",
+			"C__c": "Option C",
+			"D__c": "Option D",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-a-web-client-submits-a-request-to-http-localhqst-8081-what-is-the",
+			"Comment__c": "<p>Scatter-Gather sends the event to each routes concurrently and returns a collection of all results. Collection is an Object of Objects. Each object contains attributes and payload from each Mule event returned from a flow. Hence option 4 is the correct answer.</p><p><br></p><p>scatter gatherのリターンはオブジェクトのオブジェクト</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00EIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.What is valid text to set the field in the Database connector configuration to the username value specified in the config.yaml file?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/2665ec2b707673c4e4539e4338246216.jpg\"></img>",
+			"A__c": "<p>${db.username}</p>",
+			"B__c": "#[db:username]",
+			"C__c": "<p>${db:username}</p>",
+			"D__c": "#[db.username]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-what-is-valid-text-to-set-the-field-in-the-database-connector-configurati",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00IIAT"
+			},
+			"Question__c": "<p>Refer to the exhibit.What is the output payload in the On Complete phase</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/a51f567681540ff9b92c9197aa0d3a5b.jpg\"></img>",
+			"A__c": "summary statistics with NO record data",
+			"B__c": "The original payload: [1,2,31",
+			"C__c": "The records processed by the last batch step: [StepTwol, StepTwo2, StepTwo3]",
+			"D__c": "The records processed by all batch steps: [StepTwostepOnel, stepTwostepOne2, StepTwoStepOne3]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-exhibit-what-is-the-output-payload-in-the-on-complete-phase",
+			"Comment__c": "<p>https://www.friendsofmulesoft.com/en/news/exam_questions/exam_question_ms_21_066_for_mulesoft_certified_developer_mcd_level_1/110/</p><p><br></p><p>On Completeでは変数は何も見えない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00KIAT"
+			},
+			"Question__c": "<p>Refer to the exhibit.What can be added to the flow to persist data across different flow executions?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/2ba3537b3a6a5c07050953e770f036d6.jpg\"></img>",
+			"A__c": "properties of the Mule runtime app object",
+			"B__c": "Properties of the Mule runtime flow object",
+			"C__c": "Key/value pairs in the ObjectStore",
+			"D__c": "session variables",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-exhibit-what-can-be-added-to-the-flow-to-persist-data-across-different-flow-execut",
+			"Comment__c": "<p>https://www.friendsofmulesoft.com/en/news/exam_questions/exam_question_ms_21_035_for_mulesoft_certified_developer_mcd_level_1/79/</p><p><br></p><p>異なるMuleアプリの実行間でデータを保存し、共有/読み込みする仕組みがObjectStoreです。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00QIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.What is written to the records.csv file when the flow executes?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/f5ad62dd8bc4abde77e2ba04ab0b55e4.jpg\"></img>",
+			"A__c": "The JSON payload",
+			"B__c": "Nothing",
+			"C__c": "An error message",
+			"D__c": "The payload convert to CVS",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-what-is-written-to-the-records.csv-file-when-the-flow-executes",
+			"Comment__c": "<p>https://www.itfreedumps.com/mulesoft-certified-developer-level-1-mcd-level-1-dumps/</p><p><br></p><p>Transform Message Add write_date は、JSON フォーマットのペイロードをカバーしており、同じ JSON ペイロードがファイル書き込みプロセッサで利用可能です。しかし、ペイロードが異なるフォーマット（例えば、CSVではない）である場合、Write操作の内部に変換を配置することで、転送中のメッセージに副作用を発生させることなく、書き込まれるコンテンツを生成することができます。この場合、変換は行われません。デフォルトでは、コネクタはメッセージのペイロードにあるものは何でも書き込みます。したがって、JSON ペイロードはファイルに書き込まれます。</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00TIAT"
+			},
+			"Question__c": "<p>Refer to the exhibit.What is a valid expression for the Choice router&#39;s when expression to route events to the documenticShipping flow?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/774de88d8574e9f280410aa2f8e63bde.jpg\"></img>",
+			"A__c": "<p>#[ payload = &#39;US&#39; ]</p>",
+			"B__c": "<p>#[ payload == &#39;US&#39; ]</p>",
+			"C__c": "<p>#[ if(payload = &#39;US&#39;) ]</p>",
+			"D__c": "#[ if(payload == &quot;US&quot;) ]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-exhibit-what-is-a-valid-expression-for-the-choice-router-s-when-expression-to",
+			"Comment__c": "<p>https://www.friendsofmulesoft.com/en/news/exam_questions/exam_question_ms_21_006_for_mulesoft_certified_developer_mcd_level_1/49/</p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(36, 43, 52);\">質問をするには、論理演算子を使う必要がある。この場合、代入演算子である&quot;=&quot;ではなく、&quot;==&quot;です。選択肢の構成要素が &quot;if &quot;なしで書かれた条件を求めているため、&quot;if &quot;のせいで解答Dは除外され、解答Bが正解となります。</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00UIAT"
+			},
+			"Question__c": "<p>What path setting is required for an HTTP Listener endpoint to route all requests to an APIkit router?</p>",
+			"A__c": "<p>/&#39;&#39;</p>",
+			"B__c": "/",
+			"C__c": "<p>/*</p>",
+			"D__c": "/()",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-path-setting-is-required-for-an-http-listener-endpoint-to-route-all-requests-to-an-apikit-router",
+			"Comment__c": "<p><img src=\"https://www.bing.com/th?id=OSK.94b8d7e82d41d655564b6b905ad5cccd&amp;pid=cdx&amp;w=320&amp;h=189&amp;c=7&amp;rs=1\" alt=\"MuleSoft\"></img></p><p><img src=\"https://www.bing.com/th?id=OSK.94b8d7e82d41d655564b6b905ad5cccd&amp;pid=cdx&amp;w=320&amp;h=94&amp;c=7\" alt=\"MuleSoft\"></img></p><p>探す</p><p><a href=\"https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref\" target=\"_blank\">MuleSoftでHTTPリスナーエンドポイントをAPIkitルーターにルーティングするには、HTTPリスナーのパスを</a><code><a href=\"https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref\" target=\"_blank\">/*</a></code><a href=\"https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref\" target=\"_blank\">に設定する必要があります。これにより、特定のパスに関係なく、すべてのリクエストを受け入れることができます<sup>1</sup></a><a href=\"https://docs.mulesoft.com/jp/apikit/latest/\" target=\"_blank\"><sup>2</sup></a>。</p><p>以下は、HTTPリスナーの設定例です：</p><pre class=\"ql-syntax\">&lt;http:listener doc:name=&quot;Listener&quot; config-ref=&quot;HTTP_Listener_config&quot; path=&quot;/*&quot;/&gt;\n</pre><p><a href=\"https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref\" target=\"_blank\">RAMLとAPIkitを使用している場合は、RAML仕様にすべての許可されたパスが定義されていることを確認する必要があります。そうしないと、</a><code><a href=\"https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref\" target=\"_blank\">APIKIT:NOT_FOUND</a></code><a href=\"https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref\" target=\"_blank\">エラーが発生する可能性があります<sup>1</sup></a><a href=\"https://docs.mulesoft.com/jp/apikit/latest/\" target=\"_blank\"><sup>2</sup></a>。</p><p>現在の設定で特定のシナリオや問題に直面していますか？お手伝いできることがあれば教えてください。</p><p><br></p><p><br></p><p>https://docs.mulesoft.com/jp/http-connector/1.5/http-listener-ref</p><p><br></p><p>HTTP リスナーのパスは、静的 (完全一致が必要) にすることも、機能のプレースホルダーにすることもできます。プレースホルダーは、ワイルドカード (​<code style=\"font-size: 13px; background-color: rgb(249, 250, 251);\">*</code>​) (比較対象の一部または全部と一致) にすることも、パラメーター (​<code style=\"font-size: 13px; background-color: rgb(249, 250, 251);\">{param}</code>​) (一部または全部と一致するだけでなく、URI パラメーターマップ上のそれらの値も取得) にすることもできます。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00VIAT"
+			},
+			"Question__c": "<p>Refer to the exhibits.The input array of strings is processed by the batch job that processes, filters, and aggregates the values. What is the last message logged by the Logger component after the batch job completes processing?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/5dddbf91623cbd469256205e8da512f5.jpg\"></img>",
+			"A__c": "[ [&quot;A&quot;, &quot;C&quot;, &quot;D&quot; ], [&quot;E&quot;] ]",
+			"B__c": "[&#39;&#39;E&#39;&#39;]",
+			"C__c": "[&#39;&#39;D&quot;, &quot;E&quot;]",
+			"D__c": "[ &quot;A&quot;, &quot;C, &quot;D&quot;, &quot;E&quot; ]",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibits-exhibit-the-input-array-of-strings-is-processed-by-the-batch-job-that-processes-128",
+			"Comment__c": "<p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">Logs would look like:</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">INFO 2021-06-09 19:14:56,039 [[MuleRuntime].uber.06: [validationtest].batch-job-validationtestBatch_Job-work-manager @6de10f3e] [processor: validationtestFlow/processors/1/route/0/route/0/aggregator/processors/0; event: bfb751e1-9939-11eb-9f69-02053763653a] org.mule.runtime.core.internal.processor.LoggerMessageProcessor:</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">[</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">&quot;\\&quot;A\\&quot;&quot;,</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">&quot;\\&quot;C\\&quot;&quot;,</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">&quot;\\&quot;D\\&quot;&quot;</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">]</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">--</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">INFO 2021-06-09 19:15:02,486 [[MuleRuntime].uber.06: [validationtest].batch-job-validationtestBatch_Job-work-manager @6de10f3e] [processor: validationtestFlow/processors/1/route/0/route/0/aggregator/processors/0; event: bfb751e1-9939-11eb-9f69-02053763653a] org.mule.runtime.core.internal.processor.LoggerMessageProcessor: [</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">&quot;\\&quot;E\\&quot;&quot;</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">]</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">Batch aggregator value is 3. Hence in first time it will print [&quot;A&quot;, &quot;C&quot;, &quot;D&quot;] and in next iteration it will print [ &quot;E&quot; ]</span></p><p><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">-------------------------------------------------------------------------------------------------------------------------------------------------- Correct answer is [ &quot;E&quot; ]</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00WIAT"
+			},
+			"Question__c": "<p>According to Mulesoft, how are Modern APIs treated as?</p>",
+			"A__c": "Products",
+			"B__c": "SOAP API&#39;s",
+			"C__c": "Rest API&#39;s",
+			"D__c": "Code",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/according-to-mulesoft-how-are-modern-apis-treated-as",
+			"Comment__c": "<p>Correct answer is ProductsModern API has three features 1) Treated as products for easy consumption 2) Discoverable and accessible through self-service 3) Easily managed for security , scalability and performance</p><p><br></p><p><br></p><p>最適な選択肢は <strong>(a): products</strong> です。</p><p><a href=\"https://www.mulesoft.com/resources/api-strategy\" target=\"_blank\">理由として、MuleSoftによると、現代のAPIは製品のように扱われています。これは、APIが開発者にとって使いやすく、広く理解されやすい標準（通常はHTTPおよびREST）に従っているためです。また、APIは特定の消費者向けに設計され、文書化され、バージョン管理されているため、ユーザーはそのメンテナンスやライフサイクルに対して一定の期待を持つことができます<sup>1</sup></a><a href=\"https://www.mulesoft.com/resources/api/what-is-an-api?ref=re-manual.com\" target=\"_blank\"><sup>2</sup></a>。</p><p><img src=\"https://www.bing.com/th?id=OSK.94b8d7e82d41d655564b6b905ad5cccd&amp;pid=cdx&amp;w=320&amp;h=189&amp;c=7&amp;rs=1\" alt=\"MuleSoft\"></img></p><p><img src=\"https://www.bing.com/th?id=OSK.94b8d7e82d41d655564b6b905ad5cccd&amp;pid=cdx&amp;w=320&amp;h=94&amp;c=7\" alt=\"MuleSoft\"></img></p><p>探す</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00fIAD"
+			},
+			"Question__c": "<p>Refer to the exhibit.The error occurs when a project is run in Anypoint Studio. The project, which has a dependency that is not in the MuleSoft Maven repository, was created and successfully run on a different computer.What is the next step to fix the error to get the project to run successfully?</p><img src=\"https://www.freecram.net/uploads/MCD-Level-1/1ea6a4247bf0825dbf6eebd58c8c7316.jpg\"></img>",
+			"A__c": "Edit the dependency in the Mule project&#39;s pom.xml file",
+			"B__c": "Install the dependency to the computer&#39;s local Maven repository",
+			"C__c": "Deploy the dependency to MuleSoft&#39;s Maven repository",
+			"D__c": "Add the dependency to the MULE_HOME/bin folder",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/refer-to-the-exhibit-the-error-occurs-when-a-project-is-run-in-anypoint-studio-the-project-which-has",
+			"Comment__c": "<p>As dependency is not present in Mulesoft Maven repository, we need to install the dependency on computer&#39;s local Maven repository. Option 3 is correct choice.</p><p><br></p><p>最適な選択肢は <strong>(b): install the dependency to the computer’s local maven repository</strong> です。</p><p>理由： このエラーは、プロジェクトが依存しているライブラリがMuleSoftのMavenリポジトリに存在しないために発生しています。以前に別のコンピュータで成功したのは、そのコンピュータに依存関係がローカルにインストールされていたからです。したがって、同じ依存関係を現在のコンピュータのローカルMavenリポジトリにインストールすることで、プロジェクトが正常に実行されるようになります。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00hIAD"
+			},
+			"Question__c": "<p>A Mule project contains a MySQL Database dependency. The project is exported from Anypoint Studio so it can be deployed to CloudHub.What export options create the smallest deployable archive that will successfully deploy to CloudHub?</p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">A)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/5c73ed77089163d388ddc469a375f833.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">B)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/5ff55d8b6c5ae5c73550f63097edf4af.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">C)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/d5fdba504c23e5250a5dc1c74c43bfcc.jpg\"></img></strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\">D)</strong></p><p><strong style=\"color: rgb(51, 51, 51); font-size: 14px; background-color: rgb(255, 255, 255);\"><img src=\"https://www.freecram.net/uploads/MCD-Level-1/014f9f4affb19b083e69f1ce1833b806.jpg\"></img></strong></p>",
+			"A__c": "Option D",
+			"B__c": "Option B",
+			"C__c": "Option A",
+			"D__c": "Option C",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/a-mule-project-contains-a-mysql-database-dependency-the-project-is-exported-from-anypoint-studio-so",
+			"Comment__c": "<p>https://www.jpnshiken.com/qa/MuleSoft.MCD-Level-1-JPN.v2023-10-18.q109/mule-%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AB%E3%81%AF-mysql-%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%81%8C%E5%90%AB%E3%81%BE%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99-%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AF-anypoint-studio-%E3%81%8B%E3%82%89%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E3%81%95%E3%82%8C-cloudhub-%E3%81%AB%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99-cloudh</p><p><br></p><p><br></p><p>プロジェクト・ソースを添付]を選択すると、展開可能なファイルを開いている Mule プロジェクトとしてワークスペースに再インポートするためにスタジオが必要とするメタデータを含めることができます。パッケージ化された JAR ファイルをスタジオのワークスペースに再びインポートするには、[プロ ジェクト・ソースを添付]オプションを選択したままにする必要があります。しかし、ここでの要件は、Cloudhubへのデプロイを成功させる最小のデプロイアブル・アーカイブを作成することです。したがって、このオプションは無視できます。</p><p>Include project module and dependenciesを選択する必要があります。</p><p>MuleランタイムエンジンでMuleアプリケーションを実行するために必要な実際のモジュールと外部依存関係があるためです。したがって、正解は以下のオプションのみを選択します。 2) プロジェクトモジュールと依存関係を含める MuleSoft Doc Ref : https://docs.mulesoft.com/studio/7.5/import-export-packages#exporting-a-studio-project-to-a-deployable-mule-application</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00iIAD"
+			},
+			"Question__c": "<p>What execution model is used by For Each and Batch Job scopes?</p>",
+			"A__c": "Both are single-threaded",
+			"B__c": "Batch Job is single-threaded and For Each Is multi-threaded",
+			"C__c": "For Each is single-threaded and Batch Job is multi-threaded",
+			"D__c": "Both are multi-threaded",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/what-execution-model-is-used-by-for-each-and-batch-job-scopes",
+			"Comment__c": "<p>最適な選択肢は <strong>&copy;: for each is single-threaded and batch job is multi-threaded</strong> です。</p><p>理由は以下の通りです：</p><ul><li><a href=\"https://docs.mulesoft.com/mule-runtime/latest/for-each-scope-concept\" target=\"_blank\"><strong>For Each スコープ</strong>は、ペイロードを要素に分割し、各要素を1つずつ処理します。これはシングルスレッドで実行されます<sup>1</sup></a>。</li><li><a href=\"https://docs.mulesoft.com/mule-runtime/latest/batch-processing-concept\" target=\"_blank\"><strong>Batch Job スコープ</strong>は、大量のデータをバッチ処理するために設計されており、マルチスレッドで実行されます<sup>2</sup></a>。</li></ul><p>このため、For Each はシングルスレッド、Batch Job はマルチスレッドで動作します。</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00nIAD"
+			},
+			"Question__c": "<p>An SLA based policy has been enabled in API Manager. What is the next step to configure the API proxy to enforce the new SLA policy?</p>",
+			"A__c": "Add new property placeholders and redeploy the API proxy",
+			"B__c": "Restart the API proxy to clear the API policy cache",
+			"C__c": "Add required headers to the RAML specification and redeploy the new API proxy",
+			"D__c": "Add new environment variables and restart the API proxy",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/an-sla-based-policy-has-been-enabled-in-api-manager-what-is-the-next-step-to-configure-the-api-proxy",
+			"Comment__c": "<p>https://www.friendsofmulesoft.com/en/news/exam_questions/exam_question_ms_21_027_for_mulesoft_certified_developer_mcd_level_1/70/</p><p><br></p><p>APIプロキシは、SLAベースのポリシーを有効にするためにRAML定義を消費する。新しいポリシーが作成されたので、RAML定義ファイルも変更する必要があり、APIプロキシは新しいSLAポリシーを認識し、それを実施するために、RAMLファイルを再度読み込む必要があります。</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a01F900001TF00sIAD"
+			},
+			"Question__c": "<p>How are query parameters dynamically passed to an outbound REST request using an HTTP Request operation?</p>",
+			"A__c": "As query parameters in the HTTP Request operation",
+			"B__c": "As URI parameters in the HTTP Request operation",
+			"C__c": "In the Mule event&#39;s payload",
+			"D__c": "As flow variables",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/MuleSoft.MCD-Level-1.v2022-06-30.q164/how-are-query-parameters-dynamically-passed-to-an-outbound-rest-request-using-an-http-request-operation",
+			"Comment__c": "<p>In General &gt; Request &gt; Query Parameters, click the plus icon (+) to add a parameter to a request. Type a name and value for the parameter or use a DataWeave expression to define the name and value.</p><p><img src=\"https://empathetic-otter-iockpq-dev-ed.trailblaze.file.force.com/servlet/rtaImage?eid=a01F900001TF00s&amp;feoid=00NF9000009ASvD&amp;refid=0EMF9000004OXSi\" alt=\"image.png\"></img></p><p><br></p><p>最適な選択肢は <strong>(a): as query parameters in the http request operation</strong> です。</p><p><a href=\"https://apidog.com/jp/blog/how-to-use-request-url-params/\" target=\"_blank\">理由： クエリパラメータは、HTTPリクエストのURLに含まれるパラメータで、通常はGETリクエストで使用されます。これにより、サーバーに追加の情報を渡すことができます。クエリパラメータは、URLの末尾に「?」で始まり、「&amp;」で区切られたキーと値のペアとして指定されます<sup>1</sup></a><a href=\"https://apidog.com/jp/blog/how-to-use-query-parameters/\" target=\"_blank\"><sup>2</sup></a>。</p><p>例えば、<code>https://example.com/api?param1=value1&amp;param2=value2</code> のように指定します。この方法は、HTTPリクエスト操作でクエリパラメータを動的に渡す際に一般的に使用されます。</p><p>他の選択肢について：</p><ul><li><strong>(b)</strong> URIパラメータはURLの一部として指定されますが、クエリパラメータとは異なります。</li><li><strong>&copy;</strong> Muleイベントのペイロードは、リクエストの本文に含まれるデータであり、クエリパラメータとは異なります。</li><li><strong>(d)</strong> フローバリアブルは、Muleフロー内で使用される変数であり、HTTPリクエストのクエリパラメータとして直接使用されるわけではありません。</li></ul><p>このように、クエリパラメータをHTTPリクエスト操作で動的に渡す方法として、選択肢(a)が最適です。</p><p><a href=\"https://apidog.com/jp/blog/how-to-use-request-url-params/\" target=\"_blank\"><sup>1</sup></a>: <a href=\"https://apidog.com/jp/blog/how-to-use-request-url-params/\" target=\"_blank\">Web開発：リクエストパラメータとURLパラメータ </a><a href=\"https://apidog.com/jp/blog/how-to-use-query-parameters/\" target=\"_blank\"><sup>2</sup></a>: <a href=\"https://apidog.com/jp/blog/how-to-use-query-parameters/\" target=\"_blank\">APIでクエリパラメータとは？クエリパラメータの使い方を解説</a></p>"
+		}
+	]
+}

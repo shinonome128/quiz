@@ -1,0 +1,63 @@
+<template>
+	<c-session-check onnotify={handleNotify}></c-session-check>
+	<lightning-card title={title}>
+		<div class="slds-grid slds-wrap">
+			<div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+				<c-statistics-tile
+					span="Today"
+					answers={answersToday}
+					accuracy={accuracyToday}
+				>
+				</c-statistics-tile>
+				<lightning-formatted-text
+					name="today"
+					class="slds-text-link slds-float_right"
+					value="view detail"
+					onclick={handleClick}
+				></lightning-formatted-text>
+			</div>
+			<div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+				<c-statistics-tile
+					span="Week"
+					answers={answersWeek}
+					accuracy={accuracyWeek}
+				>
+				</c-statistics-tile>
+				<lightning-formatted-text
+					name="week"
+					class="slds-text-link slds-float_right"
+					value="view detail"
+					onclick={handleClick}
+				></lightning-formatted-text>
+			</div>
+			<div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+				<c-statistics-tile
+					span="Month"
+					answers={answersMonth}
+					accuracy={accuracyMonth}
+				>
+				</c-statistics-tile>
+				<lightning-formatted-text
+					name="month"
+					class="slds-text-link slds-float_right"
+					value="view detail"
+					onclick={handleClick}
+				></lightning-formatted-text>
+			</div>
+			<div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+				<c-statistics-tile
+					span="All"
+					answers={answersAll}
+					accuracy={accuracyAll}
+				>
+				</c-statistics-tile>
+				<lightning-formatted-text
+					name="all"
+					class="slds-text-link slds-float_right"
+					value="view detail"
+					onclick={handleClick}
+				></lightning-formatted-text>
+			</div>
+		</div>
+	</lightning-card>
+</template>

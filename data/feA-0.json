@@ -1,0 +1,32 @@
+[
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["feA-1.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["feA-2.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["feA-3.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["feA-4.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["feA-5.json"]
+	},
+	{
+		"sobject": "Question__c",
+		"resolveRefs": false,
+		"files": ["feA-6.json"]
+	}
+]

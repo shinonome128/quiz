@@ -1,0 +1,15 @@
+.default-card {
+	padding: 8px;
+	background-color: #ffffff;
+	border-radius: 0.25rem;
+}
+
+.selected-card {
+	padding: 8px;
+	background-color: #8a8a8a;
+	border-radius: 0.25rem;
+}
+
+a {
+	color: inherit;
+}

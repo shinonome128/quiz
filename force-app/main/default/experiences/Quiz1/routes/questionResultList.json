@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "c67cabcc-38ae-400f-aa16-d95baf6c836b",
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "configurationTags" : [ ],
+  "devName" : "QuestionResult_List__c",
+  "id" : "58f45c70-1cf0-4fab-bfe7-af0668c379e1",
+  "label" : "QuestionResult List",
+  "objectApiName" : "QuestionResult__c",
+  "routeType" : "list-a01",
+  "type" : "route",
+  "urlPrefix" : "questionresult"
+}

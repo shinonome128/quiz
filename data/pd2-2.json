@@ -1,0 +1,2692 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1iAAH"
+			},
+			"Question__c": "<p>A developer has built a multi-page wizard using a single Custom Controller to query and update data. Users are complaining that the pages are loading slowly. What will improve performance? (Choose three.)</p>",
+			"A__c": "Setting the Apex Page attribute cache=true",
+			"B__c": "Reducing the view state",
+			"C__c": "Using selective queries",
+			"D__c": "Using actionRegion and rerender",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-has-built-a-multi-page-wizard-using-a-single-custom-controller-to-query-and-update-dat-a",
+			"Comment__c": "<p>cache はデフォルトtrue</p><p><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.pages.meta/pages/pages_compref_page.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.pages.meta/pages/pages_compref_page.htm</a></p><p><br></p><p>actionRegionはバックエンドに送る領域、rerenderは再描画を定義するので、パフォーマンス改善するわけではない</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1jAAH"
+			},
+			"Question__c": "The progress of an apex job queued is using the System.enqueueJob method and needs to be monitored.Which options are valid? (Choose two.)",
+			"A__c": "Query the AsyncApexJob record",
+			"B__c": "Use the Apex Jobs page in setup",
+			"C__c": "Query the Queueable Apex record",
+			"D__c": "Use the Scheduled Jobs page in setup",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-progress-of-an-apex-job-queued-is-using-the-system.enqueuejob-method-and-needs-to-be-monitored-which",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1kAAH"
+			},
+			"Question__c": "A company has many different unit test methods that create Account records as part of their data setup. A new required field was added to the Account and now all of the unit tests fail. What is the optimal way for a developer to fix the issue?",
+			"A__c": "Add the required field to the data setup for all of the unit tests.",
+			"B__c": "Create a TestDataFactory class that serves as the single place to create Accounts for unit tests and set the required field there.",
+			"C__c": "Change the required field to be a validation rule that excludes the System Administrator profile.",
+			"D__c": "Add a before insert trigger on Account to set the value of the required field.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-has-many-different-unit-test-methods-that-create-account-records-as-part-of-their-data-setup",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3NAAX"
+			},
+			"Question__c": "How would you test a web service?",
+			"A__c": "Use the @future annotation on the method",
+			"B__c": "Call the WebService interface",
+			"C__c": "Web Services do not need to be tested",
+			"D__c": "Create a class that implements the WebServiceMock interface",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-would-you-test-a-web-service/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3OAAX"
+			},
+			"Question__c": "The Bulk API __________.",
+			"A__c": "Is based on REST principles and is optimized for loading or deleting large sets of data. You can use it to query, queryAll, insert, update, upsert, or delete many records asynchronously by submitting batches",
+			"B__c": "Provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce. Its advantages include ease of integration and development, and it’s an excellent choice of technology for use with mobileapplications and web projects",
+			"C__c": "Is used to create, retrieve, update or delete records, such as accounts, leads, and custom objects, and allows you to maintain passwords, perform searches, and much more",
+			"D__c": "Is used to retrieve, deploy, create, update, or delete customizations for your org. The most common use is to migrate changes from a sandbox or testing org to your production environment",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/the-bulk-api-__________/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3PAAX"
+			},
+			"Question__c": "REST uses __________.",
+			"A__c": "The HTTP class",
+			"B__c": "The HTTPRequest class",
+			"C__c": "The HTTPResponse class",
+			"D__c": "All of the above",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/rest-uses-__________/",
+			"Comment__c": "<p>HTTPクラス</p><p>HTTPRequestクラス</p><p>HTTPResponseクラス</p><p>全部つかって、RESTサービ叩く</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_restful_http.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3QAAX"
+			},
+			"Question__c": "Which of the following object types can be used with a Web Service?",
+			"A__c": "Maps",
+			"B__c": "Sets",
+			"C__c": "Pattern objects",
+			"D__c": "Matcher objects",
+			"E__c": "Lists",
+			"F__c": "Exception objects",
+			"Answer__c": "E",
+			"URL__c": "https://vceguide.com/which-of-the-following-object-types-can-be-used-with-a-web-service/",
+			"Comment__c": "<p>SOAP古いのでListぐらいしか使えない</p><p>https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_web_services_methods_considerations.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3RAAX"
+			},
+			"Question__c": "What is the transaction limit on the max execution time?",
+			"A__c": "5 minutes",
+			"B__c": "10 minutes",
+			"C__c": "15 minutes",
+			"D__c": "20 minutes",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-max-execution-time/",
+			"Comment__c": "<p>10分</p><p><br></p><p>ロールバックとか発生してもカウントアップ</p><p>再現させるのが逆に難しいらしい</p><p>https://salesforce.stackexchange.com/questions/217078/what-exactly-is-execution-time-limit-of-10-minutes#:~:text=1%20Answer&amp;text=is%20not%20useful-,Show%20activity%20on%20this%20post.,literally%20in%20wall%2Dclock%20time.</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3SAAX"
+			},
+			"Question__c": "What is the transaction limit on the recursive trigger depth?",
+			"A__c": "10",
+			"B__c": "17",
+			"C__c": "16",
+			"D__c": "3",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-recursive-trigger-depth/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3TAAX"
+			},
+			"Question__c": "The Metadata API __________.",
+			"A__c": "Is based on REST principles and is optimized for loading or deleting large sets of data. You can use it to query, queryAll, insert, update, upsert, or delete many records asynchronously by submitting batches",
+			"B__c": "Provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce. Its advantages include ease of integration and development, and it’s an excellent choice of technology for use with mobileapplications and web projects",
+			"C__c": "Is used to create, retrieve, update or delete records, such as accounts, leads, and custom objects, and allows you to maintain passwords, perform searches, and much more",
+			"D__c": "Is used to retrieve, deploy, create, update, or delete customizations for your org. The most common use is to migrate changes from a sandbox or testing org to your production environment",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/the-metadata-api-__________/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3UAAX"
+			},
+			"Question__c": "A developer is building a Visualforce page that interacts with external services.Which interface should the developer implement to test this functionality? (Choose two.)",
+			"A__c": "HTTPCalloutMock",
+			"B__c": "HTTPRequestMock",
+			"C__c": "HTTPResponseMock",
+			"D__c": "StaticResourceCalloutMock",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/which-interface-should-the-developer-implement-to-test-this-functionality/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3VAAX"
+			},
+			"Question__c": "A developer has a Debug method within a class, which is invoked hundreds of times.What is the optimal functionality in the Developer Console to count the number of calls made to the method?",
+			"A__c": "The &quot;Execution Log&quot; Panel",
+			"B__c": "The &quot;Execution Stack&quot; Panel",
+			"C__c": "The &quot;Executed Units&quot; tab under the Execution Overview Panel",
+			"D__c": "The &quot;Execution Tree&quot; tab under the Stack Tree Panel",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-functionality-in-the-developer-console-to-count-the-number-of-calls-made-to-the-method/",
+			"Comment__c": "<p>開発者コンソール開いて、ログをひらく</p><p>デバッグメニューにある、パースペクティブで切り替え</p><p>ExcutionStackで呼び指したメソッドが一覧表示される</p><p>https://help.salesforce.com/s/articleView?id=sf.code_dev_console_view_system_log.htm&amp;type=5</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1lAAH"
+			},
+			"Question__c": "An org has a requirement that an Account must always have one and only one Contact listed as Primary. So selecting one Contact will de-select any others. The client wants a checkbox on the Contact called &#39;Is Primary&#39; to control this feature. The client also wants to ensure that the last name of every Contact is stored entirely in uppercase characters. What is the optimal way to implement these requirements?",
+			"A__c": "write a Validation Rule on the Contact for the Is Primary logic and a before update trigger on Contact for the last name logic.",
+			"B__c": "write a single trigger on Contact for both after update and before update and callout to helper classes to handle each set of logic.",
+			"C__c": "Write an after update trigger on Contact for the Is Primary logic and a separate before update trigger on Contact for the last name logic.",
+			"D__c": "write an after update trigger on Account for the Is Primary logic and a before update trigger on Contact for the last name logic.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/an-org-has-a-requirement-that-an-account-must-always-have-one-and-only-one-contact-listed-as-primary",
+			"Comment__c": "<p>ヘルパにロジック書く、after update でプライマリロジックをよんで、before updateで大文字ロジックを呼ぶ</p><p><a href=\"https://vceguide.com/what-is-the-optimal-way-to-implement-these-requirements/\" target=\"_blank\">https://vceguide.com/what-is-the-optimal-way-to-implement-these-requirements/</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1mAAH"
+			},
+			"Question__c": "Which two relationship queries use the proper syntax? Choose 2 answers",
+			"A__c": "SELECT Name, (SELECT LastName FROM Contacts) FROM Account",
+			"B__c": "SELECT Id, Name, Account __<a href=\"https://r.Name\" target=\"_blank\">r.Name</a> FROM Contact WHERE Account r.Industry = &#39;Media&#39;",
+			"C__c": "SELECT Id, Name, <a href=\"https://Account.Name\" target=\"_blank\">Account.Name</a> FROM Contact WHERE Account.Industry = &#39;Media&#39;",
+			"D__c": "SELECT Name, (SELECT LastName FROM Contacts__r) FROM Account",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-two-relationship-queries-use-the-proper-syntax-choose-2-answers",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1nAAH"
+			},
+			"Question__c": "Refer to the code snippet below\n<br><br>1\tpublic void createChildRecord(String externalIdentifer) {\n<br>2\t\tAccount parentAccount;\n<br>3\n<br>4\t\tContact newContact = new Contact();\n<br>5\t\tnewContact.Account = parentAccount;\n<br>6\n<br>7\t\tinsert newContact;\n<br>8\t}\n<br><br><br>As part of an Integration development effort, a developer is tasked to create an Apex method mat solely relies on the use of foreign identifiers In order to relate new contact records to existing Accounts in Salesforce. The account object contains a field marked as an external ID, the API Name of this field is Legacy_Id_c.What Is the most efficient way to instantiate the parentAccount: variable on line 02 to ensure the newly created contact is properly related to the Account?\n<br><br>A)\n<br>Account parentAccount = [SELECT Id FROM Account WHERE Legacy_Id__c = :externalIdentifer].Id;\n<br><br>B)\n<br>Account parentAccount = new Account(Legacy_Id__c = :externalIdentifer);\n<br><br>C)\n<br>Account parentAccount = [SELECT Id FROM Account WHERE Legacy_Id__c = :externalIdentifer];\n<br><br>D)\n<br>Account parentAccount = new Account();\n<br><a href=\"https://parentAccount.Id\" target=\"_blank\">parentAccount.Id</a> = externalIdentifer;",
+			"A__c": "Option D",
+			"B__c": "Option C",
+			"C__c": "Option B",
+			"D__c": "Option A",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/refer-to-the-code-snippet-below-exhibit-as-part-of-an-integration-development-effort-a-developer",
+			"Comment__c": "<p><a href=\"https://www.certshero.com/salesforce/pdii/practice-test\" target=\"_blank\">https://www.certshero.com/salesforce/pdii/practice-test</a></p><p>実際はインスタンス化できない</p><p>​</p><p>速度が遅いので内部にクエリしてるのは不正解</p><p>​</p><p>残りは何だろね？行けそうな気もするけどね​</p><p>​</p><p>​</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1oAAH"
+			},
+			"Question__c": "How can a developer efficiently incorporate multiple JavaScript libraries, such as JQuery and MomenUS, in a Lightning Component?",
+			"A__c": "Join multiple assets from a static resource.",
+			"B__c": "Use CONs with script attributes",
+			"C__c": "Implement the libraries in separate helper files.",
+			"D__c": "Use JavaScript remoting and script tags.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/how-can-a-developer-efficiently-incorporate-multiple-javascript-libraries-such-as-jquery-and-momenus",
+			"Comment__c": "<p>スタティックリソースで混ぜ込む​</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1pAAH"
+			},
+			"Question__c": "A developer needs test data for Apex test classes.What can the developer use to provide test data to the test methods? (Choose two.)",
+			"A__c": "myDataFactory.createTestRecords (10)",
+			"B__c": "<p>List&lt;sObject&gt; Is = Test.loadData(Lead.sObjectType, $Resource + &#39;myTestLeads&#39;);</p>",
+			"C__c": "<p>List&lt;sObject&gt; Is = Test.loadData(Lead.sObjectType, &#39;myTestLeads&#39;);</p>",
+			"D__c": "Database.createTestRecords (10)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-needs-test-data-for-apex-test-classes-what-can-the-developer-use-to-provide-test-data-to",
+			"Comment__c": "<a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.230.0.apexcode.meta/apexcode/apex_testing_load_data.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.230.0.apexcode.meta/apexcode/apex_testing_load_data.htm</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1qAAH"
+			},
+			"Question__c": "<p>@isTest</p><p>static void testAccountUpdate() {</p><p class=\"ql-indent-1\">Account acct = new Account(Name = &#39;Test&#39;);</p><p class=\"ql-indent-1\">acct.integrationUpdated_c = false;</p><p class=\"ql-indent-1\">insert acct;</p><p class=\"ql-indent-1\">CalloutUtil.sendAccountUpdate(acct.Id);</p><p class=\"ql-indent-1\">Account acctAfter = [SELECT Id, IntegrationUpdated_c FROM Account WHERE Id = : acct.Id][0];</p><p class=\"ql-indent-1\">System.assert(true, acctAfter.Integration_Updated_c);</p><p>  }</p><p><br></p><p>The test method above calls a web service that updates an external system with Account information and sets the Account&#39;s Integration_Updated__c checkbox to True when it completes. The test fails to execute and exits with an error: &quot;Methods defined as TestMethod do not support Web service callouts.&quot; What is the optimal way to fix this?</p>",
+			"A__c": "Add Test.startTest() before and Test.setMock and Test.stopTest() after CalloutUtil.sendAccountUpdate.",
+			"B__c": "Add Test.startTest() and Test.setMock before and Test.stopTest() after CalloutUtil.sendAccountUpdate.",
+			"C__c": "Add Test.startTest() before and Test.stopTest() after CalloutUtil.sendAccountUpdate.",
+			"D__c": "Add if (!Test.isRunningTest()) around CalloutUtil.sendAccountUpdate.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/istest-static-void-testaccountupdate-account-acct-new-account-name-test-acct.integration",
+			"Comment__c": "<a href=\"https://vceguide.com/what-is-the-optimal-way-to-fix-this/\" target=\"_blank\">https://vceguide.com/what-is-the-optimal-way-to-fix-this/</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1rAAH"
+			},
+			"Question__c": "If the &quot;PageReference.setRedirect&quot; Apex function is set to True, what type of request is made?",
+			"A__c": "Postback request",
+			"B__c": "If PageReference points to the same controller and subset of extensions, postback request, otherwise get request",
+			"C__c": "Get request",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/if-the-pagereference.setredirect-apex-function-is-set-to-true-what-type-of-request-is-made",
+			"Comment__c": "<p>trueの場合</p><p>クライアント側のリダイレクトでリダイレクトが実行</p><p>get request を実行、postでビューステートを更新</p><p><br></p><p><br></p><p>falseの場合</p><p>リダイレクトはサーバ側の転送で実行</p><p>これは参照先ページが同じコントローラを使用し、参照元ページで使用される拡張の適切なサブセットを含む場合にのみビューステートを維持</p><p><br></p><p><a href=\"https://www.examtopics.com/discussions/salesforce/view/61234-exam-certified-platform-developer-ii-topic-1-question-191/\" target=\"_blank\">https://www.examtopics.com/discussions/salesforce/view/61234-exam</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3WAAX"
+			},
+			"Question__c": "What is a consideration when testing batch Apex? (Choose two.)",
+			"A__c": "<p>Make sure that the number of records inserted is less than or equal to the batch size of 200</p>",
+			"B__c": "Test methods must call the batch execute() method once",
+			"C__c": "Test methods must use the @isTest (SeeAllData=true) annotation",
+			"D__c": "Test methods must run the batch between Test.startTest() and Test.stopTest()",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/what-is-a-consideration-when-testing-batch-apex/",
+			"Comment__c": "<p>Aは200未満ではなく、200以下が正確、問題文を修正</p><p>BのExcuteメソッドを一回よびださなければならないではなく、テストメソッドではExcuteメソッドを一回だけ呼び出す仕様、自動的に</p><p>明示的にexcuteするわけではないので不正解</p><p>Aの文言をトレールヘッド文言に合わせて、ADが正解</p><p><br></p><p>https://trailhead.salesforce.com/en/content/learn/modules/asynchronous_apex/async_apex_batch</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3XAAX"
+			},
+			"Question__c": "A developer needs to design a custom object that will be integrated into a back-end system.What should the developer do to ensure good data quality and to ensure that data imports, integrations, and searches perform well? (Choose two.)",
+			"A__c": "Configure a custom field as unique",
+			"B__c": "Configure a custom field as indexed",
+			"C__c": "Configure a custom field as external ID",
+			"D__c": "Configure a custom field as Salesforce ID",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://vceguide.com/what-should-the-developer-do-to-ensure-good-data-quality-and-to-ensure-that-data-imports-integrations-and-searches-perform-well/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3YAAX"
+			},
+			"Question__c": "A developer encounters an error that states that the Apex heap size is exceeded.Which technique may reduce heap size?",
+			"A__c": "Add the transient keyword to the variable definition",
+			"B__c": "Move the variable definition inside the scope of the function",
+			"C__c": "Use static variables instead of instance variables",
+			"D__c": "Use SOQL for loops instead of standard SOQL queries",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/which-technique-may-reduce-heap-size/",
+			"Comment__c": "<p>引っ掛け問題、Visualforceの問題ではない</p><p>一般実装の問題ならsoql for loop を使いヒープサイズを落とすのが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3ZAAX"
+			},
+			"Question__c": "A company wants to incorporate a third-party web service to set the Address fields when an Account is inserted, if they have not already been set.What is the optimal way to achieve this?",
+			"A__c": "Create a Process, call an Apex @future(callout=true) method from it, and make the callout from that Apex method.",
+			"B__c": "Create a Process, call an Apex @InvocableMethod from it, and make the callout from that Apex method.",
+			"C__c": "Create an after insert trigger, call an Apex @InvocableMethod method from it, and make the callout from that Apex method.",
+			"D__c": "Create an after insert trigger, call an @future(callout=true) method from it, and make the callout from that Apex method.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-way-to-achieve-this/",
+			"Comment__c": "<p>一見、BのプロセスとDのトリガーで両方できそう</p><p>自動化の優先順位でBが正解に見えるが</p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(85, 85, 85);\">@InvocableMethod </strong></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 14px; color: rgb(85, 85, 85);\">callout=trueがついてないのでコールアウトできない</strong></p><p>なのでDのトリガーが正解、callout=trueがついてるので</p><p><br></p><dl><dt>callout</dt><dd>callout 修飾子は、メソッドが外部システムをコールするかどうかを識別します。メソッドが外部システムをコールする場合は、<span style=\"color: rgb(24, 24, 24);\"><samp>callout=true</samp></span> を追加します。デフォルト値は <span style=\"color: rgb(24, 24, 24);\"><samp>false</samp></span> です。</dd></dl><p><br></p><p>https://developer.salesforce.com/docs/atlas.ja-jp.232.0.apexcode.meta/apexcode/apex_classes_annotation_InvocableMethod.htm</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3aAAH"
+			},
+			"Question__c": "A company represents their customers as Accounts in Salesforce. All customers have a unique Customer_Number__c that is unique across all of the company’s systems. They also have a custom Invoice__c object, with a Lookup to Account, to represent invoices that are sent out from their external system. This company wants to integrate invoice data back into Salesforce so Sales Reps can see when a customer is paying their bills on time.What is the optimal way to implement this?",
+			"A__c": "Ensure Customer_Number__c is an External ID and that a custom field Invoice_Number__c is an External ID and Upsert invoice data nightly.",
+			"B__c": "Query the Account Object upon each call to insert invoice data to fetch the Salesforce ID corresponding to the Customer Number on the invoice.",
+			"C__c": "Create a cross-reference table in the custom invoicing system with the Salesforce Account ID of each Customer and insert invoice data nightly.",
+			"D__c": "Use Salesforce Connect and external data objects to seamlessly import the invoice data into Salesforce without custom code.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-way-to-implement-this-3/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3bAAH"
+			},
+			"Question__c": "A company has a native iOS app for placing orders that needs to connect to Salesforce to retrieve consolidated information from many different objects in a JSON format.Which is the optimal method to implement this in Salesforce?",
+			"A__c": "Apex REST Web Service",
+			"B__c": "Apex SOAP Web Service",
+			"C__c": "Apex SOAP Callout",
+			"D__c": "Apex REST Callout",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/which-is-the-optimal-method-to-implement-this-in-salesforce/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3cAAH"
+			},
+			"Question__c": "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration is periodically reporting errors.Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
+			"A__c": "Remove the Apex Class from the Integration User’s Profile.",
+			"B__c": "Use the Database method with allOrNone set to False.",
+			"C__c": "Use a Try/Catch block after the insert statement.",
+			"D__c": "Deactivate the Trigger before the Integration runs.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/which-change-should-the-developer-make-to-ensure-the-integration-is-not-affected-with-minimal-impact-to-business-logic/",
+			"Comment__c": "<p>トリガーを無効化する</p><p>外部連携が​定期的なので</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1sAAH"
+			},
+			"Question__c": "<p>A custom Aura component, AddressValidation.cmp,exists in the system.</p><p>The Salesforce admin for the organization is unable to find and select the component while creating a quick action for the Account sObject.</p><p>What should the developer do to ensure that AddressValidation.cmp can be selected when creating a quick action?</p>",
+			"A__c": "Ensure the component implements the force:hasRecordedId interface.",
+			"B__c": "Ensure the component implements the force:lighningQuickAction.interface.",
+			"C__c": "Ensure the access attribute of the aura:component tag is st t Global.",
+			"D__c": "Ensure the component implements the lightning:actionOverride interface.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-custom-aura-component-addressvalidation-cmp-exists-in-the-system-the-salesforce-admin-for-the-organiza",
+			"Comment__c": "<a href=\"https://developer.salesforce.com/docs/component-library/bundle/force:lightningQuickAction/documentation\" target=\"_blank\">https://developer.salesforce.com/docs/component-library/bundle/force:lightningQuickAction/documentation</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1tAAH"
+			},
+			"Question__c": "A developer is writing code that requires making callouts to an external web service. Which scenario necessitates that the callout be made in an @future method?",
+			"A__c": "The callout could take longer than 60 seconds to complete.",
+			"B__c": "over 10 callouts will be made in a single transaction.",
+			"C__c": "The callouts will be made in an Apex Test class.",
+			"D__c": "The callouts will be made in an Apex Trigger.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-is-writing-code-that-requires-making-callouts-to-an-external-web-service-which-scenario",
+			"Comment__c": "<p>遅延がある、コール数が多いから@futureアノテーション付与するわけではない</p><p>同期、非同期のコールアウトのタイムアウト値は120秒</p><p>同期、非同期のコールアウト数の最大値は100</p><p>https://developer.salesforce.com/docs/atlas.ja-jp.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_apexgov.htm</p><p><br></p><p><span style=\"\">テストで@futureは使わない</span></p><p><br></p><p>消去方でトリガー</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1uAAH"
+			},
+			"Question__c": "A company has a web page that needs to get Account record information, given its Salesforce record ID, from JavaScript on the page and then display it. Which method of integration is optimal?",
+			"A__c": "REST API",
+			"B__c": "SOAP API",
+			"C__c": "Apex SOAP Web Service",
+			"D__c": "Apex REST Web Service",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-has-a-web-page-that-needs-to-get-account-record-information-given-its-salesforce-record-id",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1vAAH"
+			},
+			"Question__c": "A Developer wishes to improve runtime performance of Apex calls by caching results on the client. What is the best way to implement this?",
+			"A__c": "Decorate the server-side method with @AuraEnabled(storable=true).",
+			"B__c": "Set a cookie in the browser for use upon return to the page.",
+			"C__c": "Call the setStorable() method on the action in the JavaScript client-side code.",
+			"D__c": "Decorate the server-side method with @AuraEnabled(cacheable=true).",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-wishes-to-improve-runtime-performance-of-apex-calls-by-caching-results-on-the-client-what",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1wAAH"
+			},
+			"Question__c": "<p>A Lightning Component has a section that displays some information about an Account and it works well on the desktop, but users have to scroll horizontally to see the Description field output on their mobile devices and tablets.</p><p><br></p><p>&lt;lightning:layout multipleRows=&quot;false&quot;&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem size=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Name}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem size=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Description_c}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p>&lt;/lightning:layout&gt;</p><p><br></p><p>Which option has the changes to make the component responsive for mobile and tablet devices?</p>",
+			"A__c": "<p>&lt;lightning:layout multiplerows=&quot;false&quot;&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layout Item size=&quot;12&quot; largeDeviceSizes=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.tec.Name}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem size=&quot;12&quot; largeDeviceSize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.tec.Description}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p>&lt;/lightning:layout&gt;</p>",
+			"B__c": "<p>&lt;lightning:layout multipleRow=&quot;false&quot;&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem smallDevicesize=&quot;12&quot; largeDeviceSize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Name}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem smallDeviceSize=&quot;12&quot; largeDevicesize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Descriptionc}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p>&lt;/lightning:layout&gt;</p>",
+			"C__c": "<p>&lt;lightning:layout multipleRow=&quot;true&quot;&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem size=&quot;12&quot; largeDeviceSize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Name}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem size=&quot;12&quot; largeDevicesize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Description_c}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p>&lt;/lightning:layout&gt;</p>",
+			"D__c": "<p>&lt;lightning:layout multipleRow=&quot;true&quot;&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem smallDeviceSize=&quot;12&quot; largeDeviceSize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Name}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p class=\"ql-indent-1\">&lt;lightning:layoutItem smallDevicesize=&quot;12&quot;largeDevicesize=&quot;6&quot;&gt;</p><p class=\"ql-indent-2\">{!v.rec.Description}</p><p class=\"ql-indent-1\">&lt;/lightning:layoutItem&gt;</p><p>&lt;/lightning:layout&gt;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-lightning-component-has-a-section-that-displays-some-information-about-an-account-and-it-works-well",
+			"Comment__c": "<p>sizeは画面12分割したときの表示数</p><p>https://higashinopanda.com/lwcinput2rows/</p><p><br></p><p>sizeは全デバイスに適用</p><p>largeはデスクトップ、mediumはタブレット、smallはスマホ</p><p>https://developer.salesforce.com/docs/component-library/bundle/lightning-layout-item/specification</p><p><br></p><p>sizeを変更すれば、タブレットとモバイルが変更されるのでCが正解</p><p><br></p><p>サイズ6のときに、タブレットとモバイルで横にスライドしないと詳細が見れない</p><p>タブレットともモバイルのサイズを12にして画面一杯に表示させる方法が正解</p><p><br></p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1xAAH"
+			},
+			"Question__c": "An Apex trigger creates an Order__c record every time an Opportunity is won by a Sales Rep. Recently the trigger is creating two orders. What is the optimal method for a developer to troubleshoot this?",
+			"A__c": "add system.debug() statements to the code and use the Developer Console logs to trace the code.",
+			"B__c": "Run the Apex Test Classes for the Apex trigger to ensure the code still has sufficient code coverage.",
+			"C__c": "Set up debug logging for every Sales Rep, then monitor the logs for errors and exceptions.",
+			"D__c": "Turn off all Workflow Rules, then turn them on one at time to see which one causes the error.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/an-apex-trigger-creates-an-order__c-record-every-time-an-opportunity-is-won-by-a-sales-rep-recently",
+			"Comment__c": "<p>営業担当者に全員にデバッグは現実的でないので、コードにデバッグしこんで、開発者コンソールを見る</p><p>これも、現実的でないとおもうんだけどね、</p><p>https://vceguide.com/what-is-the-optimal-method-for-a-developer-to-troubleshoot-this/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3dAAH"
+			},
+			"Question__c": "An environment has two Apex Triggers: an after-update trigger on Account and an after-update trigger on Contact. The Account after-update trigger fires whenever an Account’s address is updated, and it updates every associated Contact with that address. The Contact after-update trigger fires on every edit, and it updates every Campaign Member record related to the Contact with the Contact’s state.Consider the following: A mass update of 200 Account records’ addresses, where each Account has 50 Contacts. Each Contact has 1 Campaign Member. This means there are 10,000 Contact records across the Accounts and 10,000 Campaign Member records across the contacts.What will happen when the mass update occurs?",
+			"A__c": "The mass update will fail, since the two triggers fire in the same context, thus exceeding the number of records processed by DML statements.",
+			"B__c": "There will be no error, since each trigger fires within its own context and each trigger does not exceed the limit of the number of records processed by DML statements.",
+			"C__c": "There will be no error, since the limit on the number of records processed by DML statements is 50,000.",
+			"D__c": "The mass update of Account address will succeed, but the Contact address updates will fail due to exceeding number of records processed by DML statements.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-will-happen-when-the-mass-update-occurs/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3eAAH"
+			},
+			"Question__c": "Universal Containers wants to use a Customer Community with Customer Community Plus licenses so their customers can track how many containers they are renting and when they are due back. Many of their customers are global companies with complex Account hierarchies, representing various departments within the same organization. One of the requirements is that certain community users within the same Account hierarchy be able to see several departments’ containers, based on a junction object that relates the Contact to the various Account records that represent the departments.Which solution solves these requirements?",
+			"A__c": "A Visualforce page that uses a Custom Controller that specifies without sharing to expose the records",
+			"B__c": "A Custom List View on the junction object with filters that will show the proper records based on owner",
+			"C__c": "A Custom Report Type and a report Lightning Component on the Community Home Page",
+			"D__c": "An Apex Trigger that creates Apex Managed Sharing records based on the junction object’s relationships",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/which-solution-solves-these-requirements/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3fAAH"
+			},
+			"Question__c": "Universal Containers wants to use an external Web Service provided by a third-party vendor to validate that shipping and billing addresses are correct. The current vendor uses basic password authentication, but Universal Containers might switch to a different vendor who uses OAuth.What would allow Universal Containers to switch vendors without updating the code to handle authentication?",
+			"A__c": "Custom Metadata",
+			"B__c": "Custom Setting (List)",
+			"C__c": "Dynamic Endpoint",
+			"D__c": "Named Credential",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-would-allow-universal-containers-to-switch-vendors-without-updating-the-code-to-handle-authentication/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3gAAH"
+			},
+			"Question__c": "What is the transaction limit on the number of Apex jobs added to the queue?",
+			"A__c": "100",
+			"B__c": "150",
+			"C__c": "50",
+			"D__c": "200",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-number-of-apex-jobs-added-to-the-queue/",
+			"Comment__c": "<p>キューアブルでキューイングできる最大数は50</p><p><br></p><p><span style=\"font-size: 14px; color: rgb(11, 11, 11);\">Maximum number of Apex jobs added to the queue with </span><span style=\"font-size: 14px;\"><samp>System.enqueueJob</samp></span></p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_apexgov.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3hAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of records per DML statement?",
+			"A__c": "5,000",
+			"B__c": "20,000",
+			"C__c": "50,000",
+			"D__c": "10,000",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-for-the-number-of-records-per-dml-statement/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3iAAH"
+			},
+			"Question__c": "What is the transaction limit on the number of callouts?",
+			"A__c": "100",
+			"B__c": "150",
+			"C__c": "50",
+			"D__c": "200",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-number-of-callouts/",
+			"Comment__c": "<p>100コールアウトまで</p><p><br></p><p>https://www.google.com/search?q=What+is+the+transaction+limit+on+the+number+of+callouts%3F&amp;rlz=1C5CHFA_enJP991JP992&amp;sourceid=chrome&amp;ie=UTF-8</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_callouts_timeouts.htm#:~:text=A%20single%20Apex%20transaction%20can,be%20defined%20for%20each%20callout.</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3jAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of records for SOSL?",
+			"A__c": "20",
+			"B__c": "2,000",
+			"C__c": "100 (synchronous), 200 (async)",
+			"D__c": "200 (synchronous), 100 (async)",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-for-the-number-of-records-for-sosl/",
+			"Comment__c": "<table class=\"ql-table-blob\" style=\"width: 652px; color: rgb(189, 193, 198); font-family: arial, sans-serif; font-size: 14px; background-color: rgb(32, 33, 36);\"><tbody><tr class=\"ztXv9\" style=\"\"><th colspan=\"1\" rowspan=\"1\" style=\"height: 26px; font-weight: bolder;\">Overview</th><th colspan=\"1\" rowspan=\"1\" style=\"height: 26px; font-weight: bolder;\">Governor Limit</th></tr><tr style=\"\"><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">Total number of records retrieved by a single SOSL query</td><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\"><b>2000</b></td></tr><tr style=\"\"><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">Total number of records that were retrieved by SOQL queries</td><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">50000</td></tr><tr style=\"\"><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">Total number of records retrieved by Database.getQueryLocator</td><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">10000</td></tr><tr style=\"\"><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">Salesforce Governor Limits for heap size total</td><td colspan=\"1\" rowspan=\"1\" style=\"height: 26px;\">6 MB/12 MB</td></tr></tbody></table><p><br></p><p><br></p><p>https://www.google.com/search?q=What+is+the+transaction+limit+for+the+number+of+records+for+SOSL%3F&amp;rlz=1C5CHFA_enJP991JP992&amp;sourceid=chrome&amp;ie=UTF-8</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3kAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of DML statements allowed?",
+			"A__c": "20",
+			"B__c": "2,000",
+			"C__c": "100 (synchronous), 200 (async)",
+			"D__c": "200 (synchronous), 100 (async)",
+			"E__c": "150",
+			"F__c": null,
+			"Answer__c": "E",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-for-the-number-of-dml-statements-allowed/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3lAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of SOSL queries?",
+			"A__c": "20",
+			"B__c": "2,000",
+			"C__c": "100 (synchronous), 200 (async)",
+			"D__c": "200 (synchronous), 100 (async)",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-for-the-number-of-sosl-queries/",
+			"Comment__c": "<p>20</p><p>SOSLは便利だけど少ない</p><p>https://onilab.com/blog/governor-limits-salesforce/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3mAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of records for SOQL queries?",
+			"A__c": "5,000",
+			"B__c": "20,000",
+			"C__c": "50,000",
+			"D__c": "10,000",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-for-the-number-of-records-for-soql-queries/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3nAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of records using QueryLocator?",
+			"A__c": "50,000",
+			"B__c": "50,000,000",
+			"C__c": "100,000",
+			"D__c": "5,000,000",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-for-the-number-of-records-using-querylocator/",
+			"Comment__c": "<p>5,000,000</p><p><br></p><table class=\"ql-table-blob\" style=\"border-width: 0px; border-style: solid; border-color: rgb(226, 232, 240); display: block; color: rgb(11, 11, 11); font-size: 16px;\"><tbody class=\"tbody\" style=\"border-width: 0px; border-style: solid; border-color: rgb(226, 232, 240);\"><tr style=\"border-width: 0px; border-style: solid; border-color: rgb(226, 232, 240); height: 50px;\"><td colspan=\"1\" rowspan=\"1\" class=\"entry\" style=\"\">Maximum number of records returned for a Batch Apex query in <samp class=\"codeph apex_code\" style=\"border-width: 0px; border-style: solid; border-color: rgb(226, 232, 240); color: rgb(24, 24, 24);\">Database.QueryLocator</samp></td><td colspan=\"1\" rowspan=\"1\" class=\"entry\" style=\"\">50 million</td></tr></tbody></table><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.234.0.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_apexgov.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1yAAH"
+			},
+			"Question__c": "Which statement should be used to allow some of the records in a list of records to be inserted if others fail to be inserted?",
+			"A__c": "insert records",
+			"B__c": "Database.insert(records, true)",
+			"C__c": "Database.insert(records, false)",
+			"D__c": "insert (records, false)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-statement-should-be-used-to-allow-some-of-the-records-in-a-list-of-records-to-be-inserted-if-others",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK1zAAH"
+			},
+			"Question__c": "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once.What can a developer do to help alleviate such issues?",
+			"A__c": "Use the standard Account List controller and implement pagination.",
+			"B__c": "Use JavaScript remoting to query the accounts.",
+			"C__c": "Upload a third-party data table library as a static resource.",
+			"D__c": "Use the transient keyword in the Apex code when querying the Account records.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/there-are-user-complaints-about-slow-render-times-of-a-custom-data-table-within-a-visualforce-page-that",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK20AAH"
+			},
+			"Question__c": "The Account edit button must be overridden in an org where a subset of users still use Salesforce Classic. The org already has a Lightning Component that will do the work necessary for the override, and the client wants to be able to reuse it, How should a developer implement this?",
+			"A__c": "Override the edit button for both Lightning and Classic with a Lightning Component.",
+			"B__c": "Override the edit button for Lightning with a Lightning Page; and for Classic, override the edit button with a Visualforce pag That contains the Lightning Component.",
+			"C__c": "Override the edit button for Lightning with a Lightning Component; and for Classic, override the edit button with a Visualforce page that contains the Lightning Component.",
+			"D__c": "the edit button for both Lightning and Classic with a new Visualforce page.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-account-edit-button-must-be-overridden-in-an-org-where-a-subset-of-users-still-use-salesforce-classic",
+			"Comment__c": "LEXはLWCでEditボタンを上書き、ClassicはVisualforceでLWCをラップして上書き"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK21AAH"
+			},
+			"Question__c": "if the &quot;PageReference.setRedirect&quot; Apex function is set to False, what type of request is made?",
+			"A__c": "Postback request",
+			"B__c": "If PageReference points to the same controller and subset of extensions, postback request, otherwise get request",
+			"C__c": "Get request",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/if-the-pagereference.setredirect-apex-function-is-set-to-false-what-type-of-request-is-made",
+			"Comment__c": "フォームにPOSTリクエストすることがポストバック<br><a href=\"https://www.google.com/search?q=%E3%83%9D%E3%82%B9%E3%83%88%E3%83%90%E3%83%83%E3%82%AF\" target=\"_blank\">https://www.google.com/search?q=%E3%83%9D%E3%82%B9%E3%83%88%E3%83%90%E3%83%83%E3%82%AF</a><br>PageReference.setRedirect(false)は同一コントローラー利用、値を引き継ぐ<br><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_System_PageReference_setRedirect.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_System_PageReference_setRedirect.htm</a><br><a href=\"https://tyoshikawa1106.hatenablog.com/entry/2013/05/03/234647\" target=\"_blank\">https://tyoshikawa1106.hatenablog.com/entry/2013/05/03/234647</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK22AAH"
+			},
+			"Question__c": "The Metadata API___________.",
+			"A__c": "Is based on REST principles and is optimized for loading or deleting large sets of data. You can use it to query, queryAII, insert, update, upsert, or delete many records asynchronously by submitting batches",
+			"B__c": "Provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce. Its advantages include ease of integration and development, and it&#39;s an excellent choice of technology for use with mobile applications and web projects",
+			"C__c": "Is used to create, retrieve, update or delete records, such as accounts, leads, and custom objects, and allows you to maintain passwords, perform searches, and much more",
+			"D__c": "Is used to retrieve, deploy, create, update, or delete customizations for your org. The most common use is to migrate changes from a sandbox or testing org to your production environment",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-metadata-api",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK23AAH"
+			},
+			"Question__c": "The REST API___________.",
+			"A__c": "Is used to retrieve, deploy, create, update, or delete customizations for your org. The most common use is to migrate changes from a sandbox or testing org to your production environment",
+			"B__c": "Provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce. Its advantages include ease of integration and development, and it&#39;s an excellent choice of technology for use with mobile applications and web projects",
+			"C__c": "Is used to create, retrieve, update or delete records, such as accounts, leads, and custom objects, and allows you to maintain passwords, perform searches, and much more",
+			"D__c": "Is based on REST principles and is optimized for loading or deleting large sets of data. You can use it to query, queryAII, insert, update, upsert, or delete many records asynchronously by submitting batches",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-rest-api",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK24AAH"
+			},
+			"Question__c": "The Bulk API__________.",
+			"A__c": "Is used to create, retrieve, update or delete records, such as accounts, leads, and custom objects, and allows you to maintain passwords, perform searches, and much more",
+			"B__c": "Is used to retrieve, deploy, create, update, or delete customizations for your org. The most common use is to migrate changes from a sandbox or testing org to your production environment",
+			"C__c": "Is based on REST principles and is optimized for loading or deleting large sets of data. You can use it to query, queryAII, insert, update, upsert, or delete many records asynchronously by submitting batches",
+			"D__c": "Provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce. Its advantages include ease of integration and development, and it&#39;s an excellent choice of technology for use with mobile applications and web projects",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-bulk-api",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3oAAH"
+			},
+			"Question__c": "What is the transaction limit on the max Salesforce CPU time?",
+			"A__c": "100 seconds",
+			"B__c": "60 seconds",
+			"C__c": "100 seconds (synchronous); 200 seconds (async)",
+			"D__c": "10 seconds (synchronous); 60 seconds (async)",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-max-salesforce-cpu-time/",
+			"Comment__c": "<p>cpu time exceeded は普通10秒ででる</p><p>VFで10秒まつとよく出る</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3pAAH"
+			},
+			"Question__c": "What is the transaction limit on the max timeout for all callouts?",
+			"A__c": "120 seconds",
+			"B__c": "60 seconds",
+			"C__c": "120 seconds (synchronous); 200 seconds (async)",
+			"D__c": "60 seconds (synchronous); 200 seconds (async)",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-max-timeout-for-all-callouts/",
+			"Comment__c": "<p>コールアウトのタイムリミットは120秒​</p><p>​</p><p>https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_callouts_timeouts.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3qAAH"
+			},
+			"Question__c": "What is the transaction limit on the number of &quot;sendEmail&quot; method calls?",
+			"A__c": "20",
+			"B__c": "10",
+			"C__c": "50",
+			"D__c": "100",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-number-of-sendemail-method-calls/",
+			"Comment__c": "<p>10</p><p><br></p><p>https://www.google.com/search?q=What+is+the+transaction+limit+on+the+number+of+%22sendEmail%22+method+calls%3F&amp;rlz=1C5CHFA_enJP991JP992&amp;sourceid=chrome&amp;ie=UTF-8</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3rAAH"
+			},
+			"Question__c": "What is the transaction limit on the number of @future invocations?",
+			"A__c": "100",
+			"B__c": "150",
+			"C__c": "50",
+			"D__c": "200",
+			"E__c": "There is no limit",
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-the-transaction-limit-on-the-number-of-future-invocations/",
+			"Comment__c": "<p>同期で50まで</p><p>バッチからは呼べない</p><p>キューアブルからは1回まで</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_apexgov.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3sAAH"
+			},
+			"Question__c": "Which statement is true regarding the use of user input as part of a dynamic SOQL query?",
+			"A__c": "Free text input should not be allowed, to avoid SOQL injection",
+			"B__c": "The String.format() method should be used to prevent injection",
+			"C__c": "Quotes should be escaped to protect against SOQL injection",
+			"D__c": "The string should be URL encoded by the input form to prevent errors",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-statement-is-true-regarding-the-use-of-user-input-as-part-of-a-dynamic-soql-query/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3tAAH"
+			},
+			"Question__c": "<p>Universal Containers uses Big Objects to store almost a billion customer transactions called Customer_Transaction__b.</p><p><br></p><p>These are the fields on Customer_Transaction__b:</p><p>Account__c</p><p>Program__c</p><p>Points_Earned__c</p><p>Location__c</p><p>Transaction_Date__c</p><p><br></p><p>The following fields have been identified as Index Fields for the Customer_Transaction__b object:</p><p>Account__c,</p><p>Program__c,</p><p>and Transaction_Date__c.</p><p><br></p><p>Which SOQL query is valid on the Customer_Transaction__b Big Object?</p>",
+			"A__c": "<p>SELECT Account__c, Program__c, Transaction_Date__c </p><p>FROM Customer_Transaction__b </p><p>WHERE Account__c = ‘001R000000302D3′ AND Program__c =’Shoppers’ AND Transaction_Date__c=2019-05-31T00:00Z</p>",
+			"B__c": "<p>SELECT Account__c, Program__c, Transaction_Date__c </p><p>FROM Customer_Transaction__b </p><p>WHERE Account__c = ‘001R000000302D3’AND Program__c LIKE ‘Shop%’ AND Transaction_Date__c=2019-05-31T00:00Z</p>",
+			"C__c": "<p>SELECT Account__c, Program__c, Transaction_Date__c</p><p> FROM Customer_Transaction__b</p><p>WHERE Account__c = ‘001R000000302D3’AND Program__c INCLUDES (‘Shoppers’, ‘Womens’)AND Transaction_Date__c=2019-05-31T00:00Z</p>",
+			"D__c": "<p>SELECT Account__c, Program__c, Transaction_Date__c </p><p>FROM Customer_Transaction__b</p><p>WHERE Account__c = ‘001R000000302D3’AND Program__c EXCLUDES (‘Shoppers’, ‘Womens’)AND Transaction_Date__c=2019-05-31T00:00Z</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/which-soql-query-is-valid-on-the-customer_transaction__b-big-object/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3uAAH"
+			},
+			"Question__c": "A developer created and tested a Visualforce page in their developer sandbox, but now receives reports that users are encountering ViewState errors when using it in Production.What should the developer ensure to correct these errors?",
+			"A__c": "Ensure queries do not exceed governor limits.",
+			"B__c": "Ensure properties are marked as Transient.",
+			"C__c": "Ensure properties are marked as private.",
+			"D__c": "Ensure profiles have access to the Visualforce page.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-should-the-developer-ensure-to-correct-these-errors/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3vAAH"
+			},
+			"Question__c": "<p>Choose the correct definition for .</p><h1>&lt;apex:actionRegion&gt;.</h1>",
+			"A__c": "Allows for controller methods to be called directly from Javascript. Must be encapsulated in  tags. Unlike actionSupport, these functions can be called directly from Javascript code",
+			"B__c": "Sends an AJAX request according to the time interval you specify. If this ever gets re-rendered, it resets",
+			"C__c": "Adds AJAX support to another component (e.g. onClick, onMouseUp, onFocus, etc.)",
+			"D__c": "Can be associated with an AJAX request (actionFunction/actionSupport/actionPoller) and shows content conditionally depending on the status of the request(in progress/complete). Use the &quot;id&quot; field to specify name; use &quot;status&quot; field onrelated components to connect them",
+			"E__c": "Signifies which components should be processed by the server when an AJAX request is generated",
+			"F__c": null,
+			"Answer__c": "E",
+			"URL__c": "https://vceguide.com/choose-the-correct-definition-for-apexactionregion/",
+			"Comment__c": "<p>AJAX処理時にbody上のactinRegionで囲まれた部分が、サーバサイドで処理される</p><p>処理範囲を明示することでパフォーマンスを向上させる効果がある</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_actionRegion.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK25AAH"
+			},
+			"Question__c": "Choose the correct definition for &lt;apex:actionFunction&gt;.",
+			"A__c": "Signifies which components should be processed by the server when an AJAX request is generated",
+			"B__c": "Adds AJAX support to another component (e.g. onClick, onMouseUp, onFocus, etc.)",
+			"C__c": "Can be associated with an AJAX request (actionFunction/actionSupport/actionPoller) and shows content conditionally depending on the status of the request (in progress/complete). Use the &quot;id&quot; field to specify name; use &quot;status&quot; field on related components to connect them",
+			"D__c": "<p>Allows for controller methods to be called directly from Javascript. Must be encapsulated in &lt;apex:form&gt; tags. Unlike actionSupport, these function&lt;apex:actionPoller&gt;s can be called directly from Javascript code B Sends an AJAX request according to the time interval you specify. If this ever gets re-rendered, it resets</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/choose-the-correct-definition-for-lt-apex-actionfunction-gt",
+			"Comment__c": "apex:inputTextのonblurからJS呼んで、JSからActionFunctionを読んで、ActionFunctionからコントローラメソッドを呼ぶとAJAXぽい動きになる\n<br><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.pages.meta/pages/pages_compref_actionFunction.htm\" target=\"_blank\">https://developer.salesforce.c</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK26AAH"
+			},
+			"Question__c": "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers.What should the developer use to store and package the custom configuration settings for the app?",
+			"A__c": "Process Builder",
+			"B__c": "Custom Metadata",
+			"C__c": "Custom Objects",
+			"D__c": "Custom Settings",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-is-asked-to-develop-a-new-appexthange-application-a-feature-of-the-program-creates-survey",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK27AAH"
+			},
+			"Question__c": "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user&#39;s input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once.What is the optimal code that should be added to fire the event when the search has completed?\n<br><br>A)\n<br>var evt = component.getEvent(&quot;searchComplete&quot;);\n<br>evt.setFrames({results: result});\n<br>evt.fire();\n<br><br>B)\n<br>var evt = $A.get(&quot;e.o.searchComplete&quot;);\n<br>evt.setPrames({results: result});\n<br>evt.fire();\n<br><br>C)\n<br>var evt = component.getEvent(&quot;searchComplete&quot;);\n<br>evt.setPrames(&quot;v.results&quot;, results);\n<br>evt.fire();\n<br><br>D)\n<br>var evt = $A.get(&quot;e.o.searchComplete&quot;);\n<br>evt.setFrames(&quot;v.results&quot;, results);\n<br>evt.fire();",
+			"A__c": "Option A",
+			"B__c": "Option B",
+			"C__c": "Option C",
+			"D__c": "Option D",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-has-a-custom-component-that-allows-users-to-search-for-records-of-a-certain-object-type-by",
+			"Comment__c": "<p>まじで全然わからん、なにか浸からないと見えてこない気がする</p><p><a href=\"https://www.exam4training.com/what-is-the-optimal-code-that-should-be-added-to-fire-the-event-when-the-search-has-completed/\" target=\"_blank\">https://www.exam4training.com/what-is-the-optimal-code-that-should-be-added-to-fire-the-event-when-the-</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK28AAH"
+			},
+			"Question__c": "<p>Consider the following code snippet, depicting an Aura component:</p><p><br></p><p>&lt;aura:component&gt;</p><p class=\"ql-indent-1\">&lt;lightning:input type=&quot;Text&quot; name=&quot;searchString&quot; aura:id=&quot;search1&quot; label=&quot;Search String&quot;/&gt;</p><p class=\"ql-indent-1\">&lt;br/&gt;</p><p class=\"ql-indent-1\">&lt;lightning:button label=&quot;Search&quot; onclick=&quot;{!c.performSearch}&quot;/&gt;</p><p>&lt;/aura:component&gt;</p><p><br></p><p>Which two interfaces can the developer implement to make the component available as a quick action?Choose 2 answers</p>",
+			"A__c": "Force:lightningQuickActionWithoutHeader",
+			"B__c": "Force:lightningQuicAction",
+			"C__c": "Force hasObjectName",
+			"D__c": "Force:hasRecordIdE. Lightning QuickActionAPI",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/consider-the-following-code-snippet-depicting-an-azure-component-exhibit-which-two-interfaces-can",
+			"Comment__c": "<a href=\"https://www.examtopics.com/exams/salesforce/certified-platform-developer-ii/view/48/\" target=\"_blank\">https://www.examtopics.com/exams/salesforce/certified-platform-developer-ii/view/48/</a><br><a href=\"https://tyoshikawa1106.hatenablog.com/entr\" target=\"_blank\"></a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK29AAH"
+			},
+			"Question__c": "Sometimes events on Salesforce need to be handled by an external system due to the scale or type of process being executed. Consider the use case of a user in Salesforce needing to get pricing for an order they are building in Salesforce while on the phone with a customer. The pricing logic already exists in a third-party system. Instead of recreating this logic in Salesforce, it will be leveraged by making a request of the third-party system. The response, in this case the pricing, will be returned and stored back in Salesforce. What is the optimal solution?",
+			"A__c": "A Visualforce page that can make a real-time Apex callout to display and save the pricing back in Salesforce",
+			"B__c": "An ETL tool to process batches of newly saved Orders every few minutes to store the pricing back in Salesforce",
+			"C__c": "An Apex trigger that upon saving the Order will make a real-time Apex callout, saving the pricing back in Salesforce",
+			"D__c": "A Process Builder process and Outbound Message to fetch the pricing upon save and store the pricing in Salesforce",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/sometimes-events-on-salesforce-need-to-be-handled-by-an-external-system-due-to-the-scale-or-type-of-proces",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2AAAX"
+			},
+			"Question__c": "A developer receives an error when trying to call a global server-side method using the @remoteAction decorator. How can the developer resolve the error?",
+			"A__c": "Add static to the server-side method signature.",
+			"B__c": "Decorate the server-side method with (static=false)",
+			"C__c": "Change the function signature to be private static.",
+			"D__c": "Decorate the server-side method with (static=true).",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-receives-an-error-when-trying-to-call-a-global-server-side-method-using-the-remoteaction",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2BAAX"
+			},
+			"Question__c": "Universal Containers wants to use an external Web Service provided by a third-party vendor to validate that shipping and billing addresses are correct. The current vendor uses basic password authentication, but Universal Containers might switch to a different vendor who uses OAuth. What would allow Universal Containers to switch vendors without updating the code to handle authentication?",
+			"A__c": "Custom Setting (List)",
+			"B__c": "Custom Metadata",
+			"C__c": "Named Credential",
+			"D__c": "Dynamic Endpoint",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/universal-containers-wants-to-use-an-external-web-service-provided-by-a-third-party-vendor-to-validate",
+			"Comment__c": "和名\n<br>指定ログイン\n<br>Named Credential"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3wAAH"
+			},
+			"Question__c": "<p>A developer writes the following code:</p><p><br></p><p>public with sharing class OrderController {</p><p class=\"ql-indent-1\">public PaqeReference sendOrder() {</p><p class=\"ql-indent-2\">Order_c order = new Order_c();</p><p class=\"ql-indent-2\">insert order;</p><p class=\"ql-indent-2\">ExternalOrder externalOrder = newExternalOrder(order);</p><p class=\"ql-indent-2\">Http h = new Http();</p><p class=\"ql-indent-2\">HttpRequest req = new HttpRequest();</p><p class=\"ql-indent-2\">req.setEndpoint(‘https://www.example.org/v1/orders’);</p><p class=\"ql-indent-2\">req.setMethod(‘POST’);</p><p class=\"ql-indent-2\">req.setBody(JSON.serialize(externalOrder));</p><p class=\"ql-indent-2\">HttpResponse res = h.send(req);</p><p class=\"ql-indent-2\">order = (ExternalOrder)JSON.deserialize(res.getBody(),ExternalOrder.class);</p><p class=\"ql-indent-1\">}</p><p>}</p><p><br></p><p>While testing the code, the developer receives the following error</p><p><br></p><p>message:System.CalloutException:</p><p><br></p><p>You have uncommitted work pendingWhat should the developer do? (Choose two.)</p>",
+			"A__c": "Use the asyncSend() method of the HTTP class to send the request in async context",
+			"B__c": "Ensure all callouts are completed prior to executing DML statements",
+			"C__c": "Move the web service callout into an @future method",
+			"D__c": "Use Database.insert (order, true) to immediately commit any database changes",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/what-should-the-developer-do-6/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3xAAH"
+			},
+			"Question__c": "What is the most efficient way in Visualforce to show information based on data filters defined by an end-user for a large volume of data?",
+			"A__c": "Use the rendered condition in Visualforce to limit data based on data filters",
+			"B__c": "Use filter conditions in a SOQL query to limit data based on data filters",
+			"C__c": "Use an Apex controller to refine raw data based on data filters and store the result in a transient variable",
+			"D__c": "Use an Apex controller to refine raw data based on data filters and store the result in a static variable",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-most-efficient-way-in-visualforce-to-show-information-based-on-data-filters-defined-by-an-end-user-for-a-large-volume-of-data/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3yAAH"
+			},
+			"Question__c": "<p>A developer has a page with two extensions overriding the Standard controller for Case.What will happen when a user clicks the command button?</p><p><br></p><p>&lt;apex:page standardController=&quot;Case&quot; extension=&quot;CaseExtensionOne,CaseExtensionTwo&quot; showHeader=&quot;false&quot;&gt;</p><p><br></p><p>Each extension has a method called Save.</p><p>The page has a command button as defined:</p><p><br></p><p>&lt;apex:commandButton value=&quot;Save&quot; action=&quot;{!save}&quot;/&gt;</p>",
+			"A__c": "All of the three Save methods will be executed",
+			"B__c": "Save from Case Standard Controller will be executed",
+			"C__c": "Save from CaseExtensionTwo will be executed",
+			"D__c": "Save from CaseExtensionOne will be executed",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-will-happen-when-a-user-clicks-the-command-button/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK3zAAH"
+			},
+			"Question__c": "<p>The Contact object has a custom field called &quot;Zone.&quot; </p><p>Its data type is &quot;Text&quot; and field length is 3.</p><p>What is the outcome after executing the following code snippet in the org?</p><p><br></p><p><br></p><p>List contactsToBeInserted = new List();</p><p>Contact contactInstance = new Contact(</p><p class=\"ql-indent-1\">LastName=’Smith’,</p><p class=\"ql-indent-1\">Department=’Tech’,</p><p class=\"ql-indent-1\">Zone_c=’IAD’</p><p>);</p><p>contactsToBeInserted.add(contactInstance);</p><p>contactInstance= new Contact(</p><p class=\"ql-indent-1\">LastName=’Sm1th’,</p><p class=\"ql-indent-1\">Department=’Tech’,</p><p class=\"ql-indent-1\">Zone_c=’PITT’</p><p>);</p><p>contactsToBeInserted.add(contactInstance);</p><p>Database.insert(contactsToBeInserted,true);</p>",
+			"A__c": "Both inserts succeed and the contact record that has the Zone value of ‘PI’I’I’ is set to NULL",
+			"B__c": "A partial insert succeeds and the contact record that has the Zone value ‘IAD’ is inserted",
+			"C__c": "Both inserts succeed and the contact record that has the Zone value of ‘PITT’ is truncated",
+			"D__c": "An unhandled DML exception is thrown and no contact records are inserted",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-the-outcome-after-executing-the-following-code-snippet-in-the-org/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK40AAH"
+			},
+			"Question__c": "<p>A developer writes the following Apex trigger so that when a Case is closed, a single Survey record is created for that Case.</p><p>The issue is that multiple Survey_c records are being created per Case.</p><p><br></p><p>trigger CaseTrigger on Case (after insert, after update) {</p><p class=\"ql-indent-1\">List createSurveys = new List();</p><p class=\"ql-indent-1\">for (Case c : trigger.new){</p><p class=\"ql-indent-2\">if (c.IsClosed </p><p class=\"ql-indent-3\">&amp;&amp;((trigger.isInsert II trigger.isUpdate)</p><p class=\"ql-indent-3\">&amp;&amp; trigger.oldMap.get(c.Id).IsClosed == false)){</p><p class=\"ql-indent-3\">createSurveys.add(new Survey_c(Case_c = c.Id));</p><p class=\"ql-indent-2\">}</p><p class=\"ql-indent-1\">}</p><p class=\"ql-indent-1\">insert createSurveys;</p><p>}</p><p><br></p><p>What could be the cause of this issue?</p>",
+			"A__c": "A user is creating the record as Closed",
+			"B__c": "A workflow rule is firing with a Create Task action",
+			"C__c": "A workflow rule is firing with a Field Update action",
+			"D__c": "A user is editing the record multiple times",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-could-be-the-cause-of-this-issue-19/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK41AAH"
+			},
+			"Question__c": "<p>What is a potential design issue with the following code?</p><p><br></p><p>trigger accountTrigger on Account (before update){</p><p class=\"ql-indent-1\">Boolean processOpportunity = false;</p><p class=\"ql-indent-1\">List opptysClosedLost = new List();</p><p class=\"ql-indent-1\">List IstAllOpp = [select StageName from Opportunity where accountId IN :Trigger.newMap.keySet()];</p><p class=\"ql-indent-1\">if(!IstAllOpp.isEmpty()) processOpportunity = true;</p><p class=\"ql-indent-1\">while(processOpportunity){</p><p class=\"ql-indent-2\">for(opportunity o: IstAllOpp) {</p><p class=\"ql-indent-3\">if(o.StageName == ‘Closed – Lost’) {</p><p class=\"ql-indent-4\"><span style=\"\">opptysClosedLost.add(o);</span></p><p class=\"ql-indent-4\"><span class=\"ql-cursor\">﻿</span>processOpportunity = false;</p><p class=\"ql-indent-3\">}</p><p class=\"ql-indent-2\"><span style=\"\">}</span></p><p class=\"ql-indent-1\"><span style=\"\">}</span></p><p class=\"ql-indent-1\">if(!opptysClosedLost.isEmpty()) delete opptysClosedLost;</p><p>}</p>",
+			"A__c": "SOQL could be avoided by creating a formula field for StageName in Account from the related Opportunity",
+			"B__c": "The code will result in a System.LimitException : Too many script statements error",
+			"C__c": "The code will result in a System.DmlException:Entity_is_Deleted error",
+			"D__c": "The code will result in a System.LimitException: Apex CPU time limit exceeded error",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-a-potential-design-issue-with-the-following-code/",
+			"Comment__c": "<p>closed-lostに一致するレコードがない場合はwhileループが終わらないのでDが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK42AAH"
+			},
+			"Question__c": "A large company uses Salesforce across several departments. Each department has its own Salesforce Administrator. It was agreed that each Administrator would have their own sandbox in which to test changes.Recently, users notice that fields that were recently added for one department suddenly disappear without warning. Also, Workflows that once sent emails and created tasks no longer do so. Which two statements are true regarding these issues and resolution? (Choose two.)",
+			"A__c": "The administrators are deploying their own Change Sets, thus deleting each other’s fields from the objects in production.",
+			"B__c": "A sandbox should be created to use as a unified testing environment instead of deploying Change Sets directly to production.",
+			"C__c": "Page Layouts should never be deployed via Change Sets, as this causes Workflows and Field-level Security to be reset and fields to disappear.",
+			"D__c": "The administrators are deploying their own Change Sets over each other, thus replacing entire Page Layouts and Workflows in Production.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://vceguide.com/which-two-statements-are-true-regarding-these-issues-and-resolution/",
+			"Comment__c": "<p>統合テスト環境から変更セットおくりましょう</p><p>レイアウトとワークフローは上書きされるんで気をつけましょう</p><p>なのでBDが正解</p><p>変更セットで削除はできないのでのでAは不正解</p><p>変更セットでワークフローと項目レベルセキュリティリセットはありえないのでCは不正解</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK43AAH"
+			},
+			"Question__c": "A company wants to create a dynamic survey that navigates users through a different series of questions based on their previous responses.What is the recommended solution to meet this requirement?",
+			"A__c": "Dynamic Record Choice",
+			"B__c": "Lightning Process Builder",
+			"C__c": "Visualforce and Apex",
+			"D__c": "Custom Lightning Application",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-recommended-solution-to-meet-this-requirement-4/",
+			"Comment__c": "<p>ビジュアルフローの機能らしけど、もう使われてない</p><p><br></p><p>https://salesforcesidekick.com/2017/06/26/introduction-to-dynamic-record-choices-in-flow/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2CAAX"
+			},
+			"Question__c": "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users.What are two alternatives to implement the integration and protect against malicious calls to Heroku app&#39;s endpoint? Choose 2 answers",
+			"A__c": "Create a Workflow Rule with an Outbound Message and select Send Session ID so that the Heroku app can use it to send the resized images back to Salesforce.",
+			"B__c": "Create a Workflow Rule with an Outbound Message allowing the Heroku app to automatically store the resized images in Salesforce.",
+			"C__c": "Create a trigger that uses an @future Apex HTTP callout passing JSON serialized data; therefore the Heroku app can automatically reply back to the callout with the resized images in Salesforce.",
+			"D__c": "Create a trigger that uses an @future Apex HTTP callout passing JSON serialized data and some form of pre-shared secret key. so that the Heroku app can authenticate requests and store the resized images in Salesforce.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/universal-containers-needs-to-integrate-with-a-heroku-service-that-resizes-product-images-submitted-by",
+			"Comment__c": "<a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/salesforce_heroku_integration/callouts_workflow_with_heroku\" target=\"_blank\">https://trailhead.salesforce.com/ja/content/learn/modules/salesforce_heroku_integration/callouts_workflow_with_heroku</a><br><a href=\"https://www.freecram.net/question/Salesforce.PDII.v2020-10-27.q45/universal-containers-needs-to-integrate-with-a-heroku-service-that-resizes-product-images-submitted-by\" target=\"_blank\">https://www.freecram.net/question/Salesforce.PDII.v2020-10-27.q45/universal-containers-needs-to-integrate-with-a-heroku-service-that-resizes-product-images-submitted-by</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2DAAX"
+			},
+			"Question__c": "Which of the following variables are not transmitted in the view state? (Choose two.)",
+			"A__c": "Transient",
+			"B__c": "Private",
+			"C__c": "Static",
+			"D__c": "Public",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-of-the-following-variables-are-not-transmitted-in-the-view-state-choose-two",
+			"Comment__c": "<a href=\"https://esp-labo.com/transient/\" target=\"_blank\">https://esp-labo.com/transient/</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2EAAX"
+			},
+			"Question__c": "<p>Global with sharing class MyRemoter { </p><p class=\"ql-indent-1\"> public String accountName {get; set;} </p><p class=\"ql-indent-1\"> public static Account account {get; set;} </p><p class=\"ql-indent-1\"> public AccountRemoter() {} </p><p class=\"ql-indent-1\"> @RemoteAction </p><p class=\"ql-indent-1\"> global static Account getAccount(String acccuntName) { </p><p class=\"ql-indent-2\"> account = [SELECT Id, Name, NumberOfEmployees FROM Account WHERE Name = :accountName]; </p><p class=\"ql-indent-2\"> return account; </p><p class=\"ql-indent-1\"> } </p><p>} </p><p><br></p><p>Consider the Apex class above that defines a RemoteAction used on a Visualforce search page.Which code snippet will assert that the remote action returned the correct Account ?</p>",
+			"A__c": "Account a = MyRemoter.getAccount(&#39;TestAccount&#39;);<br>System.assertEquals(&#39;TestAccount&#39;, <a href=\"https://a.Name\" target=\"_blank\">a.Name</a>);",
+			"B__c": "MyRemoter remote = new MyRemoter();<br>Account a = remote.getAccount(&#39;TestAccount&#39;);<br>System.assertEquals(&#39;TestAcccunt&#39;, <a href=\"https://a.Name\" target=\"_blank\">a.Name</a>);",
+			"C__c": "MyRemoter remote = new MyRemoter(&#39;TestAccount&#39;);<br>Account a = remote.getAccount();<br>System.assertEquals(&#39;TestAccount&#39;, <a href=\"https://a.Name\" target=\"_blank\">a.Name</a>);",
+			"D__c": "Account a = controller.getAccount(&#39;TestAccount&#39;);<br>System.assertEquals(&#39;TestAccount&#39;, <a href=\"https://a.Name\" target=\"_blank\">a.Name</a>);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/global-with-sharing-class-myremoter-public-string-accountname-get-set-public-static-account-accoun",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2FAAX"
+			},
+			"Question__c": "Which type of controller is best suited when you want to add custom functionality to a standard controller page, or when you want reusable functionality throughout pages?",
+			"A__c": "Controller Extensions",
+			"B__c": "Custom Controller",
+			"C__c": "Standard List/Set Controller",
+			"D__c": "Standard Controller",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-type-of-controller-is-best-suited-when-you-want-to-add-custom-functionality-to-a-standard-controller",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2GAAX"
+			},
+			"Question__c": "A Visualforce page loads slowly due to the large amount of data it displays. Which strategy can a developer use to improve the performance?",
+			"A__c": "Use the transient keyword for the List variables used in the custom controller.",
+			"B__c": "use an &lt;apex:actionPoller&gt; in the page to load all of the data asynchronously.",
+			"C__c": "use Javascript to move data processing to the browser instead of the controller.",
+			"D__c": "use lazy loading to load the data on demand, instead of in the controller&#39;s constructor.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-visualforce-page-loads-slowly-due-to-the-large-amount-of-data-it-displays-which-strategy-can-a-develope",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2HAAX"
+			},
+			"Question__c": "Choose the correct definition for &lt;apex:pageMessage&gt;.",
+			"A__c": "No formatting; displays all errors on a page",
+			"B__c": "A single message, without formatting, that can be associated with a specific component on the page",
+			"C__c": "Standard Salesforce formatting, shows all errors that occur on page. Can add more messages through the &quot;ApexPages.addMessage&quot; function",
+			"D__c": "Standard Salesforce formatting, throws a specific message on a page",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/choose-the-correct-definition-for-lt-apex-pagemessage-gt",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2IAAX"
+			},
+			"Question__c": "If a developer wanted to display error messages with the standard Salesforce Ul styling, what would they use?",
+			"A__c": "&lt;apex:error&gt;",
+			"B__c": "&lt;apex:message&gt;",
+			"C__c": "&lt;apex:pageMessages&gt;",
+			"D__c": "&lt;apex:outputText&gt;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/if-a-developer-wanted-to-display-error-messages-with-the-standard-salesforce-ul-styling-what-would-they",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2JAAX"
+			},
+			"Question__c": "The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Account are simultaneously updated to be customer.The test method fails at the Line 20 because of too many SOQL queriesWhat is the correct way to fix this?\n<br><br>Line18    update DataFactory.accounts;\n<br>Line19\n<br>Line20    List&lt;Account&gt; acctsAfter = [SELECT Number_Of_Transfers__c FROM Account WHERE Id IN :DataFactory.accounts]\n<br>Line21\n<br>Line22    // Comment\n<br>Line23\n<br>Line24    AssertUtil.assertNumberOfTransfers(acctsAfter);",
+			"A__c": "Add TesLstartTest() before and Test.stop Test() after both Line 7 of the code and Line 20 of the code.",
+			"B__c": "Add TeststartTest() before Line 18 of the code and add Test.stopTest() after line 18 of the code.",
+			"C__c": "Change the DataFactory class to create fewer Accounts so that the number of queries in the trigger is reduced.",
+			"D__c": "Replace most of the Apex Trigger with Process Builder processes to reduce the number of queries in the trigger.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-test-method-above-tests-an-apex-trigger-that-the-developer-knows-will-make-a-lot-of-queries-when",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK44AAH"
+			},
+			"Question__c": "Which statement is true regarding both Flow and Lightning Process? (Choose two.)",
+			"A__c": "Can use Apex methods with the @InvocableMethod annotation",
+			"B__c": "Are both server-side considerations in the Order of Execution",
+			"C__c": "Can use Apex that implements the Process.Plugin interface",
+			"D__c": "Are able to be embedded directly into Visualforce pages",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://vceguide.com/which-statement-is-true-regarding-both-flow-and-lightning-process/",
+			"Comment__c": "<p>ライトニングプロセスはプロセスビルダーの名称</p><p><br></p><p> @InvocableMethod、Process.Pluginともにフロー、プロセスから呼べる</p><p><br></p><p>サーバサイドの考慮事項が意味不明</p><p>フロー、プロセス、VFから呼べない</p><p><br></p><p>正しく残ってAC</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK45AAH"
+			},
+			"Question__c": "Which use case is an appropriate fit for the @future asynchronous Apex method? (Choose two.)",
+			"A__c": "A developer has jobs that need larger query results than regular transactions allow",
+			"B__c": "A developer needs to segregate DML operations and bypass the mixed save DML error",
+			"C__c": "A developer has long-running jobs with large data volumes that need to be performed in batches",
+			"D__c": "A developer has long-running methods and needs to prevent delaying an Apex transaction",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://vceguide.com/which-use-case-is-an-appropriate-fit-for-the-future-asynchronous-apex-method/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK46AAH"
+			},
+			"Question__c": "<p>What is a valid request for the following REST method? (Choose two.)</p><p><br></p><p>@HttpPost</p><p>global static void myPostMethod(String s1, Integer i1, Boolean b1, String s2)</p>",
+			"A__c": "<p>&lt;request&gt;</p><p class=\"ql-indent-1\">&lt;s1&gt;my first string&lt;/s1&gt;</p><p class=\"ql-indent-1\">&lt;i1&gt;123&lt;/i1&gt;</p><p class=\"ql-indent-1\">&lt;s2&gt;my second string&lt;/s2&gt;</p><p class=\"ql-indent-1\">&lt;b1&gt;false&lt;/b1&gt;</p><p>&lt;/request&gt;</p>",
+			"B__c": "<p>&lt;request&gt;</p><p class=\"ql-indent-1\">&lt;s1&gt;&quot;my first string&quot;&lt;/s1&gt;</p><p class=\"ql-indent-1\">&lt;i1&gt;123&lt;/i1&gt;</p><p class=\"ql-indent-1\">&lt;s2&gt;&quot;my second string&quot;&lt;/s2&gt;</p><p class=\"ql-indent-1\">&lt;b1&gt;false&lt;/b1&gt;</p><p>&lt;/request&gt;</p>",
+			"C__c": "<p>{</p><p class=\"ql-indent-1\">&quot;s1&quot; : &quot;my first string&quot;,</p><p class=\"ql-indent-1\">&quot;i1&quot; : &quot;123&quot;,</p><p class=\"ql-indent-1\">&quot;b1&quot; : &quot;false&quot;,</p><p class=\"ql-indent-1\">&quot;s2&quot; : &quot;my second string&quot;</p><p>}</p>",
+			"D__c": "<p>{</p><p class=\"ql-indent-1\">&quot;i1&quot; : 123,</p><p class=\"ql-indent-1\">&quot;s1&quot; : &quot;my first string&quot;,</p><p class=\"ql-indent-1\">&quot;s2&quot; : &quot;my second string&quot;,</p><p class=\"ql-indent-1\">&quot;b1&quot; : false</p><p>}</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/what-is-a-valid-request-for-the-following-rest-method/",
+			"Comment__c": "<p>XMLはダブルクォーてションは不要</p><p>JSONはブーリアンと数値はダブルクォーテーション不要</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_rest_methods.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK47AAH"
+			},
+			"Question__c": "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page.Which feature of Apex code is required to facilitate this solution?",
+			"A__c": "SOSL queries",
+			"B__c": "describeSObjects()",
+			"C__c": "Dynamic Schema binding",
+			"D__c": "REST API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-feature-of-apex-code-is-required-to-facilitate-this-solution/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK48AAH"
+			},
+			"Question__c": "What is the optimal technique a developer should use to programmatically retrieve Global Picklist options in a Test Method?",
+			"A__c": "Use the Schema namespace.",
+			"B__c": "Use a static resource.",
+			"C__c": "Perform a callout to the Metadata API.",
+			"D__c": "Perform a SOQL Query.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-technique-a-developer-should-use-to-programmatically-retrieve-global-picklist-options-in-a-test-method/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK49AAH"
+			},
+			"Question__c": "A company has a web page that needs to get Account record information, given its Salesforce record ID, from JavaScript on the page and then display it.Which method of integration is optimal?",
+			"A__c": "REST API",
+			"B__c": "Apex SOAP Web Service",
+			"C__c": "Soap API",
+			"D__c": "Apex REST Web Service",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/which-method-of-integration-is-optimal/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4AAAX"
+			},
+			"Question__c": "A company wants to implement a new call center process for handling customer service calls. It requires service reps to ask for the caller’s account number before proceeding with the rest of their call script.Following best practices, what should a developer use to meet this requirement?",
+			"A__c": "Apex Trigger",
+			"B__c": "Process Builder",
+			"C__c": "Flow Builder",
+			"D__c": "Approvals",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-a-developer-use-to-meet-this-requirement/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4BAAX"
+			},
+			"Question__c": "A company has a custom object, Order__c, that has a required, unique, external ID field called Order_Number__c.Which statement should be used to perform the DML necessary to insert new records and update existing records in a List of Order__c records?",
+			"A__c": "upsert orders;",
+			"B__c": "upsert orders Order_Number__c;",
+			"C__c": "merge orders Order_Number__c;",
+			"D__c": "merge orders;",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-statement-should-be-used-to-perform-the-dml-necessary-to-insert-new-records-and-update-existing-records-in-a-list-of-order__c-records/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4CAAX"
+			},
+			"Question__c": "A company uses an external system to manage its custom account territory assignments. Every quarter, millions of Accounts may be updated in Salesforce with new Owners when the territory assignments are completed in the external system.What is the optimal way to update the Accounts from the external system?",
+			"A__c": "Bulk API",
+			"B__c": "SOAP API",
+			"C__c": "Apex REST Web Service",
+			"D__c": "Composite REST API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-way-to-update-the-accounts-from-the-external-system/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2KAAX"
+			},
+			"Question__c": "What is a consideration when using bind variables with dynamic SOQL? (Choose two.)",
+			"A__c": "Dynamic SOQL cannot reference fields on bind variables",
+			"B__c": "Bind variables must be public or global",
+			"C__c": "Bind variables must be in local scope",
+			"D__c": "Dynamic SOQL cannot use bind variables",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-a-consideration-when-using-bind-variables-with-dynamic-soql-choose-two",
+			"Comment__c": "<p>動的SOQLにおけるバインド変数</p><p>ローカルスコープであること、これちょっと不明</p><p>sObjectの項目を参照できない、文字列で渡す</p><p>https://developer.salesforce.com/docs/atlas.ja-jp.232.0.apexcode.meta/apexcode/apex_dynamic_soql.htm</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2LAAX"
+			},
+			"Question__c": "A developer must create a custom pagination solution for accessing approximately 2000 records and displaying 50 records on each page. Data from Salesforce will be accessed via an API and not via Apex.How can the developer meet these requirements? (Choose two.)",
+			"A__c": "Use OFFSET in SOQL queries",
+			"B__c": "Use a StandardSetController",
+			"C__c": "Use CURSOR 50 in SOQL queries",
+			"D__c": "Use LIMIT 50 in SOQL queries",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-must-create-a-custom-pagination-solution-for-accessing-approximately-2000-records-and-displayi",
+			"Comment__c": "<a href=\"https://ameblo.jp/hayapu/entry-11409379043.html\" target=\"_blank\">https://ameblo.jp/hayapu/entry-11409379043.html</a><br>offsetで開始位置指定、0から2000まで、0からカウント<br>0のときは1行目、1のときは2行目、配列のインデックスと一緒"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2MAAX"
+			},
+			"Question__c": "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity&#39;s Account whenever an Opportunity is dosed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails.What might be causing the failed assertion?",
+			"A__c": "The test class has not re-queried the Account record after updating the Opportunity.",
+			"B__c": "The test class is not using System.runAs() to run tests as a Salesforce administrator.",
+			"C__c": "The test class has not defined an Account owner when inserting the test data.",
+			"D__c": "The test class has not implemented seeAIIData-truwh the test method.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-wrote-a-trigger-on-opportunity-that-will-update-a-custom-last-sold-date-field-on-the-opportuni",
+			"Comment__c": "<p>Oppotunityが更新されると、Oppotunityに紐づくAccountのLast Sold Dateカスタムフィールドが更新されるトリガーをテスト</p><p>アサートではAccountのLastSoldDateカスタムフィールドの値を見る想定なので、トリガ発動後にアカウントをリクエリする必要があるのでAが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2NAAX"
+			},
+			"Question__c": "A developer Is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response__c do not belong to a list of blacklisted domains. The list of blacklisted domains will be stored In a custom object for ease of maintenance by users. Note that the Survey_Response__c object is populated via a custom visualforce page.What is the optimal way to implement this?",
+			"A__c": "Implement the logic in an Apex trigger on Contact and also implement the logic within the Custom visualforce page controller.",
+			"B__c": "Implement the logic in a helper class that is called by an Apex trigger on Contact and from the Custom Visualforce page controller.",
+			"C__c": "Implement the logic in the Custom Visualforce page controller and call that method from an Apex trigger on Contact.",
+			"D__c": "Implement the logic in a Validation Rule on the Contact and a validation Rule on the Survey_Response__c object.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-is-tasked-with-ensuring-that-email-addresses-entered-into-the-system-for-contacts-and-for",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2OAAX"
+			},
+			"Question__c": "Which type of controller is best suited when you want all of the basic DML functions from an object&#39;s normal new/edit page?",
+			"A__c": "Standard Controller",
+			"B__c": "Standard List/Set Controller",
+			"C__c": "Controller Extensions",
+			"D__c": "Custom Controller",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-type-of-controller-is-best-suited-when-you-want-all-of-the-basic-dml-functions-from-an-object-s",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2PAAX"
+			},
+			"Question__c": "A company uses Opportunism to track sales to their customers and their org has millions of Opportunities. They want to begging to track revenue over time through a related Revenue <a href=\"https://object.As\" target=\"_blank\">object.As</a> part of their initial implementation, they want to perform a one-time seeding of their data by automatically creating and populating Revenue records for Opportunities, based on complex logic. They estimate that roughly 100,000 Opportunities will have revenue records and populated.What is the optimal way to automate this?",
+			"A__c": "Use System.scheduleJob() to schedule a Database.Scheduleable class.",
+			"B__c": "Use Database.ExecuteBatch() to invoke a Database.Batchable class.",
+			"C__c": "Use Database.executeBatch() to invoke a Queueable dass.",
+			"D__c": "Use System.enqueueJob&gt;() to Invoke a Queueable class.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-uses-opportunism-to-track-sales-to-their-customers-and-their-org-has-millions-of-opportunities",
+			"Comment__c": "一回きりの大量データなのでバッチが正解、文言がちがってるので修正<br><a href=\"https://www.freecram.net/question/Salesforce.PDII.v2020-10-27.q45/a-company-uses-opportunism-to-track-sales-to-their-customers-and-their-org-has-millions-of-opportunities\" target=\"_blank\">https://www.freecram.</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2QAAX"
+			},
+			"Question__c": "A developer has a test class that creates test data before making a mock call-out, but now receives a you have uncommitted work pending. Please commit or callout before calling out error.What step should be taken to resolve the error?",
+			"A__c": "Ensure both the insertion and mock callout occur after the Test.startTest().",
+			"B__c": "Ensure the records are inserted before the Test.startTest() statement and the mock callout after the Test.startTest().",
+			"C__c": "Ensure both the insertion and mock callout occur after the Test.stopTest().",
+			"D__c": "Ensure the records are inserted before the Test.startTest() statement and the mock callout occurs within a method annotated with StestSetup.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-has-a-test-class-that-creates-test-data-before-making-a-mock-call-out-but-now-receives-a",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4DAAX"
+			},
+			"Question__c": "A company has a custom object, Sales Demo Request, that has a lookup to an Opportunity. It is required that a Sales Demo Request record be created when anOpportunity’s Probability is greater than 50%.What is the optimal way to automate this?",
+			"A__c": "Use an Apex Trigger on Opportunity.",
+			"B__c": "Build a Flow on Opportunity.",
+			"C__c": "Create a Workflow on Opportunity.",
+			"D__c": "Build a Process on Opportunity.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-way-to-automate-this/",
+			"Comment__c": "<p>​</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4EAAX"
+			},
+			"Question__c": "A developer is asked to update data in an org based on new business rules. The new rules state that Accounts with the type set to ‘Customer’ should have a status of ‘Active’, and Accounts with the type set to ‘Prospect’ should have a status of ‘Pending’. No other changes to data should be made.Which code block will accurately meet the business requirements?",
+			"A__c": "<p>Map&lt;String, String&gt; statusMap = new Map&lt;String, String&gt;{‘Customer’=&gt;’Active’, ‘Prospect’=&gt;’Pending’} List&lt;Account&gt; accountUpdates = new List&lt;Account&gt;();</p><p>for ( Account a : [SELECT Id, Type FROM Account]){</p><p class=\"ql-indent-1\">if ( statusMap.containsKey(a.Type) ) {</p><p class=\"ql-indent-2\">a.Status = a.Type == ‘Customer’ ? ‘Active’ : ‘Pending’;</p><p class=\"ql-indent-1\">}</p><p class=\"ql-indent-1\">accountUpdates.add(a);</p><p>}</p><p>update accountUpdates;</p>",
+			"B__c": "<p> Map&lt;String, String&gt; statusMap = new Map&lt;String, String&gt;{‘Customer’=&gt;’Active’, ‘Prospect’=&gt;’Pending’} </p><p>List&lt;Account&gt; accountUpdates = new List&lt;Account&gt;();</p><p>for ( Account a : [SELECT Id, Type FROM Account WHERE Status IN :statusMap.keySet()]){</p><p class=\"ql-indent-1\">a.Status = statusMap.get(a.Type); </p><p class=\"ql-indent-1\">accountUpdates.add(a);</p><p>}</p><p>update accountUpdates;</p>",
+			"C__c": "<p>List&lt;Account&gt; accountUpdates = new List&lt;Account&gt;();</p><p>for ( Account a : [SELECT Id, Type FROM Account]){</p><p class=\"ql-indent-1\">if ( String.isNotBlank(a.Type) &amp;&amp; a.Type == Customer’ ){</p><p class=\"ql-indent-2\">a.Status = ‘Active’;</p><p class=\"ql-indent-1\">}</p><p class=\"ql-indent-1\">if ( String.isNotBlank(a.Type) &amp;&amp; a.Type == ‘Prospect’ ){</p><p class=\"ql-indent-2\">a.Status = ‘Pending’; </p><p class=\"ql-indent-1\">}</p><p class=\"ql-indent-1\"> accountUpdates.add(a);</p><p>}</p><p>update accountUpdades;</p>",
+			"D__c": "<p>List&lt;Account&gt; accountUpdates = new List&lt;Account&gt;();</p><p>for ( Account a : [SELECT Id, Type FROM Account]){</p><p class=\"ql-indent-1\">a.Status = a.Type == ‘Customer’ ? ‘Active’ : ‘Pending’; </p><p class=\"ql-indent-1\">accountUpdates.add(a);</p><p>}</p><p>update accountUpdates;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/which-code-block-will-accurately-meet-the-business-requirements/",
+			"Comment__c": "<p>SOQLで適切に絞ってデータを取り出しているBが適切</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4FAAX"
+			},
+			"Question__c": "An Apex class does not achieve expected code coverage. The testSetup method explicitly calls a method in the Apex class.How can the developer generate the code coverage?",
+			"A__c": "Verify the user has permissions passing a user into System.runAs().",
+			"B__c": "Call the Apex class method from a testMethod instead of the testSetup method.",
+			"C__c": "Add @testVisible to the method in the class the developer is testing.",
+			"D__c": "Use system.assert() in testSetup to verify the values are being returned.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-can-the-developer-generate-the-code-coverage/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4GAAX"
+			},
+			"Question__c": "A developer has written an After Update trigger on Account. A workflow rule and field update cause the trigger to repeatedly update the Account records.How should the developer handle the recursive trigger?",
+			"A__c": "Deactivate the trigger and move the logic into a Process or Flow",
+			"B__c": "Deactivate the workflow rule to prevent the field update from executing",
+			"C__c": "Use a static variable to prevent the trigger from executing more than once",
+			"D__c": "Use a global variable to prevent the trigger from executing more than once",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-should-the-developer-handle-the-recursive-trigger/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4HAAX"
+			},
+			"Question__c": "Employee_c is a Child object of Company_c. The Company_c object has an external Id field Company_Id_c.How can a developer insert an Employee_c record linked to Company_c with a Company_Id_c of ‘999’?",
+			"A__c": "<p>Employee_c emp = new Employee_c(Name=’Developer’); </p><p>emp.Company_r = ‘999’ ;</p><p>insert emp;</p>",
+			"B__c": "<p>Employee_c emp = new Employee_c(Name=’Developer’); </p><p>emp.Company_c = ‘999’ ;</p><p>insert emp;</p>",
+			"C__c": "<p>Employee_c emp = new Employee_c(Name=’Developer’); </p><p>emp. Company_c = new Company_c(Company_Id_c=’999′) ;</p><p>insert emp;</p>",
+			"D__c": "<p>Employee_c emp = new Employee_c(Name=’Developer’);</p><p>emp.Company_r = new Company_c(Company_Id_c=’999′)</p><p>insert emp;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://vceguide.com/how-can-a-developer-insert-an-employee_c-record-linked-to-company_c-with-a-company_id_c-of-999/",
+			"Comment__c": "<p>参照関係使って入れる方法、ふつうやらない</p><p>取引先と取引先責任者でやってみたけど、こんな感じかね</p><p>​</p><p>Contact contact = new Contact(Lastname = &#39;tmp&#39;);</p><p>contact.AccountId = new Account(Id = &#39;0015h00000Q4kayAAB&#39;).Id;</p><p>insert contact;</p><p>​</p><p>__rはカスタムオブジェクトで、子から親を参照するときの書き方</p><p>SELECT Id, Name, ParentObj__c, ParentObj__r.name FROM ChildObj__c</p><p>標準​</p><p>​SELECT Id, Name, Account.Id, Account.Name FROM Contact</p><p>​</p><p>​</p><p>​</p><p>​</p><p>​</p><p>​</p><p><span style=\"font-size: 16px;\">http://www.zchaohome.com/soql/</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4IAAX"
+			},
+			"Question__c": "A developer must create a custom pagination solution. While users navigate through pages, if the data is changed from elsewhere, users should still see the cached results first accessed.How can the developer meet these requirements?",
+			"A__c": "Use @Cache annotation",
+			"B__c": "Use a StandardSetController",
+			"C__c": "Use OFFSET in SOQL queries",
+			"D__c": "Use OFFSET WITH CACHE in SOQL queries",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/how-can-the-developer-meet-these-requirements-2/",
+			"Comment__c": "<p>standardSetController 全体をキャッシュするのでユーザがページを切り替えてる間にDBが更新されても結果は変わらない</p><p><br></p><p>https://developer.salesforce.com/blogs/2014/08/paginating-data-for-force-com-applications</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4JAAX"
+			},
+			"Question__c": "A developer wants to create a Visualforce page that allows a user to search for a given account by Name. If the account is found, the account details should be populated on screen. If no account is found, an error message should be displayed to the user.How can this be accomplished? (Choose two.)",
+			"A__c": "Use the (apex: information) tag to display the error message",
+			"B__c": "Use the ApexPages.addMessage() method to add the error message",
+			"C__c": "<p>Use the &lt;apex:pageMessages&gt; tag to display the error message</p><p><br></p>",
+			"D__c": "Use the account.addError() method to add the error message",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/how-can-this-be-accomplished-75/",
+			"Comment__c": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">account.addError() はゼロ件だった場合に使えない</span></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2RAAX"
+			},
+			"Question__c": "Which two scenarios require an Apex method to be called imperatively from a Lightning web component?Choose 2 answers",
+			"A__c": "Calling a method that is external to the main controller for the Lightning web component",
+			"B__c": "Calling a method with the click of a button",
+			"C__c": "Calling a method that makes a web service callout",
+			"D__c": "Calling a method that is not annotated with cacheable=true",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-two-scenarios-require-an-apex-method-to-be-called-imperatively-from-a-lightning-web-component",
+			"Comment__c": "ボタンクリック時のサンプル<br><a href=\"https://www.codekiat.com/2020/04/call-apex-method-on-button-click-in-lwc.html\" target=\"_blank\">https://www.codekiat.com/2020/04/call-apex-method-on-button-click-in-lwc.html</a><br>AuraEnabled(cachable=true)だとクライアント側にキャッシュできる<br>ないと、Apexメソッドの返事を待つ<br><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.216.0.lightning.meta/lightning/controllers_server_apex_auraenabled_annotation.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.216.0.lightning.meta/lightning/controllers_server_apex_auraenabled_annotation.htm</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2SAAX"
+			},
+			"Question__c": "The Contact object in an org is configured with workflow rules that trigger field updates. The fields are not updating, even though the end user expects them to. The developer creates a debug log to troubleshoot the problem.What should the developer specify in the debug log to see the values of the workflow rule conditions and debug the problem?",
+			"A__c": "ERROR level for the Database log category",
+			"B__c": "ERROR level for the Workflow log category",
+			"C__c": "INFO level for the Database log category",
+			"D__c": "INFO level for the Workflow log category",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-contact-object-in-an-org-is-configured-with-workflow-rules-that-trigger-field-updates-the-fields",
+			"Comment__c": "開発者コンソールみるとわかる\n<br>workflow のデフォルトはinfoになっている"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2TAAX"
+			},
+			"Question__c": "What is the transaction limit on the recursive trigger depth?",
+			"A__c": "There is no limit",
+			"B__c": "16",
+			"C__c": "3",
+			"D__c": "10",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-the-transaction-limit-on-the-recursive-trigger-depth",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2UAAX"
+			},
+			"Question__c": "<p>A developer has written the following method:</p><p><br></p><p>static void processList(List&lt;sObject&gt; input)</p><p><br></p><p>Which code block can be used to call the method?</p>",
+			"A__c": "for Account ace : [SELECT Id, Name FROM Account])",
+			"B__c": "processList([SELECT Id, Name FROM sObject WHERE Type = &#39;Account&#39;])",
+			"C__c": "processList (List&lt;Account&gt; acc)",
+			"D__c": "processList ([FIND &#39;Acme&quot; &#39;RETURNING Account])",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-has-written-the-following-method-static-void-processlist-list-lt-sobject-gt-input-which",
+			"Comment__c": "問題文間違えの可能異性あり\n<br><a href=\"https://vceguide.com/which-code-block-can-be-used-to-call-the-method/\" target=\"_blank\">https://vceguide.com/which-code-block-can-be-used-to-call-the-method/</a>\n<br><a href=\"https://www.examtopics.com/discussions/salesforce/vie\" target=\"_blank\"></a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2VAAX"
+			},
+			"Question__c": "A company has a custom object, Sales Demo Request, that has a lookup to an Opportunity. It is required that a Sales Demo Request record be created when an Opportunity&#39;s Probability is greater than 50%. What is the optimal way to automate this?",
+			"A__c": "Build a Flow on Opportunity.",
+			"B__c": "Use an Apex Trigger on Opportunity.",
+			"C__c": "Build a Process on Opportunity",
+			"D__c": "Create a Workflow on Opportunity.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-has-a-custom-object-sales-demo-request-that-has-a-lookup-to-an-opportunity-it-is-required",
+			"Comment__c": "当時は自動化採用する技術の優先順位はプロセス、フロー、トリガの順\n<br>プロセスは今は非推奨\n<br><a href=\"https://vceguide.com/what-is-the-optimal-way-to-automate-this/\" target=\"_blank\">https://vceguide.com/what-is-the-optimal-way-to-automate-this/</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2WAAX"
+			},
+			"Question__c": "What is the transaction limit for the number of records for SOQL queries?",
+			"A__c": "10,000",
+			"B__c": "5,000",
+			"C__c": "50,000",
+			"D__c": "There is no limit",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-the-transaction-limit-for-the-number-of-records-for-soql-queries",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2XAAX"
+			},
+			"Question__c": "A developer has created a solution using the SOAP API for authenticating Communities users. What is needed when issuing the login() Call? (Choose two.)",
+			"A__c": "Session Id",
+			"B__c": "Security Token",
+			"C__c": "Username and Password",
+			"D__c": "Organization Id",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-has-created-a-solution-using-the-soap-api-for-authenticating-communities-users-what-is-needed",
+			"Comment__c": "<p>SOAPログインにはID, Pass, SecurityTokenが必要</p><p>https://vceguide.com/what-is-needed-when-issuing-the-login-call/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2YAAX"
+			},
+			"Question__c": "Business rules require a Contact to always be created when a new Account is created. What can be used when developing a custom screen to ensure an Account is not created if the creation of the Contact fails?",
+			"A__c": "use the Database.Insert method with allOrNone set to False.",
+			"B__c": "use setSavePoint() and rollback() with a try/catch block.",
+			"C__c": "Disable validation rules on Contacts and set default values with a Trigger.",
+			"D__c": "use the Database.Delete method if the Contact insertion fails.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/business-rules-require-a-contact-to-always-be-created-when-a-new-account-is-created-what-can-be-used",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2ZAAX"
+			},
+			"Question__c": "Which annotation exposes an Apex class as a RESTful web service?",
+			"A__c": "@AuraEnabled",
+			"B__c": "@RemoteAction",
+			"C__c": "@RestResource",
+			"D__c": "@HttpInvocabte",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-annotation-exposes-an-apex-class-as-a-restful-neb-service",
+			"Comment__c": "<a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_annotation_rest_resource.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_annotation_rest_resource.ht</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4KAAX"
+			},
+			"Question__c": "A developer has built a multi-page wizard using a single Custom Controller to query and update data. Users are complaining that the pages are loading slowly.What will improve performance? (Choose three.)",
+			"A__c": "Reducing the view state",
+			"B__c": "Using actionRegion and rerender",
+			"C__c": "Turning off the standard stylesheet",
+			"D__c": "Setting the Apex Page attribute cache=true",
+			"E__c": "Using selective queries",
+			"F__c": null,
+			"Answer__c": "A,D,E",
+			"URL__c": "https://vceguide.com/what-will-improve-performance-2/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4LAAX"
+			},
+			"Question__c": "<p>1 Contact con = new Contact( LastName =’Smith’, Department = ‘Admin’);</p><p>2 insert con;</p><p>3 Contact insertedContact=[select Name from Contact where id=:con.Id];</p><p>4 Savepoint sp_admin = Database.setSavepoint();</p><p>5 con.Department = ‘HR’;</p><p>6 update con;</p><p>7 Database.rollback(sp_admin);</p><p>8 System.debug(Limits.getDmlStatements());</p><p><br></p><p>Given the following code, what value will be output in the logs by line #8?</p><p><br></p>",
+			"A__c": "5",
+			"B__c": "3",
+			"C__c": "4",
+			"D__c": "2",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-value-will-be-output-in-the-logs-by-line-8/",
+			"Comment__c": "<p>select はDMLにカウントされないので4回が正しい</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4MAAX"
+			},
+			"Question__c": "What is a recommended practice with regard to the Apex CPU limit? (Choose two.)",
+			"A__c": "Optimize SOQL query performance",
+			"B__c": "Use Map collections to cache sObjects",
+			"C__c": "Avoid nested Apex iterations",
+			"D__c": "Reduce view state in Visualforce pages",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/what-is-a-recommended-practice-with-regard-to-the-apex-cpu-limit/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4NAAX"
+			},
+			"Question__c": "A developer is writing a Visualforce page to display a list of all of the checkbox fields found on a custom object.What is the recommended mechanism the developer should use to accomplish this?",
+			"A__c": "Schema Class",
+			"B__c": "Apex API",
+			"C__c": "Schema Builder",
+			"D__c": "Metadata API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/what-is-the-recommended-mechanism-the-developer-should-use-to-accomplish-this/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4OAAX"
+			},
+			"Question__c": "A developer has created a Team Member sObject that has a Master-Detail relationship to a Project sObject and a Lookup relationship to the User sObject. The developer must ensure that a User listed on a Team Member record has ReadWrite access to the parent Project record.How can the developer accomplish this if the Project sObject has a Private sharing model and thousands of Project records?",
+			"A__c": "Create a Controller that uses the Without Sharing keyword",
+			"B__c": "Create a Criteria-Based Sharing Rule on the Project sObject",
+			"C__c": "Create a Team Member Trigger that inserts Project_Share records",
+			"D__c": "Create a Project Sharing Rule that shares to the Team Member Group",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/how-can-the-developer-accomplish-this-if-the-project-sobject-has-a-private-sharing-model-and-thousands-of-project-records/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4PAAX"
+			},
+			"Question__c": "Which statement is true about using ConnectApi namespace (also called Chatter in Apex)? (Choose two.)",
+			"A__c": "Chatter in Apex methods honor the ‘with sharing’ and ‘without sharing’ keywords",
+			"B__c": "Chatter in Apex operations are synchronous, and they occur immediately",
+			"C__c": "Chatter in Apex methods do not run in system mode; they run in the context of the current user",
+			"D__c": "Many test methods related to Chatter in Apex require the IsTest (SeeAllData=true) annotation",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://vceguide.com/which-statement-is-true-about-using-connectapi-namespace-also-called-chatter-in-apex/",
+			"Comment__c": "<p>connectedApiはシステムモードで動作しない、runAs動かない</p><p>without sharing、with sharingを無視する</p><p>コンテキストユーザで動作する</p><p>非同期実行</p><p>connectedApiのテストは@IsTest(SeeAllData=true) つけないと失敗する</p><p><br></p><p>古いのかな？こんな制約があるってことは、、</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_connectapi_differences.htm</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/connectAPI_TestingApex.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4QAAX"
+			},
+			"Question__c": "A company represents their customers as Accounts that have an External ID field called Customer_Number__c. They have a custom Order (Order__c) object, with a Lookup to Account, to represent Orders that are placed in their external order management system (OMS). When an order is fulfilled in the OMS, a REST call to Salesforce should be made that creates an Order record in Salesforce and relates it to the proper Account.What is the optimal way to implement this?",
+			"A__c": "Perform a REST GET on the Account and a REST POST to update the Order__c with the Account’s record ID.",
+			"B__c": "Perform a REST PATCH to upsert the Order__c and specify the Account’s Customer_Number__c in it.",
+			"C__c": "Perform a REST POST to update the Order__c and specify the Account’s Customer_Number__c in it.",
+			"D__c": "Perform a REST GET on the Account and a REST PATCH to upsert the Order__c with the Account’s record ID.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-the-optimal-way-to-implement-this-2/",
+			"Comment__c": "<p>オーダー作るときはアップサートが正解</p><p>​</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4RAAX"
+			},
+			"Question__c": "A Visualforce page loads slowly due to the large amount of data it displays.Which strategy can a developer use to improve the performance?",
+			"A__c": "Use Javascript to move data processing to the browser instead of the controller.",
+			"B__c": "Use the transient keywords for the List variables used in the custom controller.",
+			"C__c": "Use lazy loading to load the data on demand, instead of the controller’s constructor.",
+			"D__c": "Use an  in the page to load all of the data asynchronously.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/which-strategy-can-a-developer-use-to-improve-the-performance/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2aAAH"
+			},
+			"Question__c": "A developer notices the execution of all the test methods in a class takes a long time to run, due to the initial setup of all the test data that is needed to perform the tests.What should the developer do to speed up test execution?",
+			"A__c": "Define a method that creates test data and annotate with @testSetup.",
+			"B__c": "Define a method that creates test data and annotate with @createData",
+			"C__c": "Reduce the amount of test methods in the class.",
+			"D__c": "Ensure proper usage of test data factory In all test methods.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-notices-the-execution-of-all-the-test-methods-in-a-class-takes-a-long-time-to-run-due-to",
+			"Comment__c": "<a href=\"https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_testsetup_using.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_testsetup_using.htm</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2bAAH"
+			},
+			"Question__c": "ABC Company has an Apex process that makes multiple extensive database operation and web service callouts. The database processes and web services can take a length time to run and must be run sequentially.How should the developer write this Apex code without running into governor limits and system limitations?",
+			"A__c": "Use multiple @future methods for each process and callout.",
+			"B__c": "Use Apex Scheduler to scheduled each process.",
+			"C__c": "Use Limits class to stop entire process once governor limits are reached.",
+			"D__c": "Use Queueable Apex to chain the jobs to run sequentially.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/abc-company-has-an-apex-process-that-makes-multiple-extensive-database-operation-and-web-service-callouts",
+			"Comment__c": "キューアブル使ってもガバナリミットは超えられないので、モニタして中断させるのが正解"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2cAAH"
+			},
+			"Question__c": "What are three benefits of using static resources in Visualforce and Lightning Components? Choose 3 answers",
+			"A__c": "Static resource files can be referenced by using the $Resource global variable instead of hardcoded IDs.",
+			"B__c": "Static resource files can be packaged into a collection of related files in a zip or jar archive.",
+			"C__c": "Static resource files do not count against an organization&#39;s quota of data storage.",
+			"D__c": "Relative paths can be used in files in static resource archives to refer to other content within the archive.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-are-three-benefits-of-using-static-resources-in-visualforce-and-lightning-components-choose-3-answer",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2dAAH"
+			},
+			"Question__c": "<p>A company manages information about their product offerings in custom objects named Catalog and Catalog Item. Catalog Item has a master-detail field to Catalog, and each Catalog may have as many as 100,000 Catalog Items.Both custom objects have a CurrencylsoCode Text field that contains the currency code they should use. If a Catalog&#39;s CurrencylsoCode changes, all of its Catalog Items&#39; CurrencylsoCodes should be changed as well.What should a developer use to update the CurrencylsoCodes on the Catalog Items when the Catalog&#39;s CurrencylsoCode changes?</p>",
+			"A__c": "A Database.Schedulable and Database.Batchable class that queries the Catalog Item object and updates the Catalog Items if the Catalog CurrencylsoCode is different",
+			"B__c": "A Database.Schedulable and Database.Batchable class that queries the Catalog object and updates the Catalog Items if the Catalog CurrencylsoCode is different",
+			"C__c": "An after insert trigger on Catalog Item that updates the Catalog Items if the Catalog&#39;s CurrencylsoCode is different",
+			"D__c": "An after insert trigger on Catalog that updates the Catalog Items if the Catalog&#39;s CurrencylsoCode is different",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-manages-information-about-their-product-offerings-in-custom-objects-named-catalog-and-catalog",
+			"Comment__c": "<p>すなおに、バッチのスタートメソッドで、<span style=\"color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">カタログをクエリで取得、</span>クエリロケータでカタログアイテムを取得、エクスキュートで、カタログアイテムを更新</p><p>クエリロケータの事をきいているわけではないので、Aは不正解</p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">スタートでカタログアイテム、クエリロケータでもカタログアイテムでISO通過コードを比較しても、意味がないのでAは不正解</span></p><p>CDは100,000はDML処理できないのでトリガーは不正解</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2eAAH"
+			},
+			"Question__c": "Universal Containers implements a private sharing model for the Convention_Attendence_c custom object. As part of a new quality assurance effort, the company created an Event___Reviewer__c user lookup field on the object. Management wants the event reviewer to automatically gain Read/write access to every record they are assigned to.What is the best approach to ensure the assigned reviewer obtains Read/Write access to the record?",
+			"A__c": "Create an After Insert trigger on the Convention Attendee custom object, and use Apex Sharing Reasons and Apex Managed Sharing.",
+			"B__c": "Create a Before Insert trigger on the Convention Attendee custom object, and use Apex Sharing Reasons and Apex Managed Sharing.",
+			"C__c": "Create a criteria-based sharing rule on the Convention Attendee custom object to share the records the a group of Event Reviewers.",
+			"D__c": "Create criteria-based sharing rules on the Convention Attendee custom object to share the records with the Event Reviewers.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/universal-containers-implements-a-private-sharing-model-for-the-convention_attendence_c-custom-object",
+			"Comment__c": "after insertじゃないとapex 共有できない、idないので\n<br><a href=\"https://www.examtopics.com/discussions/salesforce/view/42610-exam-certified-platform-developer-ii-topic-1-question-229/\" target=\"_blank\">https://www.examtopics.com/discussions/salesforce/view/42610-exam-certified-platform-developer-ii-topic-1-question-229/</a>\n<br><a href=\"https://developer.salesforce.com/docs/atlas.en-us.200.0.apexcode.meta/apexcode/apex_bulk_sharing_creating_with_apex.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.en-us.200.0.apexcode.meta/apexcode/apex_bulk_sharing_creating_with_apex.htm</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2fAAH"
+			},
+			"Question__c": "What tool in the Developer Console contains information on SOQL query Cardinality?",
+			"A__c": "Checkpoints tab",
+			"B__c": "Query Editor",
+			"C__c": "Query Plan Tool",
+			"D__c": "View State Tab",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-tool-in-the-developer-console-contains-information-on-soql-query-cardinality",
+			"Comment__c": "カーディナリティ、データのバリエーション、カーディナリティが高い列にインデックスを貼ると検索速度が上がる\n<br><a href=\"https://qiita.com/soyanchu/items/034be19a2e3cb87b2efb\" target=\"_blank\">https://qiita.com/soyanchu/items/034be19a2e3cb87b2efb</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4SAAX"
+			},
+			"Question__c": "What is the correct order of execution for Visualforce Page &quot;get&quot; requests (initial page visit)?",
+			"A__c": "<p>1) Evaluate constructors on controller and extensions</p><p>2) If there’s a &lt;apex:form&gt; element, create the view state</p><p>3) Evaluate expressions, &lt;apex:page&gt; attribute actions, and other method calls (getters/setters) on main page</p><p>4) Evaluate constructors, extensions, and expression on attribute definitions on any custom components present5) Send HTML to Browser</p>",
+			"B__c": "<p>1) Evaluate constructors, extensions, and expression on attribute definitions on any custom components present</p><p>2) Evaluate constructors on controller and extensions</p><p>3) Evaluate expressions, &lt;apex:page&gt; attribute actions, and other method calls (getters/setters) on main page</p><p>4) If there’s a &lt;apex:form&gt; element, create the view state</p><p>5) Send HTML to Browser</p>",
+			"C__c": "<p> 1) Evaluate constructors on controller and extensions</p><p>2) Evaluate constructors, extensions, and expression on attribute definitions on any custom components present</p><p>3) Evaluate expressions, &lt;apex:page&gt; attribute actions, and other method calls (getters/setters) on main page</p><p>4) If there’s a &lt;apex:form&gt; element, create the view state</p><p>5) Send HTML to Browser</p>",
+			"D__c": null,
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-is-the-correct-order-of-execution-for-visualforce-page-get-requests-initial-page-visit/",
+			"Comment__c": "<p>コンストラクタ見る</p><p>コンポーネントがあれば、再度コンポーネントのコンストラクタを見にゆく</p><p>&lt;apex:page&gt;内部を評価</p><p>&lt;apex:form&gt;があればビューステートを作成</p><p>ブラウザにHTMLを送信</p><p><br></p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_get_request.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4TAAX"
+			},
+			"Question__c": "A developer has created a Visualforce page that uses a third-party JavaScript framework. The developer has decided to supply data to the JavaScript functions using JavaScript Remoting for Apex Controllers.What is the correct syntax to declare a remote method in Apex? (Choose two.)",
+			"A__c": "@RemoteAction global static String getTable()",
+			"B__c": "@RemoteAction global String getTable()",
+			"C__c": "@RemoteAction public static String getTable()",
+			"D__c": "@RemoteObject global static String getTable()",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://vceguide.com/what-is-the-correct-syntax-to-declare-a-remote-method-in-apex/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4UAAX"
+			},
+			"Question__c": "Which API can be used to execute unit tests? (Choose three.)",
+			"A__c": "Streaming API",
+			"B__c": "Test API",
+			"C__c": "Tooling API",
+			"D__c": "SOAP API",
+			"E__c": "Metadata API",
+			"F__c": null,
+			"Answer__c": "C,D,E",
+			"URL__c": "https://vceguide.com/which-api-can-be-used-to-execute-unit-tests/",
+			"Comment__c": "<p>StreamingAPIはメッセージ配信</p><p>TestAPIは存在しない</p><p>なので残りが正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4VAAX"
+			},
+			"Question__c": "What level can a hierarchy custom setting be defined for? (Choose three.)",
+			"A__c": "Users",
+			"B__c": "Groups",
+			"C__c": "Profiles",
+			"D__c": "Roles",
+			"E__c": "Organization",
+			"F__c": null,
+			"Answer__c": "A,C,E",
+			"URL__c": "https://vceguide.com/what-level-can-a-hierarchy-custom-setting-be-defined-for/",
+			"Comment__c": "<p>ユーザ、プロファイル、組織でマッチングが可能</p><p>トリガー実行を特定ユーザ・プロファイルだけ外すとかできる</p><p>データメンテユーザとかでやると便利</p><p><br></p><p>https://gawatari.com/custom-setting/</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_customsettings.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4WAAX"
+			},
+			"Question__c": "A developer needs test data for Apex test classes.What can the developer use to provide test data to the test methods? (Choose two.)",
+			"A__c": "List Is = Test.loadData (Lead.sObjectType, ‘myTestLeads’);",
+			"B__c": "myDataFactory.createTestRecords (10)",
+			"C__c": "Database.createTestRecords (10)",
+			"D__c": "List Is = Test.loadDat (Lead.sObjectType, $Resource + ‘myTestLeads’);",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,B",
+			"URL__c": "https://vceguide.com/what-can-the-developer-use-to-provide-test-data-to-the-test-methods/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4XAAX"
+			},
+			"Question__c": "<p>[FIND ‘map’ IN ALL FIELDS RETURNING Account (Id, Name), Contact, Opportunity, Lead]</p><p><br></p><p>What is a valid return type for the following SOSL query?</p>",
+			"A__c": "<p>List&lt;sObject&gt;</p>",
+			"B__c": "<p>List&lt;List&lt;sObject&gt;&gt;</p>",
+			"C__c": "<p>List&lt;AggregateResult&gt;</p><p><br></p>",
+			"D__c": "<p>List&lt;Account&gt;</p>",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://vceguide.com/what-is-a-valid-return-type-for-the-following-sosl-query/",
+			"Comment__c": "<p>SOSLはsObjectのリストのリストが返り値</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4YAAX"
+			},
+			"Question__c": "A developer receives a LimitException: Too many query rows: 50001 error when running code.What debugging approach using the Developer Console provides the fastest and most accurate mechanism to identify a specific component that may be returning an unexpected number of rows?",
+			"A__c": "Count the number of Row Limit warning messages in the Debug Logs",
+			"B__c": "Add System.debug(System.getQueryRows()) to the code to track SOQL usage",
+			"C__c": "Filter the Debug Log on SOQL_EXECUTE_END statements to track the results of each SOQL Query",
+			"D__c": "Use the Execution Overview to see the number of rows returned by each Executed Unit",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-debugging-approach-using-the-developer-console-provides-the-fastest-and-most-accurate-mechanism-to-identify-a-specific-component-that-may-be-returning-an-unexpected-number-of-rows/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4ZAAX"
+			},
+			"Question__c": "A developer has created a solution using the SOAP API for authenticating Communities users.What is needed when issuing the login() Call? (Choose two.)",
+			"A__c": "Organization Id",
+			"B__c": "Session Id",
+			"C__c": "Username and Password",
+			"D__c": "Security Token",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C,D",
+			"URL__c": "https://vceguide.com/what-is-needed-when-issuing-the-login-call/",
+			"Comment__c": "<p>SOAPでlogin()を実行時は、ユーザ名、パスワード、セキュリティトークンを引数として利用する</p><p><br></p><p>login()の返り値にセッションIDが含まれ、後続のAPI処理のヘッダに埋め込むことで認証された要求になる</p><p><br></p><p><span style=\"font-size: 16px; color: rgb(11, 11, 11);\">When a client app invokes the </span><span style=\"font-size: 16px; font-family: Menlo, monospace; color: rgb(11, 11, 11);\">login()</span><span style=\"font-size: 16px; color: rgb(11, 11, 11);\"> call, it passes in a username and password as credentials. Upon invocation, the API authenticates the credentials . It then returns the </span><span style=\"font-size: 16px; font-family: Menlo, monospace; color: rgb(11, 11, 11);\">sessionId</span><span style=\"font-size: 16px; color: rgb(11, 11, 11);\">, the user ID associated with the logged-in username, and a URL that points to the Lightning Platform API to use in all subsequent API calls.</span></p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_login.htm</p><p><br></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2gAAH"
+			},
+			"Question__c": "What is the transaction limit for the number of records per DML statement?",
+			"A__c": "5,000",
+			"B__c": "10,000",
+			"C__c": "50,000",
+			"D__c": "20,000",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-the-transaction-limit-for-the-number-of-records-per-dml-statement",
+			"Comment__c": "<p>同期・非同期問わず</p><p><br></p><p>Total number of records processed as a result of DML statements, Approval.process, or database.emptyRecycleBin</p><p>10000</p><p><br></p><p>Total number of records retrieved by SOQL queries</p><p>50000</p><p><br></p><p>Total number of records retrieved by Database.getQueryLocator</p><p>10000</p><p><br></p><p>Total number of records retrieved by a single SOSL query</p><p>2000</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2hAAH"
+			},
+			"Question__c": "What is the transaction limit on the max timeout for all callouts?",
+			"A__c": "60 seconds (synchronous); 200 seconds (async",
+			"B__c": "60 seconds",
+			"C__c": "There is no limit",
+			"D__c": "120 seconds",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-the-transaction-limit-on-the-max-timeout-for-all-callouts",
+			"Comment__c": "<a href=\"https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_apexgov.htm#:~:text=These%20DML%20statements%20are%20in,your%20native%20org%20both%20executes\" target=\"_blank\"></a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2iAAH"
+			},
+			"Question__c": "A company represents their customers as Accounts in Salesforce. All customers have a unique Customer_Number__c that is unique across all of the company&#39;s systems. They also have a custom Invoice__c object, with a Lookup to Account, to represent invoices that are sent out from their external system. This company wants to integrate invoice data back into Salesforce so Sales Reps can see when a customer is paying their bills on time. What is the optimal way to implement this?",
+			"A__c": "Query the Account Object upon each call to insert invoice data to fetch the Salesforce ID corresponding to the Customer Number on the invoice",
+			"B__c": "Use Salesforce Connect and external data objects to seamlessly import the invoice data into Salesforce without custom code.",
+			"C__c": "Create a cross-reference table in the custom invoicing system with the Salesforce Account ID of each Customer and insert invoice data nightly.",
+			"D__c": "Ensure Customer_Number__c is an External ID and that a custom field Invoice_Number__c is an External ID and Upsert invoice data nightly.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-represents-their-customers-as-accounts-in-salesforce-all-customers-have-a-unique-customer_numbe",
+			"Comment__c": "<a href=\"https://vceguide.com/what-is-the-optimal-way-to-implement-this-3/\" target=\"_blank\">https://vceguide.com/what-is-the-optimal-way-to-implement-this-3/</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2jAAH"
+			},
+			"Question__c": "A large company uses Salesforce across several departments. Each department has its own Salesforce Administrator. It was agreed that each Administrator would have their own sandbox in which to test changes. Recently, users notice that fields that were recently added for one department suddenly disappear without warning. Also, Workflows that once sent emails and created tasks no longer do so. Which two statements are true regarding these issues and resolution? Choose 2 answers",
+			"A__c": "Page Layouts should never be deployed via Change Sets, as this causes Workflows and Field-level Security to be reset and fields to disappear.",
+			"B__c": "A sandbox should be created to use as a unified testing environment instead of deploying Change Sets directly to production.",
+			"C__c": "The administrators are deploying their own Change Sets over each other, thus replacing entire Page Layouts and Workflows in Production",
+			"D__c": "The administrators are deploying their own Change Sets, thus deleting each other&#39;s fields from the objects in production.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-large-company-uses-salesforce-across-several-departments-each-department-has-its-own-salesforce-adminis",
+			"Comment__c": "<p>変更セットで削除はできない</p><p>レイアウトの上書きはあっても、ワークフローや項目レベルセキュリティやオブジェクトや項目の削除はありえないのでAやDは不正解</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2kAAH"
+			},
+			"Question__c": "Which interface needs to be implemented by a Lightning Component so that it may be displayed in modal dialog by clicking a button on a Lightning Record page?",
+			"A__c": "Lightning:editAction",
+			"B__c": "Fightning:quickAction",
+			"C__c": "Force:lightningQuickAction",
+			"D__c": "Force:lightningEditAction",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/which-interface-needs-to-be-implemented-by-a-lightning-component-so-that-it-may-be-displayed-in-modal",
+			"Comment__c": "<a href=\"https://qiita.com/joney19860716/items/10dee041e09d8f1ecab0\" target=\"_blank\">https://qiita.com/joney19860716/items/10dee041e09d8f1ecab0</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2lAAH"
+			},
+			"Question__c": "What is a potential design issue with the following code?",
+			"A__c": "SOQL could be avoided by creating a formula field for StageName in Account from the related Opportunity",
+			"B__c": "The code will result in a System.LimitException: Apex CPU time limit exceeded error",
+			"C__c": "The code will result in a System.LimitException : Too many script statements error",
+			"D__c": "The code will result in a System.DmException:Entity_is_Deleted error",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-a-potential-design-issue-with-the-following-code-exhibit",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2mAAH"
+			},
+			"Question__c": "How long is field history retained?",
+			"A__c": "36 Months",
+			"B__c": "24 Months",
+			"C__c": "18 Months",
+			"D__c": "12 Months",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/how-long-is-field-history-retained",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4aAAH"
+			},
+			"Question__c": "When developing a Visualforce page that will be used by a global organization that does business in many languages and many currencies, which feature should be used? (Choose three.)",
+			"A__c": "Custom Labels",
+			"B__c": "convertCurrency()",
+			"C__c": "Global Labels",
+			"D__c": "<p>Translation Workbench</p>",
+			"E__c": "getLocalCurrency()",
+			"F__c": null,
+			"Answer__c": "A,B,D",
+			"URL__c": "https://vceguide.com/when-developing-a-visualforce-page-that-will-be-used-by-a-global-organization-that-does-business-in-many-languages-and-many-currencies-which-feature-should-be-used/",
+			"Comment__c": "<p>convertCurrency()</p><p>通貨の変換</p><p><br></p><p>多言語対応</p><p>カスタム表示ラベル</p><p><br></p><p>workbenchでSOQLやSOSLの具合を見る</p><p><span style=\"\">FIND {test} RETURNING Opportunity(Name, convertCurrency(Amount))</span></p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl_querying_currency_fields.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4bAAH"
+			},
+			"Question__c": "Which two objects can be inserted in the same transaction? (Choose two.)",
+			"A__c": "Opportunity and User",
+			"B__c": "Account and AccountShare",
+			"C__c": "Case and CaseComment",
+			"D__c": "Account and Group",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://vceguide.com/which-two-objects-can-be-inserted-in-the-same-transaction/",
+			"Comment__c": "<p>トランザクションはロールバックやコミット単位</p><p>APEXでは同一トランザクションに入れることができないオブジェクトがある</p><p><br></p><p>User, Group, GroupMemberとか</p><p><br></p><p>AはUserが駄目、DはGroupが駄目</p><p><br></p><p>https://esp-labo.com/mixed_dml_operation/</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4cAAH"
+			},
+			"Question__c": "How can the DISTANCE and GEOLOCATION functions be used in SOQL queries? (Choose two.)",
+			"A__c": "To filter results based on distance from a latitude and longitude",
+			"B__c": "To get the distance results from a latitude and longitude",
+			"C__c": "To order results by distance from a latitude or longitude",
+			"D__c": "To group results in distance ranges from a latitude and longitude",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://vceguide.com/how-can-the-distance-and-geolocation-functions-be-used-in-soql-queries/",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4dAAH"
+			},
+			"Question__c": "What is a consideration when using bind variables with dynamic SOQL? (Choose two.)",
+			"A__c": "Dynamic SOQL cannot reference fields on bind variables",
+			"B__c": "Dynamic SOQL cannot use bind variables",
+			"C__c": "Bind variables must be public or global",
+			"D__c": "Bind variables must be in local scope",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,D",
+			"URL__c": "https://vceguide.com/what-is-a-consideration-when-using-bind-variables-with-dynamic-soql/",
+			"Comment__c": "<pre class=\"ql-syntax\">フィールドとして使えるのでAは正解\nいちおう、フィールドは文字列として扱われる\nOKな例\nString myTestString = &#39;TestName&#39;;\nList&lt;sObject&gt; sobjList = Database.query(&#39;SELECT Id FROM MyCustomObject__c WHERE Name = :myTestString&#39;);\n\nNGな例\nMyCustomObject__c myVariable = new MyCustomObject__c(field1__c =&#39;TestField&#39;);\nList&lt;sObject&gt; sobjList = Database.query(&#39;SELECT Id FROM MyCustomObject__c WHERE field1__c = :myVariable.field1__c&#39;);\n</pre><p>項目として扱われない、ストリングとしてあつかわれる</p><p><br></p><p>ローカルスコープなのでDが正解</p><p>ローカルスコープの意味</p><p>Database.query(qeryString)やるところで、バインド変数を含めて組み立てるので、バインド変数が、組み立てる場所で、参照できないと失敗する</p><p>よくqueryStringだけメソッドわけて、そのメソッド内でバインド変数を組み込もうとするが、Database.query()でストリングが組み立てられるので失敗する</p><p><br></p><p>https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dynamic_soql.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4eAAH"
+			},
+			"Question__c": "A developer is writing code that requires making callouts to an external web service.Which scenario necessitates that the callout be made in an @future method?",
+			"A__c": "The callouts will be made in an Apex Trigger.",
+			"B__c": "The callouts will be made in an Apex Test class.",
+			"C__c": "The callout could take longer than 60 seconds to complete.",
+			"D__c": "Over 10 callouts will be made in a single transaction.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://vceguide.com/which-scenario-necessitates-that-the-callout-be-made-in-an-future-method/",
+			"Comment__c": "<p>トリガーからコールアウトする場合はフューチャーアノテーションが必須​</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK4fAAH"
+			},
+			"Question__c": "A user receives the generic &quot;An internal server error has occurred&quot; while interacting with a custom Lightning Component.What should the developer do to ensure a more meaningful message?",
+			"A__c": "Add an onerror event handler to the tag.",
+			"B__c": "Add an error-view component to the markup.",
+			"C__c": "Use an AuraHandledException in a try/catch block.",
+			"D__c": "Use ProcessBuilder to catch the error.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://vceguide.com/what-should-the-developer-do-to-ensure-a-more-meaningful-message/",
+			"Comment__c": "<p>トライキャッチで、サーバーサイドコントローラでエラーを画面に投げる事ができる</p><p><br></p><p><span style=\"background-color: rgb(243, 243, 243); font-size: 14px; color: rgb(11, 11, 11);\">    </span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px;\">throw</span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px; color: rgb(11, 11, 11);\"> </span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px;\">new</span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px; color: rgb(11, 11, 11);\"> AuraHandledException</span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px;\">(</span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px; color: rgb(11, 11, 11);\">&#39;NSFW name detected.&#39;</span><span style=\"background-color: rgb(243, 243, 243); font-size: 14px;\">);</span></p><p><br></p><p>https://developer.salesforce.com/docs/atlas.ja-jp.234.0.lightning.meta/lightning/controllers_server_apex_custom_errors.htm</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2nAAH"
+			},
+			"Question__c": "Recently a Salesforce org&#39;s integration failed because it exceeded the number of allowed API calls in a 24-hour period. The integration handles a near real-time, complex insertion of data into Salesforce. The flow of data is as follows: \n<br><br>* The integration looks up Contact records with a given email address and, if found, the integration adds a Task to the first matching Contact it finds. If a match is not found, the integration looks up Lead records with a given email address and, if found, the integration adds a Task to the first matching Lead it finds. \n<br>* If a match is not found, the integration will create a Lead and a Task for that newly created Lead. \n<br><br>What is one way in which the integration can stay near real-time, but not exceed the number of allowed API calls in a 24-hour period?",
+			"A__c": "Create several Apex InboundEmailHandlers to accept calls from the third-party system, thus bypassing the API limits.",
+			"B__c": "Use the REST API as well as the SOAP API to effectively double the API calls allowed in a 24-hour period.",
+			"C__c": "write a custom Apex web service that, given an email address, does all of the logic the integration code was doing.",
+			"D__c": "Create an Inbound Message that, using Flow, can do all of the logic the integration code was doing.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/recently-a-salesforce-org-s-integration-failed-because-it-exceeded-the-number-of-allowed-api-calls-in",
+			"Comment__c": "<p>apiではなく、inbound emailを利用することでapiのガバナリミットを回避</p><p><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_email_inbound_using.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_email_inbound_using.htm</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2oAAH"
+			},
+			"Question__c": "<p>A developer is building a Lightning web component to get data from an Apex method called getData that takes a parameter, name. The data should be retrieved when the user clicks the Load Data button.</p><p><br></p><p>Javascript:</p><p>import { LightningElement } from lwc;</p><p>import getData from &#39;@salesforce/apex/AccountInfo.getData&quot;;</p><p>export default class AccountInfo extends Lightning Element {</p><p class=\"ql-indent-1\">account:</p><p class=\"ql-indent-1\">name;</p><p class=\"ql-indent-1\">nameChanged (evt) {</p><p class=\"ql-indent-2\"><a href=\"https://this.name\" target=\"_blank\">this.name</a> = evt.target.value;</p><p class=\"ql-indent-1\">}</p><p class=\"ql-indent-1\">loadData() {</p><p class=\"ql-indent-1\">}</p><p>}</p><p><br></p><p>Component Markup Snippet:</p><p>&lt;lightning-button label=&quot;Load Data&quot; onclick={loadData)&gt;</p><p>&lt;/lightning-button&gt;</p><p>&lt;lightning-input type=&quot;text&quot; label=&quot;Name&quot; value=(name) onchange={nameChanged}&gt;</p><p>&lt;/lightning-input&gt;</p><p><br></p><p>What must be added to get the data?</p>",
+			"A__c": "<p>Add @wire(getData, {name: $name}) to the account field and delete loadData ( ) because it is not needed.</p>",
+			"B__c": "<p>Add @wire(getData, (name: $name)} to the account field and this, account = getData ( ) ; to t loadData ( ) function.</p>",
+			"C__c": "Add getData ({ name; this,name}) , then (result=&gt; { this.account = result}) to the LoadData ( ) function.",
+			"D__c": "Add this, account = getData (this,name); to the loadData ( ) function.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-is-building-a-lightning-web-component-to-get-data-from-an-apex-method-called-getdata-that",
+			"Comment__c": "getData()の中に{}を記述する意味が不明<br>thenの意味が不明<br>アロー関数<br><a href=\"https://qiita.com/may88seiji/items/4a49c7c78b55d75d693b\" target=\"_blank\">https://qiita.com/may88seiji/items/4a49c7c78b55d75d693b</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2pAAH"
+			},
+			"Question__c": "In a VisualForce page with a VisualForce component that has rendered set to false when the page loads, how can a developer ensure it will show on a re-render?",
+			"A__c": "Perform a full page refresh since rendered elements cannot be re-rendered without refreshing.",
+			"B__c": "Set the re-render attribute of the component to true.",
+			"C__c": "Set the rendered attribute of the component to true and re-render the component.",
+			"D__c": "Set the rendered attribute of the component to true and re-render a parent component.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/in-a-visualforce-page-with-a-visualforce-component-that-has-rendered-set-to-false-when-the-page-loads",
+			"Comment__c": "VFコンポーネントの親ウインドウを指定して再描画する<br><a href=\"https://stackoverflow.com/questions/11520533/visualforce-rerender-the-parent-page-table-from-child\" target=\"_blank\">https://stackoverflow.com/questions/11520533/visualforce-rerender-the-parent-page-table-from-child&lt;</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2qAAH"
+			},
+			"Question__c": "<p>A company has a custom object. Request__c. </p><p>that has a field, Completed__c.</p><p>and a Lookup to Opportunity, Opportunity__c.</p><p>Which SOQL query will get a unique list of all of the Opportunity records that have a Completed Request?</p>",
+			"A__c": "SELECT Id FROM Opportunity WHERE Id IN (SELECT Opportunity__c FROM Request__c WHERE Completed__c = true)",
+			"B__c": "SELECT Opportunity__c FROM Request__c WHERE Id IN (SELECT Id From Request__c WHERE Completed__c = true)",
+			"C__c": "SELECT Opportunity__c FROM Request__c WHERE Completed__c = true",
+			"D__c": "SELECT Id FROM Opportunity WHERE Id IN (SELECT Id FROM Request__c WHERE Completed__c = true)",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-has-a-custom-object-request__c-that-has-a-field-completed__c-and-a-lookup-to-opportunity",
+			"Comment__c": "IN の中はOpportunityのIdなのでAが正解、DはRequest__cのIdなので不正解"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2rAAH"
+			},
+			"Question__c": "A developer gets an error saying &#39;Maximum Trigger Depth Exceeded.&#39; What is a possible reason to get this error message?",
+			"A__c": "Trigger is recursively invoked more than 16 times.",
+			"B__c": "There are numerous DML operations in the trigger logic.",
+			"C__c": "The SOQL governor limits are being hit.",
+			"D__c": "A Process Builder is running that sends mass emails.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-gets-an-error-saying-maximum-trigger-depth-exceeded.-what-is-a-possible-reason-to-get-this",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2sAAH"
+			},
+			"Question__c": "A company processes Orders within their Salesforce instance. When an Order&#39;s status changes to &#39;Paid&#39; it must notify the company&#39;s order management system (OMS). The OMS exposes SOAP web service endpoints to listen for when to retrieve the data from Salesforce. What is the optimal method to implement this?",
+			"A__c": "Generate the Enterprise WSDL and use it to make a callout to the OMS.",
+			"B__c": "Create an Outbound Message that contains the session ID and send it to the OMS.",
+			"C__c": "Generate the Partner WSDL and use it to make a callout to the OMS.",
+			"D__c": "Create an Apex trigger and make a callout to the OMS from the trigger.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-processes-orders-within-their-salesforce-instance-when-an-order-s-status-changes-to-paid",
+			"Comment__c": "<a href=\"https://vceguide.com/what-is-the-optimal-method-to-implement-this/\" target=\"_blank\">https://vceguide.com/what-is-the-optimal-method-to-implement-this/</a><br>WSDLはSOAPエンドポイントを公開してするときに生成する<br><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/apex_integration_services/apex_inte\" target=\"_blank\">https://trailhead.salesforce.com/ja/content/learn/modules/apex_integration_services/apex_inte</a><br>gration_soap_callouts<br>Enterpriseは片付けが強い、Partnerは複数のSF用途<br><a href=\"https://developer.salesforce.com/docs/atlas.ja-jp.api.meta/api/sforce_api_partner.htm\" target=\"_blank\">https://developer.salesforce.com/docs/atlas.ja-jp.api.meta/api/sforce_api_partner.htm</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2tAAH"
+			},
+			"Question__c": "<p>Given the following code:</p><p><br></p><p>for (Contact c : [SELECT Id, Lastname FROM Contact WHERE CreateDate = TODAY]) {</p><p class=\"ql-indent-1\">Account a = [SELECT Id, Name FROM Account WHERE CreateDate = TODAY LIMIT 5];</p><p class=\"ql-indent-1\">c.AccountId = a.Id;</p><p class=\"ql-indent-1\">Update c;</p><p>}</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>Assuming there were 10 Contacts and five Accounts created today, what is the expected result?</p>",
+			"A__c": "System. QueryException: To many DML Statement errors on Contact",
+			"B__c": "System. LimitException: To many SOQL Queries on Account.",
+			"C__c": "System. QueryException: List has more than one row after Assignment on Account.",
+			"D__c": "System. LimitException: Too many SOQL Queries on Contract",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/given-the-following-code-exhibit-assuming-there-were-10-contacts-and-five-accounts-created-today",
+			"Comment__c": "<a href=\"https://www.exam4training.com/assuming-there-were-10-contacts-and-five-accounts-created-today-what-is-the-expected-result/\" target=\"_blank\">https://www.exam4training.com/assuming-there-were-10-contacts-and-five-accounts-created-today-what-is-the</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2uAAH"
+			},
+			"Question__c": "When calling a RESTful web service, a developer receives a JSON payload that has a data hierarchy that is nested three levels deep. How can the developer describe the external data?",
+			"A__c": "Use middleware to flatten the JSON and consume it as a new custom object.",
+			"B__c": "Declare a class with three levels and deserialize the JSON typed with this class.",
+			"C__c": "Deserialize the data untyped and then process it.",
+			"D__c": "Use the ANT migration tool, the custom metadata API, or the Dataloader.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/when-calling-a-restful-web-service-a-developer-receives-a-json-payload-that-has-a-data-hierarchy-that",
+			"Comment__c": "<p>クラスで3階層はつくれないのでBは間違い</p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2vAAH"
+			},
+			"Question__c": "A developer wants to call an Apex Server-side Controller from a Lightning Aura Component. What are two limitations to the data being returned by the Controller? Choose 2 answers",
+			"A__c": "A Lists of Custom Apex Classes cannot be returned by Apex Controllers called by Lightning Aura Components.",
+			"B__c": "A custom Apex Class can be returned, but only the values of public instance properties and methods annotated with @AuraEnabled are serialized and returned.",
+			"C__c": "Only Basic data types and sObjects are supported as return types for Apex Controllers called by Lightning Aura Components.",
+			"D__c": "Basic data types are supported, but defaults, such as maximum size for a number, are defined by the objects that they map to.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-wants-to-call-an-apex-server-side-controller-from-a-lightning-aura-component-what-are-two",
+			"Comment__c": "<p>サーバサイドAPEXのサポートタイプ</p><p>ベーシックタイプ、sObject、APEXクラス、コレクション</p><p>https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_apex_returning_data.htm</p><p><br></p><p><a href=\"https://vceguide.com/what-are-two-limitations-to-the-data-being-returned-by-the-controller/\" target=\"_blank\">https://vceguide.com/what-are-two-limitations-to-the-data-being-returned-by-the-controller/</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2wAAH"
+			},
+			"Question__c": "A developer wants to retrieve and deploy metadata, perform simple CSV export of query results, and debug Apex REST calls by viewing JSON responses.Which tool should the developer use?",
+			"A__c": "Developer Console",
+			"B__c": "<a href=\"https://Force.com\" target=\"_blank\">Force.com</a> IDE",
+			"C__c": "<a href=\"https://Force.com\" target=\"_blank\">Force.com</a> Migration Tool",
+			"D__c": "Workbench",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-wants-to-retrieve-and-deploy-metadata-perform-simple-csv-export-of-query-results-and-debug",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2xAAH"
+			},
+			"Question__c": "When testing batch classes, what must a developer do? (Choose two.)",
+			"A__c": "Use seeAIIData=true",
+			"B__c": "Encapsulate code in Test.startTest() and Test.stopTest()",
+			"C__c": "Call the class* &quot;execute&quot; method",
+			"D__c": "Limit the amount of records you test to &lt; 200",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/when-testing-batch-classes-what-must-a-developer-do-choose-two",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2yAAH"
+			},
+			"Question__c": "A corporation has many different Salesforce orgs, with some different objects and some common objects, and wants to build an application that can create, retrieve, and update common object records in all of the different orgs.Which method of integration should the application use?",
+			"A__c": "SOAP API with the Enterprise WSDL",
+			"B__c": "Apex REST Web Service",
+			"C__c": "Metadata API",
+			"D__c": "SOAP API with the partner WSDL",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-corporation-has-many-different-salesforce-orgs-with-some-different-objects-and-some-common-objects",
+			"Comment__c": "SOAPとRESTならRESTのほうが簡単、軽い、選択するならREST<br><a href=\"https://www.gravitee.io/blog/soap-vs-rest-api\" target=\"_blank\">https://www.gravitee.io/blog/soap-vs-rest-api</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK2zAAH"
+			},
+			"Question__c": "Universal Containers has an existing automation where a custom record called Account Plan is created upon an Account being marked as a Customer. Recently, a Workflow Rule was added so that whenever an Account is marked as a Customer, a &#39;Customer Since&#39; date field is updated with today&#39;s date.Now, since the addition of the Workflow Rule, two Account Plan records are created whenever the Account is marked as a Customer.What might cause this to happen?",
+			"A__c": "The Process Builder responsible for the record creation fires before and after the Workflow rule.",
+			"B__c": "The Workflow Rule responsible for the record creation fires twice because the &#39;Customer Since&#39; field Update Is marked as &#39;Re-evaluate Workflow Rules After Field Change",
+			"C__c": "The Apex Trigger responsible for the record creation does not use a static variable to ensure It only fires once.",
+			"D__c": "The Apex Trigger responsible for the record creation is not bulk sate and calls insert inside of a for loop.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/universal-containers-has-an-existing-automation-where-a-custom-record-called-account-plan-is-created",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK30AAH"
+			},
+			"Question__c": "After a Platform Event is defined in a Salesforce org, events can be published via which two mechanisms? Choose 2 answers",
+			"A__c": "Internal Apps can use Process Builder.",
+			"B__c": "internal Apps can use Outbound Messages",
+			"C__c": "External Apps require a custom Apex web service.",
+			"D__c": "External Apps can use the standard Streaming API.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/after-a-platform-event-is-defined-in-a-salesforce-org-events-can-be-published-via-which-two-mechanisms",
+			"Comment__c": "<p>プラットフォームイベントはプロセスビルダーや Flow Builder を使用して宣言型で公開する事が可能</p><p><br></p><p>APEXを利用して公開することも可能、なのでAPEX RESTサービス経由で公開することが可能</p><p>https://developer.salesforce.com/docs/atlas.en-us.234.0.platform_events.meta/platform_events/platform_events_publish.htm</p><p><br></p><p><a href=\"https://trailhead.salesforce.com/ja/content/learn/modules/platform_events_basics/platform_events_architecture\" target=\"_blank\">https://trailhead.salesforce.com/ja/content/learn/modules/platform_events_basics/platform_events_architecture</a></p>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK31AAH"
+			},
+			"Question__c": "<p>A developer writes the following code:</p><p><br></p><p>public with sharing class OrderController {</p><p class=\"ql-indent-1\">public PageReference sendOrder{</p><p class=\"ql-indent-2\">Order_c order = new Order_c();</p><p class=\"ql-indent-2\">insert order;</p><p class=\"ql-indent-2\">ExternalOrder externalOrder = new ExternalOrder (order);</p><p class=\"ql-indent-2\">Http h = new Http();</p><p class=\"ql-indent-2\">HttpRequest reg = new HttpRequest();</p><p class=\"ql-indent-2\">reg.setEndpoint(&#39;<a href=\"https://www.example.org/v1/orders\" target=\"_blank\">https://www.example.org/v1/orders</a>&#39;);</p><p class=\"ql-indent-2\">req.setMethod (&#39;POST&#39;);</p><p class=\"ql-indent-2\">reg.setBody (JSON.serialize(externalOrder));</p><p class=\"ql-indent-2\">HttpResponse res = h.send(reg);</p><p class=\"ql-indent-2\">order = (ExternalOrder) JSON.deserialize(res.getBody 0, ExternalOrder.class);</p><p class=\"ql-indent-1\">}</p><p>}</p><p><br></p><p>While testing the code, the developer receives the following error message: System.CalloutException :</p><p>You have uncommitted work pending What should the developer do? (Choose two.)</p>",
+			"A__c": "Use Database.insert (order, true) to immediately commit any database changes",
+			"B__c": "Ensure all callouts are completed prior to executing DML statements",
+			"C__c": "Move the web service callout into an @future method",
+			"D__c": "Use the asyncSend() method of the HTTP class to send the request in async context",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B,C",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-writes-the-following-code-exhibit-while-testing-the-code-the-developer-receives-the-follow",
+			"Comment__c": "Database(xxx,true)はallOrNoneなので意味無し<br>asyncSend()は存在しない<br>消去法でB、C"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK32AAH"
+			},
+			"Question__c": "An Apex trigger creates a Contract record every time an Opportunity record is marked as Closed end Won. This trigger is working great, except (due to a recent acquisition) historical Opportunity records need to be loaded into the Salesforce instance.When a test batch of records are loaded, the Apex trigger creates Contract records. A developer is tasked with preventing Contract records from being created when mass loading the Opportunities, but the daily users still need to have the Contract records created.What is the most extendable way to update the Apex trigger to accomplish this?",
+			"A__c": "Add a Validation Rule to the Contract to prevent Contract creation by the user who loads the data.",
+			"B__c": "Use a List Custom Setting to disable the trigger for the user who loads the data.",
+			"C__c": "Add the Profile ID of the user who loads the data to the trigger so the trigger will not fire for this user.",
+			"D__c": "Use a Hierarchy Custom Setting to skip executing the logic inside the trigger for the user who loads the data.",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "D",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/an-apex-trigger-creates-a-contract-record-every-time-an-opportunity-record-is-marked-as-closed-end-won",
+			"Comment__c": "階層型カスタム設定\n<br>ユーザ毎、プロファイル毎に値を保持できる\n<br><a href=\"https://gawatari.com/custom-setting/\" target=\"_blank\">https://gawatari.com/custom-setting/</a>\n<br><br>カスタム設定に応じてトリガー実行を切り替える\n<br><a href=\"https://salesforce.stackexchange.com/questions/166252/activate-and\" target=\"_blank\"></a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK33AAH"
+			},
+			"Question__c": "What is a benefit of JavaScript remoting over Visualforce Remote Objects?",
+			"A__c": "Does not require any Apex code",
+			"B__c": "Supports complex server-side application logic",
+			"C__c": "Allows for specified re-render targets",
+			"D__c": "Does not require any JavaScript code",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/what-is-a-benefit-of-javascript-remoting-over-visualforce-remote-objects",
+			"Comment__c": null
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK34AAH"
+			},
+			"Question__c": "The head of recruiting at Universal Containers wants to provide all internal users the ability to search for open positions by role, department, and location via a new recruiting app, In addition to search, users of the app should be able to refer a fried, apply for a position, and review the status of their current submissions. The app should be made available in Salesforce Mobile, but offline access is not required.Given these requirements, what is the recommended approach to developer the app?",
+			"A__c": "Salesforce SDK",
+			"B__c": "Visualforce",
+			"C__c": "Lightning Web Components",
+			"D__c": "Lightning Experience Builder",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/the-head-of-recruiting-at-universal-containers-wants-to-provide-all-internal-users-the-ability-to-search",
+			"Comment__c": "モバイルSDKで開発、LWCがモバイルアプリでど動作するかは不明、、\n<br><a href=\"https://developer.salesforce.com/blogs/2020/09/build-mobile-sdk-apps-that-combine-lightning-web-components-with-native-functionality\" target=\"_blank\">https://developer.salesforce.com/blogs/2020/09/build-mob</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK35AAH"
+			},
+			"Question__c": "A developer is writing a Visualforce page to display a list of all of the checkbox fields found on a custom object.What is the recommended mechanism the developer should use to accomplish this?",
+			"A__c": "Schema Class",
+			"B__c": "Schema Builder",
+			"C__c": "Metadata API",
+			"D__c": "Apex API",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "A",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-developer-is-writing-a-visualforce-page-to-display-a-list-of-all-of-the-checkbox-fields-found-on-a",
+			"Comment__c": "schemaクラス例\n<br><a href=\"https://qiita.com/TaaaZyyy/items/8836cae86b90fa5b4380\" target=\"_blank\">https://qiita.com/TaaaZyyy/items/8836cae86b90fa5b4380</a>"
+		},
+		{
+			"attributes": {
+				"type": "Question__c",
+				"referenceId": "a015i00000OHK36AAH"
+			},
+			"Question__c": "A company has a Request__c object that has a lookup to the Opportunity object and a custom field. Status__c, with values of Open,&#39; Closed, and Invalid.&#39; An Opportunity should not be allowed to be deleted if there are any Request__c records related to it that have a Status__c value of Open or &#39;Closed.&#39; what is the optimal way to enforce the requirement to prevent deletion?",
+			"A__c": "A Process on Opportunity",
+			"B__c": "An Apex Trigger on Opportunity",
+			"C__c": "An Apex Trigger on Request__c",
+			"D__c": "A Process on Request__c",
+			"E__c": null,
+			"F__c": null,
+			"Answer__c": "B",
+			"URL__c": "https://www.freecram.net/question/Salesforce.PDII.v2022-03-29.q116/a-company-has-a-request__c-object-that-has-a-lookup-to-the-opportunity-object-and-a-custom-field-status",
+			"Comment__c": "プロセスビルダーは削除できない、もう非推奨だけどね\n<br><a href=\"https://dev.classmethod.jp/articles/salesforce_auto_tool/\" target=\"_blank\">https://dev.classmethod.jp/articles/salesforce_auto_tool/</a>"
+		}
+	]
+}

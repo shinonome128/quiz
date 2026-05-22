@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6db694cb-7c0d-4eaf-9963-53ff181bfbac",
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "configurationTags" : [ ],
+  "devName" : "list_00T__c",
+  "id" : "2ede4574-2b97-409e-8efa-297b1052abfe",
+  "label" : "ToDo リスト",
+  "routeType" : "list-00T",
+  "type" : "route",
+  "urlPrefix" : "task"
+}

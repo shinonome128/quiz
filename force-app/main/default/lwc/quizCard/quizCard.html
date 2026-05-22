@@ -1,0 +1,72 @@
+<template>
+	<c-confetti></c-confetti>
+	<lightning-card>
+		<template if:true={recordId}>
+			<span slot="title">{name}</span>
+			<lightning-button-icon
+				icon-name="utility:sparkles"
+				slot="actions"
+				onclick={handleConfettiClick}
+			></lightning-button-icon>
+			<lightning-button-icon
+				icon-name="utility:text"
+				slot="actions"
+				onclick={handleTranslationClick}
+			></lightning-button-icon>
+			<lightning-button-icon
+				icon-name="utility:expand_alt"
+				slot="actions"
+				onclick={handleNavigateToRecordClick}
+			></lightning-button-icon>
+			<div class="slds-var-m-horizontal_medium">
+				<lightning-record-view-form
+					record-id={recordId}
+					onload={handleRecordLoaded}
+					object-api-name="Question__c"
+					density="compact"
+				>
+					<template if:true={questionFieldShow}>
+						<lightning-output-field
+							field-name="Question__c"
+						></lightning-output-field>
+					</template>
+					<template if:true={aFieldShow}>
+						<lightning-output-field
+							field-name="A__c"
+						></lightning-output-field>
+					</template>
+					<template if:true={bFieldShow}>
+						<lightning-output-field
+							field-name="B__c"
+						></lightning-output-field>
+					</template>
+					<template if:true={cFieldShow}>
+						<lightning-output-field
+							field-name="C__c"
+						></lightning-output-field>
+					</template>
+					<template if:true={dFieldShow}>
+						<lightning-output-field
+							field-name="D__c"
+						></lightning-output-field>
+					</template>
+					<template if:true={eFieldShow}>
+						<lightning-output-field
+							field-name="E__c"
+						></lightning-output-field>
+					</template>
+					<template if:true={fFieldShow}>
+						<lightning-output-field
+							field-name="F__c"
+						></lightning-output-field>
+					</template>
+				</lightning-record-view-form>
+			</div>
+		</template>
+		<template if:false={recordId}>
+			<c-quiz-placeholder
+				message="Select a question to see details"
+			></c-quiz-placeholder>
+		</template>
+	</lightning-card>
+</template>

@@ -1,0 +1,39 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "304cee48-c6a7-497c-8905-42faca145b32",
+  "label" : "QuestionResult Related List",
+  "regions" : [ {
+    "id" : "84861b2a-0617-4a7f-8d5a-dd00f30b4dc6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "26e36f05-d4e8-47c5-bd0d-8058688f45bd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2f126c22-d324-42d7-a6be-8c6d4b86f846",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c1f671d0-dc1f-430e-8c51-a53f6e869a1e",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a01"
+}

@@ -1,0 +1,71 @@
+<template>
+	<c-confetti></c-confetti>
+	<c-session-check onnotify={handleNotify}></c-session-check>
+	<div class="slds-card slds-var-p-around_x-small">
+		<div class="slds-var-m-around_medium">
+			<template if:true={recordId}>
+				<div class="content">
+					<template if:true={aFieldShow}>
+						<lightning-input
+							label="A"
+							type="checkbox"
+							onchange={handleCheckboxChange}
+						></lightning-input>
+					</template>
+					<template if:true={bFieldShow}>
+						<lightning-input
+							label="B"
+							type="checkbox"
+							onchange={handleCheckboxChange}
+						></lightning-input>
+					</template>
+					<template if:true={cFieldShow}>
+						<lightning-input
+							label="C"
+							type="checkbox"
+							onchange={handleCheckboxChange}
+						></lightning-input>
+					</template>
+					<template if:true={dFieldShow}>
+						<lightning-input
+							label="D"
+							type="checkbox"
+							onchange={handleCheckboxChange}
+						></lightning-input>
+					</template>
+					<template if:true={eFieldShow}>
+						<lightning-input
+							label="E"
+							type="checkbox"
+							onchange={handleCheckboxChange}
+						></lightning-input>
+					</template>
+					<template if:true={fFieldShow}>
+						<lightning-input
+							label="F"
+							type="checkbox"
+							onchange={handleCheckboxChange}
+						></lightning-input>
+					</template>
+				</div>
+				<p class="slds-var-m-top_medium">Answer: {selection}</p>
+				<p class="slds-var-m-vertical_small">
+					<lightning-button
+						label="Get Answer"
+						onclick={getAnswer}
+					></lightning-button>
+					<span
+						class="slds-var-m-left_medium slds-text-heading_small"
+					>
+						Time remaining: {formattedTime}
+					</span>
+				</p>
+			</template>
+			<template if:false={recordId}>
+				<c-quiz-placeholder
+					message="Select a question to see details"
+				></c-quiz-placeholder>
+			</template>
+		</div>
+	</div>
+</template>

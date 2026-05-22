@@ -1,0 +1,39 @@
+{
+  "appPageId" : "05395437-f4e4-4347-80fd-c5dababde88a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "add9000c-5bde-4252-98c3-2430c2599187",
+  "label" : "ToDo 関連リスト",
+  "regions" : [ {
+    "id" : "f320dba9-7538-4417-8f5b-dc03e2e55772",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "9809b078-1b22-470c-b287-d28f3026888f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9c1c4bec-38c6-4394-b8c8-04d38e016b62",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c841668f-d40c-4205-acc3-11283326cc27",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-00T"
+}

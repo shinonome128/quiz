@@ -1,0 +1,88 @@
+<template>
+	<c-session-check onnotify={handleNotify}></c-session-check>
+	<article class="slds-card slds-p-around_small">
+		<template if:true={activities}>
+			<ul class="slds-timeline">
+				<template for:each={activities} for:item="activity">
+					<li key={activity.id}>
+						<div class={activity.timeline}>
+							<div class="slds-media">
+								<div class="slds-media__figure">
+									<button
+										class="slds-button slds-button_icon switch"
+										onclick={handleClickSwitch}
+										data-index={activity.id}
+									>
+										<svg
+											class="slds-button__icon slds-timeline__details-action-icon"
+											aria-hidden="true"
+										>
+											<use xlink:href={svgSwitch}></use>
+										</svg>
+									</button>
+									<div class={activity.icon}>
+										<svg
+											class="slds-icon slds-icon_small"
+											aria-hidden="true"
+										>
+											<use
+												xlink:href={activity.svg}
+											></use>
+										</svg>
+									</div>
+								</div>
+								<div class="slds-media__body">
+									<div
+										class="slds-grid slds-grid_align-spread slds-timeline__trigger"
+									>
+										<div
+											class="slds-grid slds-grid_vertical-align-center slds-truncate_container_75 slds-no-space"
+										>
+											<span
+												class="slds-text-link"
+												onclick={handleClickName}
+												data-index={activity.id}
+											>
+												{activity.name}
+											</span>
+										</div>
+										<div
+											class="slds-timeline__actions slds-timeline__actions_inline"
+										>
+											<lightning-formatted-date-time
+												value={activity.date}
+												year="numeric"
+												month="numeric"
+												day="numeric"
+												hour="2-digit"
+												minute="2-digit"
+												second="2-digit"
+											></lightning-formatted-date-time>
+										</div>
+									</div>
+									<article
+										class="slds-box slds-timeline__item_details slds-theme_shade slds-m-top_x-small slds-m-horizontal_xx-small slds-p-around_medium"
+									>
+										<div>
+											<span class="slds-text-title"
+												>Detail</span
+											>
+											<p class="slds-p-top_x-small">
+												{activity.detail}
+											</p>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</li>
+				</template>
+			</ul>
+		</template>
+		<template if:false={activities}>
+			<c-quiz-placeholder
+				message="There are no activities."
+			></c-quiz-placeholder>
+		</template>
+	</article>
+</template>
