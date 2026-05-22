@@ -1,16 +1,14 @@
 # クイズアプリ
 
-https://github.com/user-attachments/assets/0215f9df-c716-44d8-a9e0-b3e5e8c6c982
+セールスフォースのスクラッチ組織やハンズオン組織で動くクイズアプリです。
 
-スクラッチ組織やトレールヘッドのハンズオン組織で動くクイズアプリです。
+統計情報に基づいて問題をフィルタしたり英訳したり、Gemini に回答を聞いたりできます。
 
-スーパーバッジは終わったぜ！という方、ついでにインストしてみて下さい。
+Quizlet やサイト上の問題だと使いにくい、仕様とデータを自分で調整したい方には、Apex と LWC で書かれているので自由に改造することができます。
 
-統計情報に基づいて問題をフィルタりたし、英訳したり、 に回答を聞いたりできます。
+サンプル問題が入ったデモサイトです、実際に触ってみて下さい。
 
-Sales Cloud コンサル の問題が入ったデモサイトです、実際に触ってみて下さい。
-
-https://curious-unicorn-4knofv-dev-ed.trailblaze.my.site.com/s/
+https://playful-otter-hhv0qt-dev-ed.trailblaze.my.site.com/s/
 
 ## 目次
 
